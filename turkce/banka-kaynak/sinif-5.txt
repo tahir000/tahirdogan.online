@@ -1,0 +1,413 @@
+# 5. sınıf hazır soru bankası. Biçim: araclar/banka_js.py dosyasının başında anlatılır.
+
+BAĞLAM Sokağın Oyunları
+TÜR Bilgilendirici metin ve tablo
+TEMA Oyun Dünyası
+METİN
+Bir top, birkaç taş ya da yalnızca bir tebeşir... Sokak oyunları için çoğu zaman bundan fazlası gerekmez. Bu oyunların kuralları yazılı değildir; büyükler küçüklere anlatır, her mahalle kurallara kendi ayrıntısını ekler.
+Sokak oyunları bedeni de aklı da çalıştırır. Seksek oynayan çocuk tek ayağı üzerinde dengesini korumayı öğrenir. Beş taşta eller hızlanır, gözle el birlikte çalışır. Yakan topta ise çeviklik öne çıkar: Oyuncu, üzerine gelen toptan kurtulmak için bir anda yön değiştirir, eğilir, zıplar.
+Bu oyunların bir yararı da arkadaşlıkla ilgilidir. Oyun kurmak için önce anlaşmak gerekir: Kim ebe olacak, çizgi nereden geçecek, sayılar nasıl tutulacak? Anlaşmazlık çıktığında oyunu bozmak yerine çözüm bulan çocuklar, birlikte yaşamanın ilk derslerini de sokakta alır.
+TABLO Dört sokak oyunu
+Oyun | Oyuncu sayısı | Gereken araç | Oynandığı yer
+Seksek | 2 ve üzeri | Tebeşir, küçük bir taş | Düz zemin
+Beş taş | 2 ile 4 arası | Beş küçük taş | Her yerde, oturarak
+Yakan top | 6 ve üzeri | Bir top | Geniş açık alan
+Körebe | 4 ve üzeri | Bir göz bağı | Engelsiz alan
+
+SORU Ç T.O.5.6. kolay
+Metne göre sokak oyunlarının kuralları yeni oynayanlara nasıl ulaşır?
+A) Okuldaki derslerde öğretmenlerce öğretilerek
+B) Sözlü olarak, büyükten küçüğe aktarılarak
+C) Oyun kitaplarındaki kurallar okunarak
+D) Mahalle panolarına asılan yazılarla
+CEVAP B
+NEDEN İlk paragrafta kuralların yazılı olmadığı, büyüklerin küçüklere anlattığı söylenir. A, C ve D kuralların yazılı ya da kurumsal bir yoldan öğrenildiğini varsayar; metin bunun tersini söyler.
+
+SORU Ç T.O.5.7. orta
+Bir öğretmen, yağmurlu bir günde öğrencilerini dörder kişilik gruplara ayırıyor. Öğrenciler sınıfta, sıralarında oturarak oynayacaktır.
+Tabloya göre öğretmen aşağıdaki oyunlardan hangisini önermelidir?
+A) Seksek
+B) Yakan top
+C) Körebe
+D) Beş taş
+CEVAP D
+NEDEN Tabloda yalnız beş taş oturarak ve her yerde oynanır, oyuncu sayısı da dörde uyar. Körebe dört kişiyle oynanır ama engelsiz alan ister; seksek düz zemin, yakan top geniş açık alan gerektirir.
+
+SORU Ç T.O.5.5. orta
+İkinci paragraftaki "çeviklik" sözcüğünün anlamı, iki noktadan sonraki açıklamaya göre aşağıdakilerden hangisidir?
+A) Hızlı ve kolay hareket edebilme
+B) Uzun süre yorulmadan koşabilme
+C) Ağır şeyleri kaldırabilecek güç
+D) Kuralları eksiksiz uygulayabilme
+CEVAP A
+NEDEN Açıklamada oyuncunun bir anda yön değiştirdiği, eğildiği, zıpladığı anlatılır; bu, hızlı ve kolay hareket etmektir. B dayanıklılıkla, C kuvvetle karıştıran öğrencinin seçeceği çeldiricidir.
+
+SORU A T.O.5.15. orta
+Metnin içeriğini en iyi yansıtan üç anahtar kelime yazınız. Bunlardan birini seçip metinle ilişkisini bir cümleyle açıklayınız.
+CEVAP Örnek: sokak oyunları, kural, arkadaşlık (denge, çeviklik, anlaşma da kabul edilir). Açıklama örneği: Metin, sokak oyunlarının çocuğa neler kazandırdığını anlattığı için "sokak oyunları" sözü metnin tamamını kapsar.
+PUAN Üç uygun kelime ve ilişkiyi gösteren açıklama tam puan alır. Yalnız kelimeler yazılmışsa ya da kelimelerden biri metnin ayrıntısıysa (tebeşir, top gibi) kısmi puan verilir.
+
+SORU A T.O.5.11. zor
+Tablodaki dört oyunu kendi belirleyeceğiniz bir ölçüte göre iki gruba ayırınız. Ölçütünüzü yazınız ve gruplara birer ad veriniz.
+CEVAP Örnek: Ölçüt, oyunun hareket gerektirip gerektirmemesi. Hareketli oyunlar: seksek, yakan top, körebe. Oturarak oynanan oyun: beş taş. Başka ölçütler de kabul edilir: en az oyuncu sayısı (iki kişiyle oynananlar: seksek, beş taş; kalabalık oynananlar: yakan top, körebe).
+PUAN Ölçüt, tabloyla tutarlı gruplama ve grup adları varsa tam puan. Ölçüt yazılmamış ama gruplama tutarlıysa kısmi puan. Tabloyla çelişen gruplama puan almaz.
+
+BAĞLAM Kayıp Uçurtma
+TÜR Öyküleyici metin
+TEMA Duygularımı Tanıyorum
+METİN
+Nisanın son pazarıydı. Defne, babasıyla günlerce uğraşıp yaptığı kırmızı uçurtmayı ilk kez uçurmak için tepedeki boş araziye çıkmıştı. Kardeşi Tuna da peşinden gelmişti.
+"Bir kere de ben tutayım." dedi Tuna.
+Defne ipi sıkıca kavradı. "Olmaz, düşürürsün." dedi. Uçurtma yükseldikçe Tuna sessizleşti, bir taşın üzerine oturup ayakkabısının ucuyla toprağı eşeledi.
+Sonra sert bir esinti çıktı. İp Defne'nin elinden kaydı, uçurtma arazinin kenarındaki yaşlı çınarın dallarına takıldı. Defne'nin boğazı düğümlendi. Ne kadar zıpladıysa ipe yetişemedi.
+Tuna yerinden kalktı. Hiçbir şey söylemeden ağacın alt dalına tutundu, sincap gibi tırmandı ve ipi dalların arasından kurtardı. Aşağı indiğinde uçurtmayı ablasına uzattı.
+Defne uçurtmaya değil, kardeşinin çizilmiş dizlerine baktı. Yanakları ısındı. İpin ucunu Tuna'nın avucuna bıraktı.
+"Bu sefer sen uçur." dedi. "Ben arkandan koşarım."
+
+SORU Ç T.O.5.13. kolay
+Öykünün yeri ve zamanı aşağıdakilerin hangisinde doğru verilmiştir?
+A) Okul bahçesi, bir pazar sabahı
+B) Çınarlı park, yaz tatilinin ilk günü
+C) Tepedeki boş arazi, nisanda bir pazar günü
+D) Evin önündeki sokak, nisanın ilk haftası
+CEVAP C
+NEDEN İlk paragrafta zaman (nisanın son pazarı) ve yer (tepedeki boş arazi) açıkça verilir. B çınar ayrıntısından, D ay adından yola çıkan ama öteki bilgiyi kaçıran öğrenciyi yakalar.
+
+SORU Ç T.O.5.8. orta
+Tuna'nın bir taşın üzerine oturup ayakkabısının ucuyla toprağı eşelemesi, onun o andaki hangi duygusunu gösterir?
+A) Kırgınlığını
+B) Korkusunu
+C) Merakını
+D) Sevincini
+CEVAP A
+NEDEN Tuna, uçurtmayı tutma isteği geri çevrilince sessizleşir ve bir kenara çekilir; bu davranış kırgınlığı gösterir. Metinde korkuya ya da meraka işaret eden bir ayrıntı yoktur.
+
+SORU Ç T.O.5.16. orta
+Aşağıdaki olaylardan hangisi öykünün çözüm bölümünde yer alır?
+A) Defne'nin uçurtmayı uçurmak için tepeye çıkması
+B) Tuna'nın uçurtmayı tutmak istemesi
+C) Uçurtmanın çınarın dallarına takılması
+D) Defne'nin ipi kardeşinin eline vermesi
+CEVAP D
+NEDEN A serim bölümündedir; B ve C merakı artıran düğüm bölümüne aittir. Sorunun bittiği ve kardeşlerin arasının düzeldiği yer, Defne'nin ipi Tuna'ya verdiği sondur.
+
+SORU A T.O.5.9. zor
+Defne'nin kardeşine karşı tutumu öykünün başında ve sonunda nasıldır? Bu değişime neyin yol açtığını öyküden bir kanıt göstererek açıklayınız.
+CEVAP Başta uçurtmayı paylaşmak istemez, kardeşine güvenmez ("Olmaz, düşürürsün."). Sonda ipi kendi isteğiyle kardeşine verir. Değişime, Tuna'nın küsmesine rağmen ağaca tırmanıp uçurtmayı kurtarması yol açar; Defne kardeşinin çizilmiş dizlerini görünce utanır (yanakları ısınır).
+PUAN İki tutumu ve nedeni metinden kanıtla veren cevap tam puan alır. Yalnız tutumları yazıp nedeni açıklamayan ya da kanıt göstermeyen cevap kısmi puan alır. Metinden kanıtla desteklenen başka açıklamalar da kabul edilir.
+
+SORU A T.Y.5.5. orta
+Uçurtmanın çınara takıldığı anı uçurtmanın ağzından anlatan dört beş cümlelik bir yazı yazınız. Yazınızda uçurtmanın ne gördüğüne ve ne hissettiğine yer veriniz.
+CEVAP Örnek: Esinti beni bir anda Defne'nin elinden kopardı. Dallar kuyruğuma dolandı, kıpırdayamadım. Aşağıda iki çocuk küçücük görünüyordu. Küçük olan bana doğru tırmanmaya başlayınca içim rahatladı. Onun elleri ipime değdiğinde yeniden uçacağımı anladım.
+PUAN Anlatıcı uçurtma ise, olaylar öyküyle tutarlıysa, görülenlere ve hissedilenlere yer verilmişse tam puan. Anlatıcı karışıyorsa ya da yalnız olay tekrar edilmişse kısmi puan.
+
+BAĞLAM Sabah
+TÜR Şiir
+ŞİİR Sabah
+Güneş dağdan el sallar,
+Sokak gözünü açar.
+Pamuk gibi bulutlar
+Maviye yelken açar.
+
+Fırından sıcak koku
+Kapı kapı dolaşır.
+Geceden kalan uyku
+Pencereden sıvışır.
+
+SORU Ç T.O.5.17. kolay
+Şiirin biçim özellikleriyle ilgili aşağıdakilerden hangisi doğrudur?
+A) İki kıtadan oluşur, her kıtada dört dize vardır.
+B) Dört kıtadan oluşur, her kıtada iki dize vardır.
+C) Tek kıtadan ve sekiz dizeden oluşur.
+D) İki kıtadan oluşur, her kıtada üç dize vardır.
+CEVAP A
+NEDEN Şiirde aralarında boşluk bulunan iki bölüm (kıta) ve her birinde dört dize vardır. B kıta ile dizeyi karıştıran, C kıta arasındaki boşluğu görmeyen öğrenciyi yakalar.
+
+SORU Ç T.O.5.19. orta
+Aşağıdaki dizelerin hangisinde bir varlık, bir özelliği bakımından başka bir varlığa benzetilmiştir?
+A) Güneş dağdan el sallar
+B) Sokak gözünü açar
+C) Pamuk gibi bulutlar
+D) Kapı kapı dolaşır
+CEVAP C
+NEDEN Bulutlar görünüşleri bakımından pamuğa benzetilmiş, benzetme "gibi" sözüyle kurulmuştur. A ve B'de insana ait özellikler güneşe ve sokağa verilmiştir (kişileştirme); bu ikisini benzetmeyle karıştıran öğrenci bu seçeneklere yönelir.
+
+SORU Ç T.O.5.20. orta
+Son dizedeki "sıvışır" sözcüğü yerine aşağıdakilerden hangisi getirilirse dizenin anlamı en az değişir?
+A) Bakar
+B) Kaçar
+C) Girer
+D) Düşer
+CEVAP B
+NEDEN "Sıvışmak" kimseye sezdirmeden uzaklaşmak, kaçmak demektir; en yakın anlamlı sözcük "kaçar"dır. C yön bakımından ters anlam verir, D ise isteyerek gitme anlamını yok eder.
+
+SORU A T.O.5.12. orta
+İkinci kıtada anlatılan sabahı, o sırada pencereden sokağa bakan bir çocuğun ağzından iki üç cümleyle ve kendi sözcüklerinizle anlatınız.
+CEVAP Örnek: Pencereyi açınca burnuma taze ekmek kokusu geldi. Koku bütün sokağa yayılmıştı. Az önce gözlerimden akan uyku bir anda kayboldu.
+PUAN Kıtadaki iki durumu (kokunun yayılması, uykunun dağılması) çocuğun ağzından ve kendi sözcükleriyle veren cevap tam puan alır. Dizeleri aynen yazan ya da yalnız bir durumu veren cevap kısmi puan alır.
+
+SORU A T.Y.5.14. orta
+"Yağmur yağıyor." cümlesi açık bir ifadedir. Bu cümleyi, şiirdeki gibi bir söz sanatı kullanarak yeniden yazınız ve hangi söz sanatını kullandığınızı belirtiniz.
+CEVAP Örnek: "Bulutlar sokağı yıkamaya geldi." (kişileştirme) ya da "Yağmur ip gibi iniyor gökten." (benzetme).
+PUAN Anlamı koruyan, söz sanatı içeren cümle ve doğru adlandırma tam puan alır. Söz sanatı var ama adı yanlışsa ya da yazılmamışsa kısmi puan verilir.
+
+BAĞLAM İki Bayram Sabahı
+TÜR İki kısa metin (anı ve günlük)
+TEMA Geleneklerimiz
+METİN 1. metin: Ninem anlatıyor
+Bizim çocukluğumuzda bayram, arife gününden başlardı. Annem bakır tepsileri kalaylatır, biz kız kardeşler hamur açardık. Bayram sabahı gün ağarmadan kalkar, en yeni giysilerimizi giyerdik. Önce evdeki büyüklerin elini öper, sonra sokağa dökülürdük. Mahallede çalmadığımız kapı kalmazdı. Her evden mendile sarılı bir şeker ya da bir avuç leblebi alırdık. Akşam olduğunda mendillerimizi açıp kimin ne topladığına bakardık.
+METİN 2. metin: Asya'nın günlüğünden
+Bu bayram sabahı ninemlerdeydik. Erkenden kalkıp bayramlıklarımı giydim, büyüklerimin elini öptüm. Kuzenlerim başka şehirlerde olduğu için onlarla görüntülü konuştuk; ekranda sırayla herkese el salladım. Öğleden sonra ninem beni komşulara götürdü. Üç kapı çaldık, her birinde çikolata ikram ettiler. Akşam ninem eski bayramları anlattı. Mendile sarılı şekeri hiç görmemiştim. Ninem bana işlemeli bir mendil verdi; içine bugünkü çikolatalardan birini sardım.
+
+SORU Ç T.O.5.10. orta
+İki metinde anlatılan bayram sabahlarının ortak yönü aşağıdakilerden hangisidir?
+A) Mahalledeki bütün kapıların çalınması
+B) İkramların mendile sarılarak verilmesi
+C) Uzaktaki akrabalarla ekrandan görüşülmesi
+D) Yeni giysiler giyilip büyüklerin elinin öpülmesi
+CEVAP D
+NEDEN İki metinde de çocuklar erken kalkar, yeni giysilerini giyer ve büyüklerin elini öper. A ve B yalnız birinci metinde, C yalnız ikinci metinde vardır.
+
+SORU Ç T.O.5.9. zor
+İki metin birlikte düşünüldüğünde aşağıdaki yargılardan hangisine ulaşılabilir?
+A) Bayramlarda büyükleri ziyaret etme geleneği sona ermiştir.
+B) Bayram gelenekleri sürmekte, bazı uygulamalar ise değişmektedir.
+C) Eskiden bayram hazırlıkları bugünkünden daha kısa sürmektedir.
+D) Çocuklar bayram ikramlarını eskisi kadar önemsememektedir.
+CEVAP B
+NEDEN El öpme ve ziyaret iki metinde de sürer; ziyaret edilen ev sayısı, ikramın türü ve akrabalarla görüşme biçimi değişmiştir. A ikinci metindeki ziyaretlerle çelişir; C ve D için metinlerde dayanak yoktur.
+
+SORU Ç T.Y.5.15. orta
+Asya günlüğüne şu cümleyi eklemek istiyor:
+"Ninemin çocukluğunda çocuklar bütün mahalleyi dolaşırmış, ---- biz bu bayram yalnızca üç eve gittik."
+Bu cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?
+A) çünkü
+B) örneğin
+C) oysa
+D) kısacası
+CEVAP C
+NEDEN İki durum birbirine karşıttır; karşıtlığı "oysa" bildirir. "Çünkü" neden, "örneğin" örnek, "kısacası" özet bildirir ve cümlenin anlamına uymaz.
+
+SORU A T.Y.5.7. orta
+İki metindeki bayram sabahlarını karşılaştıran üç dört cümlelik bir yazı yazınız. Yazınızda en az bir benzerliğe ve iki farklılığa yer veriniz.
+CEVAP Örnek: İki bayram sabahında da çocuklar erkenden kalkıp yeni giysilerini giyiyor ve büyüklerin elini öpüyor. Eskiden çocuklar mahalledeki bütün kapıları çalarken Asya yalnızca üç komşuya gidiyor. Eskiden ikram mendile sarılı şeker ve leblebiyken bugün çikolata ikram ediliyor. Ayrıca Asya uzaktaki kuzenleriyle ekrandan bayramlaşıyor.
+PUAN Bir benzerlik ve iki farklılık metinlere uygun verilmişse tam puan. Yalnız benzerlik ya da yalnız farklılık yazılmışsa kısmi puan. Metinlerde olmayan bilgi puan almaz.
+
+SORU A T.O.5.21. orta
+Birinci metni, önemli bilgileri koruyarak ve kendi cümlelerinizle iki cümlede özetleyiniz.
+CEVAP Örnek: Eskiden bayram hazırlığı arife günü başlar, çocuklar bayram sabahı erkenden kalkıp büyüklerin elini öperdi. Sonra mahalledeki bütün evleri dolaşır, mendile sarılı ikramlar toplardı.
+PUAN Hazırlık, el öpme ve ev ev dolaşma bilgilerini kendi cümleleriyle veren özet tam puan alır. Metinden cümle kopyalayan ya da ayrıntıya (bakır tepsi, leblebi) takılıp ana akışı vermeyen cevap kısmi puan alır.
+
+BAĞLAM Kantinde Yeni Dönem
+TÜR Bilgilendirici metin ve çizelge
+TEMA Sağlıklı Yaşıyorum
+METİN
+Okul Sağlığı Kulübü geçen ay 5. sınıflar arasında küçük bir araştırma yaptı. Sonuç düşündürücüydü: Her on öğrenciden altısı teneffüste yalnızca paketli atıştırmalık yiyordu. Bu yiyecekler karın doyuruyor ama içindeki fazla tuz ve şeker yüzünden öğrenciler son derslerde çabuk yoruluyordu.
+Kulüp, sorunu çözmek için kantinle birlikte bir ara öğün çizelgesi hazırladı. Çizelgede her gün bir meyve ya da sebze, bir de süt ürünü var. Örneğin pazartesi günü elma ile ayran, perşembe günü havuç dilimleri ile yoğurt sunulacak. Ara öğün paketi, tek bir paketli atıştırmalıktan pahalı olmayacak.
+Uygulama iki hafta denenecek. Sonunda öğrencilerin görüşü alınacak ve çizelge buna göre yenilenecek.
+TABLO Haftalık ara öğün çizelgesi
+Gün | Meyve ya da sebze | Süt ürünü | Yanında
+Pazartesi | Elma | Ayran | Tam buğday kraker
+Salı | Mandalina | Süt | Ceviz
+Çarşamba | Salatalık | Peynir | Tam buğday ekmeği
+Perşembe | Havuç dilimleri | Yoğurt | Kuru üzüm
+Cuma | Muz | Kefir | Fındık
+
+SORU Ç T.O.5.14. orta
+Metin bir sorunu ve bu soruna bulunan çözümü anlatmaktadır. Metinde anlatılan sorun aşağıdakilerden hangisidir?
+A) Kantindeki yiyeceklerin öğrencilere pahalı gelmesi
+B) Teneffüslerin ara öğün için yeterince uzun olmaması
+C) Öğrencilerin çoğunun teneffüste yalnız paketli yiyecek yemesi
+D) Kulübün yaptığı araştırmaya az sayıda öğrencinin katılması
+CEVAP C
+NEDEN İlk paragraf sorunu (on öğrenciden altısının yalnız paketli atıştırmalık yemesi), ikinci paragraf çözümü (ara öğün çizelgesi) verir. A fiyat bilgisini sorunla karıştıran öğrenciyi yakalar; B ve D metinde yoktur.
+
+SORU Ç T.O.5.7. orta
+Cevize ve fındığa alerjisi olan bir öğrenci, yanında bu yiyeceklerin verildiği günlerde ara öğün paketi almayacaktır.
+Çizelgeye göre bu öğrenci hangi günlerde paket alabilir?
+A) Pazartesi, salı, çarşamba
+B) Salı, perşembe, cuma
+C) Çarşamba, perşembe, cuma
+D) Pazartesi, çarşamba, perşembe
+CEVAP D
+NEDEN Ceviz salı, fındık cuma günü verilir; öğrenci kalan üç gün paket alabilir. Öteki seçeneklerin her birinde salı ya da cuma vardır.
+
+SORU Ç T.O.5.18. kolay
+İkinci paragrafta, çizelgede her gün nelerin bulunduğu söylendikten sonra pazartesi ve perşembe günlerinin yiyecekleri sayılmıştır.
+Yazar bu cümlede düşüncesini geliştirmek için aşağıdakilerden hangisine başvurmuştur?
+A) Örnekleme
+B) Karşılaştırma
+C) Tanımlama
+D) Benzetme
+CEVAP A
+NEDEN Yazar, çizelgenin içeriğini iki günün yiyeceklerini örnek göstererek somutlaştırmıştır. İki gün arasında benzerlik ya da farklılık aranmadığı için karşılaştırma değildir.
+
+SORU A T.Y.5.8. orta
+Çizelgenin "Meyve ya da sebze" sütunundaki beş yiyeceği bir ölçüte göre iki gruba ayıran iki cümle yazınız. Cümlelerinizde ölçütünüz ve grupların adı bulunsun.
+CEVAP Örnek: Çizelgedeki yiyecekleri meyveler ve sebzeler olarak iki gruba ayırabiliriz. Elma, mandalina ve muz meyveler; salatalık ve havuç sebzeler grubundadır. Başka tutarlı ölçütler de kabul edilir (kabuğu soyularak yenenler ve soyulmadan yenenler gibi).
+PUAN Ölçüt, grup adları ve beş yiyeceğin doğru yerleştirilmesi tam puan alır. Bir yiyecek yanlış gruptaysa ya da ölçüt yazılmamışsa kısmi puan verilir.
+
+SORU A T.Y.5.11. zor
+Bir arkadaşınız "Kantinde yalnız paketli atıştırmalık satılsın, çünkü herkes onları seviyor." diyor.
+Bu görüşe, metindeki bilgilerden yararlanarak iki gerekçeyle karşı çıkan üç dört cümlelik bir yazı yazınız.
+CEVAP Örnek: Bir yiyeceğin sevilmesi, onun her gün yenmesi için yeterli bir neden değildir. Kulübün araştırmasına göre paketli atıştırmalıklardaki fazla tuz ve şeker yüzünden öğrenciler son derslerde çabuk yoruluyor. Ayrıca ara öğün paketi bu atıştırmalıklardan pahalı değil; yani daha sağlıklı seçenek aynı fiyata alınabiliyor.
+PUAN Görüşe açıkça karşı çıkan ve metinden iki gerekçe (yorgunluk, fiyat, çizelgenin çeşitliliği gibi) kullanan yazı tam puan alır. Tek gerekçe ya da metne dayanmayan gerekçe kısmi puan alır.
+
+BAĞLAM Sınıf Gazetesi İçin Kaynak
+TÜR E-posta ve kaynak listesi
+TEMA Atatürk'ü Tanımak
+KUTU Kerem'in e-postası (taslak)
+Konu: Kaynak isteği
+Sınıf gazetemizin 23 Nisan sayısı için "Atatürk ve Çocuklar" başlıklı bir yazı hazırlıyorum. Yazım en çok bir sayfa olacak ve 5. sınıflar okuyacak. Atatürk'ün çocuklara verdiği önemi anlatan, içinde fotoğraf da bulunan bir kaynağa ihtiyacım var. Yazıyı cuma gününe kadar teslim etmem gerekiyor. Kütüphanede bu konuda hangi kaynaklar var?
+Kerem Aydın, 5/C
+TABLO Kütüphaneden gelen kaynak listesi
+Kaynak | Türü | Uzunluğu | İçeriği
+Nutuk | Kitap | Çok uzun | Kurtuluş Savaşı ve Cumhuriyet'in kuruluşu; yetişkinler için
+Çocuklar İçin Atatürk Albümü | Fotoğraflı kitap | 48 sayfa | Atatürk'ün çocuklarla fotoğrafları ve kısa açıklamalar
+Cumhuriyet Tarihi Ansiklopedisi | Ansiklopedi | 3 cilt | Yıllara göre olaylar, ayrıntılı tarih bilgisi
+Bayram Şiirleri | Şiir kitabı | 80 sayfa | 23 Nisan ve 29 Ekim için yazılmış şiirler
+
+SORU Ç T.O.5.1. orta
+Kerem'in amacına ve süresine en uygun kaynak aşağıdakilerden hangisidir?
+A) Nutuk
+B) Çocuklar İçin Atatürk Albümü
+C) Cumhuriyet Tarihi Ansiklopedisi
+D) Bayram Şiirleri
+CEVAP B
+NEDEN Kerem kısa sürede okunacak, fotoğraflı ve Atatürk ile çocukları konu alan bir kaynak arıyor; bu ölçütlerin üçünü yalnız albüm karşılar. A ve C konuyla ilgili görünse de çok uzundur ve yetişkinlere yöneliktir.
+
+SORU Ç T.O.5.3. orta
+Kerem, seçtiği kaynakta yalnız 23 Nisan'la ilgili bölümü bulmak istiyor. Bunun için önce aşağıdakilerden hangisini yapması en uygundur?
+A) İçindekiler sayfasına ve başlıklara göz gezdirmek
+B) Kitabı ilk sayfasından başlayarak sesli okumak
+C) Her sayfadaki bilinmeyen sözcükleri sözlükten aramak
+D) Kitabın tamamını not alarak iki kez okumak
+CEVAP A
+NEDEN Belirli bir bilgiyi aramak için önce göz gezdirerek ilgili bölüm bulunur. Öteki seçenekler başka amaçlar için yararlı olabilir ama süresi kısıtlı olan Kerem'in amacına uymaz.
+
+SORU Ç T.Y.5.16. orta
+Kerem yazısına eklemek için aşağıdaki cümleleri yazmıştır. Bu cümlelerin hangisinde yazım yanlışı vardır?
+A) Türkiye Büyük Millet Meclisi 23 Nisan 1920'de açıldı.
+B) Atatürk, bu günü çocuklara armağan etti.
+C) Her yıl 23 Nisan'da okulumuzda tören yapılır.
+D) Bayramda Ankara'dan gelen Kuzenim de törene katıldı.
+CEVAP D
+NEDEN "Kuzenim" özel ad olmadığı için cümle içinde küçük harfle başlamalıdır. A ve C'de belirli bir tarihi bildiren ay adı büyük harfle yazılmış, ek kesme işaretiyle ayrılmıştır; bunları yanlış sanan öğrenci bu seçeneklere yönelir.
+
+SORU A T.Y.5.1. orta
+Kerem'in e-postasında hitap ve kapanış ifadeleri eksiktir. E-postanın kütüphane görevlisi Selin Öğretmen'e gönderileceğini düşünerek bir hitap ve bir kapanış cümlesi yazınız.
+CEVAP Örnek hitap: "Merhaba Selin Öğretmenim," ya da "Sayın Selin Öğretmenim,". Örnek kapanış: "Yardımınız için şimdiden teşekkür ederim." ya da "Saygılarımla."
+PUAN Öğretmene uygun, saygılı bir hitap ve bir kapanış ifadesi tam puan alır. Yalnız biri yazılmışsa ya da arkadaşa yazılır gibi bir ifade ("Selam", "Görüşürüz") kullanılmışsa kısmi puan verilir.
+
+SORU A T.O.5.4. orta
+Listedeki "Çocuklar İçin Atatürk Albümü" adlı kitabı henüz açmadığınızı düşünün. Kitabın adından ve tablodaki bilgilerden yola çıkarak içinde neler bulabileceğinizi tahmin ediniz ve tahmininizi bir gerekçeyle destekleyiniz.
+CEVAP Örnek: Kitapta Atatürk'ün çocuklarla çekilmiş fotoğrafları, 23 Nisan törenlerinden görüntüler ve bunları anlatan kısa yazılar olabilir. Çünkü kitabın adında "albüm" sözü geçiyor, tabloda da fotoğraflı olduğu ve kısa açıklamalar içerdiği yazıyor.
+PUAN Ad ve tablodaki ipuçlarına dayanan tahmin ile gerekçe birlikte tam puan alır. Gerekçesiz tahmin ya da ipuçlarıyla ilgisi olmayan tahmin kısmi puan alır.
+
+BAĞLAM Yanlış Anlaşılan Mesaj
+TÜR Kısa anlatı ve mesajlaşma
+TEMA İletişim ve Sosyal İlişkiler
+METİN
+5/B sınıfından dört arkadaş, fen projesi için hafta sonu buluşmaya karar verdi. Grup sözcüsü Ece, cuma akşamı proje grubuna bir mesaj yazdı. Cumartesi günü Mert tek başına okulun kapısında bekledi, öteki üç arkadaş ise kütüphanedeydi.
+KUTU Proje grubunun mesajları
+Ece (cuma 19.05): Arkadaşlar yarın saat 10'da buluşuyoruz okulda değil kütüphanede herkes maket malzemesini getirsin
+İpek (cuma 19.12): Tamam, karton bende.
+Bora (cuma 19.20): Ben de yapıştırıcı getiririm.
+Mert (cumartesi 10.15): Okulun önündeyim, kimse yok. Neredesiniz?
+Ece (cumartesi 10.17): Kütüphanedeyiz! Mesajda yazmıştım.
+Mert (cumartesi 10.18): "Buluşuyoruz okulda" yazıyordu. Ben öyle okudum.
+Ece (cumartesi 10.21): Haklısın, mesajı aceleyle yazmışım. Kusura bakma. Hemen gel, seni bekliyoruz.
+
+SORU Ç T.O.5.8. kolay
+Mert'in yanlış yere gitmesinin nedeni aşağıdakilerden hangisidir?
+A) Buluşma saatini yanlış hatırlaması
+B) Mesajı cumartesi sabahı görmesi
+C) Kütüphanenin yerini bilmemesi
+D) Mesajı yanlış yerden bölerek okuması
+CEVAP D
+NEDEN Mert, noktalama işareti olmayan mesajı "buluşuyoruz okulda" diye bölerek okumuştur. Saati doğru bilmektedir (10.15'te oradadır); mesajı ne zaman gördüğü ve kütüphaneyi bilip bilmediği anlatılmaz.
+
+SORU Ç T.Y.5.16. orta
+Ece'nin ilk mesajı aşağıdakilerin hangisindeki gibi noktalansaydı buluşma yeri açıkça anlaşılırdı?
+A) Arkadaşlar yarın saat 10'da buluşuyoruz okulda, değil kütüphanede herkes maket malzemesini getirsin.
+B) Arkadaşlar, yarın saat 10'da buluşuyoruz okulda. Değil kütüphanede herkes, maket malzemesini getirsin.
+C) Arkadaşlar, yarın saat 10'da buluşuyoruz. Okulda değil, kütüphanede. Herkes maket malzemesini getirsin.
+D) Arkadaşlar yarın, saat 10'da buluşuyoruz okulda değil. Kütüphanede herkes maket malzemesini getirsin.
+CEVAP C
+NEDEN C'de nokta üç ayrı bilgiyi (saat, yer, malzeme) birbirinden ayırır, virgül de "okulda değil" ile "kütüphanede" sözlerini ayırarak yeri netleştirir. Öteki seçeneklerde işaretler yanlış yere konduğu için yer bilgisi yine karışır.
+
+SORU Ç T.Y.5.13. orta
+Ece son mesajına şu cümleyi eklemek istiyor: "Senin yerinde olsam ben de ----."
+Bu cümle aşağıdakilerden hangisiyle tamamlanırsa Ece, Mert'in kızmakta haklı olduğunu söylemiş olur?
+A) kulak asmazdım
+B) küplere binerdim
+C) göz atardım
+D) el uzatırdım
+CEVAP B
+NEDEN "Küplere binmek" çok öfkelenmek demektir. "Kulak asmamak" önemsememek, "göz atmak" kısaca bakmak, "el uzatmak" yardım etmek anlamına gelir; deyimlerin anlamını karıştıran öğrenci bunlara yönelir.
+
+SORU A T.Y.5.9. orta
+Cumartesi sabahı yaşananları Mert'in bakış açısından yorumlayan üç cümle yazınız. Yazınızda Mert'in neden öyle davrandığına ve ne düşündüğüne yer veriniz.
+CEVAP Örnek: Mesajda "buluşuyoruz okulda" yazdığını görünce yerin okul olduğundan hiç kuşku duymadım. Kapıda tek başıma beklerken önce arkadaşlarımın geç kaldığını, sonra beni unuttuklarını düşündüm. Ece özür dileyince kırgınlığım geçti; bir dahaki sefere emin olmadığım yeri sormaya karar verdim.
+PUAN Olayı Mert'in ağzından, nedeni ve düşüncesiyle veren üç cümle tam puan alır. Olayı yalnız dışarıdan anlatan ya da mesajlarla çelişen cevap kısmi puan alır.
+
+SORU A T.Y.5.3. orta
+Ece'nin yerinde olduğunuzu düşünün. Buluşmanın gününü, saatini, yerini ve getirilecek malzemeyi açıkça bildiren üç cümlelik bir duyuru mesajı yazınız.
+CEVAP Örnek: Arkadaşlar, proje için yarın (cumartesi) saat 10.00'da buluşuyoruz. Buluşma yerimiz okul değil, kütüphane. Herkes üzerine düşen maket malzemesini getirsin.
+PUAN Dört bilgiyi (gün, saat, yer, malzeme) eksiksiz ve yanlış anlaşılmayacak biçimde veren üç cümle tam puan alır. Bir bilgi eksikse ya da cümleler noktalanmamışsa kısmi puan verilir.
+
+BAĞLAM Okuma Günlüğüm
+TÜR Okuma günlüğü ve öz değerlendirme tablosu
+METİN
+Zeynep, bu ay okuduğu kitap için bir okuma günlüğü tuttu. Öğretmeni, günlüğün sonuna bir öz değerlendirme tablosu eklemesini istedi ve günlüğü okuduktan sonra kısa bir not yazdı.
+KUTU Zeynep'in okuma günlüğünden
+3 Mart: Kitaba başladım. İlk bölümü bir oturuşta bitirdim, çok sürükleyiciydi.
+5 Mart: İkinci bölümde bilmediğim çok sözcük vardı. Hiçbirine bakmadan geçtim, sonra olayları karıştırdım.
+8 Mart: Bugün okurken televizyon açıktı. Aynı sayfayı üç kez okumak zorunda kaldım.
+11 Mart: Üçüncü bölümü odamda, sessizce okudum. Bölümün sonunda ne olacağını tahmin ettim, tahminim doğru çıktı.
+14 Mart: Kitabı bitirdim. Ana kahramanı arkadaşıma anlattım, o da okumak istedi.
+TABLO Zeynep'in öz değerlendirme tablosu
+Ölçüt | Her zaman | Bazen | Hiç
+Okurken bölümün sonunu tahmin ederim. | X | |
+Bilmediğim sözcüklerin anlamını araştırırım. | | | X
+Sessiz bir ortamda okurum. | | X |
+Okuduğumu başkasına anlatabilirim. | X | |
+KUTU Öğretmenin notu
+Günlüğün içten ve anlaşılır. Tarihleri düzenli yazman da güzel. Yalnız her gün için bir iki cümleyle yetinmişsin ve kitaptan hiç örnek vermemişsin. Hangi olay seni şaşırttı, hangi cümleyi sevdin?
+
+SORU Ç T.O.5.22. orta
+Günlüğe ve tabloya göre Zeynep'in okuma sürecinde geliştirmesi gereken yön aşağıdakilerden hangisidir?
+A) Bilmediği sözcüklerin anlamını araştırmak
+B) Okuduğu kitabı başkalarına anlatmak
+C) Bölümün sonuyla ilgili tahminde bulunmak
+D) Başladığı kitabı sonuna kadar okumak
+CEVAP A
+NEDEN Tabloda bu ölçüt "Hiç" sütununda işaretlidir; 5 Mart'ta sözcüklere bakmadığı için olayları karıştırdığı da yazılıdır. B ve C tabloda "Her zaman" olarak işaretlenmiş güçlü yönlerdir.
+
+SORU Ç T.O.5.6. kolay
+Günlüğe göre Zeynep hangi gün aynı sayfayı birden fazla kez okumak zorunda kalmıştır?
+A) 5 Mart
+B) 8 Mart
+C) 11 Mart
+D) 14 Mart
+CEVAP B
+NEDEN 8 Mart'ta televizyon açıkken okuduğu için aynı sayfayı üç kez okuduğu yazılıdır. 5 Mart'taki güçlük sözcüklerle ilgilidir; bu iki günü karıştıran öğrenci A'yı seçer.
+
+SORU Ç T.Y.5.17. orta
+Öğretmenin notuna göre Zeynep bir sonraki okuma günlüğünde aşağıdakilerden hangisini yapmalıdır?
+A) Tarihleri yazmayı bırakmalıdır.
+B) Günlüğü daha ağırbaşlı bir dille yazmalıdır.
+C) Yazdıklarını kitaptan örneklerle desteklemelidir.
+D) Her gün yalnız tek cümle yazmalıdır.
+CEVAP C
+NEDEN Öğretmen, günlükte kitaptan örnek bulunmamasını eksik olarak göstermiş ve örnek isteyen sorular sormuştur. Tarihleri ve içten dili ise beğenmiştir; D notun tersini söyler.
+
+SORU A T.O.5.22. orta
+Zeynep'in okuma sürecindeki bir güçlü yönünü ve bir gelişmeye açık yönünü günlükten birer kanıtla yazınız. Gelişmeye açık yönü için bir önlem öneriniz.
+CEVAP Örnek: Güçlü yön: Bölümün sonunu tahmin ediyor (11 Mart) ya da okuduğunu anlatabiliyor (14 Mart). Gelişmeye açık yön: Bilmediği sözcüklere bakmıyor (5 Mart) ya da gürültülü ortamda okuyor (8 Mart). Önlem: Bilmediği sözcükleri işaretleyip bölüm sonunda sözlükten bakabilir; okuma saatinde televizyonu kapatabilir.
+PUAN Güçlü yön, gelişmeye açık yön ve önlem günlükten kanıtla verilmişse tam puan. Kanıt gösterilmemişse ya da önlem önerilmemişse kısmi puan.
+
+SORU A T.Y.5.10. orta
+Zeynep'in günlüğünde anlattıklarını, önemli bilgileri koruyarak ve kendi cümlelerinizle iki cümlede özetleyiniz.
+CEVAP Örnek: Zeynep kitabı yaklaşık iki haftada okudu; bilmediği sözcükler ve gürültü onu zaman zaman zorladı. Sessiz ortamda ve tahmin ederek okuduğunda ise daha iyi anladı, kitabı bitirince arkadaşına anlatabildi.
+PUAN Zorlandığı durumları ve iyi anladığı durumları kendi cümleleriyle veren iki cümle tam puan alır. Günleri tek tek sıralayan ya da yalnız bir yönü veren cevap kısmi puan alır.

@@ -5,7 +5,8 @@ Kullanım:
     python3 -I araclar/surec_json.py
 
 Girdi : metin/program.txt (2026 sürümü, 5. sınıf), metin/program-eski.txt (2024 sürümü, 6 ve 7. sınıf),
-        bilgi-paketi/senaryolar.json (hangi çıktılar gerekli, adları ne)
+        bilgi-paketi/senaryolar.json (tablodaki çıktılar ve adları),
+        bilgi-paketi/temalar-*.json (yıl boyunca işlenen okuma ve yazma çıktıları)
 Çıktı : bilgi-paketi/surec-bilesenleri.json
 
 Tablodaki düzen: çıktının adı, altında a) b) c) maddeleri. Bir blok yalnız maddelerden önceki metinde
@@ -150,12 +151,18 @@ def main():
             cozulmus[yol] = coz(KOK / yol)
         adlar = {norm(c["ad"]) for c in senaryo[sinif]["ciktilar"]}
         adlar |= {norm(c["ad"]) for t in temalar[sinif] for c in t["ciktilar"]}
-        for c in senaryo[sinif]["ciktilar"]:
-            bulunan = sec(cozulmus[yol], c["ad"], adlar, c["kod"][2])
+        # Hedefler: tablodaki çıktılar (adları tablodan) ve programın yıl boyunca işlediği okuma ve yazma çıktıları
+        hedefler = {c["kod"]: c["ad"] for c in senaryo[sinif]["ciktilar"]}
+        for t in temalar[sinif]:
+            for c in t["ciktilar"]:
+                if c["alan"] in ("Okuma", "Yazma"):
+                    hedefler.setdefault(c["kod"], c["ad"])
+        for kod, ad in hedefler.items():
+            bulunan = sec(cozulmus[yol], ad, adlar, kod[2])
             if len(bulunan) == 1:
-                sonuc[c["kod"]] = {"ad": c["ad"], "surum": surum, "bilesenler": bulunan[0]}
+                sonuc[kod] = {"ad": ad, "surum": surum, "bilesenler": bulunan[0]}
             else:
-                eksik.append((c["kod"], c["ad"], len(bulunan)))
+                eksik.append((kod, ad, len(bulunan)))
     hedef = KOK / "bilgi-paketi/surec-bilesenleri.json"
     hedef.write_text(json.dumps(sonuc, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"yazıldı: {hedef.name}  kabul: {len(sonuc)}  eksik: {len(eksik)}")

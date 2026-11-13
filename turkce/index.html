@@ -31,7 +31,19 @@
   .kucuk { font-size: 14px; color: var(--ikincil); }
 
   section { padding: 30px 0 32px; border-top: 1px solid var(--cizgi-acik); }
-  header + main section:first-child { margin-top: 22px; }
+  .panel > section:first-of-type { border-top: 0; }
+  .panel-giris { margin: 0; padding: 26px 0 0; max-width: 660px; }
+  .panel-giris + section { padding-top: 22px; }
+
+  .sekmeler { display: flex; gap: 0 26px; margin: 22px 0 0; border-bottom: 1px solid var(--cizgi); overflow-x: auto; overflow-y: hidden; }
+  .sekmeler button {
+    flex: none; border: 0; border-bottom: 2px solid transparent; border-radius: 0; background: none; color: var(--ikincil);
+    padding: 10px 1px 9px; font-size: 16px; white-space: nowrap;
+  }
+  .sekmeler button:hover { color: var(--murekkep); }
+  .sekmeler button[aria-selected="true"] { color: var(--murekkep); font-weight: 600; border-bottom-color: var(--murekkep); }
+  .sekmeler button:focus-visible { outline-offset: -3px; }
+  .panel:focus-visible { outline: 0; }
   .bolum-baslik { display: flex; align-items: baseline; gap: 12px; margin: 0 0 16px; }
   .bolum-baslik .no { font-size: 15px; font-weight: 600; color: var(--ikincil); font-variant-numeric: tabular-nums; }
   h2 { margin: 0; font-size: 22px; line-height: 1.25; font-weight: 700; }
@@ -88,7 +100,7 @@
   button.yazi:hover { text-decoration: underline; }
   button.kucuk-dugme { padding: 5px 14px; font-size: 14px; flex: none; }
 
-  #yonerge { min-height: 340px; font-size: 14.5px; background: var(--dolgu); border-color: var(--cizgi-acik); }
+  .yonerge-kutu { min-height: 340px; font-size: 14.5px; background: var(--dolgu); border-color: var(--cizgi-acik); }
   .dugme-satiri { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; margin: 14px 0 0; }
   .durum { font-size: 14.5px; color: var(--ikincil); }
   .eksik { margin: 0 0 14px; padding: 0; list-style: none; color: var(--hata); font-weight: 600; }
@@ -99,12 +111,49 @@
   ol.adimlar li { margin: 0 0 6px; }
   .baglantilar { display: inline-flex; flex-wrap: wrap; gap: 4px 16px; }
 
-  ul.kontrol { margin: 0; padding: 0; list-style: none; }
-  ul.kontrol li { border-bottom: 1px solid var(--cizgi-acik); }
-  ul.kontrol li:last-child { border-bottom: 0; }
-  ul.kontrol label { display: flex; gap: 12px; padding: 11px 0; cursor: pointer; }
-  ul.kontrol input { flex: none; width: 19px; height: 19px; margin: 2px 0 0; accent-color: var(--murekkep); }
+  ul.kontrol, ul.secmeli { margin: 0; padding: 0; list-style: none; }
+  ul.kontrol > li, ul.secmeli > li { border-bottom: 1px solid var(--cizgi-acik); }
+  ul.kontrol > li:last-child, ul.secmeli > li:last-child { border-bottom: 0; }
+  ul.kontrol label, ul.secmeli label, label.onay { display: flex; gap: 12px; padding: 11px 0; cursor: pointer; }
+  ul.kontrol input, ul.secmeli input, label.onay input { flex: none; width: 19px; height: 19px; margin: 2px 0 0; accent-color: var(--murekkep); }
   ul.kontrol input:checked + span { color: var(--ikincil); }
+  ul.secmeli input:checked + span { font-weight: 600; }
+  ul.secmeli label { padding-bottom: 4px; }
+  ul.secmeli details.bilesen { margin: 0 0 10px 31px; }
+  ul.secmeli details.bilesen li { padding-left: 0; text-indent: 0; }
+  ul.secmeli { border-top: 1px solid var(--cizgi); border-bottom: 1px solid var(--cizgi); margin-bottom: 10px; }
+  h3.alan-basligi { margin: 18px 0 8px; font-size: 14px; }
+  label.onay { padding: 4px 0; }
+  label.onay + .kucuk { margin: 0 0 18px 31px; }
+
+  .baglam { padding: 26px 0 6px; border-top: 1px solid var(--cizgi); }
+  .baglam-ust { margin: 0 0 4px; font-size: 13px; color: var(--ikincil); }
+  .baglam-baslik { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin: 0 0 14px; }
+  .baglam-baslik h3 { margin: 0; font-size: 20px; line-height: 1.25; font-weight: 700; }
+  .blok { margin: 0 0 16px; }
+  .blok h4 { margin: 0 0 6px; font-size: 14px; font-weight: 600; color: var(--ikincil); }
+  .blok.metin p { margin: 0 0 10px; max-width: 68ch; }
+  .blok.siir p { margin: 0 0 14px; line-height: 1.65; }
+  .blok.kutu { padding: 14px 16px 8px; background: var(--dolgu); border-radius: 10px; }
+  .blok.kutu p { margin: 0 0 7px; }
+  .blok.kutu p.ara { height: 6px; margin: 0; }
+  .tablo-kaydir { overflow-x: auto; }
+  table.veri { border-top: 1px solid var(--cizgi); border-bottom: 1px solid var(--cizgi); }
+  table.veri caption { caption-side: top; text-align: left; padding: 0 0 6px; font-size: 14px; font-weight: 600; color: var(--ikincil); }
+  table.veri th, table.veri td { padding-right: 16px; }
+  table.veri th { color: var(--murekkep); }
+  ol.sorular { margin: 4px 0 0; padding: 0; list-style: none; }
+  ol.sorular > li { padding: 16px 0; border-top: 1px solid var(--cizgi-acik); }
+  .soru-ust { margin: 0 0 6px; font-size: 13px; color: var(--ikincil); }
+  .kok { margin: 0 0 8px; max-width: 68ch; }
+  .kok .no { font-weight: 700; }
+  ol.sik { margin: 0; padding: 0; list-style: none; }
+  ol.sik li { margin: 0 0 4px; padding-left: 1.7em; text-indent: -1.7em; }
+  .yazma-alani { display: none; }
+  .cevap { margin: 10px 0 0; padding: 10px 14px 6px; background: var(--dolgu); border-radius: 10px; font-size: 15px; }
+  .cevap p { margin: 0 0 4px; }
+  .yalniz-baski { display: none; }
+  #b-ozet { margin: 14px 0 20px; }
 
   ul.istekler { margin: 0; padding: 0; list-style: none; }
   ul.istekler li { padding: 14px 0; border-bottom: 1px solid var(--cizgi-acik); }
@@ -133,6 +182,25 @@
     h2 { font-size: 20px; }
     td.kod { white-space: normal; }
     button.ana { width: 100%; }
+    .sekmeler { gap: 0 12px; }
+    .sekmeler button { font-size: 14.5px; }
+    .baglam-baslik h3 { font-size: 18px; }
+  }
+
+  /* "Yazdır" düğmesiyle yalnız hazır soru bankası basılır */
+  @media print {
+    body.yazdir-banka header, body.yazdir-banka footer, body.yazdir-banka .ekran, body.yazdir-banka .panel-giris,
+    body.yazdir-banka .panel:not(#p-banka), body.yazdir-banka #p-banka > section > :not(#b-liste) { display: none !important; }
+    body.yazdir-banka { font-size: 11.5pt; }
+    body.yazdir-banka .kap { max-width: none; padding: 0; }
+    body.yazdir-banka section { padding: 0; border: 0; }
+    body.yazdir-banka .yalniz-baski { display: block; margin: 0 0 12pt; font-size: 16pt; }
+    body.yazdir-banka .baglam { padding-top: 14pt; }
+    body.yazdir-banka .baglam:first-of-type { border-top: 0; }
+    body.yazdir-banka .blok, body.yazdir-banka ol.sorular > li, body.yazdir-banka .baglam-baslik { break-inside: avoid; }
+    body.yazdir-banka .blok.kutu, body.yazdir-banka .cevap { background: none; border: 1px solid #999; }
+    body.yazdir-banka .cevapsiz .soru-ust, body.yazdir-banka .cevapsiz .baglam-ust { display: none; }
+    body.yazdir-banka .cevapsiz .yazma-alani { display: block; height: 62pt; border-bottom: 1px dotted #999; }
   }
 </style>
 </head>
@@ -140,11 +208,18 @@
 <header class="kap">
   <p class="alan"><a href="../">tahirdogan.online</a></p>
   <h1>Türkçe Soru Atölyesi</h1>
-  <p>Ortaokul Türkçe öğretmenleri için. Sınıfı ve senaryoyu seçersiniz; sayfa, MEB'in konu soru dağılım tablosuna ve öğretim programına göre bağlam temelli sınav yönergesi hazırlar. Yönergeyi kullandığınız yapay zeka sohbetine yapıştırırsınız: sınav, eşleştirme tablosu ve puanlama anahtarı oradan gelir.</p>
-  <p class="kucuk">Bu sayfa hiçbir bilgiyi dışarı göndermez. Seçimleriniz ve yapıştırdığınız metin tarayıcınızda kalır.</p>
+  <p>Ortaokul Türkçe öğretmenleri için üç araç: MEB tablosuna göre sınav yönergesi, her sınıf için hazır soru bankası ve seçtiğiniz konulara göre yeni soru bankası yönergesi.</p>
+  <p class="kucuk">Bu sayfa hiçbir bilgiyi dışarı göndermez. Seçimleriniz ve yazdıklarınız tarayıcınızda kalır.</p>
+  <div class="sekmeler" id="sekmeler" role="tablist" aria-label="Araçlar">
+    <button type="button" role="tab" id="s-sinav" aria-controls="p-sinav" data-adres="sinav-hazirla" aria-selected="true">Sınav hazırla</button>
+    <button type="button" role="tab" id="s-banka" aria-controls="p-banka" data-adres="soru-bankasi" aria-selected="false" tabindex="-1">Soru bankası</button>
+    <button type="button" role="tab" id="s-hazirla" aria-controls="p-hazirla" data-adres="soru-bankasi-hazirla" aria-selected="false" tabindex="-1">Soru bankası hazırla</button>
+  </div>
 </header>
 
 <main class="kap">
+ <div class="panel" id="p-sinav" role="tabpanel" aria-labelledby="s-sinav" tabindex="0">
+  <p class="panel-giris">Sınıfı ve senaryoyu seçersiniz; sayfa, MEB'in konu soru dağılım tablosuna ve öğretim programına göre bağlam temelli sınav yönergesi hazırlar. Yönergeyi kullandığınız yapay zeka sohbetine yapıştırırsınız: sınav, eşleştirme tablosu ve puanlama anahtarı oradan gelir.</p>
   <section aria-labelledby="b-sinav">
     <div class="bolum-baslik"><span class="no">1</span><h2 id="b-sinav">Sınıf ve sınav</h2></div>
 
@@ -227,7 +302,7 @@
     <div class="bolum-baslik"><span class="no">4</span><h2 id="b-yonerge">Yönerge</h2></div>
     <ul class="eksik" id="eksik" role="alert"></ul>
     <label class="etiket" for="yonerge">Yapay zekaya verilecek yönerge</label>
-    <textarea id="yonerge" readonly spellcheck="false"></textarea>
+    <textarea id="yonerge" class="yonerge-kutu" readonly spellcheck="false"></textarea>
     <div class="dugme-satiri">
       <button type="button" class="ana" id="kopyala">Yönergeyi kopyala</button>
       <span class="durum" id="kopya-durumu" role="status"></span>
@@ -256,6 +331,121 @@
     <p>Sınav geldikten sonra aynı sohbete yazabileceğiniz hazır istekler. Köşeli ayraçlı yerleri kendiniz doldurun.</p>
     <ul class="istekler" id="istekler"></ul>
   </section>
+ </div>
+
+ <div class="panel" id="p-banka" role="tabpanel" aria-labelledby="s-banka" tabindex="0" hidden>
+  <p class="panel-giris">Her sınıf için 8 bağlam ve 40 soru: çoktan seçmeli ve açık uçlu sorular, cevapları ve puanlama notlarıyla. Metinler ve sorular bu sayfa için yazıldı; MEB'in ya da bir yayınevinin soruları değildir. Kullanmadan önce okuyun, sınıfınıza göre uyarlayın.</p>
+  <section aria-labelledby="b-banka">
+    <div class="bolum-baslik"><h2 id="b-banka">Hazır soru bankası</h2></div>
+    <fieldset>
+      <legend>Sınıf</legend>
+      <div class="secenekler" id="b-siniflar"></div>
+    </fieldset>
+    <p class="not" id="b-not"></p>
+    <div class="yan-yana">
+      <div class="alan-satiri">
+        <label class="etiket" for="b-konu">Konu</label>
+        <select id="b-konu"></select>
+      </div>
+      <div class="alan-satiri">
+        <label class="etiket" for="b-tur">Soru türü</label>
+        <select id="b-tur"></select>
+      </div>
+    </div>
+    <label class="onay"><input type="checkbox" id="b-cevap"><span>Cevapları ve açıklamaları göster</span></label>
+    <p class="kucuk">İşaretliyken yazdırılan ve kopyalanan metne cevap anahtarı da eklenir. İşaretli değilken çıktı öğrenciye verilebilir: kod ve cevap bulunmaz.</p>
+    <div class="dugme-satiri">
+      <button type="button" class="ana" id="b-yazdir">Yazdır</button>
+      <button type="button" id="b-kopyala">Metin olarak kopyala</button>
+      <span class="durum" id="b-durum" role="status"></span>
+    </div>
+    <p class="kucuk" id="b-ozet" role="status"></p>
+    <div id="b-liste"></div>
+  </section>
+ </div>
+
+ <div class="panel" id="p-hazirla" role="tabpanel" aria-labelledby="s-hazirla" tabindex="0" hidden>
+  <p class="panel-giris">Sınıfı ve konuları seçersiniz; sayfa, seçtiğiniz konular için yeni bir soru bankası yönergesi hazırlar. Yönergeyi yapay zeka sohbetine yapıştırırsınız: bağlamlar, sorular, eşleştirme tablosu ve cevap anahtarı oradan gelir.</p>
+  <section aria-labelledby="b-h-konu">
+    <div class="bolum-baslik"><span class="no">1</span><h2 id="b-h-konu">Sınıf ve konular</h2></div>
+    <fieldset>
+      <legend>Sınıf</legend>
+      <div class="secenekler" id="h-siniflar"></div>
+    </fieldset>
+    <p class="not" id="h-not"></p>
+    <p class="etiket" id="h-konu-etiketi">Konular</p>
+    <div id="h-konular" role="group" aria-labelledby="h-konu-etiketi"></div>
+    <div class="tablo-alt">
+      <span class="toplam" id="h-secili" role="status"></span>
+      <span class="baglantilar">
+        <button type="button" class="yazi" id="h-hepsi">Hepsini seç</button>
+        <button type="button" class="yazi" id="h-temizle">Temizle</button>
+      </span>
+    </div>
+  </section>
+
+  <section aria-labelledby="b-h-bicim">
+    <div class="bolum-baslik"><span class="no">2</span><h2 id="b-h-bicim">Bankanın biçimi</h2></div>
+    <div class="alan-satiri">
+      <label class="etiket" for="h-soru">Soru sayısı</label>
+      <input type="number" id="h-soru" min="5" max="60" step="1" value="20" inputmode="numeric">
+      <p class="kucuk">20 sorudan uzun bankalarda yönerge, yapay zekadan bankayı bölüm bölüm vermesini ister.</p>
+    </div>
+    <fieldset>
+      <legend>Soru türü</legend>
+      <div class="secenekler" id="h-turler"></div>
+    </fieldset>
+    <fieldset>
+      <legend>Güçlük</legend>
+      <div class="secenekler" id="h-gucler"></div>
+    </fieldset>
+    <div class="yan-yana">
+      <div class="alan-satiri" id="h-tema-alani">
+        <label class="etiket" for="h-tema">Tema (isteğe bağlı)</label>
+        <select id="h-tema"></select>
+      </div>
+      <div class="alan-satiri">
+        <label class="etiket" for="h-konu-notu">Konu notu (isteğe bağlı)</label>
+        <input type="text" id="h-konu-notu" maxlength="200" placeholder="ör. metinler doğa ve çevre üzerine olsun" autocomplete="off">
+      </div>
+    </div>
+    <label class="onay"><input type="checkbox" id="h-farkli" checked><span>Bağlamlar hazır soru bankasındakilerden farklı olsun</span></label>
+    <p class="kucuk" id="h-farkli-notu"></p>
+    <div class="alan-satiri">
+      <label class="etiket" for="h-ek">Ek istek (isteğe bağlı)</label>
+      <textarea id="h-ek" rows="3" maxlength="1500" placeholder="ör. Her bağlamdan sonra bir tablo sorusu olsun. Şiir kullanma."></textarea>
+    </div>
+  </section>
+
+  <section aria-labelledby="b-h-yonerge">
+    <div class="bolum-baslik"><span class="no">3</span><h2 id="b-h-yonerge">Yönerge</h2></div>
+    <ul class="eksik" id="h-eksik" role="alert"></ul>
+    <label class="etiket" for="h-yonerge">Yapay zekaya verilecek yönerge</label>
+    <textarea id="h-yonerge" class="yonerge-kutu" readonly spellcheck="false"></textarea>
+    <div class="dugme-satiri">
+      <button type="button" class="ana" id="h-kopyala">Yönergeyi kopyala</button>
+      <span class="durum" id="h-durum" role="status"></span>
+    </div>
+    <ol class="adimlar">
+      <li>Yönergeyi kopyalayın.</li>
+      <li>Kullandığınız yapay zeka sohbetini açın, yönergeyi yapıştırıp gönderin:
+        <span class="baglantilar">
+          <a href="https://claude.ai/new" target="_blank" rel="noopener noreferrer">Claude</a>
+          <a href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">ChatGPT</a>
+          <a href="https://gemini.google.com/app" target="_blank" rel="noopener noreferrer">Gemini</a>
+        </span>
+      </li>
+      <li>Uzun bankalarda yapay zeka her bölümden sonra durur; sürdürmesi için "devam" yazın.</li>
+      <li>Gelen bankayı aşağıdaki listeyle denetleyin.</li>
+    </ol>
+  </section>
+
+  <section aria-labelledby="b-h-denetim">
+    <div class="bolum-baslik"><span class="no">4</span><h2 id="b-h-denetim">Gelen bankayı denetleyin</h2></div>
+    <p>Yapay zekanın yazdığı sorular birer taslaktır. Özellikle cevap anahtarını kendiniz çözerek doğrulayın.</p>
+    <ul class="kontrol" id="h-kontrol"></ul>
+  </section>
+ </div>
 </main>
 
 <footer class="kap">
@@ -277,11 +467,15 @@
     </table>
     <p>Aynı kod, programın iki sürümünde farklı çıktıyı gösterebilir. Bu eşleşme, MEB tablosundaki kodların ve adların iki sürümle karşılaştırılmasıyla bulundu. Kodlar okulunuzdaki belgelerle tutmuyorsa yönergeyi kullanmadan önce karşılaştırın.</p>
   </details>
-  <p>Veriler 13 Kasım 2026'da alındı; yalnız 1. dönem tabloları var. Bu sayfa MEB'e ait ya da bağlı değildir.</p>
+  <p>Veriler 13 Kasım 2026'da alındı; sınav senaryoları yalnız 1. dönem tablolarını kapsar. Hazır soru bankasındaki metinler ve sorular bu sayfa için yazıldı. Bu sayfa MEB'e ait ya da bağlı değildir.</p>
 </footer>
 
 <script src="veri.js"></script>
+<script src="banka.js"></script>
 <script src="yonerge.js"></script>
+<script src="banka-yonerge.js"></script>
+<script src="ortak.js"></script>
 <script src="arayuz.js"></script>
+<script src="banka-arayuz.js"></script>
 </body>
 </html>

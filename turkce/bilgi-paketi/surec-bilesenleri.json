@@ -184,6 +184,109 @@
    "b": "Gelişmeye açık yönlerini destekleyecek tedbirler alıp, güçlü yönlerini sonraki yazma çalışmalarına aktararak yazar kimliğinin gelişimine yön verir."
   }
  },
+ "T.O.5.8.": {
+  "ad": "Basit çıkarımlar yoluyla metnin derin anlamını belirleyebilme",
+  "surum": "2026",
+  "bilesenler": {
+   "a": "Metnin sınırlı bir bölümünden ve varsa görselden yararlanarak bağlama dair ipuçlarını bulur.",
+   "b": "Ön bilgileri ve ipuçlarından hareketle anlamı belirler."
+  }
+ },
+ "T.O.5.9.": {
+  "ad": "Üst düzey çıkarımlar yoluyla metnin derin anlamını belirleyebilme",
+  "surum": "2026",
+  "bilesenler": {
+   "a": "Metnin bütününden ve varsa görselden yararlanarak bağlama dair ipuçlarını bulur.",
+   "b": "Ön bilgileri ve ipuçlarından hareketle anlamı belirler."
+  }
+ },
+ "T.O.5.10.": {
+  "ad": "Okuduklarını karşılaştırabilme",
+  "surum": "2026",
+  "bilesenler": {
+   "a": "Karşılaştırılabilir unsurlara ilişkin özellikleri belirler.",
+   "b": "Belirlediği özelliklerdeki benzerlikleri listeler.",
+   "c": "Belirlediği özelliklerdeki farklılıkları listeler."
+  }
+ },
+ "T.O.5.21.": {
+  "ad": "Okuduğunu özetleyebilme",
+  "surum": "2026",
+  "bilesenler": {
+   "a": "Metinde sunulan bilgileri çözümler.",
+   "b": "Çözümlemeden hareketle önemli ve önemsiz bilgileri sınıflandırır.",
+   "c": "Metindeki önemli bilgileri kronolojik akışa ve/veya düşünce akışına uygun olarak kendi cümleleriyle ifade eder."
+  }
+ },
+ "T.Y.5.7.": {
+  "ad": "Yazısında karşılaştırma yapabilme",
+  "surum": "2026",
+  "bilesenler": {
+   "a": "Karşılaştırılabilir unsurlara ilişkin özellikleri belirler.",
+   "b": "Özellikler arasındaki benzerlikleri tespit ederek yazısında kullanır.",
+   "c": "Özellikler arasındaki farklılıkları tespit ederek yazısında kullanır."
+  }
+ },
+ "T.Y.5.10.": {
+  "ad": "Yazılı olarak özetleyebilme",
+  "surum": "2026",
+  "bilesenler": {
+   "a": "Olay, bilgi, durum vb.ni çözümler.",
+   "b": "Çözümlemeden hareketle önemli ve önemsiz bilgileri sınıflandırır.",
+   "c": "Önemli bilgileri kronolojik akışa ve/veya düşünce akışına uygun olarak kendi cümleleriyle ifade eder."
+  }
+ },
+ "T.Y.5.12.": {
+  "ad": "Düşünceyi geliştirme yollarını kullanarak metni yapılandırabilme",
+  "surum": "2026",
+  "bilesenler": {
+   "a": "Kullanacağı düşünceyi geliştirme yollarını belirler.",
+   "b": "Düşünceyi geliştirme yollarını yazısının içeriğiyle uyumlu şekilde kullanır."
+  }
+ },
+ "T.O.5.12.": {
+  "ad": "Metni yorumlayabilme",
+  "surum": "2026",
+  "bilesenler": {
+   "a": "Metindeki olay, bilgi, durum vb.ni inceler.",
+   "b": "Metindeki olay, bilgi, durum vb.ni yazarın, okurun veya bunların dışında bir başkasının bakış açısını dikkate alıp genişleterek veya daraltarak dönüştürür.",
+   "c": "Metindeki olay, bilgi, durum vb.ni seçilen bakış açısıyla kendine özgü bir biçimde yeniden ifade eder."
+  }
+ },
+ "T.Y.5.9.": {
+  "ad": "Yorumunu yazılı olarak ifade edebilme",
+  "surum": "2026",
+  "bilesenler": {
+   "a": "Yorumlayacağı olay, bilgi, durum vb.ni inceler.",
+   "b": "Olay, bilgi, durum vb.ni bağlamdan kopmadan, farklı bakış açısıyla, genişleterek veya daraltarak dönüştürür.",
+   "c": "Olay, bilgi, durum vb.ni belirlenen bakış açısıyla kendine özgü biçimde yazısında yeniden ifade eder."
+  }
+ },
+ "T.Y.5.14.": {
+  "ad": "Yazısında açık ve örtük ifadeleri kullanabilme",
+  "surum": "2026",
+  "bilesenler": {
+   "a": "Kullanacağı örtük ileti unsurlarını (söz sanatları, mecaz, deyim, atasözü ve diğer söz varlığı unsurları) belirler.",
+   "b": "Yazısında açık ve örtük iletilere bağlama uygun şekilde yer verir."
+  }
+ },
+ "T.O.5.14.": {
+  "ad": "Bilgilendirici metinde metin yapılarından hareketle önemli bilgileri belirlemeye yönelik çözümleme yapabilme",
+  "surum": "2026",
+  "bilesenler": {
+   "a": "Metin yapısından hareketle önemli bilgileri belirler.",
+   "b": "Bilgiler arasındaki ilişkiyi ortaya koyar."
+  }
+ },
+ "T.Y.5.11.": {
+  "ad": "Yazılı üretiminde ve yazılı etkileşiminde tartışabilme",
+  "surum": "2026",
+  "bilesenler": {
+   "a": "Düşüncelerini savunurken önermelerine yönelik mantıklı temellendirme yapar.",
+   "b": "Varsa içerikteki tutarsız, geçersiz görüş ve bilgiyi tespit eder.",
+   "c": "Doğru görüş ve bilgiyi kabul eder; tutarsız, geçersiz görüş ve bilgiyi çürütür."
+  }
+ },
  "T.O.6.1.": {
   "ad": "Okumada materyal seçimini yönetebilme",
   "surum": "2024",
@@ -466,6 +569,153 @@
    "c": "Yazılarından oluşan ürün ve seçki dosyası (sözlük, günlük, anı, gezi, şiir, alıntılar seçkisi, atasözü ve deyim vb.) oluşturur."
   }
  },
+ "T.O.6.13.": {
+  "ad": "Metni yorumlayabilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Metindeki olay, konu, durum vb.ni inceler.",
+   "b": "Metindeki olay, konu, durum vb.ni yazarın, okurun veya bunların dışında bir başkasının bakış açısını dikkate alıp genişleterek veya daraltarak dönüştürür.",
+   "c": "Metindeki olay, konu, durum vb.ni seçilen bakış açısıyla kendine özgü bir biçimde yeniden ifade eder."
+  }
+ },
+ "T.O.6.15.": {
+  "ad": "Bilgilendirici metinlerde metin yapılarından hareketle önemli bilgileri belirlemeye yönelik çözümleme yapabilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Metin yapısından hareketle önemli bilgileri belirler.",
+   "b": "Belirlenen bilgilerin birbiriyle ilişkisini ortaya koyar."
+  }
+ },
+ "T.O.6.22.": {
+  "ad": "Çoklu ortam ögelerine yönelik çözümleme yapabilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Çoklu ortam ögelerinin işlevlerini (eş anlam oluşturma, anlamı destekleme veya tek başına anlam oluşturma) belirler.",
+   "b": "Ögeler arasındaki bağlantıları belirler."
+  }
+ },
+ "T.Y.6.6.": {
+  "ad": "Yazısında çoklu ortam ögeleriyle içerik oluşturabilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Amacına uygun olarak kullanacağı çoklu ortam ögelerini (fotoğraf, resim, tablo, grafik, harita, ses kaydı, müzik, video vb.) belirler.",
+   "b": "Belirlediği çoklu ortam ögelerinin işlevlerine (eş anlam oluşturma, anlamı destekleme veya tek başına anlam oluşturma) karar verir.",
+   "c": "Belirlediği çoklu ortam ögelerini, birbirleriyle etkileşimlerini dikkate alarak yazısında kullanır."
+  }
+ },
+ "T.Y.6.12.": {
+  "ad": "Yazılı olarak özetleyebilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Metinde/söylemde sunulan bilgileri çözümler.",
+   "b": "Çözümlemeden hareketle önemli ve önemsiz bilgileri sınıflandırır.",
+   "c": "Önemli bilgileri kronolojik akışa/düşünce akışına uygun olarak sıralar.",
+   "ç": "Sıraladıklarını kendi cümleleriyle yazıya aktarır."
+  }
+ },
+ "T.O.6.14.": {
+  "ad": "Öyküleyici metinlerdeki hikâye unsurlarını belirlemeye yönelik çözümleme yapabilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Şahıs/varlık kadrosunu, mekânı, zamanı ve olay örgüsünü belirler.",
+   "b": "Hikâye unsurlarının birbirleriyle bağlantısını belirler.",
+   "c": "Hikâye unsurları arasındaki etkileşimleri (zamanın kahramanla, mekânın olayla vb.) belirler."
+  }
+ },
+ "T.O.6.20.": {
+  "ad": "Metindeki söz sanatlarını belirlemeye yönelik çözümleme yapabilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Okuduklarındaki söz sanatlarını belirler.",
+   "b": "Söz sanatlarının metnin anlatımıyla ilişkisini ortaya koyar."
+  }
+ },
+ "T.Y.6.8.": {
+  "ad": "Yazılı üretim ve yazılı etkileşiminde tahminlerinden yararlanabilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Mevcut olay, konu, durum vb. ile gözlem ve ön bilgilerini ilişkilendirir.",
+   "b": "Mevcut olay, konu, durum vb.ne ilişkin tahminde bulunur.",
+   "c": "Yazısında mevcut olay, konu, durum vb.ne ilişkin yargıda bulunur."
+  }
+ },
+ "T.Y.6.14.": {
+  "ad": "Yazılı üretiminde ve yazılı etkileşiminde tartışabilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Yazısında yer verdiği önermelerine yönelik mantıklı temellendirme yapar.",
+   "b": "Karşısındakinin yazısını inceleyerek varsa tutarsız ve geçersiz görüş ve bilgiyi tespit eder.",
+   "c": "Doğru görüş ve bilgiyi kabul eder veya tutarsız ve geçersiz görüş ve bilgiyi çürütür."
+  }
+ },
+ "T.Y.6.19.": {
+  "ad": "Yazısında açık ve örtük ifade etmeye yönelik yapıları kullanabilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "İletileri açık ve anlaşılır şekilde ifade eder.",
+   "b": "Örtük iletilerini destekleyecek unsurları (söz sanatları, mecaz, deyim, atasözü ve diğer söz varlığı unsurları) kullanır."
+  }
+ },
+ "T.O.6.24.": {
+  "ad": "Okuduğunu değerlendirebilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Metnin içeriğiyle ilgili bir norm belirler.",
+   "b": "Okuduklarında belirlediği norma ilişkin inceleme yapar.",
+   "c": "İnceleme sonuçlarını belirdiği normla karşılaştırır.",
+   "ç": "Karşılaştırma sonucundan hareketle bir yargıya ulaşır."
+  }
+ },
+ "T.O.6.25.": {
+  "ad": "Metni eleştirebilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Okuduğunu belirlenen bir özellik açısından sorgular.",
+   "b": "Sorgulanan özellikle ilgili akıl yürüterek olumlu/olumsuz yargıya ulaşır.",
+   "c": "Olumsuz yargıya yönelik gerekçeli alternatif üretir."
+  }
+ },
+ "T.O.6.26.": {
+  "ad": "Metindeki probleme çözüm üretebilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Metinde yer alan olay ya da durumu problem biçiminde tanımlar.",
+   "b": "Olay ya da durumun problemli yönünü özetler.",
+   "c": "Ön bilgilerini kullanarak problemin olası çözümlerine yönelik alternatif tahminler oluşturur.",
+   "ç": "Alternatif çözümler arasından akıl yürüterek en uygun çözümü belirler.",
+   "d": "Ürettiği çözüme ilişkin yansıtma ve değerlendirme yapar."
+  }
+ },
+ "T.Y.6.13.": {
+  "ad": "Değerlendirmesini yazılı olarak ifade edebilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Mevcut olay, konu, durum vb.ne ilişkin bir norm belirler.",
+   "b": "Belirlediği norma göre olay, konu, durum vb.ni inceler.",
+   "c": "İnceleme sonuçlarını belirlediği normla karşılaştırır.",
+   "ç": "Karşılaştırma sonucunda ulaştığı yargıyı yazısında kullanır."
+  }
+ },
+ "T.Y.6.15.": {
+  "ad": "Eleştirisini yazılı olarak ifade edebilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Eleştireceği olay, konu, problem, durum vb.ni sorgular.",
+   "b": "Sorgulanan olay, konu, problem, durum vb.ne ilişkin akıl yürüterek olumlu/olumsuz yargıya ulaşır.",
+   "c": "Akıl yürütme ile ulaştığı yargıyı yazısına yansıtır."
+  }
+ },
+ "T.Y.6.16.": {
+  "ad": "Problem çözümüne yönelik yazabilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Problemi tanımlar.",
+   "b": "Problemi özetler.",
+   "c": "Gözlem, mevcut bilgi, veri ve ön bilgiye dayalı alternatif çözümler üretir.",
+   "ç": "Alternatif çözümler arasından en uygun olanı akıl yürüterek belirler.",
+   "d": "Çözümü ve çözüm sonrası değerlendirmelerini yazılı olarak ifade eder."
+  }
+ },
  "T.O.7.1.": {
   "ad": "Okumada materyal seçimini yönetebilme",
   "surum": "2024",
@@ -610,6 +860,298 @@
    "a": "Yazma sürecindeki güçlü ve gelişmeye açık yönlerini gerekçelendirerek kendisini değerlendirir.",
    "b": "Deneyimlediği süreçteki gelişmeye açık yönlerini destekleyecek tedbirler alıp güçlü yönlerini sonraki çalışmalara aktararak yazar kimliğinin gelişimine yön verir.",
    "c": "Yazılarından oluşan ürün ve seçki dosyası (sözlük, günlük, anı, gezi, şiir, alıntılar seçkisi, atasözü ve deyim vb.) oluşturur."
+  }
+ },
+ "T.O.7.6.": {
+  "ad": "Görselle iletilen anlamı belirleyebilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Görseldeki unsurlardan hareketle anlama ilişkin ipuçlarını bulup ön bilgileriyle bağlantı kurar.",
+   "b": "Görselde doğrudan ve/veya örtük olarak iletilen mesajı belirler.",
+   "c": "Gerektiğinde, görselle iletilen mesaja uygun tepkiyi verir."
+  }
+ },
+ "T.O.7.20.": {
+  "ad": "Metinde kullanılan ikna etme tekniklerini belirlemeye yönelik çözümleme yapabilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Yazarın başvurduğu ikna etme tekniklerini belirler.",
+   "b": "Belirlediği ikna etme tekniklerinin birbirleriyle ve metinle ilişkisini ortaya koyar."
+  }
+ },
+ "T.Y.7.4.": {
+  "ad": "Yazılı üretim ve yazılı etkileşiminde ön bilgilerinden yararlanabilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Konuyla ilgili ön bilgilerini (gözlem, anı, deneyim, güncel olay, haber vb.) belirler.",
+   "b": "Ön bilgilerini yazma konusuyla ilişkilendirir.",
+   "c": "Belirlediği ön bilgileri yazısına aktarır."
+  }
+ },
+ "T.Y.7.5.": {
+  "ad": "Yazılı etkileşiminde uygun tepki verebilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "İletinin hedef kitlesi, içerik ve yapısını (konusunu, ana fikrini, amacını, yapı ve dil özelliklerini vb.) çözümler.",
+   "b": "Çözümlediği verileri kullanarak vereceği dönütü (nasıl cevap verileceği, hangi bilgi ve gerekçeler kullanılacağı vb.) belirler.",
+   "c": "Kişisel yorum ve değerlendirmelerini yansıtan tepki verir."
+  }
+ },
+ "T.Y.7.10.": {
+  "ad": "Yazısında sınıflandırma yapabilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Sınıflandırma yapacağı unsur ve ölçütleri belirler.",
+   "b": "Unsurları, belirlediği ölçütlere göre ayırır.",
+   "c": "Ayrılan unsurları ayırt edici özelliklerden hareketle tasnif eder.",
+   "ç": "Tasniflerini (gerekli durumlarda grafik, tablo, görsel vb. ile destekleyerek) yazısında kullanır."
+  }
+ },
+ "T.O.7.16.": {
+  "ad": "Metnin bölümlerini belirlemeye yönelik çözümleme yapabilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Metnin türüne uygun olarak giriş, gelişme, sonuç veya serim, düğüm, çözüm bölümlerini belirler.",
+   "b": "Metnin bölümlerinin birbirleriyle bağlantısını belirler."
+  }
+ },
+ "T.O.7.17.": {
+  "ad": "Şiirin biçim özelliklerini belirlemeye yönelik çözümleme yapabilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Okuduğu şiirin biçim özelliklerini belirler.",
+   "b": "Şiirin biçim özelliklerinin birbirleriyle ve metinle ilişkisini ortaya koyar."
+  }
+ },
+ "T.O.7.18.": {
+  "ad": "Bilgilendirici metinde düşünceyi geliştirme yollarını belirlemeye yönelik çözümleme yapabilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Yazarın başvurduğu düşünceyi geliştirme yollarını belirler.",
+   "b": "Belirlediği düşünceyi geliştirme yollarının birbirleriyle ve metinle ilişkisini ortaya koyar."
+  }
+ },
+ "T.O.7.19.": {
+  "ad": "Metindeki söz sanatlarını belirlemeye yönelik çözümleme yapabilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Okuduklarındaki söz sanatlarını belirler.",
+   "b": "Söz sanatlarının metnin anlatımıyla ilişkisini ortaya koyar."
+  }
+ },
+ "T.O.7.23.": {
+  "ad": "Okuduğunu özetleyebilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Metinde sunulan bilgileri çözümler.",
+   "b": "Çözümlemeden hareketle önemli ve önemsiz bilgileri sınıflandırır.",
+   "c": "Metindeki önemli bilgileri kronolojik akışa/düşünce akışına uygun olarak kendi cümleleriyle ifade eder."
+  }
+ },
+ "T.Y.7.9.": {
+  "ad": "Yazısında karşılaştırma yapabilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Karşılaştıracağı unsurların (nesne, kişi, olay, bilgi vb.) özelliklerini belirler.",
+   "b": "Belirlenen özelliklere göre benzerlikleri listeler.",
+   "c": "Belirlenen özelliklere göre farklılıkları listeler.",
+   "ç": "Benzerlik ve farklılıklardan hareketle ulaştığı yargıyı yazısında kullanır."
+  }
+ },
+ "T.Y.7.17.": {
+  "ad": "Yazısında düşünceyi geliştirme yollarını kullanabilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Kullanacağı düşünceyi geliştirme yollarını belirler.",
+   "b": "Düşünceyi geliştirme yollarını birbirleriyle ve metinle uyumlu şekilde kullanır."
+  }
+ },
+ "T.O.7.9.": {
+  "ad": "Metin içi karşılaştırma yapabilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Metnin farklı bölümlerindeki karşılaştırılabilir unsurlara (duygu, düşünce, görüş, kahraman, dil kullanımı vb.) ilişkin özellikleri belirler.",
+   "b": "Belirlenen özelliklerden hareketle benzerlikleri listeler.",
+   "c": "Belirlenen özelliklerden hareketle farklılıkları listeler."
+  }
+ },
+ "T.O.7.10.": {
+  "ad": "Metinler arası karşılaştırma yapabilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Metinlerdeki karşılaştırılabilir unsurlara ilişkin özellikleri belirler.",
+   "b": "Belirlenen özelliklerden hareketle benzerlikleri listeler.",
+   "c": "Belirlenen özelliklerden hareketle farklılıkları listeler."
+  }
+ },
+ "T.O.7.11.": {
+  "ad": "Metindeki unsurları sınıflandırabilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Sınıflandırma ölçütlerini belirler.",
+   "b": "Metindeki unsurları belirlediği ölçütlere göre ayrıştırır.",
+   "c": "Ayrıştırılan unsurları ayırt edici özelliklerden hareketle tasnif eder.",
+   "ç": "Tasniflerini ölçütlerden hareketle adlandırır/etiketler."
+  }
+ },
+ "T.O.7.22.": {
+  "ad": "Çoklu ortam ögelerine yönelik çözümleme yapabilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Çoklu ortam ögelerinin işlevlerini (eş anlam oluşturma, anlamı destekleme veya tek başına anlam oluşturma) belirler.",
+   "b": "Ögeler arasındaki bağlantıları belirler."
+  }
+ },
+ "T.O.7.26.": {
+  "ad": "Metni eleştirebilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Okuduğunu belirlenen bir özellik açısından sorgular.",
+   "b": "Sorgulanan özellikle ilgili akıl yürüterek olumlu/olumsuz yargıya ulaşır.",
+   "c": "Olumsuz yargıya yönelik gerekçeli alternatif üretir."
+  }
+ },
+ "T.Y.7.6.": {
+  "ad": "Yazısında çoklu ortam ögeleriyle içerik oluşturabilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Amacına uygun olarak kullanacağı çoklu ortam ögelerini (fotoğraf, resim, tablo, grafik, harita, ses kaydı, müzik, video vb.) belirler.",
+   "b": "Belirlediği çoklu ortam ögelerinin işlevlerine (eş anlam oluşturma, anlamı destekleme veya tek başına anlam oluşturma) karar verir.",
+   "c": "Belirlediği çoklu ortam ögelerini, birbirleriyle etkileşimlerini dikkate alarak yazısında kullanır."
+  }
+ },
+ "T.Y.7.7.": {
+  "ad": "Yaratıcı yazı yazabilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Yazısında tema, karakter ve olay örgülerini farklı açılardan ele alır.",
+   "b": "Deneyim ve gözlemlerini hayal gücüyle birleştirerek yazısını zenginleştirir.",
+   "c": "Farklı metin yapılarını kullanır.",
+   "ç": "Özgün çözüm, karakter ve diyaloglar üretir."
+  }
+ },
+ "T.Y.7.8.": {
+  "ad": "Yazılı üretim ve yazılı etkileşiminde tahminlerinden yararlanabilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Mevcut olay, konu, durum vb. ile gözlem ve ön bilgilerini ilişkilendirir.",
+   "b": "Mevcut olay, konu, durum vb.ne ilişkin tahminde bulunur.",
+   "c": "Yazısında mevcut olay, konu, durum vb.ne ilişkin yargıda bulunur."
+  }
+ },
+ "T.Y.7.12.": {
+  "ad": "Yazılı olarak özetleyebilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Metinde/söylemde sunulan bilgileri çözümler.",
+   "b": "Çözümlemeden hareketle önemli ve önemsiz bilgileri sınıflandırır.",
+   "c": "Önemli bilgileri kronolojik akışa/düşünce akışına uygun olarak sıralar.",
+   "ç": "Sıraladıklarını kendi cümleleriyle yazıya aktarır."
+  }
+ },
+ "T.O.7.12.": {
+  "ad": "Metni yorumlayabilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Metindeki olay, konu, durum vb.ni inceler.",
+   "b": "Metindeki olay, konu, durum vb.ni yazarın, okurun veya bunların dışında bir başkasının bakış açısını dikkate alıp genişleterek veya daraltarak dönüştürür.",
+   "c": "Metindeki olay, konu, durum vb.ni seçilen bakış açısıyla kendine özgü bir biçimde yeniden ifade eder."
+  }
+ },
+ "T.O.7.24.": {
+  "ad": "Okuduğunu değerlendirebilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Metnin içeriğiyle ilgili bir norm belirler.",
+   "b": "Okuduklarında belirlediği norma ilişkin inceleme yapar.",
+   "c": "İnceleme sonuçlarını belirdiği normla karşılaştırır.",
+   "ç": "Karşılaştırma sonucundan hareketle bir yargıya ulaşır."
+  }
+ },
+ "T.O.7.27.": {
+  "ad": "Metindeki probleme çözüm üretebilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Metinde yer alan olay ya da durumu problem biçiminde tanımlar.",
+   "b": "Olay ya da durumun problemli yönünü özetler.",
+   "c": "Ön bilgilerini kullanarak problemin olası çözümlerine yönelik alternatif tahminler oluşturur.",
+   "ç": "Alternatif çözümler arasından akıl yürüterek en uygun çözümü belirler.",
+   "d": "Ürettiği çözüme ilişkin yansıtma ve değerlendirme yapar."
+  }
+ },
+ "T.Y.7.11.": {
+  "ad": "Yorumunu yazılı olarak ifade edebilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Yorumlayacağı olay, konu, durum vb.ni inceler.",
+   "b": "Yorumlayacağı olay, konu, durum vb.ni bağlamdan kopmadan kendi öznel-nesnel bakış açısı, hedef kitlenin bakış açısı veya ikisi dışında belirli bir bakış açısına göre genişleterek veya daraltarak dönüştürür.",
+   "c": "Yorumlayacağı olay, konu, durum vb.ni belirlediği bakış açısına göre yazısında yeniden ifade eder."
+  }
+ },
+ "T.Y.7.13.": {
+  "ad": "Değerlendirmesini yazılı olarak ifade edebilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Mevcut olay, konu, durum vb.ne ilişkin bir norm belirler.",
+   "b": "Belirlediği norma göre olay, konu, durum vb.ni inceler.",
+   "c": "İnceleme sonuçlarını belirlediği normla karşılaştırır.",
+   "ç": "Karşılaştırma sonucunda ulaştığı yargıyı yazısında kullanır."
+  }
+ },
+ "T.Y.7.14.": {
+  "ad": "Yazılı üretiminde ve yazılı etkileşiminde tartışabilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Yazısında yer verdiği önermelerine yönelik mantıklı temellendirme yapar.",
+   "b": "Karşısındakinin yazısını inceleyerek varsa tutarsız ve geçersiz görüş ve bilgiyi tespit eder.",
+   "c": "Doğru görüş ve bilgiyi kabul eder veya tutarsız ve geçersiz görüş ve bilgiyi çürütür."
+  }
+ },
+ "T.Y.7.15.": {
+  "ad": "Eleştirisini yazılı olarak ifade edebilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Eleştireceği olay, konu, problem, durum vb.ni sorgular.",
+   "b": "Sorgulanan olay, konu, problem, durum vb.ne ilişkin akıl yürüterek olumlu/olumsuz yargıya ulaşır.",
+   "c": "Akıl yürütme ile ulaştığı yargıyı yazısına yansıtır."
+  }
+ },
+ "T.Y.7.16.": {
+  "ad": "Problem çözümüne yönelik yazabilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Problemi tanımlar.",
+   "b": "Problemi özetler.",
+   "c": "Gözlem, mevcut bilgi, veri ve ön bilgiye dayalı alternatif çözümler üretir.",
+   "ç": "Alternatif çözümler arasından en uygun olanı akıl yürüterek belirler.",
+   "d": "Çözümü ve çözüm sonrası değerlendirmelerini yazılı olarak ifade eder."
+  }
+ },
+ "T.O.7.13.": {
+  "ad": "Öyküleyici metinlerdeki hikâye unsurlarını belirlemeye yönelik çözümleme yapabilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Şahıs/varlık kadrosunu, mekânı, zamanı ve olay örgüsünü belirler.",
+   "b": "Hikâye unsurlarının birbirleriyle bağlantısını belirler.",
+   "c": "Hikâye unsurları arasındaki etkileşimleri (zamanın kahramanla, mekânın olayla vb.) belirler."
+  }
+ },
+ "T.O.7.25.": {
+  "ad": "Basılı ve dijital medya metinlerini değerlendirebilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "Medya metninin içeriğiyle ilgili bir norm belirler.",
+   "b": "Belirlediği norma göre medya metninin içeriğinde inceleme yapar.",
+   "c": "İnceleme sonuçlarını belirlediği normla karşılaştırır.",
+   "ç": "Karşılaştırma sonucunu ortaya koyup bir yargıya ulaşır."
+  }
+ },
+ "T.Y.7.19.": {
+  "ad": "Yazısında açık ve örtük ifade etmeye yönelik yapıları kullanabilme",
+  "surum": "2024",
+  "bilesenler": {
+   "a": "İletileri açık ve anlaşılır şekilde ifade eder.",
+   "b": "Örtük iletilerini destekleyecek unsurları (söz sanatları, mecaz, deyim, atasözü ve diğer söz varlığı unsurları) kullanır."
   }
  }
 }

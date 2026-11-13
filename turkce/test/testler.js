@@ -1,10 +1,11 @@
 /*
  * Türkçe Soru Atölyesi testleri. test.html açılınca çalışır; sonuç sayfaya ve sekme
- * başlığına yazılır ("TEST 65/65"). Veriyi ve yönerge kurucuyu denetler, sayfaya dokunmaz.
+ * başlığına yazılır ("TEST 96/96"). Veriyi, yönerge kurucuları ve hazır soru bankasını denetler, sayfaya dokunmaz.
  */
 (function () {
   'use strict';
-  const V = window.SoruVerisi, A = window.SoruAtolyesi;
+  const V = window.SoruVerisi, A = window.SoruAtolyesi, K = window.BankaAtolyesi, B = window.SoruBankasi;
+  const SINIFLAR = ['5', '6', '7', '8'];
   const cikti = [];
   let gecen = 0, kalan = 0;
   function eq(gelen, beklenen, ad) {
@@ -59,7 +60,7 @@
 
     /* 2) Süreç bileşenleri */
     const tumKodlar = {};
-    Object.keys(V.siniflar).forEach(function (s) { V.siniflar[s].ciktilar.forEach(function (c) { tumKodlar[c.kod] = s; }); });
+    Object.keys(V.siniflar).forEach(function (s) { V.siniflar[s].yil.forEach(function (c) { tumKodlar[c.kod] = s; }); });
     const sira = ['a', 'b', 'c', 'ç', 'd', 'e'];
     let bozuk = 0, sekizde = 0;
     Object.keys(V.bilesenler).forEach(function (k) {
@@ -68,7 +69,7 @@
       if (tumKodlar[k] === '8') sekizde++;
       harfler.forEach(function (h, i) { if (h !== sira[i] || !/\.$/.test(V.bilesenler[k][h]) || /T\.[DOKY]\.\d/.test(V.bilesenler[k][h])) bozuk++; });
     });
-    eq([Object.keys(V.bilesenler).length, bozuk, sekizde], [71, 0, 0], '71 çıktının süreç bileşenleri düzgün, 8. sınıfta yok');
+    eq([Object.keys(V.bilesenler).length, bozuk, sekizde], [131, 0, 0], '131 çıktının süreç bileşenleri düzgün, 8. sınıfta yok');
     eq(V.bilesenler['T.O.7.5.'], {
       a: 'Metin ve varsa ona eşlik eden görsellerden hareketle bağlama/konuya dair ipuçlarını bulup ön bilgileriyle bağlantı kurar.',
       b: 'Metinde doğrudan verilen bilgileri (tanımı verilen kavram, düşünce, yönerge, iletilmek istenen mesaj, açıkça ifade edilen ana fikir vb.) belirler.',
@@ -76,7 +77,7 @@
     }, 'T.O.7.5 süreç bileşenleri (2024 programı)');
     eq(V.bilesenler['T.O.5.6.'].a, 'Metin ve varsa ona eşlik eden görsellerden hareketle bağlama dair ipuçlarını bulur.', 'T.O.5.6 2026 programındaki haliyle');
     ok(V.bilesenler['T.O.6.16.'].b.indexOf('metinle') > 0, 'aynı adlı dinleme çıktısıyla karışmadı (T.O.6.16)');
-    eq(Object.keys(V.notlar).filter(function (k) { return !tumKodlar[k]; }), [], 'notların hepsi tablodaki bir koda ait');
+    eq(Object.keys(V.notlar).filter(function (k) { return !tumKodlar[k]; }), [], 'notların hepsi listedeki bir koda ait');
 
     /* 3) Sınav ve senaryo listeleri */
     eq(A.sinavlar('7'), [S1, S2], '7. sınıfta ülke geneli sınav da listelenir');
@@ -169,16 +170,142 @@
     });
     eq([kurulan, sorunlu], [138, []], '46 senaryo üç türde sorunsuz kurulur');
 
-    /* 11) Yazım: sayfanın kendi cümlelerinde şapkalı harf ve uzun çizgi yok (MEB metinleri dışında) */
-    let cumleler = [y, yc, yk, ym, y8].join('\n');
+    /* 11) Yıllık çıktı listesi ve konular */
+    eq(SINIFLAR.map(function (s) { return V.siniflar[s].yil.length; }), [39, 49, 50, 54], 'yıllık okuma ve yazma çıktıları');
+    let listede = 0, alansiz = 0;
+    SINIFLAR.forEach(function (s) {
+      const yil = V.siniflar[s].yil.map(function (c) { return c.kod; });
+      V.siniflar[s].ciktilar.forEach(function (c) { if (yil.indexOf(c.kod) < 0) listede++; });
+      V.siniflar[s].yil.forEach(function (c) { if (c.alan !== 'Okuma' && c.alan !== 'Yazma') alansiz++; });
+    });
+    eq([listede, alansiz], [0, 0], 'tablodaki her çıktı yıllık listede; yıllık listede yalnız okuma ve yazma var');
+    eq(V.siniflar['7'].yil.filter(function (c) { return c.kod === 'T.O.7.20.'; })[0],
+      { kod: 'T.O.7.20.', ad: 'Metinde kullanılan ikna etme tekniklerini belirlemeye yönelik çözümleme yapabilme', alan: 'Okuma', temalar: [2] },
+      'tabloda olmayan çıktı programdan gelir (T.O.7.20)');
+    eq(SINIFLAR.map(function (s) { return K.konular(s).length; }), [15, 15, 15, 18], 'konu sayıları');
+    const yersiz = [], ciftli = [];
+    SINIFLAR.forEach(function (s) {
+      const sayac = {};
+      K.konular(s).forEach(function (k) { k.ciktilar.forEach(function (c) { sayac[c.kod] = (sayac[c.kod] || 0) + 1; }); });
+      V.siniflar[s].yil.forEach(function (c) { if (!sayac[c.kod]) yersiz.push(c.kod); else if (sayac[c.kod] > 1) ciftli.push(c.kod); });
+    });
+    eq([yersiz, ciftli], [[], []], 'her çıktı tam bir konuda');
+    eq(['T.O.5.22.', 'T.O.5.21.', 'T.O.6.25.', 'T.O.7.20.', 'T.Y.7.17.', 'T.Y.6.9.', 'T.Y.5.16.'].map(function (k) { return K.konuBul(k.charAt(4), k).id; }),
+      ['o-surec', 'o-yorum', 'o-yorum', 'o-dusunce', 'y-icerik', 'y-tur', 'y-yazim'], 'çıktılar doğru konuya düşer');
+    eq([K.konuBul('8', 'T.8.4.20.').ad, K.konuBul('8', 'T.8.3.9.').ad, K.konuBul('8', 'T.8.9.9.')], ['Fiilde çatı', 'Fiilimsiler', null], '8. sınıf konuları');
+    eq(K.konular('6').map(function (k) { return k.alan; }).join(' ').replace(/Okuma/g, 'O').replace(/Yazma/g, 'Y'), 'O O O O O O O O O O Y Y Y Y Y', 'önce okuma, sonra yazma konuları');
+
+    /* 12) Hazır soru bankası */
+    eq(SINIFLAR.map(function (s) { const n = K.say(K.sec(s, {})); return [n.baglam, n.soru, n.coktan, n.acik]; }),
+      [[8, 40, 24, 16], [8, 40, 24, 16], [8, 40, 24, 16], [8, 40, 32, 8]], 'her sınıfta 8 bağlam ve 40 soru');
+    const bankaSorunu = [], konusuz = [], harfSorunu = [];
+    SINIFLAR.forEach(function (s) {
+      const yil = V.siniflar[s].yil.map(function (c) { return c.kod; });
+      const harf = { A: 0, B: 0, C: 0, D: 0 };
+      let sira = 0;
+      K.baglamlar(s).forEach(function (b, i) {
+        if (b.no !== i + 1 || !b.baslik || !b.tur || !b.bloklar.length || b.sorular.length !== 5) bankaSorunu.push(s + ' bağlam ' + b.no);
+        if (b.tema && V.siniflar[s].temalar.indexOf(b.tema) < 0) bankaSorunu.push(s + ' tema ' + b.tema);
+        b.sorular.forEach(function (q) {
+          sira++;
+          const tamam = q.no === sira && yil.indexOf(q.kod) >= 0 && q.kok.length > 0 && q.cevap && q.aciklama &&
+            ['kolay', 'orta', 'zor'].indexOf(q.guc) >= 0 &&
+            (q.tur === 'coktan' ? q.secenekler.length === 4 && 'ABCD'.indexOf(q.cevap) >= 0 && q.cevap.length === 1 : q.tur === 'acik' && !q.secenekler);
+          if (!tamam) bankaSorunu.push(s + ' soru ' + q.no);
+          if (q.tur === 'coktan') harf[q.cevap]++;
+        });
+      });
+      const sayilar = Object.keys(harf).map(function (h) { return harf[h]; });
+      if (Math.max.apply(null, sayilar) - Math.min.apply(null, sayilar) > 2) harfSorunu.push(s);
+      K.konular(s).forEach(function (k) { if (K.say(K.sec(s, { konu: k.id })).soru === 0) konusuz.push(s + ' ' + k.id); });
+    });
+    eq([bankaSorunu, harfSorunu, konusuz], [[], [], []], 'sorular eksiksiz, kodlar listede, harfler dengeli, her konudan soru var');
+    eq([K.say(K.sec('5', { tur: 'acik' })).soru, K.say(K.sec('5', { tur: 'coktan' })).soru, K.say(K.sec('5', { baglam: 3 })).soru], [16, 24, 5], 'türe ve bağlama göre süzme');
+    eq(K.sec('8', { konu: '8-cati' }).map(function (x) { return x.sorular.map(function (q) { return q.kod; }); }), [['T.8.4.20.']], 'konuya göre süzme');
+    eq(K.say(K.sec('7', { konu: 'yok' })).soru, 0, 'olmayan konuda soru çıkmaz');
+    const m5 = K.metinOlarak('5', {}, false), m5c = K.metinOlarak('5', {}, true);
+    ok(m5.indexOf('5. SINIF TÜRKÇE SORU BANKASI\n') === 0 && m5.indexOf('1. BAĞLAM: Sokağın Oyunları (Bilgilendirici metin ve tablo)') > 0 &&
+      m5.indexOf('1-5. soruları aşağıdaki bağlama göre cevaplayınız.') > 0 && m5.indexOf('\n40. ') > 0, 'düz metin: başlık, bağlam ve sorular');
+    eq([say(m5, '\nA) '), say(m5, '\nD) '), say(m5, 'CEVAP ANAHTARI'), say(m5, 'T.O.5.'), say(m5c, 'CEVAP ANAHTARI')], [24, 24, 0, 0, 1], 'düz metin: seçenekler tam, cevapsız çıktıda kod ve anahtar yok');
+    ok(m5.indexOf('Seksek\t2 ve üzeri\tTebeşir, küçük bir taş\tDüz zemin') > 0, 'düz metin: tablo hücreleri sekmeyle ayrılır');
+    ok(m5c.indexOf('\n1. B (T.O.5.6.) ') > 0 && m5c.indexOf('\n4. (T.O.5.15.) Örnek: ') > 0 && m5c.indexOf(' Puanlama: ') > 0, 'düz metin: cevap anahtarı satırları');
+    const m73 = K.metinOlarak('7', { baglam: 3, tur: 'coktan' }, false);
+    ok(m73.indexOf('Söz var, yaz yağmuru gibi serinler,') > 0 && m73.indexOf('Öğrenmenin Düzlüğü') < 0 && m73.indexOf('11-13. soruları') > 0 && m73.indexOf('\n14. ') < 0, 'düz metin: tek bağlam ve tür süzgeci');
+    ok(K.metinOlarak('7', { baglam: 7 }, false).indexOf('güvenilir olmadığını gösteren') > 0 && m5.indexOf('*') < 0 && m5c.indexOf('*') < 0, 'düz metinde kalın işareti kalmaz');
+    let bankaMetni = JSON.stringify(SINIFLAR.map(function (s) {
+      return K.baglamlar(s).map(function (b) { return [b.baslik, b.tur, b.bloklar, b.sorular.map(function (q) { return [q.kok, q.secenekler, q.cevap, q.aciklama]; })]; });
+    }));
+    eq((bankaMetni.match(/[âîûÂÎÛ–—’“”]/g) || []), [], 'bankada şapkalı harf, uzun çizgi ve kıvrık tırnak yok');
+    ok(!/, ama | ama, |[.!?:] Ancak /.test(bankaMetni), 'bankada "ama" virgülsüz, cümle "ancak" ile başlamıyor');
+    eq(B.tarih, '2026-11-13', 'bankanın tarihi');
+
+    /* 13) Soru bankası yönergesi */
+    function bsecim(ek) {
+      const s = { sinif: '7', konular: ['o-soz', 'o-cikarim'], soru: 20, tur: 'coktan', guc: 'karisik', tema: '', not: '', farkli: true, ekIstek: '' };
+      Object.keys(ek || {}).forEach(function (k) { s[k] = ek[k]; });
+      return s;
+    }
+    const yb = K.kur(bsecim());
+    ok(yb.indexOf('- Sınıf: 7. sınıf\n- Soru sayısı: 20\n- Soru türü: Çoktan seçmeli\n- Güçlük: Kolay, orta ve zor sorular birlikte\n- Konu sayısı: 2\n') > 0 && yb.indexOf('2024 sürümü') > 0, 'banka bilgileri yazılır');
+    ok(yb.indexOf('\nKonu 1: Söz varlığı\n- T.O.7.4. ') > 0 && yb.indexOf('\n- T.O.7.21. ') > 0 && yb.indexOf('\nKonu 2: Çıkarım (derin anlam)\n- T.O.7.7. ') > 0 && yb.indexOf('\n- T.O.7.8. ') > 0, 'seçilen konular çıktılarıyla yazılır');
+    eq([say(yb, '\n- T.'), say(yb, 'T.O.7.5.'), say(yb, '\nKonu ')], [4, 0, 2], 'seçilmeyen konunun çıktısı yazılmaz');
+    ok(yb.indexOf('    a) Metnin bağlamından söz varlığı unsurlarının anlamıyla ilgili ipuçlarını belirleyip ön bilgileriyle ilişkilendirir.') > 0 && yb.indexOf('ölçülen süreç bileşeninin harfi') > 0, 'az çıktıda süreç bileşenleri eklenir');
+    ok(yb.indexOf('yaklaşık 5 bağlam gerekir') > 0 && yb.indexOf('180-250 sözcük') > 0 && yb.indexOf('Her konudan en az bir soru olsun.') > 0, 'bağlam sayısı ve metin uzunluğu');
+    ok(yb.indexOf('dil yapıları (dil bilgisi) ayrı bir çıktı olarak ölçülmez') > 0, '5 ila 7. sınıfta dil yapıları uyarısı');
+    eq(K.baglamlar('7').map(function (b, i) { return say(yb, '    ' + (i + 1) + ') ' + b.baslik + ' ('); }), [1, 1, 1, 1, 1, 1, 1, 1], 'hazır bankadaki sekiz bağlam sayılır');
+    const ybf = K.kur(bsecim({ farkli: false }));
+    ok(ybf.indexOf('hazır soru bankasında') < 0 && ybf.indexOf('Öğrenmenin Düzlüğü') < 0 && yb.indexOf('hazır soru bankasındaki bağlamlara benziyor mu?') > 0, 'farklılık istenmezse bağlam listesi eklenmez');
+    ok(yb.indexOf('"devam"') < 0 && K.kur(bsecim({ soru: 21 })).indexOf('en çok 20 soruluk bir bölümü') > 0, 'uzun banka bölüm bölüm istenir');
+    ok(yb.indexOf('dört seçenek (A, B, C, D)') > 0 && yb.indexOf('Açık uçlu soru, öğrenciden') < 0 && yb.indexOf('boş satır') < 0, 'çoktan seçmeli kuralları');
+    const yba = K.kur(bsecim({ tur: 'acik' })), ybk = K.kur(bsecim({ tur: 'karisik' }));
+    ok(yba.indexOf('dört seçenek') < 0 && yba.indexOf('çeldirici') < 0 && yba.indexOf('Açık uçlu soru, öğrenciden') > 0 && yba.indexOf('boş satır') > 0, 'açık uçlu kuralları');
+    ok(ybk.indexOf('dört seçenek') > 0 && ybk.indexOf('Açık uçlu soru, öğrenciden') > 0 && ybk.indexOf('yarısı çoktan seçmeli, yarısı açık uçlu') > 0, 'iki tür birlikte');
+    eq(['kolay', 'orta', 'zor'].map(function (g) { return K.kur(bsecim({ guc: g })).indexOf('- Güçlük: ' + K.GUCLER[g] + '\n') > 0; }), [true, true, true], 'güçlük seçimi yazılır');
+    ok(K.kur(bsecim({ guc: 'zor' })).indexOf('kolay soru yazma') > 0 && yb.indexOf('üçte biri kolay, yarısı orta, kalanı zor') > 0, 'güçlük kuralı seçime göre değişir');
+    const ybt = K.kur(bsecim({ tema: 'Okuma Kültürü', not: ' kitap kulüpleri ', ekIstek: 'Şiir kullanma.' }));
+    ok(ybt.indexOf('- Tema: Okuma Kültürü\n- Öğretmenin konu notu: kitap kulüpleri\n') > 0 && ybt.indexOf('"Okuma Kültürü" temasıyla ilişkili olsun; öğretmenin konu notunu da gözet.') > 0 && /\nÖĞRETMENİN EK İSTEĞİ\nŞiir kullanma\.$/.test(ybt), 'tema, konu notu ve ek istek');
+    ok(yb.indexOf('Tema:') < 0 && yb.indexOf('ÖĞRETMENİN') < 0 && yb.indexOf('Yazma soru') < 0 && yb.indexOf('Yazım ve noktalama sorusunda') < 0, 'verilmeyen alanlar ve ilgisiz kurallar yazılmaz');
+    const yby = K.kur(bsecim({ konular: ['y-yazim', 'y-tur'], tur: 'karisik' }));
+    ok(yby.indexOf('Yazım ve noktalama sorusunda sınanan kuralın') > 0 && yby.indexOf('yazma görevi bu duruma dayansın') > 0 && yby.indexOf('Yazma sorularında öğrenciye bir yazma amacı') > 0, 'yazma ve yazım konularında ek kurallar');
+    const ybh = K.kur(bsecim({ konular: K.konular('7').map(function (k) { return k.id; }), soru: 10 }));
+    ok(ybh.indexOf('Süreç bileşenleri bu yönergeye eklenmedi') > 0 && ybh.indexOf('\n    a) ') < 0 && say(ybh, '\n- T.') === 50, 'çok çıktıda bileşenler eklenmez, bütün çıktılar sayılır');
+    ok(ybh.indexOf('Soru sayısı konu sayısından az olduğu için') > 0 && ybh.indexOf('Her çıktıdan soru yazman gerekmez') > 0 && ybh.indexOf('yaklaşık 3 bağlam') > 0 && ybh.indexOf('En az bir bağlamda') > 0, 'soru sayısı konulardan azsa uyarı');
+    const yb8 = K.kur(bsecim({ sinif: '8', konular: ['8-fiilimsi', '8-cati'] }));
+    ok(yb8.indexOf('KONULAR VE KAZANIMLAR') > 0 && yb8.indexOf('\nKonu 1: Fiilimsiler\n- T.8.3.9. ') > 0 && yb8.indexOf('\nKonu 2: Fiilde çatı\n- T.8.4.20. ') > 0 && yb8.indexOf('terimi tanımlatmak yerine') > 0, '8. sınıfta kazanım dili');
+    ok(yb8.indexOf('Süreç bileşen') < 0 && yb8.indexOf('süreç bileşeninin harfi') < 0 && yb8.indexOf('öğrenme çıktı') < 0 && yb8.indexOf('dil yapıları (dil bilgisi) ayrı') < 0 && yb8.indexOf('kazanım kodu, soru türü') > 0, '8. sınıfta süreç bileşeni ve çıktı sözü yok');
+    eq([K.eksikler(bsecim({ konular: [] })).length, K.eksikler(bsecim({ soru: 4 })).length, K.eksikler(bsecim({ soru: 61 })).length,
+      K.eksikler(bsecim({ soru: 20.5 })).length, K.eksikler(bsecim({ soru: NaN })).length, K.eksikler(bsecim({ konular: ['yok'] })).length],
+    [1, 1, 1, 1, 1, 1], 'eksik seçimler: konu yok, soru sayısı sınır dışı');
+    eq([K.eksikler(bsecim()), K.eksikler(bsecim({ soru: 5 })), K.eksikler(bsecim({ soru: 60 })), K.eksikler({ sinif: '9' })], [[], [], [], ['Sınıf seçilmedi.']], 'geçerli seçimde uyarı yok');
+    ok(/Hiç konu seçilmedi/.test(hata(function () { K.kur(bsecim({ konular: [] })); })), 'konu yokken banka yönergesi kurulmaz');
+    let bkurulan = 0;
+    const bsorunlu = [];
+    SINIFLAR.forEach(function (s) {
+      K.konular(s).forEach(function (k) {
+        ['coktan', 'acik', 'karisik'].forEach(function (tur) {
+          const m = K.kur(bsecim({ sinif: s, konular: [k.id], tur: tur, soru: 12 }));
+          bkurulan++;
+          const tamam = m.indexOf('\nKonu 1: ' + k.ad + '\n') > 0 && say(m, '\n- T.') === k.ciktilar.length && say(m, '\nKonu ') === 1 &&
+            !/undefined|NaN|\[object|null/.test(m) && m.length < 16000 && !/[–—]/.test(m);
+          if (!tamam) bsorunlu.push(s + ' ' + k.id + ' ' + tur);
+        });
+      });
+    });
+    eq([bkurulan, bsorunlu], [189, []], '63 konu üç türde sorunsuz kurulur');
+
+    /* 14) Yazım: sayfanın kendi cümlelerinde şapkalı harf ve uzun çizgi yok (MEB metinleri dışında) */
+    let cumleler = [y, yc, yk, ym, y8, yb, yba, ybk, ybt, yby, ybh, yb8].join('\n');
     const mebMetinleri = [];
-    Object.keys(V.siniflar).forEach(function (s) { V.siniflar[s].ciktilar.forEach(function (c) { mebMetinleri.push(c.ad); }); });
+    Object.keys(V.siniflar).forEach(function (s) {
+      V.siniflar[s].ciktilar.concat(V.siniflar[s].yil).forEach(function (c) { mebMetinleri.push(c.ad); });
+    });
     Object.keys(V.bilesenler).forEach(function (k) { Object.keys(V.bilesenler[k]).forEach(function (h) { mebMetinleri.push(V.bilesenler[k][h]); }); });
     mebMetinleri.sort(function (a, b) { return b.length - a.length; }).forEach(function (m) { cumleler = cumleler.split(m).join(''); });
-    cumleler += A.KONTROL_LISTESI.join('\n') + A.EK_YONERGELER.map(function (i) { return i.baslik + i.metin; }).join('\n');
+    cumleler += A.KONTROL_LISTESI.join('\n') + A.EK_YONERGELER.map(function (i) { return i.baslik + i.metin; }).join('\n') + K.KONTROL_LISTESI.join('\n') +
+      SINIFLAR.map(function (s) { return K.konular(s).map(function (k) { return k.ad; }).join('\n'); }).join('\n');
     eq((cumleler.match(/[âîûÂÎÛ–—]/g) || []), [], 'şapkalı harf ve uzun çizgi yok');
     ok(!/, ama | ama, |\. Ancak /.test(cumleler), '"ama" virgülsüz, cümle "ancak" ile başlamıyor');
-    eq([A.KONTROL_LISTESI.length, A.EK_YONERGELER.length], [9, 7], 'kontrol listesi ve hazır istekler');
+    eq([A.KONTROL_LISTESI.length, A.EK_YONERGELER.length, K.KONTROL_LISTESI.length], [9, 7, 9], 'kontrol listeleri ve hazır istekler');
   } catch (e) {
     kalan++;
     cikti.push('HATA  testler yarıda kesildi: ' + e.message + '\n' + (e.stack || ''));

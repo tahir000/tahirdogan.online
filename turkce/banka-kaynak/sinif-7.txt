@@ -1,0 +1,409 @@
+# 7. sınıf hazır soru bankası. Biçim: araclar/banka_js.py dosyasının başında anlatılır.
+
+BAĞLAM Öğrenmenin Düzlüğü
+TÜR Bilgilendirici metin
+TEMA Hayat Boyu Gelişim
+METİN
+Yeni bir beceri öğrenmeye başlayan herkes benzer bir yoldan geçer. İlk haftalarda ilerleme hızlıdır: Bağlamaya yeni başlayan biri, birkaç derste basit bir ezgiyi çalabilir. Bu hız insanı heveslendirir.
+Sonra beklenmedik bir şey olur. Kişi aynı süre çalışmasına karşın ilerlemediğini düşünmeye başlar. Uzmanlar bu döneme "öğrenme düzlüğü" adını verir. Düzlüğün nedeni, becerinin durması değildir. İlk aşamada öğrenilen parçalar bu dönemde birbirine bağlanır; parmaklar notaları düşünmeden bulmaya başlar. Dışarıdan görünmeyen bu yerleşme, bir sonraki sıçramanın hazırlığıdır.
+Düzlükte en sık yapılan hata, çalışmayı bırakmaktır. İlerleme görünmediği için kişi yeteneksiz olduğuna karar verir. Oysa sebat edenler, bir süre sonra becerilerinin yeniden hızla geliştiğini fark eder.
+Bu yüzden deneyimli öğreticiler iki şey önerir: çalışmayı küçük hedeflere bölmek ve ilerlemeyi yazıyla izlemek. Bir hafta önce çalınamayan tek bir ölçünün bugün çalınabilmesi, düzlükte de yol alındığının kanıtıdır.
+
+SORU Ç T.O.7.5. kolay
+Metne göre "öğrenme düzlüğü" döneminde aşağıdakilerden hangisi gerçekleşir?
+A) Öğrenilen beceri hızla unutulmaya başlar.
+B) Daha önce öğrenilenler birbiriyle bütünleşir.
+C) Çalışma süresi kendiliğinden kısalır.
+D) Kişi yeni bir beceriye yönelir.
+CEVAP B
+NEDEN İkinci paragrafta, ilk aşamada öğrenilen parçaların bu dönemde birbirine bağlandığı açıkça söylenir. A, "ilerlememe"yi "gerileme" olarak yorumlayan öğrenciyi yakalar; metin becerinin durmadığını belirtir.
+
+SORU Ç T.O.7.14. orta
+Metinde neden ve sonuç ilişkisi içinde verilen bilgi aşağıdakilerden hangisidir?
+A) Bağlamaya başlayan kişi önce kolay, sonra zor ezgileri çalar.
+B) Öğreticiler iki öneride bulunur, kişi bunlardan birini seçer.
+C) Düzlük dönemi biter, ardından yeni bir düzlük başlar.
+D) İlerleme görünmez, bu yüzden kişi kendini yeteneksiz sayar.
+CEVAP D
+NEDEN Üçüncü paragrafta kişinin yeteneksiz olduğuna karar vermesi, ilerlemenin görünmemesine bağlanır ("görünmediği için"). A ve C metinde olmayan sıralamalardır; B'de neden ve sonuç ilişkisi yoktur.
+
+SORU Ç T.O.7.4. orta
+Üçüncü paragraftaki "sebat etmek" sözü, geçtiği cümleye göre hangi anlamda kullanılmıştır?
+A) Bir işi kararlılıkla sürdürmek
+B) Bir işe baştan başlamak
+C) Bir işte başkasından yardım almak
+D) Bir işi hızla bitirmek
+CEVAP A
+NEDEN Cümle "Oysa" ile başlar ve çalışmayı bırakanların karşısına sebat edenleri koyar; söz, bırakmanın karşıtı olan sürdürme anlamındadır. D, "yeniden hızla geliştiğini" sözünden yola çıkan öğrenciyi yakalar.
+
+SORU A T.O.7.15. orta
+Metnin içeriğini yansıtan dört anahtar kelime ya da söz grubu belirleyiniz. Bunlardan ikisinin metinle ilişkisini birer cümleyle açıklayınız.
+CEVAP Örnek: beceri öğrenme, öğrenme düzlüğü, sebat, küçük hedefler (ilerleme, çalışma da kabul edilir). "Öğrenme düzlüğü" metnin açıkladığı temel kavramdır. "Sebat", yazarın düzlük döneminde yapılmasını önerdiği davranışı karşılar.
+PUAN Dört uygun anahtar kelime ve iki doğru ilişki açıklaması tam puan alır. Yalnız kelimeleri yazan ya da örnek ayrıntılarını (bağlama, nota) anahtar kelime sayan cevap kısmi puan alır.
+
+SORU A T.O.7.23. orta
+Metni, düşünce akışını koruyarak ve kendi cümlelerinizle üç dört cümlede özetleyiniz.
+CEVAP Örnek: Yeni bir beceri öğrenilirken ilk dönemde hızlı ilerlenir, sonra ilerleme durmuş gibi görünür. Bu dönemde öğrenilenler aslında yerleşmekte ve yeni bir ilerlemeye hazırlanmaktadır. Çoğu kişi bu aşamada vazgeçer, sürdürenler ise yeniden gelişir. Çalışmayı küçük hedeflere bölmek ve ilerlemeyi kaydetmek bu dönemi aşmayı kolaylaştırır.
+PUAN Hızlı başlangıç, düzlük ve nedeni, bırakma hatası ve önerilerden en az üçünü sırasıyla ve kendi cümleleriyle veren özet tam puan alır. Metinden cümle aktaran ya da akışı bozan cevap kısmi puan alır.
+
+BAĞLAM Gezi Nereye Olsun?
+TÜR İkna edici yazı ve tablo
+TEMA Bir Hilal Uğruna
+METİN Okul gazetesinden: Elif (7/B)
+Bahar gezisi için iki seçenek oylanacak: eğlence parkı ya da Çanakkale. Ben oyumu Çanakkale için kullanacağım ve sizi de buna çağırıyorum.
+Önce akla gelen itirazı konuşalım: "Uzun yol yorar, eğlence parkı daha keyifli." Haklısınız, yol uzun. Yalnız bir günlük eğlenceyi gelecek yıl hatırlayacak mıyız? Geçen yıl 8. sınıfların yaptığı ankete göre Çanakkale'ye giden her on öğrenciden dokuzu geziyi "unutamayacağım" diye tanımlamış.
+Tarih öğretmenimiz Selin Hanım da aynı fikirde: "Kitapta bir sayfa okuduğunuz konuyu orada adım adım yürürsünüz. 1915'te o toprakta olanları siperlerin başında dinlemek, hiçbir dersin veremeyeceği bir şeydir."
+Bir de şunu düşünün: Orada yatanların birçoğu bizden yalnızca birkaç yaş büyüktü. Onların adlarının yazılı olduğu taşların önünde bir dakika durmak, onlara borcumuzun en küçük parçası değil mi?
+Eğlence parkı yerinde duruyor; ona ailemizle de gidebiliriz. Bu geziye ise ancak birlikte, arkadaşlarımızla gidersek anlamı tamam olur.
+TABLO Okul idaresinin duyurduğu gezi seçenekleri
+Bilgi | Eğlence parkı | Çanakkale
+Yol süresi (gidiş) | 45 dakika | 4 saat
+Gezi süresi | 1 gün | 2 gün (1 gece konaklama)
+Kişi başı ücret | 600 TL | 1.500 TL
+Rehber | Yok | Var (alan rehberi)
+En az katılımcı | 20 öğrenci | 35 öğrenci
+
+SORU Ç T.O.7.20. orta
+Yazarın üçüncü paragrafta başvurduğu ikna etme tekniği aşağıdakilerden hangisidir?
+A) Sayısal verilerden yararlanma
+B) Karşı görüşü çürütme
+C) Bir uzmanın görüşüne dayanma
+D) Okura soru yöneltme
+CEVAP C
+NEDEN Üçüncü paragrafta tarih öğretmeninin sözü aktarılır; bu, konunun uzmanını tanık göstermektir. A ve B ikinci paragrafta, D dördüncü paragrafta kullanılmıştır; paragrafları karıştıran öğrenci bunlara yönelir.
+
+SORU Ç T.O.7.7. orta
+İkinci paragraftaki "Haklısınız, yol uzun." cümlesinden yazarla ilgili aşağıdakilerden hangisi çıkarılabilir?
+A) Karşı görüşün doğru yanını kabul edip güven kazanmak istemektedir.
+B) Çanakkale gezisi konusundaki kararından vazgeçmek üzeredir.
+C) Yolun uzunluğunu gezinin en önemli üstünlüğü saymaktadır.
+D) Eğlence parkını tercih eden arkadaşlarını küçümsemektedir.
+CEVAP A
+NEDEN Yazar itirazın doğru yanını kabul eder, hemen ardından "Yalnız" diyerek kendi gerekçesine geçer; bu, okuru karşısına almadan ikna etme yoludur. B, kabul cümlesini geri adım sanan öğrenciyi yakalar.
+
+SORU Ç T.O.7.6. orta
+7/B sınıfından 30 öğrenci Çanakkale gezisine katılmak istemektedir.
+Tabloya göre bu gezinin yapılabilmesi için aşağıdakilerden hangisi gereklidir?
+A) Ücretin 600 TL'ye indirilmesi
+B) Gezinin bir güne indirilmesi
+C) Alan rehberinden vazgeçilmesi
+D) En az beş öğrencinin daha katılması
+CEVAP D
+NEDEN Tabloda Çanakkale gezisi için en az katılımcı sayısı 35'tir; 30 öğrenci varsa beş kişi daha gerekir. Öteki seçenekler tabloda koşul olarak yer almaz.
+
+SORU A T.O.7.8. zor
+Yazar son paragrafta eğlence parkına "ailemizle de gidebiliriz" derken Çanakkale gezisi için "ancak birlikte, arkadaşlarımızla gidersek anlamı tamam olur" demektedir.
+Yazarın bu karşılaştırmayla okurda uyandırmak istediği düşünce nedir? Metnin bütününden iki dayanak göstererek açıklayınız.
+CEVAP Örnek: Yazar, eğlence parkının her zaman yapılabilecek sıradan bir etkinlik, Çanakkale gezisinin ise sınıfça yaşanması gereken ve kaçırılmaması gereken ortak bir deneyim olduğunu düşündürmek istiyor. Dayanaklar: Ankette gidenlerin geziyi "unutamayacağım" diye tanımlaması; öğretmenin, orada dinlenenlerin hiçbir derste verilemeyeceğini söylemesi; orada yatanların yaşça öğrencilere yakın olduğunun hatırlatılması.
+PUAN Yazarın amacını (gezinin ertelenemez, ortak ve anlamlı olduğu) açıklayan ve metinden iki dayanak gösteren cevap tam puan alır. Yalnız son paragrafı yeniden anlatan ya da tek dayanak veren cevap kısmi puan alır.
+
+SORU A T.Y.7.5. orta
+Bu yazıyı okul gazetesinde okuduğunuzu düşünün. Yazara, görüşüne katılıp katılmadığınızı bildiren dört beş cümlelik bir cevap yazınız. Cevabınızda yazarın en az bir gerekçesine değininiz ve tablodaki bir bilgiyi kullanınız.
+CEVAP Örnek: Sevgili Elif, yazını okudum; Çanakkale gezisinin unutulmaz olacağı konusunda sana katılıyorum. Öğretmenimizin sözü beni de etkiledi. Yalnız tablodaki 1.500 TL'lik ücret bazı arkadaşlarımız için yüksek olabilir. Bu yüzden gezi için bir kermes düzenleyip katkı toplamayı öneriyorum. Böylece kimse ücret yüzünden geride kalmaz.
+PUAN Yazara hitap eden, görüşünü açıkça bildiren, yazarın bir gerekçesine değinen ve tablodan bir bilgi kullanan cevap tam puan alır. Bu ögelerden biri eksikse kısmi puan verilir.
+
+BAĞLAM Söz
+TÜR Şiir
+TEMA İletişim ve Sosyal İlişkiler
+ŞİİR Söz
+Söz var, yaz yağmuru gibi serinler,
+Söz var, bir kıvılcım, ormanlar inler.
+Ağızdan bir çıkar, bin kulak duyar,
+Yaydan çıkan oku kim geri koyar?
+
+Tartmadan konuşma, terazidir dil,
+Güzel söz kuru dalı eder yeşil.
+Kırıcı söz taş gibi düşer suya,
+Halkası genişler, varmaz kıyıya.
+
+SORU Ç T.O.7.17. orta
+Şiirin biçim özellikleriyle ilgili aşağıdakilerden hangisi doğrudur?
+A) On birli hece ölçüsüyle yazılmıştır; dizeler ikişer ikişer kafiyelidir.
+B) Sekizli hece ölçüsüyle yazılmıştır; yalnız birinci ve üçüncü dizeler kafiyelidir.
+C) Ölçüsüz yazılmıştır; dize sonlarında ses benzerliği yoktur.
+D) On birli hece ölçüsüyle yazılmıştır; her dörtlükte dört dize birbiriyle kafiyelidir.
+CEVAP A
+NEDEN Her dizede on bir hece vardır; kafiye birinci ile ikinci, üçüncü ile dördüncü dizeler arasındadır (serinler, inler; duyar, koyar). D ölçüyü doğru, kafiye düzenini yanlış verir.
+
+SORU Ç T.O.7.19. orta
+İlk dörtlüğün son dizesinde şair, cevabını beklemediği bir soru sormuştur.
+Bu söyleyiş dizenin anlatımına aşağıdakilerden hangisini katmıştır?
+A) Okurdan bilgi isteme
+B) Şairin kararsızlığını gösterme
+C) Düşünceyi daha etkili duyurma
+D) Olayın geçtiği yeri belirtme
+CEVAP C
+NEDEN Soru, cevabı belli olan bir düşünceyi (söylenen söz geri alınamaz) okura kendisi buldurarak pekiştirir. A ve B, soru cümlesini gerçek bir soru sanan öğrencinin seçeceği çeldiricilerdir.
+
+SORU Ç T.O.7.21. orta
+Şiirin son iki dizesiyle anlamca en yakın atasözü aşağıdakilerden hangisidir?
+A) Tatlı dil yılanı deliğinden çıkarır.
+B) Bıçak yarası geçer, dil yarası geçmez.
+C) Bin düşün, bir söyle.
+D) Dilin kemiği yok.
+CEVAP B
+NEDEN Son iki dize, kırıcı sözün etkisinin büyüyerek sürdüğünü ve bitmediğini anlatır; bu, dil yarasının geçmediğini söyleyen atasözüyle örtüşür. A ikinci dörtlüğün ikinci dizesiyle, C birinci dizesiyle ilgilidir.
+
+SORU A T.O.7.12. orta
+Şiirin ilk dörtlüğünde anlatılanları, düşünmeden söylediği bir söz yüzünden arkadaşını kıran bir öğrencinin ağzından, üç dört cümleyle ve kendi sözcüklerinizle yeniden ifade ediniz.
+CEVAP Örnek: Bugün ağzımdan çıkan tek bir cümle arkadaşımı çok üzdü. Sözümü yalnız o duymadı, bütün sınıf duydu. Oysa aynı ağızla onu sevindirecek bir şey de söyleyebilirdim. Şimdi ne yapsam o sözü geri alamıyorum.
+PUAN Dörtlükteki düşünceleri (sözün iyi de kötü de etkileyebilmesi, hızla yayılması, geri alınamaması) öğrencinin bakışından ve kendi sözcükleriyle veren cevap tam puan alır. Dizeleri düzyazıya çeviren ya da tek düşünceyi veren cevap kısmi puan alır.
+
+SORU A T.Y.7.19. orta
+"Konuşmadan önce düşünmeliyiz." cümlesi iletisini açıkça söyler. Aynı iletiyi şiirdeki gibi bir benzetme, mecaz ya da atasözü kullanarak örtük biçimde anlatan iki cümle yazınız.
+CEVAP Örnek: Söz, kafesten uçan kuş gibidir; bir kez salınca geri çağıramazsın. Bu yüzden her sözü önce içimizdeki terazide tartmalıyız.
+PUAN İletiyi koruyan ve bir söz sanatı, mecaz ya da atasözüyle örtük anlatan iki cümle tam puan alır. İletiyi yine açıkça söyleyen ya da şiirdeki dizeleri aynen kullanan cevap kısmi puan alır.
+
+BAĞLAM İki Sanat, İki Dil
+TÜR İki bilgilendirici metin
+TEMA Türk Sanatı
+METİN 1. metin: Çini
+Çini, pişmiş toprak levhaların üzerine desen işlenip sırlanması ve yeniden fırınlanmasıyla yapılan bir süsleme sanatıdır. Usta önce deseni levhaya geçirir, ardından fırçayla boyar. En son sürülen sır, fırında camsı bir tabakaya dönüşür ve renkleri yüzyıllarca korur. Çiniler çoğunlukla cami, saray ve çeşme gibi yapıların duvarlarını süsler. Lale, karanfil ve sarmaşık desenleri sık görülür. İznik ve Kütahya, bu sanatın en bilinen merkezleridir. Bir çini pano, çoğu zaman bir atölyede birkaç ustanın ortak emeğiyle ortaya çıkar.
+METİN 2. metin: Kilim
+Kilim, renkli yün ipliklerin ahşap bir dokuma çerçevesinde birbirinin arasından geçirilmesiyle dokunan, havsız bir yaygıdır. Dokuyan kişi çoğu zaman deseni bir yerden kopya etmez; aklındaki motifleri ilmek atmadan, iplikleri sıkıştırarak işler. Kilimler evin içinde kullanılır: yere serilir, duvara asılır, yük örtüsü olur. Motiflerin her birinin bir adı ve anlamı vardır. Örneğin "elibelinde" motifi bereketi, "koçboynuzu" motifi gücü anlatır. Böylece kilim, dokuyanın dileklerini taşıyan bir mektuba benzer. Bir kilim genellikle evde, tek bir kişinin aylar süren sabrıyla tamamlanır.
+
+SORU Ç T.O.7.10. orta
+İki metne göre çini ile kilimin ortak özelliği aşağıdakilerden hangisidir?
+A) Yapımında fırın kullanılması
+B) Evin içinde yere serilmesi
+C) Birkaç ustanın birlikte çalışması
+D) Desenlerle süslenmesi
+CEVAP D
+NEDEN Çinide lale, karanfil, sarmaşık desenleri; kilimde adı ve anlamı olan motifler vardır. A ve C yalnız çiniyle, B yalnız kilimle ilgilidir.
+
+SORU Ç T.O.7.11. zor
+Bir öğrenci, iki metindeki bilgileri "atölyede, ortak emekle" ve "evde, tek kişinin emeğiyle" başlıkları altında gruplandırmıştır.
+Öğrenci bu sınıflandırmada hangi ölçütü kullanmıştır?
+A) Ürünün hangi yapılarda kullanıldığı
+B) Ürünün nerede ve kaç kişiyle üretildiği
+C) Ürünün hangi malzemeden yapıldığı
+D) Ürünün üzerinde hangi desenlerin olduğu
+CEVAP B
+NEDEN Başlıklar üretimin yerini (atölye, ev) ve üreten kişi sayısını (ortak emek, tek kişi) ayırır. A, üretim yerini kullanım yeriyle karıştıran öğrenciyi yakalar.
+
+SORU Ç T.O.7.18. orta
+Yazar ikinci metinde, motiflerin anlam taşıdığı düşüncesini hangi iki yolla geliştirmiştir?
+A) Tanımlama ve tanık gösterme
+B) Karşılaştırma ve sayısal verilerden yararlanma
+C) Örnekleme ve benzetme
+D) Tanık gösterme ve örnekleme
+CEVAP C
+NEDEN Yazar önce iki motifi örnek verir (elibelinde, koçboynuzu), sonra kilimi bir mektuba benzetir. Metinde bir kişinin sözü aktarılmadığı için tanık gösterme, sayı verilmediği için sayısal veri yoktur.
+
+SORU A T.Y.7.9. orta
+Çini ile kilimi karşılaştıran dört beş cümlelik bir yazı yazınız. Yazınızda en az bir benzerlik ve iki farklılık bulunsun; yazınızı bu karşılaştırmadan çıkardığınız bir yargıyla bitiriniz.
+CEVAP Örnek: Çini de kilim de desenleriyle öne çıkan geleneksel sanatlardır. Çini pişmiş toprakla ve fırında, kilim ise yün iplikle dokunarak yapılır. Çini cami, saray gibi yapıların duvarlarını süslerken kilim evin içinde günlük hayatta kullanılır. Çini çoğunlukla birkaç ustanın, kilim ise tek bir kişinin emeğidir. Bu yüzden çini bir topluluğun, kilim ise bir kişinin duygularını yansıtan sanat sayılabilir.
+PUAN Bir benzerlik, iki farklılık ve bunlardan çıkarılan bir yargı içeren yazı tam puan alır. Yargı yoksa ya da farklılıklardan biri eksikse kısmi puan verilir. Metinlerle çelişen bilgi puan almaz.
+
+SORU A T.Y.7.6. orta
+Bu iki metni okul dergisinde yayımlayacağınızı düşünün. Metinlerin yanına koyacağınız iki çoklu ortam ögesini (fotoğraf, çizim, tablo, harita gibi) belirleyiniz ve her birinin metne ne katacağını birer cümleyle açıklayınız.
+CEVAP Örnek: Birinci metnin yanına bir çini panonun yakın çekim fotoğrafını koyardım; okur lale ve karanfil desenlerini görerek anlatılanı gözünde canlandırır. İkinci metnin yanına motiflerin adlarını ve anlamlarını gösteren bir tablo koyardım; tablo, metinde yalnız iki örneği verilen motifleri tamamlar.
+PUAN İki öge ve her birinin işlevi (metni destekleme, metinde olmayan bilgiyi ekleme gibi) açıklanmışsa tam puan. Öge adı var ama işlevi yoksa ya da tek öge yazılmışsa kısmi puan.
+
+BAĞLAM Sınıf Kitaplığı Neden Boş Kalıyor?
+TÜR Haber yazısı ve anket tablosu
+TEMA Okuma Kültürü
+METİN
+7/D sınıfının kitaplığında yüz yirmi kitap var. Buna karşın ödünç defterine geçen ay yalnızca on bir kayıt düşüldü. Sınıf temsilcisi Onur, nedenini anlamak için otuz arkadaşına kısa bir anket uyguladı.
+Sonuçlar, sorunun "okumayı sevmemek" olmadığını gösterdi. Öğrencilerin çoğu evde ya da telefonda bir şeyler okuduğunu söylüyordu. Kitaplığa uzak durmalarının nedenleri başkaydı: Kitapların çoğu yıllar önce bağışlanmıştı ve öğrencilerin ilgi alanlarına uymuyordu. Ödünç almak için defteri tutan öğretmeni teneffüste bulmak gerekiyordu. Bazıları da kitabı iki haftada bitiremeyeceğinden çekiniyordu.
+Onur sonuçları sınıf panosuna astı ve altına şunu yazdı: "Kitaplığımız dolu ama bize göre değil. Onu birlikte yenileyebiliriz."
+TABLO Anket: Sınıf kitaplığından neden kitap almıyorsun? (30 öğrenci; birden çok seçenek işaretlenebilir)
+Neden | İşaretleyen öğrenci sayısı
+Kitaplar ilgimi çekmiyor | 19
+Ödünç alma işlemi zor | 14
+İki haftalık süre yetmiyor | 8
+Okumayı sevmiyorum | 3
+Kitaplığın yerini bilmiyorum | 1
+
+SORU Ç T.O.7.27. orta
+Anket sonuçlarına göre sorunun en yaygın nedenini ortadan kaldıracak çözüm aşağıdakilerden hangisidir?
+A) Ödünç süresini iki haftadan dört haftaya çıkarmak
+B) Kitaplığı sınıfın daha görünür bir köşesine taşımak
+C) Öğrencilerin istek listesine göre kitaplığı yenilemek
+D) En çok kitap okuyan öğrenciye ödül vermek
+CEVAP C
+NEDEN En çok işaretlenen neden, kitapların ilgi çekmemesidir (19 öğrenci); bunu ancak kitapların yenilenmesi giderir. A üçüncü sıradaki nedene, B yalnız bir öğrencinin nedenine yöneliktir.
+
+SORU Ç T.O.7.24. zor
+Bir araştırmada sonuçların, toplanan veriye dayanarak sunulması beklenir.
+Bu ölçüte göre Onur'un çalışmasıyla ilgili aşağıdaki değerlendirmelerden hangisi yapılabilir?
+A) Ölçüte uymaz, çünkü ankete yalnız otuz öğrenci katılmıştır.
+B) Ölçüte uymaz, çünkü sonuçlar sınıf panosuna asılmıştır.
+C) Ölçüte uyar, çünkü Onur sınıfın temsilcisidir.
+D) Ölçüte uyar, çünkü nedenler anketteki sayılarla gösterilmiştir.
+CEVAP D
+NEDEN Ölçüt, sonucun veriye dayanmasıdır; Onur her nedeni kaç öğrencinin işaretlediğini tabloyla vermiştir. A ve B ölçütle ilgisi olmayan özelliklere bakar; C kişinin görevini kanıt sayar.
+
+SORU Ç T.O.7.7. orta
+Onur'un panoya yazdığı nottaki "bize göre değil" sözüyle anlatmak istediği aşağıdakilerden hangisidir?
+A) Kitapların öğrencilerin ilgi alanlarına uymadığı
+B) Kitaplığın sınıf için fazla büyük olduğu
+C) Kitapların çok yıpranmış durumda olduğu
+D) Öğrencilerin okumaktan hoşlanmadığı
+CEVAP A
+NEDEN Metinde kitapların öğrencilerin ilgi alanlarına uymadığı söylenir, tabloda da en çok bu neden işaretlenmiştir. D metnin açıkça yanlışladığı görüştür; C için metinde bilgi yoktur.
+
+SORU A T.Y.7.16. zor
+Metindeki sorunu tanımlayınız, tablodaki verilere dayanarak iki çözüm önerisi geliştiriniz ve bunlardan hangisinin önce uygulanması gerektiğini gerekçesiyle belirten beş altı cümlelik bir yazı yazınız.
+CEVAP Örnek: Sınıf kitaplığında yüz yirmi kitap olmasına karşın öğrenciler kitap ödünç almıyor. Ankete göre en önemli neden kitapların ilgi çekmemesi, ikinci neden ödünç alma işleminin zorluğu. Birinci önerim, öğrencilerden istek listesi toplayıp kitaplığa yeni kitaplar kazandırmak. İkinci önerim, ödünç defterini sınıfta tutup sırayla bir öğrenciyi görevlendirmek. Önce ikinci öneri uygulanmalı, çünkü hiçbir harcama gerektirmiyor ve hemen başlatılabilir. Yeni kitaplar geldiğinde de ödünç almak kolaylaşmış olur.
+PUAN Sorunu tanımlayan, veriye dayalı iki çözüm sunan ve öncelik sırasını gerekçelendiren yazı tam puan alır. Tek çözüm yazan, veriyi kullanmayan ya da öncelik gerekçesi vermeyen yazı kısmi puan alır.
+
+SORU A T.Y.7.15. orta
+Onur'un araştırmasını yöntem bakımından eleştiren üç dört cümlelik bir yazı yazınız. Yazınızda beğendiğiniz bir yönü ve geliştirilmesi gereken bir yönü gerekçesiyle belirtiniz.
+CEVAP Örnek: Onur'un tahmin yürütmek yerine anket yapması ve sonuçları sayılarla paylaşması çalışmanın güçlü yönü. Buna karşılık ankette hangi tür kitapların istendiği sorulmamış; bu yüzden kitapları ilgi çekici bulmayan on dokuz öğrencinin ne okumak istediğini bilmiyoruz. Ankete böyle bir soru eklenirse sonuçlar kitaplığı yenilerken doğrudan kullanılabilir.
+PUAN Olumlu ve olumsuz birer yönü gerekçesiyle veren, olumsuz yön için öneri sunan yazı tam puan alır. Yalnız övgü ya da yalnız yergi içeren, gerekçe göstermeyen yazı kısmi puan alır.
+
+BAĞLAM Ortak Bahçe
+TÜR Öyküleyici metin
+TEMA Hak ve Sorumluluklar
+METİN
+Sitenin arka bahçesindeki tek düzlük, basketbol potasının olduğu yerdi. Yaz tatilinin ilk haftasında Kaan ve arkadaşları her gün öğleden sonra orada maç yapıyordu. Topun sesi, zemin kattaki dairenin penceresine kadar geliyordu.
+O dairede Nermin Hanım otururdu. Gece vardiyasında çalışan bir hemşireydi; gündüzleri uyurdu. Üçüncü gün pencereyi açtı. Gözlerinin altı mordu. "Çocuklar, ne olur biraz sessiz." dedi ve camı kapattı.
+Kaan topu koltuğunun altına aldı. "Burası hepimizin bahçesi." dedi. "Oynamak hakkımız." Arkadaşı Sude potaya değil, kapalı perdeye bakıyordu. "Uyumak da onun hakkı." dedi. "İkisi aynı bahçeye sığmıyor gibi."
+O gün maç yarıda kaldı. Kaan eve gidince yönetim panosundaki "Ortak Alan Kuralları"nı ilk kez baştan sona okudu. Dördüncü madde, bahçenin herkesçe kullanılabileceğini söylüyordu. Beşinci madde ise 13.00 ile 17.00 arasının dinlenme saati olduğunu.
+Ertesi gün Kaan, Nermin Hanım'ın kapısını çaldı. Elinde bir sayfa vardı: Maç saati 17.30'a alınmıştı. Nermin Hanım sayfayı okudu, ilk kez gülümsedi. "Bir gün izinli olduğumda," dedi, "hakemliğinizi ben yaparım."
+
+SORU Ç T.O.7.13. orta
+Öyküde olayın geçtiği yerin çatışmaya etkisi aşağıdakilerden hangisidir?
+A) Bahçenin sitenin dışında kalması, çocukların izinsiz oynamasına yol açar.
+B) Tek düzlüğün zemin kat penceresinin yanında olması, iki ihtiyacı karşı karşıya getirir.
+C) Bahçenin çok geniş olması, çocukların birbirini duymasını zorlaştırır.
+D) Potanın yüksekte durması, küçük çocukların oyuna katılmasını engeller.
+CEVAP B
+NEDEN Oynanabilecek tek düzlük, gündüz uyuyan komşunun penceresinin yanındadır; çatışmayı yerin bu özelliği doğurur. Öteki seçeneklerdeki yer bilgileri öyküde yoktur.
+
+SORU Ç T.O.7.9. orta
+Maçın yarıda kaldığı gün Kaan ile Sude'nin duruma bakışı arasındaki fark aşağıdakilerden hangisidir?
+A) Kaan yalnız kendi haklarını, Sude iki tarafın hakkını da görür.
+B) Kaan komşuyu haklı bulur, Sude oyunu sürdürmek ister.
+C) Kaan kuralları bilir, Sude kurallardan habersizdir.
+D) Kaan özür dilemek ister, Sude buna karşı çıkar.
+CEVAP A
+NEDEN Kaan "Oynamak hakkımız." der; Sude buna komşunun uyuma hakkını ekler. C, Kaan'ın kuralları ancak o akşam okuduğunu gözden kaçıran öğrenciyi yakalar.
+
+SORU Ç T.O.7.16. orta
+Öykünün düğüm bölümünden çözüm bölümüne geçişi sağlayan olay aşağıdakilerden hangisidir?
+A) Çocukların her gün öğleden sonra maç yapması
+B) Nermin Hanım'ın pencereyi açıp konuşması
+C) Sude'nin kapalı perdeye bakması
+D) Kaan'ın ortak alan kurallarını okuması
+CEVAP D
+NEDEN Kaan kuralları okuyunca iki hakkın da kurallarda yer aldığını ve dinlenme saatini öğrenir; çözümü (maç saatini değiştirmek) bu bilgi mümkün kılar. A serimde, B ve C düğümde yer alır.
+
+SORU A T.Y.7.7. orta
+Üçüncü günün öğleden sonrasını Nermin Hanım'ın bakış açısından anlatan altı yedi cümlelik bir bölüm yazınız. Yazınızda onun düşüncelerine ve öyküde bulunmayan en az bir özgün ayrıntıya yer veriniz.
+CEVAP Örnek: Nöbetten sabah yedide çıkmıştım; on iki saat ayakta kaldıktan sonra tek isteğim uyumaktı. Tam dalmışken topun sesi yine duvarı dövmeye başladı. Yastığı başıma bastırdım, olmadı. Çocuklara kızamıyordum, ben de onların yaşında aynı bahçede ip atlardım. Yine de akşam yeniden nöbete gidecektim. Pencereyi açtığımda sesimin ne kadar yorgun çıktığına ben de şaştım. Camı kapatırken içimde bir burukluk kaldı.
+PUAN Anlatıcının Nermin Hanım olduğu, öyküyle tutarlı, düşünce ve özgün ayrıntı içeren bölüm tam puan alır. Olayı dışarıdan anlatan ya da öyküyü aynen yineleyen yazı kısmi puan alır.
+
+SORU A T.Y.7.11. orta
+Sude'nin "İkisi aynı bahçeye sığmıyor gibi." sözünü öykünün sonunu da göz önüne alarak yorumlayınız. Sude haklı çıkmış mıdır? Görüşünüzü üç dört cümleyle yazınız.
+CEVAP Örnek: Sude o an iki hakkın çatıştığını doğru görmüştür ama öykünün sonu, hakların aynı bahçeye sığabildiğini gösterir. Sığmayan haklar değil, saatlerdir: Maç 17.30'a alınınca hem oyun hem uyku yer bulur. Bu yüzden söz, sorunun kendisini değil, çözülmeden önceki görünüşünü anlatır.
+PUAN Sözü öykünün sonuyla ilişkilendiren ve gerekçeli bir yargı bildiren yorum tam puan alır. Yalnız sözü açıklayan ya da gerekçesiz "haklı" ya da "haksız" diyen cevap kısmi puan alır. Metinden kanıtla desteklenen farklı yorumlar kabul edilir.
+
+BAĞLAM Paylaşmadan Önce
+TÜR Sosyal medya paylaşımı ve kurum duyurusu
+TEMA Hak ve Sorumluluklar
+KUTU Bir mahalle grubundaki paylaşım
+SON DAKİKA!!! Parkımız yıkılıyor!!!
+Duyduğuma göre belediye yarın sabah Çınarlı Park'ı kapatıp yerine otopark yapacakmış. Ağaçların hepsi kesilecekmiş. Bunu herkes paylaşsın paylaşmayan pişman olur!
+(Paylaşımın altında, kesilmiş ağaçların görüldüğü bir fotoğraf var. Fotoğrafın köşesinde "2019" yazıyor.)
+212 kişi paylaştı.
+KUTU Belediyenin internet sitesindeki duyuru
+Çınarlı Park'ta bakım çalışması
+Çınarlı Park, sulama borularının yenilenmesi nedeniyle 14-18 Haziran tarihleri arasında ziyarete kapalı olacaktır. Çalışma sırasında hiçbir ağaç kesilmeyecek; kuruyan iki ağacın yerine dört yeni fidan dikilecektir. Park, 19 Haziran Cumartesi günü yeniden açılacaktır.
+Bilgi için: Park ve Bahçeler Müdürlüğü
+
+SORU Ç T.O.7.25. orta
+Bir haberin güvenilir sayılması için kaynağının belli olması beklenir.
+Bu ölçüte göre paylaşımın güvenilir *olmadığını* gösteren ifade aşağıdakilerden hangisidir?
+A) "Parkımız"
+B) "yarın sabah"
+C) "otopark"
+D) "Duyduğuma göre"
+CEVAP D
+NEDEN "Duyduğuma göre" sözü, bilginin kimden geldiğinin belli olmadığını gösterir. Öteki ifadeler haberin içeriğiyle ilgilidir, kaynağıyla değil.
+
+SORU Ç T.O.7.22. orta
+Paylaşımdaki fotoğrafın yazıyla ilişkisi aşağıdakilerin hangisinde doğru açıklanmıştır?
+A) Fotoğraf, yazıdaki bilginin doğruluğunu kanıtlamaktadır.
+B) Fotoğraf, yazıda anlatılandan farklı bir konuyu tanıtmaktadır.
+C) Fotoğraf eski tarihlidir; yazıdaki iddiayı destekliyormuş gibi kullanılmıştır.
+D) Fotoğraf, belediyenin duyurusundan alınarak paylaşılmıştır.
+CEVAP C
+NEDEN Fotoğrafın köşesindeki "2019" yazısı, görüntünün bugüne ait olmadığını gösterir; fotoğraf yazıyı destekler gibi durur ama kanıt değildir. A, görseli sorgulamadan kanıt sayan öğrenciyi yakalar.
+
+SORU Ç T.Y.7.20. orta
+Bir öğrenci iki metni karşılaştıran şu cümleyi yazmıştır:
+"Paylaşımda ağaçların hepsinin kesileceği söyleniyor, ---- belediyenin duyurusunda hiçbir ağacın kesilmeyeceği belirtiliyor."
+Bu cümlede boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?
+A) üstelik
+B) oysa
+C) bu yüzden
+D) örneğin
+CEVAP B
+NEDEN İki bilgi birbiriyle çelişmektedir; karşıtlığı "oysa" bildirir. "Üstelik" ekleme, "bu yüzden" sonuç, "örneğin" örnekleme bildirir.
+
+SORU A T.Y.7.14. zor
+Paylaşımın altına bir kişi şu yorumu yazmıştır: "212 kişi paylaşmış, bu kadar insan yanılıyor olamaz."
+Bu yoruma, iki metindeki bilgileri kullanarak karşı çıkan dört beş cümlelik bir cevap yazınız.
+CEVAP Örnek: Bir bilginin çok paylaşılması onu doğru yapmaz; yanlış bilgi de hızla yayılabilir. Paylaşım "duyduğuma göre" diye başlıyor, yani kaynağı belli değil. Fotoğrafın köşesinde 2019 yazıyor; bugünkü parkı göstermiyor. Belediyenin duyurusuna göre park yalnız beş gün bakım için kapanacak ve hiçbir ağaç kesilmeyecek. Paylaşmadan önce kaynağa bakmak hepimizin sorumluluğu.
+PUAN Yorumdaki mantık hatasını (çokluk doğruluk kanıtı değildir) gösteren ve iki metinden en az birer bilgi kullanan cevap tam puan alır. Yalnız "yanlış" diyen ya da tek metne dayanan cevap kısmi puan alır.
+
+SORU A T.Y.7.21. orta
+Paylaşımdaki "Bunu herkes paylaşsın paylaşmayan pişman olur!" cümlesinde bir noktalama eksiği vardır. Cümleyi doğru noktalayarak yeniden yazınız ve eklediğiniz işaretin görevini açıklayınız. Ayrıca başlıktaki ünlem işaretlerinin kullanımını yazım kuralları bakımından değerlendiriniz.
+CEVAP "Bunu herkes paylaşsın, paylaşmayan pişman olur!" Virgül, sıralı cümleleri birbirinden ayırır. Başlıkta art arda üç ünlem işareti kullanılması kurala uygun değildir; ünlem bildiren cümlenin sonuna tek ünlem işareti konur.
+PUAN Virgülü doğru yere koyan, görevini açıklayan ve ünlem işaretlerinin yinelenmesini yanlış bulan cevap tam puan alır. Bu üç ögeden ikisini içeren cevap kısmi puan alır.
+
+BAĞLAM Dergi Yazısı Hazırlığı
+TÜR Yazma planı, kaynak tablosu ve taslak
+TEMA Hayat Boyu Gelişim
+METİN
+Azra, okul dergisinin "Hayat Boyu Öğrenme" sayısı için bir yazı hazırlıyor. Konusu: "Yeni bir beceri en iyi nasıl öğrenilir?" Yazısını öğretmenler değil, kendi yaşıtları okuyacak. Aşağıda Azra'nın bulduğu kaynaklar ve giriş paragrafının taslağı yer alıyor.
+TABLO Azra'nın bulduğu kaynaklar
+Kaynak | Hazırlayan | Tarih | İçeriği
+"Öğrenme Üzerine" adlı kitap bölümü | Bir eğitim bilimi profesörü | 2024 | Araştırma sonuçları; uzun ve terimli anlatım
+"Bir Haftada Usta Olun!" videosu | Adı belirtilmeyen bir kanal | Belli değil | Kanıt gösterilmeyen iddialar, ürün tanıtımı
+Okul rehberlik servisinin broşürü | Okulun rehber öğretmenleri | 2026 | Ders çalışma önerileri; kısa ve sade anlatım
+Kuzeniyle yaptığı söyleşi | Azra | Geçen hafta | Bir lise öğrencisinin gitar öğrenme deneyimi
+KUTU Giriş paragrafı (taslak)
+Yeni bir şey öğrenmek zordur. Yeni bir şey öğrenirken herkes zorlanır. Ben de zorlandım. Bu yazıda yeni bir şey öğrenmenin yollarını anlatacağım.
+
+SORU Ç T.Y.7.3. orta
+Azra, yazısının gelişme bölümünde önce öğrenirken yapılan yaygın bir hatayı, sonra bu hatadan nasıl kaçınılacağını anlatmak istiyor.
+Bu amaca en uygun metin yapısı aşağıdakilerden hangisidir?
+A) Sorun ve çözüm
+B) Kronolojik sıralama
+C) Betimleme
+D) Benzerlik ve farklılık
+CEVAP A
+NEDEN Önce bir hatanın (sorunun), sonra ondan kaçınma yolunun (çözümün) anlatılması sorun ve çözüm yapısıdır. B, "önce" ve "sonra" sözlerinden yola çıkıp zaman sırası sanan öğrenciyi yakalar.
+
+SORU Ç T.Y.7.18. orta
+Azra, taslaktaki "Ben de zorlandım." cümlesini bir deyimle daha etkili anlatmak istiyor.
+Azra bu cümlenin yerine aşağıdakilerden hangisini yazmalıdır?
+A) Ben de işin kolayına kaçtım.
+B) Ben de ilk günlerde epey ter döktüm.
+C) Ben de bu işe burun kıvırdım.
+D) Ben de bu işten elimi eteğimi çektim.
+CEVAP B
+NEDEN "Ter dökmek" çok çaba harcamak, güçlük çekmek anlamındadır. "Kolayına kaçmak" tersini, "burun kıvırmak" beğenmemeyi, "elini eteğini çekmek" bırakmayı anlatır.
+
+SORU Ç T.O.7.1. orta
+Azra yazısına, araştırma sonuçlarına dayanan bir uzman görüşü eklemek istiyor.
+Azra bu amaç için tablodaki kaynaklardan hangisine başvurmalıdır?
+A) Kuzeniyle yaptığı söyleşi
+B) "Bir Haftada Usta Olun!" videosu
+C) "Öğrenme Üzerine" adlı kitap bölümü
+D) Okul rehberlik servisinin broşürü
+CEVAP C
+NEDEN Araştırma sonuçlarını bir uzmanın (profesörün) aktardığı tek kaynak kitap bölümüdür. Broşür öneri verir ama araştırma sonucu içermez; söyleşi kişisel deneyimdir; videonun hazırlayanı ve kanıtı belli değildir.
+
+SORU A T.Y.7.1. orta
+Azra'nın yazısı için bir yazma planı hazırlayınız: Yazının amacını, hedef kitlesini ve bu kitleye uygun dil özelliğini birer cümleyle yazınız; tablodaki kaynaklardan kullanılmaması gereken birini gerekçesiyle belirtiniz.
+CEVAP Örnek: Amaç: Yeni bir beceri öğrenirken işe yarayan yolları anlatmak. Hedef kitle: Azra'nın yaşıtları olan ortaokul öğrencileri. Dil: Kısa cümleli, terimsiz, örneklerle desteklenen sade bir anlatım. Kullanılmaması gereken kaynak: "Bir Haftada Usta Olun!" videosu; hazırlayanı ve tarihi belli değil, iddiaları kanıtsız ve ürün tanıtıyor.
+PUAN Amaç, hedef kitle, dil özelliği ve gerekçeli kaynak elemesi olmak üzere dört ögeyi de içeren plan tam puan alır. Ögelerden biri eksikse ya da kaynak gerekçesiz elenmişse kısmi puan verilir.
+
+SORU A T.Y.7.17. zor
+Taslaktaki giriş paragrafı aynı düşünceyi yinelemektedir. Paragrafı, tablodaki kaynaklardan birinden yararlanarak ve bir düşünceyi geliştirme yolu (örnekleme, tanık gösterme ya da karşılaştırma) kullanarak üç dört cümleyle yeniden yazınız. Hangi yolu kullandığınızı belirtiniz.
+CEVAP Örnek (örnekleme): Yeni bir beceri öğrenirken herkes bir noktada zorlanır. Kuzenim gitara başladığında ilk ay parmakları tellere yetişmediği için bırakmayı düşünmüş. Vazgeçmeyip her gün kısa süre çalışınca üçüncü ayda ilk şarkısını çalabilmiş. Bu yazıda, onun gibi yolun başında olanlara yardımcı olacak yöntemleri anlatacağım.
+PUAN Yinelemeyi gideren, bir kaynağa dayanan, bir düşünceyi geliştirme yolunu kullanan ve bu yolu doğru adlandıran paragraf tam puan alır. Yol kullanılmış ama adlandırılmamışsa ya da kaynakla ilişki kurulmamışsa kısmi puan verilir. Kaynağa dayanan kurgu ayrıntılar kabul edilir.

@@ -4,7 +4,7 @@ Birbirinden bağımsız projelerin durduğu site. Her proje kendi klasöründedi
 
 | Proje | Klasör | Adres | Ne yapar |
 | --- | --- | --- | --- |
-| Türkçe Soru Atölyesi | `turkce/` | https://tahirdogan.online/turkce/ | Ortaokul Türkçe öğretmenleri için bağlam temelli sınav yönergesi hazırlar |
+| Türkçe Soru Atölyesi | `turkce/` | https://tahirdogan.online/turkce/ | Ortaokul Türkçe öğretmenleri için bağlam temelli sınav ve soru bankası yönergesi hazırlar, hazır soru bankası sunar |
 | Borsa Tahtası | `borsa/` | https://tahirdogan.online/borsa/ | Hisse takibi, teknik sinyaller ve günlük gündem; kullanıcı adı ve şifreyle girilir |
 
 Her klasörün kendi `README.md` dosyası o projeyi anlatır.

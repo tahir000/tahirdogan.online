@@ -9,6 +9,7 @@ Girdi : bilgi-paketi/senaryolar.json, temalar-5-program2026.json, temalar-6-7-pr
 """
 import json
 import sys
+import unicodedata
 from pathlib import Path
 
 KOK = Path(__file__).resolve().parent.parent
@@ -43,13 +44,41 @@ def baslik(s):
     return " ".join(sozcukler)
 
 
+def sira(kod):
+    """T.O.5.12. gibi bir kodu alan harfine ve sayısına göre sıralar (okuma önce, yazma sonra)."""
+    p = kod.strip(".").split(".")
+    return (p[-3] if len(p) == 4 and p[1] in "OY" else "", [int(x) for x in p if x.isdigit()])
+
+
+def yillik(tablo, temalar):
+    """Yıl boyunca işlenen okuma ve yazma çıktıları: tablodakiler ve programın temalarındakiler.
+
+    Tabloda geçen çıktının adı tablodan, geçmeyenin adı programdan alınır. "temalar" çıktının işlendiği
+    temaların sıra numaralarıdır (8. sınıfta tema verisi yoktur, liste boş kalır).
+    """
+    liste = {c["kod"]: {"kod": c["kod"], "ad": c["ad"], "alan": baslik(c["alan"]), "temalar": []} for c in tablo}
+    for t in temalar:
+        for c in t["ciktilar"]:
+            if c["alan"] not in ("Okuma", "Yazma"):
+                continue
+            kayit = liste.setdefault(c["kod"], {"kod": c["kod"], "ad": c["ad"], "alan": c["alan"], "temalar": []})
+            if t["tema_no"] not in kayit["temalar"]:
+                kayit["temalar"].append(t["tema_no"])
+    return sorted(liste.values(), key=lambda c: sira(c["kod"]))
+
+
+def oku(ad):
+    """JSON dosyasını okur. Harfler tek biçime (NFC) çevrilir: Excel'den gelen bazı adlarda "ü" iki ayrı işaretle yazılı."""
+    return json.loads(unicodedata.normalize("NFC", (PAKET / ad).read_text(encoding="utf-8")))
+
+
 def main(hedef):
-    senaryo = json.loads((PAKET / "senaryolar.json").read_text(encoding="utf-8"))
+    senaryo = oku("senaryolar.json")
     temalar = {}
     for dosya in ("temalar-5-program2026.json", "temalar-6-7-program2024.json"):
-        temalar.update(json.loads((PAKET / dosya).read_text(encoding="utf-8")))
-    surec = json.loads((PAKET / "surec-bilesenleri.json").read_text(encoding="utf-8"))
-    elle = json.loads((PAKET / "surec-bilesenleri-7.json").read_text(encoding="utf-8"))
+        temalar.update(oku(dosya))
+    surec = oku("surec-bilesenleri.json")
+    elle = oku("surec-bilesenleri-7.json")
 
     siniflar = {}
     for sinif in ("5", "6", "7", "8"):
@@ -68,6 +97,7 @@ def main(hedef):
             "programAdi": PROGRAM[sinif]["ad"],
             "temalar": [baslik(t["tema"]) for t in temalar.get(sinif, [])],
             "ciktilar": [{"kod": c["kod"], "ad": c["ad"], "alan": baslik(c["alan"])} for c in s["ciktilar"]],
+            "yil": yillik(s["ciktilar"], temalar.get(sinif, [])),
             "sinavlar": sinavlar,
             "sinavNotlari": s.get("notlar", {}),
         }
@@ -96,7 +126,7 @@ def main(hedef):
     Path(hedef).write_text(metin, encoding="utf-8")
     print(f"yazıldı: {hedef}  {len(metin.encode('utf-8'))} bayt  bileşenli çıktı: {len(bilesenler)}  not: {len(notlar)}")
     for sinif, d in siniflar.items():
-        print(f"  {sinif}. sınıf: {len(d['ciktilar'])} çıktı, {sum(len(x) for x in d['sinavlar'].values())} senaryo, temalar: {d['temalar']}")
+        print(f"  {sinif}. sınıf: {len(d['ciktilar'])} çıktı (yıllık {len(d['yil'])}), {sum(len(x) for x in d['sinavlar'].values())} senaryo, temalar: {d['temalar']}")
 
 
 if __name__ == "__main__":

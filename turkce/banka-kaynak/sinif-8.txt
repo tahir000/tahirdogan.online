@@ -1,0 +1,416 @@
+# 8. sınıf hazır soru bankası (2019 programının kazanımları). Biçim: araclar/banka_js.py dosyasının başında anlatılır.
+
+BAĞLAM Fenerin Işığı
+TÜR Öyküleyici metin
+METİN
+Adadaki fener, kırk yıldır aynı adamın elindeydi. Yusuf Usta her akşam yüz otuz basamağı tırmanır, merceği yumuşak bir bezle siler, sonra ışığı yakardı. Işık, karanlık denizin üzerinde ağır ağır dönen bir kol gibi uzanırdı.
+O kış kasabadan bir mektup geldi. Fenerler artık uzaktan, bir düğmeyle yönetilecekti. Bekçiye gerek kalmamıştı. Yusuf Usta mektubu iki kez okudu, katlayıp cebine koydu. O akşam basamakları her zamankinden yavaş çıktı.
+Son gecesinde fırtına koptu. Dalgalar kayalara çarpıyor, yel kulenin camlarını zangırdatıyordu. Gece yarısına doğru ışık birden söndü. Uzaktan yönetilen düzenek, tuzlu suyun girdiği bir kabloda takılmıştı. Açıkta, yolunu arayan bir balıkçı teknesinin cılız lambası görünüyordu.
+Yusuf Usta düşünmedi. Yıllardır dolapta bekleyen gaz lambasını kaptı, basamakları ikişer ikişer çıktı. Lambayı merceğin arkasına yerleştirip kolu eliyle çevirmeye başladı. Sabaha kadar durmadı.
+Gün ağarırken tekne limana girdi. Yusuf Usta cebindeki mektubu çıkardı, bir süre baktı. Sonra onu yeniden katladı ve gülümseyerek merdivenlere yöneldi.
+
+SORU Ç T.8.3.20. orta
+Bu öyküyle ilgili aşağıdakilerden hangisi doğrudur?
+A) Olay, üçüncü kişinin ağzından anlatılmıştır.
+B) Olay, kahramanın kendi ağzından anlatılmıştır.
+C) Olayın geçtiği yer metinde belirtilmemiştir.
+D) Olayın tamamı tek bir gecede geçmiştir.
+CEVAP A
+NEDEN Anlatıcı olayların dışındadır ve kahramandan "Yusuf Usta" diye söz eder. Olay bir adadaki fenerde geçer; mektubun geldiği günden son geceye uzanan bir süreyi kapsar.
+
+SORU Ç T.8.3.7. kolay
+Birinci paragrafın son cümlesinde fenerin ışığı anlatılırken hangi söz sanatına başvurulmuştur?
+A) Abartma
+B) Benzetme
+C) Konuşturma
+D) Karşıtlık
+CEVAP B
+NEDEN Işık, dönüşü ve uzanışı bakımından bir kola benzetilmiş, benzetme "gibi" sözüyle kurulmuştur. Işığa insana özgü bir davranış verilmediği için konuşturma ya da kişileştirme yoktur.
+
+SORU Ç T.8.3.9. orta
+Aşağıdaki cümlelerin hangisinde fiilimsi *yoktur*?
+A) Yıllardır dolapta bekleyen gaz lambasını kaptı.
+B) Mektubu iki kez okudu, katlayıp cebine koydu.
+C) O kış kasabadan bir mektup geldi.
+D) Gün ağarırken tekne limana girdi.
+CEVAP C
+NEDEN A'da "bekleyen" sıfat-fiil, B'de "katlayıp" ve D'de "ağarırken" zarf-fiildir. C'deki tek fiil, çekimli olan "geldi"dir.
+
+SORU Ç T.8.3.25. zor
+Yusuf Usta'nın öykünün sonunda mektubu yeniden katlayıp gülümsemesi, onunla ilgili aşağıdakilerden hangisini düşündürür?
+A) Mektuptaki kararın geri alındığını öğrendiğini
+B) Fırtınanın sonunda dinmesine sevindiğini
+C) Kasabaya dönmek için sabırsızlandığını
+D) Emeğinin değerini son gecesinde de gördüğünü
+CEVAP D
+NEDEN Mektup ona gerek kalmadığını söyler; oysa düzenek bozulduğunda tekneyi onun deneyimi kurtarmıştır. Gülümseme bu durumun farkına varışı gösterir. A için metinde bilgi yoktur: Mektup aynı mektuptur, karar değişmemiştir.
+
+SORU A T.8.4.3. orta
+Öyküdeki fırtına gecesini, teknedeki balıkçının bakış açısından anlatan altı yedi cümlelik bir bölüm yazınız. Yazınızda serim, düğüm ve çözüm bulunsun; en az bir betimleme cümlesine yer veriniz.
+CEVAP Örnek: Ağları toplayıp dönüşe geçtiğimde gökyüzü kurşun rengine dönmüştü. Dalgalar tekneyi bir ceviz kabuğu gibi sallıyordu. Tam kayalıkların yakınındayken fenerin ışığı söndü; nereye döneceğimi bilemedim. Dümeni bırakmadım ama içimden limanı bir daha göremeyeceğimi geçirdim. Sonra karanlığın içinde titrek, sarı bir ışık belirdi ve ağır ağır dönmeye başladı. Burnumu o ışığa çevirdim. Gün ağarırken limana girdiğimde kulenin penceresinde bir gölge gördüm.
+PUAN Anlatıcının balıkçı olduğu, öyküyle tutarlı, üç bölümü ve bir betimleme cümlesini içeren yazı tam puan alır. Bölümlerden biri eksikse ya da betimleme yoksa kısmi puan verilir.
+
+BAĞLAM Uykusuz Sabahlar
+TÜR Bilgilendirici metin ve tablo
+METİN
+Sabah ilk derste esneyen, dikkatini toplayamayan öğrenciler çoğu zaman tembellikle suçlanır. Oysa sorun çoğunlukla isteksizlik değil, eksik uykudur. Uzmanlar, ergenlik çağındaki gençlerin gecede sekiz ila on saat uyumasını önerir. Bu sürenin altında kalan beyin, gün içinde öğrendiklerini kalıcı belleğe aktarmakta zorlanır.
+Eksik uykunun en yaygın nedeni, yatmadan önce kullanılan ekranlardır. Ekranın yaydığı ışık, beynin "gece oldu" sinyalini geciktirir. Başka bir deyişle telefon, bedene saatin olduğundan erken olduğunu söyler. Sonuçta genç geç uyur ama okul saati değişmediği için erken kalkmak zorunda kalır.
+Çözüm sanıldığı kadar zor değildir. Yatmadan bir saat önce ekranı bırakmak, her gün aynı saatte yatıp kalkmak ve hafta sonu uyku düzenini bozmamak çoğu genç için yeterlidir. Kısacası iyi bir sabah, bir önceki akşam hazırlanır.
+TABLO Bir okulda 8. sınıflarla yapılan anket (120 öğrenci)
+Gecelik uyku süresi | Öğrenci sayısı | İlk derste "dikkatimi toplayabiliyorum" diyenler
+6 saatten az | 18 | 4
+6-7 saat | 42 | 17
+7-8 saat | 36 | 24
+8 saat ve üzeri | 24 | 20
+
+SORU Ç T.8.3.17. orta
+Bu metnin ana fikri aşağıdakilerden hangisidir?
+A) Gençler sabahları derse geç kalmamak için akşamları daha erken yatmalıdır.
+B) Sabah dikkatsizliği çoğunlukla eksik uykudan doğar ve akşam alışkanlıklarıyla giderilebilir.
+C) Ekranların yaydığı ışık, her yaştan insanın sağlığına büyük zarar vermektedir.
+D) Okulların başlama saati, gençlerin uyku düzenine göre yeniden belirlenmelidir.
+CEVAP B
+NEDEN Metin sorunu (dikkatsizlik), nedenini (eksik uyku, ekran) ve çözümünü (akşam alışkanlıkları) birlikte verir; bunların tümünü yalnız B kapsar. C bir yardımcı düşünceyi genelleştirir; D metinde önerilmez.
+
+SORU Ç T.8.3.32. zor
+Tablodaki verilere göre aşağıdakilerden hangisine *ulaşılamaz*?
+A) Öğrencilerin yarısı gecede 7 saatten az uyumaktadır.
+B) En kalabalık grup, 6-7 saat uyuyan öğrencilerdir.
+C) Uyku süresi arttıkça dikkatini toplayabildiğini söyleyenlerin oranı yükselmektedir.
+D) 8 saat ve üzeri uyuyan öğrencilerin tamamı dikkatini toplayabilmektedir.
+CEVAP D
+NEDEN 8 saat ve üzeri uyuyan 24 öğrenciden 20'si dikkatini toplayabildiğini söylemiştir, tamamı değil. A doğrudur (18 + 42 = 60 öğrenci); C de doğrudur (oranlar sırasıyla yaklaşık yüzde 22, 40, 67 ve 83).
+
+SORU Ç T.8.3.34. orta
+Yazar birinci paragrafta, eksik uykunun bir sorun olduğu düşüncesini inandırıcı kılmak için aşağıdakilerden hangisine başvurmuştur?
+A) Uzmanların görüşüne dayanma
+B) Kişisel bir anısını anlatma
+C) Bir benzetme yapma
+D) Bir atasözünden yararlanma
+CEVAP A
+NEDEN Yazar, gençlerin ne kadar uyuması gerektiğini uzmanların önerisine dayandırır. Paragrafta yazarın kendi yaşantısı, benzetme ya da atasözü yoktur.
+
+SORU Ç T.8.3.10. kolay
+Son cümledeki "Kısacası" sözü, cümleye aşağıdaki anlamlardan hangisini katmıştır?
+A) Önceki düşünceye karşı çıkma
+B) Yeni bir örnek verme
+C) Anlatılanları toparlayıp sonuca bağlama
+D) Bir koşul öne sürme
+CEVAP C
+NEDEN "Kısacası" önce söylenenleri özetleyerek sonuca bağlar. Karşı çıkma "oysa", örnek verme "örneğin", koşul bildirme "yeter ki" gibi ifadelerle sağlanır.
+
+SORU A T.8.3.13. orta
+Metni; sorun, neden ve çözüm sırasını koruyarak en çok dört cümleyle özetleyiniz.
+CEVAP Örnek: Sabahları dikkatini toplayamayan gençlerin sorunu çoğunlukla tembellik değil, eksik uykudur. Gençlerin sekiz ila on saat uyuması gerekir. Yatmadan önce kullanılan ekranlar uykuyu geciktirdiği için bu süre kısalır. Ekranı erken bırakmak ve her gün aynı saatte yatıp kalkmak sorunu büyük ölçüde çözer.
+PUAN Sorunu, nedenini ve çözümü sırasıyla ve kendi cümleleriyle veren özet tam puan alır. Üç ögeden biri eksikse ya da metinden cümle aktarılmışsa kısmi puan verilir.
+
+BAĞLAM Dört Arkadaş, Dört Kulüp
+TÜR Kısa metin ve sözel mantık bilgileri
+METİN
+Okulumuzda bu dönem dört kulüp açıldı. Duyuruyu ilk gören Duru'ydu. Dört arkadaş, seçimlerini dün birbirlerine anlattı. Kulüplerin toplantı günleri de belli oldu.
+KUTU Kulüplerle ilgili bilgiler
+Arda, Beril, Cem ve Duru; satranç, tiyatro, robotik ve müzik kulüplerinden birer tanesine üyedir. Her kulübün yalnız bir üyesi bu dört arkadaştandır.
+Her kulüp pazartesi, salı, çarşamba ve perşembe günlerinden farklı birinde toplanır.
+Satranç kulübü pazartesi günü toplanır.
+Beril müzik kulübündedir; kulübü, haftanın en son toplanan kulübüdür.
+Arda'nın kulübü, tiyatro kulübünden bir gün önce toplanır.
+Cem robotik kulübüne üye değildir; kulübü Arda'nınkinden önce toplanır.
+
+SORU Ç T.8.3.25. zor
+Verilen bilgilere göre Duru hangi kulübe üyedir?
+A) Satranç
+B) Robotik
+C) Tiyatro
+D) Müzik
+CEVAP C
+NEDEN Müzik perşembe, satranç pazartesi toplanır. Arda'nın kulübü tiyatrodan bir gün önce toplandığına ve Cem'in kulübü Arda'nınkinden önce toplandığına göre Arda pazartesi günkü kulüpte olamaz; Arda salı günkü robotik kulübünde, tiyatro çarşambadadır. Cem satrançta, Duru tiyatrodadır.
+
+SORU Ç T.8.3.14. zor
+Verilen bilgilere göre aşağıdakilerden hangisi kesinlikle doğrudur?
+A) Robotik kulübü salı günü toplanır.
+B) Cem'in kulübü çarşamba günü toplanır.
+C) Arda satranç kulübüne üyedir.
+D) Tiyatro kulübü salı günü toplanır.
+CEVAP A
+NEDEN Çözüme göre satranç pazartesi (Cem), robotik salı (Arda), tiyatro çarşamba (Duru), müzik perşembe (Beril) toplanır. Tiyatroyu salıya yerleştiren öğrenci, Cem'in kulübünün Arda'nınkinden önce toplanması koşulunu gözden kaçırır.
+
+SORU Ç T.8.4.18. orta
+"Dört arkadaş, seçimlerini dün birbirlerine anlattı." cümlesinin ögeleri aşağıdakilerin hangisinde doğru sıralanmıştır?
+A) Özne / zarf tamlayıcısı / nesne / yer tamlayıcısı / yüklem
+B) Özne / nesne / yer tamlayıcısı / zarf tamlayıcısı / yüklem
+C) Nesne / özne / zarf tamlayıcısı / yer tamlayıcısı / yüklem
+D) Özne / nesne / zarf tamlayıcısı / yer tamlayıcısı / yüklem
+CEVAP D
+NEDEN "Dört arkadaş" özne, "seçimlerini" nesne, "dün" zarf tamlayıcısı, "birbirlerine" yer tamlayıcısı, "anlattı" yüklemdir. Ögeleri cümledeki sırasına bakmadan ezbere dizen öğrenci A ya da B'yi seçer.
+
+SORU Ç T.8.4.19. orta
+Metindeki "Duyuruyu ilk gören Duru'ydu." cümlesiyle ilgili aşağıdakilerden hangisi doğrudur?
+A) Yüklemi fiil olan, kurallı bir cümledir.
+B) Yüklemi isim olan, kurallı bir cümledir.
+C) Yüklemi isim olan, devrik bir cümledir.
+D) Yüklemi fiil olan, devrik bir cümledir.
+CEVAP B
+NEDEN Yüklem, ek fiil almış bir isimdir ("Duru'ydu") ve cümlenin sonundadır; cümle kurallı bir isim cümlesidir. "Gören" sözcüğünü yüklem sanan öğrenci A'yı seçer; oysa "gören" fiilimsidir ve öznenin içindedir.
+
+SORU A T.8.3.15. orta
+Kulüplerle ilgili bilgilerden yararlanarak iki soru yazınız: Birinin cevabı bilgilerde doğrudan yer alsın, ötekinin cevabı ancak akıl yürütmeyle bulunabilsin. Sorularınızın cevaplarını da yazınız.
+CEVAP Örnek: Doğrudan: "Satranç kulübü hangi gün toplanır?" Cevap: Pazartesi. Akıl yürütmeyle: "Cem hangi kulübe üyedir?" Cevap: Satranç. Cem robotikte olamaz, müzikte Beril vardır; kulübü Arda'nınkinden önce toplandığına göre pazartesi günkü satranç kulübündedir.
+PUAN İki türde birer soru ve doğru cevapları tam puan alır. İki soru da doğrudan cevaplanıyorsa ya da cevaplardan biri yanlışsa kısmi puan verilir.
+
+BAĞLAM Liman
+TÜR Şiir ve düzyazı
+ŞİİR Liman
+Gemiler ufukta küçülür, erir,
+İskele bir süre ardından bakar.
+Dalgalar kıyıya haberler verir,
+Her gidenin yeri bir fener yakar.
+
+Ben de bir limanım, bekler dururum,
+Yüz gemi gitse de bir umut yanar.
+Ayrılık dediğin yoldur, bilirim;
+Giden, döneceği limanı anar.
+METİN Bir öğrencinin yazısından
+Otogarları sevmezdim. Biri binerken öteki iner, kimse kimsenin yüzüne bakmaz. Geçen ay ağabeyimi üniversiteye uğurlarken de böyle düşünüyordum. Otobüs köşeyi dönünce annem, "Gözden ırak olan gönülden de ırak olur derler ama inanma." dedi. "İnsan gittiği yerde büyür, döndüğünde iki kişilik döner." O gün bugündür otogarlara başka gözle bakıyorum: Orası ayrılığın değil, bir sonraki kavuşmanın ilk durağı.
+
+SORU Ç T.8.3.17. orta
+Şiirde ağır basan duygu aşağıdakilerden hangisidir?
+A) Pişmanlık
+B) Öfke
+C) Kaygı
+D) Umut
+CEVAP D
+NEDEN Şair gidenleri bekler ama "bir umut yanar" der ve gidenin döneceği limanı andığını söyler; şiire umut egemendir. Ayrılık teması yüzünden şiiri karamsar okuyan öğrenci C'ye yönelir.
+
+SORU Ç T.8.3.7. orta
+Şiirin ilk dörtlüğünde iskele ve dalgalarla ilgili söylenenlerde hangi söz sanatı vardır?
+A) Benzetme
+B) Abartma
+C) Kişileştirme
+D) Karşıtlık
+CEVAP C
+NEDEN İskelenin gidenin ardından bakması, dalgaların haber vermesi insana özgü davranışlardır. Benzetme ikinci dörtlüğün ilk dizesindedir ("Ben de bir limanım").
+
+SORU Ç T.8.3.23. orta
+Şiir ile düzyazı metnin ortak iletisi aşağıdakilerden hangisidir?
+A) Yolculuklar insanı yorar ve yalnızlaştırır.
+B) Ayrılık, kavuşmayı da içinde taşıyan geçici bir durumdur.
+C) Uzakta olanlar zamanla unutulur.
+D) İnsan doğduğu yerden hiç ayrılmamalıdır.
+CEVAP B
+NEDEN Şiirde ayrılık bir "yol", giden de dönecek kişidir; düzyazıda otogar "bir sonraki kavuşmanın ilk durağı"dır. C, annenin andığı ama karşı çıktığı atasözünün iletisidir.
+
+SORU Ç T.8.3.6. orta
+Düzyazı metinde annenin andığı atasözü, metne aşağıdakilerden hangisini katmıştır?
+A) Yaygın bir düşünceyi anıp ona karşı çıkma olanağı
+B) Annenin söylediklerinin doğruluğunu kanıtlama
+C) Olayın geçtiği yeri okura tanıtma
+D) Ağabeyin neden gittiğini açıklama
+CEVAP A
+NEDEN Anne atasözünü söyler ama hemen ardından "inanma" diyerek karşı görüşünü ortaya koyar; atasözü, karşı çıkılan yaygın düşünceyi temsil eder. B, atasözlerinin her zaman kanıt olarak kullanıldığını sanan öğrenciyi yakalar.
+
+SORU A T.8.4.1. orta
+Şiirdeki "Ben de bir limanım" dizesinden esinlenerek, kendinizi başka bir varlığa benzettiğiniz dört dizelik bir şiir yazınız. Şiirinizde en az bir söz sanatı bulunsun; kullandığınız söz sanatının adını yazınız.
+CEVAP Örnek: "Ben bir çınarım okul bahçesinde, / Her yıl bir halka eklerim içime. / Gidenler gölgemde bırakır sesini, / Saklarım hepsini yaprak yaprak." (benzetme, kişileştirme)
+PUAN Dört dizeden oluşan, benzetmeyi sürdüren, en az bir söz sanatı içeren ve sanatı doğru adlandıran şiir tam puan alır. Söz sanatı var ama adı yanlışsa ya da dizeler arasında anlam bağı kurulmamışsa kısmi puan verilir.
+
+BAĞLAM Haber mi, Reklam mı?
+TÜR İnternet yazısı ve açıklama
+KUTU Bir internet sitesindeki yazı
+ÖĞRENCİLER BU SAKIZI KONUŞUYOR
+Sınav döneminde dikkatini toplayamayanlara müjde! "OdakMax" adlı sakızın, çiğnendikten yalnızca on dakika sonra dikkati iki katına çıkardığı kanıtlandı. Ürün, uzmanlarca tavsiye ediliyor. Sakızı deneyen bir öğrenci, "Notlarım bir haftada yükseldi." diyor. Stoklar hızla tükeniyor. Geriye yalnızca sadece birkaç kutu kaldı. Bu fırsatı kaçırmamak için hemen sipariş verin.
+(Yazının altında küçük harflerle şu not yer alıyor: "Bu içerik iş birliği kapsamında hazırlanmıştır.")
+KUTU Bir tüketici derneğinin açıklaması
+Bir ürünün etkisinin "kanıtlandığını" söyleyen metinlerde araştırmayı kimin, ne zaman, kaç kişiyle yaptığına bakılmalıdır. Bu bilgiler yoksa iddia doğrulanamaz. "İş birliği" ibaresi, yazının ücret karşılığı hazırlandığını gösterir.
+
+SORU Ç T.8.3.29. orta
+Sitedeki yazının asıl amacı aşağıdakilerden hangisidir?
+A) Öğrencilere verimli çalışma yollarını öğretmek
+B) Okuru bir ürünü satın almaya yönlendirmek
+C) Sakız çiğnemenin sağlığa etkilerini tartışmak
+D) Yeni bir bilimsel araştırmayı duyurmak
+CEVAP B
+NEDEN "Hemen sipariş verin" çağrısı, stokların tükendiği uyarısı ve alttaki iş birliği notu, yazının bir reklam olduğunu gösterir. D, yazının haber diliyle yazılmasına aldanan öğrenciyi yakalar.
+
+SORU Ç T.8.3.31. orta
+Derneğin açıklamasındaki ölçüte göre, yazıdaki "kanıtlandı" iddiasını doğrulanamaz kılan eksik aşağıdakilerden hangisidir?
+A) Araştırmayı yapanın, tarihin ve katılımcı sayısının verilmemesi
+B) Sakızın fiyatının yazının hiçbir yerinde belirtilmemesi
+C) Ürünü deneyen öğrencinin adının ve sınıfının söylenmemesi
+D) Sakızın hangi mağazalarda satıldığının yazılmaması
+CEVAP A
+NEDEN Dernek, kanıt iddiasında araştırmayı yapanın, zamanın ve katılımcı sayısının aranmasını ister; yazıda bunların hiçbiri yoktur. Öteki eksikler iddianın doğrulanmasıyla ilgili değildir.
+
+SORU Ç T.8.3.8. orta
+Sitedeki yazıda yer alan aşağıdaki cümlelerin hangisinde gereksiz sözcük kullanımından kaynaklanan bir anlatım bozukluğu vardır?
+A) Ürün, uzmanlarca tavsiye ediliyor.
+B) Stoklar hızla tükeniyor.
+C) Notlarım bir haftada yükseldi.
+D) Geriye yalnızca sadece birkaç kutu kaldı.
+CEVAP D
+NEDEN "Yalnızca" ve "sadece" aynı anlamdadır; birinin kullanılması yeterlidir. Öteki cümlelerde gereksiz sözcük yoktur.
+
+SORU Ç T.8.4.20. zor
+Yazıda "kanıtlandı" ve "tavsiye ediliyor" gibi edilgen çatılı fiillerin seçilmesi, anlatıma aşağıdakilerden hangisini katmıştır?
+A) Olayların hangi sırayla gerçekleştiğini belirtmiştir.
+B) İşi yapanın yazarın kendisi olduğunu vurgulamıştır.
+C) İşi yapanın kim olduğunu belirsiz bırakmıştır.
+D) İşin gelecekte yapılacağını bildirmiştir.
+CEVAP C
+NEDEN Edilgen çatıda işi yapan söylenmez: Etkiyi kimin kanıtladığı, ürünü hangi uzmanların tavsiye ettiği belli değildir. Bu belirsizlik, iddianın sorgulanmasını zorlaştırır.
+
+SORU A T.8.3.22. orta
+Bu tür yazıların okurları yanıltmasını önlemek için iki farklı çözüm öneriniz: Biri yazıyı yayımlayan siteyle, öteki okurla ilgili olsun. Önerilerinizi gerekçeleriyle üç dört cümlede yazınız.
+CEVAP Örnek: Site, ücret karşılığı hazırlanan yazıların başına büyük harflerle "REKLAM" yazmalıdır; küçük harfli bir not çoğu okurun gözünden kaçar. Okur ise "kanıtlandı" gibi sözleri görünce araştırmayı kimin yaptığını aramalı, bulamazsa iddiaya güvenmemelidir. Böylece hem yayıncı sorumluluğunu yerine getirir hem okur kendini korur.
+PUAN Biri yayıncıya, öteki okura yönelik gerekçeli iki öneri tam puan alır. Tek öneri ya da gerekçesiz öneriler kısmi puan alır.
+
+BAĞLAM Fidan Dikimi
+TÜR Yönerge
+METİN
+8/A sınıfı okul bahçesine fidan dikecek. Çevre kulübünün hazırladığı yönergedeki cümleler, panoya asılırken karışmıştır.
+KUTU Fidan dikme yönergesi (cümleler karışık)
+(I) Fidanı çukurun ortasına, kökleri kıvrılmayacak biçimde yerleştirin.
+(II) Dikimden hemen sonra fidana bol su verip dibini kuru yapraklarla örtün.
+(III) Önce fidanın kök topundan biraz daha geniş ve derin bir çukur kazın.
+(IV) Çukuru, kazarken çıkardığınız toprakla doldurup toprağı elinizle hafifçe bastırın.
+(V) Son olarak fidanı, yanına çaktığınız kazığa gevşekçe bağlayın.
+
+SORU Ç T.8.3.35. orta
+Yönergedeki cümleler işlem sırasına göre dizildiğinde sıralama aşağıdakilerden hangisi olur?
+A) III - IV - I - II - V
+B) I - III - IV - V - II
+C) III - I - II - IV - V
+D) III - I - IV - II - V
+CEVAP D
+NEDEN Önce çukur kazılır (III), fidan yerleştirilir (I), çukur doldurulur (IV), dikim bitince su verilir (II), en son fidan kazığa bağlanır (V). C, "dikimden hemen sonra" sözünü fidanın çukura konması olarak anlayan öğrenciyi yakalar.
+
+SORU Ç T.8.3.9. zor
+(IV) numaralı cümledeki fiilimsilerle ilgili aşağıdakilerden hangisi doğrudur?
+A) Bir isim-fiil ve iki sıfat-fiil vardır.
+B) İki zarf-fiil ve bir sıfat-fiil vardır.
+C) Yalnızca üç zarf-fiil vardır.
+D) Bir zarf-fiil ve iki isim-fiil vardır.
+CEVAP B
+NEDEN "Kazarken" ve "doldurup" zarf-fiil, "çıkardığınız" ise "toprak" adını niteleyen sıfat-fiildir. "Çıkardığınız" sözcüğündeki eki çekim eki sanan öğrenci fiilimsi sayısını eksik bulur.
+
+SORU Ç T.8.4.16. orta
+Kulüp üyeleri yönergenin altına aşağıdaki notları eklemek istiyor. Bu notların hangisinde yazım yanlışı vardır?
+A) Fidanlar 21 mart'ta dikilecek.
+B) Herkes yanında bir çift eldiven getirsin.
+C) Dikimden sonra bahçede toplu fotoğraf çekeceğiz.
+D) Kürekleri okulun deposundan alabilirsiniz.
+CEVAP A
+NEDEN Belirli bir tarihi bildiren ay adları büyük harfle başlar: "21 Mart'ta". Öteki notlarda yazım yanlışı yoktur.
+
+SORU Ç T.8.4.15. kolay
+(V) numaralı cümledeki "Son olarak" sözü yerine aşağıdakilerden hangisi getirilirse cümlenin anlamı değişmez?
+A) Bu nedenle
+B) Buna karşın
+C) En sonunda
+D) Örneğin
+CEVAP C
+NEDEN "Son olarak" sıralamanın bittiğini bildirir; aynı işlevi "en sonunda" görür. "Bu nedenle" sonuç, "buna karşın" karşıtlık, "örneğin" örnekleme bildirir.
+
+SORU A T.8.4.6. orta
+Okulunuzda yapılan başka bir işi (sınıf panosu hazırlama, kitaplık düzenleme, deney kurma gibi) seçiniz. Bu işin nasıl yapılacağını, sıra bildiren geçiş ifadeleri kullanarak beş basamakta yazınız.
+CEVAP Örnek (sınıf panosu hazırlama): Önce panonun konusunu ve başlığını belirleyin. Ardından konuyla ilgili yazıları ve görselleri toplayın. Sonra bunları panoya iğnelemeden önce masada dizerek yerleşimi deneyin. Daha sonra başlığı en üste, yazıları göz hizasına yerleştirip sabitleyin. Son olarak panoya uzaktan bakıp okunmayan yazıları büyütün.
+PUAN Beş basamağı doğru sırayla, her basamakta bir işlemle ve sıra bildiren ifadelerle (önce, ardından, sonra, son olarak gibi) yazan cevap tam puan alır. Sıra bozuksa ya da geçiş ifadeleri kullanılmamışsa kısmi puan verilir.
+
+BAĞLAM Gökyüzüne Bakmak
+TÜR İki kısa metin
+METİN 1. metin
+12 Ağustos, gece. Babamla şehrin ışıklarından uzaklaşmak için tepeye çıktık. Battaniyeyi otların üzerine serdik, sırtüstü uzandık. İlk yarım saat hiçbir şey olmadı; sabırsızlandım. Sonra gökyüzünde ince, beyaz bir çizgi belirip kayboldu. Ardından bir tane daha, bir tane daha... Saymayı bıraktım. Babam, "Dilek tuttun mu?" diye sordu. Tutmamıştım. O kadar çok yıldız kayıyordu ki hangisine yetişeceğimi şaşırmıştım.
+METİN 2. metin
+Halk arasında "yıldız kayması" denen olay, aslında yıldızlarla ilgili değildir. Uzayda dolaşan kum tanesi büyüklüğündeki parçacıklar, Dünya'nın atmosferine büyük bir hızla girer ve sürtünmeyle ısınıp ışık saçarak yanar. Gök bilimciler bu ışık izine "meteor" adını verir. Dünya, yılın belirli günlerinde bir kuyruklu yıldızın ardında bıraktığı toz bulutunun içinden geçer. O gecelerde saatte onlarca meteor görülebilir. Ağustos ortasındaki meteor yağmuru, bunların en bilinenlerindendir.
+
+SORU Ç T.8.3.26. orta
+Birinci metnin türü ve bu türü belirlemeye yarayan özelliği aşağıdakilerin hangisinde doğru verilmiştir?
+A) Makale; bir düşüncenin kanıtlarla savunulması
+B) Masal; olağanüstü olaylara yer verilmesi
+C) Günlük; yaşananların tarih atılarak içtenlikle anlatılması
+D) Haber yazısı; olayın nesnel bir dille aktarılması
+CEVAP C
+NEDEN Metin tarihle başlar, yazar o gün yaşadıklarını ve duygularını birinci kişi ağzından içtenlikle anlatır; bunlar günlüğün özellikleridir. Anlatım nesnel olmadığı için haber yazısı değildir.
+
+SORU Ç T.8.3.11. orta
+İkinci metinde ağırlıklı olarak hangi anlatım biçimi kullanılmıştır?
+A) Öyküleme
+B) Betimleme
+C) Tartışma
+D) Açıklama
+CEVAP D
+NEDEN İkinci metin bir olayın ne olduğunu ve nasıl gerçekleştiğini bilgi vererek anlatır; bu açıklamadır. Öyküleme birinci metnin anlatım biçimidir; iki metni karıştıran öğrenci A'yı seçer.
+
+SORU Ç T.8.3.5. orta
+Birinci metnin son cümlesindeki "yetişmek" sözcüğü hangi anlamda kullanılmıştır?
+A) Büyüyüp olgunlaşmak
+B) Bir şeyi kaçırmadan yakalamak
+C) Bir yere zamanında varmak
+D) Eğitim görerek hazırlanmak
+CEVAP B
+NEDEN Yazar, art arda kayan yıldızlardan hangisini kaçırmadan yakalayıp dilek tutacağını şaşırmıştır. C sözcüğün yaygın bir anlamıdır ama cümlede varılacak bir yer yoktur.
+
+SORU Ç T.8.4.18. orta
+İkinci metindeki "Gök bilimciler bu ışık izine "meteor" adını verir." cümlesinde aşağıdaki ögelerden hangisi *yoktur*?
+A) Zarf tamlayıcısı
+B) Özne
+C) Nesne
+D) Yer tamlayıcısı
+CEVAP A
+NEDEN "Gök bilimciler" özne, "bu ışık izine" yer tamlayıcısı, ""meteor" adını" nesne, "verir" yüklemdir. Cümlede yüklemi zaman, durum ya da miktar yönünden belirten bir öge yoktur.
+
+SORU A T.8.4.2. orta
+İki metinden yararlanarak "Meteor yağmuru nasıl izlenir?" başlıklı, beş altı cümlelik bilgilendirici bir paragraf yazınız. Paragrafınızda olayın ne olduğunu kısaca açıklayınız ve izlemek isteyenlere en az iki öneride bulununuz.
+CEVAP Örnek: Meteor yağmuru, Dünya'nın bir kuyruklu yıldızdan kalan toz bulutunun içinden geçtiği gecelerde görülür. Atmosfere giren küçük parçacıklar yanarak gökyüzünde ışık izleri bırakır. Bu olayı izlemek için şehir ışıklarından uzak, karanlık bir yer seçilmelidir. İlk izler hemen görülmeyebileceği için en az yarım saat sabırla beklemek gerekir. Sırtüstü uzanmak, gökyüzünün geniş bir bölümünü görmeyi kolaylaştırır.
+PUAN Olayı ikinci metne uygun biçimde açıklayan ve birinci metindeki deneyimden çıkarılan en az iki öneri sunan paragraf tam puan alır. Yalnız açıklama ya da yalnız öneri içeren paragraf kısmi puan alır. Günlük gibi kişisel anlatıma dönen yazı bilgilendirici sayılmaz.
+
+BAĞLAM Boş Zaman Anketi
+TÜR Haber metni ve tablo
+METİN
+Okul dergimiz, 8. sınıflar arasında "Boş zamanını nasıl geçiriyorsun?" başlıklı bir anket yaptı. Ankete 100 öğrenci katıldı. Sonuçlara göre öğrenciler hafta içi günlerde ekran başında, kitap başında geçirdikleri sürenin üç katı kadar zaman geçiriyor. DİKKAT ÇEKEN SONUÇ ise şu: Spor yapan öğrencilerin sayısı hafta sonu neredeyse iki katına çıkıyor. Anketi hazırlayan Melis, "Zamanımız yok demek kolay; tabloya bakınca zamanın nereye gittiği görülüyor." dedi.
+TABLO Bir günde ayrılan ortalama süre (dakika) ve etkinliği yapan öğrenci sayısı
+Etkinlik | Hafta içi süre | Hafta sonu süre | Hafta içi yapan öğrenci | Hafta sonu yapan öğrenci
+Ekran (telefon, tablet, televizyon) | 150 | 210 | 96 | 98
+Kitap okuma | 50 | 45 | 62 | 48
+Spor | 30 | 60 | 35 | 68
+Arkadaşlarla yüz yüze görüşme | 40 | 90 | 54 | 81
+
+SORU Ç T.8.3.32. orta
+Tabloya göre aşağıdakilerden hangisi söylenebilir?
+A) Hafta sonu, kitap okuma dışındaki bütün etkinliklere ayrılan süre artmaktadır.
+B) Hafta sonu kitap okuyan öğrenci sayısı, hafta içine göre artmaktadır.
+C) Hafta içi en az öğrencinin yaptığı etkinlik kitap okumadır.
+D) Arkadaşlarla görüşmeye ayrılan süre hafta içi ve hafta sonu aynıdır.
+CEVAP A
+NEDEN Ekran (150'den 210'a), spor (30'dan 60'a) ve arkadaşlarla görüşme (40'tan 90'a) süreleri artar; yalnız kitap okuma süresi azalır (50'den 45'e). Hafta içi en az öğrencinin yaptığı etkinlik spordur (35 öğrenci).
+
+SORU Ç T.8.3.28. kolay
+Haber metninde bir sonucun önemini vurgulamak için aşağıdakilerden hangisine başvurulmuştur?
+A) Sonucun tırnak içinde verilmesine
+B) Sonucun paragrafın başına yazılmasına
+C) Sonucu duyuran sözün büyük harflerle yazılmasına
+D) Sonucun birkaç kez yinelenmesine
+CEVAP C
+NEDEN "DİKKAT ÇEKEN SONUÇ" sözü büyük harflerle yazılarak okurun dikkati sonraki bilgiye çekilmiştir. Tırnak içinde verilenler anketin başlığı ve Melis'in sözüdür.
+
+SORU Ç T.8.3.8. orta
+Dergiye gönderilen aşağıdaki okur yorumlarının hangisinde anlatım bozukluğu vardır?
+A) Anket sonuçları beni çok düşündürdü.
+B) Hafta sonu daha çok spor yaptığımızı fark ettim.
+C) Kitap okumaya ayırdığım süreyi artıracağım.
+D) Ekran süremi azaltmayı ve spora başlayacağım.
+CEVAP D
+NEDEN "Ekran süremi azaltmayı" sözü "başlayacağım" yüklemine bağlanamaz; bu bölüm için ayrı bir yüklem gerekir ("azaltmayı düşünüyorum ve spora başlayacağım" gibi). Bozukluk yüklem eksikliğinden kaynaklanır.
+
+SORU Ç T.8.3.18. orta
+Aşağıdakilerden hangisi haber metninde verilen bilgilerden biri *değildir*?
+A) Ankete yüz öğrencinin katıldığı
+B) Öğrencilerin çoğunun kitap okumayı sevmediği
+C) Spor yapanların sayısının hafta sonu arttığı
+D) Hafta içi ekran süresinin kitap okuma süresinin üç katı olduğu
+CEVAP B
+NEDEN Metinde kitap okumaya ayrılan süreden söz edilir ama öğrencilerin kitap okumayı sevip sevmediği hakkında bilgi verilmez. B, süre bilgisinden tutum çıkaran öğrenciyi yakalar.
+
+SORU A T.8.4.14. orta
+Tablodaki verilerden yararlanarak anketin sonuçlarını sunan dört beş cümlelik bir yazı yazınız. Yazınızda en az üç sayısal veriye yer veriniz ve verilerden çıkardığınız bir sonuçla bitiriniz.
+CEVAP Örnek: Ankete katılan 100 öğrencinin 96'sı hafta içi ekran kullanıyor ve buna günde ortalama 150 dakika ayırıyor. Kitap okumaya ayrılan süre ise 50 dakikada kalıyor. Hafta sonu spor yapan öğrenci sayısı 35'ten 68'e çıkıyor, arkadaşlarla görüşme süresi de 40 dakikadan 90 dakikaya yükseliyor. Buna karşılık kitap okuyanların sayısı 62'den 48'e düşüyor. Bu veriler, öğrencilerin boş zamanı olduğunu ama bu zamanın en büyük bölümünü ekrana ayırdığını gösteriyor.
+PUAN Tabloyla tutarlı en az üç sayısal veri kullanan ve veriye dayalı bir sonuç bildiren yazı tam puan alır. Veriler doğru ama sonuç yoksa ya da iki veri kullanılmışsa kısmi puan verilir. Tabloyla çelişen veri puan almaz.

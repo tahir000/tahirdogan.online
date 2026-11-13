@@ -1,0 +1,398 @@
+# 6. sınıf hazır soru bankası. Biçim: araclar/banka_js.py dosyasının başında anlatılır.
+
+BAĞLAM Kelimelerin Yolculuğu
+TÜR Bilgilendirici metin
+TEMA Dilimizin Zenginliği
+METİN
+Türkçe, yeni kavramlara ad bulmakta zorlanmayan bir dildir. Bunun en önemli nedeni, sözcük türetme yollarının çokluğudur.
+Birinci yol, bir köke ek getirmektir. Türetme, var olan bir sözcükten yeni anlamlı bir sözcük elde etmek demektir. "Göz" kökünü ele alalım: Gözle ilgili aleti karşılamak için "gözlük", gözetleme işini yapan kişi için "gözcü", dikkatle bakıp inceleme işi için "gözlem" sözcüğü türetilmiştir. Kök aynıdır ama her ek, sözcüğe başka bir görev yükler.
+İkinci yol, iki sözcüğü birleştirmektir. "Buz" ile "dolap" yan yana gelince "buzdolabı", "bilgi" ile "sayar" bir araya gelince "bilgisayar" ortaya çıkmıştır.
+Bu yollar sayesinde dilimiz, yabancı bir sözcüğü olduğu gibi almak yerine kendi malzemesiyle karşılık üretebilir. Bir dilin gücü yalnız sözcüklerinin sayısıyla değil, yeni sözcük kurma becerisiyle de ölçülür.
+
+SORU Ç T.O.6.6. kolay
+Metne göre Türkçenin yeni kavramlara kolayca ad bulabilmesinin en önemli nedeni nedir?
+A) Başka dillerden çok sayıda sözcük alması
+B) Sözcük türetmek için birçok yolunun olması
+C) Sözcüklerinin kısa ve kolay söylenmesi
+D) Her kavram için eski bir sözcük bulunması
+CEVAP B
+NEDEN İlk paragrafta neden açıkça verilir: sözcük türetme yollarının çokluğu. A metnin son paragrafıyla çelişir; C ve D metinde yer almaz.
+
+SORU Ç T.O.6.16. orta
+Aşağıdaki sözcük gruplarından hangisi metnin anahtar kelimelerini en iyi karşılar?
+A) gözlük, gözcü, gözlem
+B) buz, dolap, bilgi
+C) yabancı sözcük, sayı, güç
+D) türetme, kök, ek, birleştirme
+CEVAP D
+NEDEN Metin sözcük türetmenin iki yolunu (köke ek getirme, sözcük birleştirme) anlatır; D bu içeriği karşılar. A ve B metindeki örneklerdir, anahtar kelime değil ayrıntıdır.
+
+SORU Ç T.O.6.19. orta
+İkinci paragrafın ikinci cümlesinde yazar "türetme"nin ne olduğunu açıklamıştır.
+Yazar bu cümlede hangi düşünceyi geliştirme yoluna başvurmuştur?
+A) Tanımlama
+B) Örnekleme
+C) Karşılaştırma
+D) Tanık gösterme
+CEVAP A
+NEDEN Cümle "Türetme nedir?" sorusuna cevap verir; bu tanımlamadır. Örnekleme bir sonraki cümlede ("göz" kökü) başlar; iki cümleyi ayıramayan öğrenci B'yi seçer.
+
+SORU A T.O.6.21. orta
+"Kitap" sözcüğüne ek getirerek üç yeni sözcük türetiniz. Türettiğiniz sözcüklerden ikisinin anlamını, metindeki "göz" örneğinde olduğu gibi birer cümleyle açıklayınız.
+CEVAP Örnek: kitaplık, kitapçı, kitapsız. Kitaplık, kitapların konduğu yeri ya da dolabı karşılar. Kitapçı, kitap satan kişiyi ya da yeri karşılar.
+PUAN Üç doğru türetme ve iki doğru açıklama tam puan alır. Çekim ekiyle yapılan biçimler (kitaplar, kitabı) türetme sayılmaz; bunları yazan ya da açıklama yapmayan cevap kısmi puan alır.
+
+SORU A T.O.6.23. orta
+Metni, iki türetme yolunu da içerecek biçimde ve kendi cümlelerinizle en çok üç cümlede özetleyiniz.
+CEVAP Örnek: Türkçe, yeni kavramlara kendi olanaklarıyla ad bulabilen bir dildir. Bunu ya bir köke ek getirerek ya da iki sözcüğü birleştirerek yapar. Bu beceri, dilin yabancı sözcüklere karşılık üretmesini sağlar.
+PUAN İki yolu ve bunun dile kazandırdığını kendi cümleleriyle veren özet tam puan alır. Örnekleri (gözlük, buzdolabı) sıralayıp ana bilgiyi vermeyen ya da yollardan birini atlayan cevap kısmi puan alır.
+
+BAĞLAM Kağnının Sesi
+TÜR Öyküleyici metin
+TEMA Bağımsızlık Yolu
+METİN
+Kastamonu'daki evimizin sofasında eski bir kağnı tekerleği asılıdır. Küçükken onu sıradan bir süs sanırdım. Geçen yaz babaannem tekerleğin önünde durdu ve anlatmaya başladı.
+"Bu tekerlek, ninemin kağnısından kaldı. Kurtuluş Savaşı yıllarında İnebolu'ya gemilerle cephane gelirmiş. Erkekler cephedeymiş; cephaneyi Ankara yoluna kadınlar taşırmış. Ninem o kış on yedi yaşındaymış."
+Babaannem tekerleğin çatlak tahtasına dokundu.
+"Bir gece tipi bastırmış. Ninem, üzerindeki yün örtüyü çıkarıp sandıkların üstüne sermiş. Yol arkadaşı, 'Donacaksın kızım!' demiş. Ninem dişini sıkmış, 'Ben ıslanırsam kururum, mermi ıslanırsa işe yaramaz.' demiş. Sabaha kadar öküzlerin yanında yürümüş."
+Sofada bir süre konuşmadık. Sonra babaannem gülümsedi: "Kağnı gıcırdar derler. Ninem o sesi hiç sevmezmiş. Savaş bitince 'Artık gıcırtıyı duyunca korkmuyorum, içim ısınıyor.' dermiş."
+O günden beri tekerleğin önünden geçerken yavaşlıyorum. Bana artık bir süs gibi görünmüyor.
+
+SORU Ç T.O.6.14. orta
+Babaannenin anlattığı olayın kahramanı, yeri ve zamanı aşağıdakilerin hangisinde doğru verilmiştir?
+A) Babaanne, Kastamonu'daki ev, geçen yaz
+B) Anlatıcı çocuk, Ankara yolu, bir yaz gecesi
+C) Babaannenin ninesi, cephane yolu, bir kış gecesi
+D) Yol arkadaşı, İnebolu limanı, savaşın son günü
+CEVAP C
+NEDEN Metinde iç içe iki anlatım vardır. Babaannenin anlattığı olayda kahraman ninedir, olay savaş yıllarında bir kış gecesi cephane yolunda geçer. A, olayın anlatıldığı çerçeveyi (ev, geçen yaz) olayın kendisiyle karıştıran öğrenciyi yakalar.
+
+SORU Ç T.O.6.8. orta
+Ninenin yün örtüsünü sandıkların üstüne sermesi, onun hangi özelliğini gösterir?
+A) Görevini kendi rahatından üstün tuttuğunu
+B) Soğuğa karşı çok dayanıklı olduğunu
+C) Yolu arkadaşından daha iyi tanıdığını
+D) Kağnıyı kullanmayı iyi bildiğini
+CEVAP A
+NEDEN Nine, donma tehlikesine rağmen örtüsünü cephaneyi korumak için kullanır ve nedenini de söyler. B, davranışın nedenini değil sonucunu düşünen öğrencinin seçeceği çeldiricidir; metinde ninenin üşümediği söylenmez.
+
+SORU Ç T.O.6.5. orta
+Metindeki "dişini sıkmak" deyimi, geçtiği cümleye göre hangi anlamda kullanılmıştır?
+A) Çok öfkelenip karşısındakine bağırmak
+B) Bir işi yarıda bırakıp vazgeçmek
+C) Korkusunu çevresindekilerden saklamak
+D) Güç bir duruma sabırla katlanmak
+CEVAP D
+NEDEN Nine tipide örtüsüz kalmayı göze alır ve sabaha kadar yürür; deyim bu katlanmayı anlatır. B deyimin tam tersidir; A, "diş" sözcüğünden öfke anlamı çıkaran öğrenciyi yakalar.
+
+SORU A T.O.6.9. zor
+Anlatıcı metnin başında tekerleği "sıradan bir süs" sanmakta, sonunda ise "Bana artık bir süs gibi görünmüyor." demektedir.
+Anlatıcının bakışını değiştiren nedir ve tekerlek onun için artık neyi temsil etmektedir? Metnin bütününden yararlanarak açıklayınız.
+CEVAP Örnek: Babaannesinin anlattıklarıyla tekerleğin, ninesinin savaş yıllarında cephane taşıdığı kağnıdan kaldığını öğrenir. Tekerlek artık bir süs değil; ailesinin geçmişini, ninesinin özverisini ve bağımsızlık için verilen emeği hatırlatan bir hatıradır.
+PUAN Değişimin nedenini (anlatılan olay) ve tekerleğin yeni anlamını (özveri, mücadele, aile geçmişi gibi) birlikte veren cevap tam puan alır. Yalnız olayı özetleyen cevap kısmi puan alır.
+
+SORU A T.Y.6.4. orta
+Ailenizde ya da çevrenizde size öyküsü anlatılan eski bir eşyayı, fotoğrafı ya da olayı düşününüz. Bu ön bilginizi metindeki tekerlekle ilişkilendiren dört beş cümlelik bir yazı yazınız.
+CEVAP Örnek: Dedemin çekmecesinde eski bir cep saati durur. Dedem bu saati, babasının ilk maaşıyla aldığını anlatmıştı. Metindeki tekerlek gibi bu saat de dışarıdan bakınca sıradan bir eşya. Öyküsünü öğrendikten sonra ona başka bir gözle bakmaya başladım. Eşyaları değerli kılan, taşıdıkları anılarmış.
+PUAN Kendi ön bilgisini (anı, gözlem, anlatılan olay) açıkça yazan ve bunu metindeki tekerlekle ilişkilendiren yazı tam puan alır. Yalnız metni yeniden anlatan ya da ilişki kurmayan yazı kısmi puan alır.
+
+BAĞLAM Raftaki Kapı
+TÜR Şiir
+TEMA Farklı Dünyalar
+ŞİİR Raftaki Kapı
+Rafımda bekler bir kitap,
+Kapı gibi aralanır.
+Sorularıma bir cevap
+Sayfalarında canlanır.
+
+"Gel." der bana usul usul,
+Tutar elimden götürür.
+Bin dünya gezdirir masal,
+Yormadan geri döndürür.
+
+SORU Ç T.O.6.18. orta
+Şiirin biçim özellikleriyle ilgili aşağıdakilerden hangisi doğrudur?
+A) Dörtlüklerle ve sekizli hece ölçüsüyle yazılmıştır.
+B) Beyitlerle ve yedili hece ölçüsüyle yazılmıştır.
+C) Tek bentle ve ölçüsüz olarak yazılmıştır.
+D) Dörtlüklerle ve on birli hece ölçüsüyle yazılmıştır.
+CEVAP A
+NEDEN Şiir dörder dizelik iki bölümden oluşur ve her dizede sekiz hece vardır. D birim adını doğru, hece sayısını yanlış verir; heceleri saymadan cevaplayan öğrenci bu seçeneğe yönelir.
+
+SORU Ç T.O.6.20. orta
+İkinci dörtlüğün ilk iki dizesinde kitabın "Gel." demesi ve şairin elinden tutması anlatılmaktadır.
+Bu dizelerde hangi söz sanatı kullanılmıştır?
+A) Benzetme
+B) Abartma
+C) Kişileştirme
+D) Karşıtlık
+CEVAP C
+NEDEN Konuşmak ve elden tutmak insana özgü davranışlardır; kitaba verilmiştir. Benzetme ilk dörtlükte ("Kapı gibi"), abartma ise üçüncü dizede ("Bin dünya") vardır; dizeleri karıştıran öğrenci A ya da B'yi seçer.
+
+SORU Ç T.O.6.9. orta
+Şiirin bütününe göre şair kitabı nasıl bir varlık olarak görmektedir?
+A) Rafta unutulmuş, tozlu bir eşya
+B) Okuru başka dünyalara açan bir geçit
+C) Zor sorular soran sert bir öğretmen
+D) Odayı süsleyen değerli bir armağan
+CEVAP B
+NEDEN Kitap kapıya benzetilir, okuru alıp "bin dünya" gezdirir ve geri getirir; bu, kitabın bir geçit olarak görüldüğünü gösterir. C, "sorularıma bir cevap" dizesini tersinden okuyan öğrenciyi yakalar.
+
+SORU A T.Y.6.7. orta
+Şiirdeki kitabın sizi götürdüğü "bin dünya"dan birini hayal ediniz. O dünyaya vardığınız ilk anı anlatan, içinde en az bir alışılmadık varlık ya da olay bulunan beş altı cümlelik bir yazı yazınız.
+CEVAP Örnek: Sayfayı çevirdiğimde ayaklarımın altındaki halı kuma dönüştü. Gökyüzünde iki güneş vardı; biri mavi, öteki turuncuydu. Yanıma konuşan bir kaplumbağa geldi ve yolu bildiğini söyledi. Kabuğundaki çizgiler aslında bir haritaydı. Onu izleyerek camdan yapılmış bir şehre doğru yürüdüm.
+PUAN Alışılmadık en az bir varlık ya da olay içeren, olayları birbirine bağlayan ve ilk anı anlatan özgün yazı tam puan alır. Bilinen bir masalı ya da filmi yeniden anlatan yazı kısmi puan alır.
+
+SORU A T.Y.6.19. orta
+"Kitap okumak insanın bilgisini artırır." cümlesindeki açık iletiyi, şiirdeki gibi bir söz sanatı ya da mecaz kullanarak örtük biçimde yeniden yazınız. Kullandığınız söz sanatını belirtiniz.
+CEVAP Örnek: "Her kitap zihnime yeni bir pencere açar." (mecaz, benzetme) ya da "Kitaplar bana her gün yeni bir sır fısıldar." (kişileştirme).
+PUAN İletiyi koruyan, söz sanatı ya da mecaz içeren cümle ve doğru adlandırma tam puan alır. Cümle uygun ama adlandırma yanlış ya da eksikse kısmi puan verilir.
+
+BAĞLAM Fasulye Günlüğü
+TÜR Deney anlatımı ve tablo
+TEMA Bilim ve Teknoloji
+METİN
+6/A sınıfı, ışığın bitki büyümesine etkisini görmek için bir deney kurdu. Önce aynı boyda üç saksıya aynı topraktan eşit miktarda kondu. Ardından her saksıya üçer fasulye tohumu ekildi. Saksılara A, B ve C harfleri yazıldı.
+Sonra saksılar farklı yerlere yerleştirildi: A saksısı güneş alan pencere önüne, B saksısı loş koridora, C saksısı kapalı bir dolaba kondu. Her saksıya iki günde bir yarım bardak su verildi; su miktarı hiç değiştirilmedi.
+Öğrenciler dördüncü günden başlayarak dört günde bir fidelerin boyunu cetvelle ölçtü ve sonuçları tabloya yazdı. Son gün fidelerin rengine ve gövdesinin durumuna da baktılar.
+TABLO Fidelerin boyu (santimetre)
+Gün | A saksısı (pencere önü) | B saksısı (koridor) | C saksısı (dolap)
+4. gün | 1 | 1 | 2
+8. gün | 4 | 3 | 6
+12. gün | 8 | 5 | 10
+16. gün | 12 | 6 | 11
+Son gün gözlemi | Koyu yeşil, dik | Açık yeşil, hafif eğik | Sarı, ince ve yatık
+
+SORU Ç T.O.6.7. orta
+Tabloya göre aşağıdakilerden hangisi doğrudur?
+A) B saksısındaki fide her ölçümde en uzun fidedir.
+B) A saksısındaki fide 8. günden sonra uzamamıştır.
+C) Üç saksıdaki fidelerin boyu 16. günde eşitlenmiştir.
+D) C saksısındaki fide 12. güne kadar en uzun fidedir.
+CEVAP D
+NEDEN İlk üç ölçümde en yüksek değer C sütunundadır (2, 6, 10); 16. günde A saksısı öne geçer. "Işıksız ortamda bitki hiç büyümez" ön yargısıyla tabloyu okumayan öğrenci bu seçeneği eler.
+
+SORU Ç T.O.6.15. orta
+Metinde bilgiler aşağıdaki yapılardan hangisine göre düzenlenmiştir?
+A) Bir sorunu ve çözümünü anlatma
+B) İşlemleri yapılış sırasına göre anlatma
+C) İki farklı görüşü karşılaştırma
+D) Bir kavramı tanımlayıp örnekleme
+CEVAP B
+NEDEN "Önce", "ardından", "sonra" gibi sözler ve işlemlerin sırası, metnin sıralı (kronolojik) yapıda olduğunu gösterir. Metinde çözülmesi gereken bir sorun ya da karşılaştırılan görüşler yoktur.
+
+SORU Ç T.O.6.22. orta
+Tablonun metne göre işlevi aşağıdakilerden hangisidir?
+A) Metinde anlatılan bilgileri aynen tekrar etmek
+B) Deneyde kullanılan malzemeleri tanıtmak
+C) Metinde yer almayan deney sonuçlarını sunmak
+D) Deneyin hangi sırayla yapıldığını göstermek
+CEVAP C
+NEDEN Metin deneyin nasıl kurulduğunu anlatır ama ölçüm sonuçlarını vermez; sonuçlar yalnız tablodadır. Tablo bu yüzden tek başına anlam taşır. A, tabloyu metnin tekrarı sanan öğrenciyi yakalar.
+
+SORU A T.Y.6.8. zor
+Deney 20. güne kadar sürdürülseydi C saksısındaki fideye ne olurdu? Tablodaki ölçümlere ve son gün gözlemine dayanarak tahmininizi ve gerekçenizi üç dört cümleyle yazınız.
+CEVAP Örnek: C saksısındaki fide büyük olasılıkla daha fazla uzamaz, belki de kururdu. Çünkü 12. günden 16. güne yalnız 1 santimetre uzamış; ayrıca sararmış, incelmiş ve yatmış. Bu, ışıksız ortamda sağlıklı büyüyemediğini gösteriyor.
+PUAN Tahminini hem ölçümlere (uzamanın yavaşlaması) hem gözleme (sararma, yatma) dayandıran yazı tam puan alır. Yalnız birine dayanan ya da gerekçesiz tahmin kısmi puan alır. Verilerle çelişen tahmin ("en uzun fide olmayı sürdürürdü") puan almaz.
+
+SORU A T.O.6.12. orta
+Metinde anlatılan deney koşullarını "bütün saksılarda aynı tutulanlar" ve "saksıdan saksıya değiştirilen" olmak üzere iki gruba ayırarak yazınız.
+CEVAP Aynı tutulanlar: saksının boyu, toprağın türü ve miktarı, tohumun türü ve sayısı, verilen su miktarı ve sulama sıklığı. Değiştirilen: saksının konduğu yer, yani aldığı ışık.
+PUAN Aynı tutulan en az üç koşulu ve değiştirilen koşulu doğru gruplandıran cevap tam puan alır. Bir koşulu yanlış gruba koyan ya da aynı tutulanlardan yalnız birini yazan cevap kısmi puan alır.
+
+BAĞLAM Teneffüste Telefon
+TÜR İki okur yazısı
+TEMA İletişim ve Sosyal İlişkiler
+METİN 1. yazı: Defne (6/C)
+Bence teneffüste telefon kullanmak serbest olmalı. Derste zaten dikkatimizi veriyoruz; on dakikalık arada biraz dinlenmek hakkımız. Geçen hafta kardeşim hastaydı, annemi arayıp nasıl olduğunu öğrenemediğim için bütün gün aklım evde kaldı. Ayrıca telefonda ders tekrarı yapılabilecek uygulamalar da var. Elbette derste telefonun kapalı kalması gerektiğini ben de kabul ediyorum.
+METİN 2. yazı: Kerem (6/A)
+Teneffüste telefon serbest olursa kimse kimseyle konuşmaz. Zaten herkes telefon bağımlısı. Geçen yıl kuzenimin okulunda telefon serbestti; kuzenim, teneffüslerde bahçenin boş kaldığını ve arkadaşlarıyla oyun oynayamadığını anlattı. Teneffüs, gözümüzü dinlendirmek ve hareket etmek için var. Acil durumda aileler okul idaresini arayabilir. Derste telefonun yeri olmadığını söylemeye bile gerek yok.
+
+SORU Ç T.O.6.11. orta
+İki yazarın üzerinde anlaştığı görüş aşağıdakilerden hangisidir?
+A) Teneffüsler dinlenmek için yeterince uzun değildir.
+B) Telefon, arkadaşlık ilişkilerini güçlendiren bir araçtır.
+C) Ders sırasında telefon kullanılmamalıdır.
+D) Aileler çocuklarına her an ulaşabilmelidir.
+CEVAP C
+NEDEN Defne derste telefonun kapalı kalması gerektiğini kabul eder, Kerem de derste telefonun yeri olmadığını söyler. D yalnız Defne'nin örneğine, B ise hiçbir yazara dayanmaz.
+
+SORU Ç T.O.6.24. zor
+Kerem'in yazısındaki cümlelerden hangisi, hiçbir gözleme ya da örneğe dayanmayan bir genellemedir?
+A) Kuzeninin okulunda bahçenin boş kaldığını anlattığı cümle
+B) Teneffüsün ne için var olduğunu söylediği cümle
+C) Ailelerin okul idaresini arayabileceğini söylediği cümle
+D) Herkesin telefon bağımlısı olduğunu söylediği cümle
+CEVAP D
+NEDEN "Zaten herkes telefon bağımlısı." cümlesi bütün öğrencileri kapsayan, kanıtı gösterilmeyen bir genellemedir. A bir gözleme dayanır; B ve C genelleme değil, amaç ve olanak bildiren cümlelerdir.
+
+SORU Ç T.Y.6.20. orta
+Defne yazısını şu cümleyle bitirmek istiyor: "Teneffüste telefon serbest olsun, ---- bunun kuralları birlikte belirlensin."
+Boş bırakılan yere aşağıdakilerden hangisi getirilirse cümle, Defne'nin bir şart öne sürdüğünü gösterir?
+A) yeter ki
+B) çünkü
+C) örneğin
+D) kısacası
+CEVAP A
+NEDEN "Yeter ki" bir isteğin hangi şartla kabul edildiğini bildirir. "Çünkü" neden, "örneğin" örnek, "kısacası" özet anlamı katar; bağlantı ifadelerinin işlevini karıştıran öğrenci bunlara yönelir.
+
+SORU A T.Y.6.14. zor
+İki yazıdan birini seçiniz. Seçtiğiniz yazıdaki bir görüşe, öteki yazıdaki bilgilerden de yararlanarak itiraz eden ve kendi gerekçenizi içeren dört beş cümlelik bir cevap yazısı yazınız.
+CEVAP Örnek: Kerem, telefon serbest olursa kimsenin konuşmayacağını söylüyor ama bu görüş tek bir okuldan duyduğu örneğe dayanıyor. Defne'nin anlattığı gibi telefon bazen gerçek bir ihtiyaçtır: Hasta kardeşini merak eden bir öğrenci derse de oyuna da kendini veremez. Bence çözüm tam yasak değil, sınırlı izin olmalı. Telefon yalnız öğle arasında ve belirli bir alanda kullanılabilir. Böylece hem bahçe boş kalmaz hem de ihtiyacı olan ailesine ulaşır.
+PUAN İtiraz edilen görüşü açıkça belirten, öteki yazıdan bir bilgi kullanan ve kendi gerekçesini ekleyen yazı tam puan alır. Yalnız "katılmıyorum" diyen ya da karşı görüşü çürütmeden kendi görüşünü yazan cevap kısmi puan alır.
+
+SORU A T.O.6.25. zor
+Defne'nin yazısını "gerekçelerin yeterliliği" bakımından eleştiriniz: Güçlü bulduğunuz bir gerekçeyi ve zayıf bulduğunuz bir gerekçeyi nedenleriyle yazınız, zayıf gerekçenin nasıl güçlendirilebileceğini öneriniz.
+CEVAP Örnek: Güçlü gerekçe hasta kardeş örneğidir, çünkü yaşanmış ve somut bir duruma dayanır. Zayıf gerekçe ders tekrarı uygulamalarıdır, çünkü öğrencilerin teneffüste bu uygulamaları gerçekten kullandığını göstermez. Öneri: Sınıfta yapılacak küçük bir anketin sonucu ya da belirli bir uygulamanın nasıl kullanıldığına dair bir örnek eklenebilir.
+PUAN Güçlü ve zayıf gerekçeyi nedenleriyle veren ve bir iyileştirme önerisi sunan cevap tam puan alır. Yalnız beğenip beğenmediğini yazan ya da öneri sunmayan cevap kısmi puan alır.
+
+BAĞLAM Kapıdaki Kalabalık
+TÜR Öyküleyici metin
+TEMA Lider Ruhlar
+METİN
+Okulun arka kapısı dar bir sokağa açılıyordu. Çıkış zili çaldığında yüzlerce öğrenci aynı anda bu kapıya yöneliyor, sokaktan geçen arabalarla burun buruna geliyordu. Bir gün birinci sınıftan bir çocuk kalabalıkta itilip düştü. Dizi kanamıştı.
+Ertesi gün öğrenci meclisi toplandı. 7. sınıftan Baran hemen söz aldı: "Çözüm basit. Nöbetçi öğrenciler kapıda dursun, koşanın adını yazsın." Birkaç kişi başını salladı.
+Meclis başkanı İpek, kimseyi yanıtlamadan önce defterini açtı. "Karar vermeden önce sorunu görelim." dedi. O hafta her çıkışta kapının yanında durdu; kalabalığın hangi dakikalarda arttığını, arabaların ne sıklıkla geçtiğini not etti. Sonra birinci sınıfların öğretmeniyle, kapının karşısındaki bakkalla ve iki veliyle konuştu.
+Sonraki toplantıda notlarını okudu: Kalabalık yalnız ilk beş dakikada oluyordu. İpek üç öneri sundu ve hangisinin seçileceğini oylamaya bıraktı. Meclis, küçük sınıfların beş dakika erken çıkmasına karar verdi. Baran da nöbet çizelgesini hazırlamayı üstlendi.
+İki hafta sonra arka kapıda kimse koşmuyordu.
+
+SORU Ç T.O.6.17. orta
+Aşağıdakilerden hangisi metnin çözüm bölümünde yer alır?
+A) Birinci sınıf öğrencisinin kalabalıkta düşmesi
+B) Meclisin küçük sınıfları erken çıkarma kararı
+C) Baran'ın nöbetçilerle ilgili öneride bulunması
+D) İpek'in çıkışlarda kapının yanında not tutması
+CEVAP B
+NEDEN A serim bölümündeki olaydır; C ve D sorunun tartışıldığı ve incelendiği düğüm bölümüne aittir. Sorunun çözüldüğü yer, meclisin kararı ve iki hafta sonraki durumdur.
+
+SORU Ç T.O.6.10. orta
+Baran ile İpek'in soruna yaklaşımı arasındaki temel fark aşağıdakilerden hangisidir?
+A) Baran hemen çözüm önerir, İpek önce sorunu inceler.
+B) Baran sorunu önemsemez, İpek çok önemser.
+C) Baran öğretmenlere danışır, İpek tek başına karar verir.
+D) Baran oylama ister, İpek oylamaya karşı çıkar.
+CEVAP A
+NEDEN Baran toplantının başında hazır bir çözüm söyler; İpek bir hafta gözlem yapar, ilgililerle konuşur, sonra öneri sunar. C ve D kişilerin davranışlarını ters çevirir; B'nin metinde dayanağı yoktur, Baran da çözüm aramaktadır.
+
+SORU Ç T.O.6.26. orta
+Metindeki sorun aşağıdakilerin hangisinde en doğru biçimde tanımlanmıştır?
+A) Öğrenci meclisinin toplantılarına katılımın az olması
+B) Nöbetçi öğrencilerin görev yerlerinde bulunmaması
+C) Okulun arka kapısının çıkışlarda kapalı tutulması
+D) Çıkışta dar kapıda oluşan kalabalığın tehlike yaratması
+CEVAP D
+NEDEN İlk paragraf sorunu verir: Dar kapı, aynı anda çıkan öğrenciler, sokaktan geçen arabalar ve düşen çocuk. B, Baran'ın önerisini sorunun kendisi sanan öğrenciyi yakalar.
+
+SORU A T.Y.6.16. zor
+Okulunuzda ya da çevrenizde gözlemlediğiniz küçük bir sorunu seçiniz. İpek'in izlediği yolu örnek alarak sorunu tanımlayan, iki çözüm seçeneği sunan ve bunlardan birini gerekçesiyle seçen beş altı cümlelik bir yazı yazınız.
+CEVAP Örnek: Okulumuzun kantin sırası teneffüsün yarısını alıyor. Sıranın en çok ikinci teneffüste uzadığını gözlemledim. Birinci çözüm, ikinci bir satış noktası açmak; ikinci çözüm, sınıfların kantine farklı teneffüslerde yönlendirilmesi. İkinci satış noktası için yer ve görevli gerekir. Bu yüzden sınıfların sırayla yönlendirilmesini daha uygun buluyorum, çünkü ek bir harcama gerektirmiyor.
+PUAN Sorunu gözleme dayanarak tanımlayan, iki seçenek sunan ve birini gerekçeyle seçen yazı tam puan alır. Tek çözüm yazan ya da seçimini gerekçelendirmeyen yazı kısmi puan alır.
+
+SORU A T.Y.6.13. orta
+"İyi bir lider karar vermeden önce bilgi toplar ve kararı birlikte aldırır." ölçütüne göre İpek'in davranışlarını değerlendiren üç dört cümlelik bir yazı yazınız. Değerlendirmenizi metinden iki örnekle destekleyiniz.
+CEVAP Örnek: İpek bu ölçüte uygun davranmıştır. Karar vermeden önce bir hafta boyunca çıkışları gözlemlemiş, öğretmenle, bakkalla ve velilerle konuşmuştur. Sonra tek başına karar vermek yerine üç öneri sunup seçimi oylamaya bırakmıştır. Bu yüzden onu iyi bir lider olarak değerlendiriyorum.
+PUAN Ölçütün iki yönünü de (bilgi toplama, birlikte karar) metinden örnekle karşılaştırıp bir yargıya varan yazı tam puan alır. Tek örnek veren ya da yargı bildirmeyen yazı kısmi puan alır.
+
+BAĞLAM Gezi Yazısı Taslağı
+TÜR Öğrenci taslağı
+METİN
+Deniz, sınıf dergisi için müze gezisini anlatan bir yazı hazırlıyor. Amacı, müzeyi görmeyen arkadaşlarının orayı gözünde canlandırmasını sağlamak. Yazısının ilk taslağı aşağıdadır.
+KUTU Deniz'in taslağı
+(1) Cumartesi günü sınıfça şehir müzesine gittik.
+(2) Müze çok güzeldi, bahçesi de çok güzeldi.
+(3) Giriş katında ki eski haritalar en çok ilgimi çeken şey oldu.
+(4) Rehberimiz, haritaların elle çizildiğini söyledi.
+(5) Üst katta eski bir okul sırası, mürekkep hokkası ve kamış kalem vardı.
+(6) Arkadaşım Bora sıranın üzerindeki yazıları okumaya çalıştı ama başaramadı.
+(7) Sizde bir gün bu müzeyi mutlaka görün.
+
+SORU Ç T.Y.6.21. orta
+(5) numaralı cümlede virgül hangi görevde kullanılmıştır?
+A) Sıralı cümleleri birbirinden ayırmak
+B) Hitap sözünden sonra durmak
+C) Cümlenin öznesini belirtmek
+D) Eş görevli söz gruplarını ayırmak
+CEVAP D
+NEDEN Virgül, cümlede art arda sayılan eş görevli söz gruplarını (okul sırası, mürekkep hokkası) ayırmıştır. Sıralı cümleleri ayıran virgül (2) numaralı, özneyi belirten virgül (4) numaralı cümlededir; cümleleri karıştıran öğrenci A ya da C'yi seçer.
+
+SORU Ç T.Y.6.3. orta
+Deniz'in amacı düşünüldüğünde taslağa aşağıdaki cümlelerden hangisinin eklenmesi en uygundur?
+A) Müzeler, geçmişi öğrenmek isteyenler için çok önemli yerlerdir.
+B) Müzeye otobüsle gittik, yolculuğumuz yarım saat kadar sürdü.
+C) Haritaların sararmış kenarlarında incecik mavi çizgiler vardı.
+D) Gelecek ay da sınıfça bilim merkezine bir gezi düzenlenecek.
+CEVAP C
+NEDEN Deniz okurun müzeyi gözünde canlandırmasını istiyor; bunu renk ve biçim ayrıntısı veren betimleyici bir cümle sağlar. A genel bir yargı, B ve D gezinin müze dışındaki ayrıntılarıdır.
+
+SORU Ç T.Y.6.18. orta
+(2) numaralı cümledeki söz tekrarını gidermek ve anlatımı zenginleştirmek isteyen Deniz, bu cümleyi aşağıdakilerden hangisiyle değiştirmelidir?
+A) Müze çok güzeldi, bahçesi ise çok ama çok güzeldi, gerçekten güzeldi.
+B) Müzenin taş binası görkemliydi, bahçesi renk renk çiçeklerle doluydu.
+C) Müze güzeldi, güzel bir bahçesi ve güzel ağaçları da vardı.
+D) Müze de bahçe de çok güzeldi, biz de orayı çok beğendik.
+CEVAP B
+NEDEN B'de "güzel" sözü yinelenmez; bina ve bahçe farklı sözcüklerle, ayrıntı verilerek anlatılır. Öteki seçenekler aynı sözcüğü yinelemeyi sürdürür.
+
+SORU A T.Y.6.21. orta
+Taslakta "ki" ve "de"nin yazımıyla ilgili iki yanlış vardır. Yanlış yazılan sözleri bulunuz, bu sözlerin geçtiği cümleleri doğru biçimde yeniden yazınız ve her yanlışın nedenini kısaca açıklayınız.
+CEVAP (3) Giriş katındaki eski haritalar en çok ilgimi çeken şey oldu. Buradaki "-ki" ektir, sözcüğe bitişik yazılır. (7) Siz de bir gün bu müzeyi mutlaka görün. Buradaki "de" bağlaçtır, ayrı yazılır.
+PUAN İki yanlışı bulup düzelten ve nedenini yazan cevap tam puan alır. Yanlışları düzelten ama neden göstermeyen ya da yalnız birini bulan cevap kısmi puan alır. (2) numaralı cümledeki doğru yazılmış "de"yi yanlış sayan cevap o bölümden puan alamaz.
+
+SORU A T.Y.6.17. orta
+Deniz, (5) numaralı cümleden sonra eski okul araçlarını bugünkülerle karşılaştıran bir cümle eklemek istiyor. Karşılaştırma yoluyla düşünceyi geliştiren bir cümle yazınız.
+CEVAP Örnek: Biz bugün tükenmez kalemle hızlıca yazarken o günün öğrencileri kamış kalemi sık sık mürekkebe batırmak zorundaymış.
+PUAN Eski ve yeni araçları ortak bir özellik üzerinden (yazma hızı, kullanım kolaylığı gibi) karşılaştıran cümle tam puan alır. Yalnız bir dönemi anlatan ya da karşılaştırma içermeyen cümle kısmi puan alır.
+
+BAĞLAM Kütüphane Haftası
+TÜR Afiş ve etkinlik çizelgesi
+KUTU Okul panosundaki afiş
+KÜTÜPHANE HAFTASI BAŞLIYOR!
+Bu yılın konusu: "Bir Kitap, Bir Yolculuk"
+Hafta boyunca her gün öğle arasında bir etkinlik var.
+Etkinliklere katılmak için kütüphanedeki listeye adınızı yazmanız yeterli.
+Her etkinliğe en çok 20 kişi katılabilir.
+Haftanın sonunda en çok etkinliğe katılan üç öğrenciye kitap armağan edilecek.
+TABLO Etkinlik çizelgesi
+Gün | Etkinlik | Yer | Kimler katılabilir
+Pazartesi | Yazarla söyleşi: "Bir öykü nasıl doğar?" | Konferans salonu | Bütün sınıflar
+Salı | Sesli kitap dinletisi | Kütüphane | 5 ve 6. sınıflar
+Çarşamba | Kitap ayracı atölyesi | Resim atölyesi | 5 ve 6. sınıflar
+Perşembe | Kitap kurdu bilgi yarışması | Spor salonu | 7 ve 8. sınıflar
+Cuma | Kitap takas şenliği | Okul bahçesi | Bütün sınıflar
+
+SORU Ç T.O.6.3. orta
+6. sınıf öğrencisi Elif, yalnız kendi katılabileceği etkinlikleri hızlıca bulmak istiyor. Elif bunun için çizelgeyi nasıl okumalıdır?
+A) "Kimler katılabilir" sütununu tarayıp kendi sınıfının geçtiği satırlara bakmalıdır.
+B) Çizelgeyi ilk satırdan son satıra kadar sözcük sözcük okumalıdır.
+C) Yalnızca "Yer" sütunundaki bilgileri sırayla okumalıdır.
+D) Afişteki cümleleri defterine yazıp sonra çizelgeye bakmalıdır.
+CEVAP A
+NEDEN Belirli bir bilgiyi ararken ilgili sütunu taramak amaca en uygun ve en hızlı yoldur. B doğru sonuca götürür ama "hızlıca" amacına uymaz; C ve D aranan bilgiye ulaştırmaz.
+
+SORU Ç T.O.6.7. orta
+Afişe ve çizelgeye göre 6. sınıf öğrencisi Elif bu hafta en çok kaç etkinliğe katılabilir?
+A) 3
+B) 4
+C) 5
+D) 6
+CEVAP B
+NEDEN Elif bütün sınıflara açık iki etkinliğe (pazartesi, cuma) ve 5 ile 6. sınıflara açık iki etkinliğe (salı, çarşamba) katılabilir. Bütün günleri sayan öğrenci C'yi, bütün sınıflara açık etkinliklerden birini atlayan öğrenci A'yı seçer.
+
+SORU Ç T.O.6.4. orta
+Pazartesi günkü söyleşinin başlığından yola çıkan bir öğrenci, söyleşide aşağıdakilerden hangisinin anlatılacağını tahmin etmelidir?
+A) Kütüphanedeki kitapların nasıl sıralandığı
+B) Bir kitabın matbaada nasıl basıldığı
+C) Yazarın bir öyküyü nasıl tasarlayıp yazdığı
+D) Okulda en çok hangi kitapların okunduğu
+CEVAP C
+NEDEN Başlıktaki "doğar" sözü öykünün ortaya çıkışını, yani yazma sürecini çağrıştırır; konuşmacı da bir yazardır. B, "doğmak" sözünü kitabın basılması olarak yorumlayan öğrenciyi yakalar.
+
+SORU A T.Y.6.1. orta
+Perşembe günkü bilgi yarışması yalnız 7 ve 8. sınıflara açıktır. Bir 6. sınıf öğrencisi olarak, yarışmanın sizin sınıf düzeyiniz için de düzenlenmesini isteyen kısa bir not yazınız. Notunuz kütüphane kulübünün rehber öğretmenine hitapla başlasın, isteğinizi ve gerekçenizi içersin, uygun bir kapanışla bitsin (dört beş cümle).
+CEVAP Örnek: Sayın Öğretmenim, Kütüphane Haftası çizelgesinde bilgi yarışmasının yalnız 7 ve 8. sınıflara açık olduğunu gördüm. 6. sınıflar olarak biz de bu yıl birçok kitap okuduk ve yarışmak istiyoruz. Bizim düzeyimize uygun sorularla ikinci bir yarışma düzenlenmesini rica ediyorum. İlginiz için teşekkür eder, saygılarımı sunarım.
+PUAN Hitap, istek, gerekçe ve kapanışın dördünü de içeren, öğretmene uygun dille yazılmış not tam puan alır. Bölümlerden biri eksikse ya da dil hedef kişiye uygun değilse kısmi puan verilir.
+
+SORU A T.Y.6.12. orta
+Afişteki ve çizelgedeki bilgileri, sınıf panosuna asılmak üzere en çok üç cümleyle özetleyiniz. Özetinizde haftanın konusu, katılma yolu ve ödül bilgisi bulunsun.
+CEVAP Örnek: Bu yılki Kütüphane Haftası'nın konusu "Bir Kitap, Bir Yolculuk". Hafta boyunca her öğle arasında bir etkinlik var; katılmak için kütüphanedeki listeye adımızı yazmamız gerekiyor. En çok etkinliğe katılan üç öğrenci kitapla ödüllendirilecek.
+PUAN Üç bilgiyi de (konu, katılma yolu, ödül) kendi cümleleriyle veren özet tam puan alır. Etkinlikleri tek tek sayıp istenen bilgilerden birini atlayan cevap kısmi puan alır.

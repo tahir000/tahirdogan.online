@@ -1,60 +1,18 @@
 /*
- * Türkçe Soru Atölyesi: arayüz
- * Kullanıcının yazdığı her metin sayfaya yalnız textContent ya da value ile yazılır.
- * Sayfa hiçbir istek yapmaz ve tarayıcıda hiçbir şey saklamaz.
+ * Türkçe Soru Atölyesi: "Sınav hazırla" sekmesinin arayüzü.
+ * Ortak yardımcılar (el, secenekler, kopyala) ortak.js dosyasındadır.
  */
 (function () {
   'use strict';
 
-  const V = window.SoruVerisi, A = window.SoruAtolyesi;
-  const $ = function (id) { return document.getElementById(id); };
+  const V = window.SoruVerisi, A = window.SoruAtolyesi, U = window.Arayuz;
+  const $ = U.$, el = U.el, bosalt = U.bosalt, secenekler = U.secenekler, secim = U.secim, kopyala = U.kopyala;
 
   const durum = {
     sinif: '7', sinav: '', senaryo: '', adetler: {}, tumu: false,
     tur: 'acik', sure: 40, puan: 100,
     tema: '', konu: '', metinKaynagi: 'ozgun', metin: '', ekIstek: ''
   };
-
-  function el(etiket, ozellik, cocuklar) {
-    const e = document.createElement(etiket);
-    Object.keys(ozellik || {}).forEach(function (k) {
-      const v = ozellik[k];
-      if (v === null || v === undefined || v === false) return;
-      if (k === 'sinif') e.className = v;
-      else if (k === 'metin') e.textContent = v;
-      else if (k.indexOf('on') === 0 && typeof v === 'function') e.addEventListener(k.slice(2), v);
-      else if (k in e) e[k] = v;
-      else e.setAttribute(k, v === true ? '' : v);
-    });
-    (cocuklar || []).forEach(function (c) {
-      if (c === null || c === undefined || c === false) return;
-      e.appendChild(typeof c === 'string' ? document.createTextNode(c) : c);
-    });
-    return e;
-  }
-
-  function bosalt(e) { while (e.firstChild) e.removeChild(e.firstChild); }
-
-  /* Yuvarlak seçenek düğmeleri (radio) */
-  function secenekler(kap, ad, liste, secili, degisince) {
-    const odakIcinde = kap.contains(document.activeElement);
-    bosalt(kap);
-    liste.forEach(function (o) {
-      const girdi = el('input', { type: 'radio', name: ad, value: o.deger, checked: o.deger === secili });
-      girdi.addEventListener('change', function () { if (girdi.checked) degisince(o.deger); });
-      kap.appendChild(el('label', { sinif: 'secenek' }, [girdi, el('span', { metin: o.ad })]));
-      /* Klavyeyle gezerken liste yeniden çizilince odak kaybolmasın */
-      if (odakIcinde && o.deger === secili) girdi.focus();
-    });
-  }
-
-  function secim(kutu, liste, secili) {
-    bosalt(kutu);
-    liste.forEach(function (o) {
-      kutu.appendChild(el('option', { value: o.deger, metin: o.ad, selected: o.deger === secili }));
-    });
-    kutu.value = secili;
-  }
 
   function sinifVerisi() { return V.siniflar[durum.sinif]; }
   function kazanimMi() { return sinifVerisi().program === '2019'; }
@@ -213,26 +171,6 @@
     cizYonerge();
   }
 
-  /* Panoya kopyalama: önce yeni yöntem, olmazsa seçip kopyalama */
-  function kopyala(metin, bildir) {
-    function eskiYontem() {
-      const gecici = el('textarea', { value: metin, readOnly: true });
-      gecici.style.position = 'fixed';
-      gecici.style.opacity = '0';
-      document.body.appendChild(gecici);
-      gecici.select();
-      let tamam = false;
-      try { tamam = document.execCommand('copy'); } catch (e) { tamam = false; }
-      document.body.removeChild(gecici);
-      bildir(tamam);
-    }
-    if (navigator.clipboard && navigator.clipboard.writeText) {
-      navigator.clipboard.writeText(metin).then(function () { bildir(true); }, eskiYontem);
-    } else {
-      eskiYontem();
-    }
-  }
-
   function kur() {
     $('sinav').addEventListener('change', function () { sinavSec($('sinav').value); });
     $('senaryo').addEventListener('change', function () { senaryoSec($('senaryo').value, false); });
@@ -265,10 +203,7 @@
     A.EK_YONERGELER.forEach(function (i) {
       const dugme = el('button', { type: 'button', sinif: 'kucuk-dugme', metin: 'Kopyala' });
       dugme.addEventListener('click', function () {
-        kopyala(i.metin, function (tamam) {
-          dugme.textContent = tamam ? 'Kopyalandı' : 'Kopyalanamadı';
-          setTimeout(function () { dugme.textContent = 'Kopyala'; }, 2000);
-        });
+        kopyala(i.metin, function (tamam) { U.gecici(dugme, tamam ? 'Kopyalandı' : 'Kopyalanamadı'); });
       });
       istekler.appendChild(el('li', null, [
         el('div', { sinif: 'istek-ust' }, [el('h3', { metin: i.baslik }), dugme]),
