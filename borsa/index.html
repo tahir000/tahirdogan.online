@@ -607,7 +607,8 @@ function yukleGecmis(sym, zorla){
 }
 let izle = [], izleKey = '';
 function isleKotasyon(res){
-  const rows = parseBorsa(govde(res)).rows;
+  const P = parseBorsa(govde(res)); let rows = P.rows;
+  if (!rows.length && P.sec.data && P.sec.data.symbol) rows = [P.sec.data];     // tek sembolde yanıt tablo değil, anahtar ve değer satırları
   for (const r of rows) { const s = String(r.symbol || '').toUpperCase(), f = num(r.current_price); if (!s || f == null) continue; S.kot[s] = {fiyat: f, fk: num(r.pe_ratio), pddd: num(r.pb_ratio), z52: num(r.week_52_high), d52: num(r.week_52_low), pd: num(r.market_cap), tem: num(r.dividend_yield), hacim: num(r.volume)}; }
   S.kotAt = res && res.cache && res.cache.storedAt ? res.cache.storedAt : Date.now(); S.kotErr = null; ciz();
 }
@@ -1094,7 +1095,7 @@ document.addEventListener('click', ev => {
   if (act === 'tam') { tamAyar(!S.tam); return; }
   if (act === 'cikis') { cikisYap(false); return; }
   if (act === 'sifre-ac') { const f = $('sifre-form'); f.hidden = !f.hidden; b.setAttribute('aria-expanded', f.hidden ? 'false' : 'true'); $('s-durum').textContent = ''; return; }
-  if (act === 'yenile') { if (S.mcp && S.mcp.invalidate) S.mcp.invalidate(SRV, 'get_quote').catch(() => {}); S.ek = {}; senkron(true); }
+  if (act === 'yenile') { if (S.mcp && S.mcp.sifirla) S.mcp.sifirla(); if (S.mcp && S.mcp.invalidate) S.mcp.invalidate(SRV, 'get_quote').catch(() => {}); S.ek = {}; senkron(true); }
   else if (act === 'gun') { S.gunTarih = b.dataset.gun; ciz(); }
   else if (act === 'filtre') { S.gunFiltre = b.dataset.f; ciz(); }
   else if (act === 'islem-sil') { b.disabled = true; islemSil(b.dataset.id).catch(() => { b.disabled = false; }); }
@@ -1253,10 +1254,10 @@ function uzakMcp(){
   // Borsa MCP herkese açık, ücretsiz bir sunucu: aynı anda en fazla iki istek gider.
   const yer = () => new Promise(res => { if (acik < 2) { acik++; res(); } else sira.push(res); });
   const birak = () => { const f = sira.shift(); if (f) f(); else acik--; };
-  // Sunucu yanıt vermezse istekler bir süre durur (15 saniyeden başlar, her seferinde iki katına çıkar, en çok 5 dakika), sonra sayfa kendiliğinden yeniden dener.
+  // Sunucu yanıt vermezse istekler bir süre durur (15 saniyeden başlar, iki katına çıkar, en çok 1 dakika), sonra sayfa kendiliğinden yeniden dener.
   function kesintiBasla(){
     if (Date.now() < kadar) return;
-    ara = Math.min(ara ? ara * 2 : 15e3, 300e3); kadar = Date.now() + ara; S.kesinti = kadar;
+    ara = Math.min(ara ? ara * 2 : 15e3, 60e3); kadar = Date.now() + ara; S.kesinti = kadar;
     clearTimeout(kz); kz = setTimeout(() => { S.kesinti = 0; Object.keys(S.hist).forEach(q => { S.hist[q].hataAt = 0; }); senkron(); }, ara + 300);
     ciz();
   }
@@ -1292,7 +1293,7 @@ function uzakMcp(){
     const gor = () => { if (!document.hidden) tur(); }; document.addEventListener('visibilitychange', gor);
     return () => { durdu = true; clearInterval(z); document.removeEventListener('visibilitychange', gor); };
   }
-  return {callTool, watchTool, invalidate(srv, tool){ Array.from(bellek.keys()).forEach(k => { if (k.indexOf(tool + '|') === 0) bellek.delete(k); }); return Promise.resolve(); }};
+  return {callTool, watchTool, sifirla(){ clearTimeout(kz); ara = 0; kadar = 0; S.kesinti = 0; Object.keys(S.hist).forEach(q => { S.hist[q].hataAt = 0; }); }, invalidate(srv, tool){ Array.from(bellek.keys()).forEach(k => { if (k.indexOf(tool + '|') === 0) bellek.delete(k); }); return Promise.resolve(); }};
 }
 function girisGoster(){
   S.kilit = true; document.querySelector('.wrap').classList.add('kilitli');
