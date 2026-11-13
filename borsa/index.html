@@ -123,6 +123,7 @@ ul.neden li span:first-child{font-weight:600;text-align:right}
 .g-dir{stroke:var(--down);stroke-width:1;stroke-dasharray:4 4;fill:none}
 .g-mal{stroke:var(--accent);stroke-width:1;stroke-dasharray:2 3;fill:none}
 .g-des-y{fill:var(--up)} .g-dir-y{fill:var(--down)} .g-mal-y{fill:var(--accent)}
+.g-mum{fill:currentColor;stroke:currentColor;stroke-width:1;shape-rendering:crispEdges}
 .g-nokta{fill:var(--accent)}
 .g-hacim{fill:var(--line)}
 .g-rsi{fill:none;stroke:var(--ink);stroke-width:1.2}
@@ -228,6 +229,10 @@ footer{border-top:1px solid var(--line);padding-top:12px;font-size:12px;color:va
     <div class="gkutu" id="g-kutu">
       <div class="g-bas">
         <div class="g-ad num" id="g-ad"></div>
+        <div class="seg" id="tur" role="group" aria-label="Grafik türü">
+          <button type="button" data-tur="cizgi" aria-pressed="true">Çizgi</button>
+          <button type="button" data-tur="mum" aria-pressed="false">Mum</button>
+        </div>
         <div class="seg" id="aralik" role="group" aria-label="Grafik aralığı">
           <button type="button" data-aralik="63">3 ay</button>
           <button type="button" data-aralik="126">6 ay</button>
@@ -312,7 +317,7 @@ const S = {
   hist: {},                // sembol -> {bars, at, err, yukleniyor}
   kot: {}, kotAt: null, kotErr: null,
   gunluk: null, gunTarih: null, gunFiltre: 'tum',
-  view: 'portfoy', sym: null, aralik: 126,
+  view: 'portfoy', sym: null, aralik: 126, tur: 'cizgi',
   dbGec: false, silOnay: false, tam: false, kilit: false, uzak: false, kesinti: 0,
   islemler: null, haftalik: null, ek: {}
 };
@@ -904,12 +909,13 @@ function grafikCiz(el, A, sym){
   const HV = kisa ? 28 : tam ? 54 : 44, HR = kisa ? 0 : tam ? 84 : 70;
   const H = tam ? Math.max(140, bos - HV - HR - 6) : Math.round(Math.min(540, Math.max(300, (window.innerHeight || 700) * 0.5)));
   const PR = 52, PT = 10, PB = 18, PW = W - PR;
-  const B = A.bars, I = A.I, n = B.length, cnt = Math.min(n, S.aralik), s0 = n - cnt;
+  const B = A.bars, I = A.I, n = B.length, cnt = Math.min(n, S.aralik), s0 = n - cnt, mum = S.tur === 'mum';
   let lo = Infinity, hi = -Infinity;
   const gor = v => { if (v != null && isFinite(v)) { if (v < lo) lo = v; if (v > hi) hi = v; } };
   for (let i = s0; i < n; i++) { gor(B[i].l); gor(B[i].h); gor(I.bbL[i]); gor(I.bbU[i]); gor(I.s50[i]); }
   const pay = (hi - lo) * 0.04 || 1; lo -= pay; hi += pay;
-  const X = i => cnt > 1 ? (i - s0) / (cnt - 1) * PW : PW / 2, Y = v => PT + (hi - v) / (hi - lo) * (H - PT - PB);
+  // Çizgide ilk ve son gün kenarlara oturur; mumda her güne eşit genişlikte bir şerit düşer ki kenardaki mumlar yarım kalmasın.
+  const X = mum ? (i => (i - s0 + 0.5) / cnt * PW) : (i => cnt > 1 ? (i - s0) / (cnt - 1) * PW : PW / 2), Y = v => PT + (hi - v) / (hi - lo) * (H - PT - PB);
   const yol = arr => { let d = '', kalem = false; for (let i = s0; i < n; i++) { const v = arr[i]; if (v == null) { kalem = false; continue; } d += (kalem ? 'L' : 'M') + X(i).toFixed(1) + ' ' + Y(v).toFixed(1); kalem = true; } return d; };
   const ond = hi >= 1000 ? 0 : hi >= 100 ? 1 : 2;
   let g = '<defs><clipPath id="kirp"><rect x="0" y="' + PT + '" width="' + PW + '" height="' + (H - PT - PB) + '"/></clipPath></defs>';
@@ -920,13 +926,24 @@ function grafikCiz(el, A, sym){
   const ust = [], alt = [];
   for (let i = s0; i < n; i++) if (I.bbU[i] != null) { ust.push(X(i).toFixed(1) + ',' + Y(I.bbU[i]).toFixed(1)); alt.push(X(i).toFixed(1) + ',' + Y(I.bbL[i]).toFixed(1)); }
   let ic = ust.length > 1 ? '<polygon class="g-bb" points="' + ust.join(' ') + ' ' + alt.reverse().join(' ') + '"/>' : '';
-  ic += '<path class="g-o200" d="' + yol(I.s200) + '"/><path class="g-o50" d="' + yol(I.s50) + '"/><path class="g-o20" d="' + yol(I.s20) + '"/><path class="g-fiyat" d="' + yol(I.c) + '"/>';
+  ic += '<path class="g-o200" d="' + yol(I.s200) + '"/><path class="g-o50" d="' + yol(I.s50) + '"/><path class="g-o20" d="' + yol(I.s20) + '"/>';
+  const gw = Math.min(13, PW / cnt * 0.7), sik = mum && gw < 2;      // gövde genişliği; 2 pikselin altında gövde çizilmez, yalnızca en yüksek ile en düşük arası kalır
+  if (mum) {
+    let du = '', dd = '';
+    for (let i = s0; i < n; i++) {
+      const b = B[i], x = X(i), o = b.o > 0 ? b.o : b.c, yh = Y(Math.max(b.h > 0 ? b.h : b.c, o, b.c)), yl = Y(Math.min(b.l > 0 ? b.l : b.c, o, b.c));
+      let d = 'M' + x.toFixed(1) + ' ' + yh.toFixed(1) + 'V' + Math.max(yl, yh + 1).toFixed(1);
+      if (!sik) { const ust = Y(Math.max(o, b.c)), alt = Math.max(Y(Math.min(o, b.c)), ust + 1); d += 'M' + (x - gw / 2).toFixed(1) + ' ' + ust.toFixed(1) + 'H' + (x + gw / 2).toFixed(1) + 'V' + alt.toFixed(1) + 'H' + (x - gw / 2).toFixed(1) + 'Z'; }
+      if (b.c >= o) du += d; else dd += d;
+    }
+    ic += '<path class="g-mum up" d="' + du + '"/><path class="g-mum down" d="' + dd + '"/>';
+  } else ic += '<path class="g-fiyat" d="' + yol(I.c) + '"/>';
   const etY = [];
   const cizgi = (v, sinif, ad) => { if (v == null || v <= lo || v >= hi) return ''; const y = +Y(v).toFixed(1), cakisiyor = etY.some(q => Math.abs(q - y) < 12); etY.push(y); return '<line class="' + sinif + '" x1="0" x2="' + PW + '" y1="' + y + '" y2="' + y + '"/>' + (cakisiyor ? '' : '<text class="g-yazi ' + sinif + '-y num" x="4" y="' + (y - 3).toFixed(1) + '">' + ad + ' ' + nf(v, ond) + '</text>'); };
   A.sev.des.forEach(d => { ic += cizgi(d.v, 'g-des', 'destek'); });
   A.sev.dir.forEach(d => { ic += cizgi(d.v, 'g-dir', 'direnç'); });
   const poz = S.hisseler && S.hisseler[sym]; if (poz && poz.adet > 0 && poz.maliyet > 0) ic += cizgi(poz.maliyet, 'g-mal', 'maliyet');
-  g += '<g clip-path="url(#kirp)">' + ic + '</g><circle class="g-nokta" cx="' + X(n - 1).toFixed(1) + '" cy="' + Y(I.c[n - 1]).toFixed(1) + '" r="3"/><line class="g-imlec" id="g-imlec" x1="0" x2="0" y1="' + PT + '" y2="' + (H - PB) + '" visibility="hidden"/>';
+  g += '<g clip-path="url(#kirp)">' + ic + '</g>' + (mum ? '' : '<circle class="g-nokta" cx="' + X(n - 1).toFixed(1) + '" cy="' + Y(I.c[n - 1]).toFixed(1) + '" r="3"/>') + '<line class="g-imlec" id="g-imlec" x1="0" x2="0" y1="' + PT + '" y2="' + (H - PB) + '" visibility="hidden"/>';
   let vmax = 0; for (let i = s0; i < n; i++) if (B[i].v > vmax) vmax = B[i].v;
   const bw = Math.max(1, PW / cnt * 0.62); let hv = '';
   if (vmax > 0) for (let i = s0; i < n; i++) { const hh = B[i].v / vmax * (HV - 2); hv += '<rect class="g-hacim" x="' + (X(i) - bw / 2).toFixed(1) + '" y="' + (HV - hh).toFixed(1) + '" width="' + bw.toFixed(1) + '" height="' + hh.toFixed(1) + '"/>'; }
@@ -934,14 +951,14 @@ function grafikCiz(el, A, sym){
   const YR = v => 4 + (100 - v) / 100 * (HR - 8); let dr = '', kal = false;
   for (let i = s0; i < n; i++) { const v = I.rsi[i]; if (v == null) { kal = false; continue; } dr += (kal ? 'L' : 'M') + X(i).toFixed(1) + ' ' + YR(v).toFixed(1); kal = true; }
   const hr = '<rect class="g-bb" x="0" y="' + YR(70).toFixed(1) + '" width="' + PW + '" height="' + (YR(30) - YR(70)).toFixed(1) + '"/><path class="g-rsi" d="' + dr + '"/><text class="g-yazi num" x="' + (PW + 6) + '" y="' + (YR(70) + 3.5).toFixed(1) + '">70</text><text class="g-yazi num" x="' + (PW + 6) + '" y="' + (YR(30) + 3.5).toFixed(1) + '">30</text><text class="g-yazi" x="4" y="12">RSI 14</text>';
-  el.innerHTML = '<svg id="g-ana" width="' + W + '" height="' + H + '" viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="' + esc(sym) + ' fiyat grafiği" style="touch-action:pan-y">' + g + '</svg><svg width="' + W + '" height="' + HV + '" viewBox="0 0 ' + W + ' ' + HV + '" aria-hidden="true">' + hv + '</svg>' + (HR ? '<svg width="' + W + '" height="' + HR + '" viewBox="0 0 ' + W + ' ' + HR + '" aria-hidden="true">' + hr + '</svg>' : '') + '<p class="kucuk g-aciklama">Koyu çizgi kapanış; ince çizgiler 20 (düz), 50 (kesikli) ve 200 (noktalı) günlük ortalamalar; gri alan Bollinger bandı.</p>';
-  el._g = {s0, cnt, PW, B, X};
+  el.innerHTML = '<svg id="g-ana" width="' + W + '" height="' + H + '" viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="' + esc(sym) + (mum ? ' mum grafiği' : ' fiyat grafiği') + '" style="touch-action:pan-y">' + g + '</svg><svg width="' + W + '" height="' + HV + '" viewBox="0 0 ' + W + ' ' + HV + '" aria-hidden="true">' + hv + '</svg>' + (HR ? '<svg width="' + W + '" height="' + HR + '" viewBox="0 0 ' + W + ' ' + HR + '" aria-hidden="true">' + hr + '</svg>' : '') + '<p class="kucuk g-aciklama">' + (mum ? (sik ? 'Bu aralıkta günler çok sıkıştığı için yalnızca günün en yüksek ve en düşük fiyatı arası çizilir (yeşil yükseliş, kırmızı düşüş günü); mum gövdelerini görmek için aralığı kısalt ya da tam ekrana geç. ' : 'Yeşil mum günün yükselişle, kırmızı mum düşüşle kapandığını gösterir; gövde açılış ile kapanış arasıdır, fitiller günün en yüksek ve en düşük fiyatına uzanır. ') + 'İnce' : 'Koyu çizgi kapanış; ince') + ' çizgiler 20 (düz), 50 (kesikli) ve 200 (noktalı) günlük ortalamalar; gri alan Bollinger bandı.</p>';
+  el._g = {s0, cnt, PW, B, X, mum};
   okumaYaz(B[n - 1]);
 }
 function okumaYaz(b){ $('d-okuma').textContent = tarihKisa(b.t) + ' · Açılış ' + nf(b.o) + ' · Yüksek ' + nf(b.h) + ' · Düşük ' + nf(b.l) + ' · Kapanış ' + nf(b.c) + ' · Hacim ' + kisalt(b.v); }
 function imlec(ev){
   const el = $('d-grafik'), G = el._g, svg = $('g-ana'); if (!G || !svg) return;
-  const r = svg.getBoundingClientRect(), x = Math.max(0, Math.min(G.PW, ev.clientX - r.left)), i = G.s0 + Math.round(G.cnt > 1 ? x / G.PW * (G.cnt - 1) : 0), b = G.B[i]; if (!b) return;
+  const r = svg.getBoundingClientRect(), x = Math.max(0, Math.min(G.PW, ev.clientX - r.left)), i = G.s0 + (G.mum ? Math.min(G.cnt - 1, Math.floor(x / G.PW * G.cnt)) : Math.round(G.cnt > 1 ? x / G.PW * (G.cnt - 1) : 0)), b = G.B[i]; if (!b) return;
   const c = $('g-imlec'); c.setAttribute('x1', G.X(i).toFixed(1)); c.setAttribute('x2', G.X(i).toFixed(1)); c.setAttribute('visibility', 'visible'); okumaYaz(b);
 }
 function tamAyar(ac, cizme){
@@ -964,10 +981,11 @@ function cizDetay(){
   const sym = S.sym, hs = S.hist[sym] || {}, A = analizEt(sym), f = fiyat(sym), g = gunDeg(sym), k = S.kot[sym] || {}, kayitli = !!(S.hisseler && S.hisseler[sym]);
   $('d-ust').innerHTML = '<div><h2 style="font-size:22px">' + esc(sym) + '</h2><small>BIST · günlük veri</small></div><div style="text-align:right" class="num"><div class="fiyat">' + nf(f) + '</div><b class="' + cls(g) + '">' + pf(g) + '</b></div>';
   $('aralik').querySelectorAll('button').forEach(b => b.classList.toggle('secili', +b.dataset.aralik === S.aralik));
+  $('tur').querySelectorAll('button').forEach(b => { const s = b.dataset.tur === S.tur; b.classList.toggle('secili', s); b.setAttribute('aria-pressed', s ? 'true' : 'false'); });
   $('g-ad').innerHTML = esc(sym) + '<span>' + nf(f) + '</span><span class="' + cls(g) + '">' + pf(g) + '</span>';
   $('d-sil').hidden = !kayitli; $('d-sil').textContent = S.silOnay ? 'Emin misin? Evet, çıkar' : 'Listeden çıkar'; $('d-kaydet').textContent = kayitli ? 'Kaydet' : 'Listeye ekle';
   if (!A) { $('d-grafik').innerHTML = ''; $('d-govde').innerHTML = '<div class="not">' + esc(hs.err ? hataMetni(hs.err) : (hs.bars ? (gecmisTam(hs) ? 'Bu hisse için analiz yapacak kadar geçmiş veri yok.' : 'Günlük geçmiş yükleniyor: %' + ilerleme(hs) + '. İlk açılışta yarım dakika kadar sürebilir; sonraki açılışlar hızlıdır.') : 'Veri yükleniyor…')) + '</div>'; cizilen = ''; cizDetayHaber(); cizEk(); cizIslem(); return; }
-  const el = $('d-grafik'), anahtar = [sym, A.key, S.aralik, Math.floor(el.clientWidth), S.tam ? 'T' + Math.floor(el.clientHeight) : 'N' + Math.round((window.innerHeight || 700) / 40), kayitli ? (S.hisseler[sym].maliyet || 0) + '/' + (S.hisseler[sym].adet || 0) : ''].join('|');
+  const el = $('d-grafik'), anahtar = [sym, A.key, S.aralik, S.tur, Math.floor(el.clientWidth), S.tam ? 'T' + Math.floor(el.clientHeight) : 'N' + Math.round((window.innerHeight || 700) / 40), kayitli ? (S.hisseler[sym].maliyet || 0) + '/' + (S.hisseler[sym].adet || 0) : ''].join('|');
   if (anahtar !== cizilen) {
     cizilen = anahtar; grafikCiz(el, A, sym);
     const e = etiket(A.skor), I = A.I, i = A.i, t = A.tahmin;
@@ -1089,7 +1107,8 @@ $('d-grafik').addEventListener('pointermove', imlec);
 $('d-grafik').addEventListener('pointerdown', imlec);
 document.addEventListener('keydown', ev => { if (ev.key === 'Escape' && S.tam) tamAyar(false); });
 document.addEventListener('click', ev => {
-  const b = ev.target.closest('[data-act],[data-aralik]'); if (!b) return;
+  const b = ev.target.closest('[data-act],[data-aralik],[data-tur]'); if (!b) return;
+  if (b.dataset.tur) { S.tur = b.dataset.tur === 'mum' ? 'mum' : 'cizgi'; try { localStorage.setItem('tahta_tur', S.tur); } catch (e) {} ciz(); return; }
   if (b.dataset.aralik) { S.aralik = +b.dataset.aralik; try { localStorage.setItem('tahta_aralik', String(S.aralik)); } catch (e) {} ciz(); return; }
   const act = b.dataset.act;
   if (act === 'tam') { tamAyar(!S.tam); return; }
@@ -1328,7 +1347,7 @@ $('sifre-form').addEventListener('submit', async ev => {
 /* ---------- Başlangıç ---------- */
 const kullan = ad => { try { return window.claude && window.claude.use ? window.claude.use(ad).catch(() => null) : Promise.resolve(null); } catch (e) { return Promise.resolve(null); } };
 async function basla(){
-  try { const a = +localStorage.getItem('tahta_aralik'); if ([63, 126, 252, 504].includes(a)) S.aralik = a; } catch (e) {}
+  try { const a = +localStorage.getItem('tahta_aralik'); if ([63, 126, 252, 504].includes(a)) S.aralik = a; if (localStorage.getItem('tahta_tur') === 'mum') S.tur = 'mum'; } catch (e) {}
   S.demo = location.hash === '#demo';
   if (!S.demo && !(window.claude && window.claude.use) && uzakVar()) { oturum = oturumOku(); if (oturum) uzakBasla(); else girisGoster(); return; }
   route();
