@@ -2,6 +2,7 @@
 
 BAĞLAM Fenerin Işığı
 TÜR Öyküleyici metin
+ÖZET görevi sona eren fener bekçisinin fırtına gecesinde ışığı elle yakması
 METİN
 Adadaki fener, kırk yıldır aynı adamın elindeydi. Yusuf Usta her akşam yüz otuz basamağı tırmanır, merceği yumuşak bir bezle siler, sonra ışığı yakardı. Işık, karanlık denizin üzerinde ağır ağır dönen bir kol gibi uzanırdı.
 O kış kasabadan bir mektup geldi. Fenerler artık uzaktan, bir düğmeyle yönetilecekti. Bekçiye gerek kalmamıştı. Yusuf Usta mektubu iki kez okudu, katlayıp cebine koydu. O akşam basamakları her zamankinden yavaş çıktı.
@@ -52,6 +53,7 @@ PUAN Anlatıcının balıkçı olduğu, öyküyle tutarlı, üç bölümü ve bi
 
 BAĞLAM Uykusuz Sabahlar
 TÜR Bilgilendirici metin ve tablo
+ÖZET gençlerde eksik uyku, ekran kullanımı ve dikkat; uyku anketi
 METİN
 Sabah ilk derste esneyen, dikkatini toplayamayan öğrenciler çoğu zaman tembellikle suçlanır. Oysa sorun çoğunlukla isteksizlik değil, eksik uykudur. Uzmanlar, ergenlik çağındaki gençlerin gecede sekiz ila on saat uyumasını önerir. Bu sürenin altında kalan beyin, gün içinde öğrendiklerini kalıcı belleğe aktarmakta zorlanır.
 Eksik uykunun en yaygın nedeni, yatmadan önce kullanılan ekranlardır. Ekranın yaydığı ışık, beynin "gece oldu" sinyalini geciktirir. Başka bir deyişle telefon, bedene saatin olduğundan erken olduğunu söyler. Sonuçta genç geç uyur ama okul saati değişmediği için erken kalkmak zorunda kalır.
@@ -106,6 +108,7 @@ PUAN Sorunu, nedenini ve çözümü sırasıyla ve kendi cümleleriyle veren öz
 
 BAĞLAM Dört Arkadaş, Dört Kulüp
 TÜR Kısa metin ve sözel mantık bilgileri
+ÖZET dört öğrenciyi kulüplere ve günlere yerleştirme bulmacası
 METİN
 Okulumuzda bu dönem dört kulüp açıldı. Duyuruyu ilk gören Duru'ydu. Dört arkadaş, seçimlerini dün birbirlerine anlattı. Kulüplerin toplantı günleri de belli oldu.
 KUTU Kulüplerle ilgili bilgiler
@@ -159,6 +162,7 @@ PUAN İki türde birer soru ve doğru cevapları tam puan alır. İki soru da do
 
 BAĞLAM Liman
 TÜR Şiir ve düzyazı
+ÖZET ayrılık ve kavuşma umudu (liman şiiri, otogarda uğurlama yazısı)
 ŞİİR Liman
 Gemiler ufukta küçülür, erir,
 İskele bir süre ardından bakar.
@@ -215,6 +219,7 @@ PUAN Dört dizeden oluşan, benzetmeyi sürdüren, en az bir söz sanatı içere
 
 BAĞLAM Haber mi, Reklam mı?
 TÜR İnternet yazısı ve açıklama
+ÖZET haber gibi yazılmış ürün reklamı ve tüketici derneğinin açıklaması
 KUTU Bir internet sitesindeki yazı
 ÖĞRENCİLER BU SAKIZI KONUŞUYOR
 Sınav döneminde dikkatini toplayamayanlara müjde! "OdakMax" adlı sakızın, çiğnendikten yalnızca on dakika sonra dikkati iki katına çıkardığı kanıtlandı. Ürün, uzmanlarca tavsiye ediliyor. Sakızı deneyen bir öğrenci, "Notlarım bir haftada yükseldi." diyor. Stoklar hızla tükeniyor. Geriye yalnızca sadece birkaç kutu kaldı. Bu fırsatı kaçırmamak için hemen sipariş verin.
@@ -265,6 +270,7 @@ PUAN Biri yayıncıya, öteki okura yönelik gerekçeli iki öneri tam puan alı
 
 BAĞLAM Fidan Dikimi
 TÜR Yönerge
+ÖZET fidan dikme yönergesinin karışık verilmiş basamakları
 METİN
 8/A sınıfı okul bahçesine fidan dikecek. Çevre kulübünün hazırladığı yönergedeki cümleler, panoya asılırken karışmıştır.
 KUTU Fidan dikme yönergesi (cümleler karışık)
@@ -317,6 +323,7 @@ PUAN Beş basamağı doğru sırayla, her basamakta bir işlemle ve sıra bildir
 
 BAĞLAM Gökyüzüne Bakmak
 TÜR İki kısa metin
+ÖZET meteor yağmurunu izleyen çocuğun günlüğü ve olayın açıklaması
 METİN 1. metin
 12 Ağustos, gece. Babamla şehrin ışıklarından uzaklaşmak için tepeye çıktık. Battaniyeyi otların üzerine serdik, sırtüstü uzandık. İlk yarım saat hiçbir şey olmadı; sabırsızlandım. Sonra gökyüzünde ince, beyaz bir çizgi belirip kayboldu. Ardından bir tane daha, bir tane daha... Saymayı bıraktım. Babam, "Dilek tuttun mu?" diye sordu. Tutmamıştım. O kadar çok yıldız kayıyordu ki hangisine yetişeceğimi şaşırmıştım.
 METİN 2. metin
@@ -365,6 +372,7 @@ PUAN Olayı ikinci metne uygun biçimde açıklayan ve birinci metindeki deneyim
 
 BAĞLAM Boş Zaman Anketi
 TÜR Haber metni ve tablo
+ÖZET 8. sınıfların boş zaman etkinliklerine ayırdığı süre
 METİN
 Okul dergimiz, 8. sınıflar arasında "Boş zamanını nasıl geçiriyorsun?" başlıklı bir anket yaptı. Ankete 100 öğrenci katıldı. Sonuçlara göre öğrenciler hafta içi günlerde ekran başında, kitap başında geçirdikleri sürenin üç katı kadar zaman geçiriyor. DİKKAT ÇEKEN SONUÇ ise şu: Spor yapan öğrencilerin sayısı hafta sonu neredeyse iki katına çıkıyor. Anketi hazırlayan Melis, "Zamanımız yok demek kolay; tabloya bakınca zamanın nereye gittiği görülüyor." dedi.
 TABLO Bir günde ayrılan ortalama süre (dakika) ve etkinliği yapan öğrenci sayısı

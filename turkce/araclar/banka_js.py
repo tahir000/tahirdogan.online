@@ -11,6 +11,7 @@ Kaynak dosyanın biçimi (her anahtar sözcük satır başında durur):
 
     BAĞLAM Başlık
     TÜR Bilgilendirici metin
+    ÖZET bağlamın konusu           (tek satır; "Soru bankası hazırla" yönergesinde hazır bağlamlar sayılırken kullanılır)
     TEMA Oyun Dünyası              (isteğe bağlı; sınıfın temalarından biri)
     METİN [başlık]                 paragraflar; her satır bir paragraf
     ŞİİR [başlık]                  dizeler; boş satır kıtayı ayırır
@@ -68,7 +69,7 @@ def coz(sinif, yol, hatalar):
         if satir.startswith("#"):
             continue
         if ilk == "BAĞLAM":
-            baglam = {"no": len(baglamlar) + 1, "baslik": kalan, "tur": "", "tema": "", "bloklar": [], "sorular": []}
+            baglam = {"no": len(baglamlar) + 1, "baslik": kalan, "tur": "", "ozet": "", "tema": "", "bloklar": [], "sorular": []}
             baglamlar.append(baglam)
             blok = soru = None
         elif baglam is None:
@@ -78,6 +79,8 @@ def coz(sinif, yol, hatalar):
             baglam["tur"] = kalan
         elif ilk == "TEMA" and soru is None:
             baglam["tema"] = kalan
+        elif ilk == "ÖZET" and soru is None and blok is None:
+            baglam["ozet"] = kalan
         elif ilk in BLOKLAR and soru is None:
             blok = {"t": BLOKLAR[ilk], "baslik": kalan, "satirlar": []}
             baglam["bloklar"].append(blok)
@@ -167,8 +170,10 @@ def denetle(sinif, baglamlar, v, hatalar, uyarilar):
     kokler = set()
     for b in baglamlar:
         yer = f"{sinif}. sınıf, {b['no']}. bağlam ({b['baslik']})"
-        if not b["baslik"] or not b["tur"]:
-            hatalar.append(f"{yer}: başlık ya da tür eksik")
+        if not b["baslik"] or not b["tur"] or not b["ozet"]:
+            hatalar.append(f"{yer}: başlık, tür ya da özet eksik")
+        if b["ozet"].endswith("."):
+            hatalar.append(f"{yer}: özet nokta ile bitmemeli (yönergede listeye girer)")
         if b["tema"]:
             # Programdaki tema adlarında kıvrık kesme işareti var; kaynakta düz yazılır, adı programdaki biçimiyle saklarız
             eslesen = [t for t in s["temalar"] if t.replace("\u2019", "'") == b["tema"]]

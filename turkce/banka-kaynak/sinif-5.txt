@@ -2,6 +2,7 @@
 
 BAĞLAM Sokağın Oyunları
 TÜR Bilgilendirici metin ve tablo
+ÖZET sokak oyunlarının çocuğa kazandırdıkları ve dört oyunun tablosu
 TEMA Oyun Dünyası
 METİN
 Bir top, birkaç taş ya da yalnızca bir tebeşir... Sokak oyunları için çoğu zaman bundan fazlası gerekmez. Bu oyunların kuralları yazılı değildir; büyükler küçüklere anlatır, her mahalle kurallara kendi ayrıntısını ekler.
@@ -54,6 +55,7 @@ PUAN Ölçüt, tabloyla tutarlı gruplama ve grup adları varsa tam puan. Ölç�
 
 BAĞLAM Kayıp Uçurtma
 TÜR Öyküleyici metin
+ÖZET uçurtmasını kardeşiyle paylaşmayan abla ve ağaca takılan uçurtma
 TEMA Duygularımı Tanıyorum
 METİN
 Nisanın son pazarıydı. Defne, babasıyla günlerce uğraşıp yaptığı kırmızı uçurtmayı ilk kez uçurmak için tepedeki boş araziye çıkmıştı. Kardeşi Tuna da peşinden gelmişti.
@@ -103,6 +105,7 @@ PUAN Anlatıcı uçurtma ise, olaylar öyküyle tutarlıysa, görülenlere ve hi
 
 BAĞLAM Sabah
 TÜR Şiir
+ÖZET mahallede sabahın başlaması
 ŞİİR Sabah
 Güneş dağdan el sallar,
 Sokak gözünü açar.
@@ -153,6 +156,7 @@ PUAN Anlamı koruyan, söz sanatı içeren cümle ve doğru adlandırma tam puan
 
 BAĞLAM İki Bayram Sabahı
 TÜR İki kısa metin (anı ve günlük)
+ÖZET ninenin çocukluğundaki bayram ile torununun bugünkü bayramı
 TEMA Geleneklerimiz
 METİN 1. metin: Ninem anlatıyor
 Bizim çocukluğumuzda bayram, arife gününden başlardı. Annem bakır tepsileri kalaylatır, biz kız kardeşler hamur açardık. Bayram sabahı gün ağarmadan kalkar, en yeni giysilerimizi giyerdik. Önce evdeki büyüklerin elini öper, sonra sokağa dökülürdük. Mahallede çalmadığımız kapı kalmazdı. Her evden mendile sarılı bir şeker ya da bir avuç leblebi alırdık. Akşam olduğunda mendillerimizi açıp kimin ne topladığına bakardık.
@@ -200,6 +204,7 @@ PUAN Hazırlık, el öpme ve ev ev dolaşma bilgilerini kendi cümleleriyle vere
 
 BAĞLAM Kantinde Yeni Dönem
 TÜR Bilgilendirici metin ve çizelge
+ÖZET okul kantininde paketli atıştırmalık yerine ara öğün çizelgesi
 TEMA Sağlıklı Yaşıyorum
 METİN
 Okul Sağlığı Kulübü geçen ay 5. sınıflar arasında küçük bir araştırma yaptı. Sonuç düşündürücüydü: Her on öğrenciden altısı teneffüste yalnızca paketli atıştırmalık yiyordu. Bu yiyecekler karın doyuruyor ama içindeki fazla tuz ve şeker yüzünden öğrenciler son derslerde çabuk yoruluyordu.
@@ -255,6 +260,7 @@ PUAN Görüşe açıkça karşı çıkan ve metinden iki gerekçe (yorgunluk, fi
 
 BAĞLAM Sınıf Gazetesi İçin Kaynak
 TÜR E-posta ve kaynak listesi
+ÖZET 23 Nisan yazısı için kütüphaneden kaynak isteyen öğrencinin e-postası
 TEMA Atatürk'ü Tanımak
 KUTU Kerem'in e-postası (taslak)
 Konu: Kaynak isteği
@@ -306,6 +312,7 @@ PUAN Ad ve tablodaki ipuçlarına dayanan tahmin ile gerekçe birlikte tam puan 
 
 BAĞLAM Yanlış Anlaşılan Mesaj
 TÜR Kısa anlatı ve mesajlaşma
+ÖZET noktalama eksiği yüzünden buluşma yerinin yanlış anlaşılması
 TEMA İletişim ve Sosyal İlişkiler
 METİN
 5/B sınıfından dört arkadaş, fen projesi için hafta sonu buluşmaya karar verdi. Grup sözcüsü Ece, cuma akşamı proje grubuna bir mesaj yazdı. Cumartesi günü Mert tek başına okulun kapısında bekledi, öteki üç arkadaş ise kütüphanedeydi.
@@ -358,6 +365,7 @@ PUAN Dört bilgiyi (gün, saat, yer, malzeme) eksiksiz ve yanlış anlaşılmaya
 
 BAĞLAM Okuma Günlüğüm
 TÜR Okuma günlüğü ve öz değerlendirme tablosu
+ÖZET bir öğrencinin kitap okuma günlüğü ve öz değerlendirmesi
 METİN
 Zeynep, bu ay okuduğu kitap için bir okuma günlüğü tuttu. Öğretmeni, günlüğün sonuna bir öz değerlendirme tablosu eklemesini istedi ve günlüğü okuduktan sonra kısa bir not yazdı.
 KUTU Zeynep'in okuma günlüğünden

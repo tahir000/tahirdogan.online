@@ -2,6 +2,7 @@
 
 BAĞLAM Öğrenmenin Düzlüğü
 TÜR Bilgilendirici metin
+ÖZET yeni bir beceri öğrenirken ilerlemenin durmuş gibi göründüğü dönem ve vazgeçmeden sürdürme
 TEMA Hayat Boyu Gelişim
 METİN
 Yeni bir beceri öğrenmeye başlayan herkes benzer bir yoldan geçer. İlk haftalarda ilerleme hızlıdır: Bağlamaya yeni başlayan biri, birkaç derste basit bir ezgiyi çalabilir. Bu hız insanı heveslendirir.
@@ -48,6 +49,7 @@ PUAN Hızlı başlangıç, düzlük ve nedeni, bırakma hatası ve önerilerden 
 
 BAĞLAM Gezi Nereye Olsun?
 TÜR İkna edici yazı ve tablo
+ÖZET sınıf gezisi için Çanakkale'yi savunan yazı ve iki gezi seçeneğinin tablosu
 TEMA Bir Hilal Uğruna
 METİN Okul gazetesinden: Elif (7/B)
 Bahar gezisi için iki seçenek oylanacak: eğlence parkı ya da Çanakkale. Ben oyumu Çanakkale için kullanacağım ve sizi de buna çağırıyorum.
@@ -104,6 +106,7 @@ PUAN Yazara hitap eden, görüşünü açıkça bildiren, yazarın bir gerekçes
 
 BAĞLAM Söz
 TÜR Şiir
+ÖZET söylenen sözün gücü ve geri alınamaması
 TEMA İletişim ve Sosyal İlişkiler
 ŞİİR Söz
 Söz var, yaz yağmuru gibi serinler,
@@ -156,6 +159,7 @@ PUAN İletiyi koruyan ve bir söz sanatı, mecaz ya da atasözüyle örtük anla
 
 BAĞLAM İki Sanat, İki Dil
 TÜR İki bilgilendirici metin
+ÖZET çini ve kilim sanatlarının tanıtımı
 TEMA Türk Sanatı
 METİN 1. metin: Çini
 Çini, pişmiş toprak levhaların üzerine desen işlenip sırlanması ve yeniden fırınlanmasıyla yapılan bir süsleme sanatıdır. Usta önce deseni levhaya geçirir, ardından fırçayla boyar. En son sürülen sır, fırında camsı bir tabakaya dönüşür ve renkleri yüzyıllarca korur. Çiniler çoğunlukla cami, saray ve çeşme gibi yapıların duvarlarını süsler. Lale, karanfil ve sarmaşık desenleri sık görülür. İznik ve Kütahya, bu sanatın en bilinen merkezleridir. Bir çini pano, çoğu zaman bir atölyede birkaç ustanın ortak emeğiyle ortaya çıkar.
@@ -202,6 +206,7 @@ PUAN İki öge ve her birinin işlevi (metni destekleme, metinde olmayan bilgiyi
 
 BAĞLAM Sınıf Kitaplığı Neden Boş Kalıyor?
 TÜR Haber yazısı ve anket tablosu
+ÖZET sınıf kitaplığından neden kitap alınmadığını soran anket
 TEMA Okuma Kültürü
 METİN
 7/D sınıfının kitaplığında yüz yirmi kitap var. Buna karşın ödünç defterine geçen ay yalnızca on bir kayıt düşüldü. Sınıf temsilcisi Onur, nedenini anlamak için otuz arkadaşına kısa bir anket uyguladı.
@@ -255,6 +260,7 @@ PUAN Olumlu ve olumsuz birer yönü gerekçesiyle veren, olumsuz yön için öne
 
 BAĞLAM Ortak Bahçe
 TÜR Öyküleyici metin
+ÖZET site bahçesinde top oynayan çocuklar ile gündüz uyuyan komşu arasındaki hak çatışması
 TEMA Hak ve Sorumluluklar
 METİN
 Sitenin arka bahçesindeki tek düzlük, basketbol potasının olduğu yerdi. Yaz tatilinin ilk haftasında Kaan ve arkadaşları her gün öğleden sonra orada maç yapıyordu. Topun sesi, zemin kattaki dairenin penceresine kadar geliyordu.
@@ -302,6 +308,7 @@ PUAN Sözü öykünün sonuyla ilişkilendiren ve gerekçeli bir yargı bildiren
 
 BAĞLAM Paylaşmadan Önce
 TÜR Sosyal medya paylaşımı ve kurum duyurusu
+ÖZET bir parkla ilgili asılsız paylaşım ve belediyenin duyurusu
 TEMA Hak ve Sorumluluklar
 KUTU Bir mahalle grubundaki paylaşım
 SON DAKİKA!!! Parkımız yıkılıyor!!!
@@ -356,6 +363,7 @@ PUAN Virgülü doğru yere koyan, görevini açıklayan ve ünlem işaretlerinin
 
 BAĞLAM Dergi Yazısı Hazırlığı
 TÜR Yazma planı, kaynak tablosu ve taslak
+ÖZET okul dergisi yazısı için kaynak seçimi ve giriş paragrafı taslağı
 TEMA Hayat Boyu Gelişim
 METİN
 Azra, okul dergisinin "Hayat Boyu Öğrenme" sayısı için bir yazı hazırlıyor. Konusu: "Yeni bir beceri en iyi nasıl öğrenilir?" Yazısını öğretmenler değil, kendi yaşıtları okuyacak. Aşağıda Azra'nın bulduğu kaynaklar ve giriş paragrafının taslağı yer alıyor.

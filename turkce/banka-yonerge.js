@@ -279,7 +279,10 @@
     y.push('- Her bağlama 3 ile 5 soru bağla. Bu banka için yaklaşık ' + baglamSayisi + ' bağlam gerekir.');
     y.push('- Bağlam türlerini çeşitlendir: bilgilendirici metin, öyküleyici metin, şiir, tablo ya da çizelge, duyuru ya da afiş, ' +
       'mesajlaşma ya da e-posta, öğrenci taslağı. Aynı tür art arda gelmesin; türü ölçülecek ' + (kazanim ? 'kazanıma' : 'çıktıya') + ' göre seç.');
-    y.push('- Ana metinler yaklaşık ' + UZUNLUK[sinif] + ' sözcük olsun; duyuru, tablo ve şiir gibi bağlamlar daha kısa olabilir.');
+    y.push('- Öyküleyici ve bilgilendirici ana metinler en az ' + UZUNLUK[sinif].split('-')[0] + ', en çok ' + UZUNLUK[sinif].split('-')[1] +
+      ' sözcük olsun (sözcükleri say); duyuru, tablo ve şiir gibi bağlamlar daha kısa olabilir.');
+    y.push('- Şiir yazarsan ölçü ya da uyak uğruna sözcük uydurma, sözcüğün biçimini bozma ("ışıldadı" yerine "ışıldı" gibi). ' +
+      'Uyak tutmuyorsa sözcüğü değil dizeyi değiştir.');
     if (tema || not) {
       y.push('- Metinlerin konusu ' + (tema ? '"' + tema + '" temasıyla' : 'öğretmenin konu notuyla') + ' ilişkili olsun' +
         (tema && not ? '; öğretmenin konu notunu da gözet.' : '.'));
@@ -292,9 +295,11 @@
     y.push('- Bilgilendirici metinde doğruluğundan emin olmadığın tarih, sayı ve isim kullanma. Kullandıysan notlarda "kontrol edilmeli" diye belirt.');
     y.push('- Gerçek öğrenci, öğretmen ya da okul adı kullanma; kurgu adlar kullanabilirsin.');
     if (hazir.length) {
-      y.push('- Aşağıdaki bağlamlar öğretmenin elindeki hazır soru bankasında var. Bunlardan farklı konular ve farklı kurgular seç; ' +
-        'aynı başlığı, aynı olayı, aynı kişileri ya da aynı tabloyu kullanma:');
-      hazir.forEach(function (b, i) { y.push('    ' + (i + 1) + ') ' + b.baslik + ' (' + b.tur.toLocaleLowerCase('tr') + ')'); });
+      y.push('- Aşağıdaki bağlamlar öğretmenin elindeki hazır soru bankasında var; her birinin konusu yanında yazıyor. ' +
+        'Bunlardan farklı konular ve farklı kurgular seç; aynı başlığı, aynı olayı, aynı ana düşünceyi, aynı kişileri ya da aynı tabloyu kullanma:');
+      hazir.forEach(function (b, i) {
+        y.push('    ' + (i + 1) + ') ' + b.baslik + ' (' + b.tur.toLocaleLowerCase('tr') + ')' + (b.ozet ? ': ' + b.ozet : ''));
+      });
     }
     y.push('');
 
@@ -348,17 +353,19 @@
       y.push('- Her açık uçlu soru için tam puan alan örnek cevabı, kısmi puan alan cevapları ve puan almayan yaygın yanlışları yaz. ' +
         'Birden fazla doğru cevabı olabilen sorularda "metinden kanıtla desteklenen başka cevaplar da kabul edilir" notunu ekle.');
     }
+    y.push('- Gerekçelerde yalnız bağlamda gerçekten geçen sözlere gönderme yap. Bağlamı sonradan değiştirdiysen cevap anahtarını da baştan denetle.');
     y.push('');
 
     y.push('SON KONTROL');
     y.push('Cevabını vermeden önce her soruyu aşağıdaki sorularla denetle; geçemeyen soruyu yeniden yaz.');
     const kontrol = [
       'Metin ve görsel kapatılınca ' + (yazmaVar ? 'okuma sorusu' : 'soru') + ' cevaplanabiliyor mu? (Cevaplanabiliyorsa geçmez.)',
-      'Soru, eşleştirildiği ' + (kazanim ? 'kazanımı' : 'çıktıyı') + ' mi ölçüyor, başka bir beceriye mi kayıyor?',
+      'Soru, eşleştirildiği ' + (kazanim ? 'kazanımı' : 'çıktıyı') + ' mı ölçüyor, başka bir beceriye mi kayıyor?',
       'Tek doğru cevap ya da açık bir kabul listesi var mı?',
       'Başka bir sorunun kökü, seçenekleri ya da bağlamı bu sorunun cevabını veriyor mu?',
       'Dil ' + sinif + '. sınıf düzeyine uygun mu; yazım ve noktalama temiz mi?',
-      'Soru sayısı tam ' + soru + ' mi; sorular konulara dengeli dağılmış mı?'
+      'Soru sayısı tam ' + soru + ' mi; sorular konulara dengeli dağılmış mı?',
+      'Ana metinlerin sözcük sayısı istenen aralıkta mı? Cevap anahtarında andığın her söz bağlamda gerçekten geçiyor mu?'
     ];
     if (tur !== 'acik') kontrol.push('Seçenek uzunlukları dengeli mi; doğru cevap metinden aynen alınmış mı; doğru cevap harfleri dengeli mi?');
     if (hazir.length) kontrol.push('Bağlamlardan biri hazır soru bankasındaki bağlamlara benziyor mu? (Benziyorsa değiştir.)');
@@ -372,7 +379,7 @@
       '("1-4. soruları aşağıdaki metne göre cevaplayınız."). Soruları baştan sona tek sıra numarala. Bu bölümde ' +
       (kazanim ? 'kazanım' : 'çıktı') + ' kodu, cevap ya da ipucu bulunmasın.' +
       (tur !== 'coktan' ? ' Açık uçlu soruların altına cevap için yeterli sayıda boş satır bırak.' : ''));
-    y.push('B. EŞLEŞTİRME TABLOSU: soru no, konu, ' + (kazanim ? 'kazanım kodu' : 'çıktı kodu') +
+    y.push('B. EŞLEŞTİRME TABLOSU: soru no, konu, ' + (kazanim ? 'kazanım kodu' : 'çıktı kodu') + ' (listedeki yazımıyla)' +
       (bilesenli ? ', ölçülen süreç bileşeninin harfi (verildiyse)' : '') + ', soru türü, güçlük düzeyi.');
     y.push('C. CEVAP ANAHTARI');
     y.push('D. ÖĞRETMENE NOTLAR: kontrol edilmesi gereken bilgiler, emin olmadığın noktalar, sınıfa göre değiştirilebilecek yerler. Yoksa "Yok" yaz.');
@@ -392,12 +399,12 @@
   /* Öğretmenin gelen soru bankasını denetlerken bakacağı liste */
   const KONTROL_LISTESI = [
     'Metni ve tabloyu kapatıp soruları okuyun: bağlama bakmadan cevaplanabilen soru var mı?',
-    'Çoktan seçmeli soruları cevap anahtarına bakmadan çözün: tek doğru cevap var mı, anahtar doğru mu?',
+    'Çoktan seçmeli soruları cevap anahtarına bakmadan çözün: tek doğru cevap var mı, anahtar doğru mu? Anahtardaki gerekçeler metinde gerçekten geçen sözlere mi dayanıyor?',
     'Her soru eşleştirildiği çıktıyı mı ölçüyor? Sorular seçtiğiniz konulara dengeli dağılmış mı?',
     'Doğru seçenek ötekilerden uzun ya da ayrıntılı mı? Doğru cevap harfleri dengeli mi?',
     'Bir soru başka bir sorunun cevabını ele veriyor mu?',
     'Metindeki tarih, sayı ve isimler doğru mu? Yapay zeka emin olmadığı bilgiyi de kendinden emin yazabilir.',
-    'Yazım, noktalama ve anlatım temiz mi? Gün ve ay adlarının büyük harfine, konuşma çizgilerine özellikle bakın.',
+    'Yazım, noktalama ve anlatım temiz mi? Gün ve ay adlarının büyük harfine, konuşma çizgilerine, şiirlerde uyak uğruna bozulmuş sözcüklere özellikle bakın.',
     'Bağlamlar hazır soru bankasındakilerden ve daha önce kullandıklarınızdan gerçekten farklı mı?',
     'Güçlük sınıfınıza uygun mu? Değilse aynı sohbette hangi soruların kolaylaştırılacağını ya da zorlaştırılacağını yazın.'
   ];

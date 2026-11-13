@@ -1,6 +1,6 @@
 /*
  * Türkçe Soru Atölyesi testleri. test.html açılınca çalışır; sonuç sayfaya ve sekme
- * başlığına yazılır ("TEST 96/96"). Veriyi, yönerge kurucuları ve hazır soru bankasını denetler, sayfaya dokunmaz.
+ * başlığına yazılır ("TEST 116/116"). Veriyi, yönerge kurucuları ve hazır soru bankasını denetler, sayfaya dokunmaz.
  */
 (function () {
   'use strict';
@@ -250,9 +250,12 @@
     ok(yb.indexOf('\nKonu 1: Söz varlığı\n- T.O.7.4. ') > 0 && yb.indexOf('\n- T.O.7.21. ') > 0 && yb.indexOf('\nKonu 2: Çıkarım (derin anlam)\n- T.O.7.7. ') > 0 && yb.indexOf('\n- T.O.7.8. ') > 0, 'seçilen konular çıktılarıyla yazılır');
     eq([say(yb, '\n- T.'), say(yb, 'T.O.7.5.'), say(yb, '\nKonu ')], [4, 0, 2], 'seçilmeyen konunun çıktısı yazılmaz');
     ok(yb.indexOf('    a) Metnin bağlamından söz varlığı unsurlarının anlamıyla ilgili ipuçlarını belirleyip ön bilgileriyle ilişkilendirir.') > 0 && yb.indexOf('ölçülen süreç bileşeninin harfi') > 0, 'az çıktıda süreç bileşenleri eklenir');
-    ok(yb.indexOf('yaklaşık 5 bağlam gerekir') > 0 && yb.indexOf('180-250 sözcük') > 0 && yb.indexOf('Her konudan en az bir soru olsun.') > 0, 'bağlam sayısı ve metin uzunluğu');
+    ok(yb.indexOf('yaklaşık 5 bağlam gerekir') > 0 && yb.indexOf('en az 180, en çok 250 sözcük olsun (sözcükleri say)') > 0 && yb.indexOf('Her konudan en az bir soru olsun.') > 0, 'bağlam sayısı ve metin uzunluğu');
     ok(yb.indexOf('dil yapıları (dil bilgisi) ayrı bir çıktı olarak ölçülmez') > 0, '5 ila 7. sınıfta dil yapıları uyarısı');
     eq(K.baglamlar('7').map(function (b, i) { return say(yb, '    ' + (i + 1) + ') ' + b.baslik + ' ('); }), [1, 1, 1, 1, 1, 1, 1, 1], 'hazır bankadaki sekiz bağlam sayılır');
+    ok(yb.indexOf('    1) Öğrenmenin Düzlüğü (bilgilendirici metin): yeni bir beceri öğrenirken') > 0 && yb.indexOf('aynı ana düşünceyi') > 0, 'hazır bağlamlar konularıyla sayılır');
+    eq(SINIFLAR.map(function (s) { return K.baglamlar(s).filter(function (b) { return !b.ozet || /\.$/.test(b.ozet); }).length; }), [0, 0, 0, 0], 'her hazır bağlamın özeti var');
+    ok(yb.indexOf('uyak uğruna sözcük uydurma') > 0 && yb.indexOf('yalnız bağlamda gerçekten geçen sözlere gönderme yap') > 0 && yb.indexOf('Ana metinlerin sözcük sayısı istenen aralıkta mı?') > 0, 'denemeden çıkan kurallar: şiirde sözcük, anahtarın bağlama dayanması, sözcük sayısı');
     const ybf = K.kur(bsecim({ farkli: false }));
     ok(ybf.indexOf('hazır soru bankasında') < 0 && ybf.indexOf('Öğrenmenin Düzlüğü') < 0 && yb.indexOf('hazır soru bankasındaki bağlamlara benziyor mu?') > 0, 'farklılık istenmezse bağlam listesi eklenmez');
     ok(yb.indexOf('"devam"') < 0 && K.kur(bsecim({ soru: 21 })).indexOf('en çok 20 soruluk bir bölümü') > 0, 'uzun banka bölüm bölüm istenir');
@@ -272,7 +275,7 @@
     ok(ybh.indexOf('Soru sayısı konu sayısından az olduğu için') > 0 && ybh.indexOf('Her çıktıdan soru yazman gerekmez') > 0 && ybh.indexOf('yaklaşık 3 bağlam') > 0 && ybh.indexOf('En az bir bağlamda') > 0, 'soru sayısı konulardan azsa uyarı');
     const yb8 = K.kur(bsecim({ sinif: '8', konular: ['8-fiilimsi', '8-cati'] }));
     ok(yb8.indexOf('KONULAR VE KAZANIMLAR') > 0 && yb8.indexOf('\nKonu 1: Fiilimsiler\n- T.8.3.9. ') > 0 && yb8.indexOf('\nKonu 2: Fiilde çatı\n- T.8.4.20. ') > 0 && yb8.indexOf('terimi tanımlatmak yerine') > 0, '8. sınıfta kazanım dili');
-    ok(yb8.indexOf('Süreç bileşen') < 0 && yb8.indexOf('süreç bileşeninin harfi') < 0 && yb8.indexOf('öğrenme çıktı') < 0 && yb8.indexOf('dil yapıları (dil bilgisi) ayrı') < 0 && yb8.indexOf('kazanım kodu, soru türü') > 0, '8. sınıfta süreç bileşeni ve çıktı sözü yok');
+    ok(yb8.indexOf('Süreç bileşen') < 0 && yb8.indexOf('süreç bileşeninin harfi') < 0 && yb8.indexOf('öğrenme çıktı') < 0 && yb8.indexOf('dil yapıları (dil bilgisi) ayrı') < 0 && yb8.indexOf('kazanım kodu (listedeki yazımıyla), soru türü') > 0, '8. sınıfta süreç bileşeni ve çıktı sözü yok');
     eq([K.eksikler(bsecim({ konular: [] })).length, K.eksikler(bsecim({ soru: 4 })).length, K.eksikler(bsecim({ soru: 61 })).length,
       K.eksikler(bsecim({ soru: 20.5 })).length, K.eksikler(bsecim({ soru: NaN })).length, K.eksikler(bsecim({ konular: ['yok'] })).length],
     [1, 1, 1, 1, 1, 1], 'eksik seçimler: konu yok, soru sayısı sınır dışı');
@@ -306,6 +309,8 @@
     eq((cumleler.match(/[âîûÂÎÛ–—]/g) || []), [], 'şapkalı harf ve uzun çizgi yok');
     ok(!/, ama | ama, |\. Ancak /.test(cumleler), '"ama" virgülsüz, cümle "ancak" ile başlamıyor');
     eq([A.KONTROL_LISTESI.length, A.EK_YONERGELER.length, K.KONTROL_LISTESI.length], [9, 7, 9], 'kontrol listeleri ve hazır istekler');
+    ok(y.indexOf('süreç bileşenini mi ölçüyor') > 0 && y8.indexOf('kazanımı mı ölçüyor') > 0 && yb.indexOf('çıktıyı mı ölçüyor') > 0 && yb8.indexOf('kazanımı mı ölçüyor') > 0 &&
+      !/[ıaou] mi ölçüyor|[eiöü] mı ölçüyor/.test([y, y8, yb, yb8].join('\n')), 'soru eki önceki sözcüğe uyar');
   } catch (e) {
     kalan++;
     cikti.push('HATA  testler yarıda kesildi: ' + e.message + '\n' + (e.stack || ''));

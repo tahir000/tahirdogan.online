@@ -2,6 +2,7 @@
 
 BAĞLAM Kelimelerin Yolculuğu
 TÜR Bilgilendirici metin
+ÖZET Türkçede ek getirerek ve sözcük birleştirerek yeni sözcük türetme
 TEMA Dilimizin Zenginliği
 METİN
 Türkçe, yeni kavramlara ad bulmakta zorlanmayan bir dildir. Bunun en önemli nedeni, sözcük türetme yollarının çokluğudur.
@@ -49,6 +50,7 @@ PUAN İki yolu ve bunun dile kazandırdığını kendi cümleleriyle veren özet
 
 BAĞLAM Kağnının Sesi
 TÜR Öyküleyici metin
+ÖZET Kurtuluş Savaşı'nda kağnıyla cephane taşıyan ninenin anısı
 TEMA Bağımsızlık Yolu
 METİN
 Kastamonu'daki evimizin sofasında eski bir kağnı tekerleği asılıdır. Küçükken onu sıradan bir süs sanırdım. Geçen yaz babaannem tekerleğin önünde durdu ve anlatmaya başladı.
@@ -98,6 +100,7 @@ PUAN Kendi ön bilgisini (anı, gözlem, anlatılan olay) açıkça yazan ve bun
 
 BAĞLAM Raftaki Kapı
 TÜR Şiir
+ÖZET kitabın okuru başka dünyalara götürmesi
 TEMA Farklı Dünyalar
 ŞİİR Raftaki Kapı
 Rafımda bekler bir kitap,
@@ -150,6 +153,7 @@ PUAN İletiyi koruyan, söz sanatı ya da mecaz içeren cümle ve doğru adland�
 
 BAĞLAM Fasulye Günlüğü
 TÜR Deney anlatımı ve tablo
+ÖZET ışığın bitki büyümesine etkisini ölçen sınıf deneyi
 TEMA Bilim ve Teknoloji
 METİN
 6/A sınıfı, ışığın bitki büyümesine etkisini görmek için bir deney kurdu. Önce aynı boyda üç saksıya aynı topraktan eşit miktarda kondu. Ardından her saksıya üçer fasulye tohumu ekildi. Saksılara A, B ve C harfleri yazıldı.
@@ -202,6 +206,7 @@ PUAN Aynı tutulan en az üç koşulu ve değiştirilen koşulu doğru grupland�
 
 BAĞLAM Teneffüste Telefon
 TÜR İki okur yazısı
+ÖZET teneffüste telefon serbest olsun mu tartışması
 TEMA İletişim ve Sosyal İlişkiler
 METİN 1. yazı: Defne (6/C)
 Bence teneffüste telefon kullanmak serbest olmalı. Derste zaten dikkatimizi veriyoruz; on dakikalık arada biraz dinlenmek hakkımız. Geçen hafta kardeşim hastaydı, annemi arayıp nasıl olduğunu öğrenemediğim için bütün gün aklım evde kaldı. Ayrıca telefonda ders tekrarı yapılabilecek uygulamalar da var. Elbette derste telefonun kapalı kalması gerektiğini ben de kabul ediyorum.
@@ -248,6 +253,7 @@ PUAN Güçlü ve zayıf gerekçeyi nedenleriyle veren ve bir iyileştirme öneri
 
 BAĞLAM Kapıdaki Kalabalık
 TÜR Öyküleyici metin
+ÖZET okul çıkışındaki kalabalık sorununu inceleyip çözen öğrenci meclisi başkanı
 TEMA Lider Ruhlar
 METİN
 Okulun arka kapısı dar bir sokağa açılıyordu. Çıkış zili çaldığında yüzlerce öğrenci aynı anda bu kapıya yöneliyor, sokaktan geçen arabalarla burun buruna geliyordu. Bir gün birinci sınıftan bir çocuk kalabalıkta itilip düştü. Dizi kanamıştı.
@@ -295,6 +301,7 @@ PUAN Ölçütün iki yönünü de (bilgi toplama, birlikte karar) metinden örne
 
 BAĞLAM Gezi Yazısı Taslağı
 TÜR Öğrenci taslağı
+ÖZET müze gezisini anlatan öğrenci taslağı
 METİN
 Deniz, sınıf dergisi için müze gezisini anlatan bir yazı hazırlıyor. Amacı, müzeyi görmeyen arkadaşlarının orayı gözünde canlandırmasını sağlamak. Yazısının ilk taslağı aşağıdadır.
 KUTU Deniz'in taslağı
@@ -345,6 +352,7 @@ PUAN Eski ve yeni araçları ortak bir özellik üzerinden (yazma hızı, kullan
 
 BAĞLAM Kütüphane Haftası
 TÜR Afiş ve etkinlik çizelgesi
+ÖZET kütüphane haftası afişi ve etkinlik çizelgesi
 KUTU Okul panosundaki afiş
 KÜTÜPHANE HAFTASI BAŞLIYOR!
 Bu yılın konusu: "Bir Kitap, Bir Yolculuk"

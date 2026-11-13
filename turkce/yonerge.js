@@ -252,7 +252,7 @@
       'Metin ve görsel kapatılınca ' + (yazmaVar ? 'okuma sorusu' : 'soru') + ' cevaplanabiliyor mu? (Cevaplanabiliyorsa geçmez.)' +
         (yazmaVar ? ' Yazma sorusu bağlamdaki duruma dayanıyor mu?' : ''),
       'Görsel öge kapatılınca en az bir sorunun cevabı değişiyor mu? (Değişmiyorsa görsel süs kalmıştır.)',
-      'Soru, eşleştirildiği ' + (kazanim ? 'kazanımı' : 'çıktıyı ve süreç bileşenini') + ' mi ölçüyor, başka bir beceriye mi kayıyor?',
+      'Soru, eşleştirildiği ' + (kazanim ? 'kazanımı mı' : 'çıktıyı ve süreç bileşenini mi') + ' ölçüyor, başka bir beceriye mi kayıyor?',
       'Tek doğru cevap ya da açık bir kabul listesi var mı?',
       'Başka bir sorunun kökü, bağlamı ya da cevap alanı bu sorunun cevabını veriyor mu?' +
         (yazimVar ? ' Yazım sorusunda sınanan kuralın doğru örneği başka bir yerde görünüyor mu?' : ''),
