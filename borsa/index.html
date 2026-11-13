@@ -313,7 +313,7 @@ const S = {
   kot: {}, kotAt: null, kotErr: null,
   gunluk: null, gunTarih: null, gunFiltre: 'tum',
   view: 'portfoy', sym: null, aralik: 126,
-  dbGec: false, silOnay: false, tam: false, kilit: false,
+  dbGec: false, silOnay: false, tam: false, kilit: false, uzak: false, kesinti: 0,
   islemler: null, haftalik: null, ek: {}
 };
 const AN = {};             // analiz önbelleği
@@ -452,6 +452,7 @@ function semboller(){ return S.hisseler ? Object.keys(S.hisseler).sort() : []; }
 function hataMetni(e){
   const c = e && e.code;
   if (c === 'oturum') return 'Oturumun süresi doldu. Yeniden giriş yap.';
+  if (c === 'kesinti' || (S.uzak && (c === 'upstream_error' || !c))) return 'Borsa MCP sunucusu şu an yanıt vermiyor. Sayfa kendiliğinden yeniden deneyecek.';
   if (c === 'seyrek') return 'Veri kaynağı günlük yerine haftalık ya da aylık veri döndürdü. Biraz sonra "Yenile" ile tekrar dene.';
   if (c === 'server_not_connected' || c === 'server_not_found' || c === 'selection_required') return 'Borsa MCP bağlayıcısı bu hesapta bağlı görünmüyor. claude.ai Ayarlar, Bağlayıcılar bölümünden ekleyip sayfayı yenile.';
   if (c === 'needs_reauth') return 'Borsa MCP bağlantısının süresi dolmuş. claude.ai Ayarlar, Bağlayıcılar bölümünden yeniden bağla.';
@@ -480,7 +481,7 @@ const PARCA = 28, HEDEF = 720, GECMIS = 'tahta_gecmis_2';
 const gunEkle = (t, n) => { const d = new Date(t + 'T00:00:00Z'); d.setUTCDate(d.getUTCDate() + n); return d.toISOString().slice(0, 10); };
 const TARIH = /^\d{4}-\d{2}-\d{2}$/;
 const istenen = new Set();
-let gecmisDepo = null, depoZ = 0, gecmisCalisiyor = false;
+let gecmisDepo = null, depoZ = 0, gecmisCalisiyor = false, gecmisZ = 0;
 function depoOku(){
   if (gecmisDepo) return gecmisDepo;
   try { const o = JSON.parse(localStorage.getItem(GECMIS) || '{}'); gecmisDepo = o && typeof o === 'object' && !Array.isArray(o) ? o : {}; } catch (e) { gecmisDepo = {}; }
@@ -589,6 +590,8 @@ async function gecmisDongu(){
     }
   } catch (e) { console.error(e); }
   gecmisCalisiyor = false;
+  clearTimeout(gecmisZ);
+  if (!S.uzak && Array.from(istenen).some(q => { const h = S.hist[q]; return h && h.err && h.err.code !== 'bos' && !gecmisTam(h); })) gecmisZ = setTimeout(gecmisDongu, 95e3);
 }
 function yukleGecmis(sym, zorla){
   const h = gecmisKaydi(sym); istenen.add(sym);
@@ -784,6 +787,7 @@ function cizBaslik(){
   let u = '';
   if (S.demo) u = 'Örnek veri gösteriliyor: rakamlar gerçek değil.';
   else if (S.hazir && !S.mcp) u = 'Canlı fiyat verisi bu görünümde kullanılamıyor. Sayfayı claude.ai içinde açınca Borsa MCP bağlayıcısından veri gelir.';
+  else if (S.kesinti && Date.now() < S.kesinti) u = 'Borsa MCP sunucusu şu an yanıt vermiyor. Sayfa kendiliğinden yeniden deneyecek; varsa eldeki veriler gösteriliyor.';
   else if (syms.length && hatalar.length === syms.length) u = hataMetni(hatalar[0]);
   else if (S.dbGec) u = 'Liste henüz alınamadı ya da güncel olmayabilir. Bağlantı gelince kendiliğinden yenilenir.';
   $('uyari').hidden = !u; $('uyari').textContent = u;
@@ -1244,20 +1248,40 @@ function uzakDb(){
 }
 /* Sayfanın geri kalanı Claude'un bağlayıcı arayüzüyle (callTool, watchTool) konuşur; bu sarmalayıcı aynı çağrıları aktarıcıya yollar. */
 function uzakMcp(){
-  const bellek = new Map(), ucus = new Map();
+  const bellek = new Map(), ucus = new Map(), sira = [];
+  let acik = 0, ara = 0, kadar = 0, kz = 0;
+  // Borsa MCP herkese açık, ücretsiz bir sunucu: aynı anda en fazla iki istek gider.
+  const yer = () => new Promise(res => { if (acik < 2) { acik++; res(); } else sira.push(res); });
+  const birak = () => { const f = sira.shift(); if (f) f(); else acik--; };
+  // Sunucu yanıt vermezse istekler bir süre durur (15 saniyeden başlar, her seferinde iki katına çıkar, en çok 5 dakika), sonra sayfa kendiliğinden yeniden dener.
+  function kesintiBasla(){
+    if (Date.now() < kadar) return;
+    ara = Math.min(ara ? ara * 2 : 15e3, 300e3); kadar = Date.now() + ara; S.kesinti = kadar;
+    clearTimeout(kz); kz = setTimeout(() => { S.kesinti = 0; Object.keys(S.hist).forEach(q => { S.hist[q].hataAt = 0; }); senkron(); }, ara + 300);
+    ciz();
+  }
   function callTool(srv, tool, input, opt){
     const c = (opt && opt.cache) || {}, key = tool + '|' + JSON.stringify(input), b = bellek.get(key);
     if (b && !c.refresh && Date.now() - b.at < (c.staleTime || 0)) return Promise.resolve(b.sonuc);
     if (ucus.has(key)) return ucus.get(key);
     const soz = (async () => {
-      const r = await istek('/functions/v1/borsa', {method: 'POST', body: JSON.stringify({tool, input})});
-      if (!r.ok) throw (r.status === 400 ? {code: 'tool_error'} : {code: 'upstream_error', retryable: true, retryAfterMs: 1500});
-      let j; try { j = await r.json(); } catch (e) { throw {code: 'upstream_error', retryable: true}; }
-      if (!j || j.isError) throw {code: 'tool_error', message: j ? metin(j).slice(0, 300) : ''};
-      const sonuc = Object.assign({}, j, {cache: {storedAt: Date.now()}});
-      bellek.set(key, {at: Date.now(), sonuc});
-      if (bellek.size > 400) bellek.delete(bellek.keys().next().value);
-      return sonuc;
+      if (Date.now() < kadar) throw {code: 'kesinti'};
+      await yer();
+      try {
+        if (Date.now() < kadar) throw {code: 'kesinti'};
+        let r;
+        try { r = await istek('/functions/v1/borsa', {method: 'POST', body: JSON.stringify({tool, input})}); }
+        catch (e) { if (e && e.code === 'upstream_error') kesintiBasla(); throw e; }
+        if (r.status === 400) throw {code: 'tool_error'};
+        if (!r.ok) { kesintiBasla(); throw {code: 'upstream_error', retryable: true, retryAfterMs: 1500}; }
+        let j; try { j = await r.json(); } catch (e) { throw {code: 'upstream_error', retryable: true}; }
+        if (!j || j.isError) throw {code: 'tool_error', message: j ? metin(j).slice(0, 300) : ''};
+        if (ara) { ara = 0; if (S.kesinti) { S.kesinti = 0; ciz(); } }
+        const sonuc = Object.assign({}, j, {cache: {storedAt: Date.now()}});
+        bellek.set(key, {at: Date.now(), sonuc});
+        if (bellek.size > 400) bellek.delete(bellek.keys().next().value);
+        return sonuc;
+      } finally { birak(); }
     })().finally(() => { ucus.delete(key); });
     ucus.set(key, soz); return soz;
   }
