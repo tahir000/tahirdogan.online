@@ -1,6 +1,6 @@
 /*
  * Türkçe Soru Atölyesi testleri. test.html açılınca çalışır; sonuç sayfaya ve sekme
- * başlığına yazılır ("TEST 40/40"). Veriyi ve yönerge kurucuyu denetler, sayfaya dokunmaz.
+ * başlığına yazılır ("TEST 65/65"). Veriyi ve yönerge kurucuyu denetler, sayfaya dokunmaz.
  */
 (function () {
   'use strict';
@@ -94,7 +94,12 @@
     ok(y.indexOf('   Not: Yazılıda a ve b ölçülür') > 0, 'çıktı notu yazılır');
     ok(y.indexOf('2024 sürümü') > 0, 'program sürümü yazılır');
     ok(y.indexOf('Metinleri sen yaz') > 0 && y.indexOf('iki ya da üç bağlam') > 0 && y.indexOf('180-250 sözcük') > 0, 'özgün metin kuralları');
-    ok(y.indexOf('dereceli puanlama anahtarı') > 0 && y.indexOf('Puanların toplamı tam 100 etsin') > 0, 'açık uçlu puanlama kuralları');
+    ok(y.indexOf('dereceli puanlama anahtarı') > 0 && y.indexOf('Puanları sorunun gerektirdiği işe göre sen dağıt; toplam tam 100 etsin') > 0, 'açık uçlu puanlama kuralları');
+    const yOkuma = A.kur(secim({ senaryo: A.OZEL, adetler: { 'T.O.7.5.': 2, 'T.O.7.8.': 1 } }));
+    ok(y.indexOf('ikilemelerin yazımı soruluyorsa söz havuzuna') > 0 && y.indexOf('Yazım sorusunda sınanan kuralın doğru örneği') > 0 && yOkuma.indexOf('ikilemelerin yazımı') < 0 && yOkuma.indexOf('Yazım sorusunda sınanan') < 0, 'yazım çıktısı varsa ipucu kuralı eklenir, yoksa eklenmez');
+    ok(y.indexOf('yazma görevi bu duruma dayansın') > 0 && y.indexOf('Yazma sorusu bağlamdaki duruma dayanıyor mu?') > 0 && yOkuma.indexOf('Yazma soru') < 0 && yOkuma.indexOf('cevaplanabilen soruyu ya da bağlamını') > 0, 'yazma çıktısı varsa bağlamın işi açıklanır');
+    ok(y.indexOf('Sınavın tamamı 40 dakikada bitirilebilsin') > 0 && A.kur(secim({ sure: 80 })).indexOf('Sınav 80 dakikada biter mi?') > 0, 'süre kuralı seçilen süreyle yazılır');
+    ok(y.indexOf('gün ve ay adları küçük harfle başlar ("salı günü", "eylülde")') > 0, 'sık yapılan yazım yanlışları anılır');
     ok(y.indexOf('dört seçenek') < 0 && y.indexOf('çeldirici') < 0, 'açık uçluda çoktan seçmeli kuralı yok');
     eq(['A. ÖĞRENCİ SINAVI', 'B. SORU VE ÇIKTI EŞLEŞTİRME TABLOSU', 'C. CEVAP VE PUANLAMA ANAHTARI', 'D. KALİTE KONTROL NOTLARI', 'E. ÖĞRETMENE NOTLAR'].map(function (b) { return say(y, '\n' + b); }), [1, 1, 1, 1, 1], 'beş bölüm sırayla istenir');
     ok(y.indexOf('\nF. ') < 0 && y.indexOf('Tema:') < 0 && y.indexOf('ÖĞRETMENİN') < 0, 'verilmeyen alanlar yazılmaz');
@@ -173,7 +178,7 @@
     cumleler += A.KONTROL_LISTESI.join('\n') + A.EK_YONERGELER.map(function (i) { return i.baslik + i.metin; }).join('\n');
     eq((cumleler.match(/[âîûÂÎÛ–—]/g) || []), [], 'şapkalı harf ve uzun çizgi yok');
     ok(!/, ama | ama, |\. Ancak /.test(cumleler), '"ama" virgülsüz, cümle "ancak" ile başlamıyor');
-    eq([A.KONTROL_LISTESI.length, A.EK_YONERGELER.length], [8, 7], 'kontrol listesi ve hazır istekler');
+    eq([A.KONTROL_LISTESI.length, A.EK_YONERGELER.length], [9, 7], 'kontrol listesi ve hazır istekler');
   } catch (e) {
     kalan++;
     cikti.push('HATA  testler yarıda kesildi: ' + e.message + '\n' + (e.stack || ''));

@@ -38,7 +38,7 @@ MEB yeni tablo yayımladığında (örneğin 2. dönem):
 3. Tabloyu veriye çevirin: `python3 -I araclar/senaryo_json.py kaynaklar/tablo.xlsx bilgi-paketi/senaryolar.json`
 4. Süreç bileşenlerini çıkarın: `python3 -I araclar/surec_json.py`
 5. Sitenin verisini üretin: `python3 -I araclar/veri_js.py`
-6. `test/test.html` sayfasını açıp testlerin geçtiğini görün, sonra `main` dalına gönderin.
+6. `test/test.html` sayfasını açıp testlerin geçtiğini görün (macOS'ta tarayıcısız: bu klasörde `osascript -l JavaScript araclar/test_calistir.js .`), sonra `main` dalına gönderin.
 
 Betikler yalnız Python 3 ve macOS ile çalışır, ek kurulum istemez.
 

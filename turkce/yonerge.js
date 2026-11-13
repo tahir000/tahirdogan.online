@@ -107,6 +107,8 @@
     const tema = temiz(secim.tema), konu = temiz(secim.konu), ek = temiz(secim.ekIstek);
     const ogretmenMetni = secim.metinKaynagi === 'ogretmen' ? temiz(secim.metin) : '';
     const bilesenli = ciktilar.filter(function (c) { return c.bilesenler; }).length;
+    const yazmaVar = ciktilar.some(function (c) { return c.alan === 'Yazma'; });
+    const yazimVar = ciktilar.some(function (c) { return /yazım|noktalama/i.test(c.ad); });
 
     let sinavSatiri = secim.sinav ? secim.sinav : 'Sınav adı verilmedi';
     const tablodaki = secim.sinav && secim.senaryo && secim.senaryo !== OZEL
@@ -187,19 +189,26 @@
     const kurallar = [];
     kurallar.push('Her soru tek bir ' + (kazanim ? 'kazanımı' : 'öğrenme çıktısını') + ' ölçsün.' +
       (bilesenli ? ' Süreç bileşeni verilen çıktılarda soru o bileşenlerden birini ya da birkaçını ölçsün; hangisini ölçtüğünü eşleştirme tablosunda harfiyle yaz.' : ''));
-    kurallar.push('Bağlam süs olmasın: metin ve görsel kapatıldığında cevaplanabilen soruyu ya da bağlamını yeniden kur.');
+    kurallar.push('Bağlam süs olmasın: metin ve görsel kapatıldığında cevaplanabilen ' + (yazmaVar ? 'okuma sorusunu' : 'soruyu') + ' ya da bağlamını yeniden kur.' +
+      (yazmaVar ? ' Yazma sorularında bağlam, yazma durumunu ve malzemesini verir (duyuru, taslak, söz havuzu gibi); yazma görevi bu duruma dayansın.' : ''));
     kurallar.push('Çıkarım isteyen sorularda cevap metinde hazır durmasın. Yüzey anlam sorularında cevap metinde ya da görselde açıkça yer alsın.');
     kurallar.push('Sorular birbirinden bağımsız çözülsün. Bir sorunun kökü, bağlamı ya da cevap alanı başka bir sorunun cevabını vermesin; ' +
       '"önceki soruda bulduğunuz" gibi zincirler kurma.');
+    if (yazimVar) {
+      kurallar.push('Yazım ve noktalama sorusunda sınanan kuralın doğru yazılmış örneği sınavın başka bir yerinde hazır durmasın. ' +
+        'Örneğin ikilemelerin yazımı soruluyorsa söz havuzuna, tabloya ya da öteki soruların köküne ikileme koyma.');
+    }
     kurallar.push('Soru kökü kısa ve açık olsun; kökte konu anlatma, bilgi bağlamda dursun.');
     kurallar.push('Çift olumsuz kullanma. Kökte tek bir olumsuzluk varsa olumsuzluk bildiren sözcüğü kalın yaz.');
     kurallar.push('"Sizce", "size göre" gibi öznel ifadeler kullanma; "Metne göre", "Tabloya göre" gibi bağlama gönderme yap.');
     kurallar.push('Yazım, noktalama ve anlatım Türk Dil Kurumunun kurallarına uygun olsun. Sınavda yazım yanlışı bulunmasın ' +
-      '(öğrencinin düzeltmesi için bilerek konan yanlışlar dışında).');
+      '(öğrencinin düzeltmesi için bilerek konan yanlışlar dışında). Sık yapılan iki yanlışa dikkat et: belirli bir tarih bildirmeyen gün ve ay adları ' +
+      'küçük harfle başlar ("salı günü", "eylülde"); konuşmaları ya tırnak içinde ya da konuşma çizgisiyle ver, ikisini karıştırma.');
+    kurallar.push('Sınavın tamamı ' + sure + ' dakikada bitirilebilsin: toplam okuma yükünü ve yazma sorularında istenen uzunluğu buna göre ayarla.');
     if (tur !== 'coktan') {
-      kurallar.push('Her açık uçlu sorunun puanını sorunun sonunda ayraç içinde yaz. Puanların toplamı tam ' + puan + ' etsin.');
+      kurallar.push('Her açık uçlu sorunun puanını sorunun sonunda ayraç içinde yaz. Puanları sorunun gerektirdiği işe göre sen dağıt; toplam tam ' + puan + ' etsin.');
       kurallar.push('Açık uçlu soru, öğrenciden ne kadar yazması beklendiğini söylesin (kaç örnek, kaç cümle, kaç sözcük).');
-      kurallar.push('Yazma sorularında öğrenciye bir yazma amacı ve durumu ver.');
+      if (yazmaVar) kurallar.push('Yazma sorularında öğrenciye bir yazma amacı ve durumu ver.');
     }
     if (tur !== 'acik') {
       kurallar.push('Çoktan seçmeli sorularda dört seçenek (A, B, C, D) ve tek doğru cevap olsun. "Hepsi", "Hiçbiri", "A ve B" gibi seçenekler kullanma.');
@@ -227,8 +236,10 @@
     if (tur !== 'coktan') {
       y.push('- Her açık uçlu soru için şunları yaz: tam puan alan örnek cevap, kısmi puan alan cevaplar ve puanları, puan almayan yaygın yanlışlar.');
       y.push('- Birden fazla doğru cevabı olabilen sorularda kabul edilen cevapları listele ve "metinden kanıtla desteklenen başka cevaplar da kabul edilir" notunu ekle.');
-      y.push('- Yazma sorularında dereceli puanlama anahtarı kullan (ölçütler ve düzeyler tablosu). Ölçütleri ' +
-        (kazanim ? 'kazanımdan' : 'çıktıdan ve süreç bileşenlerinden') + ' türet.');
+      if (yazmaVar) {
+        y.push('- Yazma sorularında dereceli puanlama anahtarı kullan (ölçütler ve düzeyler tablosu). Ölçütleri ' +
+          (kazanim ? 'kazanımdan' : 'çıktıdan ve süreç bileşenlerinden') + ' türet.');
+      }
     }
     if (tur !== 'acik') {
       y.push('- Her çoktan seçmeli soru için doğru cevabı ve her çeldiricinin gerekçesini (hangi yanılgıya dayandığını) yaz.');
@@ -238,13 +249,15 @@
     y.push('SON KONTROL');
     y.push('Cevabını vermeden önce her soruyu aşağıdaki sorularla denetle; geçemeyen soruyu yeniden yaz.');
     const kontrol = [
-      'Metin ve görsel kapatılınca soru cevaplanabiliyor mu? (Cevaplanabiliyorsa geçmez.)',
+      'Metin ve görsel kapatılınca ' + (yazmaVar ? 'okuma sorusu' : 'soru') + ' cevaplanabiliyor mu? (Cevaplanabiliyorsa geçmez.)' +
+        (yazmaVar ? ' Yazma sorusu bağlamdaki duruma dayanıyor mu?' : ''),
       'Görsel öge kapatılınca en az bir sorunun cevabı değişiyor mu? (Değişmiyorsa görsel süs kalmıştır.)',
       'Soru, eşleştirildiği ' + (kazanim ? 'kazanımı' : 'çıktıyı ve süreç bileşenini') + ' mi ölçüyor, başka bir beceriye mi kayıyor?',
       'Tek doğru cevap ya da açık bir kabul listesi var mı?',
-      'Başka bir sorunun kökü, bağlamı ya da cevap alanı bu sorunun cevabını veriyor mu?',
+      'Başka bir sorunun kökü, bağlamı ya da cevap alanı bu sorunun cevabını veriyor mu?' +
+        (yazimVar ? ' Yazım sorusunda sınanan kuralın doğru örneği başka bir yerde görünüyor mu?' : ''),
       'Dil ' + sinif + '. sınıf düzeyine uygun mu; yazım ve noktalama temiz mi?',
-      'Soru sayısı, ' + (kazanim ? 'kazanımlara' : 'çıktılara') + ' dağılım ve puan toplamı yukarıdaki bilgilerle birebir tutuyor mu?'
+      'Soru sayısı, ' + (kazanim ? 'kazanımlara' : 'çıktılara') + ' dağılım ve puan toplamı yukarıdaki bilgilerle birebir tutuyor mu? Sınav ' + sure + ' dakikada biter mi?'
     ];
     if (tur !== 'acik') kontrol.push('Çoktan seçmeli sorularda seçenek uzunlukları dengeli mi; doğru cevap metinden aynen alınmış mı?');
     kontrol.forEach(function (k, i) { y.push((i + 1) + '. ' + k); });
@@ -327,10 +340,11 @@
     'Metni ve tabloyu kapatıp soruları okuyun: bağlama bakmadan cevaplanabilen soru var mı?',
     'Tablo, duyuru ya da çizelge gerçekten gerekli mi, yoksa metindeki bilgiyi mi tekrar ediyor?',
     'Her soru eşleştirildiği çıktıyı mı ölçüyor? Çıkarım sorusunun cevabı metinde açıkça yazıyorsa soru yüzey anlama kaymıştır.',
-    'Bir soru başka bir sorunun cevabını ele veriyor mu?',
-    'Kodlar, soru sayıları ve puan toplamı seçtiğiniz senaryoyla tutuyor mu?',
+    'Bir soru başka bir sorunun cevabını ele veriyor mu? Söz havuzundaki ya da tablodaki bir örnek, yazım sorusunun cevabını gösteriyor olabilir.',
+    'Kodlar, soru sayıları ve puan toplamı seçtiğiniz senaryoyla tutuyor mu? Sınav verdiğiniz sürede biter mi?',
     'Metindeki tarih, sayı ve isimler doğru mu? Yapay zeka emin olmadığı bilgiyi de kendinden emin yazabilir.',
-    'Yazım, noktalama ve anlatım temiz mi? Bilinmeyen sözcük sorusundaki sözcüğü sınıfınız zaten biliyor olabilir mi?',
+    'Yazım, noktalama ve anlatım temiz mi? Gün ve ay adlarının büyük harfine, konuşma çizgilerine özellikle bakın.',
+    'Bilinmeyen sözcük sorusundaki sözcüğü sınıfınız zaten biliyor olabilir mi?',
     'Puanlama anahtarı, sınıfınızdan gelebilecek farklı doğru cevapları karşılıyor mu?'
   ];
 
