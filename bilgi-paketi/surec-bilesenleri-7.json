@@ -1,0 +1,136 @@
+{
+ "T.O.7.4.": {
+  "ad": "Metinde geçen anlamını bilmediği söz varlığı unsurlarının anlamını tahmin edebilme",
+  "temalar": [
+   1
+  ],
+  "bilesenler": {
+   "a": "Metnin bağlamından söz varlığı unsurlarının anlamıyla ilgili ipuçlarını belirleyip ön bilgileriyle ilişkilendirir.",
+   "b": "Söz varlığı unsurlarının anlamına ilişkin mantıklı tahminde bulunur.",
+   "c": "Tahminin doğruluğunu kaynaklardan, ebeveyn veya öğretmenden yardım alarak kontrol edip yargıya ulaşır."
+  },
+  "not": "Yazılıda a ve b ölçülür; c (kaynaktan doğrulama) sınav ortamına uymaz. Sözcük, sınıfın büyük olasılıkla bilmediği ama metindeki ipucuyla çıkarabileceği bir sözcük olmalı.",
+  "arac": "Programın önerdiği araç: cümle tamamlama."
+ },
+ "T.O.7.5.": {
+  "ad": "Metnin yüzey anlamını belirleyebilme",
+  "temalar": [
+   1
+  ],
+  "bilesenler": {
+   "a": "Metin ve varsa ona eşlik eden görsellerden hareketle bağlama/konuya dair ipuçlarını bulup ön bilgileriyle bağlantı kurar.",
+   "b": "Metinde doğrudan verilen bilgileri (tanımı verilen kavram, düşünce, yönerge, iletilmek istenen mesaj, açıkça ifade edilen ana fikir vb.) belirler.",
+   "c": "Gerektiğinde iletilen mesajın gerektirdiği tepkiyi verir."
+  },
+  "not": "Cevap metinde ya da eşlik eden görselde açıkça yer alır. Duyuru, yönerge, uyarı gibi metinlerde c bileşeni sorulabilir: öğrenci mesaja göre ne yapması gerektiğini yazar.",
+  "arac": "Programın önerdiği araç: boşluk doldurma, açık uçlu soru."
+ },
+ "T.O.7.7.": {
+  "ad": "Metnin derin anlamını belirlemeye yönelik basit çıkarımlar yapabilme",
+  "temalar": [
+   2
+  ],
+  "bilesenler": {
+   "a": "Metnin sınırlı bir bölümünden ve görselden kanıt toplayıp ön bilgileriyle ilişkilendirir.",
+   "b": "İlişkilendirmeden hareketle çıkarım yapar.",
+   "c": "Bir yargıya vararak gerektiğinde tepki verir."
+  },
+  "not": "Metnin sınırlı bir bölümünden çıkarım: doğrudan verilmeyen neden, koşul, amaç, sonuç, ihtimal; kahramanın bir davranışının sebebi, o andaki duygu ve düşüncesi, niyeti; yardımcı düşünceler. Öğrenci kanıt ve gerekçe sunar.",
+  "arac": ""
+ },
+ "T.O.7.8.": {
+  "ad": "Metnin derin anlamını belirlemeye yönelik üst düzey çıkarımlar yapabilme",
+  "temalar": [
+   2
+  ],
+  "bilesenler": {
+   "a": "Metnin bütününden ve görsellerden kanıt toplayıp ön bilgileriyle ilişkilendirir.",
+   "b": "İlişkilendirmeden hareketle çıkarım yapar.",
+   "c": "Bir yargıya vararak gerektiğinde tepki verir."
+  },
+  "not": "Metnin bütününden çıkarım: ana fikir ya da ana duygu, sonuç ve ders çıkarma, kahramanların karakter özellikleri, amaç ve niyetleri. Ana fikir metinde açıkça yazıyorsa soru yüzey anlama (T.O.7.5) kayar. Öğrenci kanıt ve gerekçe sunar.",
+  "arac": ""
+ },
+ "T.O.7.14.": {
+  "ad": "Bilgilendirici metinlerde metin yapılarından hareketle önemli bilgileri belirlemeye yönelik çözümleme yapabilme",
+  "temalar": [
+   2
+  ],
+  "bilesenler": {
+   "a": "Metin yapısından hareketle önemli bilgileri belirler.",
+   "b": "Belirlenen bilgilerin birbiriyle ilişkisini ortaya koyar."
+  },
+  "not": "Bilgilendirici metin gerekir. 7. sınıfta metin yapıları: sıralı/kronolojik, açıklayıcı, karşılaştırma/zıtlık ve bunlara ek olarak sebep-sonuç ile problem-çözüm.",
+  "arac": ""
+ },
+ "T.O.7.15.": {
+  "ad": "Bilgilendirici metinde anahtar kelimeleri belirlemeye yönelik çözümleme yapabilme",
+  "temalar": [
+   2
+  ],
+  "bilesenler": {
+   "a": "Metnin içeriğini yansıtan anahtar kelimeleri belirler.",
+   "b": "Anahtar kelimelerin metinle ilişkisini ortaya koyar."
+  },
+  "not": "Bilgilendirici metin gerekir.",
+  "arac": ""
+ },
+ "T.O.7.21.": {
+  "ad": "Metinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme",
+  "temalar": [
+   1
+  ],
+  "bilesenler": {
+   "a": "Metnin anahtar söz varlığı unsurlarını belirler.",
+   "b": "Belirlenen söz varlığı unsurlarının anlam ilişkilerini inceler."
+  },
+  "not": "Sözcüğün metindeki anlamı, kaynaklardaki diğer anlamları; eş, yakın ve zıt anlamlı, eş sesli, çağrıştırdığı sözcükler; atasözü, deyim, kalıp söz, terim, ikileme, pekiştirme.",
+  "arac": "Programın önerdiği araç: sözcük ilişkilendirme."
+ },
+ "T.Y.7.3.": {
+  "ad": "Yazısında içerik ve yapıya yönelik seçimlerini yönetebilme",
+  "temalar": [
+   1,
+   2,
+   4,
+   5
+  ],
+  "bilesenler": {
+   "a": "Yazma amacına uygun paragraf türünü seçer.",
+   "b": "Yazma amacına uygun metin yapısını seçer."
+  },
+  "not": "7. sınıfta paragraf türleri: sebep-sonuç, ikna, tartışma (önceki sınıflardaki betimleme, tanıtma, öyküleme, açıklama da kullanılabilir). Metin yapıları: bilgilendirici (sebep-sonuç, problem-çözüm). 1. temada sebep-sonuç ve ikna paragrafları işlenir. Soru, öğrenciye bir yazma amacı verir ve türü öğrencinin seçmesini ister.",
+  "arac": "Programın önerdiği araç: paragraf yazma, dereceli puanlama anahtarıyla."
+ },
+ "T.Y.7.18.": {
+  "ad": "Yazısını zenginleştirecek biçimde söz varlığını kullanabilme",
+  "temalar": [
+   1
+  ],
+  "bilesenler": {
+   "a": "Kullanacağı söz varlığı unsurlarını aralarındaki anlam ilişkilerini dikkate alarak belirler.",
+   "b": "Aynı anlamı farklı söz varlığı unsurlarıyla (eş ve yakın anlamlı kelime, zıt anlamlı ve eş sesli kelime, çağrıştırdığı kelime; atasözü, deyim, kalıp söz, terim, ikileme, pekiştirme) ifade eder.",
+   "c": "Söz varlığı unsurlarını bağlama uygun kullanır.",
+   "ç": "Gerektiğinde yazısında söz varlığı unsurlarının görsel karşılığını kullanır."
+  },
+  "not": "Yabancı dillerden alınmış, henüz yaygınlaşmamış sözcüklerin Türkçelerinin tercih edilmesi beklenir.",
+  "arac": "Programın önerdiği araç: sözcük ve kavram havuzundan seçerek yazma."
+ },
+ "T.Y.7.21.": {
+  "ad": "Yazım kuralları ve noktalama işaretlerini uygulayabilme",
+  "temalar": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "bilesenler": {
+   "a": "Yazım kurallarını uygular.",
+   "b": "Noktalama işaretlerini uygun biçimde kullanır."
+  },
+  "not": "7. sınıf: noktalı virgül, tırnak işareti, yay ayraç ve köşeli ayracın yaygın işlevleri; ünlem, kısa çizgi, üç nokta ve eğik çizginin önceki sınıflarda ele alınmayan işlevleri. Yazım: pekiştirmeli sözcükler ve ikilemeler. 1. temada: ikilemelerin yazımı; noktalı virgülün üç işlevi (virgüllerle ayrılmış tür ya da takımları ayırma, ögeleri arasında virgül bulunan sıralı cümleleri ayırma, eş değer ögeler arasında virgül bulunan cümlede özneyi ayırma); üç noktanın ünlem ve seslenmelerde anlatımı pekiştirme ve karşılıklı konuşmada eksik bırakılan cevabı belirtme işlevleri.",
+  "arac": ""
+ }
+}

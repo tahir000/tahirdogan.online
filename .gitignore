@@ -1,0 +1,6 @@
+# MEB'den indirilen belgeler ve onlardan çıkarılan metinler depoya girmez
+kaynaklar/
+metin/
+__pycache__/
+.claude/
+.DS_Store

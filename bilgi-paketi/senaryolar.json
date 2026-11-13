@@ -1,0 +1,1158 @@
+{
+ "5": {
+  "sayfa": "5. Sınıf",
+  "ciktilar": [
+   {
+    "kod": "T.O.5.1.",
+    "ad": "Okumada materyal seçimini yönetebilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.5.2.",
+    "ad": "Akıcı okuyabilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.5.3.",
+    "ad": "Okumada strateji, yöntem ve teknik seçimlerini yönetebilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.5.4.",
+    "ad": "Okuyacağı metnin içeriğine yönelik tahminde bulunabilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.5.5.",
+    "ad": "Metinde geçen anlamını bilmediği söz varlığı unsurlarının anlamını tahmin edebilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.5.6.",
+    "ad": "Metnin yüzey anlamını belirleyebilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.5.7.",
+    "ad": "Görselle iletilen anlamı belirleyebilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.5.11.",
+    "ad": "Metindeki unsurları sınıflandırabilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.5.13.",
+    "ad": "Öyküleyici metinde hikâye unsurlarını belirlemeye yönelik çözümleme yapabilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.5.15.",
+    "ad": "Metnin anahtar kelimelerini belirlemeye yönelik çözümleme yapabilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.5.16.",
+    "ad": "Metnin bölümlerini belirlemeye yönelik çözümleme yapabilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.5.17.",
+    "ad": "Şiirin biçim özelliklerini belirlemeye yönelik çözümleme yapabilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.5.18.",
+    "ad": "Bilgilendirici metinde düşünceyi geliştirme yollarını belirlemeye yönelik çözümleme yapabilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.5.19.",
+    "ad": "Metindeki söz sanatlarını belirlemeye yönelik çözümleme yapabilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.5.20.",
+    "ad": "Metinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.5.22.",
+    "ad": "Okuma sürecini değerlendirebilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.Y.5.1.",
+    "ad": "Yazma sürecini yönetebilme",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.Y.5.2.",
+    "ad": "Yazmada strateji, yöntem ve tekniklerine yönelik seçimlerini yönetebilme",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.Y.5.3.",
+    "ad": "Yazısında içerik ve yapıya yönelik seçimlerini yönetebilme",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.Y.5.4.",
+    "ad": "Yazısında çoklu ortam ögeleriyle içerik oluşturabilme",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.Y.5.5.",
+    "ad": "Yaratıcı yazı yazabilme",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.Y.5.6.",
+    "ad": "Yazılı üretim ve yazılı etkileşiminde tahminlerinden yararlanabilme",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.Y.5.8.",
+    "ad": "Yazısında sınıflandırma yapabilme",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.Y.5.13.",
+    "ad": "Yazısını zenginleştirecek biçimde söz varlığını kullanabilme",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.Y.5.15.",
+    "ad": "Uygun bağlantı ifadelerini kullanabilme",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.Y.5.16.",
+    "ad": "Yazım ve noktalama işaretleriyle ilgili kuralları uygulayabilme",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.Y.5.17.",
+    "ad": "Yazma sürecini değerlendirebilme",
+    "alan": "YAZMA"
+   }
+  ],
+  "senaryolar": {
+   "1. Dönem 1. Ortak Yazılı Sınav": {
+    "Senaryo 1": {
+     "T.O.5.6.": 2,
+     "T.O.5.7.": 1,
+     "T.O.5.20.": 1,
+     "T.Y.5.13.": 1,
+     "T.Y.5.16.": 1,
+     "_toplam": 6
+    },
+    "Senaryo 2": {
+     "T.O.5.5.": 1,
+     "T.O.5.6.": 1,
+     "T.O.5.7.": 2,
+     "T.O.5.15.": 1,
+     "T.Y.5.16.": 1,
+     "_toplam": 6
+    },
+    "Senaryo 3": {
+     "T.O.5.5.": 1,
+     "T.O.5.6.": 2,
+     "T.O.5.7.": 1,
+     "T.O.5.15.": 1,
+     "T.Y.5.13.": 1,
+     "T.Y.5.16.": 1,
+     "_toplam": 7
+    },
+    "Senaryo 4": {
+     "T.O.5.6.": 2,
+     "T.O.5.7.": 2,
+     "T.O.5.20.": 1,
+     "T.Y.5.13.": 1,
+     "T.Y.5.16.": 1,
+     "_toplam": 7
+    },
+    "Senaryo 5": {
+     "T.O.5.5.": 1,
+     "T.O.5.6.": 2,
+     "T.O.5.7.": 1,
+     "T.O.5.20.": 1,
+     "T.Y.5.3.": 1,
+     "T.Y.5.13.": 1,
+     "_toplam": 7
+    },
+    "Senaryo 6": {
+     "T.O.5.5.": 1,
+     "T.O.5.6.": 2,
+     "T.O.5.7.": 1,
+     "T.O.5.15.": 1,
+     "T.O.5.20.": 1,
+     "T.Y.5.3.": 1,
+     "T.Y.5.16.": 1,
+     "_toplam": 8
+    }
+   },
+   "1. Dönem 2. Ortak Yazılı Sınav": {
+    "Senaryo 1": {
+     "T.O.5.6.": 1,
+     "T.O.5.13.": 1,
+     "T.O.5.15.": 1,
+     "T.O.5.19.": 1,
+     "T.O.5.20.": 1,
+     "T.Y.5.5.": 1,
+     "_toplam": 6
+    },
+    "Senaryo 2": {
+     "T.O.5.5.": 1,
+     "T.O.5.6.": 1,
+     "T.O.5.13.": 1,
+     "T.O.5.15.": 1,
+     "T.O.5.19.": 1,
+     "T.Y.5.15.": 1,
+     "T.Y.5.16.": 1,
+     "_toplam": 7
+    },
+    "Senaryo 3": {
+     "T.O.5.5.": 1,
+     "T.O.5.6.": 1,
+     "T.O.5.13.": 1,
+     "T.O.5.17.": 1,
+     "T.O.5.18.": 1,
+     "T.O.5.19.": 1,
+     "T.Y.5.5.": 1,
+     "_toplam": 7
+    },
+    "Senaryo 4": {
+     "T.O.5.7.": 1,
+     "T.O.5.13.": 1,
+     "T.O.5.17.": 1,
+     "T.O.5.18.": 1,
+     "T.O.5.20.": 1,
+     "T.Y.5.15.": 1,
+     "T.Y.5.16.": 1,
+     "_toplam": 7
+    },
+    "Senaryo 5": {
+     "T.O.5.6.": 1,
+     "T.O.5.11.": 1,
+     "T.O.5.13.": 1,
+     "T.O.5.17.": 1,
+     "T.O.5.18.": 1,
+     "T.O.5.19.": 1,
+     "T.Y.5.5.": 1,
+     "T.Y.5.8.": 1,
+     "_toplam": 8
+    },
+    "Senaryo 6": {
+     "T.O.5.7.": 1,
+     "T.O.5.11.": 1,
+     "T.O.5.13.": 1,
+     "T.O.5.18.": 1,
+     "T.O.5.19.": 1,
+     "T.O.5.20.": 1,
+     "T.Y.5.8.": 1,
+     "T.Y.5.13.": 1,
+     "_toplam": 8
+    },
+    "Senaryo 7": {
+     "T.O.5.5.": 1,
+     "T.O.5.6.": 1,
+     "T.O.5.11.": 1,
+     "T.O.5.13.": 1,
+     "T.O.5.17.": 1,
+     "T.O.5.18.": 1,
+     "T.O.5.19.": 1,
+     "T.Y.5.15.": 1,
+     "T.Y.5.16.": 1,
+     "_toplam": 9
+    }
+   }
+  },
+  "notlar": {}
+ },
+ "6": {
+  "sayfa": "6. SINIF",
+  "ciktilar": [
+   {
+    "kod": "T.O.6.1.",
+    "ad": "Okumada materyal seçimini yönetebilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.6.2.",
+    "ad": "Sesli ve sessiz okurken akıcı okuma unsurlarını yönetebilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.6.3.",
+    "ad": "Okumada strateji ve yöntem seçimlerini yönetebilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.6.4.",
+    "ad": "Okuyacağı metnin içeriğine yönelik tahminde bulunabilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.6.5.",
+    "ad": "Metinde geçen anlamını bilmediği söz varlığı unsurlarının anlamını tahmin edebilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.6.6.",
+    "ad": "Metnin yüzey anlamını belirleyebilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.6.7.",
+    "ad": "Görselle iletilen anlamı belirleyebilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.6.8.",
+    "ad": "Metnin derin anlamını belirlemeye yönelik basit çıkarımlar yapabilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.6.9.",
+    "ad": "Metnin derin anlamını belirlemeye yönelik üst düzey çıkarımlar yapabilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.6.10.",
+    "ad": "Metin içi karşılaştırma yapabilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.6.11.",
+    "ad": "Metinler arası karşılaştırma yapabilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.6.12.",
+    "ad": "Metindeki unsurları sınıflandırabilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.6.16.",
+    "ad": "Bilgilendirici metinde anahtar kelimeleri belirlemeye yönelik çözümleme yapabilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.6.17.",
+    "ad": "Metnin bölümlerini belirlemeye yönelik çözümleme yapabilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.6.18.",
+    "ad": "Şiirin biçim özelliklerini belirlemeye yönelik çözümleme yapabilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.6.19.",
+    "ad": "Bilgilendirici metinde düşünceyi geliştirme yollarını belirlemeye yönelik çözümleme yapabilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.6.21.",
+    "ad": "Metinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.6.23.",
+    "ad": "Okuduğunu özetleyebilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.6.27.",
+    "ad": "Okuma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.Y.6.1.",
+    "ad": "Yazma sürecini yönetebilme",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.Y.6.2.",
+    "ad": "Yazma strateji, yöntem ve tekniklerine yönelik seçimlerini yönetebilme",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.Y.6.3.",
+    "ad": "Yazısında içerik ve yapıya yönelik seçimlerini yönetebilme",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.Y.6.4.",
+    "ad": "Yazılı üretim ve yazılı etkileşiminde ön bilgilerinden yararlanabilme",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.Y.6.5.",
+    "ad": "Yazılı etkileşiminde uygun tepki verebilme",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.Y.6.7.",
+    "ad": "Yaratıcı yazı yazabilme",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.Y.6.9.",
+    "ad": "Yazısında karşılaştırma yapabilme",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.Y.6.10.",
+    "ad": "Yazısında sınıflandırma yapabilme",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.Y.6.11.",
+    "ad": "Yorumunu yazılı olarak ifade edebilme",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.Y.6.17.",
+    "ad": "Yazısında düşünceyi geliştirme yollarını kullanabilme",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.Y.6.18.",
+    "ad": "Yazısını zenginleştirecek biçimde söz varlığını kullanabilme",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.Y.6.21.",
+    "ad": "Yazım kuralları ve noktalama işaretlerini uygulayabilme",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.Y.6.22.",
+    "ad": "Yazma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+    "alan": "YAZMA"
+   }
+  ],
+  "senaryolar": {
+   "1. Dönem 1. Ortak Yazılı Sınav": {
+    "Senaryo 1": {
+     "T.O.6.5.": 1,
+     "T.O.6.6.": 2,
+     "T.O.6.21.": 1,
+     "T.Y.6.18.": 1,
+     "T.Y.6.21.": 1,
+     "_toplam": 6
+    },
+    "Senaryo 2": {
+     "T.O.6.6.": 2,
+     "T.O.6.16.": 1,
+     "T.O.6.21.": 1,
+     "T.Y.6.3.": 1,
+     "T.Y.6.21.": 1,
+     "_toplam": 6
+    },
+    "Senaryo 3": {
+     "T.O.6.5.": 1,
+     "T.O.6.6.": 1,
+     "T.O.6.16.": 1,
+     "T.O.6.21.": 1,
+     "T.Y.6.18.": 1,
+     "T.Y.6.21.": 1,
+     "_toplam": 6
+    },
+    "Senaryo 4": {
+     "T.O.6.6.": 2,
+     "T.O.6.21.": 2,
+     "T.Y.6.3.": 1,
+     "T.Y.6.21.": 1,
+     "_toplam": 6
+    },
+    "Senaryo 5": {
+     "T.O.6.6.": 2,
+     "T.O.6.16.": 1,
+     "T.O.6.21.": 2,
+     "T.Y.6.3.": 1,
+     "T.Y.6.21.": 1,
+     "_toplam": 7
+    },
+    "Senaryo 6": {
+     "T.O.6.5.": 1,
+     "T.O.6.6.": 2,
+     "T.O.6.16.": 1,
+     "T.O.6.21.": 1,
+     "T.Y.6.18.": 1,
+     "T.Y.6.21.": 1,
+     "_toplam": 7
+    }
+   },
+   "1. Dönem 2. Ortak Yazılı Sınav": {
+    "Senaryo 1": {
+     "T.O.6.5.": 1,
+     "T.O.6.6.": 1,
+     "T.O.6.10.": 1,
+     "T.O.6.16.": 1,
+     "T.Y.6.7.": 1,
+     "T.Y.6.21.": 1,
+     "_toplam": 6
+    },
+    "Senaryo 2": {
+     "T.O.6.5.": 1,
+     "T.O.6.7.": 1,
+     "T.O.6.8.": 1,
+     "T.O.6.11.": 1,
+     "T.O.6.18.": 1,
+     "T.Y.6.9.": 1,
+     "T.Y.6.21.": 1,
+     "_toplam": 7
+    },
+    "Senaryo 3": {
+     "T.O.6.6.": 1,
+     "T.O.6.8.": 1,
+     "T.O.6.10.": 1,
+     "T.O.6.12.": 1,
+     "T.O.6.21.": 1,
+     "T.Y.6.7.": 1,
+     "T.Y.6.11.": 1,
+     "_toplam": 7
+    },
+    "Senaryo 4": {
+     "T.O.6.5.": 1,
+     "T.O.6.7.": 1,
+     "T.O.6.9.": 1,
+     "T.O.6.16.": 1,
+     "T.O.6.18.": 1,
+     "T.Y.6.9.": 1,
+     "T.Y.6.10.": 1,
+     "_toplam": 7
+    },
+    "Senaryo 5": {
+     "T.O.6.6.": 1,
+     "T.O.6.7.": 1,
+     "T.O.6.9.": 1,
+     "T.O.6.11.": 1,
+     "T.O.6.18.": 1,
+     "T.O.6.19.": 1,
+     "T.Y.6.7.": 1,
+     "T.Y.6.21.": 1,
+     "_toplam": 8
+    },
+    "Senaryo 6": {
+     "T.O.6.6.": 1,
+     "T.O.6.7.": 1,
+     "T.O.6.9.": 1,
+     "T.O.6.12.": 1,
+     "T.O.6.18.": 1,
+     "T.O.6.21.": 1,
+     "T.Y.6.11.": 1,
+     "T.Y.6.17.": 1,
+     "_toplam": 8
+    },
+    "Senaryo 7": {
+     "T.O.6.5.": 1,
+     "T.O.6.6.": 1,
+     "T.O.6.9.": 1,
+     "T.O.6.10.": 1,
+     "T.O.6.12.": 1,
+     "T.O.6.18.": 1,
+     "T.O.6.19.": 1,
+     "T.Y.6.17.": 1,
+     "T.Y.6.21.": 1,
+     "_toplam": 9
+    }
+   }
+  },
+  "notlar": {}
+ },
+ "7": {
+  "sayfa": "7. SINIF",
+  "ciktilar": [
+   {
+    "kod": "T.O.7.1.",
+    "ad": "Okumada materyal seçimini yönetebilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.7.2.",
+    "ad": "Okumada strateji ve yöntem seçimlerini yönetebilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.7.3.",
+    "ad": "Okuyacağı metnin içeriğine yönelik tahminde bulunabilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.7.4.",
+    "ad": "Metinde geçen anlamını bilmediği söz varlığı unsurlarının anlamını tahmin edebilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.7.5.",
+    "ad": "Metnin yüzey anlamını belirleyebilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.7.7.",
+    "ad": "Metnin derin anlamını belirlemeye yönelik basit çıkarımlar yapabilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.7.8.",
+    "ad": "Metnin derin anlamını belirlemeye yönelik üst düzey çıkarımlar yapabilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.7.14.",
+    "ad": "Bilgilendirici metinlerde metin yapılarından hareketle önemli bilgileri belirlemeye yönelik çözümleme yapabilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.7.15.",
+    "ad": "Bilgilendirici metinde anahtar kelimeleri belirlemeye yönelik çözümleme yapabilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.7.21.",
+    "ad": "Metinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.O.7.28.",
+    "ad": "Okuma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.Y.7.1.",
+    "ad": "Yazma sürecini yönetebilme",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.Y.7.2.",
+    "ad": "Yazma strateji, yöntem ve tekniklerine yönelik seçimlerini yönetebilme",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.Y.7.3.",
+    "ad": "Yazısında içerik ve yapıya yönelik seçimlerini yönetebilme",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.Y.7.18.",
+    "ad": "Yazısını zenginleştirecek biçimde söz varlığını kullanabilme",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.Y.7.21.",
+    "ad": "Yazım kuralları ve noktalama işaretlerini uygulayabilme",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.Y.7.22.",
+    "ad": "Yazma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+    "alan": "YAZMA"
+   }
+  ],
+  "senaryolar": {
+   "1. Dönem 1. Ortak Yazılı Sınav": {
+    "Senaryo 1": {
+     "T.O.7.4.": 1,
+     "T.O.7.5.": 1,
+     "T.O.7.8.": 1,
+     "T.O.7.21.": 1,
+     "T.Y.7.3.": 1,
+     "T.Y.7.18.": 1,
+     "T.Y.7.21.": 1,
+     "_toplam": 7
+    },
+    "Senaryo 2": {
+     "T.O.7.5.": 1,
+     "T.O.7.7.": 1,
+     "T.O.7.14.": 1,
+     "T.O.7.15.": 1,
+     "T.Y.7.3.": 1,
+     "T.Y.7.21.": 1,
+     "_toplam": 6
+    },
+    "Senaryo 3": {
+     "T.O.7.4.": 1,
+     "T.O.7.5.": 2,
+     "T.O.7.7.": 1,
+     "T.O.7.21.": 1,
+     "T.Y.7.3.": 1,
+     "T.Y.7.21.": 1,
+     "_toplam": 7
+    },
+    "Senaryo 4": {
+     "T.O.7.4.": 1,
+     "T.O.7.5.": 2,
+     "T.O.7.7.": 1,
+     "T.O.7.21.": 1,
+     "T.Y.7.18.": 1,
+     "T.Y.7.21.": 1,
+     "_toplam": 7
+    },
+    "Senaryo 5": {
+     "T.O.7.4.": 1,
+     "T.O.7.5.": 2,
+     "T.O.7.21.": 1,
+     "T.Y.7.3.": 1,
+     "T.Y.7.21.": 1,
+     "_toplam": 6
+    },
+    "Senaryo 6": {
+     "T.O.7.4.": 1,
+     "T.O.7.5.": 2,
+     "T.O.7.21.": 1,
+     "T.Y.7.18.": 1,
+     "T.Y.7.21.": 1,
+     "_toplam": 6
+    }
+   }
+  },
+  "notlar": {
+   "1. Dönem 2. Ortak Yazılı Sınav": "1. Dönem 2. Ortak Yazılı Sınav Ülke Geneli Ortak Yazılı Sınav şeklinde yapılacaktır. Konu Soru Dağılım Tablosu sınav öncesi kılavuz ile birlikte yayımlanacaktır."
+  }
+ },
+ "8": {
+  "sayfa": "8. SINIF",
+  "ciktilar": [
+   {
+    "kod": "T.8.3.1.",
+    "ad": "Noktalama işaretlerine dikkat ederek sesli ve sessiz okur.",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.8.3.2.",
+    "ad": "Metni türün özelliklerine uygun biçimde okur.",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.8.3.3.",
+    "ad": "Farklı yazı karakterleri ile yazılmış yazıları okur.",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.8.3.4.",
+    "ad": "Okuma stratejilerini kullanır.",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.8.3.5.",
+    "ad": "Bağlamdan yararlanarak bilmediği kelime ve kelime gruplarının anlamını tahmin eder.",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.8.3.6.",
+    "ad": "Deyim, atasözü ve özdeyişlerin metne katkısını belirler.",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.8.3.7.",
+    "ad": "Metindeki söz sanatlarını tespit eder.",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.8.3.8.",
+    "ad": "Metindeki anlatım bozukluklarını belirler.",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.8.3.9.",
+    "ad": "Fiilimsilerin cümledeki işlevlerini kavrar.",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.8.3.10.",
+    "ad": "Geçiş ve bağlantı ifadelerinin metnin anlamına olan katkısını değerlendirir.",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.8.3.11.",
+    "ad": "Metindeki anlatım biçimlerini belirler.",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.8.3.12.",
+    "ad": "Görsel ve başlıktan hareketle okuyacağı metnin konusunu tahmin eder.",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.8.3.13.",
+    "ad": "Okuduklarını özetler.",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.8.3.14.",
+    "ad": "Metinle ilgili soruları cevaplar.",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.8.3.15.",
+    "ad": "Metinle ilgili sorular sorar.",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.8.3.16.",
+    "ad": "Metnin konusunu belirler.",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.8.3.17.",
+    "ad": "Metnin ana fikrini/ana duygusunu belirler.",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.8.3.18.",
+    "ad": "Metindeki yardımcı fikirleri belirler.",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.8.3.19.",
+    "ad": "Metnin içeriğine uygun başlık/başlıklar belirler.",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.8.3.20.",
+    "ad": "Okuduğu metinlerdeki hikâye unsurlarını belirler.",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.8.3.21.",
+    "ad": "Metnin içeriğini yorumlar.",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.8.3.22.",
+    "ad": "Metinde ele alınan sorunlara farklı çözümler üretir.",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.8.3.23.",
+    "ad": "Metinler arasında karşılaştırma yapar.",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.8.3.24.",
+    "ad": "Metindeki gerçek ve kurgusal unsurları ayırt eder.",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.8.3.25.",
+    "ad": "Okudukları ile ilgili çıkarımlarda bulunur.",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.8.3.26.",
+    "ad": "Metin türlerini ayırt eder.",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.8.3.27.",
+    "ad": "Görsellerle ilgili soruları cevaplar.",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.8.3.28.",
+    "ad": "Metinde önemli noktaların vurgulanış biçimlerini kavrar.",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.8.3.29.",
+    "ad": "Medya metinlerini analiz eder.",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.8.3.30.",
+    "ad": "Bilgi kaynaklarını etkili bir şekilde kullanır.",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.8.3.31.",
+    "ad": "Bilgi kaynaklarının güvenilirliğini sorgular.",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.8.3.32.",
+    "ad": "Grafik, tablo ve çizelgeyle sunulan bilgileri yorumlar.",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.8.3.33.",
+    "ad": "Edebî eserin yazılı metni ile medya sunumunu karşılaştırır.",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.8.3.34.",
+    "ad": "Okuduklarında kullanılan düşünceyi geliştirme yollarını belirler.",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.8.3.35.",
+    "ad": "Metindeki iş ve işlem basamaklarını kavrar.",
+    "alan": "OKUMA"
+   },
+   {
+    "kod": "T.8.4.1.",
+    "ad": "Şiir yazar.",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.8.4.2.",
+    "ad": "Bilgilendirici metin yazar.",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.8.4.3.",
+    "ad": "Hikâye edici metin yazar.",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.8.4.4.",
+    "ad": "Yazma stratejilerini uygular.",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.8.4.5.",
+    "ad": "Anlatımı desteklemek için grafik ve tablo kullanır.",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.8.4.6.",
+    "ad": "Bir işi işlem basamaklarına göre yazar.",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.8.4.7.",
+    "ad": "Yazılarını zenginleştirmek için atasözleri, deyimler ve özdeyişler kullanır.",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.8.4.8.",
+    "ad": "Yazılarında mizahi ögeler kullanır.",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.8.4.9.",
+    "ad": "Yazılarında anlatım biçimlerini kullanır.",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.8.4.10.",
+    "ad": "Yazdıklarında yabancı dillerden alınmış, dilimize henüz yerleşmemiş kelimelerin Türkçelerini kullanır.",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.8.4.12.",
+    "ad": "Kısa metinler yazar.",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.8.4.13.",
+    "ad": "Yazdıklarının içeriğine uygun başlık belirler.",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.8.4.14.",
+    "ad": "Araştırmalarının sonuçlarını yazılı olarak sunar.",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.8.4.15.",
+    "ad": "Yazılarında uygun geçiş ve bağlantı ifadelerini kullanır.",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.8.4.16.",
+    "ad": "Yazdıklarını düzenler.",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.8.4.17.",
+    "ad": "Yazdıklarını paylaşır.",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.8.4.18.",
+    "ad": "Cümlenin ögelerini ayırt eder.",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.8.4.19.",
+    "ad": "Cümle türlerini tanır.",
+    "alan": "YAZMA"
+   },
+   {
+    "kod": "T.8.4.20.",
+    "ad": "Fiillerin çatı özelliklerinin anlama olan katkısını kavrar.",
+    "alan": "YAZMA"
+   }
+  ],
+  "senaryolar": {
+   "1. Dönem 1. Ortak Yazılı Sınav": {
+    "Senaryo 1": {
+     "T.8.3.5.": 1,
+     "T.8.3.7.": 1,
+     "T.8.3.9.": 1,
+     "T.8.3.14.": 1,
+     "T.8.3.16.": 1,
+     "T.8.3.34.": 1,
+     "T.8.4.1.": 1,
+     "T.8.4.15.": 1,
+     "_toplam": 8
+    },
+    "Senaryo 2": {
+     "T.8.3.5.": 1,
+     "T.8.3.9.": 1,
+     "T.8.3.11.": 1,
+     "T.8.3.14.": 1,
+     "T.8.3.17.": 1,
+     "T.8.3.25.": 1,
+     "T.8.3.26.": 1,
+     "T.8.3.34.": 1,
+     "T.8.4.9.": 1,
+     "_toplam": 9
+    },
+    "Senaryo 3": {
+     "T.8.3.5.": 1,
+     "T.8.3.7.": 1,
+     "T.8.3.14.": 1,
+     "T.8.3.16.": 1,
+     "T.8.3.17.": 1,
+     "T.8.4.1.": 1,
+     "T.8.4.18.": 1,
+     "_toplam": 7
+    },
+    "Senaryo 4": {
+     "T.8.3.5.": 1,
+     "T.8.3.11.": 1,
+     "T.8.3.16.": 1,
+     "T.8.3.17.": 1,
+     "T.8.3.34.": 1,
+     "T.8.4.4.": 1,
+     "T.8.4.15.": 1,
+     "_toplam": 7
+    },
+    "Senaryo 5": {
+     "T.8.3.7.": 1,
+     "T.8.3.9.": 1,
+     "T.8.3.11.": 1,
+     "T.8.3.15.": 1,
+     "T.8.3.25.": 1,
+     "T.8.3.26.": 1,
+     "T.8.3.34.": 1,
+     "T.8.4.9.": 1,
+     "T.8.4.18.": 1,
+     "_toplam": 9
+    },
+    "Senaryo 6": {
+     "T.8.3.7.": 1,
+     "T.8.3.11.": 1,
+     "T.8.3.14.": 1,
+     "T.8.3.15.": 1,
+     "T.8.3.17.": 1,
+     "T.8.3.19.": 1,
+     "T.8.3.25.": 1,
+     "T.8.3.34.": 1,
+     "T.8.4.1.": 1,
+     "T.8.4.18.": 1,
+     "_toplam": 10
+    },
+    "Senaryo 7": {
+     "T.8.3.9.": 1,
+     "T.8.3.14.": 1,
+     "T.8.3.16.": 1,
+     "T.8.3.25.": 1,
+     "T.8.4.4.": 1,
+     "T.8.4.9.": 1,
+     "T.8.4.18.": 1,
+     "_toplam": 7
+    }
+   },
+   "1. Dönem 2. Ortak Yazılı Sınav": {
+    "Senaryo 1": {
+     "T.8.3.5.": 1,
+     "T.8.3.7.": 1,
+     "T.8.3.14.": 1,
+     "T.8.3.16.": 1,
+     "T.8.3.17.": 1,
+     "T.8.3.19.": 1,
+     "T.8.4.4.": 1,
+     "T.8.4.18.": 1,
+     "_toplam": 8
+    },
+    "Senaryo 2": {
+     "T.8.3.5.": 1,
+     "T.8.3.7.": 1,
+     "T.8.3.15.": 1,
+     "T.8.3.17.": 1,
+     "T.8.3.18.": 1,
+     "T.8.3.19.": 1,
+     "T.8.3.20.": 1,
+     "T.8.4.1.": 1,
+     "T.8.4.18.": 1,
+     "_toplam": 9
+    },
+    "Senaryo 3": {
+     "T.8.3.5.": 1,
+     "T.8.3.7.": 1,
+     "T.8.3.14.": 1,
+     "T.8.3.17.": 1,
+     "T.8.3.20.": 1,
+     "T.8.3.24.": 1,
+     "T.8.4.3.": 1,
+     "T.8.4.9.": 1,
+     "_toplam": 8
+    },
+    "Senaryo 4": {
+     "T.8.3.5.": 1,
+     "T.8.3.6.": 1,
+     "T.8.3.9.": 1,
+     "T.8.3.11.": 1,
+     "T.8.3.16.": 1,
+     "T.8.3.22.": 1,
+     "T.8.3.25.": 1,
+     "T.8.4.6.": 1,
+     "T.8.4.18.": 1,
+     "T.8.4.19.": 1,
+     "_toplam": 10
+    },
+    "Senaryo 5": {
+     "T.8.3.5.": 1,
+     "T.8.3.6.": 1,
+     "T.8.3.7.": 1,
+     "T.8.3.14.": 1,
+     "T.8.3.20.": 1,
+     "T.8.3.24.": 1,
+     "T.8.3.26.": 1,
+     "T.8.4.4.": 1,
+     "T.8.4.18.": 1,
+     "_toplam": 9
+    },
+    "Senaryo 6": {
+     "T.8.3.5.": 1,
+     "T.8.3.14.": 1,
+     "T.8.3.22.": 1,
+     "T.8.3.25.": 1,
+     "T.8.3.26.": 1,
+     "T.8.3.35.": 1,
+     "T.8.4.2.": 1,
+     "T.8.4.19.": 1,
+     "_toplam": 8
+    },
+    "Senaryo 7": {
+     "T.8.3.7.": 1,
+     "T.8.3.14.": 1,
+     "T.8.3.25.": 1,
+     "T.8.3.26.": 1,
+     "T.8.4.9.": 1,
+     "T.8.4.12.": 1,
+     "T.8.4.19.": 1,
+     "_toplam": 7
+    }
+   }
+  },
+  "notlar": {}
+ }
+}

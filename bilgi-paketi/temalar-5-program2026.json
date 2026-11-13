@@ -1,0 +1,856 @@
+{
+ "5": [
+  {
+   "tema_no": 1,
+   "tema": "OYUN DÜNYASI",
+   "ders_saati": "34",
+   "ciktilar": [
+    {
+     "kod": "T.D.5.3.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Dinleyeceğinin/izleyeceğinin içeriğine yönelik tahminde bulunabilme"
+    },
+    {
+     "kod": "T.D.5.4.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Dinlediğinde/izlediğinde geçen anlamını bilmediği söz varlığı unsurlarının anlamını tahmin edebilme"
+    },
+    {
+     "kod": "T.D.5.5.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Dinlediğinin/izlediğinin yüzey anlamını belirleyebilme"
+    },
+    {
+     "kod": "T.D.5.13.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Dinlediğinin/izlediğinin anahtar kelimelerini belirlemeye yönelik çözümleme yapabilme"
+    },
+    {
+     "kod": "T.D.5.17.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Dinlediğinden/izlediğinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme"
+    },
+    {
+     "kod": "T.O.5.2.",
+     "alan": "Okuma",
+     "ad": "Akıcı okuyabilme"
+    },
+    {
+     "kod": "T.O.5.3.",
+     "alan": "Okuma",
+     "ad": "Okumada strateji, yöntem ve teknik seçimlerini yönetebilme"
+    },
+    {
+     "kod": "T.O.5.4.",
+     "alan": "Okuma",
+     "ad": "Okuyacağı metnin içeriğine yönelik tahminde bulunabilme"
+    },
+    {
+     "kod": "T.O.5.5.",
+     "alan": "Okuma",
+     "ad": "Metinde geçen anlamını bilmediği söz varlığı unsurlarının anlamını tahmin edebilme"
+    },
+    {
+     "kod": "T.O.5.6.",
+     "alan": "Okuma",
+     "ad": "Metnin yüzey anlamını belirleyebilme"
+    },
+    {
+     "kod": "T.O.5.7.",
+     "alan": "Okuma",
+     "ad": "Görselle iletilen anlamı belirleyebilme"
+    },
+    {
+     "kod": "T.O.5.15.",
+     "alan": "Okuma",
+     "ad": "Metnin anahtar kelimelerini belirlemeye yönelik çözümleme yapabilme"
+    },
+    {
+     "kod": "T.O.5.20.",
+     "alan": "Okuma",
+     "ad": "Metinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme"
+    },
+    {
+     "kod": "T.K.5.1.",
+     "alan": "Konuşma",
+     "ad": "Konuşma sürecini yönetebilme"
+    },
+    {
+     "kod": "T.K.5.7.",
+     "alan": "Konuşma",
+     "ad": "Hazırlıksız konuşma yapabilme"
+    },
+    {
+     "kod": "T.K.5.8.",
+     "alan": "Konuşma",
+     "ad": "Konuşmasında sesini uygun şekilde kullanabilme"
+    },
+    {
+     "kod": "T.K.5.17.",
+     "alan": "Konuşma",
+     "ad": "Konuşmasını zenginleştirecek biçimde söz varlığını kullanabilme"
+    },
+    {
+     "kod": "T.K.5.20.",
+     "alan": "Konuşma",
+     "ad": "Konuşmasında beden dilini kullanabilme"
+    },
+    {
+     "kod": "T.Y.5.1.",
+     "alan": "Yazma",
+     "ad": "Yazma sürecini yönetebilme"
+    },
+    {
+     "kod": "T.Y.5.2.",
+     "alan": "Yazma",
+     "ad": "Yazmada strateji, yöntem ve teknik seçimlerini yönetebilme"
+    },
+    {
+     "kod": "T.Y.5.3.",
+     "alan": "Yazma",
+     "ad": "Yazısında içerik ve yapıya yönelik seçimlerini yönetebilme"
+    },
+    {
+     "kod": "T.Y.5.6.",
+     "alan": "Yazma",
+     "ad": "Yazılı üretim ve yazılı etkileşiminde tahminlerinden yararlanabilme"
+    },
+    {
+     "kod": "T.Y.5.13.",
+     "alan": "Yazma",
+     "ad": "Yazısını zenginleştirecek biçimde söz varlığını kullanabilme"
+    },
+    {
+     "kod": "T.Y.5.16.",
+     "alan": "Yazma",
+     "ad": "Yazım ve noktalama işaretleriyle ilgili kuralları uygulayabilme"
+    }
+   ]
+  },
+  {
+   "tema_no": 2,
+   "tema": "ATATÜRK’Ü TANIMAK",
+   "ders_saati": "35",
+   "ciktilar": [
+    {
+     "kod": "T.D.5.1.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Dinlemede/izlemede materyal seçimini yönetebilme"
+    },
+    {
+     "kod": "T.D.5.2.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Dinlemede/izlemede strateji, yöntem ve teknik seçimlerini yönetebilme"
+    },
+    {
+     "kod": "T.D.5.4.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Dinlediğinde/izlediğinde geçen anlamını bilmediği söz varlığı unsurlarının anlamını tahmin edebilme"
+    },
+    {
+     "kod": "T.D.5.5.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Dinlediğinin/izlediğinin yüzey anlamını belirleyebilme"
+    },
+    {
+     "kod": "T.D.5.11.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Öyküleyici metinde hikâye unsurlarını belirlemeye yönelik çözümleme yapabilme"
+    },
+    {
+     "kod": "T.D.5.14.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Dinlediğinin/izlediğinin bölümlerini belirlemeye yönelik çözümleme yapabilme"
+    },
+    {
+     "kod": "T.D.5.17.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Dinlediğinden/izlediğinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme"
+    },
+    {
+     "kod": "T.O.5.1.",
+     "alan": "Okuma",
+     "ad": "Okumada materyal seçimini yönetebilme"
+    },
+    {
+     "kod": "T.O.5.2.",
+     "alan": "Okuma",
+     "ad": "Akıcı okuyabilme"
+    },
+    {
+     "kod": "T.O.5.3.",
+     "alan": "Okuma",
+     "ad": "Okumada strateji, yöntem ve teknik seçimlerini yönetebilme"
+    },
+    {
+     "kod": "T.O.5.5.",
+     "alan": "Okuma",
+     "ad": "Metinde geçen anlamını bilmediği söz varlığı unsurlarının anlamını tahmin edebilme"
+    },
+    {
+     "kod": "T.O.5.6.",
+     "alan": "Okuma",
+     "ad": "Metnin yüzey anlamını belirleyebilme"
+    },
+    {
+     "kod": "T.O.5.17.",
+     "alan": "Okuma",
+     "ad": "Şiirin biçim özelliklerini belirlemeye yönelik çözümleme yapabilme"
+    },
+    {
+     "kod": "T.O.5.19.",
+     "alan": "Okuma",
+     "ad": "Metindeki söz sanatlarını belirlemeye yönelik çözümleme yapabilme"
+    },
+    {
+     "kod": "T.O.5.20.",
+     "alan": "Okuma",
+     "ad": "Metinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme"
+    },
+    {
+     "kod": "T.O.5.22.",
+     "alan": "Okuma",
+     "ad": "Okuma sürecini değerlendirebilme"
+    },
+    {
+     "kod": "T.K.5.1.",
+     "alan": "Konuşma",
+     "ad": "Konuşma sürecini yönetebilme"
+    },
+    {
+     "kod": "T.K.5.2.",
+     "alan": "Konuşma",
+     "ad": "Konuşmada yöntem ve teknik seçimlerini yönetebilme"
+    },
+    {
+     "kod": "T.K.5.3.",
+     "alan": "Konuşma",
+     "ad": "Konuşmasında amaç ve içeriğe yönelik seçimlerini yönetebilme"
+    },
+    {
+     "kod": "T.K.5.9.",
+     "alan": "Konuşma",
+     "ad": "Konuşmasında tahminlerinden yararlanabilme"
+    },
+    {
+     "kod": "T.K.5.17.",
+     "alan": "Konuşma",
+     "ad": "Konuşmasını zenginleştirecek biçimde söz varlığını kullanabilme"
+    },
+    {
+     "kod": "T.K.5.19.",
+     "alan": "Konuşma",
+     "ad": "Uygun bağlantı ifadelerini kullanabilme"
+    },
+    {
+     "kod": "T.Y.5.2.",
+     "alan": "Yazma",
+     "ad": "Yazmada strateji, yöntem ve teknik seçimlerini yönetebilme"
+    },
+    {
+     "kod": "T.Y.5.3.",
+     "alan": "Yazma",
+     "ad": "Yazısında içerik ve yapıya yönelik seçimlerini yönetebilme"
+    },
+    {
+     "kod": "T.Y.5.13.",
+     "alan": "Yazma",
+     "ad": "Yazısını zenginleştirecek biçimde söz varlığını kullanabilme"
+    },
+    {
+     "kod": "T.Y.5.15.",
+     "alan": "Yazma",
+     "ad": "Uygun bağlantı ifadelerini kullanabilme"
+    },
+    {
+     "kod": "T.Y.5.16.",
+     "alan": "Yazma",
+     "ad": "Yazım ve noktalama işaretleriyle ilgili kuralları uygulayabilme"
+    },
+    {
+     "kod": "T.Y.5.17.",
+     "alan": "Yazma",
+     "ad": "Yazma sürecini değerlendirebilme"
+    }
+   ]
+  },
+  {
+   "tema_no": 3,
+   "tema": "DUYGULARIMI TANIYORUM",
+   "ders_saati": "35",
+   "ciktilar": [
+    {
+     "kod": "T.D.5.2.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Dinlemede/izlemede strateji, yöntem ve teknik seçimlerini yönetebilme"
+    },
+    {
+     "kod": "T.D.5.4.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Dinlediğinde/izlediğinde geçen anlamını bilmediği söz varlığı unsurlarının anlamını tahmin edebilme"
+    },
+    {
+     "kod": "T.D.5.5.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Dinlediğinin/izlediğinin yüzey anlamını belirleyebilme"
+    },
+    {
+     "kod": "T.D.5.6.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Basit çıkarımlar yoluyla dinlediğinin/izlediğinin derin anlamını belirleyebilme"
+    },
+    {
+     "kod": "T.D.5.17.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Dinlediğinden/izlediğinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme"
+    },
+    {
+     "kod": "T.D.5.18.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Çoklu ortam ögelerine yönelik çözümleme yapabilme"
+    },
+    {
+     "kod": "T.D.5.20.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Dinleme/izleme sürecini değerlendirebilme"
+    },
+    {
+     "kod": "T.O.5.1.",
+     "alan": "Okuma",
+     "ad": "Okumada materyal seçimini yönetebilme"
+    },
+    {
+     "kod": "T.O.5.3.",
+     "alan": "Okuma",
+     "ad": "Okumada strateji, yöntem ve teknik seçimlerini yönetebilme"
+    },
+    {
+     "kod": "T.O.5.5.",
+     "alan": "Okuma",
+     "ad": "Metinde geçen anlamını bilmediği söz varlığı unsurlarının anlamını tahmin edebilme"
+    },
+    {
+     "kod": "T.O.5.6.",
+     "alan": "Okuma",
+     "ad": "Metnin yüzey anlamını belirleyebilme"
+    },
+    {
+     "kod": "T.O.5.11.",
+     "alan": "Okuma",
+     "ad": "Metindeki unsurları sınıflandırabilme"
+    },
+    {
+     "kod": "T.O.5.13.",
+     "alan": "Okuma",
+     "ad": "Öyküleyici metinde hikâye unsurlarını belirlemeye yönelik çözümleme yapabilme"
+    },
+    {
+     "kod": "T.O.5.16.",
+     "alan": "Okuma",
+     "ad": "Metnin bölümlerini belirlemeye yönelik çözümleme yapabilme"
+    },
+    {
+     "kod": "T.O.5.18.",
+     "alan": "Okuma",
+     "ad": "Bilgilendirici metinde düşünceyi geliştirme yollarını belirlemeye yönelik çözümleme yapabilme"
+    },
+    {
+     "kod": "T.O.5.20.",
+     "alan": "Okuma",
+     "ad": "Metinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme"
+    },
+    {
+     "kod": "T.K.5.2.",
+     "alan": "Konuşma",
+     "ad": "Konuşmada yöntem ve teknik seçimlerini yönetebilme"
+    },
+    {
+     "kod": "T.K.5.4.",
+     "alan": "Konuşma",
+     "ad": "İletişimi sürdürmek amacıyla soru sorabilme"
+    },
+    {
+     "kod": "T.K.5.6.",
+     "alan": "Konuşma",
+     "ad": "Yaratıcı konuşma yapabilme"
+    },
+    {
+     "kod": "T.K.5.16.",
+     "alan": "Konuşma",
+     "ad": "Düşünceyi geliştirme yollarını kullanarak konuşmasını yapılandırabilme"
+    },
+    {
+     "kod": "T.K.5.19.",
+     "alan": "Konuşma",
+     "ad": "Uygun bağlantı ifadelerini kullanabilme"
+    },
+    {
+     "kod": "T.K.5.21.",
+     "alan": "Konuşma",
+     "ad": "Konuşma sürecini değerlendirebilme"
+    },
+    {
+     "kod": "T.Y.5.2.",
+     "alan": "Yazma",
+     "ad": "Yazmada strateji, yöntem ve teknik seçimlerini yönetebilme"
+    },
+    {
+     "kod": "T.Y.5.3.",
+     "alan": "Yazma",
+     "ad": "Yazısında içerik ve yapıya yönelik seçimlerini yönetebilme"
+    },
+    {
+     "kod": "T.Y.5.4.",
+     "alan": "Yazma",
+     "ad": "Yazısında çoklu ortam ögeleriyle içerik oluşturabilme"
+    },
+    {
+     "kod": "T.Y.5.5.",
+     "alan": "Yazma",
+     "ad": "Yaratıcı yazı yazabilme"
+    },
+    {
+     "kod": "T.Y.5.8.",
+     "alan": "Yazma",
+     "ad": "Yazısında sınıflandırma yapabilme"
+    },
+    {
+     "kod": "T.Y.5.13.",
+     "alan": "Yazma",
+     "ad": "Yazısını zenginleştirecek biçimde söz varlığını kullanabilme"
+    },
+    {
+     "kod": "T.Y.5.15.",
+     "alan": "Yazma",
+     "ad": "Uygun bağlantı ifadelerini kullanabilme"
+    },
+    {
+     "kod": "T.Y.5.16.",
+     "alan": "Yazma",
+     "ad": "Yazım ve noktalama işaretleriyle ilgili kuralları uygulayabilme"
+    }
+   ]
+  },
+  {
+   "tema_no": 4,
+   "tema": "GELENEKLERİMİZ",
+   "ders_saati": "34",
+   "ciktilar": [
+    {
+     "kod": "T.D.5.1.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Dinlemede/izlemede materyal seçimini yönetebilme"
+    },
+    {
+     "kod": "T.D.5.2.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Dinlemede/izlemede strateji, yöntem ve teknik seçimlerini yönetebilme"
+    },
+    {
+     "kod": "T.D.5.4.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Dinlediğinde/izlediğinde geçen anlamını bilmediği söz varlığı unsurlarının anlamını tahmin edebilme"
+    },
+    {
+     "kod": "T.D.5.6.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Basit çıkarımlar yoluyla dinlediğinin/izlediğinin derin anlamını belirleyebilme"
+    },
+    {
+     "kod": "T.D.5.7.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Üst düzey çıkarımlar yoluyla dinlediğinin/izlediğinin derin anlamını belirleyebilme"
+    },
+    {
+     "kod": "T.D.5.9.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Dinlediğindeki/izlediğindeki unsurları sınıflandırabilme"
+    },
+    {
+     "kod": "T.D.5.10.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Dinlediğini/izlediğini yorumlayabilme"
+    },
+    {
+     "kod": "T.D.5.15.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Bilgilendirici metinde düşünceyi geliştirme yollarını belirlemeye yönelik çözümleme yapabilme"
+    },
+    {
+     "kod": "T.D.5.17.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Dinlediğinden/izlediğinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme"
+    },
+    {
+     "kod": "T.O.5.3.",
+     "alan": "Okuma",
+     "ad": "Okumada strateji, yöntem ve teknik seçimlerini yönetebilme"
+    },
+    {
+     "kod": "T.O.5.5.",
+     "alan": "Okuma",
+     "ad": "Metinde geçen anlamını bilmediği söz varlığı unsurlarının anlamını tahmin edebilme"
+    },
+    {
+     "kod": "T.O.5.8.",
+     "alan": "Okuma",
+     "ad": "Basit çıkarımlar yoluyla metnin derin anlamını belirleyebilme"
+    },
+    {
+     "kod": "T.O.5.9.",
+     "alan": "Okuma",
+     "ad": "Üst düzey çıkarımlar yoluyla metnin derin anlamını belirleyebilme"
+    },
+    {
+     "kod": "T.O.5.10.",
+     "alan": "Okuma",
+     "ad": "Okuduklarını karşılaştırabilme"
+    },
+    {
+     "kod": "T.O.5.20.",
+     "alan": "Okuma",
+     "ad": "Metinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme"
+    },
+    {
+     "kod": "T.O.5.21.",
+     "alan": "Okuma",
+     "ad": "Okuduğunu özetleyebilme"
+    },
+    {
+     "kod": "T.O.5.22.",
+     "alan": "Okuma",
+     "ad": "Okuma sürecini değerlendirebilme"
+    },
+    {
+     "kod": "T.K.5.2.",
+     "alan": "Konuşma",
+     "ad": "Konuşmada yöntem ve teknik seçimlerini yönetebilme"
+    },
+    {
+     "kod": "T.K.5.5.",
+     "alan": "Konuşma",
+     "ad": "Konuşmasında çoklu ortam ögeleriyle içerik oluşturabilme"
+    },
+    {
+     "kod": "T.K.5.11.",
+     "alan": "Konuşma",
+     "ad": "Konuşmasında sınıflandırma yapabilme"
+    },
+    {
+     "kod": "T.K.5.12.",
+     "alan": "Konuşma",
+     "ad": "Yorumunu sözlü olarak ifade edebilme"
+    },
+    {
+     "kod": "T.K.5.17.",
+     "alan": "Konuşma",
+     "ad": "Konuşmasını zenginleştirecek biçimde söz varlığını kullanabilme"
+    },
+    {
+     "kod": "T.Y.5.2.",
+     "alan": "Yazma",
+     "ad": "Yazmada strateji, yöntem ve teknik seçimlerini yönetebilme"
+    },
+    {
+     "kod": "T.Y.5.3.",
+     "alan": "Yazma",
+     "ad": "Yazısında içerik ve yapıya yönelik seçimlerini yönetebilme"
+    },
+    {
+     "kod": "T.Y.5.7.",
+     "alan": "Yazma",
+     "ad": "Yazısında karşılaştırma yapabilme"
+    },
+    {
+     "kod": "T.Y.5.10.",
+     "alan": "Yazma",
+     "ad": "Yazılı olarak özetleyebilme"
+    },
+    {
+     "kod": "T.Y.5.12.",
+     "alan": "Yazma",
+     "ad": "Düşünceyi geliştirme yollarını kullanarak metni yapılandırabilme"
+    },
+    {
+     "kod": "T.Y.5.16.",
+     "alan": "Yazma",
+     "ad": "Yazım ve noktalama işaretleriyle ilgili kuralları uygulayabilme"
+    },
+    {
+     "kod": "T.Y.5.17.",
+     "alan": "Yazma",
+     "ad": "Yazma sürecini değerlendirebilme"
+    }
+   ]
+  },
+  {
+   "tema_no": 5,
+   "tema": "İLETİŞİM VE SOSYAL İLİŞKİLER",
+   "ders_saati": "34",
+   "ciktilar": [
+    {
+     "kod": "T.D.5.2.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Dinlemede/izlemede strateji, yöntem ve teknik seçimlerini yönetebilme"
+    },
+    {
+     "kod": "T.D.5.4.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Dinlediğinde/izlediğinde geçen anlamını bilmediği söz varlığı unsurlarının anlamını tahmin edebilme"
+    },
+    {
+     "kod": "T.D.5.7.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Üst düzey çıkarımlar yoluyla dinlediğinin/izlediğinin derin anlamını belirleyebilme"
+    },
+    {
+     "kod": "T.D.5.8.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Dinlediklerini/izlediklerini karşılaştırabilme"
+    },
+    {
+     "kod": "T.D.5.16.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Dinlediğindeki/izlediğindeki söz sanatlarını belirlemeye yönelik çözümleme yapabilme"
+    },
+    {
+     "kod": "T.D.5.17.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Dinlediğinden/izlediğinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme"
+    },
+    {
+     "kod": "T.D.5.19.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Dinlediğini/izlediğini özetleyebilme"
+    },
+    {
+     "kod": "T.D.5.20.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Dinleme/izleme sürecini değerlendirebilme"
+    },
+    {
+     "kod": "T.O.5.1.",
+     "alan": "Okuma",
+     "ad": "Okumada materyal seçimini yönetebilme"
+    },
+    {
+     "kod": "T.O.5.3.",
+     "alan": "Okuma",
+     "ad": "Okumada strateji, yöntem ve teknik seçimlerini yönetebilme"
+    },
+    {
+     "kod": "T.O.5.5.",
+     "alan": "Okuma",
+     "ad": "Metinde geçen anlamını bilmediği söz varlığı unsurlarının anlamını tahmin edebilme"
+    },
+    {
+     "kod": "T.O.5.8.",
+     "alan": "Okuma",
+     "ad": "Basit çıkarımlar yoluyla metnin derin anlamını belirleyebilme"
+    },
+    {
+     "kod": "T.O.5.9.",
+     "alan": "Okuma",
+     "ad": "Üst düzey çıkarımlar yoluyla metnin derin anlamını belirleyebilme"
+    },
+    {
+     "kod": "T.O.5.12.",
+     "alan": "Okuma",
+     "ad": "Metni yorumlayabilme"
+    },
+    {
+     "kod": "T.O.5.20.",
+     "alan": "Okuma",
+     "ad": "Metinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme"
+    },
+    {
+     "kod": "T.K.5.4.",
+     "alan": "Konuşma",
+     "ad": "İletişimi sürdürmek amacıyla soru sorabilme"
+    },
+    {
+     "kod": "T.K.5.10.",
+     "alan": "Konuşma",
+     "ad": "Konuşmasında karşılaştırma yapabilme"
+    },
+    {
+     "kod": "T.K.5.13.",
+     "alan": "Konuşma",
+     "ad": "Sözlü olarak özetleyebilme"
+    },
+    {
+     "kod": "T.K.5.18.",
+     "alan": "Konuşma",
+     "ad": "Konuşmasında açık ve örtük ifadeleri kullanabilme"
+    },
+    {
+     "kod": "T.K.5.19.",
+     "alan": "Konuşma",
+     "ad": "Uygun bağlantı ifadelerini kullanabilme"
+    },
+    {
+     "kod": "T.K.5.21.",
+     "alan": "Konuşma",
+     "ad": "Konuşma sürecini değerlendirebilme"
+    },
+    {
+     "kod": "T.Y.5.2.",
+     "alan": "Yazma",
+     "ad": "Yazmada strateji, yöntem ve teknik seçimlerini yönetebilme"
+    },
+    {
+     "kod": "T.Y.5.3.",
+     "alan": "Yazma",
+     "ad": "Yazısında içerik ve yapıya yönelik seçimlerini yönetebilme"
+    },
+    {
+     "kod": "T.Y.5.9.",
+     "alan": "Yazma",
+     "ad": "Yorumunu yazılı olarak ifade edebilme"
+    },
+    {
+     "kod": "T.Y.5.13.",
+     "alan": "Yazma",
+     "ad": "Yazısını zenginleştirecek biçimde söz varlığını kullanabilme"
+    },
+    {
+     "kod": "T.Y.5.14.",
+     "alan": "Yazma",
+     "ad": "Yazısında açık ve örtük ifadeleri kullanabilme"
+    },
+    {
+     "kod": "T.Y.5.16.",
+     "alan": "Yazma",
+     "ad": "Yazım ve noktalama işaretleriyle ilgili kuralları uygulayabilme"
+    }
+   ]
+  },
+  {
+   "tema_no": 6,
+   "tema": "SAĞLIKLI YAŞIYORUM",
+   "ders_saati": "34",
+   "ciktilar": [
+    {
+     "kod": "T.D.5.1.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Dinlemede/izlemede materyal seçimini yönetebilme"
+    },
+    {
+     "kod": "T.D.5.4.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Dinlediğinde/izlediğinde geçen anlamını bilmediği söz varlığı unsurlarının anlamını tahmin edebilme"
+    },
+    {
+     "kod": "T.D.5.7.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Üst düzey çıkarımlar yoluyla dinlediğinin/izlediğinin derin anlamını belirleyebilme"
+    },
+    {
+     "kod": "T.D.5.12.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Bilgilendirici metinde metin yapılarından hareketle önemli bilgileri belirlemeye yönelik çözümleme yapabilme"
+    },
+    {
+     "kod": "T.D.5.17.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Dinlediğinden/izlediğinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme"
+    },
+    {
+     "kod": "T.D.5.20.",
+     "alan": "Dinleme/İzleme",
+     "ad": "Dinleme/izleme sürecini değerlendirebilme"
+    },
+    {
+     "kod": "T.O.5.3.",
+     "alan": "Okuma",
+     "ad": "Okumada strateji, yöntem ve teknik seçimlerini yönetebilme"
+    },
+    {
+     "kod": "T.O.5.5.",
+     "alan": "Okuma",
+     "ad": "Metinde geçen anlamını bilmediği söz varlığı unsurlarının anlamını tahmin edebilme"
+    },
+    {
+     "kod": "T.O.5.9.",
+     "alan": "Okuma",
+     "ad": "Üst düzey çıkarımlar yoluyla metnin derin anlamını belirleyebilme"
+    },
+    {
+     "kod": "T.O.5.14.",
+     "alan": "Okuma",
+     "ad": "Bilgilendirici metinde metin yapılarından hareketle önemli bilgileri belirlemeye yönelik çözümleme yapabilme"
+    },
+    {
+     "kod": "T.O.5.20.",
+     "alan": "Okuma",
+     "ad": "Metinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme"
+    },
+    {
+     "kod": "T.O.5.22.",
+     "alan": "Okuma",
+     "ad": "Okuma sürecini değerlendirebilme"
+    },
+    {
+     "kod": "T.K.5.14.",
+     "alan": "Konuşma",
+     "ad": "Sözlü olarak tartışabilme"
+    },
+    {
+     "kod": "T.K.5.15.",
+     "alan": "Konuşma",
+     "ad": "Hazırlıklı konuşmasını yapılandırabilme"
+    },
+    {
+     "kod": "T.K.5.17.",
+     "alan": "Konuşma",
+     "ad": "Konuşmasını zenginleştirecek biçimde söz varlığını kullanabilme"
+    },
+    {
+     "kod": "T.K.5.21.",
+     "alan": "Konuşma",
+     "ad": "Konuşma sürecini değerlendirebilme"
+    },
+    {
+     "kod": "T.Y.5.1.",
+     "alan": "Yazma",
+     "ad": "Yazma sürecini yönetebilme"
+    },
+    {
+     "kod": "T.Y.5.2.",
+     "alan": "Yazma",
+     "ad": "Yazmada strateji, yöntem ve teknik seçimlerini yönetebilme"
+    },
+    {
+     "kod": "T.Y.5.3.",
+     "alan": "Yazma",
+     "ad": "Yazısında içerik ve yapıya yönelik seçimlerini yönetebilme"
+    },
+    {
+     "kod": "T.Y.5.11.",
+     "alan": "Yazma",
+     "ad": "Yazılı üretiminde ve yazılı etkileşiminde tartışabilme"
+    },
+    {
+     "kod": "T.Y.5.13.",
+     "alan": "Yazma",
+     "ad": "Yazısını zenginleştirecek biçimde söz varlığını kullanabilme"
+    },
+    {
+     "kod": "T.Y.5.15.",
+     "alan": "Yazma",
+     "ad": "Uygun bağlantı ifadelerini kullanabilme"
+    },
+    {
+     "kod": "T.Y.5.16.",
+     "alan": "Yazma",
+     "ad": "Yazım ve noktalama işaretleriyle ilgili kuralları uygulayabilme"
+    },
+    {
+     "kod": "T.Y.5.17.",
+     "alan": "Yazma",
+     "ad": "Yazma sürecini değerlendirebilme"
+    }
+   ]
+  }
+ ]
+}
