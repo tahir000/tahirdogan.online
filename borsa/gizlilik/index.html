@@ -31,7 +31,7 @@
   h1 { margin: 0 0 8px; font-size: 32px; line-height: 1.15; font-weight: 700; letter-spacing: -.3px; text-wrap: balance; }
   h2 { margin: 36px 0 8px; font-size: 20px; line-height: 1.3; font-weight: 600; text-wrap: balance; }
   p { margin: 0 0 12px; }
-  ul { margin: 0 0 12px; padding-left: 22px; }
+  ul, ol { margin: 0 0 12px; padding-left: 22px; }
   li { margin-bottom: 6px; }
   a { color: var(--mavi); }
   .tarih { color: var(--ikincil); font-size: 14px; margin-bottom: 24px; }
@@ -48,7 +48,7 @@
 <main>
   <p class="alan"><a href="../../">tahirdogan.online</a> · <a href="../">Borsa Tahtası</a></p>
   <h1>Gizlilik Politikası</h1>
-  <p class="tarih">Yürürlük tarihi: 13 Kasım 2026</p>
+  <p class="tarih">Yürürlük tarihi: 14 Kasım 2026</p>
 
   <div class="ozet">
     <p>Borsa Tahtası, hisse listeni ve girdiğin portföy bilgilerini hesabına bağlı olarak saklar. Reklam göstermez, izleme yazılımı kullanmaz, verilerini satmaz ve pazarlama amacıyla kimseyle paylaşmaz.</p>
@@ -60,7 +60,7 @@
   <h2>Hangi veriler saklanır</h2>
   <div class="kaydir">
   <table>
-    <tr><th>Hesap bilgisi</th><td>Kullanıcı adın, hesabın açıldığı zaman ve son giriş zamanın. Şifren açık halde saklanmaz; kimlik doğrulama hizmetinde özetlenmiş biçimde tutulur. Hesabını geliştirici açtığı için ilk şifreni o belirler; ilk girişten sonra Hesap bölümünden değiştirmen önerilir. Değiştirdiğin şifreyi geliştirici göremez.</td></tr>
+    <tr><th>Hesap bilgisi</th><td>Kullanıcı adın, hesabın açıldığı zaman ve son giriş zamanın. Hesabını uygulamada ya da web sürümünde kendin açarsın; kullanıcı adını ve şifreni sen belirlersin. E-posta adresin ya da telefon numaran istenmez. Kullanıcı adın, kimlik doğrulama hizmetinde teknik bir tanımlayıcı olarak saklanır; bu tanımlayıcıya posta gönderilmez. Şifren açık halde saklanmaz, özetlenmiş biçimde tutulur ve geliştirici göremez. İletişim bilgisi alınmadığı için şifreni unutursan kendin sıfırlayamazsın.</td></tr>
     <tr><th>Hisse listen</th><td>Listene eklediğin hisse sembolleri ve girersen adet, ortalama maliyet ve fiyat alarmı seviyeleri.</td></tr>
     <tr><th>İşlem günlüğü</th><td>Kendin kaydettiğin alış ve satışlar: tarih, sembol, adet ve fiyat.</td></tr>
     <tr><th>Cihazında kalanlar</th><td>Oturum bilgisi, görünüm tercihlerin (grafik türü, aralık) ve fiyat geçmişi önbelleği. Bunlar telefonunda ya da tarayıcında durur; uygulama bunları yedeklemeye dahil etmez.</td></tr>
@@ -88,12 +88,19 @@
   </ul>
   <p>Gündemdeki haber bağlantılarına dokunduğunda ilgili site tarayıcında açılır; o sitelerin kendi gizlilik kuralları geçerlidir.</p>
 
-  <h2>Saklama süresi ve silme</h2>
+  <h2>Saklama süresi</h2>
   <ul>
-    <li>Listenden çıkardığın hisseler ve sildiğin işlem kayıtları sunucudan hemen silinir.</li>
     <li>Veriler, hesabın açık olduğu sürece saklanır.</li>
-    <li>Hesabının ve bütün verilerinin silinmesini aşağıdaki adrese yazarak isteyebilirsin. Talep en geç 30 gün içinde yerine getirilir; hesap silindiğinde liste ve işlem günlüğü de birlikte silinir.</li>
+    <li>Listenden çıkardığın hisseler ve sildiğin işlem kayıtları sunucudan hemen silinir.</li>
   </ul>
+
+  <h2 id="silme">Hesabını ve verilerini silme</h2>
+  <p>Borsa Tahtası hesabını iki yoldan silebilirsin:</p>
+  <ol>
+    <li><b>Uygulamadan ya da web sürümünden:</b> giriş yap, Hesap bölümünde "Hesabımı sil" düğmesine dokun, kullanıcı adını yazıp onayla. Hesap hemen silinir.</li>
+    <li><b>E-postayla:</b> uygulamaya giremiyorsan kullanıcı adını belirterek <a href="mailto:tahir@tahirdogan.com">tahir@tahirdogan.com</a> adresine yaz. Talep en geç 30 gün içinde yerine getirilir.</li>
+  </ol>
+  <p>Hesap silindiğinde kullanıcı adın, şifre özetin, hisse listen (adet, maliyet ve fiyat seviyeleri dahil) ve işlem günlüğün kalıcı olarak silinir; geri getirilemez. Hesabını silmeden yalnızca belirli verileri silmek istersen hisseleri listenden çıkarabilir, işlem kayıtlarını tek tek silebilirsin. Sunucuların tuttuğu teknik kayıtlar (istek zamanı ve IP adresi gibi) barındırma hizmetinin olağan saklama süresi dolunca kendiliğinden silinir.</p>
 
   <h2>Güvenlik</h2>
   <p>Cihazın ile sunucular arasındaki bütün iletişim şifreli bağlantıyla (HTTPS) yapılır. Hiçbir sistem bütünüyle güvenli olmadığı için mutlak güvenlik taahhüt edilemez; başka yerlerde kullandığın bir şifreyi bu uygulamada kullanmaman önerilir.</p>

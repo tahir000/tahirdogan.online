@@ -2,7 +2,7 @@
 
 BIST hisse takibi sayfası: kişiye özel hisse listesi, klasik göstergelerden hesaplanan teknik sinyaller, hisse grafiği ve günlük gündem. Site: https://tahirdogan.online/borsa/
 
-Sayfa kullanıcı adı ve şifreyle açılır. Kayıt formu yoktur; hesapları sayfanın sahibi açar. Sinyaller kural tabanlıdır, yatırım tavsiyesi değildir.
+Sayfa kullanıcı adı ve şifreyle açılır. Kullanıcı hesabını giriş ekranındaki "Hesap oluştur" ile kendisi açar, Hesap bölümündeki "Hesabımı sil" ile kendisi siler; e-posta adresi istenmez. Sinyaller kural tabanlıdır, yatırım tavsiyesi değildir.
 
 ## Dosyalar
 
@@ -13,6 +13,7 @@ Sayfa kullanıcı adı ve şifreyle açılır. Kayıt formu yoktur; hesapları s
 | `kurulum/1-tablolar.sql` | Supabase tabloları ve satır düzeyinde güvenlik kuralları |
 | `kurulum/2-borsa-fonksiyonu.ts` | Borsa MCP aktarıcısı (Supabase Edge Function, adı `borsa`) |
 | `kurulum/3-gundem-yazma.sql` | Günlük gündemi dışarıdan yazma yolu (anahtarın özeti yer tutucudur) |
+| `kurulum/4-kayit-ve-hesap-silme.sql` | Kullanıcının kendi hesabını silmesi için işlev ve kayıt için gereken panel ayarları |
 
 ## Nasıl çalışır
 
@@ -24,5 +25,5 @@ Sayfa kullanıcı adı ve şifreyle açılır. Kayıt formu yoktur; hesapları s
 ## Kurallar
 
 - Depo herkese açıktır: şifre, gizli anahtar ya da kişisel veri konmaz. `index.html` içindeki proje adresi ve "publishable" anahtar herkese açık bilgilerdir; "secret" anahtar hiçbir dosyaya yazılmaz.
-- Supabase'de dışarıdan kayıt kapalıdır. Kullanıcılar panelden eklenir (Authentication, Users).
+- Supabase'de kayıt açıktır ve e-posta onayı kapalıdır: kullanıcı adları kimlik sunucusuna e-posta biçiminde verilir ama bu adreslere posta gönderilmez. Şifresini unutan kullanıcının şifresi panelden sıfırlanır (Authentication, Users).
 - Sayfanın kaynağı Claude'daki sürümle ortaktır; aynı dosya Claude içinde girişsiz, burada girişle çalışır.

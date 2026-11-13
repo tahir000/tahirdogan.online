@@ -162,6 +162,8 @@ form.giris{display:flex;flex-direction:column;gap:12px;max-width:340px;width:100
 .hesap-ust{display:flex;gap:6px 18px;align-items:center;flex-wrap:wrap}
 form.sifre{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;align-items:end;max-width:520px}
 form.sifre .tam{grid-column:1/-1;display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+form.sifre .tam-metin{grid-column:1/-1}
+#g-not{display:flex;gap:4px 8px;align-items:center;flex-wrap:wrap}
 footer{border-top:1px solid var(--line);padding-top:12px;font-size:12px;color:var(--ink2);display:flex;flex-direction:column;gap:4px}
 </style>
 </head>
@@ -188,12 +190,15 @@ footer{border-top:1px solid var(--line);padding-top:12px;font-size:12px;color:va
 
   <section id="v-giris" hidden>
     <form class="giris" id="giris">
-      <h2>Giriş</h2>
-      <label>Kullanıcı adı<input id="g-kullanici" name="username" autocomplete="username" autocapitalize="none" autocorrect="off" spellcheck="false" required></label>
+      <h2 id="g-baslik">Giriş</h2>
+      <label>Kullanıcı adı<input id="g-kullanici" name="username" autocomplete="username" autocapitalize="none" autocorrect="off" spellcheck="false" maxlength="64" required></label>
       <label>Şifre<input id="g-sifre" name="password" type="password" autocomplete="current-password" required></label>
+      <label id="g-tekrar-satir" hidden>Şifre (tekrar)<input id="g-tekrar" type="password" autocomplete="new-password"></label>
+      <p class="kucuk" id="g-kural" hidden>Kullanıcı adı 3 ile 20 karakter olur: küçük harf, rakam, nokta, tire, alt çizgi. Şifre en az 8 karakter. Şifreni unutursan kendin sıfırlayamazsın; bir yere not et.</p>
       <button class="dugme" type="submit" id="g-gonder">Giriş yap</button>
       <p class="kucuk" id="g-durum" role="status"></p>
-      <p class="kucuk" id="g-not">Hesabın yoksa sayfanın sahibinden kullanıcı adı ve şifre iste.</p>
+      <p class="kucuk" id="g-not"><span id="g-not-metin">Hesabın yok mu?</span> <button type="button" class="dugme ikincil" data-act="kayit-kip" id="g-kip">Hesap oluştur</button></p>
+      <p class="kucuk" id="g-onay" hidden>Hesap oluşturarak <a href="https://tahirdogan.online/borsa/gizlilik/" target="_blank" rel="noopener noreferrer">gizlilik politikasını</a> okuduğunu kabul etmiş olursun.</p>
     </form>
   </section>
 
@@ -275,11 +280,16 @@ footer{border-top:1px solid var(--line);padding-top:12px;font-size:12px;color:va
   </section>
 
   <div class="hesap" id="hesap" hidden>
-    <div class="hesap-ust"><span>Giriş yapan: <b id="hesap-ad"></b></span><button class="dugme ikincil" type="button" data-act="sifre-ac" aria-expanded="false">Şifre değiştir</button><button class="dugme ikincil" type="button" data-act="cikis">Çıkış yap</button></div>
+    <div class="hesap-ust"><span>Giriş yapan: <b id="hesap-ad"></b></span><button class="dugme ikincil" type="button" data-act="sifre-ac" aria-expanded="false">Şifre değiştir</button><button class="dugme ikincil" type="button" data-act="cikis">Çıkış yap</button><button class="dugme tehlike" type="button" data-act="sil-ac" aria-expanded="false">Hesabımı sil</button></div>
     <form class="sifre" id="sifre-form" hidden autocomplete="off">
       <label>Yeni şifre<input id="s-yeni" type="password" autocomplete="new-password" minlength="8" required></label>
       <label>Yeni şifre (tekrar)<input id="s-tekrar" type="password" autocomplete="new-password" minlength="8" required></label>
       <div class="tam"><button class="dugme" type="submit">Şifreyi kaydet</button><span class="kucuk" id="s-durum" role="status"></span></div>
+    </form>
+    <form class="sifre" id="sil-form" hidden autocomplete="off">
+      <p class="tam-metin">Hesabın, hisse listen ve işlem günlüğün kalıcı olarak silinir. Bu işlem geri alınamaz. Onaylamak için kullanıcı adını yaz.</p>
+      <label>Kullanıcı adı<input id="sil-ad" autocapitalize="none" autocorrect="off" spellcheck="false" required></label>
+      <div class="tam"><button class="dugme tehlike" type="submit" id="sil-gonder">Hesabımı kalıcı olarak sil</button><button class="dugme ikincil" type="button" data-act="sil-ac">Vazgeç</button><span class="kucuk" id="sil-durum" role="status"></span></div>
     </form>
   </div>
 
@@ -1116,7 +1126,14 @@ document.addEventListener('click', ev => {
   const act = b.dataset.act;
   if (act === 'tam') { tamAyar(!S.tam); return; }
   if (act === 'cikis') { cikisYap(false); return; }
-  if (act === 'sifre-ac') { const f = $('sifre-form'); f.hidden = !f.hidden; b.setAttribute('aria-expanded', f.hidden ? 'false' : 'true'); $('s-durum').textContent = ''; return; }
+  if (act === 'sifre-ac' || act === 'sil-ac') {
+    const sil = act === 'sil-ac', f = $(sil ? 'sil-form' : 'sifre-form'), ac = f.hidden;
+    $('sifre-form').hidden = true; $('sil-form').hidden = true; f.hidden = !ac;
+    document.querySelectorAll('.hesap-ust [data-act="sifre-ac"],.hesap-ust [data-act="sil-ac"]').forEach(d => d.setAttribute('aria-expanded', d.dataset.act === act && ac ? 'true' : 'false'));
+    $('s-durum').textContent = ''; $('sil-durum').textContent = ''; $('sil-ad').value = '';
+    return;
+  }
+  if (act === 'kayit-kip') { kayitKip(!S.kayit); return; }
   if (act === 'yenile') { if (S.mcp && S.mcp.sifirla) S.mcp.sifirla(); if (S.mcp && S.mcp.invalidate) S.mcp.invalidate(SRV, 'get_quote').catch(() => {}); S.ek = {}; senkron(true); }
   else if (act === 'ekle-git') { $('ekle').scrollIntoView({behavior: 'smooth', block: 'center'}); setTimeout(() => { try { $('f-sym').focus({preventScroll: true}); } catch (e) {} }, 400); }
   else if (act === 'gun') { S.gunTarih = b.dataset.gun; ciz(); }
@@ -1220,6 +1237,33 @@ async function girisYap(kullanici, sifre){
   catch (e) { throw {code: 'upstream_error'}; }
   if (!r.ok) throw {code: r.status === 400 || r.status === 401 || r.status === 422 ? 'hatali' : r.status === 429 ? 'cok' : 'upstream_error'};
   oturumKur(await r.json(), k.split('@')[0]);
+}
+/* Kullanıcı kendi hesabını açar. Kullanıcı adı, sonuna UZAK.alan eklenerek kimlik sunucusuna e-posta gibi verilir;
+   bu adrese posta gönderilmez (sunucuda e-posta onayı kapalıdır), o yüzden yanıt doğrudan oturum döndürür. */
+async function kayitOl(kullanici, sifre){
+  const k = String(kullanici || '').trim().toLowerCase();
+  if (!/^[a-z0-9._-]{3,20}$/.test(k)) throw {code: 'bicim'};
+  let r;
+  try { r = await hamIstek('/auth/v1/signup', {method: 'POST', body: JSON.stringify({email: k + '@' + UZAK.alan, password: sifre})}); }
+  catch (e) { throw {code: 'upstream_error'}; }
+  let j = null; try { j = await r.json(); } catch (e) {}
+  if (!r.ok) {
+    const ne = j ? [j.error_code, j.code, j.msg, j.message, j.error_description].join(' ') : '';
+    throw {code: /user_already_exists|email_exists|already registered/i.test(ne) ? 'alinmis' : /signup_disabled|signups not allowed/i.test(ne) ? 'kapali' : /weak_password|password should/i.test(ne) ? 'zayif' : r.status === 429 ? 'cok' : 'upstream_error'};
+  }
+  if (!j || !j.access_token) throw {code: 'onay'};
+  oturumKur(j, k);
+}
+function kayitKip(ac){
+  S.kayit = !!ac;
+  $('g-baslik').textContent = ac ? 'Hesap oluştur' : 'Giriş';
+  $('g-gonder').textContent = ac ? 'Hesap oluştur' : 'Giriş yap';
+  $('g-tekrar-satir').hidden = !ac; $('g-kural').hidden = !ac; $('g-onay').hidden = !ac;
+  $('g-tekrar').required = !!ac; $('g-tekrar').value = '';
+  $('g-sifre').setAttribute('autocomplete', ac ? 'new-password' : 'current-password');
+  $('g-not-metin').textContent = ac ? 'Zaten hesabın var mı?' : 'Hesabın yok mu?';
+  $('g-kip').textContent = ac ? 'Giriş yap' : 'Hesap oluştur';
+  $('g-durum').textContent = '';
 }
 function cikisYap(sessiz){
   if (cikiyor) return; cikiyor = true;
@@ -1333,10 +1377,39 @@ function uzakBasla(){
 }
 $('giris').addEventListener('submit', async ev => {
   ev.preventDefault();
-  const durum = $('g-durum'), dugme = $('g-gonder'); dugme.disabled = true; durum.textContent = 'Giriş yapılıyor…';
-  try { await girisYap($('g-kullanici').value, $('g-sifre').value); $('g-sifre').value = ''; durum.textContent = ''; uzakBasla(); }
-  catch (e) { const c = e && e.code; durum.textContent = c === 'hatali' ? 'Kullanıcı adı ya da şifre hatalı.' : c === 'bicim' ? 'Kullanıcı adı 3 ile 32 karakter olmalı; küçük harf, rakam, nokta, tire ve alt çizgi kullanılabilir.' : c === 'cok' ? 'Çok fazla deneme yapıldı. Biraz sonra tekrar dene.' : 'Sunucuya ulaşılamadı. Biraz sonra tekrar dene.'; }
+  const durum = $('g-durum'), dugme = $('g-gonder'), kayit = !!S.kayit, sifre = $('g-sifre').value;
+  if (kayit && sifre.length < 8) { durum.textContent = 'Şifre en az 8 karakter olmalı.'; return; }
+  if (kayit && sifre !== $('g-tekrar').value) { durum.textContent = 'İki şifre aynı değil.'; return; }
+  dugme.disabled = true; durum.textContent = kayit ? 'Hesap oluşturuluyor…' : 'Giriş yapılıyor…';
+  try {
+    if (kayit) await kayitOl($('g-kullanici').value, sifre); else await girisYap($('g-kullanici').value, sifre);
+    $('g-sifre').value = ''; $('g-tekrar').value = ''; durum.textContent = ''; if (kayit) kayitKip(false); uzakBasla();
+  }
+  catch (e) {
+    const c = e && e.code;
+    durum.textContent = c === 'hatali' ? 'Kullanıcı adı ya da şifre hatalı.'
+      : c === 'bicim' ? 'Kullanıcı adı 3 ile ' + (kayit ? '20' : '32') + ' karakter olmalı; küçük harf, rakam, nokta, tire ve alt çizgi kullanılabilir.'
+      : c === 'alinmis' ? 'Bu kullanıcı adı alınmış. Başka bir ad dene.'
+      : c === 'kapali' ? 'Yeni hesap açma şu an kapalı.'
+      : c === 'zayif' ? 'Şifre kabul edilmedi. Daha uzun ya da daha az tahmin edilir bir şifre dene.'
+      : c === 'onay' ? 'Hesap şu an açılamıyor. Biraz sonra tekrar dene.'
+      : c === 'cok' ? 'Çok fazla deneme yapıldı. Biraz sonra tekrar dene.' : 'Sunucuya ulaşılamadı. Biraz sonra tekrar dene.';
+  }
   dugme.disabled = false;
+});
+/* Hesabı silme: sunucudaki hesabimi_sil işlevi giriş yapan kullanıcının kaydını siler; liste ve işlem günlüğü onunla birlikte gider. */
+$('sil-form').addEventListener('submit', async ev => {
+  ev.preventDefault();
+  const durum = $('sil-durum'), dugme = $('sil-gonder');
+  if ($('sil-ad').value.trim().toLowerCase() !== String((oturum && oturum.kullanici) || '').toLowerCase()) { durum.textContent = 'Kullanıcı adı uyuşmuyor.'; return; }
+  dugme.disabled = true; durum.textContent = 'Siliniyor…';
+  try {
+    const r = await istek('/rest/v1/rpc/hesabimi_sil', {method: 'POST', body: '{}'});
+    if (!r.ok) throw {code: 'upstream_error'};
+    durum.textContent = 'Hesabın silindi.';
+    cikisYap(true);
+  }
+  catch (e) { durum.textContent = 'Hesap silinemedi. Biraz sonra tekrar dene.'; dugme.disabled = false; }
 });
 $('sifre-form').addEventListener('submit', async ev => {
   ev.preventDefault();
@@ -1372,7 +1445,6 @@ function uygulamaKur(){
   // Ekleme formu zaten ekrandaysa yüzen düğme gizlenir.
   try { new IntersectionObserver(es => { document.querySelector('.fab').classList.toggle('gizli', es[es.length - 1].isIntersecting); }, {threshold: 0.25}).observe($('ekle')); } catch (e) {}
   $('giris').insertAdjacentHTML('beforebegin', '<div class="karsilama"><div class="logo"><svg viewBox="0 0 32 32" width="40" height="40" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">' + IK.logo + '</svg></div><h2>Borsa Tahtası</h2><p>Hisselerini takip et; teknik sinyalleri ve günün gündemini tek yerde gör.</p></div>');
-  $('g-not').textContent = 'Hesabın yoksa uygulamanın sahibinden kullanıcı adı ve şifre iste.';
   $('yasal').textContent = 'Bu uygulamadaki sinyal ve tahminler teknik göstergelerden otomatik hesaplanır; yatırım tavsiyesi değildir. Karar ve sorumluluk kullanıcıya aittir.';
   let surum = ''; try { surum = window.Uygulama && window.Uygulama.surum ? String(window.Uygulama.surum()) : ''; } catch (e) {}
   $('hesap').insertAdjacentHTML('beforeend', '<div class="hakkinda"><h2>Uygulama hakkında</h2><p>Borsa Tahtası, BIST hisselerini izlemek için kişisel bir takip aracıdır. Fiyatlar gecikmeli olabilir; sinyaller klasik teknik göstergelerden kural tabanlı hesaplanır.</p><p class="kucuk">Yatırım tavsiyesi değildir.' + (surum ? ' Sürüm ' + esc(surum) + '.' : '') + '</p><p><a href="https://tahirdogan.online/borsa/gizlilik/" target="_blank" rel="noopener noreferrer">Gizlilik politikası</a></p></div>');
