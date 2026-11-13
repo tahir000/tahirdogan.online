@@ -1,0 +1,1322 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<meta name="referrer" content="no-referrer">
+<style>:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;padding:0}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style>
+<title>Borsa Tahtası</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+<style>
+/* Yerleşim: tek sütun, telefon öncelikli. Üstte endeks ve sekmeler, altında özet ve satır listeleri; hisse ayrıntısı ayrı görünüm. */
+:root{
+  --bg:#FFFFFF; --ink:#1D1D1F; --ink2:#6E6E73; --fill:#F5F5F7; --line:#D2D2D7; --line2:#E8E8ED;
+  --accent:#0066CC; --on-accent:#FFFFFF; --up:#1E8540; --down:#D70015; --golge:rgba(0,0,0,.14);
+  --font:-apple-system,BlinkMacSystemFont,"SF Pro Text","Inter","Segoe UI",Roboto,Arial,sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#000000; --ink:#F5F5F7; --ink2:#A1A1A6; --fill:#1C1C1E; --line:#48484A; --line2:#2C2C2E;
+    --accent:#2997FF; --on-accent:#FFFFFF; --up:#30D158; --down:#FF453A; --golge:rgba(0,0,0,.6);
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#000000; --ink:#F5F5F7; --ink2:#A1A1A6; --fill:#1C1C1E; --line:#48484A; --line2:#2C2C2E;
+  --accent:#2997FF; --on-accent:#FFFFFF; --up:#30D158; --down:#FF453A; --golge:rgba(0,0,0,.6);
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--ink);font-family:var(--font);font-size:15px;line-height:1.45;-webkit-font-smoothing:antialiased}
+.wrap{max-width:780px;margin:0 auto;padding-block:20px 56px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:18px}
+.num{font-variant-numeric:tabular-nums}
+.up{color:var(--up)} .down{color:var(--down)} .soluk{color:var(--ink2)}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:6px}
+h1{font-size:24px;font-weight:700;letter-spacing:-.01em;margin:0;text-wrap:balance}
+h2{font-size:17px;font-weight:600;margin:0;text-wrap:balance}
+p{margin:0}
+small,.kucuk{font-size:13px;color:var(--ink2)}
+
+.ust{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap}
+.ust > div{min-width:0}
+.endeks{text-align:right;margin-left:auto}
+.endeks b{font-size:17px;font-weight:600}
+
+.seg{display:inline-flex;background:var(--fill);border-radius:10px;padding:2px;gap:2px;max-width:100%}
+.seg a,.seg button{appearance:none;border:0;background:transparent;color:var(--ink);font:inherit;font-size:14px;font-weight:500;padding:7px 14px;border-radius:8px;cursor:pointer;text-decoration:none;white-space:nowrap}
+.seg .secili{background:var(--bg);box-shadow:0 1px 3px var(--golge);font-weight:600}
+.sekme-satir{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+@media (max-width:520px){ .seg a,.seg button{padding:7px 11px} }
+
+.not{background:var(--fill);border-radius:12px;padding:12px 14px;font-size:14px;display:flex;flex-direction:column;gap:8px}
+.dugme{appearance:none;border:0;background:var(--accent);color:var(--on-accent);font:inherit;font-weight:600;font-size:15px;padding:10px 16px;border-radius:10px;cursor:pointer}
+.dugme.ikincil{background:transparent;color:var(--accent);padding:6px 0;font-weight:500}
+.dugme.tehlike{background:transparent;color:var(--down);padding:6px 0;font-weight:500}
+.dugme:disabled{opacity:.5;cursor:default}
+
+section{display:flex;flex-direction:column;gap:16px}
+.ozet{display:flex;flex-direction:column;gap:4px}
+.ozet .buyuk{font-size:36px;font-weight:700;letter-spacing:-.02em;line-height:1.1}
+.ozet-alt{display:flex;gap:18px;flex-wrap:wrap;font-size:14px}
+.ozet-alt span{color:var(--ink2)}
+
+.grup{display:flex;flex-direction:column}
+.grup > h2{padding-bottom:6px}
+.satir{display:grid;grid-template-columns:minmax(0,1fr) 68px auto;grid-template-areas:"sol spark sag" "alt alt alt";gap:6px 12px;align-items:center;padding:12px 0;border-top:1px solid var(--line2);color:var(--ink);text-decoration:none}
+.satir:hover{text-decoration:none}
+.s-sol{grid-area:sol;display:flex;flex-direction:column;min-width:0}
+.s-sol b{font-size:16px;font-weight:600}
+.s-sol small{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.s-spark{grid-area:spark;height:24px}
+.s-sag{grid-area:sag;display:flex;flex-direction:column;align-items:flex-end}
+.s-sag b{font-size:16px;font-weight:600}
+.s-alt{grid-area:alt;display:flex;gap:10px;align-items:center;flex-wrap:wrap;font-size:13px;color:var(--ink2)}
+.chip{display:inline-block;font-size:12px;font-weight:600;padding:2px 9px;border-radius:999px;border:1px solid var(--line);color:var(--ink2);white-space:nowrap}
+.chip.up{border-color:var(--up);color:var(--up)} .chip.down{border-color:var(--down);color:var(--down)}
+svg{display:block;max-width:100%}
+.spark{fill:none;stroke:var(--ink2);stroke-width:1.4}
+
+form.ekle{display:grid;grid-template-columns:repeat(3,minmax(0,1fr)) auto;gap:8px;align-items:end;border-top:1px solid var(--line2);padding-top:14px}
+form.ekle > h2,form.ekle > p{grid-column:1/-1}
+label{display:flex;flex-direction:column;gap:4px;font-size:13px;color:var(--ink2);min-width:0}
+input,select{font:inherit;font-size:16px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:9px 11px;width:100%;min-width:0}
+@media (max-width:520px){ form.ekle{grid-template-columns:repeat(2,minmax(0,1fr))} form.ekle .tam{grid-column:1/-1} }
+
+.sinyal{display:flex;flex-direction:column;gap:8px;padding:14px 0;border-top:1px solid var(--line2);color:var(--ink);text-decoration:none}
+.sinyal:hover{text-decoration:none}
+.sn-ust{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.sn-ust b{font-size:16px;font-weight:600}
+.sn-ust .skor{margin-left:auto;font-size:13px;color:var(--ink2)}
+.olcer{position:relative;height:4px;background:var(--line2);border-radius:2px}
+.olcer i{position:absolute;top:0;bottom:0;border-radius:2px}
+.olcer i.up{background:var(--up)} .olcer i.down{background:var(--down)}
+.olcer::after{content:"";position:absolute;left:50%;top:-3px;bottom:-3px;width:1px;background:var(--ink2)}
+ul.neden{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:3px;font-size:14px}
+ul.neden li{display:grid;grid-template-columns:34px minmax(0,1fr);gap:8px}
+ul.neden li span:first-child{font-weight:600;text-align:right}
+
+.d-ust{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap}
+.d-ust .fiyat{font-size:32px;font-weight:700;letter-spacing:-.02em;line-height:1.1}
+.grafik{display:flex;flex-direction:column;gap:2px}
+.gkutu{display:flex;flex-direction:column;gap:8px}
+.g-bas{display:flex;justify-content:space-between;align-items:center;gap:8px 12px;flex-wrap:wrap}
+.g-ad{display:none;font-size:17px;font-weight:600;flex:1 1 100%}
+.g-ad span{font-weight:500;margin-left:8px}
+.gkutu.tam{position:fixed;inset:0;z-index:40;background:var(--bg);padding:max(12px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) max(12px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+.gkutu.tam .grafik{flex:1;min-height:0;overflow:hidden}
+.gkutu.tam .g-ad{display:block}
+.gkutu.tam .g-aciklama{display:none}
+.wrap.genis{max-width:1080px}
+@media (min-width:700px){ .gkutu.tam .g-ad{flex:0 1 auto;margin-right:auto} }
+.g-izgara{stroke:var(--line2);stroke-width:1}
+.g-yazi{fill:var(--ink2);font-size:10.5px;font-family:var(--font)}
+.g-fiyat{fill:none;stroke:var(--ink);stroke-width:1.6;stroke-linejoin:round}
+.g-o20{fill:none;stroke:var(--ink2);stroke-width:1}
+.g-o50{fill:none;stroke:var(--ink2);stroke-width:1;stroke-dasharray:5 3}
+.g-o200{fill:none;stroke:var(--ink2);stroke-width:1.2;stroke-dasharray:1.5 3}
+.g-bb{fill:var(--fill);stroke:none}
+.g-des{stroke:var(--up);stroke-width:1;stroke-dasharray:4 4;fill:none}
+.g-dir{stroke:var(--down);stroke-width:1;stroke-dasharray:4 4;fill:none}
+.g-mal{stroke:var(--accent);stroke-width:1;stroke-dasharray:2 3;fill:none}
+.g-des-y{fill:var(--up)} .g-dir-y{fill:var(--down)} .g-mal-y{fill:var(--accent)}
+.g-nokta{fill:var(--accent)}
+.g-hacim{fill:var(--line)}
+.g-rsi{fill:none;stroke:var(--ink);stroke-width:1.2}
+.g-imlec{stroke:var(--ink2);stroke-width:1}
+.okuma{font-size:13px;color:var(--ink2);min-height:19px}
+dl.tablo{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 24px;margin:0}
+dl.tablo > div{display:flex;justify-content:space-between;gap:10px;padding:8px 0;border-top:1px solid var(--line2);font-size:14px}
+dl.tablo dt{color:var(--ink2)} dl.tablo dd{margin:0;font-weight:500;text-align:right}
+@media (max-width:520px){ dl.tablo{grid-template-columns:minmax(0,1fr)} }
+form.poz{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;align-items:end}
+form.poz .tam{grid-column:1/-1;display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+form.islem{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;align-items:end}
+form.islem .tam{grid-column:1/-1;display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+@media (max-width:520px){ form.islem{grid-template-columns:repeat(2,minmax(0,1fr))} }
+.islem-satir{display:flex;justify-content:space-between;gap:10px;padding:9px 0;border-top:1px solid var(--line2);font-size:14px;flex-wrap:wrap}
+.islem-satir button{appearance:none;border:0;background:transparent;color:var(--ink2);font:inherit;font-size:13px;cursor:pointer;padding:0}
+ul.uyari{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:5px}
+ul.uyari li{display:grid;grid-template-columns:64px minmax(0,1fr);gap:8px}
+ul.uyari a{font-weight:600}
+.k-p{fill:none;stroke:var(--ink);stroke-width:1.6;vector-effect:non-scaling-stroke}
+.k-e{fill:none;stroke:var(--ink2);stroke-width:1.2;stroke-dasharray:5 3;vector-effect:non-scaling-stroke}
+table.duz{width:100%;border-collapse:collapse;font-size:14px}
+table.duz th{font-weight:500;color:var(--ink2);text-align:right;padding:7px 0 7px 10px;border-top:1px solid var(--line2)}
+table.duz td{text-align:right;padding:7px 0 7px 10px;border-top:1px solid var(--line2)}
+table.duz th:first-child,table.duz td:first-child{text-align:left;padding-left:0}
+.kaydir{overflow-x:auto}
+
+.haber{display:flex;flex-direction:column;gap:5px;padding:12px 0;border-top:1px solid var(--line2)}
+.haber a.baslik{color:var(--ink);font-weight:600;font-size:15px}
+.haber .meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center;font-size:13px;color:var(--ink2)}
+.haber p{font-size:14px}
+.etiketler{display:flex;gap:6px;flex-wrap:wrap}
+.wrap.kilitli .sekme-satir,.wrap.kilitli .endeks,.wrap.kilitli #uyari{display:none}
+form.giris{display:flex;flex-direction:column;gap:12px;max-width:340px;width:100%;margin:24px auto 8px}
+.hesap{display:flex;flex-direction:column;gap:10px;border-top:1px solid var(--line2);padding-top:14px;font-size:14px}
+.hesap-ust{display:flex;gap:6px 18px;align-items:center;flex-wrap:wrap}
+form.sifre{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;align-items:end;max-width:520px}
+form.sifre .tam{grid-column:1/-1;display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+footer{border-top:1px solid var(--line);padding-top:12px;font-size:12px;color:var(--ink2);display:flex;flex-direction:column;gap:4px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="ust">
+    <div>
+      <h1>Borsa Tahtası</h1>
+      <p class="kucuk" id="altbaslik">Hisse takibi, teknik sinyaller ve günlük gündem</p>
+    </div>
+    <div class="endeks num" id="endeks"></div>
+  </div>
+
+  <div class="sekme-satir">
+    <nav class="seg" id="sekmeler" aria-label="Görünümler">
+      <a href="#portfoy" data-v="portfoy">Hisseler</a>
+      <a href="#sinyaller" data-v="sinyaller">Sinyaller</a>
+      <a href="#gundem" data-v="gundem">Gündem</a>
+    </nav>
+    <button class="dugme ikincil" type="button" data-act="yenile" id="yenile">Yenile</button>
+  </div>
+
+  <div class="not" id="uyari" hidden></div>
+
+  <section id="v-giris" hidden>
+    <form class="giris" id="giris">
+      <h2>Giriş</h2>
+      <label>Kullanıcı adı<input id="g-kullanici" name="username" autocomplete="username" autocapitalize="none" autocorrect="off" spellcheck="false" required></label>
+      <label>Şifre<input id="g-sifre" name="password" type="password" autocomplete="current-password" required></label>
+      <button class="dugme" type="submit" id="g-gonder">Giriş yap</button>
+      <p class="kucuk" id="g-durum" role="status"></p>
+      <p class="kucuk">Hesabın yoksa sayfanın sahibinden kullanıcı adı ve şifre iste.</p>
+    </form>
+  </section>
+
+  <section id="v-portfoy">
+    <div class="ozet" id="ozet"></div>
+    <div id="uyarilar" hidden></div>
+    <div id="liste"></div>
+    <div id="kiyas"></div>
+    <form class="ekle" id="ekle" autocomplete="off">
+      <h2>Hisse ekle</h2>
+      <label>Sembol<input id="f-sym" name="sym" placeholder="THYAO" maxlength="8" autocapitalize="characters" required></label>
+      <label>Adet<input id="f-adet" name="adet" inputmode="decimal" placeholder="boş: izleme"></label>
+      <label>Ortalama maliyet<input id="f-maliyet" name="maliyet" inputmode="decimal" placeholder="TL"></label>
+      <button class="dugme tam" type="submit" id="f-gonder">Ekle</button>
+      <p class="kucuk" id="f-durum">Adet girmezsen hisse yalnızca izleme listesine eklenir.</p>
+    </form>
+    <div id="islem-ozet"></div>
+  </section>
+
+  <section id="v-sinyaller" hidden>
+    <p class="kucuk">Sinyaller günlük kapanış verisinden klasik göstergelerle (ortalamalar, RSI, MACD, Bollinger, stokastik, hacim) hesaplanır. Skor -100 ile +100 arasındadır. Saatlik sinyal, BIST 100 hisselerinin saatlik gösterge taramasından gelir.</p>
+    <div id="sinyal-liste"></div>
+  </section>
+
+  <section id="v-gundem" hidden>
+    <div id="gundem-ust" style="display:flex;flex-direction:column;gap:18px"></div>
+    <div id="gundem-icerik"></div>
+  </section>
+
+  <section id="v-hisse" hidden>
+    <a href="#portfoy" id="geri">‹ Hisseler</a>
+    <div class="d-ust" id="d-ust"></div>
+    <div class="gkutu" id="g-kutu">
+      <div class="g-bas">
+        <div class="g-ad num" id="g-ad"></div>
+        <div class="seg" id="aralik" role="group" aria-label="Grafik aralığı">
+          <button type="button" data-aralik="63">3 ay</button>
+          <button type="button" data-aralik="126">6 ay</button>
+          <button type="button" data-aralik="252">1 yıl</button>
+          <button type="button" data-aralik="504">2 yıl</button>
+        </div>
+        <button type="button" class="dugme ikincil" id="g-tam" data-act="tam" aria-pressed="false">Tam ekran</button>
+      </div>
+      <div class="okuma num" id="d-okuma"></div>
+      <div class="grafik" id="d-grafik"></div>
+    </div>
+    <div id="d-govde" style="display:flex;flex-direction:column;gap:20px"></div>
+    <div id="d-ek" style="display:flex;flex-direction:column;gap:20px"></div>
+    <div class="grup">
+      <h2>Pozisyonum</h2>
+      <form class="poz" id="d-form" autocomplete="off">
+        <label>Adet<input id="d-adet" inputmode="decimal" placeholder="boş: izleme"></label>
+        <label>Ortalama maliyet<input id="d-maliyet" inputmode="decimal" placeholder="TL"></label>
+        <label>Üst alarm (fiyat)<input id="d-ust-alarm" inputmode="decimal" placeholder="bu fiyatın üstünde uyar"></label>
+        <label>Alt alarm (fiyat)<input id="d-alt-alarm" inputmode="decimal" placeholder="bu fiyatın altında uyar"></label>
+        <div class="tam">
+          <button class="dugme" type="submit" id="d-kaydet">Kaydet</button>
+          <button class="dugme tehlike" type="button" id="d-sil" data-act="sil">Listeden çıkar</button>
+          <span class="kucuk" id="d-durum"></span>
+        </div>
+      </form>
+    </div>
+    <div class="grup" style="gap:8px">
+      <h2>İşlem günlüğü</h2>
+      <form class="islem" id="i-form" autocomplete="off">
+        <label>İşlem<select id="i-tur"><option value="al">Alış</option><option value="sat">Satış</option></select></label>
+        <label>Adet<input id="i-adet" inputmode="decimal"></label>
+        <label>Fiyat<input id="i-fiyat" inputmode="decimal" placeholder="TL"></label>
+        <label>Tarih<input id="i-tarih" type="date"></label>
+        <div class="tam"><button class="dugme" type="submit">İşlemi kaydet</button><span class="kucuk" id="i-durum">Kaydedince adet ve ortalama maliyet kendiliğinden güncellenir.</span></div>
+      </form>
+      <div id="d-islem"></div>
+    </div>
+    <div id="d-haber"></div>
+  </section>
+
+  <div class="hesap" id="hesap" hidden>
+    <div class="hesap-ust"><span>Giriş yapan: <b id="hesap-ad"></b></span><button class="dugme ikincil" type="button" data-act="sifre-ac" aria-expanded="false">Şifre değiştir</button><button class="dugme ikincil" type="button" data-act="cikis">Çıkış yap</button></div>
+    <form class="sifre" id="sifre-form" hidden autocomplete="off">
+      <label>Yeni şifre<input id="s-yeni" type="password" autocomplete="new-password" minlength="8" required></label>
+      <label>Yeni şifre (tekrar)<input id="s-tekrar" type="password" autocomplete="new-password" minlength="8" required></label>
+      <div class="tam"><button class="dugme" type="submit">Şifreyi kaydet</button><span class="kucuk" id="s-durum" role="status"></span></div>
+    </form>
+  </div>
+
+  <footer>
+    <span id="veri-notu">Fiyatlar Borsa MCP bağlayıcısından gelir ve gecikmeli olabilir.</span>
+    <span>Bu sayfadaki sinyal ve tahminler teknik göstergelerden otomatik hesaplanır; yatırım tavsiyesi değildir. Karar ve sorumluluk kullanıcıya aittir.</span>
+  </footer>
+</div>
+
+<script>
+(() => {
+'use strict';
+document.documentElement.lang = 'tr';
+const SRV = 'Borsa MCP';
+/* Kendi adresinde çalışma ayarı; Claude içinde kullanılmaz. url: Supabase proje adresi, anahtar: herkese açık (publishable ya da anon) anahtar,
+   alan: kullanıcı adının sonuna eklenen e-posta alanı. Gizli (secret ya da service_role) anahtar buraya asla yazılmaz. */
+const UZAK = {url: 'https://egmfeahftashpxcemdzd.supabase.co', anahtar: 'sb_publishable_MCJBBHimo-pTygHACDs-sw_jZZWtpRF', alan: 'tahirdogan.com'};
+const $ = id => document.getElementById(id);
+const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const nf = (x, d = 2) => (x == null || !isFinite(x)) ? '-' : x.toLocaleString('tr-TR', {minimumFractionDigits: d, maximumFractionDigits: d});
+const pf = (x, d = 2) => (x == null || !isFinite(x)) ? '-' : (x > 0 ? '+' : x < 0 ? '-' : '') + '%' + Math.abs(x).toLocaleString('tr-TR', {minimumFractionDigits: d, maximumFractionDigits: d});
+const pfm = x => '%' + Math.abs(x).toLocaleString('tr-TR', {minimumFractionDigits: 1, maximumFractionDigits: 1});
+const cls = x => x > 0 ? 'up' : x < 0 ? 'down' : '';
+const kisalt = v => v == null ? '-' : v >= 1e9 ? nf(v / 1e9, 1) + ' Mr' : v >= 1e6 ? nf(v / 1e6, 1) + ' Mn' : v >= 1e3 ? nf(v / 1e3, 1) + ' B' : nf(v, 0);
+const AYLAR = ['Oca','Şub','Mar','Nis','May','Haz','Tem','Ağu','Eyl','Eki','Kas','Ara'];
+const tarihKisa = t => { const p = String(t).slice(0, 10).split('-'); return p.length === 3 ? (+p[2]) + ' ' + AYLAR[+p[1] - 1] + ' ' + p[0] : String(t); };
+const bekle = ms => new Promise(r => setTimeout(r, ms));
+const sayi = s => { s = String(s == null ? '' : s).trim().replace(/\s/g, ''); if (!s) return null; if (s.includes(',')) s = s.replace(/\./g, '').replace(',', '.'); const n = Number(s); return isFinite(n) && n >= 0 ? n : NaN; };
+const SEMBOL = /^[A-Z0-9]{2,6}$/;
+const bugunIST = () => new Date().toLocaleDateString('sv-SE', {timeZone: 'Europe/Istanbul'});
+
+const S = {
+  db: null, mcp: null, hazir: false, demo: false,
+  hisseler: null,          // sembol -> {adet, maliyet, ornek}
+  hist: {},                // sembol -> {bars, at, err, yukleniyor}
+  kot: {}, kotAt: null, kotErr: null,
+  gunluk: null, gunTarih: null, gunFiltre: 'tum',
+  view: 'portfoy', sym: null, aralik: 126,
+  dbGec: false, silOnay: false, tam: false, kilit: false,
+  islemler: null, haftalik: null, ek: {}
+};
+const AN = {};             // analiz önbelleği
+
+/* ---------- Borsa MCP yanıt ayrıştırma ---------- */
+function num(v){ if (v == null) return null; if (typeof v === 'number') return isFinite(v) ? v : null; const s = String(v).trim(); if (!s) return null; const n = Number(s); return isFinite(n) ? n : null; }
+function gez(o, out, ad, derin){
+  if (o == null || derin > 6) return;
+  if (Array.isArray(o)) { if (o.length && o[0] && typeof o[0] === 'object' && !Array.isArray(o[0])) { const rr = o.map(r => Object.assign({}, r)); if (!out.rows.length) out.rows = rr; out.tab[ad] = rr; } return; }
+  if (typeof o === 'object') for (const k of Object.keys(o)) { const v = o[k]; if (v && typeof v === 'object') gez(v, out, k, derin + 1); else (out.sec[ad] = out.sec[ad] || {})[k] = v; }
+}
+function parseBorsa(p){
+  const out = {sec: {}, rows: [], tab: {}};
+  if (p && typeof p === 'object') { gez(p, out, '_', 0); return out; }
+  let sec = '_', tsv = false, head = null;
+  for (const raw of String(p == null ? '' : p).split(/\r?\n/)) {
+    const line = raw.replace(/\s+$/, '');
+    if (line.startsWith('```')) { tsv = !tsv; head = null; continue; }
+    if (tsv) {
+      if (!line) continue;
+      const cells = line.split('\t');
+      if (!head) { head = cells.map(c => c.trim()); continue; }
+      const o = {}; head.forEach((h, i) => { o[h] = cells[i] === undefined ? '' : cells[i].trim(); }); out.rows.push(o); (out.tab[sec] = out.tab[sec] || []).push(o); continue;
+    }
+    const h = line.match(/^#{2,4}\s+(.+)$/); if (h) { sec = h[1].trim(); continue; }
+    const kv = line.match(/^([A-Za-z0-9_ .\-]+):\s*(.*)$/); if (kv) (out.sec[sec] = out.sec[sec] || {})[kv[1].trim()] = kv[2].trim();
+  }
+  return out;
+}
+function toBars(rows){
+  const m = new Map();
+  for (const r of rows) {
+    const t = String(r.date != null ? r.date : r.Date != null ? r.Date : r.tarih != null ? r.tarih : '').slice(0, 10);
+    const c = num(r.close != null ? r.close : r.Close);
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(t) || c == null || c <= 0) continue;
+    const o = num(r.open != null ? r.open : r.Open), h = num(r.high != null ? r.high : r.High), l = num(r.low != null ? r.low : r.Low), v = num(r.volume != null ? r.volume : r.Volume);
+    const oo = o == null ? c : o;
+    m.set(t, {t, o: oo, h: Math.max(h == null ? c : h, oo, c), l: Math.min(l == null ? c : l, oo, c), c, v: v == null ? 0 : v});
+  }
+  return Array.from(m.values()).sort((a, b) => a.t < b.t ? -1 : 1);
+}
+function metin(r){ return r && Array.isArray(r.content) ? r.content.filter(b => b && b.type === 'text').map(b => b.text).join('\n') : ''; }
+function govde(r){ return r && r.payload != null ? r.payload : metin(r); }
+
+/* ---------- Göstergeler ---------- */
+function sma(a, n){ const out = new Array(a.length).fill(null); let s = 0; for (let i = 0; i < a.length; i++) { s += a[i]; if (i >= n) s -= a[i - n]; if (i >= n - 1) out[i] = s / n; } return out; }
+function ema(a, n){ const out = new Array(a.length).fill(null); if (a.length < n) return out; const k = 2 / (n + 1); let e = 0; for (let i = 0; i < n; i++) e += a[i]; e /= n; out[n - 1] = e; for (let i = n; i < a.length; i++) { e = a[i] * k + e * (1 - k); out[i] = e; } return out; }
+function rsiHesap(c, n){ const out = new Array(c.length).fill(null); if (c.length <= n) return out; let g = 0, l = 0; for (let i = 1; i <= n; i++) { const d = c[i] - c[i - 1]; if (d > 0) g += d; else l -= d; } g /= n; l /= n; out[n] = l === 0 ? 100 : 100 - 100 / (1 + g / l); for (let i = n + 1; i < c.length; i++) { const d = c[i] - c[i - 1]; g = (g * (n - 1) + Math.max(d, 0)) / n; l = (l * (n - 1) + Math.max(-d, 0)) / n; out[i] = l === 0 ? 100 : 100 - 100 / (1 + g / l); } return out; }
+function gostergeler(B){
+  const n = B.length, c = B.map(b => b.c), h = B.map(b => b.h), l = B.map(b => b.l), v = B.map(b => b.v);
+  const s20 = sma(c, 20), s50 = sma(c, 50), s200 = sma(c, 200), e12 = ema(c, 12), e26 = ema(c, 26);
+  const macd = c.map((_, i) => e12[i] != null && e26[i] != null ? e12[i] - e26[i] : null);
+  const ilk = macd.findIndex(x => x != null), sig = new Array(n).fill(null);
+  if (ilk >= 0) { const sg = ema(macd.slice(ilk), 9); sg.forEach((x, i) => { sig[i + ilk] = x; }); }
+  const hist = macd.map((m, i) => m != null && sig[i] != null ? m - sig[i] : null);
+  const bbU = new Array(n).fill(null), bbL = new Array(n).fill(null);
+  for (let i = 19; i < n; i++) { let q = 0; for (let j = i - 19; j <= i; j++) q += (c[j] - s20[i]) ** 2; const sd = Math.sqrt(q / 20); bbU[i] = s20[i] + 2 * sd; bbL[i] = s20[i] - 2 * sd; }
+  const atr = new Array(n).fill(null); let a = 0;
+  for (let i = 1; i < n; i++) { const tr = Math.max(h[i] - l[i], Math.abs(h[i] - c[i - 1]), Math.abs(l[i] - c[i - 1])); if (i <= 14) { a += tr; if (i === 14) { a /= 14; atr[i] = a; } } else { a = (a * 13 + tr) / 14; atr[i] = a; } }
+  const kRaw = new Array(n).fill(null);
+  for (let i = 13; i < n; i++) { let hh = -Infinity, ll = Infinity; for (let j = i - 13; j <= i; j++) { if (h[j] > hh) hh = h[j]; if (l[j] < ll) ll = l[j]; } kRaw[i] = hh > ll ? (c[i] - ll) / (hh - ll) * 100 : 50; }
+  const k = new Array(n).fill(null), d = new Array(n).fill(null);
+  for (let i = 15; i < n; i++) k[i] = (kRaw[i] + kRaw[i - 1] + kRaw[i - 2]) / 3;
+  for (let i = 17; i < n; i++) d[i] = (k[i] + k[i - 1] + k[i - 2]) / 3;
+  return {c, h, l, v, s20, s50, s200, macd, sig, hist, bbU, bbL, atr, k, d, rsi: rsiHesap(c, 14), vma: sma(v, 20)};
+}
+function kesisim(a, b, i, pencere){
+  for (let k = 0; k < pencere; k++) { const j = i - k; if (j < 1 || a[j] == null || b[j] == null || a[j - 1] == null || b[j - 1] == null) continue; const d1 = a[j] - b[j], d0 = a[j - 1] - b[j - 1]; if (d0 <= 0 && d1 > 0) return {d: 1, k}; if (d0 >= 0 && d1 < 0) return {d: -1, k}; }
+  return null;
+}
+const once = k => k === 0 ? 'son seans' : k + ' seans önce';
+function skorAt(I, i){
+  const c = I.c[i], P = []; let s = 0;
+  const ek = (p, t) => { if (p) { s += p; P.push({p, t}); } };
+  const a20 = I.s20[i], a50 = I.s50[i], a200 = I.s200[i];
+  if (a200 != null) ek(c > a200 ? 10 : -10, c > a200 ? 'Fiyat 200 günlük ortalamanın üstünde (uzun vade yukarı)' : 'Fiyat 200 günlük ortalamanın altında (uzun vade aşağı)');
+  if (a50 != null && a200 != null) ek(a50 > a200 ? 8 : -8, a50 > a200 ? '50 günlük ortalama 200 günlüğün üstünde' : '50 günlük ortalama 200 günlüğün altında');
+  if (a50 != null) ek(c > a50 ? 7 : -7, c > a50 ? 'Fiyat 50 günlük ortalamanın üstünde' : 'Fiyat 50 günlük ortalamanın altında');
+  if (a20 != null && i >= 5 && I.s20[i - 5] != null) { const e = (a20 / I.s20[i - 5] - 1) * 100; ek(e > 0.5 ? 5 : e < -0.5 ? -5 : 0, e > 0 ? '20 günlük ortalama yükseliyor' : '20 günlük ortalama düşüyor'); }
+  const kx = kesisim(I.s50, I.s200, i, 10);
+  if (kx) ek(kx.d * 8, (kx.d > 0 ? 'Altın kesişim: 50 günlük, 200 günlüğü yukarı kesti' : 'Ölüm kesişimi: 50 günlük, 200 günlüğü aşağı kesti') + ' (' + once(kx.k) + ')');
+  const r = I.rsi[i];
+  if (r != null) { const rt = 'RSI ' + nf(r, 0); if (r < 30) ek(14, rt + ': aşırı satım bölgesi'); else if (r < 40) ek(4, rt + ': satım bölgesine yakın'); else if (r > 80) ek(-16, rt + ': güçlü aşırı alım'); else if (r > 70) ek(-10, rt + ': aşırı alım bölgesi'); else if (r >= 60) ek(4, rt + ': pozitif momentum'); }
+  const m = I.macd[i], g = I.sig[i];
+  if (m != null && g != null) {
+    ek(m > g ? 8 : -8, m > g ? 'MACD sinyal çizgisinin üstünde' : 'MACD sinyal çizgisinin altında');
+    const mx = kesisim(I.macd, I.sig, i, 5);
+    if (mx) ek(mx.d * 7, (mx.d > 0 ? 'MACD sinyal çizgisini yukarı kesti' : 'MACD sinyal çizgisini aşağı kesti') + ' (' + once(mx.k) + ')');
+    if (i >= 3 && I.hist[i - 3] != null) { const dh = I.hist[i] - I.hist[i - 3]; ek(dh > 0 ? 3 : dh < 0 ? -3 : 0, dh > 0 ? 'MACD histogramı güçleniyor' : 'MACD histogramı zayıflıyor'); }
+  }
+  const k = I.k[i], d = I.d[i];
+  if (k != null && d != null) { if (k < 20 && k > d) ek(5, 'Stokastik aşırı satımdan dönüyor'); else if (k > 80 && k < d) ek(-5, 'Stokastik aşırı alımdan dönüyor'); }
+  if (I.bbL[i] != null) { if (c < I.bbL[i]) ek(8, 'Fiyat Bollinger alt bandının altında (tepki olasılığı)'); else if (c > I.bbU[i]) ek(-8, 'Fiyat Bollinger üst bandının üstünde (düzeltme olasılığı)'); }
+  if (I.vma[i] != null && i > 0 && I.v[i] > 1.5 * I.vma[i]) { const yuk = c > I.c[i - 1]; ek(yuk ? 5 : -5, yuk ? 'Ortalamanın üstünde hacimle yükseliş' : 'Ortalamanın üstünde hacimle düşüş'); }
+  return {s: Math.max(-100, Math.min(100, s)), P};
+}
+function etiket(s){ return s >= 40 ? ['Güçlü al yönlü', 'up'] : s >= 15 ? ['Al yönlü', 'up'] : s <= -40 ? ['Güçlü sat yönlü', 'down'] : s <= -15 ? ['Sat yönlü', 'down'] : ['Nötr', '']; }
+function seviyeler(B){
+  const n = B.length, s0 = Math.max(0, n - 250), w = 5, pts = [];
+  for (let i = s0 + w; i < n - w; i++) { let hi = true, lo = true; for (let j = i - w; j <= i + w; j++) { if (B[j].h > B[i].h) hi = false; if (B[j].l < B[i].l) lo = false; } if (hi) pts.push(B[i].h); if (lo) pts.push(B[i].l); }
+  pts.sort((a, b) => a - b);
+  const cl = [];
+  for (const p of pts) { const son = cl[cl.length - 1]; if (son && p / son.v - 1 < 0.015) { son.v = (son.v * son.n + p) / (son.n + 1); son.n++; } else cl.push({v: p, n: 1}); }
+  const c = B[n - 1].c;
+  return {des: cl.filter(x => x.v < c * 0.995).slice(-2).reverse(), dir: cl.filter(x => x.v > c * 1.005).slice(0, 2)};
+}
+function tahminHesap(I, i){
+  const r = []; for (let j = Math.max(1, i - 19); j <= i; j++) r.push(Math.log(I.c[j] / I.c[j - 1]));
+  if (r.length < 5) return null;
+  const m = r.reduce((a, b) => a + b, 0) / r.length, sd = Math.sqrt(r.reduce((a, b) => a + (b - m) ** 2, 0) / (r.length - 1)), c = I.c[i];
+  const bant = N => ({lo: c * Math.exp(-sd * Math.sqrt(N)), hi: c * Math.exp(sd * Math.sqrt(N))});
+  return {sd, g5: bant(5), g20: bant(20)};
+}
+function gecmisTest(I, n, skor){
+  const H = 10, yon = skor >= 15 ? 1 : skor <= -15 ? -1 : 0, tum = [], ayni = [];
+  for (let i = 200; i < n - H; i++) { const f = (I.c[i + H] / I.c[i] - 1) * 100; tum.push(f); if (yon) { const s = skorAt(I, i).s; if ((yon > 0 && s >= 15) || (yon < 0 && s <= -15)) ayni.push(f); } }
+  if (tum.length < 40) return null;
+  const ort = a => a.reduce((x, y) => x + y, 0) / a.length, oran = (a, f) => a.filter(f).length / a.length * 100;
+  return {yon, gun: tum.length, tumOrt: ort(tum), tumYuk: oran(tum, x => x > 0), n: ayni.length, ort: ayni.length ? ort(ayni) : null, isabet: ayni.length ? oran(ayni, x => yon > 0 ? x > 0 : x < 0) : null};
+}
+function analizEt(sym){
+  const h = S.hist[sym]; if (!h || !h.bars || h.bars.length < 30 || !gecmisTam(h)) return null;
+  const B = h.bars, son = B[B.length - 1], key = B.length + '|' + son.t + '|' + son.c;
+  if (AN[sym] && AN[sym].key === key) return AN[sym];
+  const I = gostergeler(B), i = B.length - 1, sk = skorAt(I, i);
+  return AN[sym] = {key, bars: B, I, i, skor: sk.s, skorOnce: i > 0 ? skorAt(I, i - 1).s : sk.s, P: sk.P, sev: seviyeler(B), tahmin: tahminHesap(I, i), gecmis: gecmisTest(I, B.length, sk.s)};
+}
+
+/* ---------- Fiyat yardımcıları ---------- */
+const sonBar = sym => { const h = S.hist[sym]; return h && h.bars && h.bars.length ? h.bars[h.bars.length - 1] : null; };
+function fiyat(sym){ const k = S.kot[sym]; if (k && k.fiyat != null) return k.fiyat; const b = sonBar(sym); return b ? b.c : null; }
+function gunDeg(sym){ const h = S.hist[sym], f = fiyat(sym); if (!h || !h.bars || h.bars.length < 2 || f == null) return null; return (f / h.bars[h.bars.length - 2].c - 1) * 100; }
+function semboller(){ return S.hisseler ? Object.keys(S.hisseler).sort() : []; }
+
+/* ---------- Veri: MCP ---------- */
+function hataMetni(e){
+  const c = e && e.code;
+  if (c === 'oturum') return 'Oturumun süresi doldu. Yeniden giriş yap.';
+  if (c === 'seyrek') return 'Veri kaynağı günlük yerine haftalık ya da aylık veri döndürdü. Biraz sonra "Yenile" ile tekrar dene.';
+  if (c === 'server_not_connected' || c === 'server_not_found' || c === 'selection_required') return 'Borsa MCP bağlayıcısı bu hesapta bağlı görünmüyor. claude.ai Ayarlar, Bağlayıcılar bölümünden ekleyip sayfayı yenile.';
+  if (c === 'needs_reauth') return 'Borsa MCP bağlantısının süresi dolmuş. claude.ai Ayarlar, Bağlayıcılar bölümünden yeniden bağla.';
+  if (c === 'not_in_manifest' || c === 'approval_required' || c === 'not_granted' || c === 'consent_required') return 'Bu sayfanın Borsa MCP verisini okumasına izin verilmemiş. "Yenile" ile izin penceresini tekrar açabilirsin.';
+  if (c === 'blocked_by_policy') return 'Kurum politikası bu veriyi engelliyor.';
+  if (c === 'bos') return 'Bu sembol için veri bulunamadı. Sembolü kontrol et (ör. THYAO).';
+  if (c === 'capability_disabled' || c === 'capability_removed' || c === 'yok') return 'Canlı veri bu görünümde kullanılamıyor. Sayfayı claude.ai içinde açınca veri gelir.';
+  return 'Veri kaynağına şu an ulaşılamıyor. Biraz sonra "Yenile" ile tekrar dene.';
+}
+async function cagir(tool, input, zorla){
+  if (!S.mcp) throw {code: 'yok'};
+  const opt = {cache: {staleTime: 15 * 60e3, gcTime: 24 * 3600e3, refresh: !!zorla}};
+  try { return await S.mcp.callTool(SRV, tool, input, opt); }
+  catch (e) { if (e && e.retryable) { await bekle(Math.min(e.retryAfterMs || 0, 8000) + 600 + Math.random() * 900); return await S.mcp.callTool(SRV, tool, input, opt); } throw e; }
+}
+function demoBars(tohum, bas){
+  let x = tohum; const rnd = () => { x = (x * 1664525 + 1013904223) % 4294967296; return x / 4294967296; };
+  const out = [], d = new Date(); let c = bas; d.setDate(d.getDate() - 740);
+  while (out.length < 500) { d.setDate(d.getDate() + 1); if (d.getDay() === 0 || d.getDay() === 6) continue; const o = c; c = Math.max(1, c * (1 + (rnd() - 0.485) * 0.05)); out.push({t: d.toISOString().slice(0, 10), o, h: Math.max(o, c) * (1 + rnd() * 0.012), l: Math.min(o, c) * (1 - rnd() * 0.012), c, v: Math.round(2e6 + rnd() * 8e6)}); }
+  return out;
+}
+/* Günlük geçmiş. Borsa MCP sunucusu bir aydan uzun aralıkları haftalık ya da aylık çubuğa çevirdiği için günlük veri
+   28 günlük parçalar halinde, en yeniden eskiye doğru çekilir (bir çağrıda en fazla 10 sembol). Yüklenen çubuklar bu cihazda
+   saklanır; sonraki açılışlarda yalnızca son günler yenilenir. */
+const PARCA = 28, HEDEF = 720, GECMIS = 'tahta_gecmis_2';
+const gunEkle = (t, n) => { const d = new Date(t + 'T00:00:00Z'); d.setUTCDate(d.getUTCDate() + n); return d.toISOString().slice(0, 10); };
+const TARIH = /^\d{4}-\d{2}-\d{2}$/;
+const istenen = new Set();
+let gecmisDepo = null, depoZ = 0, gecmisCalisiyor = false;
+function depoOku(){
+  if (gecmisDepo) return gecmisDepo;
+  try { const o = JSON.parse(localStorage.getItem(GECMIS) || '{}'); gecmisDepo = o && typeof o === 'object' && !Array.isArray(o) ? o : {}; } catch (e) { gecmisDepo = {}; }
+  return gecmisDepo;
+}
+function depoYaz(){
+  if (S.demo) return;
+  clearTimeout(depoZ);
+  depoZ = setTimeout(() => {
+    const alt = gunEkle(bugunIST(), -800), yuv = x => Math.round(x * 1e4) / 1e4;
+    let L = Object.keys(S.hist).map(s => [s, S.hist[s]]).filter(p => p[1].bars && p[1].bars.length && p[1].son && p[1].ilk).sort((a, b) => (b[1].at || 0) - (a[1].at || 0)).slice(0, 40);
+    for (let deneme = 0; deneme < 4 && L.length; deneme++) {
+      const o = {}, eski = depoOku(); Object.keys(eski).filter(k => !(S.hist[k] && S.hist[k].bars)).slice(0, Math.max(0, 40 - L.length)).forEach(k => { o[k] = eski[k]; });   // bu oturumda açılmayan semboller de kalsın
+      L.forEach(p => { const h = p[1]; o[p[0]] = {ilk: h.ilk, son: h.son, dip: !!h.dip, b: h.bars.filter(x => x.t >= alt).map(x => [x.t, yuv(x.o), yuv(x.h), yuv(x.l), yuv(x.c), Math.round(x.v)])}; });
+      try { localStorage.setItem(GECMIS, JSON.stringify(o)); gecmisDepo = o; return; } catch (e) { L = L.slice(0, Math.floor(L.length / 2)); }
+    }
+  }, 1200);
+}
+function gecmisKaydi(sym){
+  let h = S.hist[sym]; if (h) return h;
+  h = S.hist[sym] = {bekleyen: []};
+  if (S.demo) return h;
+  const c = depoOku()[sym];
+  if (c && Array.isArray(c.b) && TARIH.test(c.ilk) && TARIH.test(c.son)) {
+    const bars = c.b.filter(x => Array.isArray(x) && TARIH.test(x[0]) && x[4] > 0).map(x => ({t: x[0], o: +x[1], h: +x[2], l: +x[3], c: +x[4], v: +x[5] || 0}));
+    if (bars.length) { h.bars = bars; h.ilk = c.ilk; h.son = c.son; h.dip = !!c.dip; }
+  }
+  return h;
+}
+const gecmisTam = h => !!(h && h.bars && h.bars.length && (h.dip || (h.ilk && h.ilk <= gunEkle(bugunIST(), -HEDEF))));
+function ilerleme(h){ if (!h || !h.ilk) return 0; const g = (Date.parse(bugunIST()) - Date.parse(h.ilk)) / 864e5; return Math.max(1, Math.min(99, Math.round(g / HEDEF * 100))); }
+function gecmisDurum(sym){ const h = S.hist[sym]; if (!h || !h.bars) return h && h.err ? 'veri alınamadı' : 'veri bekleniyor'; return gecmisTam(h) ? 'veri yetersiz' : 'geçmiş yükleniyor %' + ilerleme(h); }
+function birlestir(h, bars){
+  const m = new Map(); (h.bars || []).forEach(b => m.set(b.t, b)); bars.forEach(b => m.set(b.t, b));
+  h.bars = Array.from(m.values()).sort((a, b) => a.t < b.t ? -1 : 1);
+}
+function seyrekMi(bars){
+  if (bars.length < 4) return false;
+  const f = []; for (let i = 1; i < bars.length; i++) f.push((Date.parse(bars[i].t) - Date.parse(bars[i - 1].t)) / 864e5);
+  f.sort((a, b) => a - b); return f[Math.floor(f.length / 2)] > 4;
+}
+function parcaAyir(r, grup){
+  const ham = govde(r), P = parseBorsa(ham), rows = P.tab.data || P.rows, out = {}, yok = new Set();
+  const ara = String((P.sec.data && P.sec.data.bar_interval) || '').toLowerCase();
+  if (ara && ara !== 'daily') throw {code: 'seyrek'};
+  if (rows.length && rows[0].data !== undefined) rows.forEach(x => { const s = String(x.symbol || '').toUpperCase(); let L = null; try { L = JSON.parse(String(x.data).replace(/\b(NaN|Infinity|-Infinity)\b/g, 'null')); } catch (e) {} if (Array.isArray(L)) out[s] = toBars(L); });
+  else if (grup.length === 1) out[grup[0]] = toBars(rows);
+  Object.keys(out).forEach(s => { if (seyrekMi(out[s])) throw {code: 'seyrek'}; });
+  if (typeof ham === 'string') { const re = /^> Not: ([A-Z0-9]{2,6}): .*No data found/gm; let m; while ((m = re.exec(ham))) yok.add(m[1]); }   // o aralıkta verisi olmayan semboller
+  return {out, yok};
+}
+function sonrakiAralik(h, bugun){
+  if (h.err && Date.now() - (h.hataAt || 0) < 90e3) return null;
+  if (h.son && h.son < gunEkle(bugun, -(PARCA - 4))) { h.bars = null; h.ilk = h.son = null; h.dip = false; h.tazeAt = 0; }   // saklanan veri çok eski: baştan
+  if (!h.bars || !h.son) return [[gunEkle(bugun, -(PARCA - 1)), bugun]];
+  if (!h.tazeAt || h.zorla || Date.now() - h.tazeAt > 20 * 60e3) { const a = gunEkle(h.son, -2), e = gunEkle(bugun, -(PARCA - 1)); return [[a > e ? a : e, bugun]]; }
+  const hedef = gunEkle(bugun, -HEDEF);
+  if (!h.dip && h.ilk > hedef) {
+    const L = [[gunEkle(h.ilk, -PARCA), gunEkle(h.ilk, -1)]];
+    if (S.uzak && L[0][0] > hedef) L.push([gunEkle(h.ilk, -2 * PARCA), gunEkle(h.ilk, -PARCA - 1)]);
+    return L;
+  }
+  return null;
+}
+async function parcaCek(araliklar, syms, bugun){
+  const zorla = syms.some(s => S.hist[s].zorla);
+  const cagri = syms.length === 1 && syms[0] !== 'XU100' ? syms.concat('XU100') : syms;     // tek sembolde yanıt biçimi değişiyor; çoklu biçimde kal
+  const sonuc = await Promise.all(araliklar.map(a => cagir('get_historical_data', {symbol: cagri, market: 'bist', start_date: a[0], end_date: a[1]}, zorla && a[1] === bugun).then(r => parcaAyir(r, cagri)).catch(e => ({hata: e && e.code ? e : {code: 'upstream_error'}}))));
+  syms.forEach(s => {
+    const h = S.hist[s]; if (!h) return;
+    for (let i = 0; i < araliklar.length; i++) {            // en yeniden eskiye; ilk hatada dur ki kapsanan aralık kesintisiz kalsın
+      const a = araliklar[i], q = sonuc[i], yeni = a[1] === bugun;
+      if (q.hata) { h.err = q.hata; h.hataAt = Date.now(); break; }
+      let bars = q.out[s];
+      if (!bars && q.yok.has(s)) { if (yeni) bars = []; else { h.dip = true; h.err = null; break; } }     // daha eski verisi yok (ör. yeni halka arz)
+      if (!bars) { h.err = {code: yeni && !(h.bars && h.bars.length) ? 'bos' : 'upstream_error'}; h.hataAt = Date.now(); break; }
+      if (yeni) {
+        if (!bars.length && !(h.bars && h.bars.length)) { h.err = {code: 'bos'}; h.hataAt = Date.now(); break; }
+        birlestir(h, bars); h.son = bugun; h.tazeAt = Date.now(); h.zorla = false; if (!h.ilk || a[0] < h.ilk) h.ilk = a[0];
+      } else {
+        if (bars.length) birlestir(h, bars); else h.dip = true;
+        h.ilk = a[0];
+      }
+      h.err = null;
+      if (h.dip) break;
+    }
+    h.at = Date.now();
+    if (h.bars || h.err) { const B = h.bekleyen || []; h.bekleyen = []; B.forEach(f => f()); }
+  });
+  depoYaz();
+}
+async function gecmisDongu(){
+  if (gecmisCalisiyor) return; gecmisCalisiyor = true;
+  try {
+    for (let tur = 0; tur < 400; tur++) {
+      const bugun = bugunIST(), gruplar = new Map();
+      istenen.forEach(sym => {
+        const h = S.hist[sym]; if (!h) return;
+        const a = sonrakiAralik(h, bugun); if (!a) { if (h.bekleyen && h.bekleyen.length && (h.bars || h.err)) { const B = h.bekleyen; h.bekleyen = []; B.forEach(f => f()); } return; }
+        const k = JSON.stringify(a); if (!gruplar.has(k)) gruplar.set(k, {a, syms: []}); gruplar.get(k).syms.push(sym);
+      });
+      if (!gruplar.size) break;
+      const g = Array.from(gruplar.values()).sort((x, y) => x.a[0][1] < y.a[0][1] ? 1 : -1)[0];
+      await parcaCek(g.a, g.syms.slice(0, 10), bugun);
+      ciz();
+    }
+  } catch (e) { console.error(e); }
+  gecmisCalisiyor = false;
+}
+function yukleGecmis(sym, zorla){
+  const h = gecmisKaydi(sym); istenen.add(sym);
+  if (S.demo) {
+    if (!h.bars) { h.bars = demoBars(sym.charCodeAt(0) * 977 + sym.length * 131 + sym.charCodeAt(sym.length - 1), sym === 'XU100' ? 11000 : 40 + sym.charCodeAt(1) * 3); h.ilk = h.bars[0].t; h.son = bugunIST(); h.dip = true; h.tazeAt = Date.now(); h.at = Date.now(); ciz(); }
+    return Promise.resolve();
+  }
+  if (zorla) { h.zorla = true; h.hataAt = 0; }
+  const bekle = !h.bars ? new Promise(res => { h.bekleyen = h.bekleyen || []; h.bekleyen.push(res); }) : Promise.resolve();
+  if (!h.bars && h.err) h.hataAt = 0;                       // kullanıcı yeniden istedi: bekleme süresini sıfırla
+  gecmisDongu();
+  return bekle;
+}
+let izle = [], izleKey = '';
+function isleKotasyon(res){
+  const rows = parseBorsa(govde(res)).rows;
+  for (const r of rows) { const s = String(r.symbol || '').toUpperCase(), f = num(r.current_price); if (!s || f == null) continue; S.kot[s] = {fiyat: f, fk: num(r.pe_ratio), pddd: num(r.pb_ratio), z52: num(r.week_52_high), d52: num(r.week_52_low), pd: num(r.market_cap), tem: num(r.dividend_yield), hacim: num(r.volume)}; }
+  S.kotAt = res && res.cache && res.cache.storedAt ? res.cache.storedAt : Date.now(); S.kotErr = null; ciz();
+}
+function kurKotasyon(){
+  const syms = semboller(), key = syms.join(',');
+  if (S.demo || !S.mcp || key === izleKey) return;
+  izleKey = key; izle.forEach(u => { try { u(); } catch (e) {} }); izle = [];
+  for (let i = 0; i < syms.length; i += 10) {
+    const grup = syms.slice(i, i + 10);
+    try {
+      izle.push(S.mcp.watchTool(SRV, 'get_quote', {symbol: grup, market: 'bist'}, ev => {
+        if (ev.type === 'data') isleKotasyon(ev.result);
+        else { S.kotErr = ev.error; if (['needs_reauth','server_not_connected','blocked_by_policy','approval_required','not_in_manifest'].includes(ev.error && ev.error.code)) grup.forEach(s => { delete S.kot[s]; }); ciz(); }
+      }, {refetchInterval: 60000, cache: {staleTime: 30000, gcTime: 3600e3}}));
+    } catch (e) {}
+  }
+}
+function senkron(zorla){
+  if (!S.hazir) return;
+  Array.from(istenen).forEach(q => { const h = S.hist[q]; if (!(h && h.bekleyen && h.bekleyen.length)) istenen.delete(q); });   // doğrulaması süren sembol kalsın
+  yukleGecmis('XU100', zorla);
+  semboller().forEach(s => yukleGecmis(s, zorla));
+  if (S.sym) { yukleGecmis(S.sym, zorla); yukleEk(S.sym); }
+  if (S.view === 'gundem') semboller().forEach(s => yukleEk(s, ['kurumsal', 'bilanco']));
+  kurKotasyon(); yukleSaatlik(zorla); ciz();
+}
+
+/* ---------- Veri: liste ve gündem ---------- */
+const YEREL = 'tahta_hisseler';
+function yerelOku(){ try { return JSON.parse(localStorage.getItem(YEREL) || '{}') || {}; } catch (e) { return {}; } }
+function yerelYaz(){ try { localStorage.setItem(YEREL, JSON.stringify(S.hisseler || {})); } catch (e) {} }
+async function kaydetHisse(sym, alan){
+  const eski = (S.hisseler && S.hisseler[sym]) || {};
+  const veri = {adet: eski.adet || null, maliyet: eski.maliyet || null, alarmUst: eski.alarmUst || null, alarmAlt: eski.alarmAlt || null, eklenme: eski.eklenme || new Date().toISOString()};
+  Object.keys(alan || {}).forEach(k => { veri[k] = alan[k] || null; });
+  if (S.db) await S.db.doc('hisseler/' + sym).set(veri);
+  else { S.hisseler = S.hisseler || {}; S.hisseler[sym] = veri; yerelYaz(); senkron(); }
+}
+async function silHisse(sym){
+  if (S.db) await S.db.doc('hisseler/' + sym).delete();
+  else if (S.hisseler) { delete S.hisseler[sym]; yerelYaz(); senkron(); }
+}
+function yerelIslemYaz(){ try { localStorage.setItem('tahta_islemler', JSON.stringify(S.islemler || [])); } catch (e) {} }
+async function islemEkle(v){
+  if (S.db) await S.db.collection('islemler').add(v);
+  else { S.islemler = S.islemler || []; S.islemler.unshift(Object.assign({id: 'y' + Date.now()}, v)); yerelIslemYaz(); }
+}
+async function islemSil(id){
+  if (S.db) await S.db.doc('islemler/' + id).delete();
+  else if (S.islemler) { S.islemler = S.islemler.filter(x => x.id !== id); yerelIslemYaz(); ciz(); }
+}
+function baglaDb(){
+  const zaman = setTimeout(() => { S.dbGec = true; ciz(); }, 10000);
+  S.db.collection('hisseler').onSnapshot(snap => {
+    if (!snap.metadata.fromCache) { clearTimeout(zaman); S.dbGec = false; }
+    const m = {}; snap.docs.forEach(d => { const id = String(d.id).toUpperCase(); if (SEMBOL.test(id)) { const v = d.data() || {}; m[id] = {adet: num(v.adet), maliyet: num(v.maliyet), alarmUst: num(v.alarmUst), alarmAlt: num(v.alarmAlt), ornek: !!v.ornek, eklenme: v.eklenme}; } });
+    S.hisseler = m; senkron();
+  }, () => { clearTimeout(zaman); S.dbGec = true; if (!S.hisseler) S.hisseler = {}; ciz(); });
+  S.db.collection('gunluk').orderBy('tarih', 'desc').limit(10).onSnapshot(snap => {
+    S.gunluk = snap.docs.map(d => Object.assign({id: d.id}, d.data() || {})); ciz();
+  }, () => { if (!S.gunluk) S.gunluk = []; ciz(); });
+  S.db.collection('islemler').orderBy('tarih', 'desc').limit(200).onSnapshot(snap => {
+    S.islemler = snap.docs.map(d => { const v = d.data() || {}; return {id: d.id, sembol: String(v.sembol || '').toUpperCase(), tur: v.tur === 'sat' ? 'sat' : 'al', adet: num(v.adet) || 0, fiyat: num(v.fiyat) || 0, tarih: String(v.tarih || '').slice(0, 10), kz: num(v.kz)}; }).filter(x => SEMBOL.test(x.sembol));
+    ciz();
+  }, () => { if (!S.islemler) S.islemler = []; ciz(); });
+  S.db.collection('haftalik').orderBy('tarih', 'desc').limit(4).onSnapshot(snap => {
+    S.haftalik = snap.docs.map(d => Object.assign({id: d.id}, d.data() || {})); ciz();
+  }, () => { if (!S.haftalik) S.haftalik = []; ciz(); });
+}
+
+/* ---------- Çizim ---------- */
+let bekleyen = false;
+function ciz(){ if (bekleyen) return; bekleyen = true; requestAnimationFrame(() => { bekleyen = false; try { hepsiniCiz(); } catch (e) { console.error(e); } }); }
+function chip(A){ if (!A) return '<span class="chip">veri bekleniyor</span>'; const e = etiket(A.skor); return '<span class="chip ' + e[1] + '">' + e[0] + '</span>'; }
+function chipG(A, sym){ if (!A) return '<span class="chip">' + esc(sym ? gecmisDurum(sym) : 'veri bekleniyor') + '</span>'; const e = etiket(A.skor); return '<span class="chip ' + e[1] + '">Günlük: ' + e[0] + '</span>'; }
+function chipS(sym){ const q = saatlik(sym); return q ? '<span class="chip ' + q.e[1] + '">Saatlik: ' + q.e[0] + '</span>' : ''; }
+const TARAMA = [['taban', 'RSI > 0'], ['macd', 'macd > 0'], ['ema', 'close > ema_20'], ['sma', 'close > sma_50'], ['st', 'supertrend_direction == 1']];
+function yukleSaatlik(zorla){
+  if (S.demo || !S.mcp) return;
+  const T = S.saat = S.saat || {taban: {}, uye: {}, ok: {}};
+  if (T.yukleniyor || (!zorla && T.at && Date.now() - T.at < 20 * 60e3)) return;
+  T.yukleniyor = true;
+  TARAMA.forEach(([ad, kosul]) => {
+    ekZincir = ekZincir.then(() => S.mcp.callTool(SRV, 'scan_stocks', {index: 'XU100', condition: kosul, timeframe: '1h'}, {cache: {staleTime: 15 * 60e3, gcTime: 6 * 3600e3, refresh: !!zorla}}))
+      .then(r => {
+        const rows = parseBorsa(govde(r)).tab.stocks || [];
+        if (ad === 'taban') { const m = {}; rows.forEach(x => { const q = String(x.symbol || '').toUpperCase(); if (SEMBOL.test(q)) m[q] = {rsi: num(x.rsi), c: num(x.close)}; }); if (Object.keys(m).length) { T.taban = m; T.ok.taban = true; } }
+        else { T.uye[ad] = new Set(rows.map(x => String(x.symbol || '').toUpperCase())); T.ok[ad] = true; }
+      }, () => { T.ok[ad] = T.ok[ad] || false; })
+      .then(() => { ciz(); });
+  });
+  ekZincir = ekZincir.then(() => { T.yukleniyor = false; T.at = Date.now(); ciz(); });
+}
+function saatlik(sym){
+  const T = S.saat; if (!T || !T.ok.taban || !T.taban[sym]) return null;
+  const P = []; let s = 0; const ek = (p, t) => { if (p) { s += p; P.push({p, t}); } }, r = T.taban[sym].rsi;
+  if (r != null) { const rt = 'Saatlik RSI ' + nf(r, 0); if (r < 30) ek(25, rt + ': aşırı satım'); else if (r < 40) ek(10, rt + ': satım bölgesine yakın'); else if (r > 80) ek(-30, rt + ': güçlü aşırı alım'); else if (r > 70) ek(-20, rt + ': aşırı alım'); else if (r >= 55) ek(5, rt + ': pozitif momentum'); }
+  const uy = (ad, puan, arti, eksi) => { if (T.ok[ad]) { const v = T.uye[ad].has(sym); ek(v ? puan : -puan, v ? arti : eksi); } };
+  uy('macd', 20, 'Saatlik MACD pozitif', 'Saatlik MACD negatif');
+  uy('ema', 20, 'Fiyat saatlik EMA 20 üstünde', 'Fiyat saatlik EMA 20 altında');
+  uy('sma', 15, 'Fiyat saatlik SMA 50 üstünde', 'Fiyat saatlik SMA 50 altında');
+  uy('st', 20, 'Saatlik Supertrend yukarı', 'Saatlik Supertrend aşağı');
+  s = Math.max(-100, Math.min(100, s));
+  return {s, P, e: s >= 40 ? ['Al yönlü', 'up'] : s <= -40 ? ['Sat yönlü', 'down'] : ['Nötr', '']};
+}
+function saatlikSatir(sym){ const q = saatlik(sym); return q ? '<p class="kucuk">Saatlik: <b class="' + q.e[1] + '">' + q.e[0] + '</b> (skor ' + (q.s > 0 ? '+' : '') + q.s + ') · ' + esc(q.P.map(p => p.t).join(' · ')) + '</p>' : ''; }
+function saatlikBlok(sym){
+  const T = S.saat, q = saatlik(sym), A = analizEt(sym); let ic;
+  if (!q) ic = '<p class="soluk">' + (!T || T.yukleniyor ? 'Yükleniyor…' : 'Bu hisse için saatlik veri yok (BIST 100 dışında olabilir ya da tarama alınamadı).') + '</p>';
+  else {
+    let c = q.s >= 40 ? 'Saatlik göstergeler kısa vadede al yönlü.' : q.s <= -40 ? 'Saatlik göstergeler kısa vadede sat yönlü.' : 'Saatlik göstergelerde belirgin yön yok.';
+    if (A && ((q.s >= 40 && A.skor <= -15) || (q.s <= -40 && A.skor >= 15))) c += ' Günlük görünümle ayrışıyor: kısa vadeli hareket ana eğilime ters.';
+    else if (A && ((q.s >= 40 && A.skor >= 15) || (q.s <= -40 && A.skor <= -15))) c += ' Günlük görünümle aynı yönde.';
+    ic = '<div class="sn-ust"><span class="chip ' + q.e[1] + '">' + q.e[0] + '</span><span class="num soluk">skor ' + (q.s > 0 ? '+' : '') + q.s + ' / 100</span></div><div class="not">' + c + '</div><ul class="neden">' + q.P.map(p => '<li><span class="num ' + cls(p.p) + '">' + (p.p > 0 ? '+' : '') + p.p + '</span><span>' + esc(p.t) + '</span></li>').join('') + '</ul><p class="kucuk">Saatlik RSI, MACD, EMA 20, SMA 50 ve Supertrend taramasından hesaplanır (yalnızca BIST 100). Veri kaynağı saatlik fiyat serisi vermediği için saatlik grafik çizilemiyor.</p>';
+  }
+  return '<div class="grup" style="gap:8px"><h2>Saatlik görünüm</h2>' + ic + '</div>';
+}
+function taramaHtml(){
+  const T = S.saat; if (!T || !T.ok.taban) return '';
+  const benim = new Set(semboller()), L = Object.keys(T.taban).filter(q => !benim.has(q)).map(q => ({s: q, q: saatlik(q)})).filter(x => x.q && x.q.s >= 60).sort((a, b) => b.q.s - a.q.s).slice(0, 6);
+  if (!L.length) return '';
+  return '<div class="grup" style="margin-bottom:18px"><h2>Saatlik taramada öne çıkanlar</h2><p class="kucuk" style="padding-bottom:6px">BIST 100 içinde, listende olmayan ve saatlik göstergeleri en güçlü hisseler. Tavsiye değildir; günlük görünüm için hisseye dokun.</p>' + L.map(x => '<a class="sinyal" href="#hisse-' + esc(x.s) + '"><div class="sn-ust"><b>' + esc(x.s) + '</b><span class="chip up">Saatlik: ' + x.q.e[0] + '</span><span class="num soluk">' + nf(T.taban[x.s].c) + '</span><span class="skor num">skor +' + x.q.s + '</span></div><p class="kucuk">' + esc(x.q.P.filter(p => p.p > 0).map(p => p.t).join(' · ')) + '</p></a>').join('') + '</div>';
+}
+function haberGruplari(g, hab, benim){
+  const fl = (Array.isArray(g.firsatlar) ? g.firsatlar : []).filter(x => x && SEMBOL.test(String(x.sembol || '').toUpperCase())), fs = new Set(fl.map(x => String(x.sembol).toUpperCase()).filter(q => !benim.has(q)));
+  const ic = (x, kume) => Array.isArray(x.hisseler) && x.hisseler.some(q => kume.has(String(q).toUpperCase()));
+  const a = hab.filter(x => ic(x, benim)), b = hab.filter(x => !ic(x, benim) && ic(x, fs)), c = hab.filter(x => !ic(x, benim) && !ic(x, fs));
+  const grup = (ad, arr, bos) => '<div class="grup"><h2>' + ad + '</h2>' + (arr.length ? arr.map(haberHtml).join('') : '<p class="soluk" style="padding:10px 0">' + bos + '</p>') + '</div>';
+  const fh = fl.map(x => { const q = String(x.sembol).toUpperCase(); return '<div class="haber"><a class="baslik" href="#hisse-' + esc(q) + '">' + esc(q) + '</a><p>' + esc(x.gerekce || '') + '</p></div>'; }).join('');
+  return grup('Hisselerimle ilgili haberler', a, 'Bu gün için hisselerinle ilgili haber yok.') +
+    '<div class="grup"><h2>Fırsat adayları</h2>' + (fh ? '<p class="kucuk" style="padding-bottom:4px">Teknik taramada öne çıkan, listende olmayan hisseler ve haberleri. Tavsiye değildir.</p>' + fh + b.map(haberHtml).join('') : '<p class="soluk" style="padding:10px 0">Bu gün için tarama yok.</p>') + '</div>' +
+    (S.gunFiltre === 'tum' ? grup('Piyasa geneli', c, 'Piyasa geneli haber yok.') : '');
+}
+function spark(sym){
+  const h = S.hist[sym]; if (!h || !h.bars || h.bars.length < 5) return '';
+  const a = h.bars.slice(-30).map(b => b.c), lo = Math.min(...a), hi = Math.max(...a), W = 68, H = 24;
+  const pts = a.map((v, i) => (i / (a.length - 1) * W).toFixed(1) + ',' + (hi > lo ? 2 + (hi - v) / (hi - lo) * (H - 4) : H / 2).toFixed(1)).join(' ');
+  return '<svg width="' + W + '" height="' + H + '" viewBox="0 0 ' + W + ' ' + H + '" aria-hidden="true"><polyline class="spark" points="' + pts + '"/></svg>';
+}
+function cumle(sym, A){
+  const h = (S.hisseler && S.hisseler[sym]) || {}, f = fiyat(sym), s = A.skor, des = A.sev.des[0], dir = A.sev.dir[0], r = A.I.rsi[A.i];
+  const dt = des ? ' İzlenecek ilk destek ' + nf(des.v) + '.' : '';
+  const rt = dir ? ' İlk direnç ' + nf(dir.v) + '.' : ' Üstte yakın direnç görünmüyor.';
+  if (h.adet > 0) {
+    const kz = h.maliyet > 0 && f != null ? (f / h.maliyet - 1) * 100 : null;
+    const kzT = kz == null ? '' : kz >= 0 ? 'Maliyetinin ' + pfm(kz) + ' üstündesin. ' : 'Maliyetinin ' + pfm(kz) + ' altındasın. ';
+    if (s <= -15) return kzT + (kz != null && kz > 0 ? 'Teknik görünüm zayıflıyor: karı koruma yönünde sinyal.' : 'Teknik görünüm negatif: zarar sınırı belirleme yönünde sinyal.') + dt;
+    if (s >= 15) { if (r != null && r > 70 && dir && f != null && dir.v / f - 1 < 0.03) return kzT + 'Görünüm pozitif ama fiyat dirence yakın ve RSI aşırı alımda: kısmi kar alma bölgesi olarak okunur.' + rt; return kzT + 'Teknik görünüm pozitif: elde tutma yönünde sinyal.' + rt; }
+    if (r != null && r > 70) return kzT + 'Net yön yok ama RSI aşırı alımda: geri çekilme riski artmış.' + dt;
+    return kzT + 'Belirgin bir al ya da sat sinyali yok.' + dt;
+  }
+  if (s >= 15) return 'Al yönlü teknik sinyal.' + (des ? ' Desteğe (' + nf(des.v) + ') yakın alımlar klasik yaklaşımda daha düşük riskli sayılır.' : '') + rt;
+  if (s <= -15) return 'Sat yönlü teknik sinyal: alım için dönüş işareti beklenir.' + dt;
+  if (r != null && r > 70) return 'Net yön yok ama RSI aşırı alımda: yeni alım için geri çekilme beklenebilir.' + dt;
+  return 'Belirgin bir sinyal yok, izlemede.';
+}
+function gecmisMetni(A){
+  const g = A.gecmis; if (!g) return 'Geçmiş karşılaştırması için yeterli veri yok.';
+  const kiyas = 'Kıyas için tüm günler: ortalama ' + pf(g.tumOrt, 1) + ', yükseliş oranı %' + nf(g.tumYuk, 0) + '.';
+  if (!g.yon) return 'Şu an belirgin sinyal yok. ' + kiyas;
+  if (!g.n) return 'Son ' + g.gun + ' işlem gününde bu yönde sinyal hiç oluşmamış. ' + kiyas;
+  return 'Son ' + g.gun + ' işlem gününde aynı yönde sinyal ' + g.n + ' gün oluştu. 10 işlem günü sonra ortalama değişim ' + pf(g.ort, 1) + ', isabet oranı %' + nf(g.isabet, 0) + '. ' + kiyas;
+}
+function satir(sym){
+  const h = S.hisseler[sym] || {}, hs = S.hist[sym] || {}, A = analizEt(sym), f = fiyat(sym), g = gunDeg(sym);
+  const alt = h.adet > 0 ? nf(h.adet, h.adet % 1 ? 2 : 0) + ' adet' + (h.maliyet > 0 ? ' · maliyet ' + nf(h.maliyet) : '') : (h.ornek ? 'örnek · izleme' : 'izleme');
+  let kz = '';
+  if (h.adet > 0 && h.maliyet > 0 && f != null) { const y = (f / h.maliyet - 1) * 100, t = (f - h.maliyet) * h.adet; kz = '<span class="num ' + cls(y) + '">K/Z ' + pf(y, 1) + ' (' + (t >= 0 ? '+' : '-') + nf(Math.abs(t), 0) + ' TL)</span>'; }
+  const durum = hs.err && !hs.bars ? '<span class="chip">veri alınamadı</span>' : chipG(A, sym) + chipS(sym);
+  return '<a class="satir" href="#hisse-' + esc(sym) + '"><span class="s-sol"><b>' + esc(sym) + '</b><small>' + esc(alt) + '</small></span><span class="s-spark">' + spark(sym) + '</span><span class="s-sag num"><b>' + nf(f) + '</b><small class="' + cls(g) + '">' + pf(g) + '</small></span><span class="s-alt">' + durum + kz + '</span></a>';
+}
+function cizBaslik(){
+  const b = S.hist.XU100 && S.hist.XU100.bars;
+  if (b && b.length >= 2) { const c = b[b.length - 1].c, d = (c / b[b.length - 2].c - 1) * 100; $('endeks').innerHTML = '<small>BIST 100 · ' + esc(tarihKisa(b[b.length - 1].t)) + '</small><br><b>' + nf(c, 0) + '</b> <span class="' + cls(d) + '">' + pf(d) + '</span>'; }
+  else $('endeks').innerHTML = '';
+  const syms = semboller(), hatalar = syms.map(s => S.hist[s] && S.hist[s].err && !S.hist[s].bars ? S.hist[s].err : null).filter(Boolean);
+  let u = '';
+  if (S.demo) u = 'Örnek veri gösteriliyor: rakamlar gerçek değil.';
+  else if (S.hazir && !S.mcp) u = 'Canlı fiyat verisi bu görünümde kullanılamıyor. Sayfayı claude.ai içinde açınca Borsa MCP bağlayıcısından veri gelir.';
+  else if (syms.length && hatalar.length === syms.length) u = hataMetni(hatalar[0]);
+  else if (S.dbGec) u = 'Liste henüz alınamadı ya da güncel olmayabilir. Bağlantı gelince kendiliğinden yenilenir.';
+  $('uyari').hidden = !u; $('uyari').textContent = u;
+  $('veri-notu').textContent = 'Fiyatlar Borsa MCP bağlayıcısından gelir ve gecikmeli olabilir.' + (S.kotAt ? ' Son fiyat güncellemesi: ' + new Date(S.kotAt).toLocaleTimeString('tr-TR', {hour: '2-digit', minute: '2-digit'}) + '.' : '');
+}
+function cizPortfoy(){
+  if (!S.hisseler) { $('ozet').innerHTML = ''; $('liste').innerHTML = '<p class="soluk">Liste yükleniyor…</p>'; return; }
+  const syms = semboller(), elde = syms.filter(s => S.hisseler[s].adet > 0), izl = syms.filter(s => !(S.hisseler[s].adet > 0));
+  let deger = 0, gun = 0, kz = 0, mal = 0, eksik = false;
+  elde.forEach(s => { const h = S.hisseler[s], f = fiyat(s), b = S.hist[s] && S.hist[s].bars; if (f == null) { eksik = true; return; } deger += h.adet * f; if (b && b.length >= 2) gun += h.adet * (f - b[b.length - 2].c); if (h.maliyet > 0) { kz += h.adet * (f - h.maliyet); mal += h.adet * h.maliyet; } });
+  if (elde.length) {
+    const gunY = deger - gun > 0 ? gun / (deger - gun) * 100 : null, kzY = mal > 0 ? kz / mal * 100 : null;
+    $('ozet').innerHTML = '<small>Portföy değeri' + (eksik ? ' (bazı fiyatlar bekleniyor)' : '') + '</small><div class="buyuk num">' + nf(deger) + ' TL</div><div class="ozet-alt num"><div><span>Son seans </span><b class="' + cls(gun) + '">' + (gun >= 0 ? '+' : '-') + nf(Math.abs(gun)) + ' TL (' + pf(gunY) + ')</b></div>' + (mal > 0 ? '<div><span>Toplam kar/zarar </span><b class="' + cls(kz) + '">' + (kz >= 0 ? '+' : '-') + nf(Math.abs(kz)) + ' TL (' + pf(kzY) + ')</b></div>' : '') + '</div>';
+  } else $('ozet').innerHTML = '';
+  let h = '';
+  if (!syms.length) h = '<div class="not"><b>Henüz hisse yok</b><span>Aşağıdan bir sembol ekle (ör. THYAO). Adet ve maliyet girersen portföye, girmezsen izleme listesine eklenir. Fiyat, grafik ve teknik sinyaller eklediğin anda gelir.</span></div>';
+  if (syms.length) h += '<div class="grup"><h2>Tüm hisseler</h2>' + elde.concat(izl).map(satir).join('') + '</div>';
+  if (izl.length) {
+    const ornekVar = izl.some(s => S.hisseler[s].ornek);
+    if (ornekVar) h += '<div class="not" style="margin-top:12px"><span>"Örnek" yazan hisseler sayfanın nasıl çalıştığını göstermek için eklendi; senin hisselerin değil.</span><div><button class="dugme ikincil" type="button" data-act="ornek-sil">Örnekleri kaldır</button></div></div>';
+  }
+  $('liste').innerHTML = h;
+  const uy = uyarilar();
+  $('uyarilar').hidden = !uy.length;
+  $('uyarilar').innerHTML = uy.length ? '<div class="not"><b>Uyarılar</b><ul class="uyari">' + uy.map(u => '<li><a href="#hisse-' + esc(u.s) + '">' + esc(u.s) + '</a><span class="' + u.c + '">' + esc(u.t) + '</span></li>').join('') + '</ul></div>' : '';
+  cizKiyas(); cizIslemOzet();
+}
+function uyarilar(){
+  const out = [];
+  semboller().forEach(s => {
+    const h = S.hisseler[s], f = fiyat(s), A = analizEt(s);
+    if (f != null && h.alarmUst > 0 && f >= h.alarmUst) out.push({s, c: 'up', t: 'Fiyat ' + nf(f) + ': üst alarm seviyesi ' + nf(h.alarmUst) + ' aşıldı'});
+    if (f != null && h.alarmAlt > 0 && f <= h.alarmAlt) out.push({s, c: 'down', t: 'Fiyat ' + nf(f) + ': alt alarm seviyesi ' + nf(h.alarmAlt) + ' kırıldı'});
+    if (A) {
+      const eski = etiket(A.skorOnce)[0], yeni = etiket(A.skor);
+      if (eski !== yeni[0]) out.push({s, c: yeni[1], t: 'Sinyal değişti: ' + eski + ' → ' + yeni[0]});
+      A.P.filter(p => p.t.indexOf('(son seans)') > 0).forEach(p => out.push({s, c: cls(p.p), t: p.t}));
+    }
+  });
+  return out;
+}
+function kiyas(){
+  const x = S.hist.XU100 && S.hist.XU100.bars, elde = semboller().filter(s => S.hisseler[s].adet > 0 && S.hist[s] && S.hist[s].bars);
+  if (!elde.length || !x || x.length < 30) return null;
+  const har = elde.map(s => { const m = new Map(); S.hist[s].bars.forEach(b => m.set(b.t, b.c)); return {m, adet: S.hisseler[s].adet, son: null}; }), seri = [];
+  for (const b of x.slice(-260)) { let v = 0, tam = true; for (const h of har) { const c = h.m.get(b.t); if (c != null) h.son = c; if (h.son == null) { tam = false; break; } v += h.adet * h.son; } if (tam && v > 0) seri.push({t: b.t, p: v, e: b.c}); }
+  if (seri.length < 10) return null;
+  const donem = n => { if (seri.length <= n) return null; const a = seri[seri.length - 1 - n], z = seri[seri.length - 1]; return {p: (z.p / a.p - 1) * 100, e: (z.e / a.e - 1) * 100}; };
+  return {seri, d: [['5 seans', donem(5)], ['1 ay', donem(21)], ['3 ay', donem(63)], ['6 ay', donem(126)], ['1 yıl', donem(250)]]};
+}
+function cizKiyas(){
+  const k = kiyas(), el = $('kiyas');
+  if (!k) { el.innerHTML = ''; return; }
+  const sr = k.seri.slice(-126), a = sr.map(q => q.p / sr[0].p * 100), b = sr.map(q => q.e / sr[0].e * 100), lo = Math.min(...a, ...b), hi = Math.max(...a, ...b), W = 300, H = 80;
+  const yol = arr => arr.map((v, i) => (i ? 'L' : 'M') + (i / (arr.length - 1) * W).toFixed(1) + ' ' + (hi > lo ? 3 + (hi - v) / (hi - lo) * (H - 6) : H / 2).toFixed(1)).join('');
+  const sat = k.d.filter(q => q[1]).map(q => '<tr><td>' + q[0] + '</td><td class="num ' + cls(q[1].p) + '">' + pf(q[1].p, 1) + '</td><td class="num ' + cls(q[1].e) + '">' + pf(q[1].e, 1) + '</td><td class="num ' + cls(q[1].p - q[1].e) + '">' + pf(q[1].p - q[1].e, 1) + '</td></tr>').join('');
+  el.innerHTML = '<div class="grup" style="gap:8px"><h2>BIST 100\'e göre performans</h2><svg viewBox="0 0 ' + W + ' ' + H + '" width="100%" height="90" preserveAspectRatio="none" role="img" aria-label="Portföy ve BIST 100 karşılaştırması"><path class="k-e" d="' + yol(b) + '"/><path class="k-p" d="' + yol(a) + '"/></svg><p class="kucuk">Düz çizgi portföy, kesikli çizgi BIST 100; son ' + sr.length + ' işlem günü, başlangıç 100.</p><table class="duz"><tr><th>Dönem</th><th>Portföy</th><th>BIST 100</th><th>Fark</th></tr>' + sat + '</table><p class="kucuk">Bugünkü adetlerle geriye dönük hesaplanır; dönem içindeki alım satımları ve temettüleri içermez.</p></div>';
+}
+function islemSatir(x, silinebilir){
+  const kz = x.tur === 'sat' && x.kz != null ? ' · <span class="' + cls(x.kz) + '">K/Z ' + (x.kz >= 0 ? '+' : '-') + nf(Math.abs(x.kz), 0) + ' TL</span>' : '';
+  return '<div class="islem-satir num"><span>' + esc(tarihKisa(x.tarih)) + ' · <b>' + esc(x.sembol) + '</b> ' + (x.tur === 'sat' ? 'satış' : 'alış') + ' · ' + nf(x.adet, x.adet % 1 ? 2 : 0) + ' adet × ' + nf(x.fiyat) + kz + '</span>' + (silinebilir ? '<button type="button" data-act="islem-sil" data-id="' + esc(x.id) + '">sil</button>' : '') + '</div>';
+}
+function cizIslemOzet(){
+  const el = $('islem-ozet'), L = S.islemler || [];
+  if (!L.length) { el.innerHTML = ''; return; }
+  const top = L.reduce((t, x) => t + (x.tur === 'sat' && x.kz != null ? x.kz : 0), 0);
+  el.innerHTML = '<div class="grup"><h2>İşlem günlüğü</h2><p class="num" style="padding:4px 0 8px">Gerçekleşen kar/zarar: <b class="' + cls(top) + '">' + (top >= 0 ? '+' : '-') + nf(Math.abs(top)) + ' TL</b> <span class="soluk">(' + L.length + ' işlem)</span></p>' + L.slice(0, 8).map(x => islemSatir(x, false)).join('') + '<p class="kucuk" style="padding-top:8px">Yeni işlem eklemek için hissenin sayfasını aç.</p></div>';
+}
+function cizSinyaller(){
+  if (!S.hisseler) { $('sinyal-liste').innerHTML = '<p class="soluk">Liste yükleniyor…</p>'; return; }
+  const syms = semboller();
+  if (!syms.length) { $('sinyal-liste').innerHTML = '<div class="not">Sinyal görmek için Portföy sekmesinden hisse ekle.</div>'; return; }
+  const liste = syms.map(s => ({s, A: analizEt(s)}));
+  const blok = (baslik, arr) => {
+    if (!arr.length) return '';
+    arr.sort((a, b) => (b.A ? Math.abs(b.A.skor) : -1) - (a.A ? Math.abs(a.A.skor) : -1));
+    return '<div class="grup" style="margin-bottom:18px"><h2>' + baslik + '</h2>' + arr.map(({s, A}) => {
+      if (!A) { const e = S.hist[s] && S.hist[s].err; return '<a class="sinyal" href="#hisse-' + esc(s) + '"><div class="sn-ust"><b>' + esc(s) + '</b><span class="chip">' + esc(e ? 'veri alınamadı' : gecmisDurum(s)) + '</span></div></a>'; }
+      const e = etiket(A.skor), w = Math.abs(A.skor) / 2, sol = A.skor >= 0 ? 50 : 50 - w;
+      const neden = A.P.slice().sort((a, b) => Math.abs(b.p) - Math.abs(a.p)).slice(0, 3).map(p => '<li><span class="num ' + cls(p.p) + '">' + (p.p > 0 ? '+' : '') + p.p + '</span><span>' + esc(p.t) + '</span></li>').join('');
+      return '<a class="sinyal" href="#hisse-' + esc(s) + '"><div class="sn-ust"><b>' + esc(s) + '</b><span class="chip ' + e[1] + '">Günlük: ' + e[0] + '</span>' + chipS(s) + '<span class="num soluk">' + nf(fiyat(s)) + ' <span class="' + cls(gunDeg(s)) + '">' + pf(gunDeg(s)) + '</span></span><span class="skor num">skor ' + (A.skor > 0 ? '+' : '') + A.skor + '</span></div><div class="olcer"><i class="' + e[1] + '" style="left:' + sol + '%;width:' + w + '%"></i></div><p>' + esc(cumle(s, A)) + '</p><ul class="neden">' + neden + '</ul>' + saatlikSatir(s) + '<p class="kucuk">' + esc(gecmisMetni(A)) + '</p></a>';
+    }).join('') + '</div>';
+  };
+  $('sinyal-liste').innerHTML = blok('Elimdekiler için', liste.filter(x => S.hisseler[x.s].adet > 0)) + blok('İzlediklerim için', liste.filter(x => !(S.hisseler[x.s].adet > 0))) + taramaHtml();
+}
+function guvenliUrl(u){ return typeof u === 'string' && /^https?:\/\//i.test(u) ? u : null; }
+function saatMetni(s){ if (!s) return ''; const d = new Date(s); if (isNaN(d)) return ''; return d.toLocaleDateString('tr-TR', {day: 'numeric', month: 'short'}) + ' ' + d.toLocaleTimeString('tr-TR', {hour: '2-digit', minute: '2-digit'}); }
+function haberHtml(x){
+  const u = guvenliUrl(x.url), syms = (Array.isArray(x.hisseler) ? x.hisseler : []).map(s => String(s).toUpperCase()).filter(s => SEMBOL.test(s));
+  const etki = x.etki === 'olumlu' ? '<span class="chip up">Olumlu</span>' : x.etki === 'olumsuz' ? '<span class="chip down">Olumsuz</span>' : x.etki ? '<span class="chip">Nötr</span>' : '';
+  const baslik = u ? '<a class="baslik" href="' + esc(u) + '" target="_blank" rel="noopener noreferrer">' + esc(x.baslik) + '</a>' : '<span class="baslik" style="font-weight:600">' + esc(x.baslik) + '</span>';
+  return '<div class="haber">' + baslik + (x.not ? '<p>' + esc(x.not) + '</p>' : '') + '<div class="meta">' + etki + syms.map(s => '<a href="#hisse-' + esc(s) + '">' + esc(s) + '</a>').join('') + '<span>' + esc([x.kaynak, saatMetni(x.saat)].filter(Boolean).join(' · ')) + '</span></div></div>';
+}
+function cizGundem(){
+  const el = $('gundem-icerik');
+  if (!S.gunluk) { el.innerHTML = S.hazir && !S.db ? '<div class="not">Günlük gündem bu görünümde okunamıyor. Sayfayı claude.ai içinde aç.</div>' : '<p class="soluk">Gündem yükleniyor…</p>'; return; }
+  if (!S.gunluk.length) { el.innerHTML = '<div class="not"><b>Henüz gündem yok</b><span>Günlük tarama çalıştığında piyasa özeti, hisselerini etkileyebilecek haberler ve X paylaşımları burada listelenir.</span></div>'; return; }
+  const g = S.gunluk.find(x => x.id === S.gunTarih) || S.gunluk[0], benim = new Set(semboller());
+  const gunler = '<div class="seg" style="overflow-x:auto">' + S.gunluk.slice(0, 6).map(x => '<button type="button" data-act="gun" data-gun="' + esc(x.id) + '" class="' + (x.id === g.id ? 'secili' : '') + '">' + esc(tarihKisa(x.tarih || x.id).replace(/ \d{4}$/, '')) + '</button>').join('') + '</div>';
+  const filtre = '<div class="seg"><button type="button" data-act="filtre" data-f="tum" class="' + (S.gunFiltre === 'tum' ? 'secili' : '') + '">Tümü</button><button type="button" data-act="filtre" data-f="benim" class="' + (S.gunFiltre === 'benim' ? 'secili' : '') + '">Benim hisselerim</button></div>';
+  const sec = a => (Array.isArray(a) ? a : []).filter(x => x && (S.gunFiltre === 'tum' || (Array.isArray(x.hisseler) && x.hisseler.some(s => benim.has(String(s).toUpperCase())))));
+  const hab = sec(g.haberler), xs = sec(g.x);
+  el.innerHTML = '<div style="display:flex;flex-direction:column;gap:16px"><div class="sekme-satir">' + gunler + filtre + '</div>' +
+    (g.ozet ? '<div class="grup"><h2>Piyasa özeti</h2><p style="margin-top:4px">' + esc(g.ozet) + '</p>' + (g.guncelleme ? '<p class="kucuk" style="margin-top:4px">Tarama zamanı: ' + esc(saatMetni(g.guncelleme)) + '</p>' : '') + '</div>' : '') +
+    haberGruplari(g, hab, benim) +
+    '<div class="grup"><h2>X paylaşımları</h2>' + (xs.length ? xs.map(x => haberHtml({baslik: x.metin, url: x.url, kaynak: x.hesap, saat: x.saat, hisseler: x.hisseler, not: x.not})).join('') : '<p class="soluk" style="padding:10px 0">' + (Array.isArray(g.x) && g.x.length ? 'Bu filtreyle paylaşım yok.' : 'Bu gün için X taraması yok. Günlük taramada okunan paylaşımlar burada görünür.') + '</p>') + '</div></div>';
+}
+
+/* ---------- Hisse ayrıntısı ---------- */
+let cizilen = '';
+function grafikCiz(el, A, sym){
+  const tam = S.tam, W = Math.max(280, Math.floor(el.clientWidth)), bos = tam ? Math.floor(el.clientHeight) : 0, kisa = tam && bos < 330;
+  const HV = kisa ? 28 : tam ? 54 : 44, HR = kisa ? 0 : tam ? 84 : 70;
+  const H = tam ? Math.max(140, bos - HV - HR - 6) : Math.round(Math.min(540, Math.max(300, (window.innerHeight || 700) * 0.5)));
+  const PR = 52, PT = 10, PB = 18, PW = W - PR;
+  const B = A.bars, I = A.I, n = B.length, cnt = Math.min(n, S.aralik), s0 = n - cnt;
+  let lo = Infinity, hi = -Infinity;
+  const gor = v => { if (v != null && isFinite(v)) { if (v < lo) lo = v; if (v > hi) hi = v; } };
+  for (let i = s0; i < n; i++) { gor(B[i].l); gor(B[i].h); gor(I.bbL[i]); gor(I.bbU[i]); gor(I.s50[i]); }
+  const pay = (hi - lo) * 0.04 || 1; lo -= pay; hi += pay;
+  const X = i => cnt > 1 ? (i - s0) / (cnt - 1) * PW : PW / 2, Y = v => PT + (hi - v) / (hi - lo) * (H - PT - PB);
+  const yol = arr => { let d = '', kalem = false; for (let i = s0; i < n; i++) { const v = arr[i]; if (v == null) { kalem = false; continue; } d += (kalem ? 'L' : 'M') + X(i).toFixed(1) + ' ' + Y(v).toFixed(1); kalem = true; } return d; };
+  const ond = hi >= 1000 ? 0 : hi >= 100 ? 1 : 2;
+  let g = '<defs><clipPath id="kirp"><rect x="0" y="' + PT + '" width="' + PW + '" height="' + (H - PT - PB) + '"/></clipPath></defs>';
+  const NG = H >= 400 ? 6 : 4;
+  for (let k = 0; k <= NG; k++) { const v = lo + (hi - lo) * k / NG, y = Y(v).toFixed(1); g += '<line class="g-izgara" x1="0" x2="' + PW + '" y1="' + y + '" y2="' + y + '"/><text class="g-yazi num" x="' + (PW + 6) + '" y="' + (+y + 3.5) + '">' + nf(v, ond) + '</text>'; }
+  let sonX = -99;
+  for (let i = s0 + 1; i < n; i++) if (B[i].t.slice(0, 7) !== B[i - 1].t.slice(0, 7)) { const x = X(i); if (x - sonX < 44 || x > PW - 24) continue; sonX = x; const ay = +B[i].t.slice(5, 7); g += '<text class="g-yazi" x="' + x.toFixed(1) + '" y="' + (H - 4) + '">' + AYLAR[ay - 1] + (ay === 1 ? ' ' + B[i].t.slice(2, 4) : '') + '</text>'; }
+  const ust = [], alt = [];
+  for (let i = s0; i < n; i++) if (I.bbU[i] != null) { ust.push(X(i).toFixed(1) + ',' + Y(I.bbU[i]).toFixed(1)); alt.push(X(i).toFixed(1) + ',' + Y(I.bbL[i]).toFixed(1)); }
+  let ic = ust.length > 1 ? '<polygon class="g-bb" points="' + ust.join(' ') + ' ' + alt.reverse().join(' ') + '"/>' : '';
+  ic += '<path class="g-o200" d="' + yol(I.s200) + '"/><path class="g-o50" d="' + yol(I.s50) + '"/><path class="g-o20" d="' + yol(I.s20) + '"/><path class="g-fiyat" d="' + yol(I.c) + '"/>';
+  const etY = [];
+  const cizgi = (v, sinif, ad) => { if (v == null || v <= lo || v >= hi) return ''; const y = +Y(v).toFixed(1), cakisiyor = etY.some(q => Math.abs(q - y) < 12); etY.push(y); return '<line class="' + sinif + '" x1="0" x2="' + PW + '" y1="' + y + '" y2="' + y + '"/>' + (cakisiyor ? '' : '<text class="g-yazi ' + sinif + '-y num" x="4" y="' + (y - 3).toFixed(1) + '">' + ad + ' ' + nf(v, ond) + '</text>'); };
+  A.sev.des.forEach(d => { ic += cizgi(d.v, 'g-des', 'destek'); });
+  A.sev.dir.forEach(d => { ic += cizgi(d.v, 'g-dir', 'direnç'); });
+  const poz = S.hisseler && S.hisseler[sym]; if (poz && poz.adet > 0 && poz.maliyet > 0) ic += cizgi(poz.maliyet, 'g-mal', 'maliyet');
+  g += '<g clip-path="url(#kirp)">' + ic + '</g><circle class="g-nokta" cx="' + X(n - 1).toFixed(1) + '" cy="' + Y(I.c[n - 1]).toFixed(1) + '" r="3"/><line class="g-imlec" id="g-imlec" x1="0" x2="0" y1="' + PT + '" y2="' + (H - PB) + '" visibility="hidden"/>';
+  let vmax = 0; for (let i = s0; i < n; i++) if (B[i].v > vmax) vmax = B[i].v;
+  const bw = Math.max(1, PW / cnt * 0.62); let hv = '';
+  if (vmax > 0) for (let i = s0; i < n; i++) { const hh = B[i].v / vmax * (HV - 2); hv += '<rect class="g-hacim" x="' + (X(i) - bw / 2).toFixed(1) + '" y="' + (HV - hh).toFixed(1) + '" width="' + bw.toFixed(1) + '" height="' + hh.toFixed(1) + '"/>'; }
+  hv += '<text class="g-yazi" x="' + (PW + 6) + '" y="11">Hacim</text>';
+  const YR = v => 4 + (100 - v) / 100 * (HR - 8); let dr = '', kal = false;
+  for (let i = s0; i < n; i++) { const v = I.rsi[i]; if (v == null) { kal = false; continue; } dr += (kal ? 'L' : 'M') + X(i).toFixed(1) + ' ' + YR(v).toFixed(1); kal = true; }
+  const hr = '<rect class="g-bb" x="0" y="' + YR(70).toFixed(1) + '" width="' + PW + '" height="' + (YR(30) - YR(70)).toFixed(1) + '"/><path class="g-rsi" d="' + dr + '"/><text class="g-yazi num" x="' + (PW + 6) + '" y="' + (YR(70) + 3.5).toFixed(1) + '">70</text><text class="g-yazi num" x="' + (PW + 6) + '" y="' + (YR(30) + 3.5).toFixed(1) + '">30</text><text class="g-yazi" x="4" y="12">RSI 14</text>';
+  el.innerHTML = '<svg id="g-ana" width="' + W + '" height="' + H + '" viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="' + esc(sym) + ' fiyat grafiği" style="touch-action:pan-y">' + g + '</svg><svg width="' + W + '" height="' + HV + '" viewBox="0 0 ' + W + ' ' + HV + '" aria-hidden="true">' + hv + '</svg>' + (HR ? '<svg width="' + W + '" height="' + HR + '" viewBox="0 0 ' + W + ' ' + HR + '" aria-hidden="true">' + hr + '</svg>' : '') + '<p class="kucuk g-aciklama">Koyu çizgi kapanış; ince çizgiler 20 (düz), 50 (kesikli) ve 200 (noktalı) günlük ortalamalar; gri alan Bollinger bandı.</p>';
+  el._g = {s0, cnt, PW, B, X};
+  okumaYaz(B[n - 1]);
+}
+function okumaYaz(b){ $('d-okuma').textContent = tarihKisa(b.t) + ' · Açılış ' + nf(b.o) + ' · Yüksek ' + nf(b.h) + ' · Düşük ' + nf(b.l) + ' · Kapanış ' + nf(b.c) + ' · Hacim ' + kisalt(b.v); }
+function imlec(ev){
+  const el = $('d-grafik'), G = el._g, svg = $('g-ana'); if (!G || !svg) return;
+  const r = svg.getBoundingClientRect(), x = Math.max(0, Math.min(G.PW, ev.clientX - r.left)), i = G.s0 + Math.round(G.cnt > 1 ? x / G.PW * (G.cnt - 1) : 0), b = G.B[i]; if (!b) return;
+  const c = $('g-imlec'); c.setAttribute('x1', G.X(i).toFixed(1)); c.setAttribute('x2', G.X(i).toFixed(1)); c.setAttribute('visibility', 'visible'); okumaYaz(b);
+}
+function tamAyar(ac, cizme){
+  S.tam = !!ac; $('g-kutu').classList.toggle('tam', S.tam);
+  document.documentElement.style.overflow = S.tam ? 'hidden' : '';
+  const b = $('g-tam'); b.textContent = S.tam ? 'Kapat' : 'Tam ekran'; b.setAttribute('aria-pressed', S.tam ? 'true' : 'false');
+  cizilen = ''; if (!cizme) ciz();
+}
+function hazirlaDetay(){
+  const h = (S.hisseler && S.hisseler[S.sym]) || {};
+  $('d-adet').value = h.adet > 0 ? String(h.adet).replace('.', ',') : '';
+  $('d-maliyet').value = h.maliyet > 0 ? String(h.maliyet).replace('.', ',') : '';
+  $('d-ust-alarm').value = h.alarmUst > 0 ? String(h.alarmUst).replace('.', ',') : '';
+  $('d-alt-alarm').value = h.alarmAlt > 0 ? String(h.alarmAlt).replace('.', ',') : '';
+  $('i-tarih').value = bugunIST(); $('i-adet').value = ''; $('i-fiyat').value = ''; $('d-ek').innerHTML = '';
+  $('d-durum').textContent = ''; S.silOnay = false; cizilen = '';
+  $('d-grafik').innerHTML = ''; $('d-govde').innerHTML = ''; $('d-okuma').textContent = '';
+}
+function cizDetay(){
+  const sym = S.sym, hs = S.hist[sym] || {}, A = analizEt(sym), f = fiyat(sym), g = gunDeg(sym), k = S.kot[sym] || {}, kayitli = !!(S.hisseler && S.hisseler[sym]);
+  $('d-ust').innerHTML = '<div><h2 style="font-size:22px">' + esc(sym) + '</h2><small>BIST · günlük veri</small></div><div style="text-align:right" class="num"><div class="fiyat">' + nf(f) + '</div><b class="' + cls(g) + '">' + pf(g) + '</b></div>';
+  $('aralik').querySelectorAll('button').forEach(b => b.classList.toggle('secili', +b.dataset.aralik === S.aralik));
+  $('g-ad').innerHTML = esc(sym) + '<span>' + nf(f) + '</span><span class="' + cls(g) + '">' + pf(g) + '</span>';
+  $('d-sil').hidden = !kayitli; $('d-sil').textContent = S.silOnay ? 'Emin misin? Evet, çıkar' : 'Listeden çıkar'; $('d-kaydet').textContent = kayitli ? 'Kaydet' : 'Listeye ekle';
+  if (!A) { $('d-grafik').innerHTML = ''; $('d-govde').innerHTML = '<div class="not">' + esc(hs.err ? hataMetni(hs.err) : (hs.bars ? (gecmisTam(hs) ? 'Bu hisse için analiz yapacak kadar geçmiş veri yok.' : 'Günlük geçmiş yükleniyor: %' + ilerleme(hs) + '. İlk açılışta yarım dakika kadar sürebilir; sonraki açılışlar hızlıdır.') : 'Veri yükleniyor…')) + '</div>'; cizilen = ''; cizDetayHaber(); cizEk(); cizIslem(); return; }
+  const el = $('d-grafik'), anahtar = [sym, A.key, S.aralik, Math.floor(el.clientWidth), S.tam ? 'T' + Math.floor(el.clientHeight) : 'N' + Math.round((window.innerHeight || 700) / 40), kayitli ? (S.hisseler[sym].maliyet || 0) + '/' + (S.hisseler[sym].adet || 0) : ''].join('|');
+  if (anahtar !== cizilen) {
+    cizilen = anahtar; grafikCiz(el, A, sym);
+    const e = etiket(A.skor), I = A.I, i = A.i, t = A.tahmin;
+    const yon = A.skor >= 40 ? 'Yukarı yönlü, güçlü' : A.skor >= 15 ? 'Yukarı eğilimli' : A.skor <= -40 ? 'Aşağı yönlü, güçlü' : A.skor <= -15 ? 'Aşağı eğilimli' : 'Yatay ya da kararsız';
+    const nedenler = A.P.map(p => '<li><span class="num ' + cls(p.p) + '">' + (p.p > 0 ? '+' : '') + p.p + '</span><span>' + esc(p.t) + '</span></li>').join('');
+    const sv = (arr, ad) => arr.length ? arr.map(x => nf(x.v) + (f ? ' (' + pf((x.v / f - 1) * 100, 1) + ')' : '')).join(' · ') : ad;
+    const satirlar = [
+      ['RSI (14)', nf(I.rsi[i], 1)], ['MACD / sinyal', nf(I.macd[i]) + ' / ' + nf(I.sig[i])],
+      ['20 günlük ortalama', nf(I.s20[i])], ['50 günlük ortalama', nf(I.s50[i])], ['200 günlük ortalama', nf(I.s200[i])],
+      ['Bollinger alt / üst', nf(I.bbL[i]) + ' / ' + nf(I.bbU[i])], ['Stokastik %K / %D', nf(I.k[i], 0) + ' / ' + nf(I.d[i], 0)],
+      ['ATR (14), günlük oynaklık', nf(I.atr[i]) + (I.atr[i] ? ' (' + pfm(I.atr[i] / I.c[i] * 100) + ')' : '')],
+      ['Hacim / 20 gün ort.', kisalt(I.v[i]) + ' / ' + kisalt(I.vma[i])],
+      ['52 hafta dip / zirve', nf(k.d52) + ' / ' + nf(k.z52)], ['F/K', nf(k.fk, 1)], ['PD/DD', nf(k.pddd, 1)], ['Piyasa değeri', kisalt(k.pd) + (k.pd ? ' TL' : '')], ['Temettü verimi', k.tem != null ? pfm(k.tem) : '-']
+    ].map(r => '<div><dt>' + r[0] + '</dt><dd class="num">' + r[1] + '</dd></div>').join('');
+    $('d-govde').innerHTML =
+      '<div class="grup" style="gap:8px"><h2>Teknik görünüm</h2><div class="sn-ust"><span class="chip ' + e[1] + '">' + e[0] + '</span><span class="num soluk">skor ' + (A.skor > 0 ? '+' : '') + A.skor + ' / 100</span></div><div class="not">' + esc(cumle(sym, A)) + '</div><ul class="neden">' + nedenler + '</ul></div>' +
+      '<div class="grup" style="gap:8px"><h2>Teknik tahmin</h2><dl class="tablo"><div><dt>Yön</dt><dd>' + yon + '</dd></div>' +
+      (t ? '<div><dt>5 işlem günü olası aralık</dt><dd class="num">' + nf(t.g5.lo) + ' - ' + nf(t.g5.hi) + '</dd></div><div><dt>20 işlem günü olası aralık</dt><dd class="num">' + nf(t.g20.lo) + ' - ' + nf(t.g20.hi) + '</dd></div>' : '') +
+      '<div><dt>Destekler</dt><dd class="num">' + sv(A.sev.des, 'yakın destek yok') + '</dd></div><div><dt>Dirençler</dt><dd class="num">' + sv(A.sev.dir, 'yakın direnç yok') + '</dd></div></dl>' +
+      '<p class="kucuk">Olası aralık, son 20 günün oynaklığından hesaplanan yaklaşık %68 olasılık bandıdır; yön içermez. Destek ve dirençler son bir yılın dönüş noktalarından çıkarılır.</p></div>' +
+      '<div class="grup" style="gap:6px"><h2>Bu sinyal geçmişte ne yaptı</h2><p>' + esc(gecmisMetni(A)) + '</p><p class="kucuk">Aynı kurallar bu hissenin geçmiş verisine uygulanarak hesaplanır. Geçmiş sonuçlar geleceği garanti etmez.</p></div>' +
+      '<div class="grup"><h2>Göstergeler</h2><dl class="tablo">' + satirlar + '</dl></div>';
+  }
+  cizDetayHaber(); cizEk(); cizIslem();
+}
+const EK_ARAC = {temel: ['get_financial_ratios', {ratio_set: 'valuation'}], kurumsal: ['get_corporate_actions', {}], analist: ['get_analyst_data', {}], bilanco: ['get_earnings', {}], sektor: ['get_sector_comparison', {}]};
+let ekZincir = Promise.resolve();
+function yukleEk(sym, adlar){
+  if (S.demo || !S.mcp || !sym) return;
+  const e = S.ek[sym] = S.ek[sym] || {};
+  (adlar || Object.keys(EK_ARAC)).forEach(ad => {
+    const d = e[ad] = e[ad] || {};
+    if (d.yukleniyor || (d.at && Date.now() < d.at)) return;
+    d.yukleniyor = true;
+    ekZincir = ekZincir.then(() => S.mcp.callTool(SRV, EK_ARAC[ad][0], Object.assign({symbol: sym, market: 'bist'}, EK_ARAC[ad][1]), {cache: {staleTime: 12 * 3600e3, gcTime: 48 * 3600e3}}))
+      .then(r => { d.veri = parseBorsa(govde(r)); d.err = null; d.at = Date.now() + 6 * 3600e3; }, err => { d.err = err || {code: 'upstream_error'}; d.at = Date.now() + 10 * 60e3; })
+      .then(() => { d.yukleniyor = false; ciz(); });
+  });
+}
+const ekDurum = d => !d || (d.yukleniyor && !d.veri) ? '<p class="soluk">Yükleniyor…</p>' : d.err && !d.veri ? '<p class="soluk">Bu veri şu an alınamadı.</p>' : '';
+const secOf = (d, ad) => (d && d.veri && d.veri.sec[ad]) || {};
+function temettuler(sym){
+  const d = S.ek[sym] && S.ek[sym].kurumsal; if (!d || !d.veri) return null;
+  return (d.veri.tab.dividend_rates || []).map(r => ({t: String(r.ex_date || '').slice(0, 10), oran: num(r.gross_rate_percent)})).filter(r => /^\d{4}-\d{2}-\d{2}$/.test(r.t) && r.oran != null).sort((a, b) => a.t < b.t ? 1 : -1);
+}
+function sonrakiBilanco(sym){ const t = String(secOf(S.ek[sym] && S.ek[sym].bilanco, 'metadata').next_earnings_date || '').slice(0, 10); return /^\d{4}-\d{2}-\d{2}$/.test(t) ? t : null; }
+function cizEk(){
+  const sym = S.sym, el = $('d-ek'); if (!sym) return;
+  if (S.demo || !S.mcp) { el.innerHTML = ''; return; }
+  const e = S.ek[sym] || {}, bugun = bugunIST(), f = fiyat(sym), sat = (dt, dd) => '<div><dt>' + dt + '</dt><dd class="num">' + dd + '</dd></div>';
+  const v = secOf(e.temel, 'valuation'), sm = secOf(e.sektor, 'metadata'), fk = num(v.pe_ratio), pd = num(v.pb_ratio), sfk = num(sm.sector_median_pe), spd = num(sm.sector_median_pb);
+  const kiy = (a, b) => a != null && b > 0 ? ' <span class="soluk">(sektör medyanı ' + nf(b, 1) + ', fark ' + pf((a / b - 1) * 100, 0) + ')</span>' : '';
+  let temel = e.temel && e.temel.veri ? '<dl class="tablo">' + sat('F/K', nf(fk, 1) + kiy(fk, sfk)) + sat('PD/DD', nf(pd, 1) + kiy(pd, spd)) + sat('FD/FAVÖK', nf(num(v.ev_ebitda), 1)) + (sm.sector ? sat('Sektör endeksi', esc(sm.sector)) : '') + '</dl>' : ekDurum(e.temel);
+  const es = ((e.sektor && e.sektor.veri && e.sektor.veri.tab.peers) || []).slice(0, 7);
+  if (es.length) temel += '<p class="kucuk" style="padding-top:8px">Sektör endeksindeki büyük şirketler</p><div class="kaydir"><table class="duz"><tr><th>Hisse</th><th>F/K</th><th>PD/DD</th><th>Piyasa değeri</th></tr>' + es.map(r => { const q = String(r.symbol || '').toUpperCase(); return '<tr><td>' + (q === sym ? '<b>' + esc(q) + '</b>' : esc(q)) + '</td><td class="num">' + nf(num(r.pe_ratio), 1) + '</td><td class="num">' + nf(num(r.pb_ratio), 1) + '</td><td class="num">' + kisalt(num(r.market_cap)) + '</td></tr>'; }).join('') + '</table></div>';
+  else if (!(e.sektor && e.sektor.veri)) temel += ekDurum(e.sektor);
+  const a = secOf(e.analist, 'summary'), ort = num(a.mean_target), KON = {'strong buy': 'Güçlü al', buy: 'Al', hold: 'Tut', sell: 'Sat', 'strong sell': 'Güçlü sat'};
+  const al = (num(a.strong_buy) || 0) + (num(a.buy) || 0), tut = num(a.hold) || 0, st = (num(a.sell) || 0) + (num(a.strong_sell) || 0);
+  const an = e.analist && e.analist.veri ? (al + tut + st > 0 || ort != null ? '<dl class="tablo">' + sat('Öneri dağılımı', 'Al ' + al + ' · Tut ' + tut + ' · Sat ' + st) + sat('Konsensüs', esc(KON[String(a.consensus || '').toLowerCase()] || a.consensus || '-')) + sat('Ortalama hedef fiyat', nf(ort) + (ort != null && f ? ' <span class="' + cls(ort / f - 1) + '">(' + pf((ort / f - 1) * 100, 0) + ')</span>' : '')) + sat('En düşük / en yüksek hedef', nf(num(a.low_target)) + ' / ' + nf(num(a.high_target))) + '</dl><p class="kucuk">Aracı kurum analistlerinin derlenmiş beklentisidir; bu sayfanın görüşü değildir.</p>' : '<p class="soluk">Bu hisse için analist verisi yok.</p>') : ekDurum(e.analist);
+  const bh = secOf(e.bilanco, 'earnings_history'), nb = sonrakiBilanco(sym), tm = temettuler(sym);
+  let tk = e.bilanco && e.bilanco.veri ? '<dl class="tablo">' + sat('Sonraki bilanço (beklenen)', nb ? esc(tarihKisa(nb)) : '-') + sat('Son bilanço', bh.date ? esc(tarihKisa(bh.date)) + (num(bh.eps_actual) != null ? ' · hisse başı kar ' + nf(num(bh.eps_actual)) : '') : '-') + '</dl>' : ekDurum(e.bilanco);
+  if (tm) { const ts = r => sat(esc(tarihKisa(r.t)) + (r.t >= bugun ? ' (yaklaşan)' : ''), 'hisse başı brüt ' + nf(r.oran / 100) + ' TL' + (f ? ' (' + pfm(r.oran / f) + ')' : '')), gel = tm.filter(r => r.t >= bugun).reverse(), gec = tm.filter(r => r.t < bugun).slice(0, 4); tk += '<p class="kucuk" style="padding-top:8px">Temettüler</p>' + (gel.length || gec.length ? '<dl class="tablo">' + gel.map(ts).join('') + gec.map(ts).join('') + '</dl><p class="kucuk">Tutar, brüt oranın 1 TL nominal değere uygulanmasıyla hesaplanır; yüzde bugünkü fiyata göre verimdir.</p>' : '<p class="soluk">Temettü kaydı yok.</p>'); }
+  else tk += ekDurum(e.kurumsal);
+  el.innerHTML = saatlikBlok(sym) + '<div class="grup" style="gap:6px"><h2>Temel oranlar ve sektör</h2>' + temel + '</div><div class="grup" style="gap:6px"><h2>Analist beklentileri</h2>' + an + '</div><div class="grup" style="gap:6px"><h2>Bilanço ve temettü takvimi</h2>' + tk + '</div>';
+}
+function cizIslem(){
+  const L = (S.islemler || []).filter(x => x.sembol === S.sym);
+  $('d-islem').innerHTML = L.length ? L.map(x => islemSatir(x, true)).join('') + '<p class="kucuk" style="padding-top:6px">Bir işlemi silmek adet ve maliyeti geri almaz; gerekirse yukarıdan elle düzelt.</p>' : '<p class="soluk">Bu hisse için kayıtlı işlem yok.</p>';
+}
+function haftaOzet(){
+  const sat = semboller().map(s => { const A = analizEt(s); if (!A || A.i < 5) return ''; const d = (A.I.c[A.i] / A.I.c[A.i - 5] - 1) * 100, o = etiket(skorAt(A.I, A.i - 5).s)[0], n = etiket(A.skor)[0]; return '<tr><td><a href="#hisse-' + esc(s) + '">' + esc(s) + '</a></td><td class="num ' + cls(d) + '">' + pf(d, 1) + '</td><td>' + (o === n ? n : o + ' → ' + n) + '</td></tr>'; }).join('');
+  if (!sat) return '';
+  const k = kiyas(), p5 = k && k.d[0][1], x = S.hist.XU100 && S.hist.XU100.bars, e5 = x && x.length > 5 ? (x[x.length - 1].c / x[x.length - 6].c - 1) * 100 : null;
+  return '<div class="grup" style="gap:6px"><h2>Son 5 seans</h2><p class="num">' + (p5 ? 'Portföy <b class="' + cls(p5.p) + '">' + pf(p5.p, 1) + '</b> · ' : '') + 'BIST 100 <b class="' + cls(e5) + '">' + pf(e5, 1) + '</b></p><div class="kaydir"><table class="duz"><tr><th>Hisse</th><th>5 seans</th><th>Sinyal</th></tr>' + sat + '</table></div></div>';
+}
+function cizGundemUst(){
+  let h = S.hisseler ? haftaOzet() : '';
+  const hf = S.haftalik && S.haftalik[0];
+  if (hf && hf.ozet) h += '<div class="grup" style="gap:6px"><h2>Haftalık değerlendirme</h2><p>' + esc(hf.ozet) + '</p><p class="kucuk">' + esc(tarihKisa(hf.tarih || hf.id)) + '</p></div>';
+  const bugun = bugunIST(), tk = [];
+  semboller().forEach(s => { (temettuler(s) || []).forEach(r => { if (r.t >= bugun) tk.push({s, t: r.t, m: 'Temettü: hisse başı brüt ' + nf(r.oran / 100) + ' TL'}); }); const nb = sonrakiBilanco(s); if (nb && nb >= bugun) tk.push({s, t: nb, m: 'Bilanço açıklaması (beklenen)'}); });
+  tk.sort((a, b) => a.t < b.t ? -1 : 1);
+  if (tk.length) h += '<div class="grup" style="gap:6px"><h2>Yaklaşan takvim</h2><dl class="tablo">' + tk.slice(0, 12).map(r => '<div><dt>' + esc(tarihKisa(r.t)) + ' · <a href="#hisse-' + esc(r.s) + '">' + esc(r.s) + '</a></dt><dd class="num">' + r.m + '</dd></div>').join('') + '</dl></div>';
+  $('gundem-ust').innerHTML = h;
+}
+function cizDetayHaber(){
+  const sym = S.sym, out = [];
+  (S.gunluk || []).forEach(g => (Array.isArray(g.haberler) ? g.haberler : []).forEach(x => { if (x && Array.isArray(x.hisseler) && x.hisseler.some(s => String(s).toUpperCase() === sym)) out.push(x); }));
+  $('d-haber').innerHTML = out.length ? '<div class="grup"><h2>Bu hisseyle ilgili haberler</h2>' + out.slice(0, 12).map(haberHtml).join('') + '</div>' : '';
+}
+function hepsiniCiz(){
+  if (S.kilit) return;
+  cizBaslik();
+  if (S.view === 'portfoy') cizPortfoy();
+  else if (S.view === 'sinyaller') cizSinyaller();
+  else if (S.view === 'gundem') { cizGundemUst(); cizGundem(); }
+  else if (S.view === 'hisse') cizDetay();
+}
+
+/* ---------- Yönlendirme ve olaylar ---------- */
+function route(){
+  if (S.kilit) return;
+  const h = (location.hash || '').slice(1); let v = 'portfoy', sym = null;
+  if (h === 'sinyaller' || h === 'gundem') v = h;
+  else if (h.indexOf('hisse-') === 0 && SEMBOL.test(h.slice(6).toUpperCase())) { v = 'hisse'; sym = h.slice(6).toUpperCase(); }
+  const degisti = sym !== S.sym; S.view = v; S.sym = sym;
+  if (S.tam) tamAyar(false, true);
+  document.querySelector('.wrap').classList.toggle('genis', v === 'hisse');
+  ['portfoy', 'sinyaller', 'gundem', 'hisse'].forEach(x => { $('v-' + x).hidden = x !== v; });
+  $('sekmeler').querySelectorAll('a').forEach(a => a.classList.toggle('secili', a.dataset.v === v || (v === 'hisse' && a.dataset.v === 'portfoy')));
+  if (v === 'hisse') { if (degisti) hazirlaDetay(); if (S.hazir) { yukleGecmis(sym); yukleEk(sym); } window.scrollTo(0, 0); }
+  if (v === 'gundem' && S.hazir) semboller().forEach(s => yukleEk(s, ['kurumsal', 'bilanco']));
+  ciz();
+}
+window.addEventListener('hashchange', route);
+let boyutZ = 0;
+window.addEventListener('resize', () => { clearTimeout(boyutZ); boyutZ = setTimeout(() => { if (S.view === 'hisse') ciz(); }, 150); });
+$('d-grafik').addEventListener('pointermove', imlec);
+$('d-grafik').addEventListener('pointerdown', imlec);
+document.addEventListener('keydown', ev => { if (ev.key === 'Escape' && S.tam) tamAyar(false); });
+document.addEventListener('click', ev => {
+  const b = ev.target.closest('[data-act],[data-aralik]'); if (!b) return;
+  if (b.dataset.aralik) { S.aralik = +b.dataset.aralik; try { localStorage.setItem('tahta_aralik', String(S.aralik)); } catch (e) {} ciz(); return; }
+  const act = b.dataset.act;
+  if (act === 'tam') { tamAyar(!S.tam); return; }
+  if (act === 'cikis') { cikisYap(false); return; }
+  if (act === 'sifre-ac') { const f = $('sifre-form'); f.hidden = !f.hidden; b.setAttribute('aria-expanded', f.hidden ? 'false' : 'true'); $('s-durum').textContent = ''; return; }
+  if (act === 'yenile') { if (S.mcp && S.mcp.invalidate) S.mcp.invalidate(SRV, 'get_quote').catch(() => {}); S.ek = {}; senkron(true); }
+  else if (act === 'gun') { S.gunTarih = b.dataset.gun; ciz(); }
+  else if (act === 'filtre') { S.gunFiltre = b.dataset.f; ciz(); }
+  else if (act === 'islem-sil') { b.disabled = true; islemSil(b.dataset.id).catch(() => { b.disabled = false; }); }
+  else if (act === 'ornek-sil') { b.disabled = true; Promise.all(semboller().filter(s => S.hisseler[s].ornek).map(s => silHisse(s))).catch(() => {}).then(() => ciz()); }
+  else if (act === 'sil') {
+    if (!S.silOnay) { S.silOnay = true; ciz(); return; }
+    const sym = S.sym; S.silOnay = false; silHisse(sym).then(() => { location.hash = '#portfoy'; }).catch(() => { $('d-durum').textContent = 'Çıkarılamadı, tekrar dene.'; ciz(); });
+  }
+});
+$('ekle').addEventListener('submit', async ev => {
+  ev.preventDefault();
+  const durum = $('f-durum'), dugme = $('f-gonder');
+  const sym = $('f-sym').value.trim().toUpperCase().replace(/İ/g, 'I').replace(/\.IS$/, ''), adet = sayi($('f-adet').value), mal = sayi($('f-maliyet').value);
+  if (!SEMBOL.test(sym)) { durum.textContent = 'Sembol 2 ile 6 harf ya da rakamdan oluşmalı (ör. THYAO).'; return; }
+  if (Number.isNaN(adet) || Number.isNaN(mal)) { durum.textContent = 'Adet ve maliyet sayı olmalı (ör. 150 ve 248,50).'; return; }
+  dugme.disabled = true; durum.textContent = sym + ' kontrol ediliyor…';
+  try {
+    if (S.mcp || S.demo) { await Promise.race([yukleGecmis(sym), bekle(45000)]); const h = S.hist[sym]; if (!h || !h.bars) { durum.textContent = hataMetni(h && h.err); dugme.disabled = false; return; } }
+    await kaydetHisse(sym, {adet, maliyet: mal});
+    $('f-sym').value = ''; $('f-adet').value = ''; $('f-maliyet').value = '';
+    durum.textContent = sym + ' eklendi.';
+  } catch (e) { durum.textContent = 'Kaydedilemedi. Bu görünümde yazma izni olmayabilir.'; }
+  dugme.disabled = false;
+});
+$('d-form').addEventListener('submit', async ev => {
+  ev.preventDefault();
+  const adet = sayi($('d-adet').value), mal = sayi($('d-maliyet').value), ust = sayi($('d-ust-alarm').value), alt = sayi($('d-alt-alarm').value), durum = $('d-durum');
+  if ([adet, mal, ust, alt].some(Number.isNaN)) { durum.textContent = 'Adet, maliyet ve alarm alanları sayı olmalı.'; return; }
+  try { await kaydetHisse(S.sym, {adet, maliyet: mal, alarmUst: ust, alarmAlt: alt}); durum.textContent = 'Kaydedildi.'; cizilen = ''; ciz(); } catch (e) { durum.textContent = 'Kaydedilemedi.'; }
+});
+$('i-form').addEventListener('submit', async ev => {
+  ev.preventDefault();
+  const sym = S.sym, durum = $('i-durum'), tur = $('i-tur').value === 'sat' ? 'sat' : 'al', adet = sayi($('i-adet').value), fy = sayi($('i-fiyat').value), tarih = /^\d{4}-\d{2}-\d{2}$/.test($('i-tarih').value) ? $('i-tarih').value : bugunIST();
+  if (!(adet > 0) || !(fy > 0)) { durum.textContent = 'Adet ve fiyat sıfırdan büyük sayı olmalı.'; return; }
+  const h = (S.hisseler && S.hisseler[sym]) || {}; let a = h.adet > 0 ? h.adet : 0, m = h.maliyet > 0 ? h.maliyet : 0, kz = null;
+  if (tur === 'al') { m = a > 0 && m > 0 ? (a * m + adet * fy) / (a + adet) : fy; a += adet; }
+  else { if (adet > a + 1e-9) { durum.textContent = 'Elindeki adetten (' + nf(a, 0) + ') fazla satış girilemez.'; return; } kz = m > 0 ? (fy - m) * adet : null; a -= adet; if (a < 1e-9) a = 0; }
+  try {
+    await islemEkle({sembol: sym, tur, adet, fiyat: fy, tarih, kz});
+    await kaydetHisse(sym, {adet: a || null, maliyet: a ? m : null});
+    $('i-adet').value = ''; $('i-fiyat').value = '';
+    $('d-adet').value = a ? String(a).replace('.', ',') : ''; $('d-maliyet').value = a ? String(Math.round(m * 100) / 100).replace('.', ',') : '';
+    durum.textContent = 'İşlem kaydedildi' + (kz != null ? ', gerçekleşen kar/zarar ' + (kz >= 0 ? '+' : '-') + nf(Math.abs(kz)) + ' TL.' : '.'); cizilen = ''; ciz();
+  } catch (e) { durum.textContent = 'Kaydedilemedi.'; }
+});
+
+/* ---------- Kendi adresinde çalışma: giriş, kişiye özel liste ve Borsa MCP aktarıcısı ---------- */
+/* Sayfa Claude'un dışında açıldığında window.claude yoktur. O zaman hesaplar ve listeler Supabase'de tutulur,
+   fiyat verisi de oradaki "borsa" fonksiyonu üzerinden Borsa MCP sunucusundan gelir. */
+const OTURUM = 'tahta_oturum';
+let oturum = null, yenileSoz = null, cikiyor = false;
+const uzakVar = () => !!(UZAK.url && UZAK.anahtar);
+function oturumOku(){ try { const o = JSON.parse(localStorage.getItem(OTURUM) || 'null'); return o && o.access_token && o.refresh_token ? o : null; } catch (e) { return null; } }
+function oturumYaz(o){ oturum = o; try { if (o) localStorage.setItem(OTURUM, JSON.stringify(o)); else localStorage.removeItem(OTURUM); } catch (e) {} }
+function oturumKur(j, kullanici){
+  if (!j || !j.access_token || !j.refresh_token) throw {code: 'upstream_error'};
+  oturumYaz({access_token: j.access_token, refresh_token: j.refresh_token, bitis: Date.now() + (j.expires_in || 3600) * 1000, uid: (j.user && j.user.id) || (oturum && oturum.uid) || null, kullanici: kullanici || (oturum && oturum.kullanici) || ''});
+}
+function hamIstek(yol, secenek, jeton){
+  const s = secenek || {};
+  const h = Object.assign({apikey: UZAK.anahtar, Authorization: 'Bearer ' + (jeton || UZAK.anahtar)}, s.body ? {'Content-Type': 'application/json'} : {}, s.headers || {});
+  return fetch(UZAK.url.replace(/\/+$/, '') + yol, Object.assign({}, s, {headers: h}));
+}
+function jetonYenile(){
+  if (yenileSoz) return yenileSoz;
+  const rt = oturum && oturum.refresh_token;
+  yenileSoz = (async () => {
+    if (!rt) throw {code: 'oturum'};
+    let r;
+    try { r = await hamIstek('/auth/v1/token?grant_type=refresh_token', {method: 'POST', body: JSON.stringify({refresh_token: rt})}); }
+    catch (e) { throw {code: 'upstream_error', retryable: true}; }
+    if (r.ok) { oturumKur(await r.json()); return; }
+    const baska = oturumOku();           // başka bir sekme oturumu yenilemiş olabilir
+    if (baska && baska.refresh_token !== rt) { oturum = baska; return; }
+    if (r.status === 400 || r.status === 401 || r.status === 403) throw {code: 'oturum'};
+    throw {code: 'upstream_error', retryable: true};
+  })().finally(() => { yenileSoz = null; });
+  return yenileSoz;
+}
+async function istek(yol, secenek){
+  try {
+    if (!oturum) throw {code: 'oturum'};
+    if (oturum.bitis - Date.now() < 60e3) await jetonYenile();
+    let r;
+    try { r = await hamIstek(yol, secenek, oturum.access_token); } catch (e) { throw {code: 'upstream_error', retryable: true}; }
+    if (r.status === 401) { await jetonYenile(); try { r = await hamIstek(yol, secenek, oturum.access_token); } catch (e) { throw {code: 'upstream_error', retryable: true}; } if (r.status === 401) throw {code: 'oturum'}; }
+    return r;
+  } catch (e) {
+    if (e && e.code === 'oturum') cikisYap(true);
+    throw (e && e.code ? e : {code: 'upstream_error', retryable: true});
+  }
+}
+async function girisYap(kullanici, sifre){
+  const k = String(kullanici || '').trim().toLowerCase();
+  if (!/^[a-z0-9._-]{3,32}$/.test(k) && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(k)) throw {code: 'bicim'};
+  const eposta = k.includes('@') ? k : k + '@' + UZAK.alan;
+  let r;
+  try { r = await hamIstek('/auth/v1/token?grant_type=password', {method: 'POST', body: JSON.stringify({email: eposta, password: sifre})}); }
+  catch (e) { throw {code: 'upstream_error'}; }
+  if (!r.ok) throw {code: r.status === 400 || r.status === 401 || r.status === 422 ? 'hatali' : r.status === 429 ? 'cok' : 'upstream_error'};
+  oturumKur(await r.json(), k.split('@')[0]);
+}
+function cikisYap(sessiz){
+  if (cikiyor) return; cikiyor = true;
+  const o = oturum; oturumYaz(null);
+  if (o && !sessiz) hamIstek('/auth/v1/logout?scope=local', {method: 'POST', keepalive: true}, o.access_token).catch(() => {});
+  try { history.replaceState(null, '', location.pathname + location.search); } catch (e) {}
+  setTimeout(() => location.reload(), 200);
+}
+const TABLO = {
+  hisseler: {yol: 'hisseler?select=*', id: r => r.sembol, veri: r => ({adet: r.adet, maliyet: r.maliyet, alarmUst: r.alarm_ust, alarmAlt: r.alarm_alt, eklenme: r.eklenme})},
+  islemler: {yol: 'islemler?select=*&order=tarih.desc,olusturma.desc', id: r => r.id, veri: r => ({sembol: r.sembol, tur: r.tur, adet: r.adet, fiyat: r.fiyat, tarih: r.tarih, kz: r.kz})},
+  gunluk: {yol: 'gunluk?select=tarih,veri&order=tarih.desc', id: r => r.tarih, veri: r => Object.assign({tarih: r.tarih}, r.veri || {})},
+  haftalik: {yol: 'haftalik?select=tarih,veri&order=tarih.desc', id: r => r.tarih, veri: r => Object.assign({tarih: r.tarih}, r.veri || {})}
+};
+/* Sayfanın geri kalanı Claude'un veritabanı arayüzüyle (collection, doc, onSnapshot) konuşur; bu sarmalayıcı aynı arayüzü Supabase tablolarına bağlar. */
+function uzakDb(){
+  const dinleyen = {};
+  async function cek(ad){
+    const L = dinleyen[ad] || []; if (!L.length) return;
+    const T = TABLO[ad], lim = Math.max.apply(null, L.map(k => k.lim || 1000));
+    try {
+      const r = await istek('/rest/v1/' + T.yol + '&limit=' + lim); if (!r.ok) throw {code: 'upstream_error'};
+      const rows = await r.json(); if (!Array.isArray(rows)) throw {code: 'upstream_error'};
+      L.forEach(k => { const docs = rows.slice(0, k.lim || rows.length).map(x => ({id: String(T.id(x)), data: () => T.veri(x)})); try { k.cb({metadata: {fromCache: false}, docs}); } catch (e) { console.error(e); } });
+    } catch (e) { L.forEach(k => { if (k.err) try { k.err(e); } catch (x) {} }); }
+  }
+  async function yaz(yol, secenek, ad){ const r = await istek('/rest/v1/' + yol, secenek); if (!r.ok) throw {code: 'yazma'}; await cek(ad); }
+  function koleksiyon(ad){
+    if (!TABLO[ad]) throw new Error('bilinmeyen koleksiyon');
+    const q = {
+      _lim: null,
+      orderBy(){ return q; },
+      limit(n){ q._lim = n; return q; },
+      onSnapshot(cb, err){ const k = {cb, err, lim: q._lim}; (dinleyen[ad] = dinleyen[ad] || []).push(k); cek(ad); return () => { dinleyen[ad] = (dinleyen[ad] || []).filter(x => x !== k); }; },
+      add(v){ if (ad !== 'islemler') return Promise.reject({code: 'yazma'}); return yaz('islemler', {method: 'POST', headers: {Prefer: 'return=minimal'}, body: JSON.stringify({user_id: oturum.uid, sembol: v.sembol, tur: v.tur, adet: v.adet, fiyat: v.fiyat, tarih: v.tarih, kz: v.kz == null ? null : v.kz})}, ad); }
+    };
+    return q;
+  }
+  return {
+    collection: koleksiyon,
+    doc(yol){
+      const p = String(yol).split('/'), ad = p[0], id = p[1];
+      return {
+        set(v){ if (ad !== 'hisseler') return Promise.reject({code: 'yazma'}); return yaz('hisseler?on_conflict=user_id,sembol', {method: 'POST', headers: {Prefer: 'resolution=merge-duplicates,return=minimal'}, body: JSON.stringify({user_id: oturum.uid, sembol: id, adet: v.adet == null ? null : v.adet, maliyet: v.maliyet == null ? null : v.maliyet, alarm_ust: v.alarmUst == null ? null : v.alarmUst, alarm_alt: v.alarmAlt == null ? null : v.alarmAlt, eklenme: v.eklenme || new Date().toISOString()})}, ad); },
+        delete(){ if (ad !== 'hisseler' && ad !== 'islemler') return Promise.reject({code: 'yazma'}); return yaz(ad + '?' + (ad === 'hisseler' ? 'sembol' : 'id') + '=eq.' + encodeURIComponent(id), {method: 'DELETE'}, ad); }
+      };
+    },
+    yenile(){ Object.keys(dinleyen).forEach(cek); }
+  };
+}
+/* Sayfanın geri kalanı Claude'un bağlayıcı arayüzüyle (callTool, watchTool) konuşur; bu sarmalayıcı aynı çağrıları aktarıcıya yollar. */
+function uzakMcp(){
+  const bellek = new Map(), ucus = new Map();
+  function callTool(srv, tool, input, opt){
+    const c = (opt && opt.cache) || {}, key = tool + '|' + JSON.stringify(input), b = bellek.get(key);
+    if (b && !c.refresh && Date.now() - b.at < (c.staleTime || 0)) return Promise.resolve(b.sonuc);
+    if (ucus.has(key)) return ucus.get(key);
+    const soz = (async () => {
+      const r = await istek('/functions/v1/borsa', {method: 'POST', body: JSON.stringify({tool, input})});
+      if (!r.ok) throw (r.status === 400 ? {code: 'tool_error'} : {code: 'upstream_error', retryable: true, retryAfterMs: 1500});
+      let j; try { j = await r.json(); } catch (e) { throw {code: 'upstream_error', retryable: true}; }
+      if (!j || j.isError) throw {code: 'tool_error', message: j ? metin(j).slice(0, 300) : ''};
+      const sonuc = Object.assign({}, j, {cache: {storedAt: Date.now()}});
+      bellek.set(key, {at: Date.now(), sonuc});
+      if (bellek.size > 400) bellek.delete(bellek.keys().next().value);
+      return sonuc;
+    })().finally(() => { ucus.delete(key); });
+    ucus.set(key, soz); return soz;
+  }
+  function watchTool(srv, tool, input, handler, opt){
+    const o = opt || {}; let durdu = false;
+    const tur = () => { if (durdu || document.hidden) return; callTool(srv, tool, input, {cache: {staleTime: (o.cache && o.cache.staleTime) || 0}}).then(result => { if (!durdu) handler({type: 'data', result}); }, error => { if (!durdu) handler({type: 'error', error}); }); };
+    tur(); const z = setInterval(tur, o.refetchInterval || 60000);
+    const gor = () => { if (!document.hidden) tur(); }; document.addEventListener('visibilitychange', gor);
+    return () => { durdu = true; clearInterval(z); document.removeEventListener('visibilitychange', gor); };
+  }
+  return {callTool, watchTool, invalidate(srv, tool){ Array.from(bellek.keys()).forEach(k => { if (k.indexOf(tool + '|') === 0) bellek.delete(k); }); return Promise.resolve(); }};
+}
+function girisGoster(){
+  S.kilit = true; document.querySelector('.wrap').classList.add('kilitli');
+  ['portfoy', 'sinyaller', 'gundem', 'hisse'].forEach(x => { $('v-' + x).hidden = true; });
+  $('v-giris').hidden = false; $('hesap').hidden = true;
+}
+function uzakBasla(){
+  S.kilit = false; document.querySelector('.wrap').classList.remove('kilitli'); $('v-giris').hidden = true;
+  S.uzak = true; S.db = uzakDb(); S.mcp = uzakMcp(); S.hazir = true;
+  $('hesap').hidden = false; $('hesap-ad').textContent = oturum.kullanici || 'kullanıcı';
+  route(); baglaDb(); senkron();
+  setInterval(() => { if (!document.hidden) { senkron(); S.db.yenile(); } }, 5 * 60e3);
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) { senkron(); S.db.yenile(); } });
+}
+$('giris').addEventListener('submit', async ev => {
+  ev.preventDefault();
+  const durum = $('g-durum'), dugme = $('g-gonder'); dugme.disabled = true; durum.textContent = 'Giriş yapılıyor…';
+  try { await girisYap($('g-kullanici').value, $('g-sifre').value); $('g-sifre').value = ''; durum.textContent = ''; uzakBasla(); }
+  catch (e) { const c = e && e.code; durum.textContent = c === 'hatali' ? 'Kullanıcı adı ya da şifre hatalı.' : c === 'bicim' ? 'Kullanıcı adı 3 ile 32 karakter olmalı; küçük harf, rakam, nokta, tire ve alt çizgi kullanılabilir.' : c === 'cok' ? 'Çok fazla deneme yapıldı. Biraz sonra tekrar dene.' : 'Sunucuya ulaşılamadı. Biraz sonra tekrar dene.'; }
+  dugme.disabled = false;
+});
+$('sifre-form').addEventListener('submit', async ev => {
+  ev.preventDefault();
+  const durum = $('s-durum'), a = $('s-yeni').value, b = $('s-tekrar').value;
+  if (a.length < 8) { durum.textContent = 'Yeni şifre en az 8 karakter olmalı.'; return; }
+  if (a !== b) { durum.textContent = 'İki şifre aynı değil.'; return; }
+  durum.textContent = 'Kaydediliyor…';
+  try { const r = await istek('/auth/v1/user', {method: 'PUT', body: JSON.stringify({password: a})}); if (!r.ok) throw {code: r.status === 422 ? 'zayif' : 'upstream_error'}; $('s-yeni').value = ''; $('s-tekrar').value = ''; durum.textContent = 'Şifren değişti.'; }
+  catch (e) { durum.textContent = e && e.code === 'zayif' ? 'Şifre kabul edilmedi: eskisinden farklı ve yeterince uzun olmalı.' : 'Şifre değiştirilemedi. Biraz sonra tekrar dene.'; }
+});
+
+/* ---------- Başlangıç ---------- */
+const kullan = ad => { try { return window.claude && window.claude.use ? window.claude.use(ad).catch(() => null) : Promise.resolve(null); } catch (e) { return Promise.resolve(null); } };
+async function basla(){
+  try { const a = +localStorage.getItem('tahta_aralik'); if ([63, 126, 252, 504].includes(a)) S.aralik = a; } catch (e) {}
+  S.demo = location.hash === '#demo';
+  if (!S.demo && !(window.claude && window.claude.use) && uzakVar()) { oturum = oturumOku(); if (oturum) uzakBasla(); else girisGoster(); return; }
+  route();
+  if (S.demo) { S.hazir = true; S.hisseler = {ORNEKA: {adet: 120, maliyet: 150, ornek: true}, ORNEKB: {adet: null, maliyet: null, ornek: true}, ORNEKC: {adet: 40, maliyet: 320, ornek: true}}; S.gunluk = []; S.haftalik = []; S.islemler = [{id: 'd1', sembol: 'ORNEKA', tur: 'al', adet: 120, fiyat: 150, tarih: bugunIST(), kz: null}, {id: 'd2', sembol: 'ORNEKC', tur: 'sat', adet: 10, fiyat: 400, tarih: bugunIST(), kz: 800}]; senkron(); return; }
+  const [db, mcp] = await Promise.all([kullan('db'), kullan('mcp')]);
+  S.db = db; S.mcp = mcp; S.hazir = true;
+  if (db) baglaDb(); else { S.hisseler = yerelOku(); try { S.islemler = JSON.parse(localStorage.getItem('tahta_islemler') || '[]') || []; } catch (e) { S.islemler = []; } }
+  senkron();
+  setInterval(() => { if (!document.hidden) senkron(); }, 5 * 60e3);
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) senkron(); });
+}
+basla();
+})();
+</script>
+</body>
+</html>

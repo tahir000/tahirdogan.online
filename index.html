@@ -2,286 +2,53 @@
 <html lang="tr">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'unsafe-inline'; img-src data:; base-uri 'none'; form-action 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src data:; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="no-referrer">
 <meta name="robots" content="noindex, nofollow">
-<title>Türkçe Soru Atölyesi</title>
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231d1d1f'/%3E%3Cpath d='M9 10h14M16 10v13' stroke='white' stroke-width='3.2' stroke-linecap='round'/%3E%3C/svg%3E">
+<title>Projeler</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231d1d1f'/%3E%3Cpath d='M9 11h14M9 16h14M9 21h9' stroke='%23fff' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E">
 <style>
+  /* Yerleşim: tek sütun; başlık, altında her proje için bir satır. */
   :root {
-    --murekkep: #1d1d1f; --ikincil: #6e6e73; --dolgu: #f5f5f7;
-    --cizgi: #d2d2d7; --cizgi-acik: #e8e8ed; --mavi: #0066cc; --hata: #b3261e;
+    --zemin: #ffffff; --murekkep: #1d1d1f; --ikincil: #6e6e73; --cizgi-acik: #e8e8ed; --mavi: #0066cc;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --zemin: #000000; --murekkep: #f5f5f7; --ikincil: #a1a1a6; --cizgi-acik: #2c2c2e; --mavi: #2997ff; color-scheme: dark; }
   }
   * { box-sizing: border-box; }
   html { -webkit-text-size-adjust: 100%; }
   body {
-    margin: 0; background: #fff; color: var(--murekkep);
+    margin: 0; background: var(--zemin); color: var(--murekkep);
     font: 16px/1.5 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
   }
-  .kap { max-width: 780px; margin: 0 auto; padding: 0 20px; }
-  a { color: var(--mavi); text-decoration: none; }
-  a:hover { text-decoration: underline; }
-  :focus-visible { outline: 3px solid var(--mavi); outline-offset: 2px; border-radius: 4px; }
-
-  header { padding: 44px 0 8px; }
+  main {
+    max-width: 780px; margin: 0 auto;
+    padding: 44px max(20px, env(safe-area-inset-right, 0px)) 64px max(20px, env(safe-area-inset-left, 0px));
+  }
   .alan { margin: 0 0 6px; font-size: 13px; color: var(--ikincil); }
-  h1 { margin: 0 0 12px; font-size: 34px; line-height: 1.15; font-weight: 700; letter-spacing: -.3px; }
-  header p { margin: 0 0 10px; max-width: 660px; }
-  .kucuk { font-size: 14px; color: var(--ikincil); }
-
-  section { padding: 30px 0 32px; border-top: 1px solid var(--cizgi-acik); }
-  header + main section:first-child { margin-top: 22px; }
-  .bolum-baslik { display: flex; align-items: baseline; gap: 12px; margin: 0 0 16px; }
-  .bolum-baslik .no { font-size: 15px; font-weight: 600; color: var(--ikincil); font-variant-numeric: tabular-nums; }
-  h2 { margin: 0; font-size: 22px; line-height: 1.25; font-weight: 700; }
-  h3 { margin: 0 0 6px; font-size: 16px; font-weight: 600; }
-  p { margin: 0 0 12px; }
-
-  fieldset { border: 0; margin: 0 0 18px; padding: 0; min-width: 0; }
-  legend, .etiket { display: block; padding: 0; margin: 0 0 6px; font-size: 14px; font-weight: 600; }
-  .alan-satiri { margin: 0 0 18px; }
-  .yan-yana { display: flex; flex-wrap: wrap; gap: 18px 24px; }
-  .yan-yana > div { flex: 1 1 220px; min-width: 0; }
-
-  .secenekler { display: flex; flex-wrap: wrap; gap: 8px; }
-  .secenek { position: relative; }
-  .secenek input { position: absolute; opacity: 0; inset: 0; width: 100%; height: 100%; margin: 0; cursor: pointer; }
-  .secenek span { display: block; padding: 8px 16px; border: 1px solid var(--cizgi); border-radius: 980px; font-size: 15px; background: #fff; }
-  .secenek input:checked + span { background: var(--murekkep); border-color: var(--murekkep); color: #fff; font-weight: 600; }
-  .secenek input:focus-visible + span { outline: 3px solid var(--mavi); outline-offset: 2px; }
-
-  select, input[type="text"], input[type="number"], textarea {
-    font: inherit; color: inherit; background: #fff; border: 1px solid var(--cizgi); border-radius: 10px;
-    padding: 9px 12px; width: 100%; max-width: 100%;
+  h1 { margin: 0 0 28px; font-size: 34px; line-height: 1.15; font-weight: 700; letter-spacing: -.3px; }
+  ul { list-style: none; margin: 0; padding: 0; border-bottom: 1px solid var(--cizgi-acik); }
+  a.proje {
+    display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 16px; align-items: center;
+    padding: 18px 0; border-top: 1px solid var(--cizgi-acik); color: inherit; text-decoration: none;
   }
-  select { appearance: auto; }
-  input[type="number"] { width: 110px; }
-  textarea { resize: vertical; min-height: 110px; line-height: 1.45; }
-  ::placeholder { color: #8e8e93; }
-
-  .not { margin: 0 0 18px; padding: 12px 14px; background: var(--dolgu); border-radius: 10px; font-size: 14.5px; }
-  .not:empty { display: none; }
-
-  .tablo-kap { border-top: 1px solid var(--cizgi); border-bottom: 1px solid var(--cizgi); margin: 0 0 10px; }
-  table { border-collapse: collapse; width: 100%; font-size: 15px; }
-  th, td { text-align: left; padding: 10px 8px 10px 0; vertical-align: top; border-bottom: 1px solid var(--cizgi-acik); }
-  tr:last-child td { border-bottom: 0; }
-  th { font-size: 13px; font-weight: 600; color: var(--ikincil); }
-  td.kod { white-space: nowrap; font-variant-numeric: tabular-nums; font-weight: 600; width: 1%; padding-right: 14px; }
-  td.adet, th.adet { width: 1%; padding-right: 0; text-align: right; }
-  td.adet input { width: 68px; padding: 6px 8px; text-align: center; }
-  tr.bos td.kod, tr.bos td.ad { color: var(--ikincil); font-weight: 400; }
-  details.bilesen { margin-top: 4px; font-size: 14px; color: var(--ikincil); }
-  details.bilesen summary { cursor: pointer; width: fit-content; }
-  details.bilesen ul { margin: 6px 0 2px; padding: 0; list-style: none; }
-  details.bilesen li { margin: 0 0 3px; padding-left: 1.5em; text-indent: -1.5em; }
-  .tablo-alt { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px; margin: 0 0 4px; font-size: 14.5px; }
-  .toplam { font-weight: 600; }
-
-  button { font: inherit; cursor: pointer; border-radius: 980px; border: 1px solid var(--cizgi); background: #fff; color: var(--murekkep); padding: 9px 18px; }
-  button:hover { border-color: var(--murekkep); }
-  button.ana { background: var(--murekkep); border-color: var(--murekkep); color: #fff; font-weight: 600; padding: 11px 24px; }
-  button.ana:hover { background: #000; }
-  button.ana:disabled { opacity: .35; cursor: default; }
-  button.yazi { border: 0; padding: 0; background: none; color: var(--mavi); border-radius: 4px; }
-  button.yazi:hover { text-decoration: underline; }
-  button.kucuk-dugme { padding: 5px 14px; font-size: 14px; flex: none; }
-
-  #yonerge { min-height: 340px; font-size: 14.5px; background: var(--dolgu); border-color: var(--cizgi-acik); }
-  .dugme-satiri { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; margin: 14px 0 0; }
-  .durum { font-size: 14.5px; color: var(--ikincil); }
-  .eksik { margin: 0 0 14px; padding: 0; list-style: none; color: var(--hata); font-weight: 600; }
-  .eksik:empty { display: none; }
-  .eksik li { margin: 0 0 4px; }
-
-  ol.adimlar { margin: 18px 0 0; padding-left: 22px; }
-  ol.adimlar li { margin: 0 0 6px; }
-  .baglantilar { display: inline-flex; flex-wrap: wrap; gap: 4px 16px; }
-
-  ul.kontrol { margin: 0; padding: 0; list-style: none; }
-  ul.kontrol li { border-bottom: 1px solid var(--cizgi-acik); }
-  ul.kontrol li:last-child { border-bottom: 0; }
-  ul.kontrol label { display: flex; gap: 12px; padding: 11px 0; cursor: pointer; }
-  ul.kontrol input { flex: none; width: 19px; height: 19px; margin: 2px 0 0; accent-color: var(--murekkep); }
-  ul.kontrol input:checked + span { color: var(--ikincil); }
-
-  ul.istekler { margin: 0; padding: 0; list-style: none; }
-  ul.istekler li { padding: 14px 0; border-bottom: 1px solid var(--cizgi-acik); }
-  ul.istekler li:last-child { border-bottom: 0; }
-  .istek-ust { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 0 0 4px; }
-  .istek-ust h3 { margin: 0; }
-  ul.istekler p { margin: 0; color: var(--ikincil); font-size: 15px; }
-
-  footer { padding: 26px 0 44px; border-top: 1px solid var(--cizgi); font-size: 14px; color: var(--ikincil); }
-  footer h2 { font-size: 14px; font-weight: 600; color: var(--murekkep); margin: 0 0 8px; }
-  footer ul { margin: 0 0 16px; padding: 0; list-style: none; }
-  footer li { margin: 0 0 5px; padding-left: 1em; text-indent: -1em; }
-  footer li::before { content: "\00b7\00a0\00a0"; }
-  footer details { margin: 0 0 16px; }
-  footer summary { cursor: pointer; color: var(--murekkep); font-weight: 600; width: fit-content; }
-  footer details p { margin: 8px 0 0; }
-  footer table { font-size: 14px; margin: 8px 0 0; width: auto; }
-  footer th, footer td { padding: 5px 22px 5px 0; }
-  [hidden] { display: none !important; }
-
-  @media (max-width: 560px) {
-    body { font-size: 15.5px; }
-    .kap { padding: 0 16px; }
-    header { padding-top: 30px; }
-    h1 { font-size: 28px; }
-    h2 { font-size: 20px; }
-    td.kod { white-space: normal; }
-    button.ana { width: 100%; }
-  }
+  a.proje b { font-size: 19px; font-weight: 600; }
+  a.proje span { grid-column: 1; color: var(--ikincil); font-size: 15px; }
+  a.proje i { grid-row: 1 / span 2; grid-column: 2; font-style: normal; font-size: 22px; color: var(--ikincil); }
+  a.proje:hover b { color: var(--mavi); }
+  a.proje:focus-visible { outline: 3px solid var(--mavi); outline-offset: 2px; border-radius: 4px; }
 </style>
 </head>
 <body>
-<header class="kap">
+<main>
   <p class="alan">tahirdogan.online</p>
-  <h1>Türkçe Soru Atölyesi</h1>
-  <p>Ortaokul Türkçe öğretmenleri için. Sınıfı ve senaryoyu seçersiniz; sayfa, MEB'in konu soru dağılım tablosuna ve öğretim programına göre bağlam temelli sınav yönergesi hazırlar. Yönergeyi kullandığınız yapay zeka sohbetine yapıştırırsınız: sınav, eşleştirme tablosu ve puanlama anahtarı oradan gelir.</p>
-  <p class="kucuk">Bu sayfa hiçbir bilgiyi dışarı göndermez. Seçimleriniz ve yapıştırdığınız metin tarayıcınızda kalır.</p>
-</header>
-
-<main class="kap">
-  <section aria-labelledby="b-sinav">
-    <div class="bolum-baslik"><span class="no">1</span><h2 id="b-sinav">Sınıf ve sınav</h2></div>
-
-    <fieldset>
-      <legend>Sınıf</legend>
-      <div class="secenekler" id="siniflar"></div>
-    </fieldset>
-    <p class="not" id="program-notu"></p>
-
-    <div class="yan-yana">
-      <div class="alan-satiri">
-        <label class="etiket" for="sinav">Sınav</label>
-        <select id="sinav"></select>
-      </div>
-      <div class="alan-satiri">
-        <label class="etiket" for="senaryo">Senaryo</label>
-        <select id="senaryo"></select>
-      </div>
-    </div>
-    <p class="not" id="sinav-notu"></p>
-
-    <div class="tablo-kap">
-      <table>
-        <thead><tr><th scope="col">Kod</th><th scope="col" id="cikti-basligi">Öğrenme çıktısı</th><th scope="col" class="adet">Soru</th></tr></thead>
-        <tbody id="ciktilar"></tbody>
-      </table>
-    </div>
-    <div class="tablo-alt">
-      <span class="toplam" id="toplam" role="status"></span>
-      <button type="button" class="yazi" id="tumu"></button>
-    </div>
-  </section>
-
-  <section aria-labelledby="b-bicim">
-    <div class="bolum-baslik"><span class="no">2</span><h2 id="b-bicim">Soru biçimi</h2></div>
-    <fieldset>
-      <legend>Soru türü</legend>
-      <div class="secenekler" id="turler"></div>
-    </fieldset>
-    <div class="yan-yana">
-      <div class="alan-satiri">
-        <label class="etiket" for="sure">Süre (dakika)</label>
-        <input type="number" id="sure" min="5" max="240" step="5" value="40" inputmode="numeric">
-      </div>
-      <div class="alan-satiri">
-        <label class="etiket" for="puan">Toplam puan</label>
-        <input type="number" id="puan" min="1" max="1000" step="5" value="100" inputmode="numeric">
-      </div>
-    </div>
-  </section>
-
-  <section aria-labelledby="b-metin">
-    <div class="bolum-baslik"><span class="no">3</span><h2 id="b-metin">Tema ve metin</h2></div>
-    <div class="yan-yana">
-      <div class="alan-satiri" id="tema-alani">
-        <label class="etiket" for="tema">Tema</label>
-        <select id="tema"></select>
-      </div>
-      <div class="alan-satiri">
-        <label class="etiket" for="konu">Konu çerçevesi (isteğe bağlı)</label>
-        <input type="text" id="konu" maxlength="200" placeholder="ör. zaman yönetimi, verilen sözü tutmak" autocomplete="off">
-      </div>
-    </div>
-    <fieldset>
-      <legend>Metin</legend>
-      <div class="secenekler" id="metin-kaynagi"></div>
-    </fieldset>
-    <div class="alan-satiri" id="metin-alani" hidden>
-      <label class="etiket" for="metin">Kullanılacak metin</label>
-      <textarea id="metin" rows="8" placeholder="Metni buraya yapıştırın."></textarea>
-      <p class="kucuk">Metin yönergeye eklenir ve yönergeyi yapıştırdığınız yapay zeka hizmetine gider. Öğrenci adı gibi kişisel bilgi içeren metin yapıştırmayın.</p>
-    </div>
-    <div class="alan-satiri">
-      <label class="etiket" for="ek">Ek istek (isteğe bağlı)</label>
-      <textarea id="ek" rows="3" maxlength="1500" placeholder="ör. Sınıfın okuma düzeyi düşük, ana metin kısa olsun. Yazma sorusu en sonda yer alsın."></textarea>
-    </div>
-  </section>
-
-  <section aria-labelledby="b-yonerge">
-    <div class="bolum-baslik"><span class="no">4</span><h2 id="b-yonerge">Yönerge</h2></div>
-    <ul class="eksik" id="eksik" role="alert"></ul>
-    <label class="etiket" for="yonerge">Yapay zekaya verilecek yönerge</label>
-    <textarea id="yonerge" readonly spellcheck="false"></textarea>
-    <div class="dugme-satiri">
-      <button type="button" class="ana" id="kopyala">Yönergeyi kopyala</button>
-      <span class="durum" id="kopya-durumu" role="status"></span>
-    </div>
-    <ol class="adimlar">
-      <li>Yönergeyi kopyalayın.</li>
-      <li>Kullandığınız yapay zeka sohbetini açın, yönergeyi yapıştırıp gönderin:
-        <span class="baglantilar">
-          <a href="https://claude.ai/new" target="_blank" rel="noopener noreferrer">Claude</a>
-          <a href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">ChatGPT</a>
-          <a href="https://gemini.google.com/app" target="_blank" rel="noopener noreferrer">Gemini</a>
-        </span>
-      </li>
-      <li>Gelen sınavı aşağıdaki listeyle denetleyin, gerekiyorsa düzeltme isteyin.</li>
-    </ol>
-  </section>
-
-  <section aria-labelledby="b-denetim" id="b-denetim-bolumu">
-    <div class="bolum-baslik"><span class="no">5</span><h2 id="b-denetim">Gelen sınavı denetleyin</h2></div>
-    <p>Yapay zekanın yazdığı sınav bir taslaktır. Sınıfınızı siz tanırsınız; son söz sizdedir.</p>
-    <ul class="kontrol" id="kontrol"></ul>
-  </section>
-
-  <section aria-labelledby="b-istek">
-    <div class="bolum-baslik"><span class="no">6</span><h2 id="b-istek">Düzeltme istekleri</h2></div>
-    <p>Sınav geldikten sonra aynı sohbete yazabileceğiniz hazır istekler. Köşeli ayraçlı yerleri kendiniz doldurun.</p>
-    <ul class="istekler" id="istekler"></ul>
-  </section>
-</main>
-
-<footer class="kap">
-  <h2>Kaynaklar</h2>
+  <h1>Projeler</h1>
   <ul>
-    <li><a href="https://odsgm.meb.gov.tr/www/1donem-konu-soru-dagilim-tablolari-2026-2027/icerik/1724" target="_blank" rel="noopener noreferrer">MEB: 2026-2027 1. dönem konu soru dağılım tabloları</a> (senaryolar ve soru sayıları)</li>
-    <li><a href="https://www.meb.gov.tr/meb_iys_dosyalar/2026_04/01080317_TUYRKIYYE_YUYZYILI_MAARIYF_MODELIY_SORU_YAZIM_TEKNIYKLERIY17_MART.pdf" target="_blank" rel="noopener noreferrer">MEB: Bağlam Temelli Çoktan Seçmeli Soru Yazım Kılavuzu</a> (soru yazım kuralları)</li>
-    <li><a href="https://tymm.meb.gov.tr/ogretim-programlari/ders/ortaokul-turkce-dersi" target="_blank" rel="noopener noreferrer">Türkçe Dersi Öğretim Programı, 2026 sürümü</a> ve <a href="https://mufredat.meb.gov.tr/Dosyalar/202582516532361-ortaokul%20t%C3%BCrk%C3%A7e.pdf" target="_blank" rel="noopener noreferrer">2024 sürümü</a> (çıktılar, süreç bileşenleri, temalar)</li>
+    <li><a class="proje" href="turkce/"><b>Türkçe Soru Atölyesi</b><span>Ortaokul Türkçe öğretmenleri için bağlam temelli sınav yönergesi hazırlar.</span><i aria-hidden="true">›</i></a></li>
+    <li><a class="proje" href="borsa/"><b>Borsa Tahtası</b><span>Hisse takibi, teknik sinyaller ve günlük gündem. Kullanıcı adı ve şifreyle girilir.</span><i aria-hidden="true">›</i></a></li>
   </ul>
-  <details>
-    <summary>Hangi sınıf hangi programda?</summary>
-    <table>
-      <thead><tr><th scope="col">Sınıf</th><th scope="col">Bu sayfanın kullandığı program</th></tr></thead>
-      <tbody>
-        <tr><td>5. sınıf</td><td>Maarif Modeli, 2026 sürümü</td></tr>
-        <tr><td>6 ve 7. sınıf</td><td>Maarif Modeli, 2024 sürümü</td></tr>
-        <tr><td>8. sınıf</td><td>2019 programı (kazanımlar)</td></tr>
-      </tbody>
-    </table>
-    <p>Aynı kod, programın iki sürümünde farklı çıktıyı gösterebilir. Bu eşleşme, MEB tablosundaki kodların ve adların iki sürümle karşılaştırılmasıyla bulundu. Kodlar okulunuzdaki belgelerle tutmuyorsa yönergeyi kullanmadan önce karşılaştırın.</p>
-  </details>
-  <p>Veriler 13 Kasım 2026'da alındı; yalnız 1. dönem tabloları var. Bu sayfa MEB'e ait ya da bağlı değildir.</p>
-</footer>
-
-<script src="veri.js"></script>
-<script src="yonerge.js"></script>
-<script src="arayuz.js"></script>
+</main>
 </body>
 </html>
