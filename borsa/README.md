@@ -9,6 +9,7 @@ Sayfa kullanıcı adı ve şifreyle açılır. Kayıt formu yoktur; hesapları s
 | Dosya | İşi |
 | --- | --- |
 | `index.html` | Sayfanın tamamı: biçim, hesaplamalar, giriş ve veri bağlantıları tek dosyada |
+| `gizlilik/index.html` | Gizlilik politikası (Android uygulaması ve bu site için); arama motorlarına açık tek sayfa |
 | `kurulum/1-tablolar.sql` | Supabase tabloları ve satır düzeyinde güvenlik kuralları |
 | `kurulum/2-borsa-fonksiyonu.ts` | Borsa MCP aktarıcısı (Supabase Edge Function, adı `borsa`) |
 | `kurulum/3-gundem-yazma.sql` | Günlük gündemi dışarıdan yazma yolu (anahtarın özeti yer tutucudur) |

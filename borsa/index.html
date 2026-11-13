@@ -193,7 +193,7 @@ footer{border-top:1px solid var(--line);padding-top:12px;font-size:12px;color:va
       <label>Şifre<input id="g-sifre" name="password" type="password" autocomplete="current-password" required></label>
       <button class="dugme" type="submit" id="g-gonder">Giriş yap</button>
       <p class="kucuk" id="g-durum" role="status"></p>
-      <p class="kucuk">Hesabın yoksa sayfanın sahibinden kullanıcı adı ve şifre iste.</p>
+      <p class="kucuk" id="g-not">Hesabın yoksa sayfanın sahibinden kullanıcı adı ve şifre iste.</p>
     </form>
   </section>
 
@@ -285,7 +285,8 @@ footer{border-top:1px solid var(--line);padding-top:12px;font-size:12px;color:va
 
   <footer>
     <span id="veri-notu">Fiyatlar Borsa MCP bağlayıcısından gelir ve gecikmeli olabilir.</span>
-    <span>Bu sayfadaki sinyal ve tahminler teknik göstergelerden otomatik hesaplanır; yatırım tavsiyesi değildir. Karar ve sorumluluk kullanıcıya aittir.</span>
+    <span id="gizlilik-satir" hidden><a href="https://tahirdogan.online/borsa/gizlilik/" target="_blank" rel="noopener noreferrer">Gizlilik politikası</a></span>
+    <span id="yasal">Bu sayfadaki sinyal ve tahminler teknik göstergelerden otomatik hesaplanır; yatırım tavsiyesi değildir. Karar ve sorumluluk kullanıcıya aittir.</span>
   </footer>
 </div>
 
@@ -297,6 +298,7 @@ const SRV = 'Borsa MCP';
 /* Kendi adresinde çalışma ayarı; Claude içinde kullanılmaz. url: Supabase proje adresi, anahtar: herkese açık (publishable ya da anon) anahtar,
    alan: kullanıcı adının sonuna eklenen e-posta alanı. Gizli (secret ya da service_role) anahtar buraya asla yazılmaz. */
 const UZAK = {url: 'https://egmfeahftashpxcemdzd.supabase.co', anahtar: 'sb_publishable_MCJBBHimo-pTygHACDs-sw_jZZWtpRF', alan: 'tahirdogan.com'};
+const UYG = document.documentElement.classList.contains('uygulama');   // Android uygulaması: sınıfı derleme betiği koyar, görünüm katmanı ayrı dosyadadır
 const $ = id => document.getElementById(id);
 const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const nf = (x, d = 2) => (x == null || !isFinite(x)) ? '-' : x.toLocaleString('tr-TR', {minimumFractionDigits: d, maximumFractionDigits: d});
@@ -787,7 +789,7 @@ function satir(sym){
 }
 function cizBaslik(){
   const b = S.hist.XU100 && S.hist.XU100.bars;
-  if (b && b.length >= 2) { const c = b[b.length - 1].c, d = (c / b[b.length - 2].c - 1) * 100; $('endeks').innerHTML = '<small>BIST 100 · ' + esc(tarihKisa(b[b.length - 1].t)) + '</small><br><b>' + nf(c, 0) + '</b> <span class="' + cls(d) + '">' + pf(d) + '</span>'; }
+  if (b && b.length >= 2) { const c = b[b.length - 1].c, d = (c / b[b.length - 2].c - 1) * 100; $('endeks').innerHTML = '<small>BIST 100 · ' + esc(UYG ? tarihKisa(b[b.length - 1].t).replace(/ \d{4}$/, '') : tarihKisa(b[b.length - 1].t)) + '</small><br><b>' + nf(c, 0) + '</b> <span class="' + cls(d) + '">' + pf(d) + '</span>'; }
   else $('endeks').innerHTML = '';
   const syms = semboller(), hatalar = syms.map(s => S.hist[s] && S.hist[s].err && !S.hist[s].bars ? S.hist[s].err : null).filter(Boolean);
   let u = '';
@@ -964,6 +966,7 @@ function imlec(ev){
 function tamAyar(ac, cizme){
   S.tam = !!ac; $('g-kutu').classList.toggle('tam', S.tam);
   document.documentElement.style.overflow = S.tam ? 'hidden' : '';
+  try { if (window.Uygulama && window.Uygulama.tamEkran) window.Uygulama.tamEkran(S.tam); } catch (e) {}
   const b = $('g-tam'); b.textContent = S.tam ? 'Kapat' : 'Tam ekran'; b.setAttribute('aria-pressed', S.tam ? 'true' : 'false');
   cizilen = ''; if (!cizme) ciz();
 }
@@ -1089,11 +1092,11 @@ function hepsiniCiz(){
 function route(){
   if (S.kilit) return;
   const h = (location.hash || '').slice(1); let v = 'portfoy', sym = null;
-  if (h === 'sinyaller' || h === 'gundem') v = h;
+  if (h === 'sinyaller' || h === 'gundem' || (UYG && h === 'hesap')) v = h;
   else if (h.indexOf('hisse-') === 0 && SEMBOL.test(h.slice(6).toUpperCase())) { v = 'hisse'; sym = h.slice(6).toUpperCase(); }
   const degisti = sym !== S.sym; S.view = v; S.sym = sym;
   if (S.tam) tamAyar(false, true);
-  document.querySelector('.wrap').classList.toggle('genis', v === 'hisse');
+  document.querySelector('.wrap').classList.toggle('genis', v === 'hisse'); document.querySelector('.wrap').dataset.gorunum = v;
   ['portfoy', 'sinyaller', 'gundem', 'hisse'].forEach(x => { $('v-' + x).hidden = x !== v; });
   $('sekmeler').querySelectorAll('a').forEach(a => a.classList.toggle('secili', a.dataset.v === v || (v === 'hisse' && a.dataset.v === 'portfoy')));
   if (v === 'hisse') { if (degisti) hazirlaDetay(); if (S.hazir) { yukleGecmis(sym); yukleEk(sym); } window.scrollTo(0, 0); }
@@ -1115,6 +1118,7 @@ document.addEventListener('click', ev => {
   if (act === 'cikis') { cikisYap(false); return; }
   if (act === 'sifre-ac') { const f = $('sifre-form'); f.hidden = !f.hidden; b.setAttribute('aria-expanded', f.hidden ? 'false' : 'true'); $('s-durum').textContent = ''; return; }
   if (act === 'yenile') { if (S.mcp && S.mcp.sifirla) S.mcp.sifirla(); if (S.mcp && S.mcp.invalidate) S.mcp.invalidate(SRV, 'get_quote').catch(() => {}); S.ek = {}; senkron(true); }
+  else if (act === 'ekle-git') { $('ekle').scrollIntoView({behavior: 'smooth', block: 'center'}); setTimeout(() => { try { $('f-sym').focus({preventScroll: true}); } catch (e) {} }, 400); }
   else if (act === 'gun') { S.gunTarih = b.dataset.gun; ciz(); }
   else if (act === 'filtre') { S.gunFiltre = b.dataset.f; ciz(); }
   else if (act === 'islem-sil') { b.disabled = true; islemSil(b.dataset.id).catch(() => { b.disabled = false; }); }
@@ -1344,12 +1348,52 @@ $('sifre-form').addEventListener('submit', async ev => {
   catch (e) { durum.textContent = e && e.code === 'zayif' ? 'Şifre kabul edilmedi: eskisinden farklı ve yeterince uzun olmalı.' : 'Şifre değiştirilemedi. Biraz sonra tekrar dene.'; }
 });
 
+/* ---------- Android uygulaması ---------- */
+function uygulamaKur(){
+  const svg = (ic, b) => '<svg viewBox="0 0 24 24" width="' + (b || 22) + '" height="' + (b || 22) + '" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">' + ic + '</svg>';
+  const IK = {
+    portfoy: '<path d="M3.5 18.5l5.2-6.2 4 3.4 7.3-9"/><path d="M15.6 6.7H20v4.4"/>',
+    sinyaller: '<path d="M3 12.5h3.8l2.6-6.5 4.2 12 2.6-5.5H21"/>',
+    gundem: '<rect x="4" y="4.5" width="16" height="15" rx="3"/><path d="M8 9h8M8 12.5h8M8 16h4.5"/>',
+    hesap: '<circle cx="12" cy="8.5" r="3.6"/><path d="M5 19.5c1.1-3.4 3.9-5.1 7-5.1s5.9 1.7 7 5.1"/>',
+    yenile: '<path d="M19.5 12a7.5 7.5 0 1 1-2.3-5.4"/><path d="M19.6 4.6v4.3h-4.3"/>',
+    arti: '<path d="M12 5.5v13M5.5 12h13"/>',
+    logo: '<path d="M5 26l7-8.5 5.5 4.5L27 10.5"/><path d="M20.5 10H27v6.5"/>'
+  };
+  const nav = $('sekmeler');
+  nav.insertAdjacentHTML('beforeend', '<a href="#hesap" data-v="hesap">Hesap</a>');
+  nav.querySelectorAll('a').forEach(a => { a.innerHTML = '<span class="ik">' + svg(IK[a.dataset.v]) + '</span><span>' + esc(a.textContent) + '</span>'; });
+  // Sekmeler geçmişe yazılmaz: geri tuşu sekmeler arasında dolaşmaz, bir üst düzeye çıkar.
+  nav.addEventListener('click', ev => { const a = ev.target.closest('a'); if (!a) return; ev.preventDefault(); const h = a.getAttribute('href'); if (location.hash !== h && !(h === '#portfoy' && !location.hash)) location.replace(h); else window.scrollTo({top: 0, behavior: 'smooth'}); });
+  const y = $('yenile'); y.className = 'yuvarlak'; y.setAttribute('aria-label', 'Yenile'); y.innerHTML = svg(IK.yenile);
+  y.addEventListener('click', () => { y.classList.remove('doner'); void y.offsetWidth; y.classList.add('doner'); });
+  document.querySelector('.ust').appendChild(y);
+  document.querySelector('.wrap').insertAdjacentHTML('beforeend', '<button type="button" class="fab" data-act="ekle-git" aria-label="Hisse ekle">' + svg(IK.arti, 26) + '</button>');
+  // Ekleme formu zaten ekrandaysa yüzen düğme gizlenir.
+  try { new IntersectionObserver(es => { document.querySelector('.fab').classList.toggle('gizli', es[es.length - 1].isIntersecting); }, {threshold: 0.25}).observe($('ekle')); } catch (e) {}
+  $('giris').insertAdjacentHTML('beforebegin', '<div class="karsilama"><div class="logo"><svg viewBox="0 0 32 32" width="40" height="40" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">' + IK.logo + '</svg></div><h2>Borsa Tahtası</h2><p>Hisselerini takip et; teknik sinyalleri ve günün gündemini tek yerde gör.</p></div>');
+  $('g-not').textContent = 'Hesabın yoksa uygulamanın sahibinden kullanıcı adı ve şifre iste.';
+  $('yasal').textContent = 'Bu uygulamadaki sinyal ve tahminler teknik göstergelerden otomatik hesaplanır; yatırım tavsiyesi değildir. Karar ve sorumluluk kullanıcıya aittir.';
+  let surum = ''; try { surum = window.Uygulama && window.Uygulama.surum ? String(window.Uygulama.surum()) : ''; } catch (e) {}
+  $('hesap').insertAdjacentHTML('beforeend', '<div class="hakkinda"><h2>Uygulama hakkında</h2><p>Borsa Tahtası, BIST hisselerini izlemek için kişisel bir takip aracıdır. Fiyatlar gecikmeli olabilir; sinyaller klasik teknik göstergelerden kural tabanlı hesaplanır.</p><p class="kucuk">Yatırım tavsiyesi değildir.' + (surum ? ' Sürüm ' + esc(surum) + '.' : '') + '</p><p><a href="https://tahirdogan.online/borsa/gizlilik/" target="_blank" rel="noopener noreferrer">Gizlilik politikası</a></p></div>');
+  $('geri').addEventListener('click', ev => { ev.preventDefault(); window.__geri(); });
+  // Telefonun geri tuşu: true dönerse sayfa işledi, false dönerse uygulama arka plana alınır.
+  window.__geri = () => {
+    if (S.tam) { tamAyar(false); return true; }
+    if (S.kilit) return false;
+    if (S.view === 'hisse') { if (history.length > 1) history.back(); else location.replace('#portfoy'); return true; }
+    if (S.view !== 'portfoy') { location.replace('#portfoy'); return true; }
+    return false;
+  };
+}
+
 /* ---------- Başlangıç ---------- */
 const kullan = ad => { try { return window.claude && window.claude.use ? window.claude.use(ad).catch(() => null) : Promise.resolve(null); } catch (e) { return Promise.resolve(null); } };
 async function basla(){
+  if (UYG) uygulamaKur();
   try { const a = +localStorage.getItem('tahta_aralik'); if ([63, 126, 252, 504].includes(a)) S.aralik = a; if (localStorage.getItem('tahta_tur') === 'mum') S.tur = 'mum'; } catch (e) {}
   S.demo = location.hash === '#demo';
-  if (!S.demo && !(window.claude && window.claude.use) && uzakVar()) { oturum = oturumOku(); if (oturum) uzakBasla(); else girisGoster(); return; }
+  if (!S.demo && !(window.claude && window.claude.use) && uzakVar()) { $('gizlilik-satir').hidden = false; oturum = oturumOku(); if (oturum) uzakBasla(); else girisGoster(); return; }
   route();
   if (S.demo) { S.hazir = true; S.hisseler = {ORNEKA: {adet: 120, maliyet: 150, ornek: true}, ORNEKB: {adet: null, maliyet: null, ornek: true}, ORNEKC: {adet: 40, maliyet: 320, ornek: true}}; S.gunluk = []; S.haftalik = []; S.islemler = [{id: 'd1', sembol: 'ORNEKA', tur: 'al', adet: 120, fiyat: 150, tarih: bugunIST(), kz: null}, {id: 'd2', sembol: 'ORNEKC', tur: 'sat', adet: 10, fiyat: 400, tarih: bugunIST(), kz: 800}]; senkron(); return; }
   const [db, mcp] = await Promise.all([kullan('db'), kullan('mcp')]);
