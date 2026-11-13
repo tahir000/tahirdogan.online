@@ -3324,6 +3324,9 @@ window.SoruVerisi = {
  "notlar": {
   "T.Y.5.15.": "Programdaki açıklama: Öğrenci, bağlantı ifadelerini (ekleme ifade etme, sınırlandırma ifade etme, sonuca geldiğini ifade etme vb.) işlevlerine uygun biçimde kullanarak tutarlı içerikler oluşturur.",
   "T.Y.5.16.": "Programdaki açıklama: Noktalama işaretlerini kurallarına uygun kullanır. Yazım kurallarını uygular.",
+  "T.O.5.19.": "Programa göre bu sınıfta ele alınan söz sanatları: kişileştirme, konuşturma ve benzetme. Başka bir söz sanatını sorma.",
+  "T.O.6.20.": "Programa göre bu sınıfta ele alınan söz sanatları: kişileştirme, konuşturma, benzetme, karşıtlık ve abartma. Başka bir söz sanatını sorma.",
+  "T.O.7.19.": "Programa göre bu sınıfta ele alınan söz sanatları: kişileştirme, konuşturma, benzetme, karşıtlık ve abartma. Başka bir söz sanatını sorma.",
   "T.O.7.4.": "Yazılıda a ve b ölçülür; c (kaynaktan doğrulama) sınav ortamına uymaz. Sözcük, sınıfın büyük olasılıkla bilmediği ama metindeki ipucuyla çıkarabileceği bir sözcük olmalı. Programın önerdiği araç: cümle tamamlama.",
   "T.O.7.5.": "Cevap metinde ya da eşlik eden görselde açıkça yer alır. Duyuru, yönerge, uyarı gibi metinlerde c bileşeni sorulabilir: öğrenci mesaja göre ne yapması gerektiğini yazar. Programın önerdiği araç: boşluk doldurma, açık uçlu soru.",
   "T.O.7.7.": "Metnin sınırlı bir bölümünden çıkarım: doğrudan verilmeyen neden, koşul, amaç, sonuç, ihtimal; kahramanın bir davranışının sebebi, o andaki duygu ve düşüncesi, niyeti; yardımcı düşünceler. Öğrenci kanıt ve gerekçe sunar.",

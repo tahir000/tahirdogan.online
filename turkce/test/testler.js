@@ -78,6 +78,9 @@
     eq(V.bilesenler['T.O.5.6.'].a, 'Metin ve varsa ona eşlik eden görsellerden hareketle bağlama dair ipuçlarını bulur.', 'T.O.5.6 2026 programındaki haliyle');
     ok(V.bilesenler['T.O.6.16.'].b.indexOf('metinle') > 0, 'aynı adlı dinleme çıktısıyla karışmadı (T.O.6.16)');
     eq(Object.keys(V.notlar).filter(function (k) { return !tumKodlar[k]; }), [], 'notların hepsi listedeki bir koda ait');
+    ok(V.notlar['T.O.5.19.'].indexOf('kişileştirme, konuşturma ve benzetme.') > 0 && V.notlar['T.O.5.19.'].indexOf('abartma') < 0 &&
+      V.notlar['T.O.7.19.'].indexOf('benzetme, karşıtlık ve abartma.') > 0 && V.notlar['T.O.6.20.'] === V.notlar['T.O.7.19.'],
+      'söz sanatları notu sınıfa göre: 5. sınıfta üç, 6 ve 7. sınıfta beş sanat');
 
     /* 3) Sınav ve senaryo listeleri */
     eq(A.sinavlar('7'), [S1, S2], '7. sınıfta ülke geneli sınav da listelenir');
@@ -270,12 +273,15 @@
     ok(yb.indexOf('Tema:') < 0 && yb.indexOf('ÖĞRETMENİN') < 0 && yb.indexOf('Yazma soru') < 0 && yb.indexOf('Yazım ve noktalama sorusunda') < 0, 'verilmeyen alanlar ve ilgisiz kurallar yazılmaz');
     const yby = K.kur(bsecim({ konular: ['y-yazim', 'y-tur'], tur: 'karisik' }));
     ok(yby.indexOf('Yazım ve noktalama sorusunda sınanan kuralın') > 0 && yby.indexOf('yazma görevi bu duruma dayansın') > 0 && yby.indexOf('Yazma sorularında öğrenciye bir yazma amacı') > 0, 'yazma ve yazım konularında ek kurallar');
+    ok(yby.indexOf('ya da sorunun kökünde hazır durmasın') > 0 && yby.indexOf('çıktı kodu (listedeki yazımıyla, sonundaki noktayla birlikte)') > 0 &&
+      K.kur(bsecim({ konular: ['o-siir'] })).indexOf('    Not: Programa göre bu sınıfta ele alınan söz sanatları: kişileştirme, konuşturma, benzetme, karşıtlık ve abartma.') > 0,
+      'ikinci denemeden çıkanlar: kökte ipucu, kodun noktası, söz sanatları notu');
     const ybh = K.kur(bsecim({ konular: K.konular('7').map(function (k) { return k.id; }), soru: 10 }));
     ok(ybh.indexOf('Süreç bileşenleri bu yönergeye eklenmedi') > 0 && ybh.indexOf('\n    a) ') < 0 && say(ybh, '\n- T.') === 50, 'çok çıktıda bileşenler eklenmez, bütün çıktılar sayılır');
     ok(ybh.indexOf('Soru sayısı konu sayısından az olduğu için') > 0 && ybh.indexOf('Her çıktıdan soru yazman gerekmez') > 0 && ybh.indexOf('yaklaşık 3 bağlam') > 0 && ybh.indexOf('En az bir bağlamda') > 0, 'soru sayısı konulardan azsa uyarı');
     const yb8 = K.kur(bsecim({ sinif: '8', konular: ['8-fiilimsi', '8-cati'] }));
     ok(yb8.indexOf('KONULAR VE KAZANIMLAR') > 0 && yb8.indexOf('\nKonu 1: Fiilimsiler\n- T.8.3.9. ') > 0 && yb8.indexOf('\nKonu 2: Fiilde çatı\n- T.8.4.20. ') > 0 && yb8.indexOf('terimi tanımlatmak yerine') > 0, '8. sınıfta kazanım dili');
-    ok(yb8.indexOf('Süreç bileşen') < 0 && yb8.indexOf('süreç bileşeninin harfi') < 0 && yb8.indexOf('öğrenme çıktı') < 0 && yb8.indexOf('dil yapıları (dil bilgisi) ayrı') < 0 && yb8.indexOf('kazanım kodu (listedeki yazımıyla), soru türü') > 0, '8. sınıfta süreç bileşeni ve çıktı sözü yok');
+    ok(yb8.indexOf('Süreç bileşen') < 0 && yb8.indexOf('süreç bileşeninin harfi') < 0 && yb8.indexOf('öğrenme çıktı') < 0 && yb8.indexOf('dil yapıları (dil bilgisi) ayrı') < 0 && yb8.indexOf('kazanım kodu (listedeki yazımıyla, sonundaki noktayla birlikte), soru türü') > 0, '8. sınıfta süreç bileşeni ve çıktı sözü yok');
     eq([K.eksikler(bsecim({ konular: [] })).length, K.eksikler(bsecim({ soru: 4 })).length, K.eksikler(bsecim({ soru: 61 })).length,
       K.eksikler(bsecim({ soru: 20.5 })).length, K.eksikler(bsecim({ soru: NaN })).length, K.eksikler(bsecim({ konular: ['yok'] })).length],
     [1, 1, 1, 1, 1, 1], 'eksik seçimler: konu yok, soru sayısı sınır dışı');

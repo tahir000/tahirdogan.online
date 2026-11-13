@@ -29,6 +29,17 @@ ACIKLAMA = {
     "T.Y.5.16.": "Programdaki açıklama: Noktalama işaretlerini kurallarına uygun kullanır. Yazım kurallarını uygular.",
 }
 
+# Programın açıklama sütununda sınıfa göre sayılan söz sanatları (5. sınıf 2026, 6 ve 7. sınıf 2024 sürümü).
+# Yönergede "Not" olarak görünür; yapay zeka sınıfın görmediği bir söz sanatını sormasın diye.
+BES_SANAT = ("Programa göre bu sınıfta ele alınan söz sanatları: kişileştirme, konuşturma, benzetme, karşıtlık ve abartma. "
+             "Başka bir söz sanatını sorma.")
+SOZ_SANATI = {
+    "T.O.5.19.": "Programa göre bu sınıfta ele alınan söz sanatları: kişileştirme, konuşturma ve benzetme. "
+                 "Başka bir söz sanatını sorma.",
+    "T.O.6.20.": BES_SANAT,
+    "T.O.7.19.": BES_SANAT,
+}
+
 KUCUK = str.maketrans({"I": "ı", "İ": "i"})
 BUYUK = str.maketrans({"i": "İ", "ı": "I"})
 
@@ -104,6 +115,7 @@ def main(hedef):
 
     bilesenler = {k: v["bilesenler"] for k, v in surec.items()}
     notlar = dict(ACIKLAMA)
+    notlar.update(SOZ_SANATI)
     for k, v in elle.items():
         assert k in bilesenler, k
         parca = [v.get("not", "").strip(), v.get("arac", "").strip()]

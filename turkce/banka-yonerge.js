@@ -311,7 +311,8 @@
     kurallar.push('Çıkarım isteyen sorularda cevap metinde hazır durmasın. Yüzey anlam sorularında cevap metinde ya da görselde açıkça yer alsın.');
     kurallar.push('Sorular birbirinden bağımsız çözülsün. Bir sorunun kökü, seçenekleri ya da bağlamı başka bir sorunun cevabını vermesin.');
     if (yazimVar) {
-      kurallar.push('Yazım ve noktalama sorusunda sınanan kuralın doğru yazılmış örneği aynı bağlamın başka bir yerinde hazır durmasın.');
+      kurallar.push('Yazım ve noktalama sorusunda sınanan kuralın doğru yazılmış örneği aynı bağlamın başka bir yerinde ya da sorunun kökünde hazır durmasın ' +
+        '(noktalı virgül soruluyorsa kökte noktalı virgül kullanma).');
     }
     kurallar.push('Soru kökü kısa ve açık olsun; kökte konu anlatma, bilgi bağlamda dursun.');
     kurallar.push('Çift olumsuz kullanma. Kökte tek bir olumsuzluk varsa olumsuzluk bildiren sözcüğü kalın yaz.');
@@ -379,7 +380,7 @@
       '("1-4. soruları aşağıdaki metne göre cevaplayınız."). Soruları baştan sona tek sıra numarala. Bu bölümde ' +
       (kazanim ? 'kazanım' : 'çıktı') + ' kodu, cevap ya da ipucu bulunmasın.' +
       (tur !== 'coktan' ? ' Açık uçlu soruların altına cevap için yeterli sayıda boş satır bırak.' : ''));
-    y.push('B. EŞLEŞTİRME TABLOSU: soru no, konu, ' + (kazanim ? 'kazanım kodu' : 'çıktı kodu') + ' (listedeki yazımıyla)' +
+    y.push('B. EŞLEŞTİRME TABLOSU: soru no, konu, ' + (kazanim ? 'kazanım kodu' : 'çıktı kodu') + ' (listedeki yazımıyla, sonundaki noktayla birlikte)' +
       (bilesenli ? ', ölçülen süreç bileşeninin harfi (verildiyse)' : '') + ', soru türü, güçlük düzeyi.');
     y.push('C. CEVAP ANAHTARI');
     y.push('D. ÖĞRETMENE NOTLAR: kontrol edilmesi gereken bilgiler, emin olmadığın noktalar, sınıfa göre değiştirilebilecek yerler. Yoksa "Yok" yaz.');
