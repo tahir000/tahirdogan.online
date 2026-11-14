@@ -50,6 +50,7 @@
     parcalar.push(t.usul + (t.usulAdi ? ' ' + t.usulAdi.toLocaleLowerCase('tr') : ''));
     if (t.dizi) parcalar.push(t.dizi.toLocaleLowerCase('tr'));
     parcalar.push(t.zorluk);
+    if (t.pilot) parcalar.unshift('ilk beş');
     a.appendChild(el('span', '', parcalar.join(' · ')));
     var ok = el('i', '', '›');
     ok.setAttribute('aria-hidden', 'true');
@@ -58,13 +59,12 @@
     return li;
   }
 
+  // Liste beşer türkülük sayfalara bölünür; sayfalar yana kaydırılır.
+  var SAYFA_BOYU = 5, SAYFA_ARASI = 24;
+  var sayfa = { simdiki: 0, toplam: 1, uyan: 0 };
+
   function listeKur() {
     var dizin = TD.dizin || [];
-    var pilotlar = dizin.filter(function (t) { return t.pilot; });
-    var ul = $('pilot-listesi');
-    ul.textContent = '';
-    pilotlar.sort(function (a, b) { return sirala(a.ad, b.ad); }).forEach(function (t) { ul.appendChild(satirYap(t)); });
-    $('pilot-bolum').hidden = !pilotlar.length;
     // Usul seçenekleri: en çok türküsü olan başta
     var sayim = {};
     dizin.forEach(function (t) { sayim[t.usul] = (sayim[t.usul] || 0) + 1; });
@@ -78,21 +78,55 @@
     listeCiz();
   }
 
+  // Süzgece uyan türküleri sayfalara dizer. İlk denenecek beş türkü başa gelir.
   function listeCiz() {
-    var ul = $('turku-listesi');
-    ul.textContent = '';
+    var kap = $('sayfalar');
+    kap.textContent = '';
     var kelimeler = duzlestir(suzgec.ara).split(' ').filter(Boolean);
     var uyan = (TD.dizin || []).filter(function (t) {
       if (suzgec.usul && t.usul !== suzgec.usul) return false;
       if (suzgec.zorluk && t.zorluk !== suzgec.zorluk) return false;
       return kelimeler.every(function (k) { return t._ara.indexOf(k) >= 0; });
-    }).sort(function (a, b) { return sirala(a.ad, b.ad); });
+    }).sort(function (a, b) { return (b.pilot || 0) - (a.pilot || 0) || sirala(a.ad, b.ad); });
     var parca = document.createDocumentFragment();
-    uyan.forEach(function (t) { parca.appendChild(satirYap(t)); });
-    ul.appendChild(parca);
+    for (var i = 0; i < uyan.length; i += SAYFA_BOYU) {
+      var ul = el('ul', 'turkuler');
+      ul.setAttribute('aria-label', 'Sayfa ' + (i / SAYFA_BOYU + 1));
+      uyan.slice(i, i + SAYFA_BOYU).forEach(function (t) { ul.appendChild(satirYap(t)); });
+      parca.appendChild(ul);
+    }
+    kap.appendChild(parca);
+    sayfa.uyan = uyan.length;
+    sayfa.toplam = Math.max(1, Math.ceil(uyan.length / SAYFA_BOYU));
+    sayfa.simdiki = 0;
+    kap.scrollLeft = 0;
+    var kaydir = $('s-kaydir');
+    kaydir.max = String(sayfa.toplam);
+    $('gezgin').hidden = sayfa.toplam < 2;
+    sayfaGoster();
+  }
+
+  function sayfaGenisligi() { return $('sayfalar').clientWidth + SAYFA_ARASI; }
+
+  function sayfaGoster() {
+    $('s-kaydir').value = String(sayfa.simdiki + 1);
+    $('s-geri').disabled = sayfa.simdiki <= 0;
+    $('s-ileri').disabled = sayfa.simdiki >= sayfa.toplam - 1;
     var toplam = (TD.dizin || []).length;
-    $('liste-notu').textContent = uyan.length === toplam ? toplam + ' türkü' :
-      (uyan.length ? toplam + ' türküden ' + uyan.length + ' tanesi' : 'Bu aramaya uyan türkü yok.');
+    var not = sayfa.uyan === toplam ? toplam + ' türkü' : (sayfa.uyan ? toplam + ' türküden ' + sayfa.uyan + ' tanesi' : 'Bu aramaya uyan türkü yok.');
+    if (sayfa.toplam > 1) not += ' · sayfa ' + (sayfa.simdiki + 1) + ' / ' + sayfa.toplam;
+    $('liste-notu').textContent = not;
+  }
+
+  function sayfayaGit(n, yumusak) {
+    n = Math.max(0, Math.min(sayfa.toplam - 1, n));
+    var kap = $('sayfalar');
+    var sol = n * sayfaGenisligi();
+    var hareketsiz = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (yumusak && !hareketsiz && kap.scrollTo) kap.scrollTo({ left: sol, behavior: 'smooth' });
+    else kap.scrollLeft = sol;
+    sayfa.simdiki = n;
+    sayfaGoster();
   }
 
   // ---- Nota hücresi --------------------------------------------------------------
@@ -352,6 +386,7 @@
     $('turku').hidden = true;
     $('liste').hidden = false;
     document.body.style.paddingBottom = '';
+    $('sayfalar').scrollLeft = sayfa.simdiki * sayfaGenisligi();
     window.scrollTo(0, listeKaydirma);
   }
 
@@ -610,7 +645,7 @@
     window.addEventListener('resize', function () {
       clearTimeout(bekleyen);
       bekleyen = setTimeout(function () {
-        if ($('turku').hidden) return;
+        if ($('turku').hidden) { $('sayfalar').scrollLeft = sayfa.simdiki * sayfaGenisligi(); return; }
         var svg = $('sap');
         if (ayar.sap && svg.clientWidth !== sap.genislik) { sapKur(); sapGoster(calici.etkin); }
         if ($('t-notalar').clientWidth !== durum.genislik) {
@@ -626,10 +661,27 @@
     $('ara').addEventListener('input', function () { suzgec.ara = this.value; listeCiz(); });
     $('s-usul').addEventListener('change', function () { suzgec.usul = this.value; listeCiz(); });
     $('s-zorluk').addEventListener('change', function () { suzgec.zorluk = this.value; listeCiz(); });
+    $('s-geri').addEventListener('click', function () { sayfayaGit(sayfa.simdiki - 1, true); });
+    $('s-ileri').addEventListener('click', function () { sayfayaGit(sayfa.simdiki + 1, true); });
+    $('s-kaydir').addEventListener('input', function () { sayfayaGit(parseInt(this.value, 10) - 1, false); });
+    var sayfalar = $('sayfalar');
+    var kaydirmaBekle = null;
+    sayfalar.addEventListener('scroll', function () {
+      clearTimeout(kaydirmaBekle);
+      kaydirmaBekle = setTimeout(function () {
+        var n = Math.max(0, Math.min(sayfa.toplam - 1, Math.round(sayfalar.scrollLeft / sayfaGenisligi())));
+        if (n !== sayfa.simdiki) { sayfa.simdiki = n; sayfaGoster(); }
+      }, 60);
+    });
+    sayfalar.addEventListener('keydown', function (olay) {
+      if (olay.target !== sayfalar) return;
+      if (olay.key === 'ArrowRight') { olay.preventDefault(); sayfayaGit(sayfa.simdiki + 1, true); }
+      else if (olay.key === 'ArrowLeft') { olay.preventDefault(); sayfayaGit(sayfa.simdiki - 1, true); }
+    });
   }
 
   TD.arayuz = { sureIsareti: sureIsareti, calici: calici };
-  if (document.getElementById('turku-listesi')) {
+  if (document.getElementById('sayfalar')) {
     listeKur();
     bagla();
     yonlendir();

@@ -51,17 +51,29 @@
   .metin { max-width: 660px; }
 
   /* Liste */
-  #liste header { padding-top: 44px; padding-bottom: 20px; }
+  #liste header { padding-top: 28px; padding-bottom: 6px; }
+  #liste header h1 { margin-bottom: 8px; }
   ul.turkuler { list-style: none; margin: 0; padding: 0; border-bottom: 1px solid var(--cizgi-acik); }
   a.satir {
     display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 16px; align-items: center;
-    padding: 16px 0; border-top: 1px solid var(--cizgi-acik); color: inherit; text-decoration: none;
+    padding: 12px 0; border-top: 1px solid var(--cizgi-acik); color: inherit; text-decoration: none;
   }
-  a.satir b { font-size: 19px; font-weight: 600; }
-  a.satir span { grid-column: 1; color: var(--ikincil); font-size: 15px; }
+  a.satir b { font-size: 18px; line-height: 1.3; font-weight: 600; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
+  /* Sayfalar yan yana durur; biri görünür, ötekiler yana kaydırınca gelir. */
+  .sayfalar {
+    display: flex; gap: 24px; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory;
+    scrollbar-width: none; -webkit-overflow-scrolling: touch;
+  }
+  .sayfalar::-webkit-scrollbar { display: none; }
+  .sayfalar > ul { flex: 0 0 100%; align-self: flex-start; scroll-snap-align: start; scroll-snap-stop: always; }
+  .gezgin { display: flex; align-items: center; gap: 12px; padding-top: 14px; }
+  .gezgin input[type="range"] { flex: 1; min-width: 0; height: 34px; margin: 0; accent-color: var(--murekkep); }
+  .gezgin .dugme { flex: none; font-size: 22px; line-height: 1; padding-bottom: 3px; }
+  .gezgin .dugme:disabled { opacity: .35; }
+  a.satir span { grid-column: 1; color: var(--ikincil); font-size: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   a.satir i { grid-row: 1 / span 2; grid-column: 2; font-style: normal; font-size: 22px; color: var(--ikincil); }
   a.satir:hover b { color: var(--mavi); }
-  .suz { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 12px; }
+  .suz { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 10px; }
   .suz input, .suz select {
     font: inherit; color: inherit; background: var(--zemin); border: 1px solid var(--cizgi); border-radius: 10px;
     padding: 9px 12px; min-height: 42px; min-width: 0;
@@ -186,22 +198,22 @@
   <header class="kap">
     <p class="alan"><a href="../">tahirdogan.online</a></p>
     <h1>Türkü Defteri</h1>
-    <p class="metin">Uzun sap bağlamada yeni türkü çalışmak için. Her türkü nota adları ve perde numaralarıyla yazılı; dinleyebilir, yavaşlatabilir, zor yeri döngüye alabilirsin.</p>
+    <p class="metin kucuk">Uzun sap bağlama için nota adları ve perdelerle türküler. Sayfalar beşer türkülük; yana kaydır.</p>
   </header>
   <main class="kap">
-    <section id="pilot-bolum" style="padding-bottom:28px">
-      <h2>Önce bunları deneyin</h2>
-      <ul class="turkuler" id="pilot-listesi"></ul>
-    </section>
-    <section class="bolum" style="border-top:0;padding-top:8px">
-      <h2>Bütün türküler</h2>
+    <section style="padding-bottom:28px">
       <div class="suz">
         <input type="search" id="ara" placeholder="Türkü, yöre ya da makam ara" aria-label="Türkü ara" autocomplete="off" enterkeyhint="search">
         <select id="s-usul" aria-label="Usul"><option value="">Bütün usuller</option></select>
         <select id="s-zorluk" aria-label="Zorluk"><option value="">Her zorluk</option><option value="kolay">Kolay</option><option value="orta">Orta</option><option value="zor">Zor</option></select>
       </div>
-      <p class="kucuk" id="liste-notu" aria-live="polite" style="margin:0 0 6px"></p>
-      <ul class="turkuler" id="turku-listesi"></ul>
+      <div class="sayfalar" id="sayfalar" tabindex="0" role="group" aria-label="Türkü listesi. Sayfa değiştirmek için yana kaydır."></div>
+      <div class="gezgin" id="gezgin">
+        <button class="dugme kucuk-d" id="s-geri" type="button" aria-label="Önceki sayfa">‹</button>
+        <input type="range" id="s-kaydir" min="1" max="1" value="1" step="1" aria-label="Sayfa">
+        <button class="dugme kucuk-d" id="s-ileri" type="button" aria-label="Sonraki sayfa">›</button>
+      </div>
+      <p class="kucuk" id="liste-notu" aria-live="polite" style="margin:6px 0 0"></p>
     </section>
 
     <section class="bolum">
