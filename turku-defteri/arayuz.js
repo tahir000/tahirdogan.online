@@ -14,7 +14,7 @@
 
   // ---- Ayarlar (yalnızca bu cihazda) ---------------------------------------------
   var AYAR_ANAHTARI = 'turku-defteri-ayar';
-  var ayar = { ses: true, metronom: false, sayim: true, soz: true, sap: true, akort: 0, tema: 'oto' };
+  var ayar = { ses: true, metronom: false, sayim: true, soz: true, sap: true, akort: 0, tema: 'oto', koma: 'koma', ince: 0 };
   try {
     var kayitli = JSON.parse(localStorage.getItem(AYAR_ANAHTARI) || '{}');
     Object.keys(ayar).forEach(function (k) { if (typeof kayitli[k] === typeof ayar[k]) ayar[k] = kayitli[k]; });
@@ -596,6 +596,7 @@
     calici.metronom = ayar.metronom;
     calici.sayim = ayar.sayim;
     calici.kaydirma = ayar.akort;
+    P.komaAyarla(ayar.koma, ayar.ince);
     if (calici.ses.telKazanc) calici.ses.telKazanc.gain.value = ayar.ses ? 1 : 0;
     document.body.classList.toggle('sozsuz', !ayar.soz);
   }
@@ -657,8 +658,34 @@
     $('ayar-ac').addEventListener('click', function () {
       Object.keys(alanlar).forEach(function (id) { $(id).checked = ayar[alanlar[id]]; });
       $('a-akort').value = String(ayar.akort);
+      $('a-koma').value = ayar.koma;
+      $('a-ince').value = String(ayar.ince);
+      $('a-ince-deger').textContent = (ayar.ince > 0 ? '+' : '') + ayar.ince + ' sent';
       if (pencere.showModal) pencere.showModal(); else pencere.setAttribute('open', '');
     });
+    // Koma sesleri: hesap yöntemi, ince ayar ve sazla karşılaştırmak için dinleme
+    function komaDegisti() {
+      ayarKaydet();
+      ayarUygula();
+      $('a-ince-deger').textContent = (ayar.ince > 0 ? '+' : '') + ayar.ince + ' sent';
+      if (!$('turku').hidden) { sapKur(); sapGoster(calici.etkin); }
+    }
+    function notalariCal(adlar, sure) {
+      if (!calici.ses.hazirla()) return;
+      calici.durdur();
+      calici.ses.sustur();
+      calici.ses.telKazanc.gain.value = 1;
+      var t = calici.ses.simdi() + 0.06;
+      adlar.forEach(function (ad, i) {
+        if (ad) calici.ses.vur(P.frekans(ad, ayar.akort), t + i * (sure + 0.05), sure, 0.9, true);
+      });
+    }
+    $('a-koma').addEventListener('change', function () { ayar.koma = this.value; komaDegisti(); });
+    $('a-ince').addEventListener('input', function () { ayar.ince = parseInt(this.value, 10) || 0; komaDegisti(); });
+    $('koma-sira').addEventListener('click', function () {
+      notalariCal(['Si4b', 'Si4b2', 'Si4', null, 'Fa5', 'Fa5#3', 'Fa5#'], 0.55);
+    });
+    $('koma-uzun').addEventListener('click', function () { notalariCal(['Si4b2'], 2.2); });
     $('ses-dene').addEventListener('click', function () {
       var durum = calici.ses.dene();
       var metin;

@@ -38,9 +38,23 @@
   dene('boş üst tel sol, yaklaşık 196 Hz', yakin(P.frekans('Sol4', 0), 196.0, 0.05));
   dene('tiz la 440 Hz', yakin(P.frekans('La5', 0), 440, 0.001));
   var b2 = sent(P.frekans('Si4b2', 0), 220);
-  dene('si bemol 2, si bemol ile si arasında (yaklaşık 149 sent)', b2 > 140 && b2 < 160, b2.toFixed(1));
+  dene('si bemol 2: si\'den 2 koma pes (yaklaşık 155 sent)', yakin(b2, 200 - 2 * P.KOMA, 0.01), b2.toFixed(1));
   var d3 = sent(P.frekans('Fa5#3', 0), 220);
-  dene('fa diyez 3, fa ile fa diyez arasında', d3 > 840 && d3 < 860, d3.toFixed(1));
+  dene('fa diyez 3: fa\'dan 3 koma tiz (yaklaşık 868 sent)', yakin(d3, 800 + 3 * P.KOMA, 0.01), d3.toFixed(1));
+  var yarimOnce = P.frekans('Si4b', 0);
+  P.komaAyarla('orta', 0);
+  var ortaB2 = sent(P.frekans('Si4b2', 0), 220), ortaD3 = sent(P.frekans('Fa5#3', 0), 220);
+  dene('perde ortası yöntemi: si bemol 2 yaklaşık 149, fa diyez 3 yaklaşık 850 sent', ortaB2 > 148 && ortaB2 < 151 && ortaD3 > 848 && ortaD3 < 851, ortaB2.toFixed(1) + ' ' + ortaD3.toFixed(1));
+  P.komaAyarla('koma', 12);
+  dene('ince ayar koma perdelerini sent kadar kaydırır', yakin(sent(P.frekans('Si4b2', 0), 220), 200 - 2 * P.KOMA + 12, 0.01));
+  dene('ince ayar yarım ses perdelerini etkilemez', yakin(P.frekans('Si4b', 0), yarimOnce, 1e-9) && yakin(P.frekans('La5', 0), 440, 1e-9));
+  var sirali = true;
+  [['koma', -30], ['koma', 30], ['orta', -30], ['orta', 30], ['koma', 999]].forEach(function (c) {
+    P.komaAyarla(c[0], c[1]);
+    for (var pi = 1; pi < P.PERDELER.length; pi++) if (P.perdeSent(P.PERDELER[pi]) <= P.perdeSent(P.PERDELER[pi - 1])) sirali = false;
+  });
+  dene('ayar ne olursa olsun perdeler sıralı kalır', sirali);
+  P.komaAyarla('koma', 0);
   dene('akort bir yarım ses yukarı alınınca frekans yarım ses artar', yakin(sent(P.frekans('La4', 1), 220), 100, 0.001));
 
   // ---- Görünüm ----

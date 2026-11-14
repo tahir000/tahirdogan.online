@@ -198,8 +198,11 @@
 
   dialog {
     border: 0; border-radius: 16px; padding: 22px; width: min(420px, calc(100vw - 32px)); background: var(--zemin); color: var(--murekkep);
-    box-shadow: 0 10px 40px rgba(0, 0, 0, .25);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, .25); max-height: calc(100vh - 32px); max-height: calc(100dvh - 32px); overflow-y: auto;
   }
+  .ayar input[type="range"] { flex: 0 1 150px; min-width: 90px; accent-color: var(--mavi); }
+  .ayar output { color: var(--ikincil); font-variant-numeric: tabular-nums; margin-left: 4px; white-space: nowrap; }
+  .ayar .dugme sup { font-size: 10px; line-height: 0; }
   dialog::backdrop { background: rgba(0, 0, 0, .35); }
   .ayar { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 12px 0; border-top: 1px solid var(--cizgi-acik); font-size: 15px; }
   .ayar input[type="checkbox"] { width: 22px; height: 22px; accent-color: var(--mavi); flex: none; }
@@ -351,14 +354,26 @@
     </select>
   </label>
   <p class="kucuk" style="margin:12px 0 12px">Sazın la yerine başka bir sese akortluysa buradan seç; sayfanın sesi sazına uyar, perdeler değişmez.</p>
+  <label class="ayar"><span>Koma sesleri</span>
+    <select id="a-koma">
+      <option value="koma">Koma hesabıyla</option><option value="orta">Perde ortasında</option>
+    </select>
+  </label>
+  <label class="ayar"><span>İnce ayar <output id="a-ince-deger" for="a-ince">0 sent</output></span>
+    <input type="range" id="a-ince" min="-30" max="30" step="1" value="0">
+  </label>
+  <div class="ayar"><span>Sazınla karşılaştır</span>
+    <span class="grup"><button class="dugme" id="koma-sira" type="button">Sırayla</button><button class="dugme" id="koma-uzun" type="button" aria-label="Si bemol 2 sesini uzun çal"><span>Si♭<sup>2</sup></span></button></span>
+  </div>
+  <p class="kucuk" style="margin:10px 0 12px">Koma hesabıyla: si bemol 2, si'den 2 koma pes; fa diyez 3, fa'dan 3 koma tiz çalar. Perde ortasında: koma perdesi iki perdenin tam ortasındaymış gibi çalar (biraz daha pes). Sazında si bemol 2 perdesine bas, yandaki düğmeyle karşılaştır; aynı gelmiyorsa ince ayarı kaydır (sağa tizleşir).</p>
   <div class="ayar"><span>Ses gelmiyor mu?</span><button class="dugme" id="ses-dene" type="button">Sesi dene</button></div>
   <p class="kucuk" id="ses-durum" role="status" style="margin:10px 0 16px">Üç nota çalar. Duymuyorsan telefonun medya sesini aç (zil sesi değil), kulaklık ya da Bluetooth bağlı mı bak.</p>
   <button class="dugme ana" id="ayar-kapat" style="width:100%">Tamam</button>
 </dialog>
 
-<script src="veri/dizin.js?v=f99ca26c"></script>
-<script src="perde.js?v=f99ca26c"></script>
-<script src="ses.js?v=f99ca26c"></script>
-<script src="arayuz.js?v=f99ca26c"></script>
+<script src="veri/dizin.js?v=dde3b858"></script>
+<script src="perde.js?v=dde3b858"></script>
+<script src="ses.js?v=dde3b858"></script>
+<script src="arayuz.js?v=dde3b858"></script>
 </body>
 </html>

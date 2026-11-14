@@ -29,11 +29,28 @@
   function yerSent(sent) { return 1 - Math.pow(2, -sent / 1200); }
   function sentYer(yer) { return -1200 * Math.log(1 - yer) / Math.LN2; }
 
-  // Bir perdenin boş tele göre sent değeri. Koma perdesi komşu iki perdenin
-  // sap üzerinde tam ortasında durur, bu yüzden sesi 50 sentten biraz pestir.
+  // Koma perdelerinin sesi iki yoldan hesaplanabilir:
+  //   'koma'  kuramdaki yerine göre: bemol 2, üstündeki sesten 2 koma pestir; diyez 3,
+  //           altındaki sesten 3 koma tizdir (bir koma tam sesin dokuzda biri, 1200/53 sent).
+  //   'orta'  perde, komşu iki yarım ses perdesinin sap üzerinde tam ortasına bağlanmış gibi
+  //           (MEB modülündeki yapım yöntemi); sesi kuramdaki yerinden 5 ile 18 sent pes kalır.
+  // ince: bütün koma perdelerine eklenen sent; sazdaki perdeye kulakla uydurmak içindir.
+  var KOMA = 1200 / 53;
+  var komaAyari = { yontem: 'koma', ince: 0 };
+  function komaAyarla(yontem, ince) {
+    komaAyari.yontem = yontem === 'orta' ? 'orta' : 'koma';
+    komaAyari.ince = Math.max(-30, Math.min(30, Number(ince) || 0));
+  }
+
+  // Bir perdenin boş tele göre sent değeri. Yarım ses perdeleri 100'er sent aralıklıdır.
   function perdeSent(adim) {
     if (adim % 2 === 0) return adim * 50;
-    return sentYer((yerSent((adim - 1) * 50) + yerSent((adim + 1) * 50)) / 2);
+    var tur = adim % 24; // alt teldeki adına göre: 3 ve 13 bemol 2; 7, 17 ve 21 diyez 3
+    var sent;
+    if (komaAyari.yontem === 'koma' && (tur === 3 || tur === 13)) sent = (adim + 1) * 50 - 2 * KOMA;
+    else if (komaAyari.yontem === 'koma' && (tur === 7 || tur === 17 || tur === 21)) sent = (adim - 1) * 50 + 3 * KOMA;
+    else sent = sentYer((yerSent((adim - 1) * 50) + yerSent((adim + 1) * 50)) / 2);
+    return sent + komaAyari.ince;
   }
 
   function coz(ad) {
@@ -200,6 +217,6 @@
     PERDELER: PERDELER, TELLER: TELLER, ALT_TEL_HZ: ALT_TEL_HZ,
     coz: coz, konum: konum, konumlar: konumlar, frekans: frekans, perdeSent: perdeSent, yerSent: yerSent,
     gorunum: gorunum, okunus: okunus, sureAdi: sureAdi, telBilgisi: telBilgisi, sirala: sirala, sozMetni: sozMetni,
-    olcuUsulu: olcuUsulu, olcuBoyu: olcuBoyu, vuruslar: vuruslar
+    olcuUsulu: olcuUsulu, olcuBoyu: olcuBoyu, vuruslar: vuruslar, komaAyarla: komaAyarla, KOMA: KOMA
   };
 })();

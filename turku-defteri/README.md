@@ -8,6 +8,7 @@ Her türkü nota adları (do re mi) ve perde numaralarıyla yazılıdır. Sayfa 
 
 - Uzun sap bağlama, bozuk düzen: alt tel la (220 Hz), orta tel re, üst tel sol.
 - Sap 23 perdeli sayılır. Yarım ses perdeleri: si bemol, si, do, do diyez, re, mi bemol, mi, fa, fa diyez, sol, la bemol, la, si bemol, si, do, do diyez, re. Koma perdeleri iki yarım ses perdesinin ortasındadır: si bemol 2, do diyez 3, mi bemol 2, fa diyez 3, sol diyez 3 ve tizde si bemol 2. Kaynak: MEB "Bağlama Ailesi Perde ve Genel Ayarları" modülü (yarım ses perdelerinin sırası, koma perdelerinin yeri, düzen tablosu). Koma perdelerinin hangileri olduğu modüldeki şekilden okunamadı; yaygın 23 perdeli düzen esas alındı ve çalanlarla teyit edilecek.
+- Koma perdelerinin sesi `perde.js` içindeki `perdeSent` ile hesaplanır. Varsayılan "koma hesabı": bemol 2, üstündeki sesten 2 koma pes; diyez 3, altındaki sesten 3 koma tiz (koma 1200/53 sent). Öteki seçenek "perde ortası": MEB modülündeki yapım yöntemi, perde iki yarım ses perdesinin ortasında. Kullanıcı Ayarlar'dan yöntemi seçer ve artı eksi 30 sentlik ince ayarla kendi sazına uydurur.
 - Perde tablosu tek yerdedir: `perde.js` içindeki `PERDELER`. Sazın perde düzeni farklı çıkarsa yalnızca o liste değişir.
 
 ## Dosyalar
