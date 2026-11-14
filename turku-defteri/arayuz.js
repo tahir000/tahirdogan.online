@@ -14,7 +14,7 @@
 
   // ---- Ayarlar (yalnızca bu cihazda) ---------------------------------------------
   var AYAR_ANAHTARI = 'turku-defteri-ayar';
-  var ayar = { ses: true, metronom: false, sayim: true, soz: true, sap: true, akort: 0 };
+  var ayar = { ses: true, metronom: false, sayim: true, soz: true, sap: true, akort: 0, tema: 'oto' };
   try {
     var kayitli = JSON.parse(localStorage.getItem(AYAR_ANAHTARI) || '{}');
     Object.keys(ayar).forEach(function (k) { if (typeof kayitli[k] === typeof ayar[k]) ayar[k] = kayitli[k]; });
@@ -22,6 +22,17 @@
   function ayarKaydet() {
     try { localStorage.setItem(AYAR_ANAHTARI, JSON.stringify(ayar)); } catch (e) { /* önemli değil */ }
   }
+
+  // Görünüm: 'oto' telefonun açık ya da koyu ayarını izler, 'acik' ve 'koyu' onu geçersiz kılar.
+  function temaUygula() {
+    var kok = document.documentElement;
+    if (ayar.tema === 'acik' || ayar.tema === 'koyu') kok.setAttribute('data-tema', ayar.tema);
+    else kok.removeAttribute('data-tema');
+    var renk = window.getComputedStyle ? getComputedStyle(kok).getPropertyValue('--zemin').replace(/\s/g, '') : '';
+    var meta = document.querySelector('meta[name="theme-color"]');
+    if (meta && renk) meta.setAttribute('content', renk);
+  }
+  temaUygula();
 
   var calici = new TD.Calici();
   var durum = { turku: null, kita: 1, hiz: 100, donguOlcu: null, bekleyenBas: null };
@@ -653,6 +664,22 @@
         if (id === 'a-sap') { sapKur(); sapGoster(calici.etkin); }
       });
     });
+    ['a-tema', 'l-tema'].forEach(function (id) {
+      $(id).value = ayar.tema;
+      $(id).addEventListener('change', function () {
+        ayar.tema = this.value;
+        ayarKaydet();
+        temaUygula();
+        $('a-tema').value = ayar.tema;
+        $('l-tema').value = ayar.tema;
+      });
+    });
+    if (window.matchMedia) {
+      var koyuTercih = window.matchMedia('(prefers-color-scheme: dark)');
+      var temaDegisti = function () { temaUygula(); };
+      if (koyuTercih.addEventListener) koyuTercih.addEventListener('change', temaDegisti);
+      else if (koyuTercih.addListener) koyuTercih.addListener(temaDegisti);
+    }
     $('a-akort').addEventListener('change', function () {
       ayar.akort = parseInt(this.value, 10) || 0;
       ayarKaydet();

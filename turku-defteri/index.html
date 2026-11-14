@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'unsafe-inline'; img-src data:; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="no-referrer">
 <meta name="robots" content="noindex, nofollow">
-<meta name="color-scheme" content="only light">
+<meta name="color-scheme" content="light dark">
 <meta name="theme-color" content="#ffffff">
 <title>Türkü Defteri</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231d1d1f'/%3E%3Cpath d='M8 12h16M8 16h16M8 20h16' stroke='%23fff' stroke-width='1.6' stroke-linecap='round'/%3E%3Ccircle cx='20' cy='16' r='3.4' fill='%23fff'/%3E%3C/svg%3E">
@@ -19,7 +19,23 @@
     --alt-bosluk: env(safe-area-inset-bottom, 0px);
     /* Sap şeması ve alt tel perdeleri: bağlama sapının bal rengi ahşabı */
     --ahsap-acik: #e9c48d; --ahsap: #d9a968; --ahsap-koyu: #b98447; --perde-bagi: #33210f; --bal: #efd7ae;
-    color-scheme: only light;
+    color-scheme: light;
+  }
+  /* Koyu görünüm: simsiyah değil, koyu gri. Telefon koyu moddaysa kendiliğinden açılır;
+     Ayarlar'daki "Görünüm" seçimi (data-tema) telefonun ayarının önüne geçer. */
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-tema="acik"]) {
+      --zemin: #2a292c; --murekkep: #f2f2f4; --ikincil: #adadb4; --dolgu: #38373c;
+      --cizgi: #57565c; --cizgi-acik: #403f44; --mavi: #5aa9ff; --panel: rgba(42, 41, 44, .94);
+      --ahsap-acik: #dcb783; --ahsap: #c99d60; --ahsap-koyu: #a57a41; --bal: #e6cb9c;
+      color-scheme: dark;
+    }
+  }
+  :root[data-tema="koyu"] {
+    --zemin: #2a292c; --murekkep: #f2f2f4; --ikincil: #adadb4; --dolgu: #38373c;
+    --cizgi: #57565c; --cizgi-acik: #403f44; --mavi: #5aa9ff; --panel: rgba(42, 41, 44, .94);
+    --ahsap-acik: #dcb783; --ahsap: #c99d60; --ahsap-koyu: #a57a41; --bal: #e6cb9c;
+    color-scheme: dark;
   }
   * { box-sizing: border-box; }
   html { -webkit-text-size-adjust: 100%; }
@@ -130,7 +146,7 @@
     display: inline-flex; align-items: center; justify-content: center; min-width: 22px; height: 22px; padding: 0 4px;
     font-size: 12px; font-weight: 600; font-variant-numeric: tabular-nums; line-height: 1; border-radius: 11px;
   }
-  .perde.alt { background: var(--bal); color: var(--murekkep); box-shadow: inset 0 0 0 1px rgba(120, 78, 30, .28); }
+  .perde.alt { background: var(--bal); color: #1d1d1f; box-shadow: inset 0 0 0 1px rgba(120, 78, 30, .28); }
   .perde.orta { border: 1.5px solid var(--murekkep); }
   .perde.ust { border: 1.5px solid var(--murekkep); border-radius: 5px; }
   .perde.yok { color: var(--ikincil); font-weight: 400; }
@@ -242,6 +258,15 @@
     </section>
 
     <section class="bolum metin">
+      <h2>Görünüm</h2>
+      <label class="ayar" style="border-top:0;padding-top:0"><span>Açık ya da koyu renk</span>
+        <select id="l-tema">
+          <option value="oto">Telefona göre</option><option value="acik">Açık</option><option value="koyu">Koyu</option>
+        </select>
+      </label>
+    </section>
+
+    <section class="bolum metin">
       <h2>Notalar taslaktır</h2>
       <p>Bu türküler açık bir veri setinden bilgisayarla çevrildi, henüz bir çalan tarafından baştan sona denetlenmedi. Yanlış gördüğün yeri ölçü numarasıyla not al.</p>
       <p>Notalar Türk sanat müziği arşivindeki yazımdan gelir; bildiğin halk müziği notasından yer yer farklı olabilir. Makam adı kaynaktaki addır. Zorluk etiketi notaların hızına ve ses aralığına bakan kaba bir tahmindir.</p>
@@ -312,6 +337,11 @@
   <label class="ayar"><span>Başlamadan önce bir ölçü say</span><input type="checkbox" id="a-sayim"></label>
   <label class="ayar"><span>Heceleri göster</span><input type="checkbox" id="a-soz"></label>
   <label class="ayar"><span>Sap şemasını göster</span><input type="checkbox" id="a-sap"></label>
+  <label class="ayar"><span>Görünüm</span>
+    <select id="a-tema">
+      <option value="oto">Telefona göre</option><option value="acik">Açık</option><option value="koyu">Koyu</option>
+    </select>
+  </label>
   <label class="ayar"><span>Sazımın alt teli</span>
     <select id="a-akort">
       <option value="-3">Fa diyez</option><option value="-2">Sol</option><option value="-1">La bemol</option>
@@ -322,9 +352,9 @@
   <button class="dugme ana" id="ayar-kapat" style="width:100%">Tamam</button>
 </dialog>
 
-<script src="veri/dizin.js?v=6b30bd42"></script>
-<script src="perde.js?v=6b30bd42"></script>
-<script src="ses.js?v=6b30bd42"></script>
-<script src="arayuz.js?v=6b30bd42"></script>
+<script src="veri/dizin.js?v=95be2510"></script>
+<script src="perde.js?v=95be2510"></script>
+<script src="ses.js?v=95be2510"></script>
+<script src="arayuz.js?v=95be2510"></script>
 </body>
 </html>
