@@ -140,7 +140,7 @@
       '1/2': [0, 0, 1], '3/4': [0, 0, 2], '1/1': [0, 0, 3]
     };
     var uclu = { '1/6': 0, '1/12': 1, '1/24': 2, '1/48': 3 };
-    if (uclu[k] !== undefined) return { cizgi: uclu[k], nokta: false, uzatma: 0, yazi: '\u00b3' };
+    if (uclu[k] !== undefined) return { cizgi: uclu[k], nokta: false, uzatma: 0, yazi: '', uclu: true };
     var t = tablo[k];
     if (!t) return { cizgi: 0, nokta: false, uzatma: 0, yazi: k };
     return { cizgi: t[0], nokta: !!t[1], uzatma: t[2], yazi: '' };
@@ -197,6 +197,8 @@
     b.appendChild(ust);
     var sure = el('span', 'sure');
     for (var i = 0; i < isaret.cizgi; i++) sure.appendChild(el('i'));
+    // Üçleme işareti süre çizgilerinin altına yazılır; ad satırındaki küçük sayı koma sesine ayrılmıştır
+    if (isaret.uclu) sure.appendChild(el('b', 'uclu', '3'));
     b.appendChild(sure);
     if (n.ad === 'Es') b.appendChild(el('span', 'perde yok', ''));
     else {
