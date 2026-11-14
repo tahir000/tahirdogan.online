@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'unsafe-inline'; img-src data:; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'unsafe-inline'; img-src data:; media-src data:; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="no-referrer">
 <meta name="robots" content="noindex, nofollow">
 <meta name="color-scheme" content="light dark">
@@ -178,6 +178,7 @@
   #sap .isaret { fill: var(--mavi); stroke: #fff; stroke-width: 1.6; }
   #sap .isaret-yazi { fill: #fff; font-weight: 700; font-size: 10.5px; }
   #sap .sonraki { fill: rgba(255, 255, 255, .35); stroke: #fff; stroke-width: 1.8; }
+  #ses-uyari { margin: 6px 0 0; padding: 8px 12px; border-radius: 10px; background: var(--dolgu); font-size: 14px; }
   .satir-a { display: flex; align-items: center; gap: 10px; min-height: 36px; }
   #anlik { flex: 1; min-width: 0; font-size: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   #anlik b { font-weight: 600; }
@@ -307,6 +308,7 @@
   <div class="panel" id="panel">
     <div class="panel-ic">
       <svg id="sap" role="img" aria-label="Sap şeması"></svg>
+      <p id="ses-uyari" role="status" hidden></p>
       <div class="satir-a">
         <div id="anlik" aria-live="off"></div>
         <div class="hiz" role="group" aria-label="Hız">
@@ -348,13 +350,15 @@
       <option value="0">La (220 Hz)</option><option value="1">Si bemol</option><option value="2">Si</option><option value="3">Do</option>
     </select>
   </label>
-  <p class="kucuk" style="margin:12px 0 16px">Sazın la yerine başka bir sese akortluysa buradan seç; sayfanın sesi sazına uyar, perdeler değişmez. iPhone'da ses gelmiyorsa yandaki sessiz anahtarını kapat.</p>
+  <p class="kucuk" style="margin:12px 0 12px">Sazın la yerine başka bir sese akortluysa buradan seç; sayfanın sesi sazına uyar, perdeler değişmez.</p>
+  <div class="ayar"><span>Ses gelmiyor mu?</span><button class="dugme" id="ses-dene" type="button">Sesi dene</button></div>
+  <p class="kucuk" id="ses-durum" role="status" style="margin:10px 0 16px">Üç nota çalar. Duymuyorsan telefonun medya sesini aç (zil sesi değil), kulaklık ya da Bluetooth bağlı mı bak.</p>
   <button class="dugme ana" id="ayar-kapat" style="width:100%">Tamam</button>
 </dialog>
 
-<script src="veri/dizin.js?v=95be2510"></script>
-<script src="perde.js?v=95be2510"></script>
-<script src="ses.js?v=95be2510"></script>
-<script src="arayuz.js?v=95be2510"></script>
+<script src="veri/dizin.js?v=f99ca26c"></script>
+<script src="perde.js?v=f99ca26c"></script>
+<script src="ses.js?v=f99ca26c"></script>
+<script src="arayuz.js?v=f99ca26c"></script>
 </body>
 </html>

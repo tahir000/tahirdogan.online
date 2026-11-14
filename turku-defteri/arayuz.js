@@ -612,6 +612,12 @@
   }
 
   calici.nota = function (i) { etkinGoster(i, true); };
+  calici.uyari = function (kod) {
+    var kutu = $('ses-uyari');
+    kutu.hidden = !kod;
+    kutu.textContent = kod ? 'Ses başlamadı. Durdurup yeniden Çal\'a dokun; olmazsa Ayarlar\'daki "Sesi dene" düğmesine bak.' : '';
+    altBosluk();
+  };
   calici.durum = function (caliyor) {
     $('cal-yazi').textContent = caliyor ? 'Durdur' : 'Çal';
     $('cal-simge').setAttribute('d', caliyor ? 'M6 5h4v14H6zM14 5h4v14h-4z' : 'M7 4v16l13-8z');
@@ -652,6 +658,14 @@
       Object.keys(alanlar).forEach(function (id) { $(id).checked = ayar[alanlar[id]]; });
       $('a-akort').value = String(ayar.akort);
       if (pencere.showModal) pencere.showModal(); else pencere.setAttribute('open', '');
+    });
+    $('ses-dene').addEventListener('click', function () {
+      var durum = calici.ses.dene();
+      var metin;
+      if (durum === 'yok') metin = 'Bu tarayıcı ses üretemiyor. Sayfayı Chrome ya da Safari ile aç.';
+      else if (durum === 'running') metin = 'Ses motoru çalışıyor, üç nota çalındı. Duymadıysan sorun telefonun sesinde: medya sesini aç, kulaklık ya da Bluetooth bağlantısına bak; iPhone\'da yandaki sessiz anahtarını kapat.';
+      else metin = 'Ses motoru henüz başlamadı (' + durum + '). Düğmeye bir kez daha dokun.';
+      $('ses-durum').textContent = metin;
     });
     $('ayar-kapat').addEventListener('click', function () {
       if (pencere.close) pencere.close(); else pencere.removeAttribute('open');

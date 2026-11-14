@@ -63,13 +63,66 @@
       if (!Tur) return false;
       this.ctx = new Tur();
       this.cikis = this.ctx.createGain();
-      this.cikis.gain.value = 0.8;
-      this.cikis.connect(this.ctx.destination);
+      this.cikis.gain.value = 1.15;
+      // Telefon hoparlöründe duyulsun diye düzey yüksek tutulur; sıkıştırıcı taşmayı önler
+      var sinir = this.ctx.createDynamicsCompressor ? this.ctx.createDynamicsCompressor() : null;
+      if (sinir) {
+        sinir.threshold.value = -14; sinir.knee.value = 8; sinir.ratio.value = 6;
+        sinir.attack.value = 0.003; sinir.release.value = 0.12;
+        this.cikis.connect(sinir);
+        sinir.connect(this.ctx.destination);
+      } else this.cikis.connect(this.ctx.destination);
       this.telKazanc = this.ctx.createGain();
       this.telKazanc.connect(this.cikis);
     }
-    if (this.ctx.state === 'suspended' && this.ctx.resume) this.ctx.resume();
+    this.sessizAnahtariAs();
+    // Bazı tarayıcılarda ses motoru askıda başlar ya da arka plana geçince durur
+    if (this.ctx.state !== 'running' && this.ctx.resume) {
+      try { var soz = this.ctx.resume(); if (soz && soz.catch) soz.catch(function () {}); } catch (e) { /* aşağıda durum denetlenir */ }
+    }
     return true;
+  };
+
+  // iPhone ve iPad'de yandaki sessiz anahtarı açıkken tarayıcının ürettiği ses duyulmaz.
+  // Sayfa "çalma" türünde ses kullandığını bildirince anahtar sesi kesmez. Eski sürümlerde
+  // aynı işi, dokunma anında başlatılan sessiz bir ses dosyası görür.
+  Ses.prototype.sessizAnahtariAs = function () {
+    try {
+      if (navigator.audioSession) { navigator.audioSession.type = 'playback'; return; }
+    } catch (e) { /* desteklenmiyor */ }
+    var ios = /iP(hone|ad|od)/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+    if (!ios) return;
+    try {
+      if (!this._sessiz) {
+        // 8 kHz, tek kanal, 8 bit, çeyrek saniyelik sessiz WAV
+        var n = 2000, bayt = [82, 73, 70, 70, (36 + n) & 255, ((36 + n) >> 8) & 255, 0, 0, 87, 65, 86, 69, 102, 109, 116, 32,
+          16, 0, 0, 0, 1, 0, 1, 0, 64, 31, 0, 0, 64, 31, 0, 0, 1, 0, 8, 0, 100, 97, 116, 97, n & 255, (n >> 8) & 255, 0, 0];
+        var metin = '';
+        for (var i = 0; i < bayt.length; i++) metin += String.fromCharCode(bayt[i]);
+        for (i = 0; i < n; i++) metin += String.fromCharCode(128);
+        var a = document.createElement('audio');
+        a.setAttribute('playsinline', '');
+        a.setAttribute('x-webkit-airplay', 'deny');
+        a.loop = true;
+        a.src = 'data:audio/wav;base64,' + btoa(metin);
+        this._sessiz = a;
+      }
+      var p = this._sessiz.play();
+      if (p && p.catch) p.catch(function () {});
+    } catch (e) { /* ses yine de denenir */ }
+  };
+
+  Ses.prototype.sessizDosyayiDurdur = function () {
+    try { if (this._sessiz) this._sessiz.pause(); } catch (e) { /* önemli değil */ }
+  };
+
+  // Kısa bir ses denemesi: la, do, mi. Ses motorunun durumunu döner.
+  Ses.prototype.dene = function () {
+    if (!this.hazirla()) return 'yok';
+    this.telKazanc.gain.value = 1;
+    var t = this.ctx.currentTime + 0.05, self = this;
+    [220, 261.63, 329.63].forEach(function (f, i) { self.vur(f, t + i * 0.35, 0.5, 0.9, true); });
+    return this.ctx.state;
   };
 
   Ses.prototype.simdi = function () { return this.ctx ? this.ctx.currentTime : 0; };
@@ -98,7 +151,7 @@
     zarf.gain.setTargetAtTime(0, t + sure, 0.05);
     zarf.connect(this.telKazanc);
     var kaynaklar = [];
-    [[1.0013, 0.5], [0.9987, 0.5]].concat(bam ? [[0.5, 0.3]] : []).forEach(function (c) {
+    [[1.0013, 0.6], [0.9987, 0.6]].concat(bam ? [[0.5, 0.34]] : []).forEach(function (c) {
       var kaynak = ctx.createBufferSource();
       kaynak.buffer = k.tampon;
       kaynak.playbackRate.value = k.hiz * c[0];
@@ -163,6 +216,7 @@
     this.caliyor = false;
     this.nota = function () {};
     this.durum = function () {};
+    this.uyari = function () {};
     this._kuyruk = [];
     this._zamanlayici = null;
     this._cizim = null;
@@ -230,6 +284,11 @@
     };
     this._cizim = requestAnimationFrame(ciz);
     this.durum(true);
+    // Ses motoru bir saniyede çalışmaya başlamadıysa arayüze bildir
+    clearTimeout(this._denetim);
+    this._denetim = setTimeout(function () {
+      if (self.caliyor && self.sesAcik) self.uyari(self.ses.ctx.state === 'running' ? '' : 'askida');
+    }, 1000);
   };
 
   // Zamanı gelen notaları etkin yapar; türkü bittiyse çalmayı durdurur.
@@ -274,6 +333,8 @@
     cancelAnimationFrame(this._cizim);
     this._kuyruk = [];
     this.ses.sustur();
+    this.ses.sessizDosyayiDurdur();
+    clearTimeout(this._denetim);
     this.durum(false);
   };
 
