@@ -372,7 +372,7 @@
     if (TD.turkuler && TD.turkuler[id]) { turkuGoster(id); return; }
     TD.yuklendi = function (gelen) { if (gelen === id && location.hash === '#/' + id) turkuGoster(id); };
     var s = document.createElement('script');
-    s.src = 'veri/' + id + '.js';
+    s.src = 'veri/' + id + '.js' + (TD.veriSurumu ? '?v=' + TD.veriSurumu : '');
     s.onerror = function () {
       $('liste-notu').textContent = kayit.ad + ' yüklenemedi. Bağlantını denetleyip yeniden dene.';
       location.hash = '#/';

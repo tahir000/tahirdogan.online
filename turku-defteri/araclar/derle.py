@@ -53,6 +53,7 @@ Usul değişimi:   {usul 6/4 Senginsemai}
 
 "#" ile başlayan satır açıklamadır, derlemeye girmez.
 """
+import hashlib
 import io
 import json
 import os
@@ -217,6 +218,24 @@ def js(nesne):
     return json.dumps(nesne, ensure_ascii=False, separators=(",", ":"))
 
 
+def surum_yaz(kok):
+    """index.html içindeki betik adreslerine içerik özetinden bir sürüm ekler (arayuz.js?v=...).
+    Böylece tarayıcı yeni sayfayla eski betiği birlikte kullanamaz. Betiklerden biri
+    değiştiyse yayından önce bu dosya yeniden çalıştırılmalıdır."""
+    ozet = hashlib.sha256()
+    for ad in ("veri/dizin.js", "perde.js", "ses.js", "arayuz.js"):
+        ozet.update(open(os.path.join(kok, ad), "rb").read())
+    surum = ozet.hexdigest()[:8]
+    yol = os.path.join(kok, "index.html")
+    eski = io.open(yol, encoding="utf-8").read()
+    yeni, adet = re.subn(r'(<script src="(?:veri/dizin|perde|ses|arayuz)\.js)(?:\?v=[0-9a-f]+)?"', r'\1?v=%s"' % surum, eski)
+    if adet != 4:
+        raise Hata("index.html içinde dört betik etiketi bulunamadı (%d bulundu)" % adet)
+    if yeni != eski:
+        io.open(yol, "w", encoding="utf-8").write(yeni)
+    return surum
+
+
 def main():
     kok = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     kaynak = os.path.join(kok, "kaynak")
@@ -224,6 +243,7 @@ def main():
     os.makedirs(veri, exist_ok=True)
     dizin = []
     hatalar = []
+    veri_ozeti = hashlib.sha256()
     for ad in sorted(os.listdir(kaynak)):
         if not ad.endswith(".txt"):
             continue
@@ -236,6 +256,7 @@ def main():
         except Hata as h:
             hatalar.append(str(h))
             continue
+        veri_ozeti.update(js(t).encode("utf-8"))
         io.open(os.path.join(veri, kimlik + ".js"), "w", encoding="utf-8").write(
             "// Bu dosya araclar/derle.py ile kaynak/%s.txt dosyasından üretilir; elle düzenlenmez.\n"
             "window.TurkuDefteri=window.TurkuDefteri||{};TurkuDefteri.turkuler=TurkuDefteri.turkuler||{};\n"
@@ -256,8 +277,10 @@ def main():
     dizin.sort(key=lambda d: d["ad"].replace("Ç", "C~").replace("İ", "I~").replace("Ö", "O~").replace("Ş", "S~").replace("Ü", "U~"))
     io.open(os.path.join(veri, "dizin.js"), "w", encoding="utf-8").write(
         "// Bu dosya araclar/derle.py ile üretilir; elle düzenlenmez.\n"
-        "window.TurkuDefteri=window.TurkuDefteri||{};\nTurkuDefteri.dizin=%s;\n" % js(dizin))
-    print("%d türkü derlendi: %s" % (len(dizin), ", ".join(d["id"] for d in dizin)))
+        "window.TurkuDefteri=window.TurkuDefteri||{};\nTurkuDefteri.veriSurumu=%s;\nTurkuDefteri.dizin=%s;\n"
+        % (js(veri_ozeti.hexdigest()[:8]), js(dizin)))
+    surum = surum_yaz(kok)
+    print("%d türkü derlendi (sürüm %s): %s" % (len(dizin), surum, ", ".join(d["id"] for d in dizin)))
 
 
 if __name__ == "__main__":

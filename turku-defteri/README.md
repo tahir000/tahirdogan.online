@@ -29,7 +29,7 @@ Her türkü nota adları (do re mi) ve perde numaralarıyla yazılıdır. Sayfa 
 ## Bir notayı düzeltmek
 
 1. `kaynak/<türkü>.txt` dosyasında ilgili ölçü satırını düzelt (ör. `Do5:8` yerine `Re5:8`).
-2. `turku-defteri` klasöründe: `python3 -I araclar/derle.py`
+2. `turku-defteri` klasöründe: `python3 -I araclar/derle.py`. Bu komut `index.html` içindeki betik adreslerine sürüm de ekler (`arayuz.js?v=...`); `perde.js`, `ses.js` ya da `arayuz.js` değiştiğinde de yayından önce çalıştırılmalıdır, yoksa tarayıcı eski betiği önbellekten kullanabilir.
 3. Testler: `osascript -l JavaScript araclar/test_calistir.js .`
 
 Bir çalan türküyü baştan sona denetleyince kaynak dosyasındaki `durum: taslak` satırı `durum: onayli` yapılır; sayfadaki taslak uyarısı kalkar.
