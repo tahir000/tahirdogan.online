@@ -1,0 +1,36 @@
+ad: Samavir Kuydum
+yore: 
+usul: 4/8
+usul-adi: Sofyan (4/8)
+tempo: 60
+dizi: Pesendide
+karar: Sol
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 3.0, pesendide--turku--sofyan--samavir_kuydum--
+---
+[Aranağme]
+1 | Mi5:8 Mi5:16 Re5:16 Sol5:8 Sol5:16 Mi5:16
+2 | Re5:8 Si4b2:16 Re5:16 Mi5:8 Mi5:16 Re5:16
+3 | Si4b2:8 La4:16 Si4b2:16 Re5:8 Si4b2:16 La4:16
+4 | Sol4:8 Sol4:8 Sol4:16 Si4b2:16 Re5:8
+[Aranağme]
+5 | Mi5:8 Mi5:16 Re5:16 Sol5:8 Sol5:16 Mi5:16
+6 | Re5:8 Si4b2:16 Re5:16 Mi5:8 Mi5:16 Re5:16
+7 | Si4b2:8 La4:16 Si4b2:16 Re5:8 Si4b2:16 La4:16
+8 | Sol4:8 Sol4:8 Sol4:4
+[Söz]
+9 | Sol5:8=Sa- Sol5:8=ma- La5:16=vır Si5b2:16 Si5b2:16=kuy- La5:16
+10 | Sol5:16=dum La5:16 Sol5:16=kay- Mi5:16 Re5:8=nar- Re5:16=ga/ Mi5:16
+11 | Sol5:8=Kay- Sol5:8=na- La5:16=mıy Si5b2:16 Si5b2:16=ör- La5:16
+12 | Sol5:16=me- La5:16 Sol5:16=gen- Mi5:16 Re5:4=ge/
+13 | Mi5:8=Sagı- Mi5:16=nı Re5:16 Sol5:8=tü- Sol5:16=gil Mi5:16
+14 | Re5:8=sar- Si4b2:16=ga- Re5:16 Mi5:8=yır- Mi5:16=sın/ Re5:16
+15 | Si4b2:8=Yıl La4:16=tul- Si4b2:16 Re5:8=dı Si4b2:16=kür- La4:16
+16 | Sol4:8=me- Sol4:8=gen- Sol4:16=ge/ Si4b2:16 Re5:8
+17 | Mi5:8=Sagı- Mi5:16=nı Re5:16 Sol5:8=tü- Sol5:16=gil Mi5:16
+18 | Re5:8=sar- Si4b2:16=ga- Re5:16 Mi5:8=yır- Mi5:16=sın/ Re5:16
+19 | Si4b2:8=Yıl La4:16=tul- Si4b2:16 Re5:8=dı Si4b2:16=kür- La4:16
+20 | Sol4:8=me- Sol4:8=gen- Sol4:4=ge/

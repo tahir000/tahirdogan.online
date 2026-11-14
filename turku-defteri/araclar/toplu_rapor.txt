@@ -1,4 +1,4 @@
-SymbTr toplu çeviri raporu
+SymbTr 2.4.3 toplu çeviri raporu
 
 Eklenen: 235
 Alınmayan: 65

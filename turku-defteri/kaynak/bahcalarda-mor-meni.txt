@@ -1,0 +1,35 @@
+ad: Bahçalarda Mor Meni
+yore: Gaziantep
+usul: 4/4
+usul-adi: Sofyan
+tempo: 60
+dizi: Tahir
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 3.0, tahir--turku--sofyan--bahcalarda_mor--gaziantep
+---
+1 | Es:8 Do5:16 Re5:16 Re5:8 Re5:8 Re5:8 (Mi5)Re5:16 Do5:16 Do5:4
+2 | Es:8 Si4b2:16 Do5:16 Do5:8 Do5:8 Do5:8 (Re5)Do5:16 Si4b2:16 Si4b2:4
+3 | La4:8 (Si4b2)La4:16 Do5:16 Si4b2:16 La4:16 Do5:8 Do5:16 Si4b2:16 Si4b2:16 La4:16 La4:4
+4 | Es:8 Do5:16 Re5:16 Re5:8 Re5:8 Re5:8 (Mi5)Re5:16 Do5:16 Do5:4
+5 | Es:8 Si4b2:16 Do5:16 Do5:8 Do5:8 Do5:8 (Re5)Do5:16 Si4b2:16 Si4b2:4
+6 | La4:8 (Si4b2)La4:16 Do5:16 Si4b2:16 La4:16 Do5:8 Do5:16 Si4b2:16 Si4b2:16 La4:16 La4:4
+[Söz]
+7 | Es:8 Fa5#3:16=Bah- Sol5:16=ça- Sol5:16=lar- Fa5#3:16 Sol5:8=da Sol5:16=mor Fa5#3:16 Sol5:16=me- Fa5#3:16 Fa5#3:4=ni/
+8 | Sol5:16=Ve- Fa5#3:16=rem Sol5:16 Mi5:16 Mi5:8=et- (Fa5#3)Mi5:16=tin Re5:16 Re5:16=sen Mi5:16 Mi5:16=be- Re5:16 Re5:4=ni/
+9 | Es:8 Fa5#3:16=Bah- Sol5:16=ça- Sol5:16=lar- Fa5#3:16 Sol5:8=da Sol5:16=mor Fa5#3:16 Sol5:16=me- Fa5#3:16 Fa5#3:4=ni/
+10 | Sol5:16=Ve- Fa5#3:16=rem Sol5:16 Mi5:16 Mi5:8=et- (Fa5#3)Mi5:16=tin Re5:16 Re5:16=sen Mi5:16 Mi5:16=be- Re5:16 Re5:4=ni/
+11 | Es:8 Do5:16=Na- Re5:16=sıl Re5:8=ve- Re5:8=rem Re5:8=ol- (Mi5)Re5:16 Do5:16=yım/ Do5:4
+12 | Es:8 Si4b2:16=El- Do5:16=ler Do5:8=sa- Do5:8=rı- Do5:8=yor (Re5)Do5:16=se- Si4b2:16 Si4b2:4=ni/
+13 | La4:8=El- (Si4b2)La4:16=ler Do5:16 Si4b2:16=sa- La4:16 Do5:8=rı- Do5:16=yor Si4b2:16 Si4b2:16=se- La4:16 La4:4=ni/
+14 | Es:8 Do5:16=Ben Re5:16=sa- Mi5:16=na Mi5:8.=yan- Mi5:8=dım Mi5:32=ge- Fa5:32 Re5:16 Re5:4=lin/
+15 | Es:8 Do5:16=Ya- Re5:16=na- Re5:16=ğı Re5:8.=al- Re5:16=lı Re5:16=ge- Mi5:16 Do5:16 Do5:4=lin/
+16 | Es:8 Si4b2:16=Ga- Do5:16=zi- Do5:8=an- Do5:8=tep Do5:16=yo- Do5:16=lun- Re5:16 Si4b2:16 Si4b2:4=da/
+17 | La4:8=Öl- (Si4b2)La4:16 Do5:16=dün Si4b2:16 La4:16=be- Do5:8=ni Do5:16=ge- Si4b2:16 Si4b2:16 La4:16 La4:4=lin/
+18 | Es:8 Do5:16=Ben Re5:16=sa- Mi5:16=na Mi5:8.=yan- Mi5:8=dım Mi5:32=ge- Fa5:32 Re5:16 Re5:4=lin/
+19 | Es:8 Do5:16=Ya- Re5:16=na- Re5:16=ğı Re5:8.=al- Re5:16=lı Re5:16=ge- Mi5:16 Do5:16 Do5:4=lin/
+20 | Es:8 Si4b2:16=Ga- Do5:16=zi- Do5:8=an- Do5:8=tep Do5:16=yo- Do5:16=lun- Re5:16 Si4b2:16 Si4b2:4=da/
+21 | La4:8=Öl- (Si4b2)La4:16 Do5:16=dün Si4b2:16 La4:16=be- Do5:8=ni Do5:16=ge- Si4b2:16 Si4b2:16 La4:16 La4:4=lin/

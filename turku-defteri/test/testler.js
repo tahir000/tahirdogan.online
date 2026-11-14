@@ -116,7 +116,7 @@
     dene(kayit.id + ': her ölçü usule tam oturuyor', kotu.length === 0, kotu.join(', '));
     dene(kayit.id + ': her notanın sapta perdesi var', perdesiz.length === 0, perdesiz.join(', '));
     dene(kayit.id + ': en az 20 nota var', toplamNota >= 20, String(toplamNota));
-    if (!P.sozMetni(t, 1).length) sozsuz.push(kayit.id);
+    if (!t.bicim && !P.sozMetni(t, 1).length) sozsuz.push(kayit.id);
     var vurusHatasi = [];
     t.olculer.forEach(function (o, i) {
       var v = P.vuruslar(t, i);

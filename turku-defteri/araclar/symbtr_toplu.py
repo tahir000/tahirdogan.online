@@ -29,7 +29,9 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import symbtr_al as S  # noqa: E402
 
 YORELER = {
-    "": "", "adana": "Adana", "adiyaman": "Adıyaman", "afyon": "Afyon", "afyon-sandikli": "Afyon, Sandıklı",
+    "": "", "anonim": "", "_anonim_": "", "adana": "Adana", "beypazari": "Beypazarı", "bozuyuk": "Bozüyük", "ege": "Ege",
+    "kütahya": "Kütahya", "merzifon": "Merzifon", "mugla-milas": "Muğla, Milas", "rumeli_uskup": "Rumeli, Üsküp",
+    "samsun": "Samsun", "sinop": "Sinop", "zonguldak": "Zonguldak", "adiyaman": "Adıyaman", "afyon": "Afyon", "afyon-sandikli": "Afyon, Sandıklı",
     "akdagmadeni": "Akdağmadeni", "ankara": "Ankara", "antalya": "Antalya", "artvin": "Artvin", "aydin": "Aydın",
     "azeri": "Azerbaycan", "bartin": "Bartın", "biga": "Biga", "bilecik": "Bilecik", "bolu": "Bolu", "burdur": "Burdur",
     "bursa": "Bursa", "canakkale": "Çanakkale", "cankiri": "Çankırı", "corum": "Çorum", "denizli": "Denizli",
@@ -44,6 +46,12 @@ YORELER = {
     "trabzon": "Trabzon", "trakya": "Trakya", "tunceli": "Tunceli", "urfa": "Urfa", "usak": "Uşak", "yozgat": "Yozgat",
 }
 ANONIM_SOZ = ("[Anonim]", "(Anonim)", "?", "-", "")
+# Alınan halk müziği biçimleri (dosya adındaki ikinci alan) ve sitede görünen adları
+BICIMLER = {
+    "turku": "Türkü", "rumeliturkusu": "Türkü", "azeriturku": "Türkü", "zeybek": "Zeybek", "karsilama": "Karşılama",
+    "oyunhavasi": "Oyun havası", "kosma": "Koşma", "nefes": "Nefes", "ninni": "Ninni", "divan": "Divan", "destan": "Destan",
+    "bozlak": "Bozlak", "kurthavasi": "Kürt havası", "guvende": "Güvende", "kasaphavasi": "Kasap havası", "mandra": "Mandra",
+}
 
 HARF = {"Do": 0, "Re": 2, "Mi": 4, "Fa": 5, "Sol": 7, "La": 9, "Si": 11}
 DEGISIM = {"": 0, "b": -2, "b2": -1, "#": 2, "#3": 1}
@@ -67,18 +75,22 @@ def calinir(ad):
 
 
 def baslik_oku(yol):
+    """mu2 başlığındaki alanlar: 50 makam, 57 biçim, 58 besteci ya da kaynak kişi, 59 söz, 60 ad."""
     ham = open(yol, "rb").read()
-    for kod in ("utf-8", "cp1254"):
+    if ham[:2] in (b"\xff\xfe", b"\xfe\xff"):
+        metin = ham.decode("utf-16", errors="replace")
+    else:
         try:
-            metin = ham.decode(kod)
-            break
+            metin = ham.decode("utf-8")
         except UnicodeDecodeError:
-            continue
+            metin = ham.decode("cp1254", errors="replace")
     alan = {}
     for satir in metin.splitlines()[:30]:
         p = satir.split("\t")
-        if len(p) >= 8 and p[0] in ("50", "58", "59", "60") and p[0] not in alan:
+        if len(p) >= 8 and p[0] in ("50", "57", "58", "59", "60") and p[0] not in alan:
             alan[p[0]] = p[7].strip()
+        if len(p) >= 8 and p[0] == "51" and "usul" not in alan and p[2].strip().isdigit() and p[3].strip().isdigit():
+            alan["usul"] = (int(p[2]), int(p[3]), p[7].strip())
     return alan
 
 
@@ -121,8 +133,9 @@ def zorluk_bul(olculer, tempo):
 
 
 def var_olanlar(kaynak):
-    """kaynak/ klasöründeki dosyalar: SymbTr adı -> (dosya, toplu mu)."""
+    """kaynak/ klasöründeki dosyalar: SymbTr adı -> (dosya, toplu mu); ayrıca (ad, usul) çiftleri."""
     bulunan, kimlikler = {}, {}
+    adlar = set()
     for ad in os.listdir(kaynak):
         if not ad.endswith(".txt"):
             continue
@@ -132,20 +145,27 @@ def var_olanlar(kaynak):
         m = re.search(r"^kaynak: SymbTr [\d.]+, (\S+)\s*$", ust, re.M)
         if m:
             bulunan[m.group(1)] = (ad[:-4], toplu)
-    return bulunan, kimlikler
+        m_ad = re.search(r"^ad: (.+)$", ust, re.M)
+        m_usul = re.search(r"^usul: (\S+)", ust, re.M)
+        if m_ad and m_usul:
+            adlar.add((kimlik_yap(m_ad.group(1)), m_usul.group(1)))
+    return bulunan, kimlikler, adlar
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--txt", required=True)
     ap.add_argument("--mu2", required=True)
+    ap.add_argument("--surum", default="2.4.3", help="veri setinin sürümü (kaynak satırına yazılır)")
+    ap.add_argument("--yalniz-yeni", action="store_true", help="kaynak/ içinde olan türkülere dokunma, yalnız olmayanları ekle")
+    ap.add_argument("--rapor", default="toplu_rapor.txt")
     a = ap.parse_args()
     kok = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     kaynak = os.path.join(kok, "kaynak")
-    bulunan, kimlikler = var_olanlar(kaynak)
+    bulunan, kimlikler, adlar = var_olanlar(kaynak)
     # Yeniden üretimde eski toplu dosyalar silinmez, üzerine yazılır
     eklenen, atlanan = [], []
-    kullanilan = set(k for k, toplu in kimlikler.items() if not toplu)
+    kullanilan = set(k for k, toplu in kimlikler.items() if a.yalniz_yeni or not toplu)
 
     for dosya in sorted(os.listdir(a.txt)):
         if not dosya.endswith(".txt"):
@@ -155,23 +175,38 @@ def main():
         if len(parca) != 5:
             atlanan.append((symbtr, "dosya adı beklenen biçimde değil"))
             continue
+        if parca[1] not in BICIMLER:
+            continue
+        if a.yalniz_yeni and symbtr in bulunan:
+            continue
         if symbtr in bulunan and not bulunan[symbtr][1]:
             atlanan.append((symbtr, "zaten var (elle): " + bulunan[symbtr][0]))
             continue
         mu2 = os.path.join(a.mu2, symbtr + ".mu2")
         baslik = baslik_oku(mu2) if os.path.exists(mu2) else {}
-        ad = S.sapkasiz(baslik.get("60", "")).strip()
+        ad = S.sapkasiz(baslik.get("60", "")).replace("`", "'").replace("´", "'").strip()
         if not ad:
             atlanan.append((symbtr, "başlık okunamadı"))
+            continue
+        satirlar = S.oku(os.path.join(a.txt, dosya))
+        ilk = satirlar[0] if satirlar else None
+        ilk_usul = None if (ilk and ilk["Kod"] == S.USUL_SATIRI) else baslik.get("usul")
+        usul_satiri = [s for s in satirlar if s["Kod"] == S.USUL_SATIRI]
+        if ilk_usul:
+            usul_metni = "%d/%d" % ilk_usul[:2]
+        else:
+            usul_metni = "%s/%s" % (usul_satiri[0]["Pay"], usul_satiri[0]["Payda"]) if usul_satiri else ""
+        if symbtr not in bulunan and (kimlik_yap(ad), usul_metni) in adlar:
+            atlanan.append((symbtr, "aynı adla ve usulle zaten var: " + ad))
             continue
         if parca[4] not in YORELER:
             atlanan.append((symbtr, "bestecisi yazıyor: " + parca[4].replace("_", " ")))
             continue
         if baslik.get("59", "") not in ANONIM_SOZ:
-            atlanan.append((symbtr, "söz yazarı yazıyor: " + S.sapkasiz(baslik.get("59", ""))))
+            atlanan.append((symbtr, "söz yazarı yazıyor: " + S.sapkasiz(baslik.get("59", "")).replace("´", "'")))
             continue
         try:
-            olculer, tempo, uyarilar = S.olculere_bol(S.oku(os.path.join(a.txt, dosya)))
+            olculer, tempo, uyarilar = S.olculere_bol(satirlar, ilk_usul)
         except (ValueError, KeyError) as h:
             atlanan.append((symbtr, "okunamadı: %s" % h))
             continue
@@ -206,16 +241,17 @@ def main():
 
         bilgi = types.SimpleNamespace(
             ad=ad, yore=YORELER[parca[4]], dizi=makam_adi(baslik.get("50", "")),
-            zorluk=zorluk_bul(olculer, tempo), aciklama="")
+            zorluk=zorluk_bul(olculer, tempo), aciklama="", surum=a.surum, bicim=BICIMLER[parca[1]])
+        adlar.add((kimlik_yap(ad), usul_metni))
         metin, gecis = S.yaz(olculer, tempo, S.katla(olculer), bilgi, symbtr)
         metin = metin.replace("\ndurum: taslak\n", "\ndurum: taslak\nceviri: toplu\n", 1)
         io.open(os.path.join(kaynak, kimlik + ".txt"), "w", encoding="utf-8").write(metin)
         eklenen.append((kimlik, ad, bilgi.yore, bilgi.zorluk, len(olculer), gecis))
 
     # Artık üretilmeyen eski toplu dosyaları bildir (silmez)
-    artik = sorted(k for k, toplu in kimlikler.items() if toplu and k not in kullanilan)
+    artik = [] if a.yalniz_yeni else sorted(k for k, toplu in kimlikler.items() if toplu and k not in kullanilan)
 
-    rapor = ["SymbTr toplu çeviri raporu", "", "Eklenen: %d" % len(eklenen), "Alınmayan: %d" % len(atlanan), ""]
+    rapor = ["SymbTr %s toplu çeviri raporu%s" % (a.surum, " (yalnız yeni eserler)" if a.yalniz_yeni else ""), "", "Eklenen: %d" % len(eklenen), "Alınmayan: %d" % len(atlanan), ""]
     nedenler = {}
     for _, neden in atlanan:
         anahtar = neden.split(":")[0]
@@ -234,7 +270,7 @@ def main():
         rapor.append("  %-70s %s" % (symbtr, neden))
     if artik:
         rapor += ["", "ARTIK ÜRETİLMEYEN ESKİ TOPLU DOSYALAR (elle silinmeli)"] + ["  " + k for k in artik]
-    io.open(os.path.join(kok, "araclar", "toplu_rapor.txt"), "w", encoding="utf-8").write("\n".join(rapor) + "\n")
+    io.open(os.path.join(kok, "araclar", a.rapor), "w", encoding="utf-8").write("\n".join(rapor) + "\n")
     print("\n".join(rapor[:12 + len(nedenler)]))
 
 

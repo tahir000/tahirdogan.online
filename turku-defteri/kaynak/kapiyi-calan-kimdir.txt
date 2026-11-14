@@ -1,0 +1,62 @@
+ad: Kapıyı Çalan Kimdir
+yore: Urfa
+usul: 10/8
+usul-adi: Curcuna
+kalip: 3+2+2+3
+tempo: 96
+dizi: Hicaz Zirgüle
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 3.0, hicaz_zirgule--turku--curcuna--kapiyi_calan--urfa
+---
+[Aranağme]
+1 | La4:8 Si4b:8 Do5#3:4 Si4b:8 La4:8 Si4b:8 Do5#3:4 Si4b:8
+2 | La4:8 Si4b:8 Do5#3:4 Si4b:8 Si4b:8 La4:8 Si4b:4 La4:8
+3 | La4:8 Si4b:8 Do5#3:4 Si4b:8 La4:8 Si4b:8 Do5#3:4 Si4b:8
+4 | La4:8 Si4b:8 Re5:8 Do5#3:8 Si4b:8 Si4b:8 La4:8 La4:4.
+5 | La4:8 Es:8 Mi5:8 Mi5:8 Re5:8 Re5:8 Do5#3:8 Re5:4.
+[Söz]
+6 | Re5:8 Es:8 La4:8=Ka- Re5:4=pı- Re5:4=yı Re5:16=ça- Mi5:16 Do5#3:16 Mi5:16 Si4b:8
+7 | Si4b:16=lan Do5#3:16 Re5:16 Mi5:16 Re5:8 Re5:4=kim- Re5:16=dir/ Mi5:16 Do5#3:4. Si4b:16 Do5#3:16
+8 | Si4b:8 Es:8 Do5#3:8=Ka- Re5:4=pı- Re5:4=yı Re5:8=ça- Si4b:4
+9 | Do5#3:4=lan Do5#3:8 Re5:16=kim- Mi5:16 Re5:8 Re5:5/8=dir/
+10 | Do5#3:8=Aç Re5:8 Mi5:8 Re5:4=ba- Re5:16=hım Si4b:8. Do5#3:4.=ge-
+11 | Si4b:16=len Do5#3:16 La4:8 Si4b:8 (Do5#3)Re5:4=kim- Re5:16=dir/ Mi5:16 Do5#3:16 Re5:16 Si4b:16 Do5#3:16 Si4b:4
+12 | Do5#3:8=Aç Re5:16 Mi5:16 Re5:8 Do5#3:16=ba- Re5:16 Mi5:8 Mi5:16=hım Do5#3:8. Si4b:16=ge- La4:16 Si4b:8 Do5#3:16 Re5:16
+13 | Do5#3:16=len Re5:16 Do5#3:8 Re5:8 Re5:16=kim- La4:8. La4:5/8=dir/
+[Saz]
+14 | La4:8 Es:8 Mi5:8 Mi5:8 Re5:8 Re5:8 Do5#3:8 Re5:4.
+[Söz]
+15 | Re5:8 Es:8 Do5#3:8=Ya- Re5:4=ram Do5#3:12=de- Re5:12 Mi5:12 Mi5:8=ri- Do5#3:16 Re5:16 Si4b:8
+16 | Do5#3:16=ne Re5:16 (Do5#3)Re5:4 Re5:4=düş- Re5:16=tü/ Mi5:16 Do5#3:4. Si4b:16 Do5#3:16
+17 | Si4b:16 La4:16 Si4b:8 Do5#3:8=Ya- Re5:4=ra Re5:16=de- Do5#3:16 Re5:8 Re5:8=ri- Si4b:4
+18 | Do5#3:16=ne Re5:16 Do5#3:8 Re5:8 Re5:4=düş- Re5:16=tü/ Mi5:16 Do5#3:16 Mi5:16 Re5:16 Mi5:16 Re5:4
+19 | Do5#3:8=Bel- Re5:8 Mi5:32 Re5:16. (Do5#3)Re5:4=ki Re5:8=ge- Do5#3:8 Do5#3:16=len Re5:16 Si4b:8 La4:8
+20 | La4:16=he- Si4b:16 La4:8 Si4b:8 Do5#3:16=kim- Re5:8. Re5:16=dir/ Mi5:16 Do5#3:16 Re5:16 Si4b:16 Do5#3:16 Si4b:4
+21 | Do5#3:8=Bel- Re5:16 Mi5:16 Re5:8 Re5:16=ki Mi5:16 Do5#3:16 Re5:16 Do5#3:16=ge- Re5:16 Si4b:8 Si4b:8=len Do5#3:8 La4:8
+22 | La4:16=he- Mi5:16 Re5:16 Do5#3:16 Re5:8 Si4b:8=kim- La4:8 La4:5/8=dir/
+[Saz]
+23 | La4:8 Es:8 Mi5:8 Mi5:8 Re5:8 Re5:8 Do5#3:8 Re5:4.
+[Söz]
+24 | Re5:8 Es:8 (Re5)Do5#3:8=Koy Re5:4=de- Re5:4=sin- Re5:16=ler Mi5:16 Do5#3:16 Re5:16 Si4b:8
+25 | Do5#3:12=de- Re5:12 Mi5:12 Re5:8 Re5:4=sin- (Mi5)Re5:8=ler/ Do5#3:16 Re5:16 Do5#3:4.
+26 | Si4b:16 La4:16 Si4b:8 Do5#3:8=Koy Re5:4=de- Re5:16=sin- Mi5:16 Do5#3:16 Re5:16 Si4b:16=ler Do5#3:16 Si4b:4
+27 | La4:8 Es:8 Do5#3:8=de- Re5:4=sin- Re5:16=ler/ Mi5:16 Do5#3:16 Mi5:16 Re5:4.
+28 | Do5#3:8=O Re5:8 Mi5:16 Re5:16 Re5:4=dil- Mi5:16=le- Do5#3:16 Re5:8 Do5#3:16=ri Re5:16 Do5#3:8 Si4b:16 La4:16
+29 | Si4b:4=ye- Si4b:8 Do5#3:16=sin- Re5:8. Re5:16=ler/ Mi5:16 Do5#3:16 Re5:16 Si4b:16 Do5#3:16 Si4b:16 Do5#3:16 Si4b:8
+30 | Si4b:8 La4:8 (Mi5)Re5:8=O Re5:8=dil- Do5#3:8 Re5:8=le- Do5#3:8 Si4b:16=ri Do5#3:16 Si4b:16 Do5#3:16 Si4b:8
+31 | Si4b:16=ye- Do5#3:16 Re5:4 Re5:8=sin- La4:8 La4:5/8=ler/
+[Saz]
+32 | La4:8 Es:8 Mi5:8 Mi5:8 Re5:8 Re5:8 Do5#3:8 Re5:4.
+[Söz]
+33 | Re5:8 Es:8 Do5#3:8=Ha- Re5:4=lep- Do5#3:12=li Re5:12 Mi5:12 Mi5:8=bah- Do5#3:16 Re5:16 Si4b:8
+34 | Do5#3:4=ça- Re5:8 Re5:4=sın- Re5:16=da/ Mi5:16 Do5#3:16 Re5:16 Si4b:16 Re5:16 Do5#3:4
+35 | Si4b:16 La4:16 Si4b:8 Do5#3:8=Ha- Re5:4=lep- Do5#3:12=li Re5:12 Mi5:12 Mi5:16=bah- Do5#3:16 Re5:16 Si4b:8.
+36 | Do5#3:4=ça- Re5:8 Re5:4=sın- Re5:16=da/ Mi5:16 Do5#3:16 Mi5:16 Re5:4.
+37 | Re5:16=Ne- Mi5:16 Re5:8 Mi5:8=si- Mi5:16=mem Fa5#3:16 Re5:16 Mi5:16 Do5#3:8=oy- Re5:8 Re5:8=nar Do5#3:4
+38 | Si4b:4.=de- Si4b:8=sin- Do5#3:8 Re5:16=ler/ Mi5:16 Do5#3:16 Re5:16 Si4b:16 Do5#3:16 Si4b:4
+39 | Re5:16=Fe- Mi5:16 Re5:8 Re5:16=ri- Mi5:16 Re5:16=dem Mi5:16 Do5#3:16 Re5:16 Do5#3:16=oy- Re5:16 Si4b:16 Do5#3:16 Si4b:16=nar Do5#3:16 Si4b:4
+40 | Mi5:8=de- (Fa5#3)Re5:8 (Mi5)Do5#3:8 (Re5)Si4b:8=sin- La4:8 La4:5/8=ler/

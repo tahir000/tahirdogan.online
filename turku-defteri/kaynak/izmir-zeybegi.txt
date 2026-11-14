@@ -1,0 +1,43 @@
+ad: İzmir Zeybeği
+yore: İzmir
+usul: 9/8
+usul-adi: Aksak
+kalip: 2+2+2+3
+tempo: 54
+dizi: Hicaz
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 3.0, hicaz--zeybek--aksak--izmir_zeybegi--izmir
+bicim: Zeybek
+---
+1 | Mi5:8 Re5:16 Mi5:16 Sol5:16 Fa5:16 Mi5:16 Re5:16 Do5#:16 Re5:16 Do5#:16 Si4b:16 La4:16 Si4b:16 Do5#:16 Re5:16 Mi5:8
+2 | Mi5:8 Re5:16 Mi5:16 Sol5:16 Fa5:16 Mi5:16 Re5:16 Do5#:16 Re5:16 Do5#:16 Si4b:16 La4:8 La4:8 La4:8
+3 | Mi5:8 Re5:16 Mi5:16 Sol5:16 Fa5:16 Mi5:16 Re5:16 Do5#:16 Re5:16 Do5#:16 Si4b:16 La4:16 Si4b:16 Do5#:16 Re5:16 Mi5:8
+4 | Mi5:8 Re5:16 Mi5:16 Sol5:16 Fa5:16 Mi5:16 Re5:16 Do5#:16 Re5:16 Do5#:16 Si4b:16 La4:8 La4:8 La4:8
+5 | Sol4:8 La4:16 Si4b:16 Sol4:8 La4:16 Si4b:16 Do5#:16 Re5:16 Do5#:16 Si4b:16 La4:16 Si4b:16 Do5#:16 Re5:16 Mi5:8
+6 | Sol4:8 La4:16 Si4b:16 Sol4:8 La4:16 Si4b:16 Do5#:16 Re5:16 Do5#:16 Si4b:16 La4:8 La4:8 La4:8
+7 | Sol4:8 La4:16 Si4b:16 Sol4:8 La4:16 Si4b:16 Do5#:16 Re5:16 Do5#:16 Si4b:16 La4:16 Si4b:16 Do5#:16 Re5:16 Mi5:8
+8 | Sol4:8 La4:16 Si4b:16 Sol4:8 La4:16 Si4b:16 Do5#:16 Re5:16 Do5#:16 Si4b:16 La4:8 La4:8 La4:8
+9 | Mi5:16 Fa5#:16 Sol5:16 La5:16 Sol5:8 La5:16 Sol5:16 Sol5:16 Fa5#:16 Fa5#:16 Mi5:16 La5:8 La5:8 La5:8
+10 | Mi5:16 Fa5#:16 Sol5:16 La5:16 Sol5:8 La5:16 Sol5:16 Sol5:16 Fa5#:16 Fa5#:16 Mi5:16 Mi5:8 Mi5:8 Mi5:8
+11 | Mi5:16 Fa5#:16 Sol5:16 La5:16 Sol5:8 La5:16 Sol5:16 Sol5:16 Fa5#:16 Fa5#:16 Mi5:16 La5:8 La5:8 La5:8
+12 | Mi5:16 Fa5#:16 Sol5:16 La5:16 Sol5:8 La5:16 Sol5:16 Sol5:16 Fa5#:16 Fa5#:16 Mi5:16 Mi5:8 Mi5:8 Mi5:8
+13 | Mi5:16 Fa5#:16 Sol5:16 La5:16 Sol5:16 Fa5:16 Mi5:16 Re5:16 Do5#:16 Re5:16 Do5#:16 Si4b:16 La4:16 Si4b:16 Do5#:16 Re5:16 Mi5:8
+14 | Mi5:16 Fa5#:16 Sol5:16 La5:16 Sol5:16 Fa5:16 Mi5:16 Re5:16 Do5#:16 Re5:16 Do5#:16 Si4b:16 La4:8 La4:8 La4:8
+15 | Mi5:16 Fa5#:16 Sol5:16 La5:16 Sol5:16 Fa5:16 Mi5:16 Re5:16 Do5#:16 Re5:16 Do5#:16 Si4b:16 La4:16 Si4b:16 Do5#:16 Re5:16 Mi5:8
+16 | Mi5:16 Fa5#:16 Sol5:16 La5:16 Sol5:16 Fa5:16 Mi5:16 Re5:16 Do5#:16 Re5:16 Do5#:16 Si4b:16 La4:8 La4:8 La4:8
+17 | Sol4:8 La4:16 Si4b:16 Sol4:8 La4:16 Si4b:16 Do5#:16 Re5:16 Do5#:16 Si4b:16 La4:16 Si4b:16 Do5#:16 Re5:16 Mi5:8
+18 | Sol4:8 La4:16 Si4b:16 Sol4:8 La4:16 Si4b:16 Do5#:16 Re5:16 Do5#:16 Si4b:16 La4:8 La4:8 La4:8
+19 | Sol4:8 La4:16 Si4b:16 Sol4:8 La4:16 Si4b:16 Do5#:16 Re5:16 Do5#:16 Si4b:16 La4:16 Si4b:16 Do5#:16 Re5:16 Mi5:8
+20 | Sol4:8 La4:16 Si4b:16 Sol4:8 La4:16 Si4b:16 Do5#:16 Re5:16 Do5#:16 Si4b:16 La4:8 La4:8 La4:8
+21 | La4:16 Sol5:16 Fa5#:16 Re5:16 Mi5:16 Re5:16 La5:16 Fa5#:16 Sol5:16 La5:16 Fa5#:16 Re5:16 Mi5:16 Re5:16 La5:16 Re5:16 La5:8
+22 | Sol5:8 Fa5#:16 Re5:16 Mi5:16 Re5:16 La5:16 Fa5#:16 Sol5:16 La5:16 Fa5#:16 Re5:16 Mi5:8 Mi5:8 Mi5:8
+23 | La4:16 Sol5:16 Fa5#:16 Re5:16 Mi5:16 Re5:16 La5:16 Fa5#:16 Sol5:16 La5:16 Fa5#:16 Re5:16 Mi5:16 Re5:16 La5:16 Re5:16 La5:8
+24 | Sol5:8 Fa5#:16 Re5:16 Mi5:16 Re5:16 La5:16 Fa5#:16 Sol5:16 La5:16 Fa5#:16 Re5:16 Mi5:8 Mi5:8 Mi5:8
+25 | Mi5:8 Re5:16 Mi5:16 Sol5:16 Fa5:16 Mi5:16 Re5:16 Do5#:16 Re5:16 Do5#:16 Si4b:16 La4:16 Si4b:16 Do5#:16 Re5:16 Mi5:8
+26 | Mi5:8 Re5:16 Mi5:16 Sol5:16 Fa5:16 Mi5:16 Re5:16 Do5#:16 Re5:16 Do5#:16 Si4b:16 La4:8 La4:8 La4:8
+27 | Mi5:8 Re5:16 Mi5:16 Sol5:16 Fa5:16 Mi5:16 Re5:16 Do5#:16 Re5:16 Do5#:16 Si4b:16 La4:16 Si4b:16 Do5#:16 Re5:16 Mi5:8
+28 | Mi5:8 Re5:16 Mi5:16 Sol5:16 Fa5:16 Mi5:16 Re5:16 Do5#:16 Re5:16 Do5#:16 Si4b:16 La4:8 La4:8 La4:8

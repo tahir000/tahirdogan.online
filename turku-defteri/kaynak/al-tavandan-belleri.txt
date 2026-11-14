@@ -1,0 +1,30 @@
+ad: Al Tavandan Belleri
+yore: Ordu
+usul: 5/8
+usul-adi: Zafer
+tempo: 90
+dizi: Hicaz
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 3.0, hicaz--turku--zafer--al_tavandan--ordu
+---
+[Söz]
+1 | Re5:16=Al Do5#:16 Re5:8 Mi5:8=ta- Re5:8=van- Do5#:8=dan
+2 | Si4b:8=bel- La4:4=le- Si4b:8=ri La4:8
+3 | Si4b:16=bel- La4:16 Re5:8 Mi5:8=le Re5:8=bel- Do5#:8=le-
+4 | Si4b:8=me- La4:4=le- La4:4=ri/
+5 | Re5:16=Al Do5#:16 Re5:8 Mi5:8=ta- Re5:8=van- Do5#:8=dan
+6 | Si4b:8=bel- La4:4=le- Si4b:8=ri La4:8
+7 | Si4b:16=bel- La4:16 Re5:8 Mi5:8=le Re5:8=bel- Do5#:8=le-
+8 | Si4b:8=me- La4:4=le- La4:4=ri/
+9 | Si4b:16=Bu La4:16 Si4b:8 Si4b:8=yıl Si4b:8=al- Si4b:8=dat-
+10 | Si4b:16=tın La4:16 Si4b:8 Si4b:8=be- Si4b:8=ni La4:8
+11 | Si4b:16=se- La4:16 Si4b:8 Re5:8=vin- Re5:8=dir- Do5#:8=din
+12 | Si4b:8=el- La4:4=le- La4:4=ri/
+13 | Si4b:16=Bu La4:16 Si4b:8 Si4b:8=yıl Si4b:8=al- Si4b:8=dat-
+14 | Si4b:16=tın La4:16 Si4b:8 Si4b:8=be- Si4b:8=ni La4:8
+15 | Si4b:16=se- La4:16 Si4b:8 Re5:8=vin- Re5:8=dir- Do5#:8=din
+16 | Si4b:8=el- La4:4=le- La4:4=ri/

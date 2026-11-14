@@ -1,0 +1,30 @@
+ad: Düğün Havası
+yore: 
+usul: 2/4
+usul-adi: Nimsofyan
+tempo: 90
+dizi: Dügah Maye
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 3.0, dugah-maye--oyunhavasi--sofyan--dugun_havasi--anonim
+bicim: Oyun havası
+---
+1 | Sol4:4 Sol4:8 Si4b2:16 Do5:16
+2 | Re5:8 Do5:16 Si4b2:16 La4:4
+3 | Si4b2:16 Do5:16 Si4b2:16 La4:16 Si4b2:8 Do5:8
+4 | Si4b2:16 Do5:16 La4:16 Si4b2:16 Sol4:4
+5 | Sol4:4 Sol4:8 Si4b2:16 Do5:16
+6 | Re5:8 Do5:16 Si4b2:16 La4:4
+7 | Si4b2:16 Do5:16 Si4b2:16 La4:16 Si4b2:8 Do5:8
+8 | Si4b2:16 Do5:16 La4:16 Si4b2:16 Sol4:4
+9 | Re5:8 Re5:8 La4:4
+10 | Si4b2:16 Do5:16 Si4b2:16 La4:16 Sol4:4
+11 | Re5:8 Re5:8 La4:4
+12 | Si4b2:16 La4:16 Si4b2:16 Do5:16 Sol4:4
+13 | Fa4#:16 Sol4:16 Fa4#:16 Sol4:16 Fa4#:16 Sol4:16 Fa4#:16 Sol4:16
+14 | La4:4 Es:4
+15 | Fa4#:16 Sol4:16 Fa4#:16 Sol4:16 Fa4#:16 Sol4:16 Fa4#:16 Sol4:16
+16 | La4:4 Es:4

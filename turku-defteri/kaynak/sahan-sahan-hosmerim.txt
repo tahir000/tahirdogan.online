@@ -1,0 +1,26 @@
+ad: Sahan Sahan Höşmerim
+yore: Afyon
+usul: 9/8
+usul-adi: Oynak
+kalip: 2+3+2+2
+tempo: 56
+dizi: Karcığar
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 3.0, karcigar--turku--oynak--sahan_sahan--afyon
+---
+[Söz]
+1 | Re5:8=Sa- Re5:32=han Mi5b2:32 Re5:32 Mi5b2:32 Do5:32 Si4b2:32 Do5:16 Re5:8=sa- Mi5b2:16=han Fa5#3:16 Mi5b2:16=höş- Re5:16 Do5:16=me- Si4b2:16 Do5:4=rim/
+2 | Re5:8=Sa- Re5:32=han Mi5b2:32 Re5:32 Mi5b2:32 Do5:32 Si4b2:32 Do5:16 Re5:8=sa- Mi5b2:16=han Fa5#3:16 Mi5b2:16=höş- Re5:16 Do5:16=me- Si4b2:16 Do5:4=rim/
+3 | Re5:8=Ner- Re5:16=de Re5:16 La4:8 La4:16=kal- Si4b2:16 Do5:16=dı Re5:16 Do5:16=Nes- Si4b2:16 Si4b2:16=me- La4:16 La4:4=rim/
+4 | Re5:8=Ner- Re5:16=de Re5:16 La4:8 La4:16=kal- Si4b2:16 Do5:16=dı Re5:16 Do5:16=Nes- Si4b2:16 Si4b2:16=me- La4:16 La4:4=rim/
+5 | Re5:8=E- Re5:32=ğer Mi5b2:32 Re5:32 Mi5b2:32 Do5:32 Si4b2:32 Do5:16 Re5:8=böy- Mi5b2:16=le Fa5#3:16 Mi5b2:16=ya- Re5:16 Si4b2:16=par- Do5:16 Do5:4=san/
+6 | Re5:8=E- Re5:32=ğer Mi5b2:32 Re5:32 Mi5b2:32 Do5:32 Si4b2:32 Do5:16 Re5:8=böy- Mi5b2:16=le Fa5#3:16 Mi5b2:16=ya- Re5:16 Si4b2:16=par- Do5:16 Do5:4=san/
+7 | Re5:8=İ- Re5:16=nan Re5:16 La4:8 La4:16=ol- Si4b2:16 Do5:16=sun Re5:16 Do5:16=kü- Si4b2:16 Si4b2:16=se- La4:16 La4:4=rim/
+8 | Re5:8=İ- Re5:16=nan Re5:16 La4:8 La4:16=ol- Si4b2:16 Do5:16=sun Re5:16 Do5:16=kü- Si4b2:16 Si4b2:16=se- La4:16 La4:4=rim/
+9 | Mi5:16=Dav- Re5:16 Mi5:8=ran La4:8 Do5:16 Re5:16 Si4b2:16 La4:16 Si4b2:16 Do5:16 Re5:8 La4:4
+10 | Mi5:16=kıv- Re5:16 Mi5:8=ran La4:8 Do5:16 Re5:16 Si4b2:16 La4:16 Si4b2:16 Do5:16 Re5:8 La4:4
+11 | Mi5:16=ır- Re5:16 Mi5:8=lan/ La4:8 Do5:16 Re5:16 Si4b2:16 La4:16 Si4b2:16 Do5:16 Re5:8 La4:4

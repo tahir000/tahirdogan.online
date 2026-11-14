@@ -1,0 +1,25 @@
+ad: Çıkar Gökyüzünde Pervaz İdersin
+yore: 
+usul: 4/4
+usul-adi: Raksan
+tempo: 72
+dizi: Kürdi Gerdaniye
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 3.0, kurdi-gerdaniye--turku--raksan--cikar_gokyuzunde--
+---
+[Söz]
+1 | Sol5:8=Çı- La5:4.=kar Sol5:8.=gök- Sol5:16=yü- Sol5:8=zün- Sol5:8=de
+2 | Sol5:8=per- Sol5:8=vaz Sol5:8=i- Sol5:8=der- Sol5:16=sin/ Fa5#3:16 Mi5b:8 Sol5:4
+3 | Sol5:16=i- Fa5#3:16 Mi5b:4=der- Re5:16 Do5:16 Do5:4=sin/ Es:4
+4 | Sol5:8=Mev- La5:4.=lâ- Sol5:8=yı Sol5:8=se- Sol5:8=ver- Sol5:8=sen
+5 | Sol5:8=dur Sol5:8=se- Re5:8=her Do5:16=ye- Si4b2:16 Do5:16=li/ Si4b2:16 Do5:16 Si4b2:16 Do5:4
+6 | Sol5:8=Şol La5:4.=dî- Sol5:8=dem Sol5:8=kan Sol5:8=i- Sol5:8=le
+7 | Sol5:8=bir Sol5:8=nağ- Sol5:16=me Fa5#3:16 Mi5b:8 Sol5:4. Fa5#3:8
+8 | Mi5b:16=yaz- Re5:16 Do5:16 Si4b2:16 Do5:16 Si4b2:16 Do5:16=dım/ Si4b2:16 Do5:4. Es:8
+9 | Sol5:8=Gö- La5:4=tür Sol5:8 Sol5:8=bu Sol5:8=nağ- Sol5:8=me- Sol5:8=mi
+10 | Sol5:8=vir Sol5:8=se- Re5:4=her Do5:16=ye- Si4b2:16 Do5:4=li/ Es:8
+11 | Si4b2:8=se- Si4b2:8=her Si4b2:8=ye- Si4b2:16=li/ La4:16 La4:4. Es:8

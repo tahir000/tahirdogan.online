@@ -1,0 +1,51 @@
+ad: Çarşamba Dedikleri
+yore: Samsun
+usul: 5/4
+usul-adi: S. Türkaksağı
+tempo: 72
+dizi: Uşşak
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 3.0, ussak--turku--s-turkaksagi--carsamba_dedikleri--samsun
+---
+[Söz]
+1 | Es:8 Sol4:16=Çar- La4:16=şam- La4:8=ba La4:16=de- Mi5:16 Mi5:8=dik- Mi5:8=le- Fa5:16.=ri/ Mi5:32 Re5:16 Mi5:16 Do5:16 Re5:16 Mi5:8
+{usul 2/4 }
+2 | Mi5:8=Şe- Mi5:16=ker- Re5:16 Re5:16 Do5:16 Mi5:16 Re5:16
+3 | Re5:8=dir Re5:16=ye- Do5:16 Do5:32 Re5:32 Do5:16 Re5:8
+4 | Mi5:16=dik- Re5:16 Re5:16=le- Do5:16 Do5:32 Re5:32 Do5:16 Re5:16 Si4b2:16
+5 | Do5:8.=ri/ Re5:16 Si4b2:16 La4:16 Re5:8
+6 | Mi5:16=Şe- Re5:16 Re5:16=ker- Si4b2:16 Do5:16 Si4b2:16 Re5:16 Si4b2:16
+7 | Do5:8=dir Do5:16=ye- Si4b2:16 Si4b2:8 Do5:8
+8 | Si4b2:16=dik- La4:16 La4:4.=le-
+9 | La4:4.=ri/ Es:8
+{usul 5/4 }
+10 | Es:8 Sol4:16=Hiç La4:16=ak- La4:8=lım- La4:16=dan Mi5:16 Mi5:8=çık- Mi5:8=mı- Fa5:16.=yor/ Mi5:32 Re5:16 Mi5:16 Do5:16 Re5:16 Mi5:8
+{usul 2/4 }
+11 | Mi5:8=O Mi5:16=yâ- Re5:16 Re5:16 Do5:16 Mi5:16 Re5:16
+12 | Re5:8=rin Re5:16=de- Do5:16 Do5:32 Re5:32 Do5:16 Re5:8
+13 | Mi5:16=dik- Re5:16 Re5:16=le- Do5:16 Do5:32 Re5:32 Do5:16 Re5:16 Si4b2:16
+14 | Do5:8.=ri/ Re5:16 Si4b2:16 La4:16 Re5:8
+15 | Mi5:16=O Re5:16 Re5:16=yâ- Si4b2:16 Do5:16 Si4b2:16 Re5:16 Si4b2:16
+16 | Do5:8=rin Do5:16=de- Si4b2:16 Si4b2:8 Do5:8
+17 | Si4b2:16=dik- La4:16 La4:4.=le-
+18 | La4:4.=ri/ Es:8
+19 | Es:8 Do5:16=Tel- Re5:16=gı- Re5:16=ra- Re5:8.=fın
+20 | Do5:8=tel- Do5:16=le- Re5:16 Si4b2:8=ri- Re5:8=nin/
+21 | Es:8 Do5:16=Ren- Re5:16=gi Re5:16=kur- Do5:16 Re5:8=şu-
+22 | Do5:8.=nî/ Re5:16 Si4b2:8 Re5:8
+23 | Es:8 Do5:16=Genç Re5:16=ya- Re5:8=şım- Re5:16=da Si4b2:16
+24 | Do5:8=at- Do5:16=ma Si4b2:16 Si4b2:16=ba- La4:16 Re5:8=na/
+25 | Do5:8=Mav- Do5:16=zer Si4b2:16 Si4b2:16=kur- La4:16 La4:8=şu-
+26 | La4:2=nu/
+27 | Es:8 Do5:16=Tel- Re5:16=gı- Re5:16=ra- Re5:8.=fın
+28 | Do5:8=tel- Do5:16=le- Re5:16 Si4b2:8=ri- Re5:8=nin/
+29 | Es:8 Do5:16=Ren- Re5:16=gi Re5:16=kur- Do5:16 Re5:8=şu-
+30 | Do5:8.=nî/ Re5:16 Si4b2:8 Re5:8
+31 | Es:8 Do5:16=Genç Re5:16=ya- Re5:8=şım- Re5:16=da Si4b2:16
+32 | Do5:8=at- Do5:16=ma Si4b2:16 Si4b2:16=ba- La4:16 Re5:8=na/
+33 | Do5:8=Mav- Do5:16=zer Si4b2:16 Si4b2:16=kur- La4:16 La4:8=şu-
+34 | La4:2=nu/

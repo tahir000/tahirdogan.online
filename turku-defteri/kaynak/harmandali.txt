@@ -1,0 +1,23 @@
+ad: Harmandalı
+yore: Ege
+usul: 9/4
+usul-adi: Ağıraksak
+tempo: 57
+dizi: Hicaz Uzzal
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 3.0, hicaz_uzzal--zeybek--agiraksak--harmandali--ege
+bicim: Zeybek
+---
+1 | Re5:8 Mi5:16 Fa5#:16 Sol5:8 Fa5#:24 Mi5:24 Fa5#:24 Sol5:8 Fa5#:24 Mi5:24 Fa5#:24 Sol5:8 La5:8 Mi5:4 Mi5:16 Mi5:8. La4:2 La4:8 Es:8
+2 | Re5:8 Mi5:16 Fa5#:16 Sol5:8 Fa5#:24 Mi5:24 Fa5#:24 Sol5:8 Fa5#:24 Mi5:24 Fa5#:24 Sol5:8 La5:8 Mi5:4 Mi5:16 Mi5:8. La5:2 La5:8 Es:8
+3 | Sol5:16 Sol5:8. Sol5:16 Fa5:16 Mi5:16 Re5:16 Fa5:8. Fa5:16 Mi5:16 Re5:16 Do5#:16 Si4b:16 La4:4 La4:8 Sol4:8 La4:16. Sol4:32 La4:16 Si4b:16 Do5#:8 Re5:8 Mi5:8 Fa5#:8
+4 | (Re5)Sol5:8. Sol5:16 Sol5:16 Fa5:16 Mi5:16 Re5:16 Fa5:8. Fa5:16 Mi5:16 Re5:16 Do5#:16 Si4b:16 La4:4 La4:8 Sol4:8 La4:16 Si4b:16 Do5#:16 Re5:16 Mi5:16 Do5#:16 Re5:16 Si4b:16 La4:8 Es:8
+5 | (Re5)Sol5:8. Sol5:16 Sol5:16 Fa5:16 Mi5:16 Re5:16 Fa5:8. Fa5:16 Mi5:16 Re5:16 Do5#:16 Si4b:16 La4:4 La4:8 Sol4:8 La4:16 Si4b:16 Do5#:16 Re5:16 Mi5:16 Do5#:16 Re5:16 Si4b:16 La4:8 Es:8
+6 | Re5:8. Re5:16 Re5:16 Do5#:16 Si4b:24 La4:24 Si4b:24 (Do5#)Re5:8. Re5:16 Re5:16 Do5#:16 Si4b:16 La4:16 Si4b:4. La4:8 La4:16. Sol4:32 La4:16 Si4b:16 Do5#:8 Re5:8 Mi5:8 Fa5#:8
+7 | (Fa5#)Sol5:4 Sol5:16 Fa5:16 Mi5:16 Re5:16 Mi5:16 Fa5:8. Mi5:16 Re5:16 Do5#:16 Si4b:16 La4:4 La4:8 Sol4:8 La4:16 Si4b:16 Do5#:16 Re5:16 Mi5:16 Do5#:16 Re5:16 Si4b:16 La4:8 Es:8
+8 | Re5:8. Re5:16 Re5:16 Do5#:16 Si4b:24 La4:24 Si4b:24 (Do5#)Re5:8. Re5:16 Re5:16 Do5#:16 Si4b:16 La4:16 Si4b:4. La4:8 La4:16. Sol4:32 La4:16 Si4b:16 Do5#:8 Re5:8 Mi5:8 Fa5#:8
+9 | (Fa5#)Sol5:4 Sol5:16 Fa5:16 Mi5:16 Re5:16 Mi5:16 Fa5:8. Mi5:16 Re5:16 Do5#:16 Si4b:16 La4:4 La4:8 Sol4:8 La4:16 Si4b:16 Do5#:16 Re5:16 Mi5:16 Do5#:16 Re5:16 Si4b:16 La4:8 Es:8

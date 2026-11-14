@@ -1,0 +1,25 @@
+ad: Bahçelerde Mor Meni
+yore: İstanbul
+usul: 2/4
+usul-adi: Nimsofyan
+tempo: 66
+dizi: Hicaz
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 3.0, hicaz--turku--nimsofyan--bahcelerde_mor--istanbul
+---
+[Söz]
+1 | Es:8 Fa4#:16=Bah- Sol4:16=çe- La4:8=ler- Si4b:8=de
+2 | Do5#:8.=mor Re5:16 Do5#:16=me- Si4b:8 La4:16
+3 | Re5:8.=ni Do5#:16 Re5:8 Mi5:16=ka- Fa5:16
+4 | Mi5:16=nar- Re5:8 Do5#:16 Do5#:16=yam/ Si4b:8 La4:16
+5 | Re5:8=Ve- Re5:16=rem Do5#:16 Si4b:16=et- La4:16 La4:16=tin Si4b:16
+6 | Do5#:8.=sen Re5:16 Do5#:16=be- Si4b:16 Si4b:16 La4:16
+7 | La4:4.=ni Do5#:16=ka- Re5:16
+8 | Mi5:16=nar- Re5:8 Do5#:16 Do5#:16=yam/ Si4b:8 La4:16
+9 | Re5:8=Ve- Re5:16=rem Do5#:16 Si4b:16=et- La4:16 La4:16=tin Si4b:16
+10 | Do5#:8.=sen Si4b:16 Do5#:16=be- Si4b:8 La4:16
+11 | La4:2=ni/

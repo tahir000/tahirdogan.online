@@ -36,22 +36,31 @@ Bir çalan türküyü baştan sona denetleyince kaynak dosyasındaki `durum: tas
 
 ## Türküler
 
-240 türkü var: beşi elle seçilip çevrildi (listede "Önce bunları deneyin"), 235'i SymbTr'den toplu çevrildi (kaynak dosyasında `ceviri: toplu`). SymbTr'deki 300 türküden alınmayanlar ve nedenleri `araclar/toplu_rapor.txt` dosyasında:
+294 eser var:
 
-- bestecisi ya da söz yazarı yazan eserler alınmadı (yalnız anonim türküler);
-- bir sesi 23 perdeli sapta, bozuk düzende bulunmayan türküler alınmadı (ör. re bemol 2, mi diyez 3).
+- 5'i elle seçilip çevrildi (listenin ilk sayfası).
+- 235'i SymbTr 2.4.3'ten toplu çevrildi (`araclar/toplu_rapor.txt`).
+- 54'ü SymbTr 3.0'dan eklendi (`araclar/toplu_rapor_3.txt`): yeni türküler ve zeybek, karşılama, oyun havası gibi başka halk müziği biçimleri. Bunların kaynak dosyasında `bicim:` satırı vardır.
+
+Kaynak dosyasında `ceviri: toplu` yazanlar toplu çeviriden gelir. Alınmayanlar ve nedenleri rapor dosyalarında:
+
+- bestecisi ya da söz yazarı yazan eserler alınmadı (yalnız anonim eserler);
+- bir sesi 23 perdeli sapta, bozuk düzende bulunmayan eserler alınmadı (ör. re bemol 2, mi diyez 3);
+- notaları ölçü çizgisine oturmayan birkaç eser alınmadı;
+- 3.0'da adı ve usulü aynı olan eser zaten varsa yeniden alınmadı.
 
 Zorluk etiketi kaba bir tahmindir (`symbtr_toplu.py` içinde `zorluk_bul`): notaların hızına, ses aralığına ve çarpma sayısına bakar.
 
 ## Yeni türkü eklemek
 
-- Toplu çeviriyi yenilemek: `python3 -I araclar/symbtr_toplu.py --txt <SymbTr txt klasörü> --mu2 <SymbTr mu2 klasörü>`, sonra derle ve test et. Betik yalnız `ceviri: toplu` yazan dosyaların üzerine yazar. Bir dosyayı elle düzelttiysen o satırı `ceviri: elle` yap.
+- Toplu çeviriyi yenilemek: `python3 -I araclar/symbtr_toplu.py --txt <SymbTr txt klasörü> --mu2 <SymbTr mu2 klasörü>`, sonra derle ve test et.
+- SymbTr 3.0'dan yalnız eksikleri eklemek: aynı komuta `--surum 3.0 --yalniz-yeni --rapor toplu_rapor_3.txt` eklenir (dosyalar zenodo.org/records/15470412 adresindeki `txt_v3.zip` ve `mu2_v3.zip`). Betik yalnız `ceviri: toplu` yazan dosyaların üzerine yazar. Bir dosyayı elle düzelttiysen o satırı `ceviri: elle` yap.
 - SymbTr'den tek türkü: `python3 -I araclar/symbtr_al.py <symbtr.txt> kaynak/<kimlik>.txt --ad "Türkü Adı" --yore Yöre --dizi Makam`, sonra derle ve test et.
 - Nota kağıdından: `kaynak/` altına yeni bir dosya açıp ölçüleri `derle.py` başındaki biçimle elle yaz.
 
 ## Kaynak ve lisans
 
-Nota verisi SymbTr 2.4.3 veri setinden alınıp bağlama perdelerine uyarlanmıştır:
+Nota verisi SymbTr veri setinin iki sürümünden alınıp bağlama perdelerine uyarlanmıştır (2.4.3: github.com/MTG/SymbTr, CC BY-NC-SA 4.0; 3.0: zenodo.org/records/15470412, CC BY 4.0):
 
 > M. Kemal Karaosmanoğlu. A Turkish makam music symbolic database for music information retrieval: SymbTr. ISMIR 2012. https://github.com/MTG/SymbTr
 

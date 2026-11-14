@@ -1,0 +1,34 @@
+ad: Karadır Kaşların
+yore: Zonguldak
+usul: 4/4
+usul-adi: Sofyan
+tempo: 78
+dizi: Gerdaniye
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 3.0, gerdaniye--turku--sofyan--karadir_kaslarin--zonguldak
+---
+[Söz]
+1 | Es:8 Sol5:16=Ka- Sol5:16=ra- Sol5:8=dır Sol5:8=kaş- Fa5#3:16=la- Sol5:16 Fa5#3:16 Sol5:16 La5:16=rın Sol5:16 La5:8
+2 | Sol5:8=fer- Sol5:16=man La5:16 Fa5#3:8 Fa5#3:16=yaz- Sol5:16 Mi5:8.=dı- Fa5#3:16 Sol5:16=rır/ Fa5#3:16 Sol5:8
+3 | Fa5#3:8=Bu Fa5#3:16=aşk Sol5:16 Mi5:8=be- Mi5:8=ni Re5:4=di- Mi5:8=yar Fa5#3:8
+4 | Sol5:16=di- Fa5#3:16=yar Sol5:16 Mi5:16 Mi5:8=gez- Mi5:16=di- Re5:16 Re5:4.=rir/ Es:8
+5 | Es:8 Do5:16=Lok- Re5:16=man Mi5:16=he- Mi5:8.=kim Re5:8.=gel- Do5:16 Mi5:4=se
+6 | Re5:8=ya- Re5:16=ram Mi5:16 Do5:8.=az- Re5:16 Si4b2:8.=dı- Do5:16 Re5:16=rır/ Do5:16 Re5:8
+7 | Es:8 Do5:16=Ya- Do5:16=ra- Do5:8=mı Do5:16=sar- Si4b2:16 La4:4=ma- Do5:16=ya Si4b2:16 Do5:8
+8 | Si4b2:8=yar Si4b2:16=ken- Do5:16 Si4b2:16=di La4:8.=gel- La4:2=sin/
+9 | Es:8 Do5:16=Lok- Re5:16=man Mi5:16=he- Mi5:8.=kim Re5:8.=gel- Do5:16 Mi5:4=se
+10 | Re5:8=ya- Re5:16=ram Mi5:16 Do5:8.=az- Re5:16 Si4b2:8.=dı- Do5:16 Re5:16=rır/ Do5:16 Re5:8
+11 | Es:8 Do5:16=Ya- Do5:16=ra- Do5:8=mı Do5:16=sar- Si4b2:16 La4:4=ma- Do5:16=ya Si4b2:16 Do5:8
+12 | Si4b2:8=yar Si4b2:16=ken- Do5:16 Si4b2:16=di La4:8.=gel- La4:2=sin/
+13 | Es:8 Do5:16=Or- Re5:16=man- Mi5:8=lar- Mi5:8=dan Re5:8=a- Re5:8=şa- Mi5:16=ğı Re5:16 Mi5:8
+14 | Re5:16=a- Re5:8=şar Mi5:16 Do5:8.=ge- Re5:16 Si4b2:8.=ze- Do5:16 Re5:16=rim/ Do5:16 Re5:8
+15 | Es:8 Do5:16=Naz- Do5:16=lı Do5:16=ya- Si4b2:16 Si4b2:16=ri La4:16 La4:8=kay- La4:8=bet- Do5:8=tim Re5:16 Si4b2:16
+16 | Si4b2:8=ya- Do5:16=nar Si4b2:16 Si4b2:16=ge- La4:8.=ze- La4:2=rim/
+17 | Es:8 Do5:16=Or- Re5:16=man- Mi5:16=la- Mi5:8.=rın Re5:8=güm- Re5:8=bür- Mi5:16=tü- Mi5:8.=sü
+18 | Re5:8=ba- Re5:16=şı- Mi5:16 Do5:8.=ma Re5:16 Si4b2:8.=vu- Do5:16 Re5:16=rur/ Do5:16 Re5:8
+19 | Es:8 Do5:16=Naz- Do5:16=lı Si4b2:8=ya- Si4b2:16=rin Do5:16 La4:8=ha- La4:8=ya- Do5:8=li Re5:16 Si4b2:16
+20 | Si4b2:8=kar- Do5:16=şım- Si4b2:16 Si4b2:16=da La4:8.=du- La4:2=rur/

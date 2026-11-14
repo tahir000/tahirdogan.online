@@ -1,0 +1,37 @@
+ad: Karşıda Kürt Evleri
+yore: 
+usul: 4/4
+usul-adi: Sofyan
+tempo: 90
+dizi: Uşşak
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 3.0, ussak--kurthavasi--sofyan--karsida_kurt--
+bicim: Kürt havası
+---
+[Söz]
+1 | Es:4 Fa4#3:8=Kar- Sol4:8=şı- La4:4=da La4:4=Kürt
+2 | Re5:8=ev- Do5:8 Si4b2:8 La4:8 Si4b2:8=le- Do5:8 Re5:4=ri/
+3 | Es:4 Fa4#3:8=Kar- Sol4:8=şı- La4:4=da La4:4=Kürt
+4 | Re5:8=ev- Do5:8 Si4b2:8 La4:8 Si4b2:8=le- Do5:8 Re5:4=ri/
+5 | Es:4 Mi5:8=Ya- Fa5:8=yıl- Sol5:8=mış Fa5:8 Mi5:8=de- Re5:8
+6 | Re5:8=ve- Do5:4 Si4b2:8 Do5:12=le- Si4b2:12 La4:12 La4:4=ri/
+7 | Es:4 Mi5:8=Ya- Fa5:8=yıl- Sol5:8=mış Fa5:8 Mi5:8=de- Re5:8
+8 | Re5:8=ve- Do5:4 Si4b2:8 Do5:12=le- Si4b2:12 La4:12 La4:4=ri/
+9 | Es:4 Fa4#3:8=O- Sol4:8=tur- La4:4=muş La4:4=ko-
+10 | Re5:8=yun Do5:8 Si4b2:8 La4:8 Si4b2:8=sa- Do5:8 Re5:4=ğar/
+11 | Es:4 Fa4#3:8=O- Sol4:8=tur- La4:4=muş La4:4=ko-
+12 | Re5:8=yun Do5:8 Si4b2:8 La4:8 Si4b2:8=sa- Do5:8 Re5:4=ğar/
+13 | Es:4 Mi5:8=Ter- Fa5:8=le- Sol5:8=miş Fa5:8 Mi5:8=me- Re5:8
+14 | Re5:8=me- Do5:4 Si4b2:8 Do5:12=le- Si4b2:12 La4:12 La4:4=ri/
+15 | Es:4 Mi5:8=Ter- Fa5:8=le- Sol5:8=miş Fa5:8 Mi5:8=me- Re5:8
+16 | Re5:8=me- Do5:4 Si4b2:8 Do5:12=le- Si4b2:12 La4:12 La4:4=ri/
+17 | Es:4 Si4b2:8=Va Do5:8=re Re5:4=men Re5:8=ni Si4b2:8=de
+18 | Do5:4=men Do5:8=ni La4:8 Si4b2:4=nen La4:4=ni
+19 | Es:4 Si4b2:8=va Do5:8=re Re5:4.=lo Si4b2:8
+20 | Do5:4.=lo La4:8 Si4b2:8=lo Do5:8 Re5:4
+21 | Es:4 Mi5:8=Ter- Fa5:8=le- Sol5:8=miş Fa5:8 Mi5:8=me- Re5:8
+22 | Re5:8=me- Do5:4 Si4b2:8 Do5:12=le- Si4b2:12 La4:12 La4:4=ri/

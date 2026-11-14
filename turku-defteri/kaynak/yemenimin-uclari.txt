@@ -1,0 +1,143 @@
+ad: Yemenimin Uçları
+yore: 
+usul: 10/8
+usul-adi: Curcuna
+kalip: 3+2+2+3
+tempo: 96
+dizi: Segah
+karar: Si bemol 2
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 3.0, segah--turku--curcuna--yemenimin_uclari--
+---
+[Aranağme]
+1 | Sol4:4 Do5:8 Si4b2:8 La4:8 Si4b2:8 Do5:8 Re5:4 Do5:8
+2 | Re5:8 Mi5b2:8 Fa5:8 Mi5b2:8 Re5:8 Re5:8 Do5#:8 Re5:4.
+3 | Sol4:4 Do5:8 Si4b2:8 La4:8 Si4b2:8 Do5:8 Re5:4 Do5:8
+4 | Re5:8 Mi5b2:8 Fa5:8 Mi5b2:8 Re5:8 Re5:8 Do5:8 Si4b2:4 Es:8
+[Aranağme]
+5 | Sol4:4 Do5:8 Si4b2:8 La4:8 Si4b2:8 Do5:8 Re5:4 Do5:8
+6 | Re5:8 Mi5b2:8 Fa5:8 Mi5b2:8 Re5:8 Re5:8 Do5#:8 Re5:4.
+7 | Sol4:4 Do5:8 Si4b2:8 La4:8 Si4b2:8 Do5:8 Re5:4 Do5:8
+8 | Re5:8 Mi5b2:8 Fa5:8 Mi5b2:8 Re5:8 Re5:8 Do5:8 Si4b2:4 Es:8
+9 | Sol4:4 Si4b2:8 Si4b2:4 Sol4:4 Si4b2:4 Es:8
+10 | Sol4:4 Si4b2:8 Si4b2:4 Sol4:4 Si4b2:4 Es:8
+[Söz]
+11 | Si4b2:5/4=Hey
+12 | Si4b2:5/4
+13 | Re5:5/4
+14 | Re5:5/4
+15 | Re5:8=hey Do5:8 Do5:4. Do5:4 Do5:4 Si4b2:8
+16 | Si4b2:5/4=hey/
+[Saz]
+17 | Sol4:4 Si4b2:8 Si4b2:4 Sol4:4 Si4b2:4 Es:8
+18 | Sol4:4 Si4b2:8 Si4b2:4 Sol4:4 Si4b2:4.
+[Söz]
+19 | Es:4 Re5:8=Ye- Re5:4=me- Re5:4=ni- Re5:4.=min
+20 | Mi5b2:4.=uç- Fa5:8=la- Mi5b2:8 Re5:16=rı/ Do5#:16 Re5:8 Mi5b2:4 Re5:8
+21 | Sol5#:8 Fa5:8 Fa5:8=Çı- Fa5:8=ka- Mi5b2:8 Mi5b2:8=mam Re5:8 Re5:4=yo- Do5:8
+22 | Re5:4=kuş- Do5:8 Do5:8=la- Si4b2:8 Si4b2:4=rı Fa5:4=ah/ Mi5b2:8
+23 | Mi5b2:4=Çı- Re5:8 Re5:4=ka- Re5:4=mam Re5:4=yo- Do5:8
+24 | Re5:4=kuş- Do5:8 Do5:8=la- Si4b2:8 Si4b2:2=rı/ Es:8
+25 | Es:4 Fa5#:8=O Sol5:4=yâ- Sol5:4=re La5:4=se- Fa5#:8
+26 | Fa5#:8.=lam Mi5b2:16 Fa5#:8 Sol5:8=e- Mi5b2:8 Mi5b2:8=din/ Re5:8 Fa5#:8 Mi5b2:8 Re5:8
+27 | La5:8 Sol5:8 Sol5:8=Ye- Sol5:8=di Fa5:8 Fa5:8=da- Mi5b2:8 Mi5b2:4=ğın Re5:8
+28 | Re5:4=kuş- Do5:8 Do5:8=la- Si4b2:8 Si4b2:4=rı Fa5:4=ah/ Mi5b2:8
+29 | Mi5b2:4=Al- Re5:8 Re5:4=lı Re5:8=ye- Mi5b2:8 Re5:8=me- Do5:8 Si4b2:8
+30 | Si4b2:8=ni Do5:8 Re5:8 Mi5b2:8 Fa5#:8 Sol5:8 (La5)Sol5:8 Fa5#:8 Mi5b2:8 Re5:8
+31 | Fa5:4=pul- Mi5b2:8 Mi5b2:8=lu Re5:8 Re5:8=ye- Mi5b2:8 Re5:8=me- Do5:8 Si4b2:8
+32 | Sol5:4=ni/ Sol5:8=Bir Sol5:4=bah- Sol5:16=çe- Fa5#:16 Sol5:8 La5:4=den Fa5#:8
+33 | Fa5#:8.=bir Mi5b2:16 Fa5#:8 Sol5:8=bah- Mi5b2:8 Mi5b2:8=çe- Re5:8 Fa5#:8=ye/ Mi5b2:8 Re5:8
+34 | Re5:4.=Sal- Re5:4=la Re5:8=ye- Mi5b2:8 Re5:8=me- Do5:8 Si4b2:8
+35 | Si4b2:8=ni Do5:8 Re5:8 Mi5b2:8 Fa5#:8 Sol5:4 Fa5#:8 Mi5b2:8 Re5:8
+36 | Fa5:8=ah Mi5b2:8 Mi5b2:8=se- Mi5b2:8=ver- Re5:8 Re5:8=ler Mi5b2:8 Re5:8=se- Do5:8 Si4b2:8
+37 | Si4b2:5/4=ni/
+[Aranağme]
+38 | Sol4:4 Do5:8 Si4b2:8 La4:8 Si4b2:8 Do5:8 Re5:4 Do5:8
+39 | Re5:8 Mi5b2:8 Fa5:8 Mi5b2:8 Re5:8 Re5:8 Do5#:8 Re5:4.
+40 | Sol4:4 Do5:8 Si4b2:8 La4:8 Si4b2:8 Do5:8 Re5:4 Do5:8
+41 | Re5:8 Mi5b2:8 Fa5:8 Mi5b2:8 Re5:8 Re5:8 Do5:8 Si4b2:4 Es:8
+[Aranağme]
+42 | Sol4:4 Do5:8 Si4b2:8 La4:8 Si4b2:8 Do5:8 Re5:4 Do5:8
+43 | Re5:8 Mi5b2:8 Fa5:8 Mi5b2:8 Re5:8 Re5:8 Do5#:8 Re5:4.
+44 | Sol4:4 Do5:8 Si4b2:8 La4:8 Si4b2:8 Do5:8 Re5:4 Do5:8
+45 | Re5:8 Mi5b2:8 Fa5:8 Mi5b2:8 Re5:8 Re5:8 Do5:8 Si4b2:4 Es:8
+46 | Sol4:4 Si4b2:8 Si4b2:4 Sol4:4 Si4b2:4 Es:8
+47 | Sol4:4 Si4b2:8 Si4b2:4 Sol4:4 Si4b2:4 Es:8
+[Söz]
+48 | Re5:5/4=Hey
+49 | Re5:5/4
+50 | Re5:16=hey Do5#:16 Re5:8 Mi5b2:4 Re5:8 Re5:16 Do5#:16 Re5:8 Mi5b2:4 Re5:8
+51 | Sol5:4=hey Fa5:4 Mi5b2:8 Mi5b2:8 Re5:8 Re5:8 Do5:8 Si4b2:8
+52 | Si4b2:5/4=hey/
+[Saz]
+53 | Sol4:4 Si4b2:8 Si4b2:4 Sol4:4 Si4b2:4 Es:8
+54 | Sol4:4 Si4b2:8 Si4b2:4 Sol4:4 Si4b2:4 Es:8
+[Söz]
+55 | Re5:4.=Ben Re5:4=gü- Re5:4=lü Re5:4.=des-
+56 | Re5:16=te Do5#:16 Re5:8 Mi5b2:4=bağ- Re5:8 Re5:16=la- Do5#:16 Re5:8 Mi5b2:4=dım/ Re5:8
+57 | Re5:4=Des- Re5:8 Sol5:4=te- Fa5#:8=ye Mi5b2:8 Re5:4=bes- Re5:8
+58 | Si4b2:8=te Do5:8 Re5:4=bağ- Do5:8 Do5:8=la- Si4b2:8 Si4b2:4.=dım/
+59 | Fa5#:4.=Des- Fa5#:4=te- Sol5:4=ye Fa5#:8=bes- Mi5b2:8 Re5:8
+60 | Si4b2:8=te Do5:8 Re5:4=bağ- Do5:8 Do5:8=la- Si4b2:8 Si4b2:4=dım/ Es:8
+61 | Fa5#:4.=Dün Fa5#:4=ge- Fa5#:8=ce Sol5:8 Fa5#:8=yâr Mi5b:8 Re5:8
+62 | Fa5#:8=ha- Sol5:8 La5:8 La5:8=ne- Sol5:8 Sol5:8=sin- Mi5b2:8 Fa5#:8=de/ Fa5#:8 Mi5b2:8
+63 | Re5:8 Do5:8 Re5:8=O Mi5b2:4=söy- Fa5#:8=le- Sol5:8 Fa5#:8=di Mi5b2:8 Re5:8
+64 | Es:4 Mi5b2:8=ben Re5:8=ağ- Do5:8 Si4b2:4=la- La5:4=dım/ Sol5:8
+65 | La5:4=Ben Sol5:8 Sol5:8=söy- Fa5#:8 Fa5#:8=le- Mi5b2:8 Mi5b2:4=dim Re5:8
+66 | Re5:8=yâr Mi5b2:8 Fa5#:8=ağ- Mi5b2:8 Re5:8 Re5:8=la- Mi5b2:8 Re5:16=dı Do5:16 Si4b2:16 La4:16 Si4b2:8
+67 | Sol5:5/4=ah/
+68 | Sol5:5/8 Sol5:4 Fa5#:8 Mi5b2:8 Re5:8
+69 | Re5:4.=Al- Re5:4=lı Re5:8=ye- Mi5b2:8 Re5:8=me- Do5:8 Si4b2:8
+70 | Si4b2:8=ni Do5:8 Re5:8 Mi5b2:8 Fa5#:8 Sol5:4 Fa5#:8 Mi5b2:8 Re5:8
+71 | Fa5:4=pul- Mi5b2:8 Mi5b2:8=lu Re5:8 Re5:8=ye- Mi5b2:8 Re5:8=me- Do5:8 Si4b2:8
+72 | Sol5:4=ni/ Sol5:8=Bir Sol5:4=bah- Sol5:16=çe- Fa5#:16 Sol5:8 La5:4=den Fa5#:8
+73 | Fa5#:8.=bir Mi5b2:16 Fa5#:8 Sol5:8=bah- Mi5b2:8 Mi5b2:8=çe- Re5:8 Fa5#:8=ye/ Mi5b2:8 Re5:8
+74 | Re5:4.=Sal- Re5:4=la Re5:8=ye- Mi5b2:8 Re5:8=me- Do5:8 Si4b2:8
+75 | Si4b2:8=ni Do5:8 Re5:8 Mi5b2:8 Fa5#:8 Sol5:4 Fa5#:8 Mi5b2:8 Re5:8
+76 | Fa5:8=ah Mi5b2:8 Mi5b2:8=se- Mi5b2:8=ver- Re5:8 Re5:8=ler Mi5b2:8 Re5:8=se- Do5:8 Si4b2:8
+77 | Si4b2:5/4=ni/
+[Saz]
+78 | Si4b2:4. Si4b2:4 Do5#:4 Do5#:4.
+79 | Re5:4 Fa5:8 Mi5b2:8 Re5:8 Re5:8 Do5#:8 Re5:4.
+80 | Si4b2:4. Si4b2:4 Do5#:4 Do5#:4.
+81 | Re5:8 Mi5b2:8 Fa5:8 Mi5b2:8 Re5:8 Re5:8 Do5:8 Si4b2:4 Es:8
+[Saz]
+82 | Si4b2:4. Si4b2:4 Do5#:4 Do5#:4.
+83 | Re5:4 Fa5:8 Mi5b2:8 Re5:8 Re5:8 Do5#:8 Re5:4.
+84 | Si4b2:4. Si4b2:4 Do5#:4 Do5#:4.
+85 | Re5:8 Mi5b2:8 Fa5:8 Mi5b2:8 Re5:8 Re5:8 Do5:8 Si4b2:4 Es:8
+86 | Sol5:4 Si5b2:8 Si5b2:4 Sol5:4 Si5b2:4.
+87 | Sol5:4 Si5b2:8 Si5b2:4 Sol5:4 Si5b2:4.
+88 | Si5b2:5/4
+89 | Si5b2:5/4
+90 | Re6:5/4
+91 | Re6:5/4
+92 | Re6:8 Do6:8 Do6:4. Do6:4 Do6:4 Si5b2:8
+93 | Si5b2:5/4
+94 | Sol5:4 Si5b2:8 Si5b2:4 Sol5:4 Si5b2:4.
+95 | Sol5:4 Si5b2:8 Si5b2:4 Sol5:4 Si5b2:4.
+[Söz]
+96 | Es:4 Si5b2:8=Ye- Si5b2:4=me- Si5b2:4=ni- Si5b2:4.=min
+97 | Re6:4=ye- Do6:8 Do6:8=şi- Si5b2:8 Do6:4=li/ Si5b2:8. La5#:16 Sol5:8
+98 | Re6:4=Ben Do6:8 Do6:8=kay- Si5b2:8 Si5b2:4=bet- Si5b2:4=tim La5#:8
+99 | La5:4=e- Sol5:8 Re6:4=şi- Do6:16=mi Si5b2:16 La5:16 Sol5:16 Sol5:4 Sol5:16=a- Fa5#:16
+100 | Fa5#:5/4=man/
+[Saz]
+101 | Es:4 Sol5:8 Fa5#:8 Mi5b2:8 Re5:8 Mi5b2:8 Fa5#:4.
+[Söz]
+102 | Es:4 Sol5:8=Ye- Sol5:4=me- Sol5:16=nim Fa5#:16 Sol5:8 La5:4=sen- Fa5#:8
+103 | Fa5#:16=de Mi5:16 Fa5#:8 Fa5#:8 Sol5:8=dur- Mi5:8 Mi5:8=sun/ Re5:8 Fa5#:8 Mi5b2:8 Re5:8
+104 | La5:4=Sil Sol5:8 Sol5:8=gö- Fa5#:8 Fa5#:8=zü- Mi5b2:8 Mi5b2:4=mün Re5:8
+105 | Re5:4=ya- Do5:8 Do5:8=şı- Si4b2:8 Si4b2:4=nı Fa5:4=ah/ Mi5b2:8
+106 | Mi5b2:4=Al- Re5:8 Re5:4=lı Re5:8=ye- Mi5b2:8 Re5:8=me- Do5:8 Si4b2:8
+107 | Si4b2:8=ni Do5:8 Re5:8 Mi5b2:8 Fa5#:8 Sol5:4 Fa5#:8 Mi5b2:8 Re5:8
+108 | Fa5:4=pul- Mi5b2:8 Mi5b2:8=lu Re5:8 Re5:8=ye- Mi5b2:8 Re5:8=me- Do5:8 Si4b2:8
+109 | Sol5:4=ni/ Sol5:8=Bir Sol5:4=bah- Sol5:16=çe- Fa5#:16 Sol5:8 La5:4=den Fa5#:8
+110 | Fa5#:8.=bir Mi5b2:16 Fa5#:8 Sol5:8=bah- Mi5b2:8 Mi5b2:8=çe- Re5:8 Fa5#:8=ye/ Mi5b2:8 Re5:8
+111 | Re5:4.=Sal- Re5:4=la Re5:8=ye- Mi5b2:8 Re5:8=me- Do5:8 Si4b2:8
+112 | Si4b2:8=ni Do5:8 Re5:8 Mi5b2:8 Fa5#:8 Sol5:4 Fa5#:8 Mi5b2:8 Re5:8
+113 | Fa5:8=ah Mi5b2:8 Mi5b2:8=se- Mi5b2:8=ver- Re5:8 Re5:8=ler Mi5b2:8 Re5:8=se- Do5:8 Si4b2:8
+114 | Si4b2:5/4=ni/

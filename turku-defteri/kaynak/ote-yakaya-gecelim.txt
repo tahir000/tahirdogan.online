@@ -1,0 +1,25 @@
+ad: Öte Yakaya Geçelim
+yore: Kütahya
+usul: 9/8
+usul-adi: Aksak
+kalip: 2+2+2+3
+tempo: 84
+dizi: Hicaz
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 3.0, hicaz--turku--aksak--ote_yakaya--kutahya
+---
+[Söz]
+1 | Es:4 Fa5#:8=Ö- Sol5:8=te La5:4=ya- La5:4.=ka-
+2 | Sol5:8=ya Fa5#:8 Mi5:8=ge- Fa5#:8 La5:4=çe- Sol5:4=lim/ Fa5#:8
+3 | Es:4 Fa5#:8=At- Sol5:8=la- La5:4=ra La5:4.=yon-
+4 | Sol5:8=ca Fa5#:8 Mi5:8=bi- Fa5#:8 Sol5:4=çe- Fa5#:4=lim/ Mi5:8
+5 | Es:4 Fa5#:8=Ki- Sol5:8=tap La5:4=ge- La5:4.=tir
+6 | Sol5:8=and Fa5#:8 Mi5:8=i- Sol5:8 Fa5#:8=çe- Mi5:8 Fa5#:8=lim/ Mi5:8 Re5:8
+7 | Mi5:4=Oğ- Fa5:4=lan Mi5:8=nen- Re5:8 Do5#:8 Si4b:8 La4:8
+8 | Re5:1=ni Es:8
+9 | Do5#:4=Şa- Re5:4=kir Do5#:8=nen- Si4b:8 Do5#:8 Si4b:8 La4:8
+10 | La4:1=ni/ Es:8

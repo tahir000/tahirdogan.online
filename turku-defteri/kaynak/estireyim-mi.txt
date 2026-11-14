@@ -1,0 +1,36 @@
+ad: Estireyim mi
+yore: Bolu
+usul: 4/4
+usul-adi: Sofyan
+tempo: 72
+dizi: Nişabur
+karar: Si
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 3.0, nisabur--turku--sofyan--estireyim_mi--bolu
+---
+[Söz]
+1 | Re5:4=Es- Re5:8=ti- Re5:8=re- Re5:4=yim Re5:4=mi
+2 | Re5:4=es- Re5:8=ti- Re5:8=re- Mi5:32=yim Re5:32 Do5#:16 Re5:8 Re5:8=mi/ Si4:16 Es:16
+3 | Do5#:8=Yav- Re5:8=rum Mi5:8=sa- Fa5:8=na Fa5:16=fis- Mi5:16 Re5:8 Re5:16=tan Do5#:16 Re5:8
+4 | (Do5#)Re5:4=kes- Re5:16=ti- Do5#:16 Si4:8=re- Do5#:8.=yim Re5:16 Si4:8=mi/ Es:8
+5 | Do5#:16=A- Re5:8.=man Mi5:8=sa- Fa5:8=na Fa5:16=fis- Mi5:16 Re5:8 Re5:16=tan Do5#:16 Re5:8
+6 | (Do5#)Re5:4=kes- Re5:16=ti- Do5#:16 Si4:8=re- Do5#:8.=yim Re5:16 Si4:8=mi/ Es:8
+7 | Re5:4.=Üç Re5:8=o Re5:32=yan- Do5#:32 Re5:8. Re5:4=dan
+8 | (Sol4)Re5:4.=beş Re5:8=bu Mi5:32=yan- Re5:32 Do5#:16 Re5:8 Re5:8=dan/ Si4:16 Es:16
+9 | Do5#:8=Yav- Re5:8=rum Mi5:8=bir Fa5:8=de Mi5:4=A- Re5:16=bant Do5#:16 Re5:8
+10 | Es:8 Do5#:8=yay- Do5#:8 Si4:8=la- Do5#:8=sın- Do5#:8 Si4:8=dan/ Do5#:8
+11 | Do5#:16=A- Re5:8.=man Mi5:8=bir Fa5:8=de Re5:32=A- Fa5:32 Mi5:16 Re5:16 Do5#:16 Re5:16=bant Do5#:16 Re5:8
+12 | Es:8 Do5#:8=yay- Do5#:8 Si4:8=la- Do5#:8=sın- Do5#:8 Si4:16=dan/ La4#:16 Si4:8
+13 | Re5:16=Ti Do5#:16=ri Re5:8=lay Re5:8=lay Fa5:8=lam Fa5:16=ti Mi5:16=ri Re5:16=lâ Mi5:16=ri Re5:8=lay Re5:8=lay/
+14 | Do5#:8=Lay Re5:16=lâ Mi5:16=ri Re5:16=Ti Do5#:16=ri Si4:8=lay Do5#:8.=lay Re5:16 Si4:8=lam/ Es:8
+15 | Re5:16=Ti Do5#:16=ri Re5:8=lay Re5:8=lay Fa5:8=lam Fa5:16=ti Mi5:16=ri Re5:16=lâ Mi5:16=ri Re5:8=lay Re5:8=lay/
+16 | Do5#:8=Lay Re5:16=lâ Mi5:16=ri Re5:16=Ti Do5#:16=ri Si4:8=lay Do5#:8.=lay Re5:16 Si4:8=lam/ Es:8
+[Saz]
+17 | Re5:16 Do5#:16 Re5:8 Re5:8 Fa5:8 Fa5:16 Mi5:16 Re5:16 Mi5:16 Re5:16 Do5#:16 Re5:8
+18 | Do5#:8 Re5:16 Mi5:16 Re5:16 Do5#:16 Si4:8 Do5#:4 Si4:8 Es:8
+[Saz]
+19 | Re5:16 Do5#:16 Re5:8 Re5:8 Fa5:8 Fa5:16 Mi5:16 Re5:16 Mi5:16 Re5:16 Do5#:16 Re5:8
+20 | Do5#:8 Re5:16 Mi5:16 Re5:16 Do5#:16 Si4:8 Do5#:4 Si4:8 Es:8

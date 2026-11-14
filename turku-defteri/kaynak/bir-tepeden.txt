@@ -1,0 +1,33 @@
+ad: Bir Tepeden
+yore: Muğla, Milas
+usul: 9/8
+usul-adi: Aksak
+kalip: 2+2+2+3
+tempo: 66
+dizi: Yeni Çargah
+karar: Do
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 3.0, cargah--turku--aksak--bir_tepeden--mugla-milas
+---
+[Aranağme]
+1 | Sol5:16 Fa5:16 Es:16 Sol5:16 Fa5:8 Mi5:8 Fa5:16 Fa5:8 Fa5:16 Fa5:16 Sol5:16 Mi5:8 Mi5:8
+2 | Sol5:16 Fa5:16 Es:16 Sol5:16 Fa5:8 Mi5:8 Fa5:16 Fa5:8 Fa5:16 Fa5:16 Sol5:16 Mi5:8 Mi5:16 Do5:16
+[Aranağme]
+3 | Sol5:16 Fa5:16 Es:16 Sol5:16 Fa5:8 Mi5:8 Fa5:16 Fa5:8 Fa5:16 Fa5:16 Sol5:16 Mi5:8 Mi5:8
+4 | Sol5:16 Fa5:16 Es:16 Sol5:16 Fa5:8 Mi5:8 Fa5:16 Fa5:8 Fa5:16 Fa5:16 Sol5:16 Mi5:8 Mi5:16 Do5:16
+[Söz]
+5 | Re5:8 Sol5:16 Sol5:16 Re5:16=Bir Sol5:8 Sol5:16=te- Sol5:8=pe- Sol5:16=den Do5:16 Fa5#:16=a- Sol5:16 La5:32=man Si5b:32 La5:32 Si5b:32 Sol5:16=a- Fa5#:32 La5:32
+6 | Sol5:4=man Re5:16=bir Mi5:16 Fa5:16=te- Mi5:16 Fa5:16=pe- Mi5:16 Fa5:16 Mi5:16 Fa5:4=ye Mi5:16 Fa5:16
+7 | Mi5:4 Sol5:8=ün Sol5:8=o- Sol5:16=lur Mi5:16 Mi5:8 Fa5#:16=ka- Sol5:16=dı- Sol5:4=nım
+8 | Sol5:16 Mi5b:16 Mi5b:8=ün Mi5b:8=o- Mi5b:16 Re5:16=lur/ Do5:8. Do5:16 Do5:16 Do5:16 Do5:8 Do5:8
+[Saz]
+9 | Sol5:16 Fa5:16 Es:16 Sol5:16 Fa5:8 Mi5:8 Fa5:16 Fa5:8 Fa5:16 Fa5:16 Sol5:16 Mi5:8 Mi5:8
+10 | Sol5:16 Fa5:16 Es:16 Sol5:16 Fa5:8 Mi5:8 Fa5:16 Fa5:8 Fa5:16 Fa5:16 Sol5:16 Mi5:8 Mi5:16 Do5:16
+[Söz]
+11 | Re5:8 Sol5:16 Sol5:16 Re5:16=Her- Sol5:8 Sol5:16=kes Sol5:8=sev- Sol5:16=di- Mi5:16 Fa5#:16=ği- Sol5:16 La5:32=ne Si5b:32 La5:32 Si5b:32 Sol5:16=a- Fa5#:32 La5:32
+12 | Sol5:4=man Re5:16=ya- Mi5:16 Fa5:16=nar Mi5:16 Fa5:16=ya- Mi5:16 Fa5:16 Mi5:16 Fa5:4=nar Mi5:16 Fa5:16
+13 | Mi5:4 Sol5:8=kül Sol5:8=o- Sol5:16=lur Mi5:16 Mi5:8 Fa5#:16=ka- Sol5:16=dı- Sol5:4=nım
+14 | Sol5:16 Mi5b:16 Mi5b:8 Mi5b:8=kül Mi5b:16=o- Re5:16 Do5:8.=lur/ Do5:16 Do5:16 Do5:16 Do5:8 Do5:8

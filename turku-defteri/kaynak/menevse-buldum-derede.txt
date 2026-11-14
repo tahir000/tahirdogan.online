@@ -1,0 +1,23 @@
+ad: Menevşe Buldum Derede
+yore: Adana
+usul: 10/8
+usul-adi: Cevher
+tempo: 75
+dizi: Suzidilara
+karar: Sol
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 3.0, suzidilara--turku--cevher--menevse_buldum--adana
+---
+[Söz]
+1 | La4:16=Me- Re5:16 Re5:8=nev- Re5:8=şe Re5:8.=bul- Do5#:16 Re5:8=dum Do5#:8=de- Si4:8=re- La4:4=de/
+2 | La4:8=Me- Re5:8=nev- Re5:8=şe Re5:8.=bul- Do5#:16 Re5:8=dum Do5#:8=de- Si4:8=re- La4:4=de/
+3 | Sol4:8=Sor- La4:8=dum Sol4:8=ev- Si4:8.=le- Sol4:16 La4:8=ri Sol4:8=ne- Fa4#:8=re- Sol4:4=de/
+4 | Sol4:8=Sor- La4:8=dum Sol4:8=ev- Si4:8.=le- Sol4:16 La4:8=ri Sol4:8=ne- Fa4#:8=re- Sol4:4=de/
+5 | La4:16=Üç Re5:16 Re5:8=beş Re5:8=gü- Re5:8.=zel Do5#:16 Re5:8=bir Do5#:8=a- Si4:8=ra- La4:4=da/
+6 | La4:8=Üç Re5:8=beş Re5:8=gü- Re5:8.=zel Do5#:16 Re5:8=bir Do5#:8=a- Si4:8=ra- La4:4=da/
+7 | Sol4:8=Dil- La4:8=ber Sol4:8=dil- Si4:8.=ber Sol4:16 La4:8=ca- Sol4:8=nım Fa4#:8=dil- Sol4:4=ber/
+8 | Sol4:8=Ca- La4:8=nı- Sol4:8=mın Si4:8.=yay- Sol4:16 La4:8=la- Sol4:8=sı Fa4#:8=dil- Sol4:4=ber/
+9 | Sol4:8=Gön- La4:8=lü- Sol4:8=mün Si4:8.=ey- Sol4:16 La4:8=le- Sol4:8=si Fa4#:8=dil- Sol4:4=ber/

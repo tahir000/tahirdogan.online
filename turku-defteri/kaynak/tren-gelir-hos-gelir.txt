@@ -1,0 +1,18 @@
+ad: Tren Gelir Hoş Gelir
+yore: Malatya
+usul: 4/4
+usul-adi: Sofyan
+tempo: 90
+dizi: Beyati
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 3.0, beyati--turku--sofyan--tren_gelir--malatya
+---
+[Söz]
+1 | Re5:8=T- Re5:8=ren La4:8=ge- La4:8=lir Re5:8=hoş- Re5:8=ge- La4:8=lir/ Es:8
+2 | Do5:16=Ley Re5:16 Do5:8 Re5:16=ley Mi5:16 Re5:8 Do5:16=li- Re5:16=mi Si4b2:16=li- Do5:16=mi La4:8=ley/ Es:8
+3 | Do5:8=O- Do5:8=da- La4:8=la- La4:8=rı Do5:8=boş Do5:8=ge- Si4b2:8=lir/ Es:8
+4 | Do5:16=Mi- Re5:16=ni Do5:16=mi- Re5:16=ni Si4b2:8=gü- Do5:8=zel Si4b2:8=gel La4:8=bi- La4:8=ze/ Es:8

@@ -46,6 +46,7 @@
     a.href = '#/' + t.id;
     a.appendChild(el('b', '', t.ad));
     var parcalar = [];
+    if (t.bicim) parcalar.push(t.bicim.toLocaleLowerCase('tr'));
     if (t.yore) parcalar.push(t.yore);
     parcalar.push(t.usul + (t.usulAdi ? ' ' + t.usulAdi.toLocaleLowerCase('tr') : ''));
     if (t.dizi) parcalar.push(t.dizi.toLocaleLowerCase('tr'));
@@ -74,7 +75,7 @@
       o.value = u;
       secim.appendChild(o);
     });
-    dizin.forEach(function (t) { t._ara = duzlestir([t.ad, t.yore, t.dizi, t.usulAdi, t.usul].join(' ')); });
+    dizin.forEach(function (t) { t._ara = duzlestir([t.ad, t.yore, t.dizi, t.usulAdi, t.usul, t.bicim || ''].join(' ')); });
     listeCiz();
   }
 
@@ -338,6 +339,7 @@
     document.title = t.ad + ' · Türkü Defteri';
     $('t-ad').textContent = t.ad;
     var kunye = [];
+    if (t.bicim) kunye.push(t.bicim.toLocaleLowerCase('tr'));
     if (t.yore) kunye.push(t.yore);
     kunye.push(t.usul.pay + '/' + t.usul.payda + (t.usul.ad ? ' ' + t.usul.ad.toLocaleLowerCase('tr') : '') + (t.degisken ? ' (ölçü değişiyor)' : ''));
     if (t.dizi) kunye.push(t.dizi.toLocaleLowerCase('tr') + ', ' + t.karar.toLocaleLowerCase('tr') + ' kararlı');
@@ -346,7 +348,8 @@
     kunye.push('dörtlük ' + t.tempo);
     $('t-kunye').textContent = kunye.join(' · ');
     $('t-taslak').hidden = t.durum !== 'taslak';
-    $('t-kaynak').textContent = 'Nota: ' + t.kaynak + ' (github.com/MTG/SymbTr, CC BY-NC-SA 4.0). Bağlama perdelerine bilgisayarla uyarlandı' +
+    var ucuncu = t.kaynak.indexOf('SymbTr 3.') === 0;
+    $('t-kaynak').textContent = 'Nota: ' + t.kaynak + (ucuncu ? ' (zenodo.org/records/15470412, CC BY 4.0)' : ' (github.com/MTG/SymbTr, CC BY-NC-SA 4.0)') + '. Bağlama perdelerine bilgisayarla uyarlandı' +
       (t.dizi ? '; makam adı kaynaktaki adıdır.' : '.') + (t.aciklama ? ' ' + t.aciklama : '');
     calici.yukle(t, 1);
     calici.hiz = 1;
@@ -418,14 +421,38 @@
       svg.appendChild(e);
       return e;
     }
+    // Ahşap gövde: bal rengi sap, üstten alta hafif koyulaşır; birkaç damar çizgisi
+    var tanim = document.createElementNS(SVG, 'defs');
+    var gecis = document.createElementNS(SVG, 'linearGradient');
+    [['id', 'ahsap'], ['x1', '0'], ['y1', '0'], ['x2', '0'], ['y2', '1']].forEach(function (c) { gecis.setAttribute(c[0], c[1]); });
+    [['0', 'var(--ahsap-acik)'], ['0.55', 'var(--ahsap)'], ['1', 'var(--ahsap-koyu)']].forEach(function (c) {
+      var durak = document.createElementNS(SVG, 'stop');
+      durak.setAttribute('offset', c[0]);
+      durak.setAttribute('style', 'stop-color:' + c[1]);
+      gecis.appendChild(durak);
+    });
+    tanim.appendChild(gecis);
+    svg.appendChild(tanim);
+    ciz('rect', { x: x0 - 2, y: 5, width: x1 - x0 + 2, height: 62, rx: 3, 'class': 'govde', fill: 'url(#ahsap)' });
+    [[12, 3], [25, -2], [31, 2], [44, -3], [50, 2], [61, -1]].forEach(function (c) {
+      var orta = (x0 + x1) / 2;
+      ciz('path', { d: 'M' + x0 + ' ' + c[0] + ' Q' + orta + ' ' + (c[0] + c[1]) + ' ' + x1 + ' ' + c[0], 'class': 'damar' });
+    });
+    // Perde bağları (misina): yarım ses perdeleri kalın, koma perdeleri ince
     P.PERDELER.forEach(function (adim) {
       var x = sap.x(P.yerSent(P.perdeSent(adim)));
-      ciz('line', { x1: x, y1: 8, x2: x, y2: 64, 'class': 'perde-cizgi' + (adim % 2 ? ' koma' : '') });
+      ciz('line', { x1: x, y1: 5.5, x2: x, y2: 66.5, 'class': 'perde-cizgi' + (adim % 2 ? ' koma' : '') });
     });
-    ciz('line', { x1: x0, y1: 7, x2: x0, y2: 65, 'class': 'esik' });
+    // Baş eşik (kemik rengi)
+    ciz('rect', { x: x0 - 3, y: 4, width: 5, height: 64, rx: 1.5, 'class': 'esik' });
+    // Teller: alt ve üst grupta çelik tellerin yanında sargılı (bam) tel, orta grupta iki çelik tel
+    var gruplar = { ust: [['sargi', -1.6], ['celik', 1.4]], orta: [['celik', -1.3], ['celik', 1.3]], alt: [['celik', -2.4], ['celik', 0], ['sargi', 2.6]] };
     P.TELLER.forEach(function (tel) {
       var y = sap.telY[tel.kod];
-      ciz('line', { x1: x0, y1: y, x2: x1, y2: y, 'class': 'tel' });
+      gruplar[tel.kod].forEach(function (c) {
+        ciz('line', { x1: x0, y1: y + c[1] + 0.9, x2: x1, y2: y + c[1] + 0.9, 'class': 'tel-golge' });
+        ciz('line', { x1: x0, y1: y + c[1], x2: x1, y2: y + c[1], 'class': c[0] });
+      });
       var yazi = ciz('text', { x: 0, y: y + 3.5 });
       yazi.textContent = tel.ad;
     });

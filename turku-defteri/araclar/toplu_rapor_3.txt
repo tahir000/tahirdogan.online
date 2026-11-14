@@ -1,0 +1,212 @@
+SymbTr 3.0 toplu çeviri raporu (yalnız yeni eserler)
+
+Eklenen: 54
+Alınmayan: 140
+
+Alınmama nedenleri:
+   66  bestecisi yazıyor
+   25  sapta perdesi olmayan ses
+   19  söz yazarı yazıyor
+   14  ölçüler usule oturmuyor
+   10  aynı adla ve usulle zaten var
+    6  dosya adı beklenen biçimde değil
+
+Zorluk dağılımı: kolay 24, orta 21, zor 9
+
+EKLENENLER
+  tekirdag-karsilamasi                         Tekirdağ Karşılaması
+  tren-gelir-hos-gelir                         Tren Gelir Hoş Gelir (Malatya)
+  tarlalarda-orene                             Tarlalarda Örene (Ankara)
+  bir-tepeden                                  Bir Tepeden (Muğla, Milas)
+  kayanin-bedenleri                            Kayanın Bedenleri (Beypazarı)
+  harman-da-yeri-kademeli                      Harman da Yeri Kademeli (Afyon)
+  dugun-havasi                                 Düğün Havası
+  derdim-coktur-hangisine-yanayim              Derdim Çoktur Hangisine Yanayım (Erzincan)
+  karadir-kaslarin                             Karadır Kaşların (Zonguldak)
+  dere-dibi-saz-olur                           Dere Dibi Saz Olur
+  gezinti                                      Gezinti (Urfa)
+  ote-yakaya-gecelim                           Öte Yakaya Geçelim (Kütahya)
+  urfaliyam-ezelden-2                          Urfalıyam Ezelden
+  bahcelerde-mor-meni                          Bahçelerde Mor Meni (İstanbul)
+  al-tavandan-belleri                          Al Tavandan Belleri (Ordu)
+  izmir-zeybegi                                İzmir Zeybeği (İzmir)
+  alaydim-elin-elime                           Alaydım Elin Elime (Urfa)
+  evlerinde-bir-ipekten-hali-var               Evlerinde Bir İpekten Halı Var (Gaziantep)
+  feracemi-al-isterim                          Feracemi Al İsterim (Burdur)
+  harmandali                                   Harmandalı (Ege)
+  hicaz-uzzal-zeybek                           Hicaz-Uzzal Zeybek (İzmir)
+  kapiyi-calan-kimdir                          Kapıyı Çalan Kimdir (Urfa)
+  af-i-yonun-ortasinda-kalesi                  Af(i)yon'un Ortasında Kalesi (Afyon)
+  urfa-divani                                  Urfa Divanı
+  trakya-karsilamasi                           Trakya Karşılaması
+  aglama-yar                                   Ağlama Yar
+  ireyhan-eker-misin                           İreyhan Eker misin (Sivas)
+  uc-gun-evvel                                 Üç Gün Evvel (Sinop)
+  karadeniz-oyunhavasi                         Karadeniz Oyunhavası
+  bagi-bagimca-var-mi                          Bağı Bağımca Var mı (Urfa)
+  sahan-sahan-hosmerim                         Sahan Sahan Höşmerim (Afyon)
+  koyundere-zeybegi                            Koyundere Zeybeği
+  kutahyanin-pinarlari-akisir                  Kütahya'nın Pınarları Akışır (Kütahya)
+  cikar-gokyuzunde-pervaz-idersin              Çıkar Gökyüzünde Pervaz İdersin
+  eskisehir-zeybegi                            Eskişehir Zeybeği
+  cahildim-dunyanin-rengine-kandim             Cahildim Dünyanın Rengine Kandım (Kırşehir)
+  merzifon-karsilamasi                         Merzifon Karşılaması (Merzifon)
+  kasaphavasi                                  Kasaphavası
+  sogukkuyu-zeybegi                            Soğukkuyu Zeybeği (İzmir)
+  estireyim-mi                                 Estireyim mi (Bolu)
+  samavir-kuydum                               Samavir Kuydum
+  al-dokeyim-gevheri                           Al Dökeyim Gevheri
+  bala-kekligim-avla-beni                      Bala Kekliğim Avla Beni
+  yemenimin-uclari                             Yemenimin Uçları
+  menevse-buldum-derede                        Menevşe Buldum Derede (Adana)
+  bugun-ayin-ondordu                           Bugün Ayın Ondördü
+  bahcalarda-mor-meni                          Bahçalarda Mor Meni (Gaziantep)
+  karsida-kurt-evleri                          Karşıda Kürt Evleri
+  bandirma-dortlemesi                          Bandırma Dörtlemesi
+  ata-bari                                     Ata Barı (Artvin)
+  kayalar-golgelendi                           Kayalar Gölgelendi (Kerkük)
+  altin-yuzugum-kirildi                        Altın Yüzüğüm Kırıldı
+  carsamba-dedikleri                           Çarşamba Dedikleri (Samsun)
+  dereboyu-kavaklar                            Dereboyu Kavaklar (Giresun)
+
+ALINMAYANLAR
+  acemasiran--zeybek--agiraksak--su_izmirin--tahsin_karakus              bestecisi yazıyor: tahsin karakus
+  acemkurdi--nefes--bektasiraksani--sah_merdanin--                       söz yazarı yazıyor: Pir Sultan Abdal
+  buselik--turku--semai--fikrimden_geceler--                             ölçüler usule oturmuyor
+  cargah--destan--turkaksagi--bir_gemi_yaptirdim--                       ölçüler usule oturmuyor
+  cargah--turku--senginsemai--sak_sak--yurdagul_ulgar                    bestecisi yazıyor: yurdagul ulgar
+  cargah--turku--sofyan--dere_kenarinda--rakim_elkutlu                   bestecisi yazıyor: rakim elkutlu
+  evic--karsilama--yuruksemai_ii--on_kerre--                             söz yazarı yazıyor: Baki Çallıoğlu
+  evic--rumeliturkusu--aksak--elveda_dost--rumeli                        sapta perdesi olmayan ses: Mi4#3 Mi5#3
+  evic--rumeliturkusu--curcuna--calin_davullari--rumeli                  sapta perdesi olmayan ses: Do4#
+  evic--turku--agiraksak--karanfilin_moruna--canakkale                   sapta perdesi olmayan ses: Mi5#3
+  evic--turku--aksak--ayagina_giymis--                                   sapta perdesi olmayan ses: Mi5#3
+  evic--turku--sofyan--guvercin_ucuverdi--                               sapta perdesi olmayan ses: Mi5#3
+  ferahnuma--turku--sofyan--bulguru_kaynatirlar--ankara                  sapta perdesi olmayan ses: Do4 La3 Si3b Sol3
+  gerdaniye--oyunhavasi--devrituran--bulut_gelir--                       ölçüler usule oturmuyor
+  gerdaniye--turku--aksak--bugun_benim--rumeli_uskup                     sapta perdesi olmayan ses: Re5b2
+  gerdaniye--turku--kapali_curcuna--sirali_daglarin--salih_turhan        bestecisi yazıyor: salih turhan
+  gerdaniye--turku--nimsofyan--ey_sevdigim--muhlis_akarsu                bestecisi yazıyor: muhlis akarsu
+  gerdaniye--turku--sofyan--su_daglari--fahri_kayahan                    bestecisi yazıyor: fahri kayahan
+  gerdaniye--turku--turkaksagi--uca_daglarin--erzurum                    söz yazarı yazıyor: Kömürcüzade Hafız Mehmed Ef.
+  gulizar--turku--sofyan--dertli--erol_sayan                             bestecisi yazıyor: erol sayan
+  hicaz--azeriturku--nimsofyan--yurek_odir--                             ölçüler usule oturmuyor
+  hicaz--kosma--nimsofyan--yuru_dilber--ankara                           ölçüler usule oturmuyor
+  hicaz--mandra--devrituran_ii----lavtaci_andon                          bestecisi yazıyor: lavtaci andon
+  hicaz--ninni--sofyan--dagda_tavsanlar--tanburi_cemil_bey               bestecisi yazıyor: tanburi cemil bey
+  hicaz--turku--curcuna--hishisi_hancer--gaziantep                       aynı adla ve usulle zaten var: Hışhışı Hançer Boynuma
+  hicaz--turku--duyek--garip_bir--bakir_yurtsever                        bestecisi yazıyor: bakir yurtsever
+  hicaz--turku--duyek--yollarina_gul--sadettin_kaynak                    bestecisi yazıyor: sadettin kaynak
+  hicaz--turku--musemmen_ii--zuluf_dokulmus_yuze--kirsehir               sapta perdesi olmayan ses: Do4#3 Do6#3
+  hicaz--turku--raksaksagi--arabaci--istanbul                            söz yazarı yazıyor: Muzaffer Sarısözen
+  hicaz--turku--semai--gurbette_omrum--atinc_emnalar                     bestecisi yazıyor: atinc emnalar
+  hicaz--turku--sofyan--bahce_duvarini--neset_ertas                      bestecisi yazıyor: neset ertas
+  hicaz--turku--sofyan--suda_balik--kirsehir                             söz yazarı yazıyor: Muzaffer Sarısözen
+  hicaz--turku--turkaksagi--ben_seni--trabzon                            aynı adla ve usulle zaten var: Ben Seni Sevdiğimi
+  hicaz_humayun--rumeliturkusu--sofyan--kirmizi_gulun--rumeli            aynı adla ve usulle zaten var: Kırmızı Gülün Alı Var
+  hicaz_humayun--turku--aksak--necibemin_ikidir--istanbul                aynı adla ve usulle zaten var: Necibemin İkidir Kürkü
+  hicaz_humayun--turku--nimsofyan--gul_yuzun--urfa                       söz yazarı yazıyor: Bedirhan Kırmızı
+  hicaz_uzzal--rumeliturkusu--aksak--yine_de--rumeli                     aynı adla ve usulle zaten var: Yine de Şahlanıyor Aman
+  hicaz_uzzal--turku--aksak--ihtiyatlar_silah--                          söz yazarı yazıyor: Muzaffer Sarısözen
+  hicaz_uzzal--turku--nimsofyan--daglar_daglar--                         aynı adla ve usulle zaten var: Dağlar Dağlar Viran Dağlar
+  hicaz_uzzal--turku--sofyan--ela_gozlerine--sadettin_kaynak             bestecisi yazıyor: sadettin kaynak
+  hicaz_zirgule--turku--sofyan--ana_gelbim--ali_ekber_tagiyev            bestecisi yazıyor: ali ekber tagiyev
+  hicaz_zirgule--zeybek--agiraksak--odemis_baglarinda--neveser_kokdes    bestecisi yazıyor: neveser kokdes
+  hicaziussak--nefes--bektasiraksi--onume_bir--pir_sultan_abdal          bestecisi yazıyor: pir sultan abdal
+  hicazkar--kosma--sofyan--melin_mahzun--muallim_ismail_hakki_bey        bestecisi yazıyor: muallim ismail hakki bey
+  hicazkar--zeybek--oynak----mutlu_torun                                 bestecisi yazıyor: mutlu torun
+  hisarbuselik--turku--azeriyuruksemai--diliyrem_ki--sinan_sipahi        bestecisi yazıyor: sinan sipahi
+  huseyni--nefes--devrihindi--iptidadan_yol--                            söz yazarı yazıyor: Şah İsmail (Hatayi)
+  huseyni--oyunhavasi--nimsofyan--cecen_kizi--tanburi_cemil_bey          bestecisi yazıyor: tanburi cemil bey
+  huseyni--turku--aksak--demirciler_demir--_anonim_                      ölçüler usule oturmuyor
+  huseyni--turku--aksak--leylak_takivermis--bahri_altintas               bestecisi yazıyor: bahri altintas
+  huseyni--turku--aksak--yali_kenarinda--osman_pehlivan                  bestecisi yazıyor: osman pehlivan
+  huseyni--turku--aksak--yanik_omer--sadettin_kaynak                     bestecisi yazıyor: sadettin kaynak
+  huseyni--turku--aksak--yuce_dag--sadettin_kaynak                       bestecisi yazıyor: sadettin kaynak
+  huseyni--turku--curcuna--sinemde_bir--                                 söz yazarı yazıyor: Harputlu Hafız Hayri
+  huseyni--turku--duyek--sabahtan_kalktim--ali_rifat_cagatay             bestecisi yazıyor: ali rifat cagatay
+  huseyni--turku--semai_8--aksam_olur--mehmet_yuzgec                     bestecisi yazıyor: mehmet yuzgec
+  huseyni--turku--sofyan--dost_dost_--asik_veysel                        bestecisi yazıyor: asik veysel
+  huseyni--turku--sofyan--keklik_daglarda--                              söz yazarı yazıyor: Faruk Nafiz Çamlıbel
+  huseyni--turku--sofyan--kina_mi--nuri_halil_poyraz                     bestecisi yazıyor: nuri halil poyraz
+  huseyni--turku--sofyan--koskum_var--                                   ölçüler usule oturmuyor
+  huseyni--turku--sofyan--sabahin_seher--                                söz yazarı yazıyor: Kul Himmet
+  huseyni--turku--sofyan--tren_gelir--bozuyuk                            aynı adla ve usulle zaten var: Tren Gelir Hoş Gelir
+  huseyni--turku--yuruksemai--bir_hisminan--kars                         söz yazarı yazıyor: Köroğlu
+  huseyni--zeybek--agiraksak--sarizeybek--osman_pehlivan                 bestecisi yazıyor: osman pehlivan
+  huzzam--turku--aksak--bilirim_daha--bimen_sen                          bestecisi yazıyor: bimen sen
+  huzzam--turku--düyek--kadem_basti--raci_alkir                          bestecisi yazıyor: raci alkir
+  huzzam--turku--ikizaksak--cirpinirdi_karadeniz--uzeyir_hacibeyov       bestecisi yazıyor: uzeyir hacibeyov
+  isfahan--turku--aksak--feslegen_ektim--tanburi_mustafa_cavus           bestecisi yazıyor: tanburi mustafa cavus
+  isfahan--turku--iki-bir--bugun_ayin--ibrahim_yildirim                  bestecisi yazıyor: ibrahim yildirim
+  karcigar--guvende--nimdevir--edremit--                                 ölçüler usule oturmuyor
+  karcigar--turku--nimsofyan--ahu_gozlerini--kirsehir                    ölçüler usule oturmuyor
+  karcigar--turku--turkaksagi--tanburamin_ince--sadettin_kaynak          bestecisi yazıyor: sadettin kaynak
+  kucek--nefes--duyek--evc-i_himmet--ali_rifat_cagatay                   bestecisi yazıyor: ali rifat cagatay
+  mahur--turku--iki-bir--felek_sen--abdullah_balak                       bestecisi yazıyor: abdullah balak
+  mahur--turku--sofyan--beyoglunda_gezersin--pirincci_riza_bey           bestecisi yazıyor: pirincci riza bey
+  mahur--zeybek--aydin--kirpigine_surme--refik_fersan                    bestecisi yazıyor: refik fersan
+  muhayyer--bozlak--serbest--havayi_da--asaf_guven                       bestecisi yazıyor: asaf guven
+  muhayyer--divan--nimsofyan--ok_gibi--                                  ölçüler usule oturmuyor
+  muhayyer--turku--duyek--iste_seni--sadettin_kaynak                     bestecisi yazıyor: sadettin kaynak
+  muhayyer--turku--duyek--zehram_bana--yesari_asim_arsoy                 bestecisi yazıyor: yesari asim arsoy
+  muhayyer--turku--nimcember--erzurumun_daginda--hulusi_seven            bestecisi yazıyor: hulusi seven
+  muhayyer--turku--senginsemai--bulandi_gozler--urfa                     sapta perdesi olmayan ses: Mi6
+  muhayyer--turku--sofyan--agyari_alma--ali_rifat_cagatay                bestecisi yazıyor: ali rifat cagatay
+  muhayyer--zeybek--aksak--serenler--burdur                              ölçüler usule oturmuyor
+  muhayyerkurdi--turku--duyek--neyleyim_neyleyim--ahmet_gazi_ayhan       bestecisi yazıyor: ahmet gazi ayhan
+  muhayyerkurdi--turku--sofyan--sene_341--ordu                           aynı adla ve usulle zaten var: Sene Üç Yüz Kırk Bir
+  neva--taksim--serbest---tanburi_cemil_bey                              dosya adı beklenen biçimde değil
+  nevruz--rumeliturkusu---serbest-cok_ezelden--                          dosya adı beklenen biçimde değil
+  nihavent--azeriturku--semai--bir_kara_gozluye--arif_sami_toker         bestecisi yazıyor: arif sami toker
+  nihavent--taksim--serbest---tanburi_cemil_bey                          dosya adı beklenen biçimde değil
+  nihavent--turku--aksak--evlerinin_onu--muzaffer_sarisozen              bestecisi yazıyor: muzaffer sarisozen
+  nikriz--turku--evfer--dagbasinda_tuter--kadri_sencalar                 bestecisi yazıyor: kadri sencalar
+  nikriz--turku--turkaksagi--haydar_haydar--erzincan                     söz yazarı yazıyor: Kul Nesimi
+  nikriz--zeybek--aksak--1--tanburi_cemil_bey                            bestecisi yazıyor: tanburi cemil bey
+  nikriz--zeybek--aksak--2--tanburi_cemil_bey                            bestecisi yazıyor: tanburi cemil bey
+  nikriz--zeybek--aksak--sobalarinda_guru--denizli                       ölçüler usule oturmuyor
+  nisaburek--turku--aksak--fincani_tastan--                              sapta perdesi olmayan ses: Sol4#3
+  rast--turku--devrihindi--deryalar--rumeli                              aynı adla ve usulle zaten var: Kırcali'yle Arda Adası
+  rast--turku--semai--gul_agaci--necip_mirkelamoglu                      bestecisi yazıyor: necip mirkelamoglu
+  rast--zeybek--agiraksak--kordon_zeybegi--                              sapta perdesi olmayan ses: Do4#
+  rast--zeybek--aksak----tanburi_cemil_bey                               bestecisi yazıyor: tanburi cemil bey
+  ruhnevaz--oyunhavasi--devrituran--bad-i_saba--osman_nuri_ozpekel       bestecisi yazıyor: osman nuri ozpekel
+  saba--taksim--serbest---tanburi_cemil_bey                              dosya adı beklenen biçimde değil
+  saba--turku--aksak--daracik_sokaklari--istanbul                        sapta perdesi olmayan ses: Re5b2
+  saba--turku--azeriyuruksemai--kar_etmez--                              sapta perdesi olmayan ses: Re5b2
+  saba--turku--curcuna--yesil_yaprak--                                   sapta perdesi olmayan ses: Re5b2
+  saba--turku--duyek--hangi_bagin--                                      sapta perdesi olmayan ses: Re5b2
+  saba--turku--nimsofyan--pinar_basi--                                   sapta perdesi olmayan ses: Re5b2
+  saba--turku--sofyan--bir_dalda--istanbul                               sapta perdesi olmayan ses: Re5b2
+  saba--turku--sofyan--mendilimin_yesili--                               sapta perdesi olmayan ses: Re5b2
+  sedaraban--taksim--serbest---tanburi_cemil                             dosya adı beklenen biçimde değil
+  segah--rumeliturkusu--raksaksagi--sana_da--rumeli                      sapta perdesi olmayan ses: La5#3 Mi5#3
+  segah--turku--33333--cemberli_cargat--huseng_azeroglu                  bestecisi yazıyor: huseng azeroglu
+  segah--turku--aksak--beyaz_giyme--bolu                                 söz yazarı yazıyor: Emin Aldemir
+  segah--turku--aksak--bir_gemim--ankara                                 sapta perdesi olmayan ses: La4#3
+  segah--turku--aksak--yarim_istanbulu--kayseri                          ölçüler usule oturmuyor
+  segah--turku--devrihindi--gemiciler--trabzon                           aynı adla ve usulle zaten var: Gemiciler Kalkalım
+  segah--turku--iki_bir--pencereden_tas--kars                            sapta perdesi olmayan ses: La4#3
+  segah--turku--kapali_curcuna--incecikten_bir--sadettin_kaynak          bestecisi yazıyor: sadettin kaynak
+  segah--turku--nimsofyan--acilir_gonca_gul--erol_sayan                  bestecisi yazıyor: erol sayan
+  segah--turku--nimsofyan--silifkenin_yogurdu--                          söz yazarı yazıyor: Muzaffer Sarısözen
+  segah--turku--nimsofyan--zeytinyagli_yiyemem--                         sapta perdesi olmayan ses: Mi5#3
+  segah--turku--sofyan--oy_kemence--ordu                                 sapta perdesi olmayan ses: La4#3
+  segah--turku--sofyan--pancar_pezik--hacibektas                         sapta perdesi olmayan ses: La4#3 Mi5#3 Si3b2
+  segah--zeybek--agiraksak--antalya_zeybegi--antalya                     sapta perdesi olmayan ses: La4#3 La5#3
+  sehnaz--divan--sofyan--vardim_ki--nevres_pasa                          bestecisi yazıyor: nevres pasa
+  suzidil--taksim--serbest---tanburi_cemil_bey                           dosya adı beklenen biçimde değil
+  suzinak--turku--oynak--a_benim--osman_pehlivan                         bestecisi yazıyor: osman pehlivan
+  suzinak_zirgule--turku--semai--gokyuzunde_tuten--necmi_piskin          bestecisi yazıyor: necmi piskin
+  tahir--turku--senginsemai--gele_gele--urfa                             söz yazarı yazıyor: Karac'oğlan
+  tahir--turku--sofyan--bulbulun_kanadi--yozgat                          ölçüler usule oturmuyor
+  tahir--zeybek--aksak--sari_zeybek--osman_pehlivan                      bestecisi yazıyor: osman pehlivan
+  ussak--nefes--duyek--ben_melamet--                                     söz yazarı yazıyor: Kul Nesimi
+  ussak--turku--curcuna--su_karsi--erzincan                              söz yazarı yazıyor: Pir Sultan Abdal
+  ussak--turku--sofyan--nesini_soyleyim--asik_seyrani                    bestecisi yazıyor: asik seyrani
+  ussak--turku--sofyan--niye_cattin--neset_ertas                         bestecisi yazıyor: neset ertas
+  ussak--turku--sofyan--uzun_ince--asik_veysel                           bestecisi yazıyor: asik veysel
+  vecdidil--turku--nimsofyan--gozlerin_tahrirlidir--ruhi_ayangil         bestecisi yazıyor: ruhi ayangil
+  yeni_cargah--turku--sofyan--halkali_seker--eskisehir                   söz yazarı yazıyor: Ahmet Yamacı
+  zavil--turku--sofyan--ela_gozlum_yiktin--sadettin_kaynak               bestecisi yazıyor: sadettin kaynak

@@ -1,0 +1,40 @@
+ad: Kayalar Gölgelendi
+yore: Kerkük
+usul: 10/8
+usul-adi: Curcuna
+kalip: 3+2+2+3
+tempo: 84
+dizi: Uşşak
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 3.0, ussak--turku--curcuna--kayalar_golgelendi--kerkuk
+---
+1 | Es:4 Re5:8 Re5:4 Do5:4 Re5:4 Si4b2:8
+2 | Si4b2:8 La4:8 Si4b2:8 La4:4 Si4b2:4 Do5:8 Re5:4
+3 | Re5:4 Re5:8 Mi5:8 Re5:8 Do5:4 Re5:4 Do5:8
+4 | Si4b2:8 La4:8 Si4b2:8 La4:4 Si4b2:8 La4:8 La4:4.
+5 | La4:4 Mi5:8 Mi5:8 Re5:8 Re5:8 Do5:8 Do5:8 Si4b2:8 Do5:8
+6 | Si4b2:8 La4:8 Si4b2:8 La4:4 Si4b2:4 Do5:8 Re5:4
+7 | Re5:4 Re5:8 Mi5:8 Re5:8 Do5:8 Si4b2:8 Re5:8 Do5:4
+8 | Si4b2:16 Do5:16 La4:8 La4:4. La4:4 La4:4.
+[Söz]
+9 | Mi5:16=Ah Fa5:16 Mi5:16 Fa5:16 Re5:4. Re5:4 Re5:4.
+10 | Re5:4 Mi5:8=ka- Mi5:8=ya- Re5:8 Re5:4=lar Do5:4=göl- Si4b2:8
+11 | Si4b2:8=ge- La4:8 Si4b2:8 La4:4 Si4b2:4=len- Do5:8=di/ Re5:4
+12 | Re5:4=Gü- Re5:8=zel- Mi5:8 Re5:8 Do5:8=ler Si4b2:8 Re5:8=su- Do5:4
+13 | Si4b2:16=ya Do5:16 La4:8 La4:4. La4:4=in- La4:4.=di/
+14 | La4:4 Mi5:8=Her Mi5:8=gü- Re5:8 Re5:4=zel- Do5:4=den Si4b2:8
+15 | Si4b2:8=bir La4:8 Si4b2:8 La4:4 Si4b2:4=gü- Do5:8=lüş/ Re5:4
+16 | Re5:4=Ya- Mi5:16=ra- Fa5:16 Mi5:16 Fa5:16 Re5:8 Do5:8=lar Si4b2:8 Do5:8=ta- Si4b2:8 Do5:8
+17 | Si4b2:16=ze- Do5:16 La4:8 La4:4. La4:4=len- La4:4.=di/
+18 | La4:4 Re5:8=Gü- Re5:4=lüm Do5:4=gül- Re5:4=ler Do5:8
+19 | Si4b2:8=za- La4:8 Si4b2:8 La4:4 Si4b2:4=rın- Do5:8=nan/ Re5:4
+20 | Re5:4=Vaz- Re5:8=geç- Mi5:8 Re5:8 Do5:8=me- Si4b2:8 Re5:4=rem Do5:8
+21 | Si4b2:8=ya- La4:8 Si4b2:8 La4:4 Si4b2:8=rim- La4:8 La4:4.=nan/
+22 | La4:4 Mi5:8=Gü- Mi5:8=ver- Re5:8 Re5:8=cin- Do5:8 Do5:8=ler Si4b2:8 Do5:8
+23 | Si4b2:8=gök La4:8 Si4b2:8 La4:4 Si4b2:4=gi- Do5:8=rip/ Re5:4
+24 | Re5:4=Hep- Re5:8=si Mi5:8=de Re5:8 Do5:8=o Si4b2:8 Re5:8=yar Do5:4
+25 | Si4b2:16=der- Do5:16 La4:8 La4:4. La4:4=din- La4:4.=den/

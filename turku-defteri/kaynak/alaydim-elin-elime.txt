@@ -1,0 +1,35 @@
+ad: Alaydım Elin Elime
+yore: Urfa
+usul: 4/4
+usul-adi: Sofyan
+tempo: 75
+dizi: Hicaz Hümayun
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 3.0, hicaz_humayun--turku--sofyan--alaydim_elin--urfa
+---
+[Aranağme]
+1 | Fa5:16. Mi5:32 Re5:16 Mi5:16 Re5:8 Mi5:16 Fa5:16 Mi5:16 Re5:16 Do5#:16 Re5:16 Do5#:16 Si4b:16 La4:8
+2 | Mi5:16 Re5:16 Re5:16 Do5#:16 Do5#:16 Si4b:16 Si4b:16 La4:16 Mi5:32 Fa5:32 Mi5:32 Re5:32 Mi5:16 Fa5:16 Mi5:8 Mi5:8
+3 | Fa5:16. Mi5:32 Re5:16 Mi5:16 Re5:8 Mi5:16 Fa5:16 Mi5:16 Re5:16 Do5#:16 Re5:16 Do5#:16 Si4b:16 La4:8
+4 | Mi5:16 Re5:16 Re5:16 Do5#:16 Do5#:16 Si4b:16 Si4b:16 La4:16 La4:8. Re5:16 Do5#:16 Re5:16 Mi5:8
+[Söz]
+5 | Do5#:16=A- Re5:16 Mi5:4=lay- Mi5:8=dım Fa5:32=e- Mi5:32 Fa5:8 Mi5:16 Re5:32=lin Mi5:32 Re5:32 Do5#:32 Re5:8
+6 | Mi5:16=e- Fa5:8 Mi5:16 Re5:8=li- Do5#:16 Re5:16 Mi5:32=me/ Fa5:32 Mi5:32 Re5:32 Mi5:16 Fa5:16 Mi5:8 Do5#:16=A- Re5:16
+7 | Mi5:4=lay- Mi5:8 Sol5:8=dım Fa5:32 Mi5:32=e- Fa5:8 Mi5:16 Re5:32=lin Mi5:32 Re5:32 Do5#:32 Re5:8
+8 | Mi5:16=e- Fa5:8 Mi5:16 Re5:8=li- Do5#:16 Re5:16 Mi5:32=me/ Fa5:32 Mi5:32 Re5:32 Mi5:16 Fa5:16 Mi5:8 Do5#:16 Re5:16=Va-
+9 | (Sol5)Fa5:16.=ray- Mi5:32 Re5:16 Mi5:16 Re5:8 Mi5:16=dım Fa5:16 Mi5:16=Ur- Re5:16 Do5#:16 Re5:16 Do5#:16=fa Si4b:16 La4:8
+10 | Mi5:16=e- Re5:16 Re5:16 Do5#:16 Do5#:16=li- Si4b:16 Si4b:16 La4:16 Mi5:32=ne/ Fa5:32 Mi5:32 Re5:32 Mi5:16 Fa5:16 Mi5:8 Mi5:8=Va-
+11 | (Sol5)Fa5:16.=ray- Mi5:32 Re5:16 Mi5:16 Re5:8 Mi5:16=dım Fa5:16 Mi5:16=Ur- Re5:16 Do5#:16 Re5:16 Do5#:16=fa Si4b:16 La4:8
+12 | Mi5:16=e- Re5:16 Re5:16 Do5#:16 Do5#:16=li- Si4b:16 Si4b:16 La4:16 La4:8.=ne/ Re5:16 Do5#:16 Re5:16 Mi5:8
+13 | Do5#:16=Mer- Re5:16 Mi5:4=ha- Mi5:8=met Fa5:32=ey- Mi5:32 Fa5:8 Mi5:16 Re5:32=le Mi5:32 Re5:32 Do5#:32 Re5:8
+14 | Mi5:16=ha- Fa5:8 Mi5:16 Re5:8=li- Do5#:16 Re5:16 Mi5:32=me/ Fa5:32 Mi5:32 Re5:32 Mi5:16 Fa5:16 Mi5:8 Do5#:16=Mer- Re5:16
+15 | Mi5:4=ha- Mi5:8 Sol5:8=met Fa5:32 Mi5:32=ey- Fa5:8 Mi5:16 Re5:32=le Mi5:32 Re5:32 Do5#:32 Re5:8
+16 | Mi5:16=ha- Fa5:8 Mi5:16 Re5:8=li- Do5#:16 Re5:16 Mi5:32=me/ Fa5:32 Mi5:32 Re5:32 Mi5:16 Fa5:16 Mi5:8 Do5#:16 Re5:16=Kur-
+17 | (Sol5)Fa5:16.=bâ- Mi5:32 Re5:16 Mi5:16 Re5:8 Mi5:16=nın Fa5:16 Mi5:16=o- Re5:16 Do5#:16 Re5:16 Do5#:16=lam Si4b:16 La4:8
+18 | Mi5:16=yâr Re5:16 Re5:16 Do5#:16 Do5#:16=se- Si4b:16 Si4b:16 La4:16 Mi5:32=nin/ Fa5:32 Mi5:32 Re5:32 Mi5:16 Fa5:16 Mi5:8 Mi5:8=Hay-
+19 | (Sol5)Fa5:16.=râ- Mi5:32 Re5:16 Mi5:16 Re5:8 Mi5:16=nın Fa5:16 Mi5:16=o- Re5:16 Do5#:16 Re5:16 Do5#:16=lam Si4b:16 La4:8
+20 | Mi5:16=yâr Re5:16 Re5:16 Do5#:16 Do5#:16=se- Si4b:16 Si4b:16 La4:16 La4:8.=nin/ La4:16 La4:16 La4:16 La4:8

@@ -1,0 +1,23 @@
+ad: Bugün Ayın Ondördü
+yore: 
+usul: 9/8
+usul-adi: Evfer
+kalip: 2+2+2+3
+tempo: 72
+dizi: Tahir
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 3.0, tahir--turku--evfer--bugun_ayin_ondordu--
+---
+[Söz]
+1 | Es:8 Do6:16=Bu- Do6:16=gün- Si5b2:16=a- La5:16 La5:16=yın- Sol5:16 La5:16=on- Si5b2:16 Do6:16 Si5b2:16 La5:8=dör- Sol5:16=dü- Fa5#3:16 Mi5:16 Re5:16
+2 | Es:16 La5:8=Kız- La5:16=sa- Sol5:16=çı- Fa5:16 Mi5:16=nı- Re5:16 Mi5:16=kim- Fa5:16 Sol5:16 Mi5:16 Mi5:16=ör- Re5:16 Re5:4=dü-
+3 | Es:8 Do6:16=Bu- Do6:16=gün- Si5b2:16=a- La5:16 La5:16=yın- Sol5:16 La5:16=on- Si5b2:16 Do6:16 Si5b2:16 La5:8=dör- Sol5:16=dü- Fa5#3:16 Mi5:16 Re5:16
+4 | Es:16 La5:8=Kız- La5:16=sa- Sol5:16=çı- Fa5:16 Mi5:16=nı- Re5:16 Mi5:16=kim- Fa5:16 Sol5:16 Mi5:16 Mi5:16=ör- Re5:16 Re5:4=dü-
+5 | Es:16 La5:8=Ör- La5:16=dü- Sol5:16=i- Fa5:16 Mi5:16=se- Re5:16 Mi5:16=e- Fa5:16 Sol5:16=fem- Mi5:16 Mi5:16=ör- Re5:16 Re5:32=dü- Do5:32 Re5:32 Mi5:32 Do5:16 Si4b2:16
+6 | Es:16 Mi5:16=Ay- Re5:16 Mi5:16=ka- Do5:16=ran- Si4b2:16 La4:16=lık- Sol4:16 La4:16=kim- Si4b2:16 Do5:16 Si4b2:16 Si4b2:16=gör- La4:16 La4:4=dü-
+7 | Es:16 La5:8=Ör- La5:16=dü- Sol5:16=i- Fa5:16 Mi5:16=se- Re5:16 Mi5:16=e- Fa5:16 Sol5:16=fem- Mi5:16 Mi5:16=ör- Re5:16 Re5:32=dü- Do5:32 Re5:32 Mi5:32 Do5:16 Si4b2:16
+8 | Es:16 Mi5:16=Ay- Re5:16 Mi5:16=ka- Do5:16=ran- Si4b2:16 La4:16=lık- Sol4:16 La4:16=kim- Si4b2:16 Do5:16 Si4b2:16 Si4b2:16=gör- La4:16 La4:4=dü-

@@ -1,0 +1,42 @@
+ad: İreyhan Eker misin
+yore: Sivas
+usul: 2/4
+usul-adi: Nimsofyan
+tempo: 78
+dizi: Hüzzam
+karar: Si bemol 2
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 3.0, huzzam--turku--nimsofyan--ireyhan_eker--sivas
+---
+[Aranağme]
+1 | Si4b2:16 Sol4:16 Si4b2:16 Do5:16 Re5:8 Mi5b2:16 Re5:16
+2 | Re5:16 Mi5b2:16 Fa5#3:16 Sol5:16 Fa5#3:8 Mi5b2:16 Re5:16
+3 | Do5:16 Re5:8 Si4b2:16 Re5:16 Do5:16 Do5:16 Si4b2:16
+[Aranağme]
+4 | Si4b2:16 Sol4:16 Si4b2:16 Do5:16 Re5:8 Mi5b2:16 Re5:16
+5 | Re5:16 Mi5b2:16 Fa5#3:16 Sol5:16 Fa5#3:8 Mi5b2:16 Re5:16
+6 | Do5:16 Re5:8 Si4b2:16 Re5:16 Do5:16 Do5:16 Si4b2:16
+[Söz]
+7 | Es:8 Fa5#3:16=İ- Sol5:16=rey- Sol5:8=han Sol5:8=e-
+8 | Sol5:8=ker Sol5:8=mi- Sol5:16=sin/ Fa5#3:8 Mi5b2:16
+9 | Mi5b2:8 Sol5:16=Li- Sol5:16=li Sol5:16=yâr Fa5#3:8 Mi5b2:16
+10 | Mi5b2:16 Re5:16 Sol5:16=li- Sol5:16=li Sol5:16=yâr/ Fa5#3:8 Mi5b2:16
+11 | Re5:16=Ba- Mi5b2:16 Fa5#3:16=lı- Sol5:16 Sol5:16=nan Fa5#3:16 Sol5:8=şe-
+12 | Sol5:16=ker Fa5#3:16 Sol5:16=mi- Mi5b2:16 Fa5#3:8=sin/ Mi5b2:16=Li- Re5:16=li
+13 | Do5:16=li- Re5:8=li Si4b2:16=de Re5:16=li- Do5:16=li Do5:16=yâr/ Si4b2:16
+14 | Es:8 Si4b2:16=Ba- Do5:16=lı- Re5:8=nan Mi5b2:16=şe- Re5:16
+15 | Re5:16=ker Mi5b2:16 Fa5#3:16=mi- Sol5:16 Fa5#3:8=sin/ Mi5b2:16=Li- Re5:16=li
+16 | Do5:16=li- Re5:8=li Si4b2:16=de Re5:16=li- Do5:16=li Do5:16=yâr/ Si4b2:16
+17 | Es:8 Fa5#3:16=İ- Sol5:16=rey- Sol5:8=han Sol5:8=e-
+18 | Sol5:8=ker Sol5:8=mi- Sol5:16=sin/ Fa5#3:8 Mi5b2:16
+19 | Mi5b2:8 Sol5:16=Li- Sol5:16=li Sol5:16=yâr Fa5#3:8 Mi5b2:16
+20 | Mi5b2:16 Re5:16 Sol5:16=li- Sol5:16=li Sol5:16=yâr/ Fa5#3:8 Mi5b2:16
+21 | Re5:16=Ba- Mi5b2:16 Fa5#3:16=lı- Sol5:16 Sol5:16=nan Fa5#3:16 Sol5:8=şe-
+22 | Sol5:16=ker Fa5#3:16 Sol5:16=mi- Mi5b2:16 Fa5#3:8=sin/ Mi5b2:16=Li- Re5:16=li
+23 | Do5:16=li- Re5:8=li Si4b2:16=de Re5:16=li- Do5:16=li Do5:16=yâr/ Si4b2:16
+24 | Es:8 Si4b2:16=Ba- Do5:16=lı- Re5:8=nan Mi5b2:16=şe- Re5:16
+25 | Re5:16=ker Mi5b2:16 Fa5#3:16=mi- Sol5:16 Fa5#3:8=sin/ Mi5b2:16=Li- Re5:16=li
+26 | Do5:16=li- Re5:8=li Si4b2:16=de Re5:16=li- Do5:16=li Do5:16=yâr/ Si4b2:16

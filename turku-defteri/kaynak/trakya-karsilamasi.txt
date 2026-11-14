@@ -1,0 +1,95 @@
+ad: Trakya Karşılaması
+yore: 
+usul: 9/8
+usul-adi: Evfer
+kalip: 2+2+2+3
+tempo: 99
+dizi: Hüseyni
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 3.0, huseyni--karsilama--evfer--trakya_karsilamasi--
+bicim: Karşılama
+---
+1 | Es:4 Re5:8 Mi5:8 Mi5:16 Fa5:16 Re5:8 Mi5:8 Do5:4
+2 | Re5:8 Mi5:8 Fa5:16 Mi5:16 Re5:8 Mi5:8 Do5:8 Re5:8 Mi5:4
+3 | Es:4 Re5:8 Mi5:8 Mi5:16 Fa5:16 Re5:8 Mi5:8 Do5:4
+4 | Re5:8 Mi5:8 Fa5:16 Mi5:16 Re5:8 Do5:4 Si4b2:8 La4:4
+5 | Es:4 Re5:8 Mi5:8 Mi5:16 Fa5:16 Re5:8 Mi5:8 Do5:4
+6 | Re5:8 Mi5:8 Fa5:16 Mi5:16 Re5:8 Mi5:8 Do5:8 Re5:8 Mi5:4
+7 | Es:4 Re5:8 Mi5:8 Mi5:16 Fa5:16 Re5:8 Mi5:8 Do5:4
+8 | Re5:8 Mi5:8 Fa5:16 Mi5:16 Re5:8 Do5:4 Si4b2:8 La4:4
+9 | Es:4 Fa4#3:8 Sol4:8 La4:8 Si4b2:8 Do5:8 Re5:8 Mi5:8
+10 | Fa5:16 Mi5:16 Re5:16 Mi5:16 Re5:8 Do5:8 Si4b2:8. La4:16 Re5:8 Re5:4
+11 | Es:4 Fa4#3:8 Sol4:8 La4:8 Si4b2:8 Do5:8 Re5:8 Mi5:8
+12 | Fa5:16 Mi5:16 Re5:16 Mi5:16 Re5:8 Do5:8 Si4b2:8. La4:16 La4:8 La4:4
+13 | Es:4 Fa4#3:8 Sol4:8 La4:8 Si4b2:8 Do5:8 Re5:8 Mi5:8
+14 | Fa5:16 Mi5:16 Re5:16 Mi5:16 Re5:8 Do5:8 Si4b2:8. La4:16 Re5:8 Re5:4
+15 | Es:4 Fa4#3:8 Sol4:8 La4:8 Si4b2:8 Do5:8 Re5:8 Mi5:8
+16 | Fa5:16 Mi5:16 Re5:16 Mi5:16 Re5:8 Do5:8 Si4b2:8. La4:16 La4:8 La4:4
+17 | Es:4 Re5:8 Mi5:8 Mi5:16 Fa5:16 Re5:8 Mi5:8 Do5:4
+18 | Re5:8 Mi5:8 Fa5:16 Mi5:16 Re5:8 Mi5:8 Do5:8 Re5:8 Mi5:4
+19 | Es:4 Re5:8 Mi5:8 Mi5:16 Fa5:16 Re5:8 Mi5:8 Do5:4
+20 | Re5:8 Mi5:8 Fa5:16 Mi5:16 Re5:8 Do5:4 Si4b2:8 La4:4
+21 | Es:4 Re5:8 Mi5:8 Mi5:16 Fa5:16 Re5:8 Mi5:8 Do5:4
+22 | Re5:8 Mi5:8 Fa5:16 Mi5:16 Re5:8 Mi5:8 Do5:8 Re5:8 Mi5:4
+23 | Es:4 Re5:8 Mi5:8 Mi5:16 Fa5:16 Re5:8 Mi5:8 Do5:4
+24 | Re5:8 Mi5:8 Fa5:16 Mi5:16 Re5:8 Do5:4 Si4b2:8 La4:4
+25 | Es:4 Fa4#3:8 Sol4:8 La4:8 Si4b2:8 Do5:8 Re5:8 Mi5:8
+26 | Fa5:16 Mi5:16 Re5:16 Mi5:16 Re5:8 Do5:8 Si4b2:8. La4:16 Re5:8 Re5:4
+27 | Es:4 Fa4#3:8 Sol4:8 La4:8 Si4b2:8 Do5:8 Re5:8 Mi5:8
+28 | Fa5:16 Mi5:16 Re5:16 Mi5:16 Re5:8 Do5:8 Si4b2:8. La4:16 La4:8 La4:4
+29 | Es:4 Fa4#3:8 Sol4:8 La4:8 Si4b2:8 Do5:8 Re5:8 Mi5:8
+30 | Fa5:16 Mi5:16 Re5:16 Mi5:16 Re5:8 Do5:8 Si4b2:8. La4:16 Re5:8 Re5:4
+31 | Es:4 Fa4#3:8 Sol4:8 La4:8 Si4b2:8 Do5:8 Re5:8 Mi5:8
+32 | Fa5:16 Mi5:16 Re5:16 Mi5:16 Re5:8 Do5:8 Si4b2:8. La4:16 La4:8 La4:4
+33 | Si4b2:4 Do5:4 Si4b2:4 Do5:8 Do5:8 Re5:8
+34 | Si4b2:4 Do5:4 Si4b2:4 La4:8 La4:4
+35 | Si4b2:4 Do5:4 Si4b2:4 Do5:8 Do5:8 Re5:8
+36 | Si4b2:4 Do5:4 Si4b2:4 La4:8 La4:4
+37 | Es:4 La4:8 Si4b2:8 Do5:8 Re5:8 Mi5:8 Fa5#3:8 Sol5:8
+38 | Sol5:16 Fa5:16 Mi5:16 Fa5:16 Mi5:4 Mi5:4 Mi5:8 Mi5:4
+39 | Mi5:4 Mi5:4 Mi5:4 Mi5:8 Mi5:4
+40 | Mi5:4 Mi5:4 Mi5:4 Mi5:8 Mi5:4
+41 | Fa5#3:4 Sol5:4 Fa5#3:4 Sol5:8 Sol5:8 La5:8
+42 | Fa5#3:4 Sol5:4 Fa5#3:4 Mi5:8 Mi5:4
+43 | Fa5#3:4 Sol5:4 Fa5#3:4 Sol5:8 Sol5:8 La5:8
+44 | Fa5#3:4 Sol5:4 Fa5#3:4 Mi5:8 Mi5:4
+45 | Es:4 Re5:8 Mi5:8 Mi5:16 Fa5:16 Re5:8 Mi5:8 Do5:4
+46 | Re5:8 Mi5:8 Fa5:16 Mi5:16 Re5:8 Mi5:8 Do5:8 Re5:8 Mi5:4
+47 | Es:4 Re5:8 Mi5:8 Mi5:16 Fa5:16 Re5:8 Mi5:8 Do5:4
+48 | Re5:8 Mi5:8 Fa5:16 Mi5:16 Re5:8 Do5:4 Si4b2:8 La4:4
+49 | Es:4 Re5:8 Mi5:8 Mi5:16 Fa5:16 Re5:8 Mi5:8 Do5:4
+50 | Re5:8 Mi5:8 Fa5:16 Mi5:16 Re5:8 Mi5:8 Do5:8 Re5:8 Mi5:4
+51 | Es:4 Re5:8 Mi5:8 Mi5:16 Fa5:16 Re5:8 Mi5:8 Do5:4
+52 | Re5:8 Mi5:8 Fa5:16 Mi5:16 Re5:8 Do5:4 Si4b2:8 La4:4
+53 | Es:4 Fa4#3:8 Sol4:8 La4:8 Si4b2:8 Do5:8 Re5:8 Mi5:8
+54 | Fa5:16 Mi5:16 Re5:16 Mi5:16 Re5:8 Do5:8 Si4b2:8. La4:16 Re5:8 Re5:4
+55 | Es:4 Fa4#3:8 Sol4:8 La4:8 Si4b2:8 Do5:8 Re5:8 Mi5:8
+56 | Fa5:16 Mi5:16 Re5:16 Mi5:16 Re5:8 Do5:8 Si4b2:8. La4:16 La4:8 La4:4
+57 | Es:4 Fa4#3:8 Sol4:8 La4:8 Si4b2:8 Do5:8 Re5:8 Mi5:8
+58 | Fa5:16 Mi5:16 Re5:16 Mi5:16 Re5:8 Do5:8 Si4b2:8. La4:16 Re5:8 Re5:4
+59 | Es:4 Fa4#3:8 Sol4:8 La4:8 Si4b2:8 Do5:8 Re5:8 Mi5:8
+60 | Fa5:16 Mi5:16 Re5:16 Mi5:16 Re5:8 Do5:8 Si4b2:8. La4:16 La4:8 La4:4
+61 | Es:4 Re5:8 Mi5:8 Mi5:16 Fa5:16 Re5:8 Mi5:8 Do5:4
+62 | Re5:8 Mi5:8 Fa5:16 Mi5:16 Re5:8 Mi5:8 Do5:8 Re5:8 Mi5:4
+63 | Es:4 Re5:8 Mi5:8 Mi5:16 Fa5:16 Re5:8 Mi5:8 Do5:4
+64 | Re5:8 Mi5:8 Fa5:16 Mi5:16 Re5:8 Do5:4 Si4b2:8 La4:4
+65 | Es:4 Re5:8 Mi5:8 Mi5:16 Fa5:16 Re5:8 Mi5:8 Do5:4
+66 | Re5:8 Mi5:8 Fa5:16 Mi5:16 Re5:8 Mi5:8 Do5:8 Re5:8 Mi5:4
+67 | Es:4 Re5:8 Mi5:8 Mi5:16 Fa5:16 Re5:8 Mi5:8 Do5:4
+68 | Re5:8 Mi5:8 Fa5:16 Mi5:16 Re5:8 Do5:4 Si4b2:8 La4:4
+69 | Es:4 Fa4#3:8 Sol4:8 La4:8 Si4b2:8 Do5:8 Re5:8 Mi5:8
+70 | Fa5:16 Mi5:16 Re5:16 Mi5:16 Re5:8 Do5:8 Si4b2:8. La4:16 Re5:8 Re5:4
+71 | Es:4 Fa4#3:8 Sol4:8 La4:8 Si4b2:8 Do5:8 Re5:8 Mi5:8
+72 | Fa5:16 Mi5:16 Re5:16 Mi5:16 Re5:8 Do5:8 Si4b2:8. La4:16 La4:8 La4:4
+73 | Es:4 Fa4#3:8 Sol4:8 La4:8 Si4b2:8 Do5:8 Re5:8 Mi5:8
+74 | Fa5:16 Mi5:16 Re5:16 Mi5:16 Re5:8 Do5:8 Si4b2:8. La4:16 Re5:8 Re5:4
+75 | Es:4 Fa4#3:8 Sol4:8 La4:8 Si4b2:8 Do5:8 Re5:8 Mi5:8
+76 | Fa5:16 Mi5:16 Re5:16 Mi5:16 Re5:8 Do5:8 Si4b2:8. La4:16 La4:8 La4:4
+77 | Si4b2:4 Do5:4 Si4b2:4 Do5:8 Do5:8 Re5:8
+78 | Si4b2:4 Do5:4 Si4b2:4 La4:8 La4:4
+79 | Si4b2:4 Do5:4 Si4b2:4 Do5:8 Do5:8 Re5:8
+80 | Si4b2:4 Do5:4 Si4b2:4 La4:8 La4:4

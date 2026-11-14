@@ -1,0 +1,39 @@
+ad: Ağlama Yar
+yore: 
+usul: 8/8
+usul-adi: Müsemmen
+kalip: 3+2+3
+tempo: 120
+dizi: Hüseyni
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 3.0, huseyni--turku--musemmen--aglama_yar--anonim
+---
+[Söz]
+1 | Re5:8=Ağ- Mi5:8=la- Mi5:8=ma Mi5:5/8=yâr
+2 | Mi5:4=ağ- Mi5:8=la- Re5:2=ma/ Do5:8
+3 | Mi5:4=Ka- Fa5:8=re Mi5:4=yaz- Re5:4=ma Do5:8
+4 | Do5:4=bağ- Re5:8=la- Re5:4=ma/ Do5:4 Si4b2:8
+5 | Do5:8=Gi- Re5:8=de- Re5:8=rim Re5:4=tez Re5:4.=ge-
+6 | Re5:4=li- Re5:8=rim Re5:4=ey/ Do5:4 Si4b2:8
+7 | Re5:4=El- Re5:8=le- Do5:4=re Si4b2:4=el La4:8
+8 | Si4b2:4=bağ- (Re5)Do5:8=la- La4:4=ma/ Es:4 Es:8
+9 | Do5:8=Gi- Re5:8=de- Re5:8=rim Re5:4=tez Re5:4.=ge-
+10 | Re5:4=li- Re5:8=rim Re5:4=ey/ Do5:4 Si4b2:8
+11 | Re5:4=El- Re5:8=le- Do5:4=re Si4b2:4=el La4:8
+12 | Si4b2:4=bağ- (Re5)Do5:8=la- La4:4=ma/ Es:4 Es:8
+13 | Re5:8=Bu- Mi5:8=gün Mi5:8=a- Mi5:5/8=yın
+14 | Mi5:4=ü- Mi5:8=çü- Re5:2=dür/ Do5:8
+15 | Mi5:4=Gir- Fa5:8=me Mi5:4=bos- Re5:4=tan Do5:8
+16 | Do5:4=i- Re5:8=çi- Si4b2:4=dir/ Es:4 Es:8
+17 | Do5:8=Du- Re5:8=dak- Re5:8=la- Re5:5/8=rın
+18 | Re5:4=bal Re5:8=şe- Re5:4=ker/ Do5:4 Si4b2:8
+19 | Re5:4=Di- Re5:8=lin Do5:4=ba- Si4b2:4=dem La4:8
+20 | Si4b2:4=i- (Re5)Do5:8=çi- La4:4=dir/ Es:4 Es:8
+21 | Do5:8=Du- Re5:8=dak- Re5:8=la- Re5:5/8=rın
+22 | Re5:4=bal Re5:8=şe- Re5:4=ker/ Do5:4 Si4b2:8
+23 | Re5:4=Di- Re5:8=lin Do5:4=ba- Si4b2:4=dem La4:8
+24 | Si4b2:4=i- (Re5)Do5:8=çi- La4:4=dir/ Es:4 Es:8

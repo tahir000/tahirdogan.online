@@ -1,0 +1,22 @@
+ad: Ata Barı
+yore: Artvin
+usul: 12/8
+usul-adi: İkiz Aksak
+tempo: 87
+dizi: Uşşak
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 3.0, ussak--oyunhavasi--ikizaksak--ata_bari--artvin
+bicim: Oyun havası
+---
+1 | La4:4 Si4b2:8 Do5:8 Re5:4 Re5:8 Mi5:8 Do5:8 Re5:4.
+2 | Re5:8 Do5:8 Re5:8 Mi5:8 Do5:4 Mi5:8 Re5:4 Re5:4.
+3 | La4:4 Si4b2:8 Do5:8 Re5:4 Re5:8 Mi5:8 Do5:8 Re5:4.
+4 | Re5:8 Do5:8 Re5:8 Mi5:8 Do5:4 Mi5:8 Re5:4 Re5:4.
+5 | Re5:8 Do5:8 Re5:8 Mi5:8 Do5:4 Do5:8 Si4b2:8 Do5:8 Si4b2:8 La4:8 Sol4:8
+6 | Do5:8 Si4b2:8 Do5:8 Re5:8 Si4b2:4 Si4b2:8 La4:4 La4:4.
+7 | Re5:8 Do5:8 Re5:8 Mi5:8 Do5:4 Do5:8 Si4b2:8 Do5:8 Si4b2:8 La4:8 Sol4:8
+8 | Do5:8 Si4b2:8 Do5:8 Re5:8 Si4b2:4 Si4b2:8 La4:4 La4:4.

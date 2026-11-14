@@ -1,0 +1,31 @@
+ad: Bağı Bağımca Var mı
+yore: Urfa
+usul: 8/8
+usul-adi: Düyek
+tempo: 66
+dizi: Karcığar
+karar: La
+duzen: bozuk
+zorluk: zor
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 3.0, karcigar--turku--duyek--bagi_bagimca--urfa
+---
+1 | Es:8 Fa5#3:16 Sol5:16 Sol5:8 Fa5#3:16 Mi5b2:16 Fa5#3:8 Mi5b2:16 Re5:16 Mi5b2:16 Re5:16 Re5:8
+2 | Re5:8 Fa5#3:16 Sol5:16 Sol5:8 Fa5#3:16 Mi5b2:16 Fa5#3:8 Mi5b2:16 Re5:16 Mi5b2:16 Re5:16 Re5:8
+3 | Re5:8 Do5:16 Re5:16 Do5:16 Re5:16 Do5:16 Si4b2:16 Do5:16 Re5:16 Do5:16 Si4b2:16 Do5:16 Re5:16 Do5:16 Si4b2:16
+4 | Do5:16 Re5:16 Do5:16 Si4b2:16 Do5:16 Re5:16 Do5:16 Si4b2:16 Mi5:16 Re5:16 Re5:16 Do5:16 Do5:16 Si4b2:16 Si4b2:16 La4:16
+5 | La4:16 La4:8 La4:16 La4:16 Sol4:16 Do5:16 Si4b2:32 La4:32 La4:16 La4:16 La4:16 Sol5:16 Sol5:16 Fa5#3:16 Sol5:8
+[Söz]
+6 | Fa5#3:32 Mi5b2:32 Re5:32 Do5:32 Fa5#3:16=Ba- Sol5:16=ğı Sol5:16.=ba- La5:32 Fa5#3:32 Sol5:32 Mi5b2:16 Fa5#3:16.=ğım- Mi5b2:32 Mi5b2:16=ca Re5:16 (Fa5#3)Mi5b2:16=var Re5:16 Re5:8=mı/
+[Saz]
+7 | Sol5:8 Fa5#3:16=Ba- Sol5:16=ğı Sol5:32=ba- Fa5#3:32 Sol5:32 La5:32 Fa5#3:32 Sol5:32 Mi5b2:16 Fa5#3:16.=ğım- Mi5b2:32 Mi5b2:16=ca Re5:16 (Fa5#3)Mi5b:16=var Re5:16 Re5:8=mı/
+8 | Es:8 Do5:16=Ba- Re5:16=ğıy- Do5:16=da Re5:16 Do5:16 Si4b2:16 Do5:16=yon- Re5:16 Do5:16=ca Si4b2:16 Do5:16=var Re5:16 Do5:16=mı/ Si4b2:16
+9 | Do5:16=Vay Re5:16 Do5:16 (Re5)Si4b2:16 Do5:16=vay Re5:16 Do5:16 Si4b2:16 Mi5:16.=vay Re5:32 Re5:16=be- Do5:16=nim Do5:16=a- Si4b2:16 Si4b2:16=ğam La4:16
+10 | La4:5/16=vay/ Sol4:16 Do5:32 Si4b2:32 Do5:32 La4:32 La4:8. Sol5:16 Sol5:16 Fa5#3:16 Sol5:8
+11 | Fa5#3:32 Mi5b2:32 Re5:32 Do5:32 Fa5#3:16=Ba- Sol5:16=ğı Sol5:16.=ba- La5:32 Fa5#3:32 Sol5:32 Mi5b2:16 Fa5#3:16.=ğım- Mi5b2:32 Mi5b2:16=ca Re5:16 (Fa5#3)Mi5b2:16=var Re5:16 Re5:8=mı/
+[Saz]
+12 | Sol5:8 Fa5#3:16=Ba- Sol5:16=ğı Sol5:32=ba- Fa5#3:32 Sol5:32 La5:32 Fa5#3:32 Sol5:32 Mi5b2:16 Fa5#3:16.=ğım- Mi5b2:32 Mi5b2:16=ca Re5:16 (Fa5#3)Mi5b:16=var Re5:16 Re5:8=mı/
+13 | Es:8 Do5:16=Ba- Re5:16=ğıy- Do5:16=da Re5:16 Do5:16 Si4b2:16 Do5:16=yon- Re5:16 Do5:16=ca Si4b2:16 Do5:16=var Re5:16 Do5:16=mı/ Si4b2:16
+14 | Do5:16=Vay Re5:16 Do5:16 (Re5)Si4b2:16 Do5:16=vay Re5:16 Do5:16 Si4b2:16 Mi5:16.=vay Re5:32 Re5:16=be- Do5:16=nim Do5:16=a- Si4b2:16 Si4b2:16=ğam La4:16
+15 | La4:5/16=vay/ Sol4:16 Do5:32 Si4b2:32 Do5:32 La4:32 La4:4 La4:16 Sol4:16 La4:8

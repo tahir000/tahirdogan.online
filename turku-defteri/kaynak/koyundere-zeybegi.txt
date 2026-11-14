@@ -1,0 +1,26 @@
+ad: Koyundere Zeybeği
+yore: 
+usul: 9/4
+usul-adi: Oynak (9/4)
+tempo: 90
+dizi: Karcığar
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 3.0, karcigar--zeybek--oynak----
+bicim: Zeybek
+---
+1 | Do5:16 Si4b2:16 La4:8 Si4b2:8 Do5:8 Re5:8 Mi5b2:8 Re5:8 Mi5b2:16 Fa5#3:16 Mi5b2:16 Re5:16 Do5:8 Re5:16 Mi5b2:16 Re5:16 Do5:16 Si4b2:8 Do5:8 Re5:2
+2 | Do5:16 Si4b2:16 La4:8 Si4b2:8 Do5:8 Re5:8 Mi5b2:8 Re5:8 Mi5b2:16 Fa5#3:16 Mi5b2:16 Re5:16 Do5:8 Do5:16 Si4b2:16 La4:8 Si4b2:8 Sol4:8 La4:2
+3 | Do5:16 Si4b2:16 La4:8 Si4b2:8 Do5:8 Re5:8 Mi5b2:8 Re5:8 Mi5b2:16 Fa5#3:16 Mi5b2:16 Re5:16 Do5:8 Re5:16 Mi5b2:16 Re5:16 Do5:16 Si4b2:8 Do5:8 Re5:2
+4 | Do5:16 Si4b2:16 La4:8 Si4b2:8 Do5:8 Re5:8 Mi5b2:8 Re5:8 Mi5b2:16 Fa5#3:16 Mi5b2:16 Re5:16 Do5:8 Do5:16 Si4b2:16 La4:8 Si4b2:8 Sol4:8 La4:2
+5 | Fa5#3:8 Sol5:16 La5:16 Sol5:16 Fa5#3:16 Mi5b2:16 Fa5#3:16 Mi5b2:16 Re5:16 Do5:8 Re5:16 Mi5b2:16 Re5:16 Do5:16 Si4b2:8 La4:8 Si4b2:16 Do5:16 Si4b2:16 La4:16 Si4b2:8 Do5:8 Re5:2
+6 | Fa5#3:8 Sol5:16 La5:16 Sol5:16 Fa5#3:16 Mi5b2:16 Fa5#3:16 Mi5b2:16 Re5:16 Do5:8 Re5:8 Mi5b2:16 Fa5#3:16 Mi5b2:16 Re5:16 Do5:8 Do5:16 Si4b2:16 La4:8 Si4b2:8 Sol4:8 La4:2
+7 | Fa5#3:8 Sol5:16 La5:16 Sol5:16 Fa5#3:16 Mi5b2:16 Fa5#3:16 Mi5b2:16 Re5:16 Do5:8 Re5:16 Mi5b2:16 Re5:16 Do5:16 Si4b2:8 La4:8 Si4b2:16 Do5:16 Si4b2:16 La4:16 Si4b2:8 Do5:8 Re5:2
+8 | Fa5#3:8 Sol5:16 La5:16 Sol5:16 Fa5#3:16 Mi5b2:16 Fa5#3:16 Mi5b2:16 Re5:16 Do5:8 Re5:8 Mi5b2:16 Fa5#3:16 Mi5b2:16 Re5:16 Do5:8 Do5:16 Si4b2:16 La4:8 Si4b2:8 Sol4:8 La4:2
+9 | Mi5:4 La4:4 Mi5:4 Mi5:16 La4:8. Mi5:16 La4:8. Mi5:16 La4:8. Si4b2:8 Do5:8 Re5:2
+10 | Mi5:4 La4:4 Mi5:4 Re5:8 Mi5b2:16 Fa5#3:16 Mi5b2:16 Re5:16 Do5:8 Do5:8 La4:8 Si4b2:8 Sol4:8 La4:2
+11 | Mi5:4 La4:4 Mi5:4 Mi5:16 La4:8. Mi5:16 La4:8. Mi5:16 La4:8. Si4b2:8 Do5:8 Re5:2
+12 | Mi5:4 La4:4 Mi5:4 Re5:8 Mi5b2:16 Fa5#3:16 Mi5b2:16 Re5:16 Do5:8 Do5:8 La4:8 Si4b2:8 Sol4:8 La4:2

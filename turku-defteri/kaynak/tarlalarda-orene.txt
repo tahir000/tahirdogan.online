@@ -1,0 +1,26 @@
+ad: Tarlalarda Örene
+yore: Ankara
+usul: 9/4
+usul-adi: Ağıraksak
+tempo: 84
+dizi: Yeni Çargah
+karar: Do
+duzen: bozuk
+zorluk: zor
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 3.0, cargah--turku--agiraksak--tarlalarda_orene--ankara
+---
+[Aranağme]
+1 | Mi5:16 Fa5:16 Mi5:16 Re5:16 Mi5:8 Re5:32 Do5:32 Re5:16 Do5:8 Do5:16 Do5:16 Re5:8 Mi5:8 Mi5:16 Fa5:16 Mi5:16 Re5:16 Mi5:8 Re5:32 Do5:32 Re5:16 Do5:16 Mi5:16 Re5:32 Do5:32 Re5:16 Do5:8 Do5:16 Do5:16 Do5:16 Do5:16 Do5:8
+{usul 7/4 }
+[Söz]
+2 | Si4:16=Tar- Do5:16 Do5:8=la- Re5:16=lar- Mi5:8 Fa5:16 Mi5:16 Fa5:16 Mi5:16 Re5:16 Mi5:16=da Fa5:8 Sol5:32 Fa5:32 Mi5:16=ö- Fa5:16 Mi5:16 Re5:16 Mi5:8=re- Re5:32 Do5:32 Re5:16 Do5:4=ne/
+{usul 9/4 }
+3 | Mi5:16=A- Fa5:16=ma- Mi5:16=nın Re5:16 Mi5:8=ö- Re5:32=re- Do5:32 Re5:16 Do5:4=ne- Re5:32 Mi5:32 Re5:16 Mi5:32 Fa5:32 Mi5:16 Mi5:16=si Fa5:16 Mi5:16 Re5:16 Mi5:8=vi- Re5:32 Do5:32 Re5:16 Do5:16=ra- Mi5:16 Re5:32 Do5:32 Re5:16 Do5:4.=ne/ Es:8
+4 | Mi5:16=A- Fa5:16=ma- Mi5:16=nın Re5:16 Mi5:8=ö- Re5:32=re- Do5:32 Re5:16 Do5:4=ne- Re5:32 Mi5:32 Re5:16 Mi5:32 Fa5:32 Mi5:16 Mi5:16=si Fa5:16 Mi5:16 Re5:16 Mi5:8=vi- Re5:32 Do5:32 Re5:16 Do5:16=ra- Mi5:16 Re5:32 Do5:32 Re5:16 Do5:4.=ne/ Es:8
+{usul 7/4 }
+5 | Do5:16=Ya- Do5:8.=rin Re5:16=ya- Mi5:8 Fa5:16 Mi5:16 Fa5:16 Mi5:16 Re5:16 Mi5:16=nı Fa5:8 Sol5:32 Fa5:32 Mi5:16=cen- Fa5:16 Mi5:16 Re5:16 Mi5:8=net- Re5:32 Do5:32 Re5:16 Do5:4=tir/
+{usul 9/4 }
+6 | Mi5:16=A- Fa5:16=ma- Mi5:16=nın Re5:16 Mi5:8=sağ Re5:32=o- Do5:32 Re5:16 Do5:4=lup Re5:32 Mi5:32 Re5:16 Mi5:32 Fa5:32 Mi5:16 Mi5:16=da Fa5:16 Mi5:16 Re5:16 Mi5:8=gi- Re5:32 Do5:32 Re5:16 Do5:16=de- Mi5:16 Re5:32 Do5:32 Re5:16 Do5:4.=ne/ Es:8
+7 | Mi5:16=A- Fa5:16=ma- Mi5:16=nın Re5:16 Mi5:8=sağ Re5:32=o- Do5:32 Re5:16 Do5:4=lup Re5:32 Mi5:32 Re5:16 Mi5:32 Fa5:32 Mi5:16 Mi5:16=da Fa5:16 Mi5:16 Re5:16 Mi5:8=gi- Re5:32 Do5:32 Re5:16 Do5:16=de- Mi5:16 Re5:32 Do5:32 Re5:16 Do5:4.=ne/ Es:8

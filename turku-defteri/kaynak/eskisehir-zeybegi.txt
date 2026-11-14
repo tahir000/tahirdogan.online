@@ -1,0 +1,22 @@
+ad: Eskişehir Zeybeği
+yore: 
+usul: 9/4
+usul-adi: Ağıraksak
+tempo: 78
+dizi: Muhayyer
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 3.0, muhayyer--zeybek--agiraksak--eskisehir--
+bicim: Zeybek
+---
+1 | Sol5:4 Fa5#3:8. Mi5:16 Re5:4 Mi5:4 Fa5#3:4 Sol5:4 Fa5#3:8 Re5:8 Mi5:2
+2 | Sol5:4 Fa5#3:8. Mi5:16 Re5:4 Mi5:4 Fa5#3:4 Sol5:4 Fa5#3:8 Re5:8 Mi5:2
+3 | Fa5#3:8 Sol5:16 Sol5:16 La5:8 Sol5:8 La5:4 Re5:8 Re5:16 Re5:16 Mi5:8 Fa5#3:8 Sol5:4 Fa5#3:8 Re5:8 Mi5:2
+4 | Fa5#3:8 Sol5:16 Sol5:16 La5:8 Sol5:8 La5:4 Re5:8 Re5:16 Re5:16 Mi5:8 Fa5#3:8 Sol5:4 Fa5#3:8 Re5:8 Mi5:2
+5 | Re5:8 Re5:16 La5:16 Sol5:16 La5:16 Fa5#3:16 Sol5:16 Mi5:16 Fa5:16 Re5:8 Do5:8. Si4b2:16 La4:4 Si4b2:8 Do5:8 Re5:4 La4:2
+6 | Re5:8 Re5:16 La5:16 Sol5:16 La5:16 Fa5#3:16 Sol5:16 Mi5:16 Fa5:16 Re5:8 Do5:8. Si4b2:16 La4:4 Si4b2:8 Do5:8 Re5:4 La4:2
+7 | Si4b2:8 Do5:8 Re5:8 Do5:8 Re5:4 Sol4:8 Sol4:16 Sol4:16 La4:8 Si4b2:8 Do5:4 Si4b2:8 Sol4:8 La4:2
+8 | Si4b2:8 Do5:8 Re5:8 Do5:8 Re5:4 Es:8 Sol4:16 Sol4:16 La4:8 Si4b2:8 Do5:4 Si4b2:8 Sol4:8 La4:2

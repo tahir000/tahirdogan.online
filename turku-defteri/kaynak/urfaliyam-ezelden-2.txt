@@ -1,0 +1,24 @@
+ad: Urfalıyam Ezelden
+yore: 
+usul: 10/8
+usul-adi: Curcuna
+kalip: 3+2+2+3
+tempo: 96
+dizi: Hicaz
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 3.0, hicaz--turku--curcuna--urfaliyam_ezelden--
+---
+[Söz]
+1 | Es:4 Do5#:8=Ur-;A- Re5:4=fa-;ğam Mi5:4=lı-;çiğ- Mi5:8=yam;köf- Re5:8 Do5#:8
+2 | Re5:4=e-;te Re5:8=zel-;ol- Do5#:8 Si4:8 Do5#:4=den/;du/ Re5:4.
+3 | Es:4 Do5#:8=Göy-;Pa- Re5:4=nüm;şam Mi5:4=geç-;ay- Mi5:8=mez;ran- Re5:8 Do5#:8
+4 | Re5:4=gü-;lar Re5:8=zel-;dol- Do5#:8 Si4:8 Do5#:4=den/;du/ Re5:4.
+5 | Es:4 Do5#:8=Göy-;Vur Re5:4=nü-;sa- Mi5:4=mün;zı- Mi5:16=gö-;nın Fa5:16 Re5:16 Mi5:16 Do5#:8
+6 | Re5:4=zü Re5:8=çık- Do5#:8 Si4b:8 Do5#:4=sın Do5#:8=loy/ Si4b:8 La4:8
+6 @2 | Re5:4=te- Re5:8=li- Do5#:8 Si4b:8 Do5#:4=ne Re5:8=loy/ Si4b:8 La4:8
+7 | La4:4 Mi5:16=Sev-;Bil- Fa5:16 Mi5:16=mez;mem Fa5:16 Re5:8 Re5:8=sey-;si- Do5#:8 Si4b:8=dim;ye La4:8 Si4b:8
+8 | Do5#:4=e-;ne Re5:8=zel-;ol- Si4b:8 La4:8 La4:5/8=den/;du/

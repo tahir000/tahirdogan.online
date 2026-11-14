@@ -1,0 +1,68 @@
+ad: Derdim Çoktur Hangisine Yanayım
+yore: Erzincan
+usul: 2/4
+usul-adi: Nimsofyan
+tempo: 57
+dizi: Gerdaniye
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 3.0, gerdaniye--turku--nimsofyan--derdim_coktur--erzincan
+---
+1 | Es:8 Mi5:16 Mi5:16 Mi5:8 Mi5:8
+2 | Mi5:8 Mi5:16 Mi5:16 Mi5:16 Re5:16 Mi5:16 Re5:16
+3 | Fa5:16 Mi5:16 Fa5:16 Re5:16 Re5:4
+4 | Es:8 Do5:16 Re5:16 Re5:8 Re5:8
+5 | Do5:8 Re5:16 Re5:16 Re5:16 Re5:16 Si4b2:16 Do5:16
+6 | Mi5:16 Re5:16 Re5:16 Si4b2:16 Do5:4
+7 | Es:8 Si4b2:16 Do5:16 Do5:16 Do5:8.
+8 | Si4b2:8 (Re5)Do5:16 Do5:16 Do5:16 Si4b2:8.
+9 | Re5:16 Do5:8 Si4b2:16 Si4b2:4
+10 | Es:8 Si4b2:16 Si4b2:16 Si4b2:16 Si4b2:8.
+11 | Si4b2:16 Si4b2:8 Si4b2:16 Do5:16 La4:16 La4:8
+12 | Do5:16 Si4b2:8 La4:16 La4:16 La4:16 Fa4#3:16 Sol4:16
+13 | La4:8. La4:16 La4:16 La4:16 Fa4#3:16 Sol4:16
+14 | La4:8. La4:16 La4:16 La4:16 La4:8
+[Söz]
+15 | Es:8 Fa5#3:16=Der- Sol5:16=dim Sol5:8=çok- Sol5:8=tur
+16 | Fa5#3:8=han- Sol5:16=gi- Sol5:16=si- Sol5:16 Fa5#3:16=ne Sol5:16 Fa5#3:16
+17 | Fa5#3:16=ya- (La5)Sol5:8=na- Fa5#3:16=yım/ Fa5#3:4
+18 | Es:8 Fa5#3:16=Der- Sol5:16=dim La5:16=çok- Fa5#3:16=tur Sol5:8
+19 | Fa5#3:8=han- Sol5:16=gi- Sol5:16=si- Sol5:16 Fa5#3:16=ne Sol5:16 Fa5#3:16
+20 | Fa5#3:16=ya- (La5)Sol5:8=na- Fa5#3:16=yım/ Fa5#3:4
+21 | Es:8 Fa5#3:16=Yi- Fa5#3:16=ne Fa5#3:8=ta- Fa5#3:8=ze-
+22 | Fa5#3:8=len- Fa5#3:16=di Fa5#3:16=yü- Sol5:16 Mi5:16=rek Fa5#3:16 Mi5:16
+23 | Sol5:16=ya- Fa5#3:16=ra- Sol5:16 Mi5:16=sı/ Mi5:4
+24 | Es:8 Mi5:16=Ben Mi5:16=bu Mi5:8=der- Mi5:8=de
+25 | Mi5:8=ner- Mi5:16=de Mi5:16=der- Mi5:16 Re5:16=man Mi5:16 Re5:16
+26 | Fa5:16=bu- Mi5:16=la- Fa5:16 Re5:16=yım/ Re5:4
+27 | Es:8 Do5:16=Me- Re5:16=ğer Re5:8=dost Re5:8=e-
+28 | Do5:8=lin- Re5:16=de Re5:16=m'o- Re5:16 Do5:8.=la
+29 | Mi5:16=ça- Re5:16=re- Re5:16 Si4b2:16=si/ Do5:4
+30 | Es:8 Si4b2:16=E- Do5:16=fen- Do5:16=dim Do5:8.=e-
+31 | Si4b2:8=fen- (Re5)Do5:16=dim Do5:16=be- Do5:16 Si4b2:8.=nim
+32 | Re5:16=e- Do5:8=fen- Si4b2:16=dim/ Si4b2:4
+33 | Es:8 Si4b2:16=Be- Si4b2:16=nim Si4b2:16=bu Si4b2:8.=der-
+34 | Si4b2:16=di- Si4b2:8=me Si4b2:16=der- Do5:16 La4:8.=man
+35 | Do5:16=e- Si4b2:8=fen- La4:16=dim/ La4:16 La4:16 Fa4#3:16 Sol4:16
+[Saz]
+36 | La4:8. La4:16 La4:16 La4:16 Fa4#3:16 Sol4:16
+37 | La4:4. Es:8
+[Söz]
+38 | Es:8 Mi5:16=Ben Mi5:16=bu Mi5:8=der- Mi5:8=de
+39 | Mi5:8=ner- Mi5:16=de Mi5:16=der- Mi5:16 Re5:16=man Mi5:16 Re5:16
+40 | Fa5:16=bu- Mi5:16=la- Fa5:16 Re5:16=yım/ Re5:4
+41 | Es:8 Do5:16=Me- Re5:16=ğer Re5:8=dost Re5:8=e-
+42 | Do5:8=lin- Re5:16=de Re5:16=m'o- Re5:16 Do5:8.=la
+43 | Mi5:16=ça- Re5:16=re- Re5:16 Si4b2:16=si/ Do5:4
+44 | Es:8 Si4b2:16=E- Do5:16=fen- Do5:16=dim Do5:8.=e-
+45 | Si4b2:8=fen- (Re5)Do5:16=dim Do5:16=be- Do5:16 Si4b2:8.=nim
+46 | Re5:16=e- Do5:8=fen- Si4b2:16=dim/ Si4b2:4
+47 | Es:8 Si4b2:16=Be- Si4b2:16=nim Si4b2:16=bu Si4b2:8.=der-
+48 | Si4b2:16=di- Si4b2:8=me Si4b2:16=der- Do5:16 La4:8.=man
+49 | Do5:16=e- Si4b2:8=fen- La4:16=dim/ La4:16 La4:16 Fa4#3:16 Sol4:16
+[Saz]
+50 | La4:8. La4:16 La4:16 La4:16 Fa4#3:16 Sol4:16
+51 | La4:4. Es:8

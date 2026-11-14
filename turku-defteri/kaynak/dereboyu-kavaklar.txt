@@ -1,0 +1,35 @@
+ad: Dereboyu Kavaklar
+yore: Giresun
+usul: 4/4
+usul-adi: Sofyan
+tempo: 90
+dizi: Uşşak
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 3.0, ussak--turku--sofyan--dereboyu_kavaklar--giresun
+---
+[Aranağme]
+1 | Sol4:8 Re5:16 Si4b2:16 Do5:8 Si4b2:16 La4:16 La4:8 Si4b2:16 La4:16 Do5:8 Si4b2:16 La4:16
+2 | Sol4:8 Re5:16 Si4b2:16 Do5:8 Si4b2:16 La4:16 La4:8 Si4b2:16 La4:16 Do5:8 Si4b2:16 La4:16
+[Aranağme]
+3 | Sol4:8 Re5:16 Si4b2:16 Do5:8 Si4b2:16 La4:16 La4:8 Si4b2:16 La4:16 Do5:8 Si4b2:16 La4:16
+4 | Sol4:8 Re5:16 Si4b2:16 Do5:8 Si4b2:16 La4:16 La4:8 Si4b2:16 La4:16 Do5:8 Si4b2:16 La4:16
+[Söz]
+5 | Es:8 Re5:16=De- Re5:16=re- Re5:8=bo- Re5:16 Re5:16 Re5:16=yu Re5:8.=ka- Re5:8=vak- Re5:16=lar/ Re5:16
+6 | Es:8 Mi5:16=De- Re5:16=re- Mi5:8=bo- Re5:16 Re5:16 Re5:16=yu Re5:8.=ka- Re5:8=vak- Re5:16=lar/ Re5:16
+7 | Re5:8=Aç- Re5:16=tı Si4b2:16 Do5:8=ye- Si4b2:16 La4:16 La4:8=şil Si4b2:16=yap- La4:16 Do5:8=rak- Re5:16=lar/ Re5:16
+8 | Re5:8=Aç- Re5:16=tı Si4b2:16 Do5:8=ye- Si4b2:16 La4:16 La4:8=şil Si4b2:16=yap- La4:16 Do5:8=rak- Si4b2:16=lar/ La4:16
+[Saz]
+9 | Sol4:8 Re5:16 Si4b2:16 Do5:8 Si4b2:16 La4:16 La4:8 Si4b2:16 La4:16 Do5:8 Si4b2:16 La4:16
+10 | Sol4:8 Re5:16 Si4b2:16 Do5:8 Si4b2:16 La4:16 La4:8 Si4b2:16 La4:16 Do5:8 Si4b2:16 La4:16
+[Söz]
+11 | Es:8 Re5:16=Ben Re5:16=sa- Re5:8=na Re5:16 Re5:16 Re5:16=do- Re5:8.=ya- Re5:8=ma- Re5:16=dım/ Re5:16
+12 | Es:8 Mi5:16=Ben Re5:16=sa- Mi5:8=na Re5:16 Re5:16 Re5:16=do- Re5:8.=ya- Re5:8=ma- Re5:16=dım/ Re5:16
+13 | Re5:8=Doy- Re5:16=sun Si4b2:16 Do5:8=ka- Si4b2:16 La4:16 La4:8=ra Si4b2:16=top- La4:16 Do5:8=rak- Re5:16=lar/ Re5:16
+14 | Re5:8=Doy- Re5:16=sun Si4b2:16 Do5:8=ka- Si4b2:16 La4:16 La4:8=ra Si4b2:16=top- La4:16 Do5:8=rak- Si4b2:16=lar/ La4:16
+15 | La4:16=Ha- Si4b2:16=di Do5:16=gü- Re5:16=lüm Do5:8=yan- Si4b2:16=dan La4:16 La4:8=yan- Si4b2:16=dan La4:16 Do5:8=yan- Re5:16=dan/ Re5:16
+16 | Re5:8=Biz Re5:16=kork- Si4b2:16 Do5:8=ma- Si4b2:16=yız La4:16 La4:8=on- Si4b2:16=dan La4:16 Do5:8=bun- Re5:16=dan/ Re5:16
+17 | Re5:8=Biz Re5:16=kork- Si4b2:16 Do5:8=ma- Si4b2:16=yız La4:16 La4:8=jan- Si4b2:16=dar- La4:16 Do5:8=ma- Si4b2:16=dan/ La4:16

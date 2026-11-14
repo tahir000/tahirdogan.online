@@ -1,0 +1,48 @@
+ad: Gezinti
+yore: Urfa
+usul: 2/4
+usul-adi: Nimsofyan
+tempo: 60
+dizi: Hicaz Hümayun
+karar: La
+duzen: bozuk
+zorluk: zor
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 3.0, hicaz--oyunhavasi--nimsofyan--gezinti--urfa
+bicim: Oyun havası
+---
+1 | La4:8 Sol4:16 La4:16 Si4b:16 Do5#:16 Si4b:16 La4:16
+2 | La4:16 La4:32 Si4b:32 La4:16 Sol4:16 Fa4#3:16 Mi4:16 Re4:8
+3 | La4:8 Sol4:16 La4:16 Si4b:16 Do5#:16 Si4b:16 La4:16
+4 | La4:8. La4:16 La4:8 La4:8
+5 | La4:8 Sol4:16 La4:16 Si4b:16 Do5#:16 Si4b:16 La4:16
+6 | La4:16 La4:32 Si4b:32 La4:16 Sol4:16 Fa4#3:16 Mi4:16 Re4:8
+7 | La4:8 Sol4:16 La4:16 Si4b:16 Do5#:16 Si4b:16 La4:16
+8 | La4:8. La4:16 La4:8 La4:8
+9 | Re5:8 Do5#:16 Re5:16 Mi5:16 Fa5:16 Mi5:16 Re5:16
+10 | Re5:16. Mi5:32 Re5:16 Do5#:16 Si4b:16 La4:16 Si4b:8
+11 | Do5#3:16. Re5:32 Si4b:16 Do5#:16 Re5:16 Mi5:16 Re5:16 Do5#:16
+12 | Do5#:16 Do5#:32 Re5:32 Do5#:16 Si4b:16 La4:16 Sol4:16 La4:8
+13 | Re5:8 Do5#:16 Re5:16 Mi5:16 Fa5:16 Mi5:16 Re5:16
+14 | Re5:16. Mi5:32 Re5:16 Do5#:16 Si4b:16 La4:16 Si4b:8
+15 | Do5#3:16. Re5:32 Si4b:16 Do5#:16 Re5:16 Mi5:16 Re5:16 Do5#:16
+16 | Do5#:16 Do5#:32 Re5:32 Do5#:16 Si4b:16 La4:16 Sol4:16 La4:8
+17 | La4:8 Sol4:16 La4:16 Si4b:16 Do5#:16 Si4b:16 La4:16
+18 | La4:16 La4:32 Si4b:32 La4:16 Sol4:16 Fa4#3:16 Mi4:16 Re4:8
+19 | La4:8 Sol4:16 La4:16 Si4b:16 Do5#:16 Si4b:16 La4:16
+20 | La4:8. La4:16 La4:8 La4:8
+21 | Do5#:16 Re5:16 Mi5:16 Fa5:16 Mi5:16 Re5:16 Do5#:16 Re5:16
+22 | Mi5:16. Re5:32 Mi5:16 Mi5:16 Mi5:16 Mi5:16 Mi5:8
+23 | Es:16 Mi5:32 Mi5:32 Mi5:16 Mi5:16 Mi5:16 Mi5:16 Mi5:8
+24 | Es:16 Fa5#:32 Sol5:32 Fa5#:32 Sol5:32 Mi5:16 Fa5#:16 Sol5:16 Mi5:16 Fa5:16
+25 | Es:16 Mi5:32 Fa5:32 Mi5:32 Fa5:32 Re5:16 Mi5:16 Fa5:16 Re5:16 Mi5:16
+26 | Es:16 Fa5#:32 Sol5:32 Fa5#:32 Sol5:32 Mi5:16 Fa5#:16 Sol5:16 Mi5:16 Fa5:16
+27 | Es:16 Mi5:32 Fa5:32 Mi5:32 Fa5:32 Re5:16 Mi5:16 Fa5:16 Re5:16 Mi5:16
+28 | Es:16 Re5:32 Mi5:32 Re5:32 Mi5:32 Do5#:16 Re5:16 Mi5:16 Do5#:16 Re5:16
+29 | Es:16 Do5#:32 Re5:32 Do5#:32 Re5:32 Si4b:16 Do5#:16 Re5:16 Si4b:16 La4:16
+30 | La4:8 Sol4:16 La4:16 Si4b:16 Do5#:16 Si4b:16 La4:16
+31 | La4:16 La4:32 Si4b:32 La4:16 Sol4:16 Fa4#3:16 Mi4:16 Re4:8
+32 | La4:8 Sol4:16 La4:16 Si4b:16 Do5#:16 Si4b:16 La4:16
+33 | La4:8 Sol4:16 La4:16 Si4b:16 Do5#:16 Si4b:16 La4:16
+34 | La4:8. La4:16 La4:8 La4:8

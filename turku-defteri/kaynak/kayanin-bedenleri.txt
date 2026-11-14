@@ -1,0 +1,51 @@
+ad: Kayanın Bedenleri
+yore: Beypazarı
+usul: 9/8
+usul-adi: Raksaksağı
+kalip: 2+2+2+3
+tempo: 180
+dizi: Yeni Çargah
+karar: Do
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 3.0, cargah--turku--raksaksagi--kayanin_bedenleri--beypazari
+---
+[Aranağme]
+1 | Re5:8 Mi5:8 Do5:8 Re5:8 Si4:8 Do5:8 Do5:8 Mi5:4
+2 | Re5:8 Mi5:8 Do5:8 Re5:8 Si4:8 Do5:8 Es:8 Es:4
+3 | Re5:8 Mi5:8 Do5:8 Re5:8 Si4:8 Do5:4 Mi5:4
+4 | Re5:8 Mi5:8 Do5:8 Re5:8 Si4:8 Do5:8 Es:8 Es:4
+5 | Re5:8 Mi5:8 Do5:8 Re5:8 Si4:8 Do5:4 Mi5:4
+6 | Re5:8 Mi5:8 Do5:8 Re5:8 Si4:8 Do5:8 Es:8 Es:4
+[Aranağme]
+7 | Re5:8 Mi5:8 Do5:8 Re5:8 Si4:8 Do5:8 Do5:8 Mi5:4
+8 | Re5:8 Mi5:8 Do5:8 Re5:8 Si4:8 Do5:8 Es:8 Es:4
+9 | Re5:8 Mi5:8 Do5:8 Re5:8 Si4:8 Do5:4 Mi5:4
+10 | Re5:8 Mi5:8 Do5:8 Re5:8 Si4:8 Do5:8 Es:8 Es:4
+11 | Re5:8 Mi5:8 Do5:8 Re5:8 Si4:8 Do5:4 Mi5:4
+12 | Re5:8 Mi5:8 Do5:8 Re5:8 Si4:8 Do5:8 Es:8 Es:4
+[Söz]
+13 | Re5:4=Ka- Mi5:8=ya- Fa5:8 Sol5:8 Mi5:4=nın Mi5:4=be-
+14 | Re5:4=den- Mi5:8=le- Fa5:8 Sol5:8 Mi5:8=ri/ Es:8 Es:4
+15 | Re5:4=Ka- Mi5:8=ya- Fa5:8 Sol5:8 Mi5:4=nın Mi5:4=be-
+16 | Re5:4=den- Mi5:8=le- Fa5:8 Sol5:8 Mi5:8=ri/ Es:8 Es:4
+17 | Re5:8=Çe- Mi5:8 Do5:8=vi- Re5:8 Si4:8 Do5:4=rin Mi5:4=gi-
+18 | Re5:8=den- Mi5:8 Do5:8=le- Re5:8 Si4:8 Do5:8=ri/ Es:8 Es:4
+19 | Re5:8=Çe- Mi5:8 Do5:8=vi- Re5:8 Si4:8 Do5:4=rin Mi5:4=gi-
+20 | Re5:8=den- Mi5:8 Do5:8=le- Re5:8 Si4:8 Do5:8=ri/ Es:8 Es:4
+21 | Re5:4=Ne Mi5:8=hoş Fa5:8 Sol5:8 Mi5:4=yaz- Mi5:4=ma
+22 | Re5:4=bağ- Mi5:8=lı- Fa5:8 Sol5:8 Mi5:8=yor/ Es:8 Es:4
+23 | Re5:4=Ne Mi5:8=hoş Fa5:8 Sol5:8 Mi5:4=yaz- Mi5:4=ma
+24 | Re5:4=bağ- Mi5:8=lı- Fa5:8 Sol5:8 Mi5:8=yor/ Es:8 Es:4
+25 | Re5:8=Bey- Mi5:8 Do5:8=pa- Re5:8 Si4:8 Do5:4=zar Mi5:4=gü-
+26 | Re5:8=zel- Mi5:8 Do5:8=le- Re5:8 Si4:8 Do5:8=ri/ Es:8 Es:4
+27 | Re5:8=Bey- Mi5:8 Do5:8=pa- Re5:8 Si4:8 Do5:4=zar Mi5:4=gü-
+28 | Re5:8=zel- Mi5:8 Do5:8=le- Re5:8 Si4:8 Do5:8=ri/ Es:8 Es:4
+29 | Re5:8=A- Mi5:8=ma- Do5:8=nın Re5:8 Si4:8=da Do5:8=a- Do5:8=ma- Mi5:4=nın
+30 | Re5:8=çay Mi5:8 Do5:8=ku- Re5:8 Si4:8 Do5:8=şum/ Es:8 Es:4
+31 | Re5:8=Ne- Mi5:8=re- Do5:8=ler- Re5:8 Si4:8=de Do5:4=kal- Mi5:4=dın
+32 | Re5:8=nin- Mi5:8 Do5:8=no- Re5:8 Si4:8 Do5:8=şum/ Es:8 Es:4
+33 | Re5:8=Çok Mi5:8 Do5:8=iç- Re5:8 Si4:8 Do5:4=mi- Mi5:4=şim
+34 | Re5:8=ser- Mi5:8 Do5:8=ho- Re5:8 Si4:8 Do5:8=şum/ Es:8 Es:4

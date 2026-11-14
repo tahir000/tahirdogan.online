@@ -1,0 +1,33 @@
+ad: Evlerinde Bir İpekten Halı Var
+yore: Gaziantep
+usul: 10/8
+usul-adi: Curcuna
+kalip: 3+2+2+3
+tempo: 90
+dizi: Hicaz Uzzal
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 3.0, hicaz_uzzal--turku--curcuna--evlerinde_bir--gaziantep
+---
+[Söz]
+1 | Mi5:4=(Ah) Sol5:8=Ev- Sol5:8=le- Fa5#3:8 Fa5#3:8=rin- (Sol5)Mi5:8 Mi5:8=de (Fa5#3)Mi5:8 Re5:8
+1 @2 | (Fa5)Mi5:4=(Ah) Sol5:8=Ev- Sol5:8=le- Fa5#3:8 Fa5#3:8=rin- (Sol5)Mi5:8 Mi5:8=de (Fa5#3)Mi5:8 Re5:8
+2 | Mi5:4.=bir* Fa5#3:4=i-* Sol5:8=pek-* Sol5:8 La5:4=ten* Mi5:8
+3 | Mi5:4.=ha-* Fa5#3:4=lı* Sol5:8=var* La5:8 (Si5)Sol5:8 Sol5:8 Fa5#3:8
+4 | Sol5:12=ha-* (La5)Sol5:12 (La5)Fa5#3:12 (Sol5)Fa5#3:8 Fa5:8=lı* Mi5:8 Mi5:4=var/* Mi5:16 (Sol5)Fa5:16 (Sol5)Mi5:16 (Fa5)Re5:16 (Mi5)Do5#:16 (Re5)Si4b:16
+5 | Mi5:4=(Ah)* Sol5:8=Ev-* Sol5:8=le-* Fa5#3:8 Fa5#3:8=rin-* (Sol5)Mi5:8 Mi5:8=de* (Fa5#3)Mi5:8 Re5:8
+6 | Mi5:4.=bir* Fa5#3:4=i-* Sol5:8=pek-* Sol5:8 La5:4=ten* Mi5:8
+7 | Mi5:4.=ha-* Fa5#3:4=lı* Sol5:8=var* La5:8 (Si5)Sol5:8 Sol5:8 Fa5#3:8
+8 | Sol5:12=ha-* (La5)Sol5:12 (La5)Fa5#3:12 (Sol5)Fa5#3:8 Fa5:8=lı* Mi5:8 Mi5:4=var/* Mi5:16 Sol5:16 Fa5#3:16 Mi5:16 Fa5#3:16 Sol5:16
+9 | La5:4 Sol5:8=Şe-* La5:4=ker* Sol5:4=ye-* La5:4.=miş*
+10 | Mi5:4=du-* (Fa5)Mi5:8 Sol5:4=da-* Fa5:8=ğın-* Mi5:8 (Sol5)Fa5:8=da* (Sol5)Mi5:8 Re5:8
+11 | Do5#:8=ba-* Do5#:8 Si4b:8 Si4b:8=lı* La4:8 La4:4=var* Mi5:8=a-* Mi5:8=nam* Re5:8
+12 | Do5#:8=ba-* Do5#:8 Si4b:8 Si4b:8=lı* La4:8 La4:4=var/* Mi5:16 Sol5:16 Fa5#3:16 Mi5:16 Fa5#3:16 Sol5:16
+13 | La5:4 Sol5:8=Şe-* La5:4=ker* Sol5:4=ye-* La5:4.=miş*
+14 | Mi5:4=du-* (Fa5)Mi5:8 Sol5:4=da-* Fa5:8=ğın-* Mi5:8 (Sol5)Fa5:8=da* (Sol5)Mi5:8 Re5:8
+15 | Do5#:8=ba-* Do5#:8 Si4b:8 Si4b:8=lı* La4:8 La4:4=var* Mi5:8=a-* Mi5:8=nam* Re5:8
+16 | Do5#:8=ba- Do5#:8 Si4b:8 Si4b:8=lı La4:8 La4:4=var/ La5:16 Sol5:8 Fa5#3:16 (Sol5)Fa5#3:16 (Sol5)Mi5:16
+16 @2 | Do5#:8=ba- Do5#:8 Si4b:8 Si4b:8=lı La4:8 La4:4=var/ Es:4.

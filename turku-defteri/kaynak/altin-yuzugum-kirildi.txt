@@ -1,0 +1,38 @@
+ad: Altın Yüzüğüm Kırıldı
+yore: 
+usul: 2/4
+usul-adi: Nimsofyan
+tempo: 84
+dizi: Uşşak
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 3.0, ussak--turku--nimsofyan--altin_yuzugum--anonim
+---
+[Söz]
+1 | Es:8 Do5:16=Al- Re5:16=tın Mi5:16=yü- Mi5:8.=zü-
+2 | Mi5:8=ğüm Mi5:16=kı- Re5:16 Re5:16.=rıl- Mi5:32 Mi5:16=dı Re5:16
+3 | Re5:8.=hey/ Re5:16 Re5:16 Re5:16 Re5:8
+4 | Es:8 Do5:16=Su- Re5:16=ya Mi5:8=düş- Mi5:8=tü
+5 | Mi5:16=su Mi5:8=du- Re5:16 Re5:16.=rul- Mi5:32 Mi5:16=du Re5:16
+6 | Re5:8.=hey/ Re5:16 Re5:16 Re5:16 Re5:8
+7 | Es:8 Do5:16=De- Re5:16=di- Mi5:8=ler Mi5:8=yâ-
+8 | Mi5:8=rin Mi5:8=ge- Mi5:16=li- Do5:8.=yor/
+9 | Re5:8=İn- Re5:16=ce Do5:16 Re5:8=bel- Mi5:8=le-
+10 | Mi5:16=rim Do5:16 Re5:8=kı- Re5:16=rıl- Si4b2:16 Do5:8=dı/
+11 | Si4b2:16=Tel Do5:16 Re5:8 Re5:16=tel Si4b2:16 Do5:8
+12 | Re5:16=tel- Si4b2:16 Do5:16=le- Si4b2:16 Re5:16=ri- Si4b2:16 Si4b2:16=ne/ La4:16
+13 | Es:8 Do5:16=Kur- Re5:16=ban Do5:16=o- Si4b2:16=lam Do5:8
+14 | Do5:16=dil- Si4b2:16 Si4b2:16=le- La4:16 Do5:16=ri- Si4b2:8=ne La4:16
+15 | La4:8.=hey/ La4:16 La4:16 La4:16 La4:8
+16 | Es:8 Do5:16=De- Re5:16=di- Mi5:8=ler Mi5:8=yâ-
+17 | Mi5:8=rin Mi5:8=ge- Mi5:16=li- Do5:8.=yor/
+18 | Re5:8=İn- Re5:16=ce Do5:16 Re5:8=bel- Mi5:8=le-
+19 | Mi5:16=rim Do5:16 Re5:8=kı- Re5:16=rıl- Si4b2:16 Do5:8=dı/
+20 | Si4b2:16=Tel Do5:16 Re5:8 Re5:16=tel Si4b2:16 Do5:8
+21 | Re5:16=tel- Si4b2:16 Do5:16=le- Si4b2:16 Re5:16=ri- Si4b2:16 Si4b2:16=ne/ La4:16
+22 | Es:8 Do5:16=Kur- Re5:16=ban Do5:16=o- Si4b2:16=lam Do5:8
+23 | Do5:16=dil- Si4b2:16 Si4b2:16=le- La4:16 Do5:16=ri- Si4b2:8=ne La4:16
+24 | La4:8.=hey/ La4:16 La4:16 La4:16 La4:8

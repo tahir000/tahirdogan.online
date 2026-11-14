@@ -49,6 +49,7 @@ Usul değişimi:   {usul 6/4 Senginsemai}
 
 Üst bilgide ayrıca:
   secki: pilot              listede "ilk denenecekler" arasında gösterilir
+  bicim: Zeybek             türkü dışındaki biçimler (zeybek, oyun havası, nefes...) listede yazılır
   ceviri: toplu | elle      toplu çeviriden geldiyse "toplu"; elle düzeltilince "elle" yapılır
 
 "#" ile başlayan satır açıklamadır, derlemeye girmez.
@@ -210,7 +211,8 @@ def dosya_coz(yol, kimlik):
         "tempo": int(bilgi["tempo"]), "dizi": bilgi.get("dizi", ""), "karar": bilgi.get("karar", "La"),
         "duzen": bilgi.get("duzen", "bozuk"), "zorluk": bilgi.get("zorluk", "orta"),
         "durum": bilgi["durum"], "kaynak": bilgi["kaynak"], "aciklama": bilgi.get("not", ""),
-        "kita": kita, "degisken": degisken, "pilot": bilgi.get("secki", "") == "pilot", "olculer": olculer,
+        "kita": kita, "degisken": degisken, "pilot": bilgi.get("secki", "") == "pilot", "bicim": bilgi.get("bicim", ""),
+        "olculer": olculer,
     }
 
 
@@ -269,6 +271,8 @@ def main():
         })
         if t["pilot"]:
             dizin[-1]["pilot"] = 1
+        if t["bicim"]:
+            dizin[-1]["bicim"] = t["bicim"]
     if hatalar:
         print("DERLENEMEDİ:")
         for h in hatalar:

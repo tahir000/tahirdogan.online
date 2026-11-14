@@ -1,0 +1,21 @@
+ad: Al Dökeyim Gevheri
+yore: 
+usul: 13/8
+usul-adi: Bektaşi Devr-i Revanı
+tempo: 60
+dizi: Rast
+karar: Sol
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 3.0, rast--nefes--bektasidevrirevani--al_dokeyim--
+bicim: Nefes
+---
+[Söz]
+1 | Sol4:4=Al Sol4:8=dö- Sol4:8=ke- Sol4:4=yim La4:8=gev- Sol4:8 La4:8=he- Si4b2:2=ri/
+2 | Re5:4=Gez- Do5:8=me Si4b2:8=ye- La4:4=ter La4:4=ser- Si4b2:16=se- La4:16 Sol4:2=ri/
+3 | Do5:4=Bil- Do5:8=mez- Do5:16 Si4b2:16 Si4b2:16=sen La4:8. La4:4=gel Sol4:8=be- Si4b2:2=ri/
+4 | Sol4:4=Med- Sol4:8=hi- Si4b2:8=ye La4:4=i/ La4:4=Hay- Sol4:8=de- Do5:16=ri/ Re5:16 Do5:16 Si4b2:16 Do5:4
+5 | Do5:4=Bil- Do5:8=mez- Do5:16 Si4b2:16 Si4b2:16=sen La4:8. La4:4=gel Sol4:8=be- Si4b2:2=ri/
+6 | Sol4:4=Med- Sol4:8=hi- Si4b2:8=ye- La4:4=i/ Fa4#:8=Hay- Mi4:8 Fa4#:8=de- Sol4:2=ri/

@@ -95,14 +95,21 @@ def soz_coz(ham):
 
 
 def oku(yol):
-    satirlar = [s.rstrip("\n").rstrip("\r").split("\t") for s in io.open(yol, encoding="utf-8")]
+    # SymbTr 2.4.3 dosyaları UTF-8, 3.0 dosyaları Windows-1254 kodludur
+    ham = open(yol, "rb").read()
+    try:
+        metin = ham.decode("utf-8")
+    except UnicodeDecodeError:
+        metin = ham.decode("cp1254", errors="replace")
+    satirlar = [s.rstrip("\r").split("\t") for s in metin.split("\n") if s.strip("\r") != ""]
     baslik = satirlar[0]
     return [dict(zip(baslik, s)) for s in satirlar[1:] if len(s) == len(baslik)]
 
 
-def olculere_bol(satirlar):
-    """Satırları ölçülere böler. Her ölçü: {'usul': (pay, payda, ad), 'notalar': [...], 'bolum': ad}."""
-    usul = None
+def olculere_bol(satirlar, ilk_usul=None):
+    """Satırları ölçülere böler. Her ölçü: {'usul': (pay, payda, ad), 'notalar': [...], 'bolum': ad}.
+    ilk_usul: dosyada usul satırı yoksa kullanılacak usul (SymbTr 3.0'da usul mu2 başlığındadır)."""
+    usul = ilk_usul
     olculer = []
     simdiki = []
     dolu = Fraction(0)
@@ -125,11 +132,15 @@ def olculere_bol(satirlar):
                 kapat()
             usul = (int(s["Pay"]), int(s["Payda"]), s["Soz1"].strip())
             continue
-        if kod in ("50", "53", "54", "55", "56"):
+        # 50-56 başlık ve işaret satırlarıdır (52 tempo, 53 cümle sonu); 0 ve 14 boş işaretlerdir
+        if kod in ("0", "14", "50", "52", "53", "54", "55", "56"):
             continue
-        pay, payda = int(s["Pay"]), int(s["Payda"])
+        pay, payda = int(s["Pay"] or 0), int(s["Payda"] or 0)
+        # SymbTr 3.0'da sus, notası boş bırakılmış satırdır
+        ham_ad = s["Nota53"].strip() or "Es"
         if kod == CARPMA or pay == 0 or payda == 0:
-            bekleyen_carpma.append(ad_cevir(s["Nota53"]))
+            if kod == CARPMA and ham_ad != "Es":
+                bekleyen_carpma.append(ad_cevir(ham_ad))
             continue
         if usul is None:
             raise ValueError("usul satırı yok")
@@ -138,7 +149,7 @@ def olculere_bol(satirlar):
         if tur == "bolum":
             bekleyen_bolum = metin
             tur, metin = "saz", ""
-        ad = ad_cevir(s["Nota53"])
+        ad = ad_cevir(ham_ad)
         try:
             ms = int(s["Ms"])
             if ms > 0 and ad != "Es":
@@ -257,7 +268,9 @@ def yaz(olculer, tempo, p, a, kaynak_adi):
     cikti.append("duzen: bozuk")
     cikti.append("zorluk: %s" % (a.zorluk or "orta"))
     cikti.append("durum: taslak")
-    cikti.append("kaynak: SymbTr 2.4.3, %s" % kaynak_adi)
+    cikti.append("kaynak: SymbTr %s, %s" % (getattr(a, "surum", "") or "2.4.3", kaynak_adi))
+    if getattr(a, "bicim", "") and a.bicim != "Türkü":
+        cikti.append("bicim: %s" % a.bicim)
     if getattr(a, "aciklama", ""):
         cikti.append("not: %s" % a.aciklama)
     cikti.append("---")

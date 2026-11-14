@@ -1,0 +1,37 @@
+ad: Dere Dibi Saz Olur
+yore: 
+usul: 2/4
+usul-adi: Yürüksofyan
+tempo: 60
+dizi: Hicaz
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 3.0, hicaz--ninni--yuruksofyan--dere_dibi--
+bicim: Ninni
+---
+[Söz]
+1 | Sol4:8=De- La4:8=re La4:8=di- La4:8=bi
+2 | La4:8=saz La4:8=o- La4:8=lur Sol4:8
+3 | Do5#:8=nin- Re5:8 Mi5:8 Do5#:8
+4 | Re5:4=ni Es:4
+5 | Do5#:8=Gül Re5:8=a- Do5#:8=çı- Si4b2:8=lır
+6 | La4:8=yaz Sol4:8=o- La4:8=lur Si4b2:8
+7 | Do5#:4.=nin- Re5:8
+8 | Do5#:8=ni Si4b2:8 Si4b2:4
+9 | Do5#:8=Ben Re5:8=yav- Do5#:8=ru- Si4b2:8=ma
+10 | La4:8=gül Sol4:8=de- La4:8=mem Si4b2:8
+11 | Do5#:4.=nin- Si4b2:8
+12 | Si4b2:4=ni Es:4
+13 | Sol4:8=Gü- Sol4:8=lün La4:8=öm- La4:8=rü
+14 | Si4b2:8=az La4:8=o- Re5:4=lur
+15 | Do5#:8=nin- Si4b2:8 Si4b2:8 La4:8
+16 | La4:4=ni Es:4
+17 | Si4b2:4.=Hû- La4:8
+18 | Si4b2:4.=hû La4:8
+19 | Mi5:8=hû Re5:8 Re5:8=yav- Do5#:8
+20 | Re5:8=rum Do5#:8 Si4b2:8=nin- La4:8
+21 | La4:2=ni
+22 | La4:4 Es:4

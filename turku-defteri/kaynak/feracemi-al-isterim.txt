@@ -1,0 +1,39 @@
+ad: Feracemi Al İsterim
+yore: Burdur
+usul: 9/8
+usul-adi: Evfer
+kalip: 2+2+2+3
+tempo: 60
+dizi: Hicaz Uzzal
+karar: La
+duzen: bozuk
+zorluk: zor
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 3.0, hicaz_uzzal--turku--evfer--feracemi_al--burdur
+---
+[Aranağme]
+1 | Do5#:16 Re5:16 Mi5:16 Fa5:16 Mi5:32 Fa5:32 Mi5:32 Re5:32 Mi5:32 Re5:32 Mi5:16 Do5#:32 Do5#:16. Re5:32 Do5#:32 Si4b:16 La4:8 Mi5:16 Re5:16 (Sol5)Mi5:8
+2 | Do5#:16 Re5:16 Mi5:16 Fa5:16 Mi5:32 Fa5:32 Mi5:32 Re5:32 Mi5:32 Re5:32 Mi5:16 Do5#:32 Do5#:16. Re5:32 Do5#:32 Si4b:16 La4:8 La4:8 La4:8
+[Aranağme]
+3 | Do5#:16 Re5:16 Mi5:16 Fa5:16 Mi5:32 Fa5:32 Mi5:32 Re5:32 Mi5:32 Re5:32 Mi5:16 Do5#:32 Do5#:16. Re5:32 Do5#:32 Si4b:16 La4:8 Mi5:16 Re5:16 (Sol5)Mi5:8
+4 | Do5#:16 Re5:16 Mi5:16 Fa5:16 Mi5:32 Fa5:32 Mi5:32 Re5:32 Mi5:32 Re5:32 Mi5:16 Do5#:32 Do5#:16. Re5:32 Do5#:32 Si4b:16 La4:8 La4:8 La4:8
+5 | Do5#:16 Re5:16 Mi5:16 Fa5:16 Re5:32 Do5#:32 Re5:16 Mi5:8 Es:32 Sol5#:32 Fa5:32 Sol5#:32 Fa5:32 Mi5:32 Re5:16 Mi5:8 Mi5:8 Mi5:8
+6 | Do5#:16 Re5:16 Mi5:16 Fa5:16 Re5:32 Do5#:32 Re5:16 Mi5:8 Es:32 Sol5#:32 Fa5:32 Sol5#:32 Fa5:32 Mi5:32 Re5:16 Mi5:8 Mi5:8 Mi5:8
+7 | Do5#:16 Re5:16 Mi5:16 Fa5:16 Mi5:32 Fa5:32 Mi5:32 Re5:32 Mi5:32 Re5:32 Mi5:16 Do5#:32 Do5#:16. Re5:32 Do5#:32 Si4b:16 La4:8 Mi5:16 Re5:16 (Sol5)Mi5:8
+8 | Do5#:16 Re5:16 Mi5:16 Fa5:16 Mi5:32 Fa5:32 Mi5:32 Re5:32 Mi5:32 Re5:32 Mi5:16 Do5#:32 Do5#:16. Re5:32 Do5#:32 Si4b:16 La4:8 La4:8 La4:8
+9 | Do5#:16 Re5:16 Mi5:16 Fa5:16 Mi5:32 Fa5:32 Mi5:32 Re5:32 Mi5:32 Re5:32 Mi5:16 Do5#:32 Do5#:16. Re5:32 Do5#:32 Si4b:16 La4:8 Mi5:16 Re5:16 (Sol5)Mi5:8
+10 | Do5#:16 Re5:16 Mi5:16 Fa5:16 Mi5:32 Fa5:32 Mi5:32 Re5:32 Mi5:32 Re5:32 Mi5:16 Do5#:32 Do5#:16. Re5:32 Do5#:32 Si4b:16 La4:8 La4:8 La4:8
+[Söz]
+11 | La5:16 Sol5:16 Fa5#3:16 Sol5:16 La5:8 Fa5#3:16=Fe- Sol5:16=râ- La5:8=ce- La5:8=mi (La5)Do6:8 Si5b2:8 (Do6)Si5b2:16 La5:16
+12 | (Si5b2)La5:4 La5:16=al La5:8.=is- (La5)Sol5:8=te- Fa5#3:16 Mi5:16 Fa5#3:16=rim Mi5:16 Fa5#3:8 Sol5:8=a-
+13 | (Si5b)La5:4=man/ Sol5:8=Yen- La5:8=le- La5:8.=ri- Mi5:16 Mi5:8=ni Fa5#3:8 Sol5:8
+14 | (La5)Sol5:16=yan- Fa5#3:16 Fa5:16=dım Mi5:16 Mi5:16=dar Mi5:16=is- Re5:8 Do5#:16=te- Si4b:8 La4:16 La4:8.=rim/ Sol5:16 Fa5#3:16 Sol5:16
+15 | La5:4 Sol5:8=Yen- La5:8=le- La5:8.=ri- Mi5:16 Mi5:8=ni Fa5#3:8 Sol5:8
+16 | (La5)Sol5:16=yan- Fa5#3:16 Fa5:16=dım Mi5:16 Mi5:16=dar Mi5:16=is- Re5:8 Do5#:16=te- Si4b:8 La4:16 La4:4.=rim/
+17 | Es:4 Es:8 Fa5#3:16=Se- Sol5:16=vil- La5:8=me- La5:8=dik Do6:8 Si5b2:8 La5:8
+18 | La5:4 La5:16=yâr La5:8.=is- (La5)Sol5:8=te- Fa5#3:8 Mi5:8=rim Fa5#3:8 Sol5:8=a-
+19 | (Si5b)La5:8=man/ Es:8 Sol5:8=Al (Si5b2)La5:8=ye- La5:8=me- La5:8=ni Sol5:16=ye- Fa5#3:16=me- Sol5:16=ni Mi5:16 Fa5:16 Mi5:16
+20 | Sol5:16=bi Sol5:16=da- Fa5:16=nem Mi5:16 Mi5:24=mor Mi5:24 Re5:24 Re5:16=ye- Do5#:16 Do5#:24=me- Do5#:24 Si4b:24 Si4b:16 La4:16 (Si4b)La4:8.=ni/ Mi5:16 Fa5#3:16 Sol5:16
+21 | La5:16 Do6:16 La5:8 Sol5:8=Fay- La5:8=da- La5:8.=sız Mi5:16 Mi5:16=gü- Fa5#3:16=ze- Sol5:16=li Fa5#3:16 La5:8
+22 | Sol5:16=yan- Fa5:16 Fa5:16=dım Mi5:16 Mi5:16=ney- Re5:16 Re5:16=le- Do5#:16 Do5#:24=me- Do5#:24 Si4b:24 Si4b:16 La4:16 (Si4b)La4:4.=li/
