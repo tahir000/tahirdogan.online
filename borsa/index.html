@@ -43,6 +43,9 @@ small,.kucuk{font-size:13px;color:var(--ink2)}
 
 .ust{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap}
 .ust > div{min-width:0}
+.ana-don{align-self:flex-start;display:inline-flex;align-items:center;gap:6px;min-height:36px;padding:0 14px 0 10px;margin-bottom:-6px;border:1px solid var(--line);border-radius:999px;font-size:14px;font-weight:500;color:var(--ink2)}
+.ana-don span{font-size:18px;line-height:1;margin-top:-2px}
+.ana-don:hover{color:var(--accent);border-color:var(--accent);text-decoration:none}
 .endeks{text-align:right;margin-left:auto}
 .endeks b{font-size:17px;font-weight:600}
 
@@ -169,6 +172,7 @@ footer{border-top:1px solid var(--line);padding-top:12px;font-size:12px;color:va
 </head>
 <body>
 <div class="wrap">
+  <a class="ana-don" id="ana-don" href="../" aria-label="Projeler ana sayfasına dön" hidden><span aria-hidden="true">‹</span>Projeler</a>
   <div class="ust">
     <div>
       <h1>Borsa Tahtası</h1>
@@ -1465,6 +1469,8 @@ async function basla(){
   if (UYG) uygulamaKur();
   try { const a = +localStorage.getItem('tahta_aralik'); if ([63, 126, 252, 504].includes(a)) S.aralik = a; if (localStorage.getItem('tahta_tur') === 'mum') S.tur = 'mum'; } catch (e) {}
   S.demo = location.hash === '#demo';
+  // Sitede (Claude'un ve Android uygulamasının dışında) proje listesine dönüş bağlantısı görünür.
+  if (!UYG && !(window.claude && window.claude.use) && uzakVar()) $('ana-don').hidden = false;
   if (!S.demo && !(window.claude && window.claude.use) && uzakVar()) { $('gizlilik-satir').hidden = false; oturum = oturumOku(); if (oturum) uzakBasla(); else girisGoster(); return; }
   route();
   if (S.demo) { S.hazir = true; S.hisseler = {ORNEKA: {adet: 120, maliyet: 150, ornek: true}, ORNEKB: {adet: null, maliyet: null, ornek: true}, ORNEKC: {adet: 40, maliyet: 320, ornek: true}}; S.gunluk = []; S.haftalik = []; S.islemler = [{id: 'd1', sembol: 'ORNEKA', tur: 'al', adet: 120, fiyat: 150, tarih: bugunIST(), kz: null}, {id: 'd2', sembol: 'ORNEKC', tur: 'sat', adet: 10, fiyat: 400, tarih: bugunIST(), kz: 800}]; senkron(); return; }
