@@ -63,22 +63,24 @@
     <tr><th>Hesap bilgisi</th><td>Kullanıcı adın, hesabın açıldığı zaman ve son giriş zamanın. Hesabını uygulamada ya da web sürümünde kendin açarsın; kullanıcı adını ve şifreni sen belirlersin. E-posta adresin ya da telefon numaran istenmez. Kullanıcı adın, kimlik doğrulama hizmetinde teknik bir tanımlayıcı olarak saklanır; bu tanımlayıcıya posta gönderilmez. Şifren açık halde saklanmaz, özetlenmiş biçimde tutulur ve geliştirici göremez. İletişim bilgisi alınmadığı için şifreni unutursan kendin sıfırlayamazsın.</td></tr>
     <tr><th>Hisse listen</th><td>Listene eklediğin hisse sembolleri ve girersen adet, ortalama maliyet ve fiyat alarmı seviyeleri.</td></tr>
     <tr><th>İşlem günlüğü</th><td>Kendin kaydettiğin alış ve satışlar: tarih, sembol, adet ve fiyat.</td></tr>
-    <tr><th>Cihazında kalanlar</th><td>Oturum bilgisi, görünüm tercihlerin (grafik türü, aralık) ve fiyat geçmişi önbelleği. Bunlar telefonunda ya da tarayıcında durur; uygulama bunları yedeklemeye dahil etmez.</td></tr>
-    <tr><th>Teknik kayıtlar</th><td>Sunucular, hizmetin çalışması ve güvenliği için istek zamanı ve IP adresi gibi teknik kayıtları sınırlı bir süre tutabilir.</td></tr>
+    <tr><th>Cihaz anahtarı</th><td>Android uygulamasında bildirimler ve ana ekran bileşeni için telefonuna özel, rastgele bir anahtar üretilir. Sunucuda anahtarın kendisi değil yalnızca özeti ve son kullanıldığı zaman saklanır. Çıkış yaptığında ya da hesabını sildiğinde silinir. Telefonunun kimlik numaraları (IMEI, reklam kimliği gibi) okunmaz.</td></tr>
+    <tr><th>Cihazında kalanlar</th><td>Oturum bilgisi, görünüm tercihlerin (grafik türü, aralık), bildirim tercihin, bileşenin gösterdiği son özet ve fiyat geçmişi önbelleği. Bunlar telefonunda ya da tarayıcında durur; uygulama bunları yedeklemeye dahil etmez.</td></tr>
+    <tr><th>Teknik kayıtlar</th><td>Sunucular, hizmetin çalışması ve güvenliği için istek zamanı ve IP adresi gibi teknik kayıtları sınırlı bir süre tutabilir. Kötüye kullanımı önlemek için hesabının ve cihazının dakikalık istek sayısı da en çok iki saat tutulur.</td></tr>
   </table>
   </div>
-  <p>Uygulama konumunu, rehberini, fotoğraflarını, mesajlarını ya da cihaz kimliğini istemez ve okumaz. Android'de yalnızca internet erişimi izni kullanır. Adet, maliyet ve işlem bilgisi girmek isteğe bağlıdır; girmezsen hisseler yalnızca izleme listesinde durur.</p>
+  <p>Uygulama konumunu, rehberini, fotoğraflarını, mesajlarını ya da cihaz kimliğini istemez ve okumaz. Android'de internet erişimi, ağ durumunu görme ve telefon yeniden başlayınca arka plandaki fiyat denetimini sürdürme izinlerini kullanır; bildirim gösterme iznini yalnızca sen bildirimleri açarsan ister. Adet, maliyet ve işlem bilgisi girmek isteğe bağlıdır; girmezsen hisseler yalnızca izleme listesinde durur.</p>
 
   <h2>Veriler ne için kullanılır</h2>
   <ul>
     <li>Giriş yapmanı ve listeni her cihazında görmeni sağlamak.</li>
     <li>Portföy değeri, kar ve zarar ile teknik göstergeleri hesaplayıp sana göstermek. Hesaplamalar cihazında yapılır.</li>
+    <li>Fiyat bildirimleri ve ana ekran bileşeni (yalnızca Android uygulaması): uygulama kapalıyken telefonun, cihaz anahtarıyla sunucudan portföy özetini ve belirlediğin fiyat seviyelerinin durumunu ister (seans saatlerinde yaklaşık 15 dakikada bir). Bildirimler telefonunda üretilir; Google'ın ya da başka bir şirketin bildirim hizmeti kullanılmaz.</li>
     <li>Günlük gündemi hazırlamak: kullanıcıların listelerindeki hisse sembolleri, kime ait oldukları bilgisi olmadan toplu olarak okunur ve o hisselerle ilgili haberler aranır. Gündemde hiçbir kullanıcının adet, maliyet ya da kar zarar bilgisi yer almaz.</li>
   </ul>
   <p>Veriler reklam, profil çıkarma ya da pazarlama için kullanılmaz.</p>
 
   <h2>Veriler nerede durur, kimler erişir</h2>
-  <p>Hesaplar ve listeler, barındırma hizmeti olarak kullanılan Supabase'in Avustralya'daki (Sidney) sunucularında saklanır. Her kullanıcı yalnızca kendi listesini ve işlem günlüğünü görebilir; bu, veritabanındaki erişim kurallarıyla sağlanır. Geliştirici, hizmeti yönetmek ve destek vermek için veritabanına erişebilir.</p>
+  <p>Hesaplar ve listeler, barındırma hizmeti olarak kullanılan Supabase'in Avustralya'daki (Sidney) sunucularında saklanır. Her kullanıcı yalnızca kendi listesini ve işlem günlüğünü görebilir; bu, veritabanındaki erişim kurallarıyla sağlanır. Geliştirici, hizmeti yönetmek ve destek vermek için veritabanına erişebilir. Hisse fiyatları da bütün kullanıcılar için ortak bir depoda tutulur; bu depoda kişisel veri yoktur.</p>
   <p>Hizmetin çalışması için şu sağlayıcılar kullanılır:</p>
   <ul>
     <li><b>Supabase:</b> hesapların, listelerin ve işlem günlüğünün barındırılması.</li>
