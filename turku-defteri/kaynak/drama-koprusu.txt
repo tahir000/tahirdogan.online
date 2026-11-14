@@ -1,0 +1,46 @@
+ad: Drama Köprüsü
+yore: Rumeli
+usul: 5/8
+usul-adi: Türkaksağı
+kalip: 2+3
+tempo: 84
+dizi: Uşşak
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+kaynak: SymbTr 2.4.3, ussak--turku--turkaksagi--drama_koprusu--
+---
+[Söz]
+1 | La4:16=D-;;D- La4:8.=ra-;;ra- Mi5:4.=ma;;ma
+1 @2 | La4:4=A- Mi5:4.=na-
+1 @4 | La4:4=A- Mi5:4.=na-
+2 | Mi5:4=köp-;dan;köp-;dan Mi5:4.=rü-;ge-;rü-;ge-
+3 | Mi5:8=sü;çi-;sü;çi- Sol5:8 Mi5:8=bre;lir;bre;lir Mi5:8 Re5:8
+4 | Re5:4=Ha-* (Mi5)Do5:4.=san*
+5 | Re5:4=dar-;yâr-;dar-;yâr- Mi5:4.=dır;dan;dır;dan
+6 | Fa5:8=ge-* Sol5:8 Mi5:4=çil-* Re5:8
+7 | Re5:5/8=mez/*
+8 | Re5:4=Ha-* (Mi5)Do5:4.=san*
+9 | Re5:4=dar-;yâr-;dar-;yâr- Mi5:4.=dır;dan;dır;dan
+10 | Fa5:8=ge-* Sol5:8 Mi5:4=çil-* Re5:8
+11 | Re5:5/8=mez/*
+12 | Re5:5/8
+13 | Mi5:4=So-;At;So-;At Do5:4=ğuk-;mar-;ğuk-;mar- Mi5:8
+14 | Re5:4=tur;ti-;tur;ti- Si4b2:4=su-;ni;su-;ni Re5:8
+15 | Do5:4=la-;Deb-;la-;Deb- La4:4=rı;re-;rı;re- Do5:8=;li;;li
+16 | Si4b2:8=Ha-* La4:8 Sol4:4.=san*
+17 | La4:8=bir;dağ-;bir;dağ- Si4b2:8 Do5:4=tas;lar;tas;lar Si4b2:8
+18 | Do5:8=i-;in-;i-;in- Re5:8 Si4b2:4=çil-;le-;çil-;le- La4:8
+19 | La4:5/8=mez/;sin/;mez/;sin/
+20 | La4:5/8
+21 | Mi5:4=So-;;So- Do5:4=ğuk-;;ğuk- Mi5:8
+21 @2 | Mi5:16=D- Mi5:8.=ra- Do5:4=ma Mi5:8
+21 @4 | Mi5:16=D- Mi5:8.=ra- Do5:4=ma Mi5:8
+22 | Re5:4=tur;mah-;tur;mah- Si4b2:4=su-;pu-;su-;pu- Re5:8
+23 | Do5:4=la-;sun-;la-;sun- La4:4=rı;da;rı;da Do5:8
+24 | Si4b2:8=Ha-* La4:8 Sol4:4.=san*
+25 | La4:8=bir;dost-;bir;dost- Si4b2:8 Do5:4=tas;lar;tas;lar Si4b2:8
+26 | Do5:8=i-;din-;i-;din- Re5:8 Si4b2:4=çil-;le-;çil-;le- La4:8
+27 | La4:5/8=mez/;sin/;mez/;sin/
+28 | La4:5/8

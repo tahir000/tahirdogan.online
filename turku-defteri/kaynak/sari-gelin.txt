@@ -1,0 +1,34 @@
+ad: Sarı Gelin
+yore: Erzurum
+usul: 10/8
+usul-adi: Curcuna
+kalip: 3+2+2+3
+tempo: 81
+dizi: Hüseyni
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+kaynak: SymbTr 2.4.3, huseyni--turku--curcuna--sari_gelin--erzurum
+---
+[Söz]
+1 | Es:4 La4:8=Er- La4:4=zu- La4:4=rum Mi5:4.=çar-
+2 | Mi5:4=şı Re5:4.=pa- Mi5:8=zar/ Re5:8 Mi5:4.
+3 | Mi5:4=Ney- Mi5:8=nim (Fa5)Mi5:8.=am- Re5:16 Re5:8.=man Do5:16 Re5:8=a- Mi5:8=man/ Es:8
+4 | Mi5:4=Ney- Fa5#3:8=nim Re5:4=am- Do5:8.=man Si4b2:16 Do5:8=a- (Re5)Re5:8=man/ Es:8
+5 | Do5:4=Ney- Re5:8=nim Si4b2:4=am- La4:4=man La4:8=a- (Do5)Do5:8=man Es:8
+6 | Si4b2:4=sa- Do5:8=rı La4:4=ge- La4:5/8=lin/
+7 | Es:4 Do5:8=İ- Do5:4=çin- Re5:4=de Re5:4.=bir
+8 | Re5:4=kız Do5:4.=ge- Re5:8=zer/ Do5:8 Re5:8 Mi5:4
+9 | Mi5:8=Hop Es:8 Do5:8=ni- Re5:4=nen Mi5:4=öl- Mi5:4.=sün
+10 | Mi5:4=sa- Mi5:8=rı (Fa5)Re5:4=ge- Re5:8.=lin Do5:16 Re5:8=a- (Mi5)Mi5:8=man/ Es:8
+11 | Mi5:4=Sa- Fa5#3:8=rı Re5:4=ge- Do5:8.=lin Si4b2:16 Do5:8=a- (Re5)Re5:8=man/ Es:8
+12 | Do5:4=Sa- Re5:8=rı Si4b2:4=ge- La4:4=lin La4:8=a- (Do5)Do5:8=man Es:8
+13 | Si4b2:4=su- Do5:8=na La4:4=yâ- La4:5/8=rim/
+14 | Es:4 Do5:8=İ- Do5:4=çin- Re5:4=de Re5:4.=bir
+15 | Re5:4=kız Do5:4.=ge- Re5:8=zer/ Do5:8 Re5:8 Mi5:4
+16 | Mi5:8=Hop Es:8 Do5:8=ni- Re5:4=nen Mi5:4=öl- Mi5:4.=sün
+17 | Mi5:4=sa- Mi5:8=rı (Fa5)Re5:4=ge- Re5:8.=lin Do5:16 Re5:8=a- (Mi5)Mi5:8=man/ Es:8
+18 | Mi5:4=Sa- Fa5#3:8=rı Re5:4=ge- Do5:8.=lin Si4b2:16 Do5:8=a- (Re5)Re5:8=man/ Es:8
+19 | Do5:4=Sa- Re5:8=rı Si4b2:4=ge- La4:4=lin La4:8=a- (Do5)Do5:8=man Es:8
+20 | Si4b2:4=su- Do5:8=na La4:4=yâ- La4:5/8=rim/

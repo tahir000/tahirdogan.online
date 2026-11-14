@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'unsafe-inline'; img-src data:; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<title>Türkü Defteri</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231d1d1f'/%3E%3Cpath d='M8 12h16M8 16h16M8 20h16' stroke='%23fff' stroke-width='1.6' stroke-linecap='round'/%3E%3Ccircle cx='20' cy='16' r='3.4' fill='%23fff'/%3E%3C/svg%3E">
+<style>
+  /* Yerleşim: liste sayfası tek sütun. Türkü sayfasında notalar yukarıdan aşağı akar,
+     sap şeması ve çalma düğmeleri ekranın altına sabitlenir. */
+  :root {
+    --zemin: #ffffff; --murekkep: #1d1d1f; --ikincil: #6e6e73; --dolgu: #f5f5f7;
+    --cizgi: #d2d2d7; --cizgi-acik: #e8e8ed; --mavi: #0066cc; --panel: rgba(255, 255, 255, .94);
+    --alt-bosluk: env(safe-area-inset-bottom, 0px);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --zemin: #000000; --murekkep: #f5f5f7; --ikincil: #a1a1a6; --dolgu: #1c1c1e;
+      --cizgi: #48484a; --cizgi-acik: #2c2c2e; --mavi: #2997ff; --panel: rgba(18, 18, 19, .94);
+      color-scheme: dark;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--zemin); color: var(--murekkep);
+    font: 16px/1.5 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  [hidden] { display: none !important; }
+  .kap {
+    max-width: 780px; margin: 0 auto;
+    padding-left: max(20px, env(safe-area-inset-left, 0px)); padding-right: max(20px, env(safe-area-inset-right, 0px));
+  }
+  a { color: var(--mavi); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  button { font: inherit; color: inherit; -webkit-tap-highlight-color: transparent; touch-action: manipulation; }
+  :focus-visible { outline: 3px solid var(--mavi); outline-offset: 2px; border-radius: 6px; }
+  h1 { margin: 0 0 12px; font-size: 34px; line-height: 1.15; font-weight: 700; letter-spacing: -.3px; text-wrap: balance; }
+  h2 { margin: 0 0 12px; font-size: 22px; line-height: 1.25; font-weight: 700; }
+  h3 { margin: 0 0 6px; font-size: 16px; font-weight: 600; }
+  p { margin: 0 0 12px; }
+  .alan { margin: 0 0 6px; font-size: 13px; color: var(--ikincil); }
+  .kucuk { font-size: 14px; color: var(--ikincil); }
+  section.bolum { padding: 28px 0; border-top: 1px solid var(--cizgi-acik); }
+  .metin { max-width: 660px; }
+
+  /* Liste */
+  #liste header { padding-top: 44px; padding-bottom: 20px; }
+  ul.turkuler { list-style: none; margin: 0; padding: 0; border-bottom: 1px solid var(--cizgi-acik); }
+  a.satir {
+    display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 16px; align-items: center;
+    padding: 16px 0; border-top: 1px solid var(--cizgi-acik); color: inherit; text-decoration: none;
+  }
+  a.satir b { font-size: 19px; font-weight: 600; }
+  a.satir span { grid-column: 1; color: var(--ikincil); font-size: 15px; }
+  a.satir i { grid-row: 1 / span 2; grid-column: 2; font-style: normal; font-size: 22px; color: var(--ikincil); }
+  a.satir:hover b { color: var(--mavi); }
+  dl.anahtar { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 10px 16px; margin: 0; align-items: center; }
+  dl.anahtar dt { display: flex; justify-content: center; min-width: 56px; }
+  dl.anahtar dd { margin: 0; font-size: 15px; }
+
+  /* Türkü sayfası */
+  #turku header { padding-top: 22px; padding-bottom: 14px; }
+  .geri { display: inline-block; margin: 0 0 14px; font-size: 15px; }
+  .kunye { margin: 0; color: var(--ikincil); font-size: 15px; }
+  .taslak {
+    margin: 14px 0 0; padding: 10px 14px; background: var(--dolgu); border-radius: 10px; font-size: 14px; max-width: 660px;
+  }
+  .secim { display: flex; flex-wrap: wrap; gap: 8px; padding: 6px 0 14px; }
+  .secim button {
+    border: 1px solid var(--cizgi); background: none; border-radius: 999px; padding: 6px 14px; font-size: 14px; min-height: 36px;
+  }
+  .secim button[aria-pressed="true"] { background: var(--murekkep); color: var(--zemin); border-color: var(--murekkep); font-weight: 600; }
+
+  .olcu { border-top: 1px solid var(--cizgi-acik); padding: 8px 0 10px 10px; margin-left: -10px; scroll-margin-top: 12px; }
+  .olcu.dongude { box-shadow: inset 3px 0 0 var(--mavi); }
+  .olcu-ust { display: flex; align-items: baseline; gap: 10px; min-height: 26px; }
+  .olcu-no {
+    border: 0; background: none; padding: 2px 8px 2px 0; min-width: 34px; text-align: left;
+    font-size: 13px; font-weight: 600; color: var(--ikincil); font-variant-numeric: tabular-nums;
+  }
+  .olcu.dongude .olcu-no { color: var(--mavi); }
+  .bolum-adi { font-size: 13px; color: var(--ikincil); }
+  .notalar { display: flex; flex-wrap: wrap; gap: 4px 0; }
+  .notalar .kir { flex: 0 0 100%; height: 0; }
+  .nota {
+    display: flex; flex-direction: column; align-items: center; gap: 3px;
+    border: 0; background: none; border-radius: 9px; padding: 5px 1px 4px; min-width: 0;
+  }
+  .nota.vurus { margin-left: 5px; }
+  .nota.etkin { background: var(--dolgu); box-shadow: inset 0 0 0 2px var(--mavi); }
+  .nota .ust { display: flex; align-items: baseline; justify-content: center; white-space: nowrap; }
+  .nota .ad { position: relative; font-size: 16px; font-weight: 600; line-height: 22px; }
+  .nota .ad sup { font-size: 10px; font-weight: 600; line-height: 0; }
+  .nota .ad.tiz::before, .nota .ad.pes::after {
+    content: ""; position: absolute; left: 50%; width: 4px; height: 4px; margin-left: -2px; border-radius: 50%; background: currentColor;
+  }
+  .nota .ad.tiz::before { top: -3px; }
+  .nota .ad.pes::after { bottom: -4px; }
+  .nota .ad.pes { margin-bottom: 5px; }
+  .nota .carpma { font-size: 10px; color: var(--ikincil); margin-right: 1px; align-self: flex-start; }
+  .nota .ek { font-size: 15px; font-weight: 700; margin-left: 2px; }
+  .nota.es .ad { font-weight: 400; color: var(--ikincil); font-size: 14px; }
+  .nota.bagli .ad { color: var(--ikincil); font-weight: 400; }
+  .sure { display: flex; flex-direction: column; gap: 2px; height: 8px; justify-content: flex-start; }
+  .sure i { display: block; width: 14px; height: 1.5px; background: var(--murekkep); border-radius: 1px; }
+  .perde {
+    display: inline-flex; align-items: center; justify-content: center; min-width: 22px; height: 22px; padding: 0 4px;
+    font-size: 12px; font-weight: 600; font-variant-numeric: tabular-nums; line-height: 1; border-radius: 11px;
+  }
+  .perde.alt { background: var(--murekkep); color: var(--zemin); }
+  .perde.orta { border: 1.5px solid var(--murekkep); }
+  .perde.ust { border: 1.5px solid var(--murekkep); border-radius: 5px; }
+  .perde.yok { color: var(--ikincil); font-weight: 400; }
+  .hece { font-size: 13px; line-height: 16px; min-height: 16px; color: var(--ikincil); white-space: nowrap; }
+  body.sozsuz .hece { display: none; }
+
+  .sozler p { margin: 0 0 14px; white-space: pre-line; }
+  details { border-top: 1px solid var(--cizgi-acik); padding: 14px 0; }
+  details summary { cursor: pointer; font-weight: 600; }
+  details[open] summary { margin-bottom: 12px; }
+
+  /* Alt panel */
+  .panel {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 5; background: var(--panel);
+    -webkit-backdrop-filter: saturate(180%) blur(18px); backdrop-filter: saturate(180%) blur(18px);
+    border-top: 1px solid var(--cizgi); padding-bottom: var(--alt-bosluk);
+  }
+  .panel-ic { max-width: 780px; margin: 0 auto; padding: 6px max(16px, env(safe-area-inset-right, 0px)) 8px max(16px, env(safe-area-inset-left, 0px)); }
+  #sap { display: block; width: 100%; height: 88px; }
+  #sap text { font: 10px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; fill: var(--ikincil); }
+  #sap .tel { stroke: var(--murekkep); stroke-width: 1.2; }
+  #sap .perde-cizgi { stroke: var(--cizgi); stroke-width: 1; }
+  #sap .koma { stroke-dasharray: 2 3; }
+  #sap .esik { stroke: var(--murekkep); stroke-width: 3; }
+  #sap .isaret { fill: var(--mavi); }
+  #sap .isaret-yazi { fill: #fff; font-weight: 700; font-size: 10.5px; }
+  #sap .sonraki { fill: none; stroke: var(--ikincil); stroke-width: 1.5; }
+  .satir-a { display: flex; align-items: center; gap: 10px; min-height: 36px; }
+  #anlik { flex: 1; min-width: 0; font-size: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #anlik b { font-weight: 600; }
+  .hiz { display: flex; align-items: center; gap: 2px; flex: none; }
+  .hiz output { min-width: 50px; text-align: center; font-size: 14px; font-variant-numeric: tabular-nums; }
+  .dugmeler { display: flex; align-items: center; justify-content: space-between; gap: 6px; padding-top: 4px; }
+  .dugme {
+    display: inline-flex; align-items: center; justify-content: center; gap: 6px; border: 0; background: var(--dolgu);
+    border-radius: 12px; min-width: 44px; height: 44px; padding: 0 12px; font-size: 14px; font-weight: 600; white-space: nowrap;
+  }
+  .dugme.kucuk-d { min-width: 34px; height: 34px; padding: 0; border-radius: 10px; font-size: 18px; font-weight: 400; }
+  .dugme.ana { background: var(--murekkep); color: var(--zemin); min-width: 86px; }
+  #dongu { padding: 0 10px; font-variant-numeric: tabular-nums; }
+  .dugme[aria-pressed="true"] { background: var(--mavi); color: #fff; }
+  .dugme svg { width: 18px; height: 18px; fill: currentColor; }
+  .grup { display: flex; gap: 6px; }
+
+  dialog {
+    border: 0; border-radius: 16px; padding: 22px; width: min(420px, calc(100vw - 32px)); background: var(--zemin); color: var(--murekkep);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, .25);
+  }
+  dialog::backdrop { background: rgba(0, 0, 0, .35); }
+  .ayar { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 12px 0; border-top: 1px solid var(--cizgi-acik); font-size: 15px; }
+  .ayar input[type="checkbox"] { width: 22px; height: 22px; accent-color: var(--mavi); flex: none; }
+  .ayar select { font: inherit; padding: 6px 8px; border-radius: 8px; border: 1px solid var(--cizgi); background: var(--zemin); color: inherit; }
+  footer { padding-top: 26px; padding-bottom: 40px; }
+  footer > :first-child { border-top: 1px solid var(--cizgi-acik); padding-top: 22px; }
+  #turku footer { padding-bottom: 24px; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+</style>
+</head>
+<body>
+
+<div id="liste">
+  <header class="kap">
+    <p class="alan"><a href="../">tahirdogan.online</a></p>
+    <h1>Türkü Defteri</h1>
+    <p class="metin">Uzun sap bağlamada yeni türkü çalışmak için. Her türkü nota adları ve perde numaralarıyla yazılı; dinleyebilir, yavaşlatabilir, zor yeri döngüye alabilirsin.</p>
+  </header>
+  <main class="kap">
+    <ul class="turkuler" id="turku-listesi"></ul>
+    <p class="kucuk" id="liste-notu" style="margin-top:14px"></p>
+
+    <section class="bolum" style="margin-top:28px">
+      <h2>Nasıl okunur</h2>
+      <dl class="anahtar">
+        <dt><span class="nota" style="padding:0"><span class="ust"><span class="ad">Si♭<sup>2</sup></span></span></span></dt>
+        <dd>Nota adı. Yanındaki küçük sayı koma sesidir: si bemol 2, fa diyez 3.</dd>
+        <dt><span class="perde alt">7</span></dt>
+        <dd>Alt telde basılacak perde. Sayı baş eşikten itibaren sayılır, 0 boş teldir.</dd>
+        <dt><span class="perde orta">3</span></dt>
+        <dd>Orta telde perde.</dd>
+        <dt><span class="perde ust">0</span></dt>
+        <dd>Üst telde perde.</dd>
+        <dt><span class="sure"><i></i></span></dt>
+        <dd>Süre. Çizgi yoksa dörtlük, tek çizgi sekizlik, çift çizgi onaltılık. Yandaki nokta süreyi yarısı kadar, uzun çizgi bir dörtlük uzatır.</dd>
+        <dt><span class="nota" style="padding:0"><span class="ust"><span class="ad tiz">La</span></span></span></dt>
+        <dd>Üstünde nokta olan nota tiz sekizlidedir, altında nokta olan pes.</dd>
+      </dl>
+    </section>
+
+    <section class="bolum metin">
+      <h2>Saz ve akort</h2>
+      <p>Notalar uzun sap bağlama ve bozuk düzen içindir: alt tel la, orta tel re, üst tel sol. Perde numaraları 23 perdeli sapa göredir; koma perdeleri (si bemol 2, do diyez 3, mi bemol 2, fa diyez 3, sol diyez 3) de sayılır.</p>
+      <p>Sazının perde sayısı farklıysa numara kayabilir. O zaman numarayı değil nota adını ve ekranın altındaki sap şemasını esas al.</p>
+    </section>
+
+    <section class="bolum metin">
+      <h2>Notalar taslaktır</h2>
+      <p>Bu türküler açık bir veri setinden bilgisayarla çevrildi, henüz bir çalan tarafından baştan sona denetlenmedi. Yanlış gördüğün yeri ölçü numarasıyla not al.</p>
+    </section>
+  </main>
+  <footer class="kap kucuk">
+    <p>Nota verisi: SymbTr 2.4.3 (M. Kemal Karaosmanoğlu, 2012), <a href="https://github.com/MTG/SymbTr" rel="noopener">github.com/MTG/SymbTr</a>. Bağlama perdelerine uyarlandı. Türkü verileri kaynağıyla aynı lisansla paylaşılır: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.tr" rel="noopener">CC BY-NC-SA 4.0</a>.</p>
+    <p>Sayfa hiçbir yere veri göndermez. Ayarların yalnızca bu cihazda saklanır.</p>
+  </footer>
+</div>
+
+<div id="turku" hidden>
+  <header class="kap">
+    <a class="geri" href="#/">‹ Türküler</a>
+    <h1 id="t-ad"></h1>
+    <p class="kunye" id="t-kunye"></p>
+    <p class="taslak" id="t-taslak" hidden>Taslak: bu nota henüz bir çalan tarafından denetlenmedi. Yanlış gördüğün yeri ölçü numarasıyla not al.</p>
+  </header>
+  <main class="kap">
+    <div class="secim" id="t-kita" role="group" aria-label="Kıta"></div>
+    <div id="t-notalar"></div>
+    <section class="bolum sozler" id="t-soz-bolum">
+      <h2>Sözler</h2>
+      <div id="t-sozler"></div>
+    </section>
+    <details>
+      <summary>Nasıl okunur</summary>
+      <p class="kucuk">Büyük yazı nota adı, altındaki çizgiler süre (çizgi yoksa dörtlük, tek çizgi sekizlik, çift çizgi onaltılık), yuvarlak içindeki sayı perde. Dolu yuvarlak alt tel, boş yuvarlak orta tel, köşeli kutu üst tel. Bir notaya dokunursan sesini duyarsın. Ölçü numarasına dokunursan o ölçü döngüye alınır; ikinci bir numaraya dokunursan aradaki ölçüler döner.</p>
+    </details>
+    <details>
+      <summary>Kaynak</summary>
+      <p class="kucuk" id="t-kaynak"></p>
+    </details>
+  </main>
+  <footer class="kap kucuk"><p><a href="#/">Bütün türküler</a></p></footer>
+
+  <div class="panel" id="panel">
+    <div class="panel-ic">
+      <svg id="sap" role="img" aria-label="Sap şeması"></svg>
+      <div class="satir-a">
+        <div id="anlik" aria-live="off"></div>
+        <div class="hiz" role="group" aria-label="Hız">
+          <button class="dugme kucuk-d" id="hiz-eksi" aria-label="Yavaşlat">−</button>
+          <output id="hiz-deger">%100</output>
+          <button class="dugme kucuk-d" id="hiz-arti" aria-label="Hızlandır">+</button>
+        </div>
+      </div>
+      <div class="dugmeler">
+        <div class="grup">
+          <button class="dugme" id="geri-adim" aria-label="Önceki nota"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h2v14H7zM19 5v14l-9-7z"/></svg></button>
+          <button class="dugme ana" id="cal"><svg viewBox="0 0 24 24" aria-hidden="true"><path id="cal-simge" d="M7 4v16l13-8z"/></svg><span id="cal-yazi">Çal</span></button>
+          <button class="dugme" id="ileri-adim" aria-label="Sonraki nota"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5h2v14h-2zM5 5v14l9-7z"/></svg></button>
+        </div>
+        <div class="grup">
+          <button class="dugme" id="dongu" aria-pressed="false">Döngü</button>
+          <button class="dugme" id="ayar-ac" aria-label="Ayarlar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h10v2H3zM17 6h4v2h-4zM13 4h2v6h-2zM3 16h4v2H3zM11 16h10v2H11zM7 14h2v6H7z"/></svg></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<dialog id="ayarlar" aria-labelledby="ayar-baslik">
+  <h2 id="ayar-baslik">Ayarlar</h2>
+  <label class="ayar"><span>Nota sesini çal</span><input type="checkbox" id="a-ses"></label>
+  <label class="ayar"><span>Metronom</span><input type="checkbox" id="a-metronom"></label>
+  <label class="ayar"><span>Başlamadan önce bir ölçü say</span><input type="checkbox" id="a-sayim"></label>
+  <label class="ayar"><span>Heceleri göster</span><input type="checkbox" id="a-soz"></label>
+  <label class="ayar"><span>Sap şemasını göster</span><input type="checkbox" id="a-sap"></label>
+  <label class="ayar"><span>Sazımın alt teli</span>
+    <select id="a-akort">
+      <option value="-3">Fa diyez</option><option value="-2">Sol</option><option value="-1">La bemol</option>
+      <option value="0">La (220 Hz)</option><option value="1">Si bemol</option><option value="2">Si</option><option value="3">Do</option>
+    </select>
+  </label>
+  <p class="kucuk" style="margin:12px 0 16px">Sazın la yerine başka bir sese akortluysa buradan seç; sayfanın sesi sazına uyar, perdeler değişmez. iPhone'da ses gelmiyorsa yandaki sessiz anahtarını kapat.</p>
+  <button class="dugme ana" id="ayar-kapat" style="width:100%">Tamam</button>
+</dialog>
+
+<script src="veri/dizin.js"></script>
+<script src="perde.js"></script>
+<script src="ses.js"></script>
+<script src="arayuz.js"></script>
+</body>
+</html>

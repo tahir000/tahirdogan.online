@@ -1,0 +1,45 @@
+ad: Çanakkale İçinde
+yore:
+usul: 4/4
+usul-adi: Sofyan
+tempo: 93
+dizi: Neva
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+kaynak: SymbTr 2.4.3, neva--turku--sofyan--canakkale_icinde--
+---
+[Aranağme]
+1 | Re5:8 Mi5:4. Mi5:4 Mi5b:8. Re5:16
+2 | Re5:4 Mi5b:8 Re5:8 Do5:8 Si4b2:8 Do5:4
+3 | Si4b2:8 Do5:8 Re5:4 Re5:16 Mi5b:16 Re5:16 Mi5b:16 Do5:8 Si4b2:8
+4 | La4:2 Si4b2:8 Do5:8 Re5:8 Mi5:8
+5 | Do5:8 (Re5)Si4b2:8. Sol4:16 La4:8 Si4b2:8 La4:4.
+6 | La4:2. Es:4
+[Aranağme]
+7 | Re5:8 Mi5:4. Mi5:4 Mi5b:8. Re5:16
+8 | Re5:4 Mi5b:8 Re5:8 Do5:8 Si4b2:8 Do5:4
+9 | Si4b2:8 Do5:8 Re5:4 Re5:16 Mi5b:16 Re5:16 Mi5b:16 Do5:8 Si4b2:8
+10 | La4:2 Si4b2:8 Do5:8 Re5:8 Mi5:8
+11 | Do5:8 (Re5)Si4b2:8. Sol4:16 La4:8 Si4b2:8 La4:4.
+12 | La4:2. Es:4
+[Söz]
+13 | Es:4 Sol4:8=Ça-* La4:8=nak-* La4:8=ka-* La4:4.=le*
+14 | Sol5:8.=i-* Fa5#:16 Mi5:8.=çin-* Re5:16 Re5:4.=de* Do5:8
+15 | Re5:4=vur-;Ay- Mi5:4=du-;na- Mi5:16=lar;lı Sol5:16 Fa5#:16 Sol5:16 Mi5:8.=be-;çar- Re5:16
+16 | Re5:2.=ni/;şı/ Es:4
+17 | Re5:4.=Öl- Mi5:8=me- Mi5:4=den Mi5b:8.=me- Re5:16
+17 @2 | Es:4 Re5:8=A- Mi5:8=na Mi5:4=ben Mi5b:8.=gi- Re5:16
+18 | Re5:4=za-;di- Mi5b:8 Re5:8 Do5:8=ra;yom Si4b2:8 Do5:4
+19 | Si4b2:8=koy-;düş- Do5:8 Re5:4=du-;ma- Re5:16=lar;na Mi5b:16 Re5:16 Mi5b:16 Do5:8=be-;kar- Si4b2:8
+20 | La4:2=ni/;şı/ Si4b2:8=Of* Do5:8 Re5:8 Mi5:8
+21 | Do5:8=genç-* (Re5)Si4b2:8. Sol4:16 La4:8=li-* Si4b2:8=ğim* La4:4.=ey-*
+22 | La4:2.=vah/* Es:4
+23 | Re5:4.=Öl- Mi5:8=me- Mi5:4=den Mi5b:8.=me- Re5:16
+23 @2 | Es:4 Re5:8=A- Mi5:8=na Mi5:4=ben Mi5b:8.=gi- Re5:16
+24 | Re5:4=za-;di- Mi5b:8 Re5:8 Do5:8=ra;yom Si4b2:8 Do5:4
+25 | Si4b2:8=koy-;düş- Do5:8 Re5:4=du-;ma- Re5:16=lar;na Mi5b:16 Re5:16 Mi5b:16 Do5:8=be-;kar- Si4b2:8
+26 | La4:2=ni/;şı/ Si4b2:8=Of* Do5:8 Re5:8 Mi5:8
+27 | Do5:8=genç-* (Re5)Si4b2:8. Sol4:16 La4:8=li-* Si4b2:8=ğim* La4:4.=ey-*
+28 | La4:2.=vah/* Es:4

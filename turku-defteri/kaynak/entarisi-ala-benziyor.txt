@@ -1,0 +1,48 @@
+ad: Entarisi Ala Benziyor
+yore: İstanbul
+usul: 9/8
+usul-adi: Raksaksağı
+kalip: 2+2+2+3
+tempo: 114
+dizi: Hicaz
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+kaynak: SymbTr 2.4.3, hicaz--turku--raksaksagi--entarisi_ala--istanbul
+---
+[Aranağme]
+1 | Re5:8 Mi5:8 Fa5:8 Mi5:8 Re5:8 Do5#:4 Do5#:4
+2 | La4:8 Si4b:8 Re5:8 Do5#:8 Si4b:8 La4:4 Mi5:4
+3 | Re5:8 Mi5:8 Fa5:8 Mi5:8 Re5:8 Do5#:4 Do5#:4
+4 | La4:8 Si4b:8 Re5:8 Do5#:8 Si4b:8 La4:4 Es:4
+[Aranağme]
+5 | Re5:8 Mi5:8 Fa5:8 Mi5:8 Re5:8 Do5#:4 Do5#:4
+6 | La4:8 Si4b:8 Re5:8 Do5#:8 Si4b:8 La4:4 Mi5:4
+7 | Re5:8 Mi5:8 Fa5:8 Mi5:8 Re5:8 Do5#:4 Do5#:4
+8 | La4:8 Si4b:8 Re5:8 Do5#:8 Si4b:8 La4:4 Es:4
+[Söz]
+9 | La4:4=En-* Re5:4=ta-* Do5#:8=ri-* Re5:4=si* Es:4
+10 | Do5#:8=a-* Re5:8=la* Mi5:4=ben-* Fa5:8=zi-* Mi5:8=yor/* Re5:8 Do5#:8 Si4b:8
+11 | La4:4=En-* Re5:4=ta-* Do5#:8=ri-* Re5:4=si* Es:4
+12 | Do5#:8=a-* Re5:8=la* Mi5:4=ben-* Fa5:8=zi-* Mi5:8=yor/* Re5:8 Do5#:8 Si4b:8
+13 | Mi5:8=Şef-* Re5:8 Do5#:4=ta-* La4:8=li-* Si4b:4.=si* La4:8
+14 | Mi5:8=ba-* Re5:8=la* Do5#:8.=ben-* Si4b:16 Si4b:16=zi-* La4:16 La4:4=yor/* Es:4
+15 | Mi5:8=Şef-* Re5:8 Do5#:4=ta-* La4:8=li-* Si4b:4.=si* La4:8
+16 | Mi5:8=ba-* Re5:8=la* Do5#:8.=ben-* Si4b:16 Si4b:16=zi-* La4:16 La4:4=yor/* Es:4
+17 | La4:4=Be-* Re5:4=nim* Do5#:8=yâ-* Re5:4=rim* Es:4
+18 | Do5#:8=sa-* Re5:8=na* Mi5:4=ben-* Fa5:8=zi-* Mi5:8=yor/* Re5:8 Do5#:8 Si4b:8
+19 | La4:4=Be-* Re5:4=nim* Do5#:8=yâ-* Re5:4=rim* Es:4
+20 | Do5#:8=sa-* Re5:8=na* Mi5:4=ben-* Fa5:8=zi-* Mi5:8=yor/* Re5:8 Do5#:8 Si4b:8
+21 | Mi5:8=O-* Re5:8=la-* Do5#:4=maz* La4:8=ne* Si4b:4=ça-* Si4b:8=re* La4:8
+22 | Mi5:8=o* Re5:8=ni-* Do5#:8.=şan-* Si4b:16 Si4b:16=lı-* La4:16 La4:4=dır/* Es:4
+23 | Mi5:8=Kay-* Re5:8 Do5#:4=tan* Si4b:8=bı-* Si4b:4=yık-* Si4b:8=lı* La4:8
+24 | Mi5:8=de-* Re5:8=li-* Do5#:8.=kan-* Si4b:16 Si4b:16=lı-* La4:16 La4:4=dır/* Es:4
+25 | Re5:8=Şe-* Mi5:8=ker-* Fa5:8=li* Mi5:8=mi-* Re5:8=sin* Do5#:4=vay* Do5#:4=vay/*
+26 | La4:8=Kay-* Si4b:8=mak-* Re5:8=lı* Do5#:8=mı-* Si4b:8=sın* La4:4=vay* Mi5:4=vay/*
+27 | Re5:8=Şe-* Mi5:8=ker-* Fa5:8=li* Mi5:8=mi-* Re5:8=sin* Do5#:4=vay* Do5#:4=vay/*
+28 | La4:8=Kay-* Si4b:8=mak-* Re5:8=lı* Do5#:8=mı-* Si4b:8=sın* La4:4=vay/* Es:4
+29 | Re5:8=Şe-* Mi5:8=ker-* Fa5:8=li* Mi5:8=mi-* Re5:8=sin* Do5#:4=vay* Do5#:4=vay/*
+30 | La4:8=Kay-* Si4b:8=mak-* Re5:8=lı* Do5#:8=mı-* Si4b:8=sın* La4:4=vay* Mi5:4=vay/*
+31 | Re5:8=Şe-* Mi5:8=ker-* Fa5:8=li* Mi5:8=mi-* Re5:8=sin* Do5#:4=vay* Do5#:4=vay/*
+32 | La4:8=Kay-* Si4b:8=mak-* Re5:8=lı* Do5#:8=mı-* Si4b:8=sın* La4:4=vay/* Es:4

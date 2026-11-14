@@ -1,0 +1,43 @@
+ad: Ankara'nın Taşına Bak
+yore: Ankara
+usul: 2/4
+usul-adi: Nimsofyan
+tempo: 57
+dizi: Neva
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+kaynak: SymbTr 2.4.3, neva--turku--nimsofyan--ankaranin_tasina--ankara
+---
+[Aranağme]
+1 | Re5:8 Do5:16 Re5:16 Mi5:8. Re5:16
+2 | Do5:16. Si4b2:32 Do5:16 Mi5:16 Re5:8. Do5:16
+3 | Si4b2:16. La4:32 Si4b2:16 Re5:16 Do5:8. Si4b2:16
+4 | La4:8 La4:16 Do5:16 Si4b2:8. La4:16
+5 | La4:8 Re5:16 Re5:16 La4:8 Es:8
+[Aranağme]
+6 | Re5:8 Do5:16 Re5:16 Mi5:8. Re5:16
+7 | Do5:16. Si4b2:32 Do5:16 Mi5:16 Re5:8. Do5:16
+8 | Si4b2:16. La4:32 Si4b2:16 Re5:16 Do5:8. Si4b2:16
+9 | La4:8 La4:16 Do5:16 Si4b2:8. La4:16
+10 | La4:8 Re5:16 Re5:16 La4:8 Es:8
+[Söz]
+11 | Re5:8=An-* Mi5:16=ka-* Fa5#3:16=ra-* Sol5:8.=nın* Fa5#3:16
+12 | Mi5:8=ta-* Mi5:16=şı-* Sol5:16=na* Fa5#3:8.=bak/* Mi5:16
+13 | Re5:8=Göz-* Mi5:16=le-* Mi5:16=ri-* Mi5:8.=min* Re5:16
+14 | Re5:8=ya-* Sol5:16=şı-* Sol5:16=na* Re5:8=bak/* Es:8
+15 | Re5:8=An-* Mi5:16=ka-* Fa5#3:16=ra-* Sol5:8.=nın* Fa5#3:16
+16 | Mi5:8=ta-* Mi5:16=şı-* Sol5:16=na* Fa5#3:8.=bak/* Mi5:16
+17 | Re5:8=Göz-* Mi5:16=le-* Mi5:16=ri-* Mi5:8.=min* Re5:16
+18 | Re5:8=ya-* Sol5:16=şı-* Sol5:16=na* Re5:8=bak/* Es:8
+19 | Re5:8=Biz* Do5:16=düş-* Re5:16=ma-* Mi5:8.=nı* Re5:16
+20 | Do5:16.=e-* Si4b2:32 Do5:16=sir* Mi5:16=al-* Re5:8.=dık/* Do5:16
+21 | Si4b2:16.=Şu* La4:32 Si4b2:16=fe-* Re5:16=le-* Do5:8.=ğin* Si4b2:16
+22 | La4:8=i-* La4:16=şi-* Do5:16=ne* Si4b2:8.=bak* La4:16
+23 | La4:8=i-* Re5:16=şi-* Re5:16=ne* La4:8=bak/* Es:8
+24 | Re5:8=Biz* Do5:16=düş-* Re5:16=ma-* Mi5:8.=nı* Re5:16
+25 | Do5:16.=e-* Si4b2:32 Do5:16=sir* Mi5:16=al-* Re5:8.=dık/* Do5:16
+26 | Si4b2:16.=Şu* La4:32 Si4b2:16=fe-* Re5:16=le-* Do5:8.=ğin* Si4b2:16
+27 | La4:8=i-* La4:16=şi-* Do5:16=ne* Si4b2:8.=bak* La4:16
+28 | La4:8=i-* Re5:16=şi-* Re5:16=ne* La4:8=bak/* Es:8
