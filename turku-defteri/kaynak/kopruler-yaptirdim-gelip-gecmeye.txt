@@ -1,0 +1,56 @@
+ad: Köprüler Yaptırdım Gelip Geçmeye
+yore: 
+usul: 2/4
+usul-adi: Nimsofyan
+tempo: 90
+dizi: Hüzzam
+karar: Si bemol 2
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, huzzam--turku--nimsofyan--kopruler_yaptirdim--
+---
+[Aranağme]
+1 | Si4b2:16 Do5:16 Re5:8 (Mi5b2)Re5:16 Do5:16 Do5:16 Si4b2:16
+2 | Si4b2:8. Sol4:16 Si4b2:16 Do5:16 Re5:8
+3 | Si4b2:16 Do5:16 Re5:8 (Mi5b2)Re5:16 Do5:16 Do5:16 Si4b2:16
+4 | Si4b2:2
+[Aranağme]
+5 | Si4b2:16 Do5:16 Re5:8 (Mi5b2)Re5:16 Do5:16 Do5:16 Si4b2:16
+6 | Si4b2:8. Sol4:16 Si4b2:16 Do5:16 Re5:8
+7 | Si4b2:16 Do5:16 Re5:8 (Mi5b2)Re5:16 Do5:16 Do5:16 Si4b2:16
+8 | Si4b2:2
+9 | Es:8 Mi5b2:16 Re5:16 Mi5b2:16 Re5:16 Mi5b2:16 Re5:16
+10 | Mi5b2:16 Re5:16 Mi5b2:16 Fa5#3:16 Mi5b2:16 Re5:16 Do5:8
+11 | Si4b2:16 Do5:16 Re5:8 (Mi5b2)Re5:16 Do5:16 Do5:16 Si4b2:16
+12 | Si4b2:8. Fa5#3:16 Mi5b2:16 Re5:16 Mi5b2:8
+13 | Es:8 Mi5b2:16 Re5:16 Mi5b2:16 Re5:16 Mi5b2:16 Re5:16
+14 | Mi5b2:16 Re5:16 Mi5b2:16 Fa5#3:16 Mi5b2:16 Re5:16 Do5:8
+15 | Si4b2:16 Do5:16 Re5:8 (Mi5b2)Re5:16 Do5:16 Do5:16 Si4b2:16
+16 | Si4b2:8 Do5:8 Do5#:8 Re5:8
+[Söz]
+17 | Re5:8=Hey* Re5:4.=hey*
+18 | Re5:2
+19 | Re5:2
+20 | Re5:2
+21 | Es:8 Si4b2:16=Köp-* Do5:16=rü-* Re5:8=ler* Re5:8=yap-*
+22 | Re5:8=tır-* Re5:8=dım* Re5:16=ge-* Re5:8.=lip*
+23 | Re5:8=geç-* Re5:8=me-* Mi5b2:16=ye/* Re5:16 Do5:8
+24 | Es:8 Mi5b2:16=Çeş-* Mi5b2:16=me-* Mi5b2:8=ler* Mi5b2:8=yap-*
+25 | Mi5b2:8=tır-* Mi5b2:16=dım* Re5:16 Mi5b2:16=su-* Re5:16=yun* Do5:8
+26 | Si4b2:16=iç-* Do5:16 Re5:16=me-* Do5:16 Re5:8 Do5:16=ye* Si4b2:16
+27 | Do5:16=ka-* Si4b2:7/16=ram/*
+28 | Si4b2:16=iç-* Do5:16 Re5:16=me-* Do5:16 Re5:8 Do5:16=ye* Si4b2:16
+29 | Si4b2:16=ka-* Si4b2:8=ram/* La4#:16 Si4b2:16 Do5:16 Re5:8
+30 | Es:8 Si4b2:16=Kavl* Do5:16=i* Re5:16=ka-* Re5:8.=rar*
+31 | Re5:8=et-* Re5:8=tim* Re5:16=a-* Re5:8.=lıp*
+32 | Re5:8=kaç-* Re5:8=ma-* Mi5b2:16=ya/* Re5:16 Do5:8
+33 | Es:8 Mi5b2:16=Bo-* Mi5b2:16=şa* Mi5b2:8=kos-* Mi5b2:8=tak-*
+34 | Mi5b2:8=lan-* Mi5b2:16=ma* Re5:16 Mi5b2:16=kos-* Re5:16 Do5:8=tak*
+35 | Si4b2:16=de-* Do5:16 Re5:16=ğil-* Do5:16 Re5:8 Do5:16=sin* Si4b2:16
+36 | Do5:16=ka-* Si4b2:7/16=ram/*
+37 | Si4b2:16=De-* Do5:16 Re5:16=ğil-* Do5:16 Re5:8 Do5:16=sin* Si4b2:16
+38 | Fa5:16=ka-* Fa5:16=ram* Fa5:16=a-* Mi5:16=man* Mi5:8=am-* Mi5:16=man* Re5:16
+39 | Re5:16=de-* Re5:8=ğil-* Do5:16 Re5:16 Do5:16 Do5:16=sin* Si4b2:16
+40 | Si4b2:8=vay* Si4b2:4.=vay/*

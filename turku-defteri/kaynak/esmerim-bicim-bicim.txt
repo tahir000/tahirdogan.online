@@ -1,0 +1,24 @@
+ad: Esmerim Biçim Biçim
+yore: Diyarbakır
+usul: 4/4
+usul-adi: Sofyan
+tempo: 72
+dizi: Hicaz
+karar: La
+duzen: bozuk
+zorluk: zor
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, hicaz--turku--sofyan--esmerim_bicim--diyarbakir
+---
+[Söz]
+1 | Sol5:8=Es-* La5:8=me-* La5:8=rim* La5:16=bi-* Fa5#:16 Sol5:32=çim* La5:32 Sol5:32 La5:32 Sol5:16=bi-* Fa5#:16 Fa5#:4=çim/*
+2 | Fa5#:16=Ö-* Sol5:16=lü-* La5:8 La5:8=rem* La5:8=es-* Sol5:32=mer* La5:32 Sol5:32 La5:32 Sol5:16=i-* Fa5#:16 Fa5#:4=çin/*
+3 | Sol5:8=Es-* La5:8=me-* La5:8=rim* La5:16=bi-* Fa5#:16 Sol5:32=çim* La5:32 Sol5:32 La5:32 Sol5:16=bi-* Fa5#:16 Fa5#:4=çim/*
+4 | Fa5#:16=Ö-* Sol5:16=lü-* La5:8 La5:8=rem* La5:8=es-* Sol5:32=mer* La5:32 Sol5:32 La5:32 Sol5:16=i-* Fa5#:16 Fa5#:4=çin/*
+5 | Fa5#:16=Â-* Sol5:16 La5:8=lem* La5:16=ba-* Mi5:16=na* Mi5:8 (Mi5)Sol5:8=düş-* Sol5:16=man-* Fa5:16 Fa5:16=dır/* Mi5:16 Mi5:16 Re5:16
+6 | Sol5:16=Es-* Fa5:16 Fa5:16=mer* Mi5:16 Mi5:16=sev-* Re5:16 Re5:16=di-* Do5#:16 Do5#:16=ğim* Si4b:16 Si4b:16=i-* La4:16 La4:8=çin* Mi5:16=ay* Mi5:16=ay/*
+7 | Es:8 Do5#:16=He-* Re5:16=le* Mi5:8=loy* Mi5:8 Mi5:16.=loy* Sol5:32 Fa5:16 Mi5:16 Re5:16=loy/* Do5#:16 Re5:8
+8 | Sol5:16=Ki-* Fa5:16=bar* Fa5:16 Mi5:16 Mi5:16=yâ-* Re5:16 Re5:16=rim* Do5#:16 Do5#:16=es-* Si4b:16 Si4b:16=me-* La4:16 La4:8=rim* Mi5:16=ay* Mi5:16=ay/*
+9 | Es:8 Do5#:16=He-* Re5:16=le* Mi5:8=loy* Mi5:8 Mi5:16.=loy* Sol5:32 Fa5:16 Mi5:16 Re5:16=loy/* Do5#:16 Re5:8
+10 | Sol5:16=Ki-* Fa5:16=bar* Fa5:16 Mi5:16 Mi5:16=yâ-* Re5:16 Re5:16=rim* Do5#:16 Do5#:16=es-* Si4b:16 Si4b:16=me-* La4:16 La4:4=rim/*

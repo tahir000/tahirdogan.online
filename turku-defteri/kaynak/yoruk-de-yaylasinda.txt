@@ -1,0 +1,39 @@
+ad: Yörük de Yaylasında
+yore: 
+usul: 9/8
+usul-adi: Oynak
+kalip: 2+3+2+2
+tempo: 84
+dizi: Nikriz
+karar: Sol
+duzen: bozuk
+zorluk: zor
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, nikriz--turku--oynak--yoruk_de--
+---
+[Aranağme]
+1 | Re5:8 Re5:8 Re5:8 Do5#:4 Si4b:16 La4:16 Sol4:16 Fa4#3:16 Sol4:4
+2 | La4:16 Si4b2:16 Do5:16 Si4b2:16 Do5:16 Si4b2:16 Re5:8 (Mi5)Re5:16 Do5#:16 Si4b:16 La4:16 Sol4:16 Fa4#3:16 Sol4:4
+[Aranağme]
+3 | Re5:8 Re5:8 Re5:8 Do5#:4 Si4b:16 La4:16 Sol4:16 Fa4#3:16 Sol4:4
+4 | La4:16 Si4b2:16 Do5:16 Si4b2:16 Do5:16 Si4b2:16 Re5:8 (Mi5)Re5:16 Do5#:16 Si4b:16 La4:16 Sol4:16 Fa4#3:16 Sol4:4
+[Söz]
+5 | Sol5:8=Yö-* Sol5:8=rük* Sol5:8=de* Fa5#3:8.=yay-* Mi5:16 La5:8 La5:16=la-* Sol5:16 Fa5#3:8.=sın-* Mi5:16
+6 | Re5:4=da* Mi5:8=a-* Re5:8=man* Es:8 Sol5:8.=yay-* Sol5:16=la-* Sol5:4=ya-*
+7 | (La5)Sol5:8=ma-* Fa5#3:8 Mi5:8 Re5:8.=dım* Do5#:16 Si4b:8=i-* Si4b:16=ma-* La4:16 Sol4:4=nım/*
+8 | Re5:4=Dî-* Mi5:8=vâ-* (Sol5)Fa5:8.=ne* Mi5:16 Re5:8=gön-* Do5#:8 Si4b:8.=lü-* La4:16
+9 | Sol4:4=mü* Es:8 Es:8 Do5:4=ey-* Do5:16=le-* Si4b2:16 Si4b:8.=ye-* La4:16
+10 | Re5:16 Do5#:16 Si4b:16 La4:16 Sol4:16=me-* Fa4#3:16 Sol4:2=dim/* Es:4
+11 | Re5:4=Dî-* Mi5:8=vâ-* (Sol5)Fa5:8.=ne* Mi5:16 Re5:8=gön-* Do5#:8 Si4b:8.=lü-* La4:16
+12 | Sol4:4=mü* Es:8 Es:8 Do5:4=ey-* Do5:16=le-* Si4b2:16 Si4b:8.=ye-* La4:16
+13 | Re5:16 Do5#:16 Si4b:16 La4:16 Sol4:16=me-* Fa4#3:16 Sol4:2=dim/* Es:4
+14 | Sol5:4=Di-* Sol5:8=ye-* Fa5#3:8.=cek* Mi5:16 La5:8 La5:16=sö-* Sol5:16 Fa5#3:8.=zü-* Mi5:16
+15 | Re5:4=mü* Mi5:8=a-* Re5:8=man* Es:8 Sol5:8.=söy-* Sol5:16=le-* Sol5:4=ye-*
+16 | (La5)Sol5:8=me-* Fa5#3:8 Mi5:8 Re5:8.=dim* Do5#:16 Si4b:8=i-* Si4b:16=ma-* La4:16 Sol4:4=nım/*
+17 | Re5:4=Yay-* Mi5:8=la-* (Sol5)Fa5:8.=mam* Mi5:16 Re5:8=yay-* Do5#:8 Si4b:8.=la-* La4:16
+18 | Sol4:4=da* Es:8 Es:8 Do5:4=kar* Do5:16=ol-* Si4b2:16 Si4b2:8.=ma-* La4:16
+19 | Re5:16=yın-* Do5#:16 Si4b:16 La4:16 Sol4:16=ca* Fa4#3:16 Sol4:2=vay/* Es:4
+20 | Re5:4=Ey-* Mi5:8=le-* (Sol5)Fa5:8.=mem* Mi5:16 Re5:8=gön-* Do5#:8 Si4b:8.=lü-* La4:16
+21 | Sol4:4=mü* Es:8 Es:8 Do5:4=yâr* Do5:16=ol-* Si4b2:16 Si4b2:8.=ma-* La4:16
+22 | Re5:16 Do5:16 Si4b:16 La4:16 Sol4:16=yın-* Fa4#3:16 Sol4:2=ca/* Es:4

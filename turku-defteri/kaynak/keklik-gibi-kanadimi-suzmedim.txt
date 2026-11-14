@@ -1,0 +1,39 @@
+ad: Keklik Gibi Kanadımı Süzmedim
+yore: Erzincan
+usul: 4/4
+usul-adi: Sofyan
+tempo: 90
+dizi: Muhayyer
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, muhayyer--turku--sofyan--keklik_gibi--erzincan
+---
+[Aranağme]
+1 | Es:4 Fa5#3:8 Sol5:8 La5:4 La5:4
+2 | Sol5:8 Fa5#3:16 Sol5:16 Mi5:8 Re5:8 Re5:8 Do5:16 Re5:16 Do5:8 Si4b2:8
+3 | Do5:8 Si4b2:16 Do5:16 Si4b2:8 La4:8 La4:4 Re5:16 Mi5:16 Fa5#3:16 Sol5:16
+4 | La5:4 Fa5#3:8 Sol5:8 La5:4 La5:4
+5 | Sol5:8 Fa5#3:16 Sol5:16 Mi5:8 Re5:8 Re5:8 Do5:16 Re5:16 Do5:8 Si4b2:8
+6 | Do5:8 Si4b2:16 Do5:16 Si4b2:8 La4:8 La4:4 Re5:16 Mi5:16 Fa5#3:16 Sol5:16
+[Söz]
+7 | La5:4 Fa5#3:8=Kek-* Sol5:8=lik* La5:8=gi-* La5:4.=bi*
+8 | La5:8=ka-* La5:4.=na-* La5:8=dı-* La5:4.=mı*
+9 | La5:8=süz-* Do6:8 Si5b2:8=me-* La5:8 La5:8=dim/* Sol5:16 Fa5#3:16 Sol5:16 Fa5#3:16 Sol5:8
+10 | Es:4 Sol5:8=Mu-* Fa5#3:16=rad* Sol5:16 La5:8=a-* La5:4.=lıp*
+11 | La5:8=do-* La5:8=ya* La5:16 Si5b2:16 Sol5:8 Sol5:8=do-* Sol5:16=ya* Fa5#3:16 Sol5:16 La5:16 Fa5#3:8
+12 | Fa5#3:8.=gez-* Mi5:16 Fa5#3:16=me-* Sol5:16 Mi5:8 Mi5:4=dim/* Mi5:16 Fa5#3:16 Re5:8
+13 | Es:4 Fa5#3:8=Bu* Sol5:8=ka-* La5:8=ra* La5:4.=ya-*
+14 | La5:8=zı-* (Do6)Si5b2:16=yı* La5:16 La5:4 La5:8=ken-* Sol5:16=dim* Fa5#3:16 Sol5:8 Sol5:8
+15 | Sol5:8=yaz-* Mi5:4=ma-* Re5:8 Re5:8=dım/* Do5:16 Re5:16 Mi5:8. Re5:16
+16 | Es:4 Do5:8=Al-* Re5:8=nı-* Mi5:8=ma* Mi5:4=ya-* Re5:8
+17 | (Re5)Sol5:8=zıl-* Sol5:16=mış* Mi5:16 Mi5:8. Re5:16 Re5:8=bu* Mi5:16=ka-* Re5:16 Re5:8. Do5:16
+18 | Re5:8=ra* Re5:8=ya-* Si4b2:16 Do5:8. Do5:8=zı/* Si4b2:16 Do5:16 Re5:4
+19 | Es:4 Si4b2:16=Ka-* Do5:16 Si4b2:16=der* Do5:16 Re5:8=böy-* Re5:4=le* Si4b2:8
+20 | Re5:8=i-* Do5:4=miş* Si4b2:8 Do5:8=ağ-* Si4b2:16=la-* Do5:16 Si4b2:8. La4:16
+21 | La4:8=rım* Do5:8=ba-* Si4b2:8 Si4b2:32 Do5:32 La4:16 La4:4=zı/* La4:8. Si4b2:32 La4:32
+22 | Es:4 Do5:16=Gö-* Si4b2:16 Do5:8=nül* Do5:4=ey* Do5:16 Re5:16 Si4b2:8
+23 | Si4b2:4=ey* Si4b2:8 Do5:16 La4:16 La4:2=ey*
+24 | La4:16=se-* Do5:16 Si4b2:8=bep* Si4b2:8. La4:16 La4:2=ey/*

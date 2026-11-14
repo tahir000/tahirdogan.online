@@ -1,0 +1,42 @@
+ad: Fındıklı Bizim Yolumuz
+yore: 
+usul: 9/8
+usul-adi: Aksak
+kalip: 2+2+2+3
+tempo: 108
+dizi: Uşşak
+karar: La
+duzen: bozuk
+zorluk: zor
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, ussak--turku--aksak--findikli_bizim--
+---
+[Söz]
+1 | Sol4:4=Fın-* La4:8=dık-* Si4b2:8 Do5:8=lı* Re5:8 Do5:4 Si4b2:8
+2 | Re5:8=bi-* Re5:4=zim* Re5:8=de* Re5:8=yo-* Re5:8 Do5:4=lu-* Si4b2:8=muz*
+3 | Do5:8.=e-* Do5:16=şim* Do5:8=a-* Si4b2:8=man* Si4b2:8=am-* La4:8 La4:4=man/* Es:8
+4 | Sol4:4=Fın-* La4:8=dık-* Si4b2:8 Do5:8=lı* Re5:8 Do5:4 Si4b2:8
+5 | Re5:8=bi-* Re5:4=zim* Re5:8=de* Re5:8=yo-* Re5:8 Do5:4=lu-* Si4b2:8=muz*
+6 | Do5:8.=e-* Do5:16=şim* Do5:8=a-* Si4b2:8=man* Si4b2:8=am-* La4:8 La4:4=man/* Es:8
+7 | Sol4:8=Ho-* Sol4:4=var-* Do5:8 Do5:8=da* Si4b2:16 La4:16 Si4b2:4 Es:8
+8 | Sol4:8=ho-* Sol4:4=var-* Do5:8 Do5:8=da* Si4b2:16 La4:16 Si4b2:4 Re5:8
+9 | Re5:8.=çık-* Do5:16 Do5:8=tı* Re5:8=da* Do5:8=so-* Si4b2:8 La4:4=yu-* Si4b2:8
+10 | Do5:4=muz/* (Re5)Do5:8 Re5:8 Do5:8 Re5:8 Mi5:4 Re5:8
+11 | Re5:8=Ho-* Do5:4=var-* Re5:8 Do5:12=da* Si4b2:12 La4:12 Si4b2:4.
+12 | Re5:8=ho-* Do5:4=var-* Re5:8 Do5:12=da* Si4b2:12 La4:12 Si4b2:4 Re5:8
+13 | Re5:8.=çık-* Do5:16 Do5:8=tı* Re5:8 Do5:8=so-* Si4b2:8 Si4b2:4=yu-* La4:8
+14 | La4:2=muz/* La4:16 Sol5:16 Fa5#3:16 Sol5:16 Mi5:4.
+15 | Sol5:4=Bu* (La5)Sol5:8=bi-* (La5)Fa5#3:8 Mi5:4=zim* (Fa5)Mi5:4 Re5:8
+16 | Re5:4=es-* Re5:8=ki* Re5:8=de* Do5:8=hu-* Re5:8 Do5:4=yu-* Si4b2:8=muz*
+17 | Do5:8.=be-* Do5:16=yim* Do5:8=a-* Si4b2:8=man* Si4b2:4=am-* La4:4=man/* Es:8
+18 | Sol4:4=Bu* La4:8=bi-* Si4b2:8 Do5:8=zim* Re5:8 Do5:4 Si4b2:8
+19 | Re5:4=es-* Re5:8=ki* Re5:8=de* Re5:8=hu-* Re5:8=yu-* Do5:4=muz* Si4b2:8
+20 | Do5:8.=be-* Do5:16=yim* Do5:8=a-* Si4b2:8=man* Si4b2:4=am-* La4:4=man/* Es:8
+21 | Sol4:4=Sen* Sol4:8=han-* Do5:8 Si4b2:8=cı* (Do5)Si4b2:16 La4:16 Si4b2:4.
+22 | Sol4:4=ben* Sol4:8=yol-* Do5:8 Si4b2:8=cu* (Do5)Si4b2:16 La4:16 Si4b2:4 Re5:8
+23 | Re5:8.=çat-* Do5:16 Do5:8=ma* Re5:8=da* Do5:8=kaş-* Si4b2:8 La4:4=la-* Si4b2:8
+24 | Do5:8.=rın/* Re5:16 Do5:8 Re5:8 Do5:8 Re5:8 Mi5:4 Re5:8
+25 | Re5:8.=Sar* Do5:16 Do5:8=do-* Re5:8=la* Do5:8=boy-* Si4b2:16 La4:16 Si4b2:4 La4:8
+26 | Re5:8.=nu-* Do5:16 (Re5)Do5:8 Re5:8=ma* Do5:8=kol-* Si4b2:8 Si4b2:4=la-* La4:8
+27 | (Si4b2)La4:5/8=rın/* Es:2

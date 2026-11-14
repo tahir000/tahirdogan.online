@@ -1,0 +1,48 @@
+ad: İstanbul'dan Üsküdar'a Yol Gider
+yore: 
+usul: 9/8
+usul-adi: Raksaksağı
+kalip: 2+2+2+3
+tempo: 108
+dizi: Muhayyer
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, muhayyer--turku--raksaksagi--istanbuldan_uskudara--
+---
+[Aranağme]
+1 | Sol5:4 La5:4. Sol5:8 Fa5#3:8 Mi5:8 Re5:8
+2 | Mi5:8 Fa5#3:8 Sol5:8 Mi5:8 Re5:8 Re5:16 Do5:16 Re5:16 Mi5:16 Do5:8 Si4b2:8
+3 | La4:8 Si4b2:8 Do5:8 (Re5)Do5:8 Si4b2:8 La4:4. Sol4:8
+4 | La4:8 Si4b2:8 Do5:8 Re5:8 Mi5:8 Fa5:16 Mi5:16 Fa5:16 Sol5:16 Mi5:8 Re5:8
+5 | Do5:8 Si4b2:8 Re5:8 Si4b2:8 La4:8 La4:2
+[Aranağme]
+6 | Sol5:4 La5:4. Sol5:8 Fa5#3:8 Mi5:8 Re5:8
+7 | Mi5:8 Fa5#3:8 Sol5:8 Mi5:8 Re5:8 Re5:16 Do5:16 Re5:16 Mi5:16 Do5:8 Si4b2:8
+8 | La4:8 Si4b2:8 Do5:8 (Re5)Do5:8 Si4b2:8 La4:4. Sol4:8
+9 | La4:8 Si4b2:8 Do5:8 Re5:8 Mi5:8 Fa5:16 Mi5:16 Fa5:16 Sol5:16 Mi5:8 Re5:8
+10 | Do5:8 Si4b2:8 Re5:8 Si4b2:8 La4:8 La4:2
+[Söz]
+11 | Sol5:4=İs-* La5:4.=tan-* Sol5:8=bul-* Fa5#3:8 Mi5:8=dan* Re5:8
+12 | Mi5:8=Üs-* Fa5#3:8 Sol5:8=kü-* Mi5:8 Re5:8 Re5:8=da-* Mi5:8 Do5:8=ra* Si4b2:8
+13 | La4:8=yol* Si4b2:8 Do5:8=gi-* (Re5)Do5:8 Si4b2:8 La4:4.=der/* Sol4:8
+14 | La4:8=yol* Si4b2:8 Do5:8=gi-* Re5:8 Mi5:8 Fa5:4=der* Mi5:8=Ça-* Re5:8=vuş*
+15 | Do5:8=yol* Si4b2:8 Re5:8=gi-* Si4b2:8 La4:8 La4:2=der/*
+16 | Sol5:4=Ha-* La5:4.=nım-* Sol5:8=la-* Fa5#3:8 Mi5:8=ra* Re5:8
+17 | Mi5:8=des-* Fa5#3:8 Sol5:8=te* Mi5:8 Re5:8 Re5:4=des-* Do5:8=te* Si4b2:8
+18 | La4:8=gül* Si4b2:8 Do5:8=gi-* (Re5)Do5:8 Si4b2:8 La4:4.=der/* Sol4:8
+19 | La4:8=gül* Si4b2:8 Do5:8=gi-* Re5:8 Mi5:8 Fa5:4=der* Mi5:8=Ça-* Re5:8=vuş*
+20 | Do5:8=gül* Si4b2:8 Re5:8=gi-* Si4b2:8 La4:8 La4:2=der/*
+21 | Sol5:4=Yan-* La5:4.=dım* Sol5:8=Ça-* Fa5#3:8 Mi5:8=vuş* Re5:8
+22 | Mi5:8=yan-* Fa5#3:8 Sol5:8=dım* Mi5:8 Re5:8 Re5:4=ben* Do5:8=se-* Si4b2:8=nin*
+23 | La4:8=e-* Si4b2:8 Do5:8=lin-* (Re5)Do5:8 Si4b2:8 La4:4.=den/* Sol4:8
+24 | La4:8=e-* Si4b2:8 Do5:8=lin-* Re5:8 Mi5:8 Fa5:4=den* Mi5:8=Ça-* Re5:8=vuş*
+25 | Do5:8=e-* Si4b2:8 Re5:8=lin-* Si4b2:8 La4:8 La4:2=den/*
+26 | Sol5:4=Çok* La5:4.=sa-* Sol5:8=lın-* Fa5#3:8 Mi5:8=ma* Re5:8
+27 | Mi5:8=ka-* Fa5#3:8=sa-* Sol5:8=tu-* Mi5:8=ra* Re5:8=da* Re5:8=fır-* Mi5:8 Do5:8=lar* Si4b2:8
+28 | La4:8=be-* Si4b2:8 Do5:8=lin-* (Re5)Do5:8 Si4b2:8 La4:4.=den/* Sol4:8
+29 | La4:8=be-* Si4b2:8 Do5:8=lin-* Re5:8 Mi5:8 Fa5:4=den* Mi5:8=Ça-* Re5:8=vuş*
+30 | Do5:8=be- Si4b2:8 Re5:8=lin- Si4b2:8 La4:8 La4:8.=den/ Re5:16 Mi5:16 Fa5:16 Sol5:16 La5:16
+30 @2 | Do5:8=be- Si4b2:8 Re5:8=lin- Si4b2:8 La4:8 La4:2=den/

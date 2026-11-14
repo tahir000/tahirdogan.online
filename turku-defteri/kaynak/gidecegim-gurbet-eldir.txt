@@ -1,0 +1,38 @@
+ad: Gideceğim Gurbet Eldir
+yore: 
+usul: 2/4
+usul-adi: Nimsofyan
+tempo: 90
+dizi: Muhayyer
+karar: La
+duzen: bozuk
+zorluk: zor
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, muhayyer--turku--nimsofyan--gidecegim_gurbet--
+---
+[Söz]
+1 | Es:8 Fa5#3:16=Gi- Sol5:16=de- La5:8=ce- La5:8=ğim
+2 | La5:16=gur- Sol5:16 Si5b2:16=bet La5:16 La5:16=el- Sol5:16 La5:8=dir/
+3 | La5:16=Gi- Sol5:16 Si5b2:16=de- La5:16 La5:8=ce- La5:8=ğim
+4 | La5:16=gur- Sol5:16 Si5b2:16=bet La5:16 La5:16=el- Sol5:16 La5:8=dir/
+5 | Es:8 Fa5#3:16=Ya Sol5:16=ge- Sol5:16=li- Sol5:8.=nir
+6 | Sol5:16=ya Fa5#3:16 La5:16=ge- Sol5:16 Sol5:16=lin- Fa5#3:16 Fa5#3:8=mez/
+7 | Fa5#3:16=Her Mi5:16 Sol5:16=gü- Fa5#3:16 Fa5#3:16=ze- Mi5:16 Mi5:8=le
+8 | Mi5:16=me- Re5:16 Fa5:16=yil Mi5:16 Mi5:16=ver- Re5:16 Re5:8=me/
+9 | Re5:16=Ya Do5:16 Mi5:16=se- Re5:16 Re5:16=vi- Do5:16 Do5:8=lir
+10 | Do5:16=ya Si4b2:16 Re5:16=se- Do5:16 Do5:16=vil- Si4b2:8.=mez/
+11 | Si4b2:16=Gel La4:16 Do5:16=ey Si4b2:16 Si4b2:16=gel La4:8.=ey
+12 | La4:2=vay/
+13 | Es:8 Do5:16=Her Re5:16=gü- Re5:8=ze- Re5:8=le
+14 | Re5:16=me- Do5:16 Mi5:16=yil Re5:16 Re5:16=ver- Do5:16 Re5:8=me/
+15 | Re5:16=Her Do5:16 Mi5:16=gü- Re5:16 Re5:16=ze- Do5:16 Re5:8=le
+16 | Re5:16=me- Do5:16 Mi5:16=yil Re5:16 Re5:16=ver- Do5:16 Re5:8=me/
+17 | Es:8 Fa5#3:16=Ya Sol5:16=se- Sol5:16=vi- Sol5:8.=lir
+18 | Sol5:16=ya Fa5#3:16 La5:16=se- Sol5:16 Sol5:16=vil- Fa5#3:16 Fa5#3:8=mez/
+19 | Fa5#3:16=Gel Mi5:16 Sol5:16=gül- Fa5#3:16 Fa5#3:16=lüm Mi5:16 Mi5:8=gel
+20 | Mi5:16=gel Re5:16 Fa5:16=tel- Mi5:16 Mi5:16=lim Re5:16 Re5:8=gel/
+21 | Re5:16=Gel Do5:16 Mi5:16=naz- Re5:16 Re5:16=lım Do5:16 Do5:8=gel
+22 | Do5:16=gel Si4b2:16 Re5:16=ey Do5:16 Do5:16=gel Si4b2:8.=ey/
+23 | Si4b2:16=Gel La4:16 Do5:16=ey Si4b2:16 Si4b2:16=gel La4:8.=ey
+24 | La4:2=vay/

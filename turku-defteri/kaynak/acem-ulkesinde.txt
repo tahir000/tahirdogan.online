@@ -1,0 +1,28 @@
+ad: Acem Ülkesinde
+yore: Erzurum
+usul: 4/4
+usul-adi: Sofyan
+tempo: 51
+dizi: Segah
+karar: Si bemol 2
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, segah--turku--sofyan--acem_ulkesinde--erzurum
+---
+[Aranağme]
+1 | Re5:8 Re5:8 Re5:8 Re5:8 Mi5b2:16 Re5:8 Si4b2:16 Do5:8 Si4b2:8
+[Aranağme]
+2 | Re5:8 Re5:8 Re5:8 Re5:8 Mi5b2:16 Re5:8 Si4b2:16 Do5:8 Si4b2:8
+3 | Es:8 Do5:16 Re5:16 Mi5b2:16 Fa5:32 Sol5:32 Fa5:32 Mi5b2:32 Re5:16 Do5:16 (Mi5b2)Re5:8 Si4b2:16 Do5:8 Si4b2:8
+4 | Re5:8 Re5:8 Re5:4 Mi5b2:16 Re5:8 Si4b2:16 Do5:8 Si4b2:8
+5 | Es:8 Do5:16 Re5:16 Mi5b2:16 Fa5:32 Sol5:32 Fa5:32 Mi5b2:32 Re5:16 Do5:16 (Mi5b2)Re5:8 Si4b2:16 Do5:8 Si4b2:8
+[Söz]
+6 | Es:8 Do5:16=A-* Re5:16=cem* Mi5b2:8=ül-* Mi5b2:8=ke-* Mi5b2:4=sin-* (Fa5)Mi5b2:16=de* Re5:16 (Mi5b2)Re5:8
+7 | Re5:16=uy* Mi5b2:8=am-* Fa5:16=man* (Sol5)Mi5b2:16=am-* Re5:16 (Mi5b2)Re5:8=man* Re5:16=yâr* Mi5b2:8=am-* Fa5:16=man* (Sol5)Mi5b2:16=am-* Re5:16 (Mi5b2)Re5:8=man/*
+8 | (Do5)Re5:8=Ey-* Re5:8=leş-* (Re5)Sol5:16=tim* Fa5#:16 (Sol5)Mi5b2:16=gal-* Re5:16 Re5:8=dım* Re5:16=se-* Re5:16=ne* Do5:8=gur-* Si4b2:8=ban/*
+9 | Es:8 Re5:16=Gel* Do5:16 Re5:8.=gel* Si4b2:16 Do5:16=he-* Re5:16=le* Re5:16=he-* Si4b2:16=le* Do5:8=gel/* Si4b2:8
+10 | Es:8 Re5:16=Gel* Do5:16 Re5:8.=gel* Si4b2:16 Do5:16=he-* Re5:16=le* Re5:16=he-* Si4b2:16=le* Do5:8=gel/* Si4b2:8
+11 | Es:8 Do5:16=A-* Re5:16=man* Mi5b2:16=Al-* Fa5:16 (Sol5)Mi5b2:16=lah* Re5:16 Do5:16=ö-* Re5:16=lü-* Re5:16=rem* Si4b2:16 Do5:8=gel/* Si4b2:8
+12 | Es:8 Do5:16=A-* Re5:16=man* Mi5b2:16=Al-* Fa5:16 (Sol5)Mi5b2:16=lah* Re5:16 Do5:16=ya-* Re5:16=nı-* Re5:16=ram* Si4b2:16 Do5:8=gel/* Si4b2:8

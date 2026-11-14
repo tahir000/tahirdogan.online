@@ -1,0 +1,45 @@
+ad: Penceresi Yola Karşı
+yore: 
+usul: 9/8
+usul-adi: Çiftesofyan
+kalip: 2+2+2+3
+tempo: 120
+dizi: Nikriz
+karar: Sol
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, nikriz--turku--ciftesofyan--penceresi_yola--
+---
+[Aranağme]
+1 | Re5:4 (Mi5)Re5:8 Do5#:8 Si4b:8 La4:8 Si4b:8 La4:8 Sol4:8
+2 | La4:4 (Do5#)Si4b:8 La4:8 Sol4:4 Re5:4.
+3 | Re5:8. Mi5:16 Re5:8 Do5#:8 Si4b:8 La4:8 Si4b:8 (Do5#)La4:8 Sol4:8
+4 | La4:4 (Do5#)Si4b:8 La4:8 Sol4:8 Fa4#3:8 Sol4:4 Es:8
+[Aranağme]
+5 | Re5:4 (Mi5)Re5:8 Do5#:8 Si4b:8 La4:8 Si4b:8 La4:8 Sol4:8
+6 | La4:4 (Do5#)Si4b:8 La4:8 Sol4:4 Re5:4.
+7 | Re5:8. Mi5:16 Re5:8 Do5#:8 Si4b:8 La4:8 Si4b:8 (Do5#)La4:8 Sol4:8
+8 | La4:4 (Do5#)Si4b:8 La4:8 Sol4:8 Fa4#3:8 Sol4:4 Es:8
+[Söz]
+9 | Re5:4=Pen-* Re5:4=ce-* Mi5:4=re-* Re5:4.=si*
+10 | Sol5:4=yo-* Sol5:4=la* Sol5:8=kar-* Fa5:8 Mi5:4=şı/* Re5:8
+11 | Re5:4=Pen-* Re5:4=ce-* Mi5:4=re-* Re5:4.=si*
+12 | Sol5:8=yo-* Sol5:4=la* La5:8 Sol5:8=kar-* Fa5:8 Mi5:4=şı/* Re5:8
+13 | Re5:4=Ge-* (Mi5)Re5:8=len* Do5#:8 Si4b:8=ge-* La4:8 Si4b:8=çen* La4:8 Sol4:8
+14 | La4:4=a-* Si4b:8=tar* La4:8 Sol4:4=ta-* Re5:4.=şı/*
+15 | Re5:4=Ge-* (Mi5)Re5:8=len* Do5#:8 Si4b:8=ge-* La4:8 Si4b:8=çen* La4:8 Sol4:8
+16 | La4:8=a-* Si4b:4=tar* La4:8 Sol4:8=ta-* Fa4#3:8 Sol4:4=şı/* Es:8
+17 | Re5:4=Be-* Re5:4=nim* Mi5:4=yâ-* Re5:4.=rim*
+18 | Sol5:4=ka-* Sol5:4=lem* Sol5:8=kaş-* Fa5:8 Mi5:4=lı/* Re5:8
+19 | Re5:4=Be-* Re5:4=nim* Mi5:4=yâ-* Re5:4.=rim*
+20 | Sol5:8=ka-* Sol5:4=lem* La5:8 Sol5:8=kaş-* Fa5:8 Mi5:4=lı/* Re5:8
+21 | Re5:4=Var* (Mi5)Re5:8=a-* Do5#:8=ra* Si4b:8=e-* La4:8 Si4b:8=şi-* La4:8=ni* Sol4:8
+22 | La4:4=e-* (Do5#)Si4b:8=şi-* La4:8=ni* Sol4:4=vay* Re5:4.=vay/*
+23 | Re5:4=Say-* (Mi5)Re5:8=sa-* Do5#:8=na* Si4b:8=li-* La4:8=ra-* Si4b:8=la-* La4:8=rın* Sol4:8
+24 | La4:4=be-* (Do5#)Si4b:8=şi-* La4:8=ni* Sol4:8=vay* Fa4#3:8 Sol4:4.=vay/*
+25 | Re5:4=Var* (Mi5)Re5:8=a-* Do5#:8=ra* Si4b:8=e-* La4:8 Si4b:8=şi-* La4:8=ni* Sol4:8
+26 | La4:4=e-* (Do5#)Si4b:8=şi-* La4:8=ni* Sol4:4=vay* Re5:4.=vay/*
+27 | Re5:4=Say-* (Mi5)Re5:8=sa-* Do5#:8=na* Si4b:8=li-* La4:8=ra-* Si4b:8=la-* La4:8=rın* Sol4:8
+28 | La4:4=be-* (Do5#)Si4b:8=şi-* La4:8=ni* Sol4:8=vay* Fa4#3:8 Sol4:4.=vay/*

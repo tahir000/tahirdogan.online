@@ -1,0 +1,27 @@
+ad: Dere Geliyor Dere
+yore: 
+usul: 9/8
+usul-adi: Evfer
+kalip: 2+2+2+3
+tempo: 142
+dizi: Hüseyni
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, huseyni--turku--evfer--dere_geliyor--
+---
+[Söz]
+1 | Re5:8=De-* Mi5:8=re* Mi5:8=ge-* Mi5:8=li-* Mi5:4=yor* Re5:8=de-* Do5:4=re*
+2 | Mi5:8=ya* Re5:8=le* Re5:4=lel* Do5:8.=yâ* Re5:16 Si4b2:8=le* La4:4=le/*
+3 | La4:8=Ku-* Si4b2:8=mu-* Do5:8=nu* Re5:8=se-* Re5:4=re* Si4b2:8=se-* Do5:4=re*
+4 | Si4b2:8=ye* La4:8=le* La4:4=lel* La4:5/8=li/*
+5 | Re5:8=De-* Mi5:8=re* Mi5:8=ge-* Mi5:8=li-* Mi5:4=yor* Re5:8=de-* Do5:4=re*
+6 | Mi5:8=ya* Re5:8=le* Re5:4=lel* Do5:8.=yâ* Re5:16 Si4b2:8=le* La4:4=le/*
+7 | La4:8=Ku-* Si4b2:8=mu-* Do5:8=nu* Re5:8=se-* Re5:4=re* Si4b2:8=se-* Do5:4=re*
+8 | Si4b2:8=ye* La4:8=le* La4:4=lel* La4:5/8=li/*
+9 | Re5:8=A-* Mi5:8=ma-* Mi5:4=nın* Mi5:8=a-* Mi5:8=man* Re5:8=a-* Do5:4=man/*
+10 | Mi5:8=Za-* Re5:8=ma-* Re5:8.=nın* Si4b2:16 Do5:8=za-* Re5:8=man* Si4b2:8=za-* La4:4=man/*
+11 | La4:8=Bi-* Si4b2:8=zim* Do5:8=dü-* Re5:8=ğün* Re5:4=ne* Si4b2:8=za-* Do5:4=man*
+12 | Si4b2:8=ya* La4:8=le* La4:4=lel* La4:5/8=lim/*

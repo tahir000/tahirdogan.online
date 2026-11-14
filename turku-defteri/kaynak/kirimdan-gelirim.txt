@@ -1,0 +1,57 @@
+ad: Kırım'dan Gelirim
+yore: Rumeli
+usul: 12/8
+usul-adi: Dolap
+tempo: 69
+dizi: Gerdaniye
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, gerdaniye--rumeliturkusu--dolap--kirimdan_gelirim--rumeli
+---
+[Aranağme]
+1 | Re5:8 Fa5#3:16 Sol5:16 La5:8 La5:16 Do6:16 Si5b2:16 La5:16 Sol5:16 Fa5#3:16 Mi5:8. Re5:16 Mi5:16 Re5:16 Do5:16 Si4:16 Do5:8 Es:8
+{usul 7/8 Devr-i Hindi II}
+2 | Sol5:8 Sol5:8 Sol5:8 Sol5:32 Fa5#3:32 Sol5:32 La5:32 Sol5:16 Fa5#3:16 Mi5b2:16 Re5:16 Do5:16 Si4b2:16
+3 | Do5:8 Do5:8 Do5:16 Si4b2:16 Do5:16 Si4b2:16 Do5:16 Re5:16 Si4b2:8 Si4b2:16 La4:16
+4 | Re5:8 Re5:8 Re5:8 La4:4 Re5:8 Re5:8
+5 | La4:8 La4:8 La4:16 La4:16 La4:8 La4:16 La4:16 La4:8 Es:8
+{usul 12/8 Dolap}
+[Aranağme]
+6 | Re5:8 Fa5#3:16 Sol5:16 La5:8 La5:16 Do6:16 Si5b2:16 La5:16 Sol5:16 Fa5#3:16 Mi5:8. Re5:16 Mi5:16 Re5:16 Do5:16 Si4:16 Do5:8 Es:8
+{usul 7/8 Devr-i Hindi II}
+7 | Sol5:8 Sol5:8 Sol5:8 Sol5:32 Fa5#3:32 Sol5:32 La5:32 Sol5:16 Fa5#3:16 Mi5b2:16 Re5:16 Do5:16 Si4b2:16
+8 | Do5:8 Do5:8 Do5:16 Si4b2:16 Do5:16 Si4b2:16 Do5:16 Re5:16 Si4b2:8 Si4b2:16 La4:16
+9 | Re5:8 Re5:8 Re5:8 La4:4 Re5:8 Re5:8
+10 | La4:8 La4:8 La4:16 La4:16 La4:8 La4:16 La4:16 La4:8 Es:8
+{usul 12/8 Dolap}
+[Söz]
+11 | Re5:8=Kı- Mi5:16=rım- Fa5#3:16 Sol5:8=dan Sol5:8.=ge- Fa5#3:16 Sol5:16=li- Fa5#3:16 Sol5:8.=rim Fa5#3:16 Mi5:16=ge- Re5:16 Mi5:16=li- Fa5#3:16 Sol5:8=rim/ Es:8
+{usul 7/8 Devr-i Hindi II}
+12 | Re5:8=A- Sol5:8=dım Sol5:8=da Fa5#3:8.=Si- Mi5:16 La5:8 Sol5:16=dır Fa5#3:16
+13 | Mi5:16=hey Fa5#3:16 Sol5:8 Fa5:16 Mi5:16 Re5:8=hey Do5:16=a- Si4b2:16 La4:4=man/
+14 | Sol5:8=a- Sol5:8=dım Sol5:8=da Sol5:16=Si- Fa5:16 Fa5:16 Mi5:16 Mi5:16 Re5:16 Re5:16=dır Do5#:16
+15 | Re5:4=hey/ Mi5:16 Fa5#3:16 Sol5:16 Fa5#3:16 Mi5:16 Fa5#3:16 Sol5:4
+{usul 12/8 Dolap}
+16 | Re5:8=Kı- Mi5:16=rım- Fa5#3:16 Sol5:8=dan Sol5:8.=ge- Fa5#3:16 Sol5:16=li- Fa5#3:16 Sol5:8.=rim Fa5#3:16 Mi5:16=ge- Re5:16 Mi5:16=li- Fa5#3:16 Sol5:8=rim/ Es:8
+{usul 7/8 Devr-i Hindi II}
+17 | Re5:8=A- Sol5:8=dım Sol5:8=da Fa5#3:8.=Si- Mi5:16 La5:8 Sol5:16=dır Fa5#3:16
+18 | Mi5:16=hey Fa5#3:16 Sol5:8 Fa5:16 Mi5:16 Re5:8=hey Do5:16=a- Si4b2:16 La4:4=man/
+19 | Sol5:8=a- Sol5:8=dım Sol5:8=da Sol5:16=Si- Fa5:16 Fa5:16 Mi5:16 Mi5:16 Re5:16 Re5:16=dır Do5#:16
+20 | Re5:4=hey/ Mi5:8 Fa5:16 Mi5:16 Re5:16 Do5#:16 Re5:4
+{usul 12/8 Dolap}
+21 | Re5:8=Kı- Fa5#3:16=lın- Sol5:16 La5:8=cı- La5:16=mın Do6:16 Si5b2:16 La5:16 Sol5:16=su- Fa5#3:16 Mi5:8.=yu Re5:16 Mi5:16=yâr Re5:16 Do5:16=su- Si4b2:16 Do5:8=yu/ Es:8
+{usul 7/8 Devr-i Hindi II}
+22 | Sol5:8=Kan- Sol5:8=dır Sol5:8=da Sol5:32=du- Fa5#3:32 Sol5:32 La5:32 Sol5:16 Fa5#3:16 Mi5b2:16=man- Re5:16 Do5:16 Si4b2:16=dır
+23 | Do5:4=hey Si4b2:8 Do5:16 Si4b2:16 Do5:16 Re5:16 Si4b2:8. La4:16
+24 | Re5:8=kan- Re5:8=dır Re5:8=da La4:4=du- Re5:8=man- Re5:8=dır
+25 | La4:2.=hey/ Es:8
+{usul 12/8 Dolap}
+26 | Re5:8=Kı- Fa5#3:16=lın- Sol5:16 La5:8=cı- La5:16=mın Do6:16 Si5b2:16 La5:16 Sol5:16=su- Fa5#3:16 Mi5:8.=yu Re5:16 Mi5:16=yâr Re5:16 Do5:16=su- Si4b2:16 Do5:8=yu/ Es:8
+{usul 7/8 Devr-i Hindi II}
+27 | Sol5:8=Kan- Sol5:8=dır Sol5:8=da Sol5:32=du- Fa5#3:32 Sol5:32 La5:32 Sol5:16 Fa5#3:16 Mi5b2:16=man- Re5:16 Do5:16 Si4b2:16=dır
+28 | Do5:4=hey Si4b2:8 Do5:16 Si4b2:16 Do5:16 Re5:16 Si4b2:8. La4:16
+29 | Re5:8=kan- Re5:8=dır Re5:8=da La4:4=du- Re5:8=man- Re5:8=dır
+30 | La4:2.=hey/ Es:8

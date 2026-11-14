@@ -116,15 +116,47 @@
 
   var SURE_ADLARI = {
     '1/1': 'birlik', '1/2': 'ikilik', '1/4': 'dörtlük', '1/8': 'sekizlik', '1/16': 'onaltılık', '1/32': 'otuzikilik',
-    '3/4': 'noktalı ikilik', '3/8': 'noktalı dörtlük', '3/16': 'noktalı sekizlik', '3/32': 'noktalı onaltılık'
+    '3/4': 'noktalı ikilik', '3/8': 'noktalı dörtlük', '3/16': 'noktalı sekizlik', '3/32': 'noktalı onaltılık',
+    '1/64': 'altmışdörtlük', '1/6': 'üçleme dörtlük', '1/12': 'üçleme sekizlik', '1/24': 'üçleme onaltılık', '1/48': 'üçleme otuzikilik'
   };
   function sureAdi(s) {
     var k = s[0] + '/' + s[1];
     return SURE_ADLARI[k] || k;
   }
 
+  // Bir ölçünün usulü. Türkü içinde usul değişiyorsa ölçünün kendi değeri (u) geçerlidir.
+  function olcuUsulu(turku, olcuNo) {
+    var olcu = turku.olculer[olcuNo];
+    if (olcu && olcu.u) return { pay: olcu.u[0], payda: olcu.u[1] };
+    return turku.usul;
+  }
+  function olcuBoyu(turku, olcuNo) {
+    var u = olcuUsulu(turku, olcuNo);
+    return u.pay / u.payda;
+  }
+
+  // Ölçü içindeki vuruş başları (birlik nota cinsinden, ilki ölçü başı).
+  // Kalıbı bilinen usulde kalıp kullanılır. Bilinmeyen sekizlik usullerde ikişerli
+  // gruplanır, tek kalan sekizlik son gruba eklenir (aksak usullerin yaygın biçimi).
+  function vuruslar(turku, olcuNo) {
+    var u = olcuUsulu(turku, olcuNo), liste = [], t = 0, i;
+    if (u.kalip) {
+      for (i = 0; i < u.kalip.length; i++) { liste.push(t); t += u.kalip[i] / 8; }
+    } else if (u.payda === 8 && u.pay % 3 === 0 && u.pay !== 9) {
+      for (i = 0; i < u.pay / 3; i++) liste.push(i * 3 / 8);
+    } else if (u.payda === 8) {
+      for (i = 0; i + 1 < u.pay; i += 2) { if (u.pay - i === 3) { liste.push(i / 8); break; } liste.push(i / 8); }
+      if (!liste.length) liste.push(0);
+    } else if (u.payda === 4 || u.payda === 2) {
+      for (i = 0; i < u.pay; i++) liste.push(i / u.payda);
+    } else {
+      liste.push(0);
+    }
+    return liste;
+  }
+
   // Bir türkünün seçilen kıtaya göre düz nota sırası.
-  // Her öge: {i, olcu, sira, ad, bas, sure, hece, carpma, bag, bagli}
+  // Her öge: {i, olcu, sira, ad, bas, olcuBas, sure, hece, carpma, bag, bagli}
   //   bas ve sure birlik nota cinsindendir. bagli: önceki notaya bağlı (yeniden vurulmaz).
   function sirala(turku, kita) {
     var liste = [];
@@ -133,6 +165,7 @@
     turku.olculer.forEach(function (olcu, o) {
       var ozel = olcu.v && olcu.v[String(kita)];
       var notalar = ozel || olcu.n;
+      var olcuBas = bas;
       notalar.forEach(function (n, j) {
         var sure = n.s[0] / n.s[1];
         var hece = '';
@@ -140,7 +173,7 @@
         else if (n.h) hece = n.h[kita - 1] || '';
         var onceki = liste[liste.length - 1];
         liste.push({
-          i: liste.length, olcu: o, sira: j, ad: n.a, bas: bas, sure: sure, s: n.s, hece: hece,
+          i: liste.length, olcu: o, sira: j, ad: n.a, bas: bas, olcuBas: olcuBas, sure: sure, s: n.s, hece: hece,
           carpma: n.c || null, bag: !!n.g, bagli: oncekiBag && onceki && onceki.ad === n.a
         });
         oncekiBag = !!n.g;
@@ -166,6 +199,7 @@
   TD.perde = {
     PERDELER: PERDELER, TELLER: TELLER, ALT_TEL_HZ: ALT_TEL_HZ,
     coz: coz, konum: konum, konumlar: konumlar, frekans: frekans, perdeSent: perdeSent, yerSent: yerSent,
-    gorunum: gorunum, okunus: okunus, sureAdi: sureAdi, telBilgisi: telBilgisi, sirala: sirala, sozMetni: sozMetni
+    gorunum: gorunum, okunus: okunus, sureAdi: sureAdi, telBilgisi: telBilgisi, sirala: sirala, sozMetni: sozMetni,
+    olcuUsulu: olcuUsulu, olcuBoyu: olcuBoyu, vuruslar: vuruslar
   };
 })();

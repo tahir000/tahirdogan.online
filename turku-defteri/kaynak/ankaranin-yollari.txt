@@ -1,0 +1,34 @@
+ad: Ankara'nın Yolları
+yore: 
+usul: 8/8
+usul-adi: Düyek
+tempo: 90
+dizi: Acemkürdi
+karar: La
+duzen: bozuk
+zorluk: zor
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, acemkurdi--turku--duyek--ankaranin_yollari--
+---
+1 | Es:8 Fa5:16 Fa5:16 Fa5:8 Sol5:16 Mi5:16 Mi5:8 Mi5:16 Mi5:16 Mi5:8 Fa5:16 Re5:16
+2 | Re5:16 Mi5:16 Re5:16 Re5:16 Re5:8 Mi5:16 Do5:16 Do5:8 Fa5:16 Mi5:16 Mi5:4
+3 | Es:8 Mi5:16 Mi5:16 Mi5:8 Fa5:16 Re5:16 Re5:16 Mi5:16 Re5:16 Re5:16 Re5:8 Mi5:16 Do5:16
+4 | Do5:8 Do5:16 Do5:16 Do5:8 Re5:16 Do5:16 Si4b:16 Do5:16 Si4b:16 La4:16 La4:4
+5 | Es:8 Fa5:16 Sol5:16 La5:16 Sol5:16 La5:8 Es:8 Fa5:16 Sol5:16 La5:16 Sol5:16 La5:8
+6 | Es:8 Sol5:16 La5:16 La5:8 La5:8 La5:8 La5:16 La5:16 La5:8 La5:16 Sol5:16
+7 | Sol5:16 Sol5:8. Sol5:8 La5:16 Sol5:16 Fa5:8 Sol5:16 La5:16 La5:4
+8 | Es:8 Sol5:16 La5:16 La5:8 La5:8 La5:8 La5:16 La5:16 La5:8 La5:16 Sol5:16
+9 | Sol5:16 Sol5:8. Sol5:8 La5:16 Sol5:16 Fa5:8 Sol5:16 La5:16 La5:4
+10 | Es:8 Mi5:16 Fa5:16 Fa5:8 Sol5:16 Mi5:16 Mi5:8 Mi5:16 Mi5:16 Mi5:8 Fa5:16 Re5:16
+11 | Re5:16 Mi5:16 Re5:16 Re5:16 Re5:8 Mi5:16 Do5:16 Do5:8 Fa5:16 Mi5:16 Mi5:4
+12 | Es:8 Mi5:16 Mi5:16 Mi5:8 Fa5:16 Re5:16 Re5:16 Mi5:16 Re5:16 Re5:16 Re5:8 Mi5:16 Do5:16
+13 | Do5:8 Do5:16 Do5:16 Do5:8 Re5:16 Do5:16 Si4b:16 Do5:16 Si4b:16 La4:16 La4:4
+14 | Es:8 Fa5:16 Fa5:16 Fa5:8 Sol5:16 Mi5:16 Mi5:8 Mi5:16 Mi5:16 Mi5:8 Fa5:16 Re5:16
+15 | Re5:16 Mi5:16 Re5:16 Re5:16 Re5:8 Mi5:16 Do5:16 Do5:8 Fa5:16 Mi5:16 Mi5:4
+16 | Es:8 Mi5:16 Mi5:16 Mi5:8 Fa5:16 Re5:16 Re5:16 Mi5:16 Re5:16 Re5:16 Re5:8 Mi5:16 Do5:16
+17 | Do5:8 Do5:16 Do5:16 Do5:8 Re5:16 Do5:16 Si4b:16 Do5:16 Si4b:16 La4:16 La4:4
+18 | Es:8 Fa5:16 Fa5:16 Fa5:8 Sol5:16 Mi5:16 Mi5:8 Mi5:16 Mi5:16 Mi5:8 Fa5:16 Re5:16
+19 | Re5:16 Mi5:16 Re5:16 Re5:16 Re5:8 Mi5:16 Do5:16 Do5:8 Fa5:16 Mi5:16 Mi5:4
+20 | Es:8 Mi5:16 Mi5:16 Mi5:8 Fa5:16 Re5:16 Re5:16 Mi5:16 Re5:16 Re5:16 Re5:8 Mi5:16 Do5:16
+21 | Do5:8 Do5:16 Do5:16 Do5:8 Re5:16 Do5:16 Si4b:16 Do5:16 Si4b:16 La4:16 La4:4

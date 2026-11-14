@@ -1,0 +1,60 @@
+ad: Yine Gam Yükünün...
+yore: 
+usul: 2/4
+usul-adi: Nimsofyan
+tempo: 60
+dizi: Uşşak
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, ussak--turku--nimsofyan--yine_gam--
+---
+[Aranağme]
+1 | Es:8 Mi5:16 Mi5:16 Mi5:16 Re5:16 Re5:8
+2 | Re5:16 Si4b2:16 Do5:8 Do5:32 Re5:32 Do5:32 Si4b2:32 Si4b2:16 La4:16
+3 | Re5:16 Si4b2:16 Do5:8 Do5:16 (Re5)Do5:32 Si4b2:32 Si4b2:16 La4:16
+4 | La4:4 Es:4
+[Aranağme]
+5 | Es:8 Mi5:16 Mi5:16 Mi5:16 Re5:16 Re5:8
+6 | Re5:16 Si4b2:16 Do5:8 Do5:32 Re5:32 Do5:32 Si4b2:32 Si4b2:16 La4:16
+7 | Re5:16 Si4b2:16 Do5:8 Do5:16 (Re5)Do5:32 Si4b2:32 Si4b2:16 La4:16
+8 | La4:8. Re5:16 Do5:16 Mi5:16 Re5:8
+[Söz]
+9 | Es:8 Do5:16=Yi- Re5:16=ne Re5:8=gam Re5:8=yü-
+9 @2 | Es:8 Do5:16=Ba- Re5:16=ğı- Re5:16=mı- Re5:8.=za
+10 | Re5:16=kü-;ga- Re5:7/16=nün;zel
+11 | Mi5:8=ker-;düş- (Fa5)Mi5:16=va-;tü Re5:16=;de Mi5:16=nı;güz Do5:16=gel-;ol- Re5:8
+12 | Re5:16=di/;du/ Do5:8 Si4b2:16 Do5:16 Si4b2:8 La4:16
+13 | Es:8 Do5:16=Yi- Re5:16=ne Re5:8=gam Re5:8=yü-
+13 @2 | Es:8 Do5:16=Ba- Re5:16=ğı- Re5:16=mı- Re5:8.=za
+14 | Re5:16=kü-;ga- Re5:7/16=nün;zel
+15 | Mi5:8=ker-;düş- (Fa5)Mi5:16=va-;tü Re5:16=;de Mi5:16=nı;güz Do5:16=gel-;ol- Re5:8
+16 | Re5:16=di/;du/ Do5:8 Si4b2:16 Do5:16 Si4b2:8 La4:16
+17 | Es:8 Mi5:16=Çe- Mi5:16=ke- Mi5:16=mem Re5:16 Re5:8=bu
+17 @2 | Mi5:8=Geç- Mi5:16=ti Mi5:16=de Mi5:16=bu Re5:16 Re5:8=va-
+18 | Re5:16=der-;kit- Si4b2:16 Do5:16=di;ler Do5:16=de Do5:16=yav-;a- (Re5)Si4b2:16=;nam Si4b2:16=rum (Do5)La4:16
+19 | Re5:16=bö-;he- Si4b2:16=lek;men Do5:8 Do5:16=se-;kış Si4b2:8=nin-;ol- La4:16
+20 | La4:4=le/;du/ Es:4
+21 | Es:8 Mi5:16=Çe- Mi5:16=ke- Mi5:16=mem Re5:16 Re5:8=bu
+21 @2 | Mi5:8=Geç- Mi5:16=ti Mi5:16=de Mi5:16=bu Re5:16 Re5:8=va-
+22 | Re5:16=der-;kit- Si4b2:16 Do5:16=di;ler Do5:16=de Do5:16=yav-;a- (Re5)Si4b2:16=;nam Si4b2:16=rum (Do5)La4:16
+23 | Re5:16=bö-;he- Si4b2:16=lek;men Do5:8 Do5:16=se-;kış Si4b2:8=nin-;ol- La4:16
+24 | La4:8.=le/;du/ Re5:16 Do5:16 Mi5:16 Re5:8
+25 | Es:8 Do5:16=E-;Der- Re5:16=re-;dim Re5:8=mem;bin Re5:8=lok-;bir
+26 | Re5:16=ma-;i- Re5:7/16=na;ken
+27 | Mi5:8=ça-;bin (Fa5)Mi5:16=re-;beş Re5:16 Mi5:16=siz;yüz Do5:16=;ol- Re5:8=kal-
+28 | Re5:16=dım/;du/ Do5:8 Si4b2:16 Do5:16 Si4b2:8 La4:16
+29 | Es:8 Do5:16=E-;Der- Re5:16=re-;dim Re5:8=mem;bin Re5:8=lok-;bir
+30 | Re5:16=ma-;i- Re5:7/16=na;ken
+31 | Mi5:8=ça-;bin (Fa5)Mi5:16=re-;beş Re5:16 Mi5:16=siz;yüz Do5:16=;ol- Re5:8=kal-
+32 | Re5:16=dım/;du/ Do5:8 Si4b2:16 Do5:16 Si4b2:8 La4:16
+33 | Es:8 Mi5:16=Çe-* Mi5:16=ke-* Mi5:16=mem* Re5:16 Re5:8=bu*
+34 | Re5:16=der-* Si4b2:16 Do5:16=di* Do5:16=de* Do5:16=yav-* (Re5)Si4b2:16 Si4b2:16=rum* (Do5)La4:16
+35 | Re5:16=bö-* Si4b2:16=lek* Do5:8 Do5:16=se-* (Re5)Do5:16=nin-* Si4b2:16 La4:16
+36 | La4:4=le/* Es:4
+37 | Es:8 Mi5:16=Çe-* Mi5:16=ke-* Mi5:16=mem* Re5:16 Re5:8=bu*
+38 | Re5:16=der-* Si4b2:16 Do5:16=di* Do5:16=de* Do5:16=yav-* (Re5)Si4b2:16 Si4b2:16=rum* (Do5)La4:16
+39 | Re5:16=bö-* Si4b2:16=lek* Do5:8 Do5:16=se-* (Re5)Do5:16=nin-* Si4b2:16 La4:16
+40 | La4:4=le/* Es:4

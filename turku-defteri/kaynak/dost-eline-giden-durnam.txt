@@ -1,0 +1,33 @@
+ad: Dost Eline Giden Durnam
+yore: Malatya
+usul: 8/8
+usul-adi: Müsemmen II
+tempo: 60
+dizi: Gerdaniye
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, gerdaniye--turku--musemmen_ii--dost_eline--malatya
+---
+[Aranağme]
+1 | Es:8 Do5:16 Si4b2:16 Do5:16 Do5:16 Do5:8 Do5:16 Si4b2:16 Do5:16 Do5:16 Do5:16 Si4b2:16 Si4b2:8
+2 | Es:8 Re5:16 Si4b2:16 Do5:16 Si4b2:16 Do5:16 Si4b2:16 Si4b2:16 La4:16 Do5:16 Si4b2:16 Si4b2:16 La4:16 La4:8
+3 | La4:8. La4:16 La4:16 La4:16 Fa4#3:16 Sol4:16 La4:8. La4:16 La4:16 La4:16 La4:8
+[Aranağme]
+4 | Es:8 Do5:16 Si4b2:16 Do5:16 Do5:16 Do5:8 Do5:16 Si4b2:16 Do5:16 Do5:16 Do5:16 Si4b2:16 Si4b2:8
+5 | Es:8 Re5:16 Si4b2:16 Do5:16 Si4b2:16 Do5:16 Si4b2:16 Si4b2:16 La4:16 Do5:16 Si4b2:16 Si4b2:16 La4:16 La4:8
+6 | La4:8. La4:16 La4:16 La4:16 Fa4#3:16 Sol4:16 La4:8. La4:16 La4:16 La4:16 La4:8
+[Söz]
+7 | Es:8 Fa5#3:16=Dost* Sol5:16=e-* Sol5:16=li-* Fa5#3:16=ne* Sol5:8 Fa5#3:16=gi-* Sol5:8=den* Fa5#3:16=dur-* Fa5#3:16 (Sol5)Mi5:16 Mi5:8=nam/*
+8 | Mi5:8 Mi5:16=Bek-* Mi5:16=le* Fa5:16=ke-* Mi5:8.=lâ-* Mi5:16=mı* Mi5:16=ke-* Fa5:16 Mi5:16=lâ-* Fa5:16 Re5:8.=mı/*
+9 | Es:8 Sol5:16=Dost* Fa5#3:16=e-* Sol5:16=li-* Mi5:16=ne* Fa5#3:16 Mi5:16 Fa5#3:16=gi-* Sol5:8=den* Fa5#3:16=dur-* Fa5#3:16 (Sol5)Mi5:16 Mi5:8=nam/*
+10 | Mi5:8 Mi5:16=Bek-* Mi5:16=le* Fa5:16=ke-* Mi5:8.=lâ-* Mi5:16=mı* Re5:16=ke-* Fa5:16 Mi5:16=lâ-* Fa5:16 Re5:8.=mı/*
+11 | Es:8 Do5:16=Uğ-* Re5:16=rar* Mi5:16=ı-* Do5:16=san* Re5:8 Re5:16=dost* Do5:16=ya-* Mi5:16 Re5:16=nı-* Re5:16 Si4b2:16=na/* Do5:8
+12 | Do5:8 Do5:16=Ey-* Do5:16=le* Do5:16=se-* Do5:8.=lâ-* Do5:16=mı* Si4b2:16=se-* Re5:16 Do5:16=lâ-* Do5:16 Si4b2:8.=mı/*
+13 | Es:8 Si4b2:16=Ey-* Si4b2:16=le* Si4b2:16=se-* Si4b2:16=lâ-* Do5:16 La4:16 La4:16=mı* La4:16=se-* Do5:16 Si4b2:16=lâ-* Si4b2:16 (Do5)La4:8.=mı*
+14 | La4:8.=dost/* La4:16 La4:16 La4:16 Fa4#3:16 Sol4:16 La4:8. La4:16 La4:16 Sol4:16 La4:16 Si4b2:16
+15 | Do5:8 Si4b2:16=Uğ-* Do5:16=rar* Re5:16=ı-* Si4b2:16=san* Do5:8 Do5:16=dost* Si4b2:16=ya-* Re5:16 Do5:16=nı-* Do5:16 Si4b2:8.=na/*
+16 | Es:8 Si4b2:16=Ey-* Si4b2:16=le* Si4b2:16=se-* Si4b2:8.=lâ-* Si4b2:16=mı* La4:16=se-* Do5:16 Si4b2:16=lâ-* Si4b2:16 La4:8.=mı*
+17 | La4:8.=dost/* La4:16 La4:16 La4:16 La4:8 La4:8. La4:16 La4:16 La4:16 La4:8

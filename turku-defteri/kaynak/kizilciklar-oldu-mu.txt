@@ -1,0 +1,30 @@
+ad: Kızılcıklar Oldu mu
+yore: Edirne, Keşan
+usul: 9/8
+usul-adi: Aksak
+kalip: 2+2+2+3
+tempo: 111
+dizi: Uşşak
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, ussak--turku--aksak--kizilciklar_oldu--edirne-kesan
+---
+[Söz]
+1 | Re5:8=Kı-* Mi5:8=zıl-* Mi5:8=cık-* Mi5:8=lar* Mi5:8.=ol-* Re5:16 Re5:4=du* Do5:8=mu/*
+2 | Re5:8=Se-* Mi5:8=le-* Mi5:8=le-* Mi5:8=re* Mi5:8.=dol-* Re5:16 Re5:8=du* Do5:8 Mi5:8
+3 | Re5:1=mu/* Es:8
+4 | Re5:8=Yol-* Mi5:8=la-* Mi5:8=dı-* Mi5:8=ğım* Mi5:8.=ço-* Re5:16 Re5:4=rap-* Do5:8=lar/*
+5 | Mi5:8=A-* (Fa5)Mi5:16=ya-* Re5:16 Re5:8=ğı-* Re5:8=na* Re5:4=ol-* Re5:4=du* Mi5:8=mu/*
+6 | Do5:8.=Men-* Re5:16 Re5:8=di-* Do5:8=li* Si4b2:8=ge-* La4:8=li-* La4:4=ne/* Si4b2:8
+7 | Do5:8=Men-* Re5:8=dil* Re5:8=ver-* Do5:8=dim* Si4b2:8=e-* La4:8=li-* La4:4.=ne/*
+8 | Do5:8=Ka-* Re5:8=ra* Re5:8=kı-* Re5:8=na* Re5:8=yol-* Mi5:8 Do5:4=la-* Si4b2:8=mış/*
+9 | La4:8=Yâr* Si4b2:8=be-* Do5:8=nim* Re5:8=el-* Re5:4=le-* Do5:16=ri-* Re5:16 Si4b2:8. La4:16
+10 | La4:1=me/* Es:8
+11 | Do5:8.=Men-* Re5:16 Re5:8=di-* Do5:8=li* Si4b2:8=ge-* La4:8=li-* La4:4=ne/* Si4b2:8
+12 | Do5:8=Men-* Re5:8=dil* Re5:8=ver-* Do5:8=dim* Si4b2:8=e-* La4:8=li-* La4:4.=ne/*
+13 | Do5:8=Ka-* Re5:8=ra* Re5:8=kı-* Re5:8=na* Re5:8=yol-* Mi5:8 Do5:4=la-* Si4b2:8=mış/*
+14 | La4:8=Yâr* Si4b2:8=be-* Do5:8=nim* Re5:8=el-* Re5:4=le-* Do5:16=ri-* Re5:16 Si4b2:8. La4:16
+15 | La4:1=me/* Es:8

@@ -1,0 +1,61 @@
+ad: Dağlar Başı Olaydım
+yore: Kerkük
+usul: 10/8
+usul-adi: K. Curcuna
+kalip: 3+2+2+3
+tempo: 221
+dizi: Gerdaniye
+karar: La
+duzen: bozuk
+zorluk: zor
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, gerdaniye--turku--kapali_curcuna--daglar_basi--kerkuk
+---
+[Aranağme]
+1 | Sol5:4 Fa5#3:8 Sol5:4 La5:4 Fa5#3:4.
+2 | Es:4 Mi5:8 Fa5#3:4 Sol5:4 Mi5:4.
+3 | Es:4 Re5:8 Mi5:4 Fa5:4 Re5:4.
+4 | Re5:4 Mi5:8 Re5:8 Do5:8 Re5:8 Do5:8 Re5:4.
+5 | Es:4 Do5:8 Re5:4 Mi5:4 Do5:4.
+6 | Es:4 Si4b2:8 Do5:4 Re5:4 Si4b2:4.
+7 | Es:4 La4:8 Si4b2:4 Do5:4 Si4b2:4 La4:8
+8 | La4:4 La4:8 La4:4 La4:4 Re5:8 Mi5:8 Fa5#3:8
+[Aranağme]
+9 | Sol5:4 Fa5#3:8 Sol5:4 La5:4 Fa5#3:4.
+10 | Es:4 Mi5:8 Fa5#3:4 Sol5:4 Mi5:4.
+11 | Es:4 Re5:8 Mi5:4 Fa5:4 Re5:4.
+12 | Re5:4 Mi5:8 Re5:8 Do5:8 Re5:8 Do5:8 Re5:4.
+13 | Es:4 Do5:8 Re5:4 Mi5:4 Do5:4.
+14 | Es:4 Si4b2:8 Do5:4 Re5:4 Si4b2:4.
+15 | Es:4 La4:8 Si4b2:4 Do5:4 Si4b2:4 La4:8
+16 | La4:4 La4:8 La4:4 La4:4 Re5:8 Mi5:8 Fa5#3:8
+[Söz]
+17 | Sol5:4 Fa5#3:8=Dağ-* Sol5:4=lar* Sol5:4=ba-* Sol5:4=şı* Fa5#3:8
+18 | Sol5:8=o-* Fa5#3:8 Mi5:8=lay-* Fa5#3:4 Sol5:8=dım/* Fa5#3:8 Sol5:4 Fa5#3:8
+19 | Sol5:4=Ça-* Mi5:8 Mi5:4=ğı-* Re5:4=ray-* Mi5:4=dım* Re5:8
+20 | Mi5:8=ça-* Re5:8=lay-* (Mi5)Do5:4. Re5:8=dım/* Do5:8 Re5:4 Mi5:16 Fa5#3:16
+21 | Sol5:4 Fa5#3:8=Dağ-* Sol5:4=lar* Sol5:4=ba-* Sol5:4=şı* Fa5#3:8
+22 | Sol5:8=o-* Fa5#3:8 Mi5:8=lay-* Fa5#3:4 Sol5:8=dım/* Fa5#3:8 Sol5:4 Fa5#3:8
+23 | Sol5:4=Ça-* Mi5:8 Mi5:4=ğı-* Re5:4=ray-* Mi5:4=dım* Re5:8
+24 | Mi5:8=ça-* Re5:8=lay-* (Mi5)Do5:4. Re5:8=dım/* Do5:8 Re5:4 Mi5:16 Fa5#3:16
+25 | Sol5:4 Sol5:8=O* Sol5:8=yâr* Fa5#3:8 Sol5:8=bur-* Fa5#3:8 Sol5:4=dan* Fa5#3:8
+26 | Sol5:8=ge-* Fa5#3:8 Mi5:8=den-* Fa5#3:4 Sol5:8=de/* Fa5#3:8 Sol5:4 Fa5#3:8
+27 | Sol5:4=Kol* Mi5:8 Mi5:4=boy-* Re5:4=nu-* Mi5:4=na* Re5:8
+28 | Mi5:8=a-* Re5:8 (Mi5)Do5:8 Do5:4=tay-* Re5:8=dım/* Do5:8 Re5:4.
+29 | Sol5:4 Sol5:8=O* Sol5:8=yâr* Fa5#3:8 Sol5:8=bur-* Fa5#3:8 Sol5:4=dan* Fa5#3:8
+30 | Sol5:8=ge-* Fa5#3:8 Mi5:8=den-* Fa5#3:4 Sol5:8=de/* Fa5#3:8 Sol5:4 Fa5#3:8
+31 | Sol5:4=Kol* Mi5:8 Mi5:4=boy-* Re5:4=nu-* Mi5:4=na* Re5:8
+32 | Mi5:8=a-* Re5:8 (Mi5)Do5:8 Do5:4=tay-* Re5:8=dım/* Do5:8 Re5:4.
+33 | Es:4 Do5:8=Dağ-* Re5:4=lar* Mi5:4=dağ-* Mi5:4=lar* Re5:8
+34 | Re5:4=yâr* (Fa5#3)Sol5:8=ya-* Sol5:8=man* Mi5:8 Mi5:8=dağ-* Re5:8 Mi5:8=lar/* Re5:8 Do5:8
+35 | Es:4 Do5:8=Dağ-* Re5:4=lar* Mi5:4=dağ-* Mi5:4=lar* Re5:8
+36 | Re5:4=yâr* (Fa5#3)Sol5:8=ya-* Sol5:8=man* Mi5:8 Mi5:8=dağ-* Re5:8 Mi5:8=lar/* Re5:8 Do5:8
+37 | Es:4 Si4b2:8=Gö-* Do5:8=zel* Si4b2:8 Do5:8=yar* Si4b2:8 Re5:4=iy-* Si4b2:8
+38 | Si4b2:8=çin* La4:8 La4:4.=ağ-* La4:4=lar/* La4:8 Do5:8 Re5:8
+39 | Mi5:4 Do5:8=Dağ-* Re5:4=lar* Mi5:4=dağ-* Mi5:4=lar* Re5:8
+40 | Re5:4=yâr* (Fa5#3)Sol5:8=ya-* Sol5:8=man* Mi5:8 Mi5:8=dağ-* Re5:8 Mi5:8=lar/* Re5:8 Do5:8
+41 | Mi5:4 Do5:8=Dağ-* Re5:4=lar* Mi5:4=dağ-* Mi5:4=lar* Re5:8
+42 | Re5:4=yâr* (Fa5#3)Sol5:8=ya-* Sol5:8=man* Mi5:8 Mi5:8=dağ-* Re5:8 Mi5:8=lar/* Re5:8 Do5:8
+43 | Es:4 Si4b2:8=Bül-* Do5:8=bül* Si4b2:8 Do5:8=gül* Si4b2:8 Re5:4=iy-* Si4b2:8
+44 | Si4b2:8=çin* La4:8 La4:4.=ağ-* La4:5/8=lar/*

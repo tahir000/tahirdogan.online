@@ -1,0 +1,22 @@
+ad: Gökteki Yıldızın Üçü Terazi
+yore: 
+usul: 4/4
+usul-adi: Sofyan
+tempo: 63
+dizi: Hicaz
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, hicaz--turku--sofyan--gokteki_yildizin--
+---
+[Söz]
+1 | Sol4:8=Gök-* La4:8=te-* La4:16=ki* Si4b:16 Do5#:16=yıl-* Re5:16 Re5:8=dı-* Re5:16=zın* Do5#:16 Si4b:16=ü-* Si4b:16=çü* Si4b:16 Re5:16
+2 | Do5#:16=te-* Si4b:16 La4:32=ra-* Sol4:32 La4:16 La4:4 Si4b:16=zi/* Do5#:16 Si4b:16 La4:16 Sol4:16 Fa4#:16 Sol4:8
+3 | Es:8 Re5:16=Poy-* Re5:16=raz-* Re5:16=la-* Re5:16=rı* (Mi5)Re5:32 Do5#:32 Re5:16 Re5:8=gör-* Re5:16=dü* Do5#:16=geç-* (Do5#)Si4b:16.=ti* La4:32 Si4b:16 Re5:16
+4 | Do5#:16=bi-* Si4b:16 La4:32=ra-* Sol4:32 La4:16 La4:4 La4:2=zı/*
+5 | Sol4:8=Bu* La4:8=fe-* La4:16=le-* Si4b:16 Do5#:16=ğin* Re5:16 Re5:8=bi-* Re5:16=ze-* Do5#:16 Si4b:16=yi-* Si4b:8=miş* Re5:16
+6 | Do5#:16=ga-* Si4b:16 La4:32=ra-* Sol4:32 La4:16 La4:4 Si4b:16=zı/* Do5#:16 Si4b:16 La4:16 Sol4:16 Fa4#:16 Sol4:8
+7 | Es:8 Re5:16=Fe-* Re5:16=lek* Re5:16=be-* Re5:32=ni* Mi5:32 Re5:32 Do5#:32 Re5:16 Re5:16=ta-* Re5:8=şa* Do5#:16 (Do5#)Si4b:16.=çal-* La4:32 Si4b:16=dı* Re5:16
+8 | Do5#:16=ney-* Si4b:16 La4:32=le-* Sol4:32 La4:16 La4:4 La4:2=yim/*

@@ -1,0 +1,35 @@
+ad: Hayatları Değirmi
+yore: 
+usul: 10/8
+usul-adi: Curcuna
+kalip: 3+2+2+3
+tempo: 84
+dizi: Hüzzam
+karar: Si
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, huzzam--turku--curcuna--hayatlari_degirmi--
+---
+[Söz]
+1 | Es:4 Fa5#3:8=Ha-* Sol5:4=yat-* Sol5:8=la-* Fa5#3:8 Sol5:8=rı* Fa5#3:8 Mi5b2:8
+2 | Fa5#3:8=de-* Mi5b2:8 Fa5#3:8=ğir-* Mi5b2:8 Re5:8 Mi5b2:8=mi/* Re5:8 Fa5#3:8 Mi5b2:8 Re5:8
+3 | Re5:4 Fa5#3:8=Bu* Sol5:4=ge-* Sol5:8=len* Fa5#3:8 Sol5:8=yâr* Fa5#3:8 Mi5b2:8
+4 | Fa5#3:16=de-* Sol5:16 Fa5#3:16 Sol5:16 Fa5#3:8=ğil* Mi5b2:8 Re5:8 Mi5b2:8=mi/* Re5:8 Fa5#3:8 Mi5b2:8 Re5:8
+5 | Re5:4 Fa5#3:8=Sa-* Sol5:16=kıp-* Fa5#3:16 Sol5:8 Sol5:4=lar-* Sol5:8=dan* Fa5#3:8 Mi5b2:8
+6 | Fa5#3:16=üç* Sol5:16 Fa5#3:16 Sol5:16 Mi5b2:8 Mi5b2:8=gü-* Re5:8 Re5:8=zel/* Do5:8 Mi5b2:4.
+7 | Mi5b2:4 Re5:8=Bi-* Mi5b2:8=ri* Re5:8 Fa5#3:8=Eş-* Sol5:16 La5:16 Fa5#3:8=ref* Mi5b2:8 Re5:8
+8 | Re5:4=de-* Re5:16=ğil* Mi5b2:16 Do5:8 Si4:8 Si4:5/8=mi/*
+9 | Es:4 Fa5#3:8=A-* Sol5:16=man* Fa5#3:16 Sol5:8 Sol5:4=Eş-* Sol5:8=ref* Fa5#3:8 Mi5b2:8
+10 | Fa5#3:16=ca-* Sol5:16 Fa5#3:16 Sol5:16 Fa5#3:8=nım* Mi5b2:8 Re5:8 Mi5b2:16=Eş-* Fa5#3:16 Mi5b2:16 Fa5#3:16 Mi5b2:8=ref/* Re5:4
+11 | Es:4 Fa5#3:8=A-* Sol5:16=man* Fa5#3:16 Sol5:8 Sol5:8=Eş-* Sol5:8 Sol5:8=ref* Fa5#3:8 Mi5b2:8
+12 | Fa5#3:16=ma-* Sol5:16 Fa5#3:16 Sol5:16 Fa5#3:8=lım* Mi5b2:8 Re5:8 Mi5b2:16=Eş-* Fa5#3:16 Mi5b2:16 Fa5#3:16 Mi5b2:8=ref/* Re5:4
+13 | (Fa5#3)Sol5:4=Uy-* Sol5:8=ku-* Sol5:4=dan* Sol5:4=u-* Sol5:8=yart-* Fa5#3:8 Mi5b2:8
+14 | Fa5#3:16=tın* Sol5:16 Fa5#3:16 Sol5:16 Mi5b2:8 Mi5b2:8=be-* Re5:8 Re5:8=ni/* Do5:8 Mi5b2:4.
+15 | Re5:8 Es:8 Re5:8=Ka-* Mi5b2:8=na* Re5:8 Fa5#3:8=bo-* Sol5:16 La5:16 Fa5#3:8=yat-* Mi5b2:8 Re5:8
+16 | Re5:4=tın* Do5:8 Do5:8=be-* Si4:8 Si4:5/8=ni/*
+17 | (Fa5#3)Sol5:4=Uy-* Sol5:8=ku-* Sol5:4=dan* Sol5:4=u-* Sol5:8=yart-* Fa5#3:8 Mi5b2:8
+18 | Fa5#3:16=tın* Sol5:16 Fa5#3:16 Sol5:16 Mi5b2:8 Mi5b2:8=be-* Re5:8 Re5:8=ni/* Do5:8 Mi5b2:4.
+19 | Re5:8 Es:8 Re5:8=Ka-* Mi5b2:8=na* Re5:8 Fa5#3:8=bo-* Sol5:16 La5:16 Fa5#3:8=yat-* Mi5b2:8 Re5:8
+20 | Re5:4=tın* Do5:8 Do5:8=be-* Si4:8 Si4:5/8=ni/*

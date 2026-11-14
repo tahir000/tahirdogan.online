@@ -1,0 +1,22 @@
+ad: Bitlis'te Beş Minare
+yore: 
+usul: 6/4
+usul-adi: Yürüksemai II (6/4)
+tempo: 150
+dizi: Hicaz
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, hicaz--turku--yuruksemai_ii--bitliste_bes--
+---
+[Söz]
+1 | La4:4=Bit-;İs-;Bit-;İs- La4:2=lis-;te-;lis-;te- Re5:8=te;rem;te;rem Do5#:8 Re5:2
+2 | Re5:8=beş;ya-;beş;ya- Do5#:8 Re5:2=mi-;nan;mi-;nan Re5:4=na-;ge-;na-;ge- Do5#:8=re/;lem/;re/;lem/ (Re5)Do5#:4.
+3 | Re5:8=Be-* Mi5:8=ri* Re5:8=gel* (Mi5)Re5:8 Mi5:8 Re5:8 Re5:8=oğ-* Si4b:8 Do5#:8=lan* (Re5)Do5#:8 Re5:8 Do5#:8
+4 | Do5#:8=be-* Si4b:8 Si4b:4.=ri* La4:8 Re5:8=gel/* Do5#:8 (Mi5)Re5:2
+5 | La4:4=Ci-;Ce-;Ci-;Ce- La4:2=ğe-;bim-;ğe-;bim- Re5:8=rim;de;rim;de Do5#:8 (Mi5)Re5:2
+6 | Re5:8=do-;yok;do-;yok Si4b:8 Do5#:4=lu;beş;lu;beş Re5:8 Do5#:8 Do5#:8=ya-;pa-;ya-;pa- Si4b:8 Si4b:4.=re/* La4:8
+7 | Si4b:8=Be-* Re5:8=ri* Do5#:4.=gel* (Re5)Do5#:8 Do5#:8=câ-* Si4b:8 Si4b:4=nân* Do5#:8 Si4b:8
+8 | Si4b:8=be-* La4:8 La4:2=ri* La4:2.=gel/*

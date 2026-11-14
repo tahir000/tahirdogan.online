@@ -1,0 +1,35 @@
+ad: Tutam Yar Elinden
+yore: Erzurum
+usul: 14/4
+usul-adi: 14/4
+tempo: 60
+dizi: Hüseyni
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, huseyni--turku--14_4--tutam_yar--erzurum
+---
+[Söz]
+1 | Es:4 (Sol5)Fa5#3:8=Tu- Sol5:8=tam Fa5#3:16=yâr Sol5:16 Mi5:4. Mi5:16=e- Sol5:16 Mi5:4. Re5:16=lin- Sol5:16 Mi5:4. Re5:16=den Sol5:16 Mi5:4. Do5:16=tu- Mi5:16 Re5:4 Do5:8 Re5:8.=tam/ Si4b2:16 Do5:16 Si4b2:16 Do5:16 La4:16
+2 | Es:4 Do5:8=Çı- Re5:8=kam Re5:4.=dağ- Si4b2:16 La4:16 Mi5:4.=la- Do5:16 Re5:16 Si4b2:16=ra Re5:16 Do5:4 Si4b2:16 La4:16 Re5:4=dağ- Re5:16 Si4b2:16 Do5:16 La4:16 Do5:16=la- Re5:16 Si4b2:4 La4:8 La4:4=ra Do5:12 Si4b2:12 La4:12
+{usul 4/4 Sofyan}
+3 | La4:2.=vay/ Es:4
+4 | Do5:8=A- Re5:4=ğam Si4b2:16 La4:16 Mi5:4.=ey Do5:16 Re5:16
+5 | Si4b2:16=şa- Re5:16 Do5:4 Si4b2:16=hım La4:16 Re5:4=ey Re5:16 Si4b2:16 Do5:16 La4:16
+6 | Do5:16=ey- Re5:16 Si4b2:4 La4:8=vah La4:4=ey Do5:12 Si4b2:12 La4:12
+7 | La4:2.=ey/ Es:4
+{usul 14/4 14/4}
+8 | Es:4 Fa5#3:8=O- Sol5:8=lam Fa5#3:16=bir Sol5:16 Mi5:4. Mi5:16=yâr Sol5:16 Mi5:4. Re5:16=e- Sol5:16 Mi5:4. Re5:16=li Sol5:16 Mi5:4. Do5:16=bül- Mi5:16 Re5:4 Do5:8 Re5:8.=bül/ Si4b2:16 Do5:16 Si4b2:16 Do5:16 La4:16
+9 | Es:4 Do5:8=İ- Re5:8=nem Re5:4.=bağ- Si4b2:16 La4:16 Mi5:4.=la- Do5:16 Re5:16 Si4b2:16=ra Re5:16 Do5:4 Si4b2:16 La4:16 Re5:4=bağ- Re5:16 Si4b2:16 Do5:16 La4:16 Do5:16=la- Re5:16 Si4b2:4 La4:8 La4:4=ra Do5:12 Si4b2:12 La4:12
+{usul 4/4 Sofyan}
+10 | La4:2.=vay/ Es:4
+11 | Do5:8=A- Re5:4=ğam Si4b2:16 La4:16 Mi5:4.=ey Do5:16 Re5:16
+12 | Si4b2:16=şa- Re5:16 Do5:4 Si4b2:16=hım La4:16 Re5:4=ey Re5:16 Si4b2:16 Do5:16 La4:16
+13 | Do5:16=ey- Re5:16 Si4b2:4 La4:8=vah La4:4=ey Do5:12 Si4b2:12 La4:12
+14 | La4:2.=ey/ Es:4
+15 | Do5:8=A- Re5:4=ğam Si4b2:16 La4:16 Mi5:4.=ey Do5:16 Re5:16
+16 | Si4b2:16=şa- Re5:16 Do5:4 Si4b2:16=hım La4:16 Re5:4=ey Re5:16 Si4b2:16 Do5:16 La4:16
+17 | Do5:16=ey- Re5:16 Si4b2:4 La4:8=vah La4:4=ey Do5:12 Si4b2:12 La4:12
+18 | La4:2.=ey/ Es:4

@@ -1,0 +1,95 @@
+ad: Aman Avcı Vurma Beni
+yore: 
+usul: 6/8
+usul-adi: Azeri Yürüksemai
+tempo: 132
+dizi: Nihavent
+karar: Sol
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, nihavent--turku--azeriyuruksemai--aman_avci--
+---
+[Aranağme]
+1 | Re5:4 Mi5b:8 Re5:8 Do5:8 Si4b:8
+2 | Do5:4 Re5:8 Do5:8 Si4b:8 La4:8
+3 | Si4b:4 Do5:8 Si4b:8 La4:8 Sol4:8
+4 | Si4b:8 La4:8 Sol4:8 La4:8 Sol4:8 Fa4#:8
+5 | Sol4:8 La4:8 Si4b:8 Do5:8 Re5:4
+[Aranağme]
+6 | Re5:4 Mi5b:8 Re5:8 Do5:8 Si4b:8
+7 | Do5:4 Re5:8 Do5:8 Si4b:8 La4:8
+8 | Si4b:4 Do5:8 Si4b:8 La4:8 Sol4:8
+9 | Si4b:8 La4:8 Sol4:8 La4:8 Sol4:8 Fa4#:8
+10 | Sol4:4. Do5:16 Re5:16 Mi5b:16 Fa5#:16 Sol5:16 Mi5b:16
+[Söz]
+11 | Re5:4=A- Re5:8=man Re5:4.=av-
+12 | Sol5:4.=cı Sol5:8 Fa5#:8 Mi5b:8
+13 | Fa5#:4=vur- Sol5:8=ma Fa5#:8=be- Mi5b:8 Re5:8
+14 | Re5:4=ni/ Mi5b:8 Re5:8 Do5:8 Si4b:8
+15 | Re5:4=Ben Re5:8=bu Do5:8=da- Si4b:8 La4:8
+16 | Do5:8=ğın Do5:4=ay Si4b:8=ba- La4:8=lam Sol4:8
+17 | Si4b:8=ma- Si4b:8=ra- La4:8 Sol4:4=lı- Fa4#:8
+18 | Sol4:4.=yam/ Do5:16 Re5:16 Mi5b:16 Fa5#:16 Sol5:16 Mi5b:16
+19 | Re5:4=A- Re5:8=man Re5:4.=av-
+20 | Sol5:4.=cı Sol5:8 Fa5#:8 Mi5b:8
+21 | Fa5#:4=vur- Sol5:8=ma Fa5#:8=be- Mi5b:8 Re5:8
+22 | Re5:4=ni/ Mi5b:8 Re5:8 Do5:8 Si4b:8
+23 | Re5:4=Ben Re5:8=bu Do5:8=da- Si4b:8 La4:8
+24 | Do5:8=ğın Do5:4=ay Si4b:8=ba- La4:8=lam Sol4:8
+25 | Si4b:8=ma- Si4b:8=ra- La4:8 Sol4:4=lı- Fa4#:8
+26 | Sol4:4.=yam/ Do5:16 Re5:16 Mi5b:16 Fa5#:16 Sol5:16 Mi5b:16
+27 | Re5:4=Hem Re5:8=ma- Re5:8=ra- (Mi5b)Re5:8 Do5:8
+28 | Do5:8=lı Si4b:8 Do5:8 Si4b:4 La4:8
+29 | Do5:4=hem Do5:8=ya- Do5:8=ra- Si4b:8 La4:8
+30 | Do5:8=lı/ Si4b:8 Do5:8 Si4b:4 La4:8
+31 | Do5:4=Av- Do5:8=cı Do5:8=vur- Si4b:8 La4:8
+32 | Re5:8=muş Re5:4=ay Si4b:8=ba- La4:8=lam Sol4:8
+33 | Si4b:8=ya- Si4b:8=ra- La4:8 Sol4:8=lı- (La4)Sol4:8 Fa4#:8
+34 | Sol4:4.=yam/ Si4b:8 Do5:8 Re5:8
+35 | Re5:4=Hem Re5:8=ma- Re5:8=ra- (Mi5b)Re5:8 Do5:8
+36 | Do5:8=lı Si4b:8 Do5:8 Si4b:4 La4:8
+37 | Do5:4=hem Do5:8=ya- Do5:8=ra- Si4b:8 La4:8
+38 | Do5:8=lı/ Si4b:8 Do5:8 Si4b:4 La4:8
+39 | Do5:4=Av- Do5:8=cı Do5:8=vur- Si4b:8 La4:8
+40 | Re5:8=muş Re5:4=ay Si4b:8=ba- La4:8=lam Sol4:8
+41 | Si4b:8=ya- Si4b:8=ra- La4:8 Sol4:8=lı- (La4)Sol4:8 Fa4#:8
+42 | Sol4:4.=yam/ Si4b:8 Do5:8 Re5:8
+[Aranağme]
+43 | Re5:4 Mi5b:8 Re5:8 Do5:8 Si4b:8
+44 | Do5:4 Re5:8 Do5:8 Si4b:8 La4:8
+45 | Si4b:4 Do5:8 Si4b:8 La4:8 Sol4:8
+46 | Si4b:8 La4:8 Sol4:8 La4:8 Sol4:8 Fa4#:8
+47 | Sol4:8 La4:8 Si4b:8 Do5:8 Re5:4
+[Aranağme]
+48 | Re5:4 Mi5b:8 Re5:8 Do5:8 Si4b:8
+49 | Do5:4 Re5:8 Do5:8 Si4b:8 La4:8
+50 | Si4b:4 Do5:8 Si4b:8 La4:8 Sol4:8
+51 | Si4b:8 La4:8 Sol4:8 La4:8 Sol4:8 Fa4#:8
+52 | Sol4:4. Do5:16 Re5:16 Mi5b:16 Fa5#:16 Sol5:16 Mi5b:16
+[Söz]
+53 | Re5:4=A- Re5:8=man Re5:4.=av-
+54 | Sol5:4.=cı Sol5:8 Fa5#:8 Mi5b:8
+55 | Fa5#:4=vur- Sol5:8=ma Fa5#:8=be- Mi5b:8 Re5:8
+56 | Re5:4=ni/ Mi5b:8 Re5:8 Do5:8 Si4b:8
+57 | Re5:4=Ben Re5:8=bu Do5:8=da- Si4b:8 La4:8
+58 | Do5:8=ğın Do5:4=ay Si4b:8=ba- La4:8=lam Sol4:8
+59 | Si4b:8=ma- Si4b:8=ra- La4:8 Sol4:4=lı- Fa4#:8
+60 | Sol4:4.=yam/ Do5:16 Re5:16 Mi5b:16 Fa5#:16 Sol5:16 Mi5b:16
+61 | Re5:4=A- Re5:8=man Re5:4.=av-
+62 | Sol5:4.=cı Sol5:8 Fa5#:8 Mi5b:8
+63 | Fa5#:4=vur- Sol5:8=ma Fa5#:8=be- Mi5b:8 Re5:8
+64 | Re5:4=ni/ Mi5b:8 Re5:8 Do5:8 Si4b:8
+65 | Re5:4=Ben Re5:8=bu Do5:8=da- Si4b:8 La4:8
+66 | Do5:8=ğın Do5:4=ay Si4b:8=ba- La4:8=lam Sol4:8
+67 | Si4b:8=ma- Si4b:8=ra- La4:8 Sol4:4=lı- Fa4#:8
+68 | Sol4:4.=yam/ Do5:16 Re5:16 Mi5b:16 Fa5#:16 Sol5:16 Mi5b:16
+69 | Re5:4=Hem Re5:8=ma- Re5:8=ra- (Mi5b)Re5:8 Do5:8
+70 | Do5:8=lı Si4b:8 Do5:8 Si4b:4 La4:8
+71 | Do5:4=hem Do5:8=ya- Do5:8=ra- Si4b:8 La4:8
+72 | Do5:8=lı/ Si4b:8 Do5:8 Si4b:4 La4:8
+73 | Do5:4=Av- Do5:8=cı Do5:8=vur- Si4b:8 La4:8
+74 | Re5:8=muş Re5:4=ay Si4b:8=ba- La4:8=lam Sol4:8
+75 | Si4b:8=ya- Si4b:8=ra- La4:8 Sol4:8=lı- (La4)Sol4:8 Fa4#:8
+76 | Sol4:4.=yam/ Es:4.

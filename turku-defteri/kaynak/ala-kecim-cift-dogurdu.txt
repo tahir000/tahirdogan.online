@@ -1,0 +1,19 @@
+ad: Ala Keçim Çift Doğurdu
+yore: 
+usul: 4/4
+usul-adi: Sofyan
+tempo: 72
+dizi: Segah
+karar: Si bemol 2
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, segah--turku--sofyan--ana_beni--
+---
+[Söz]
+1 | Es:8 Re5:16=A-* Re5:16=la* Re5:16=ke-* Re5:8.=çim* Re5:8=çift* Do5:16=do-* Re5:16=ğur-* Do5:8=du/* Si4b2:8
+2 | Es:8 Re5:16=Bol* Re5:16=et-* Re5:8=tik* Re5:8=sü-* Re5:16=tü* Re5:16=yo-* Do5:16 Re5:16 Do5:8=ğur-* Si4b2:8=du/*
+3 | Es:8 Sol5:16=Gön-* Fa5#3:16=lü-* Sol5:16=me* Mi5b2:8=hül-* Re5:16 Re5:16=ya-* Mi5b2:8=lar* Re5:16 Mi5b2:16=dol-* Do5:16 Re5:8=du/*
+4 | Re5:8=Ah* Do5:16=a-* Re5:16=na* Do5:8=be-* Si4b2:16=ni* Re5:16 Do5:16=e-* Do5:8=ver-* Si4b2:16 Do5:8=se-* Si4b2:8=ne/*
+5 | Mi5b2:8=A-* Re5:16=na* Mi5b2:16 Do5:8=be-* Si4b2:16=ni* Re5:16 Do5:16=e-* Do5:8=ver-* Si4b2:16 Do5:8=se-* Si4b2:8=ne/*

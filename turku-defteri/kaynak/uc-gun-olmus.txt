@@ -1,0 +1,48 @@
+ad: Üç Gün Olmuş
+yore: 
+usul: 4/4
+usul-adi: Sofyan
+tempo: 84
+dizi: Zavil
+karar: Sol
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, zavil--turku--sofyan--uc_gun--
+---
+[Aranağme]
+1 | Si4b:8 (Do5)Si4b:16 La4:16 Sol4:8 Fa4#:8 Sol4:4. La4:8
+2 | Si4b:8 Si4b:16 La4:16 Sol4:8 Fa4#:8 Sol4:4 Es:4
+3 | Si4b:8 (Do5)Si4b:16 La4:16 Sol4:8 Fa4#:8 Sol4:4. La4:8
+4 | Si4b:8 Si4b:16 La4:16 Sol4:8 Fa4#:8 Sol4:4 Es:4
+[Aranağme]
+5 | Si4b:8 (Do5)Si4b:16 La4:16 Sol4:8 Fa4#:8 Sol4:4. La4:8
+6 | Si4b:8 Si4b:16 La4:16 Sol4:8 Fa4#:8 Sol4:4 Es:4
+7 | Si4b:8 (Do5)Si4b:16 La4:16 Sol4:8 Fa4#:8 Sol4:4. La4:8
+8 | Si4b:8 Si4b:16 La4:16 Sol4:8 Fa4#:8 Sol4:8 Re5:8 Mi5:8 Fa5#:8
+[Söz]
+9 | Sol5:4=A- Sol5:8 Fa5#:8 Mi5:8 Fa5#:8 Sol5:16 La5:16 Fa5#:16 La5:16
+10 | Sol5:1=man
+11 | Mi5:8.=üç Fa5#:16 Sol5:8=gün La5:8 Fa5#:8=ol- Sol5:4.=muş
+12 | Mi5:8=bu Fa5#:8 Sol5:8=yay- La5:8 Fa5#:8=la- Sol5:4.=dan
+13 | Mi5:8=ge- Fa5#:8 Sol5:8=çe- La5:8 Fa5#:8=li/ Sol5:4.
+14 | Fa5#:8=Pı- Fa5#:4.=nar- Fa5#:4=lar- Fa5#:4=dan
+15 | Mi5:4=so- Fa5#:8=ğuk Sol5:8 La5:8=su- Sol5:8 Fa5#:8 Mi5:8
+16 | Re5:2=lar Es:2
+17 | La5:4=i- Sol5:8=çe- Fa5#:8 Fa5#:8 Mi5:8 Sol5:16 Fa5#:16 Mi5:8
+18 | Mi5:7/8=li/ Re5:8
+19 | Re5:8=A- Mi5b2:8=man Re5:8 Do5:8 Re5:8=a- Mi5b2:8=man Re5:8 Do5:8
+20 | Re5:8=a- Mi5b2:16=man Fa5#3:16 Mi5b2:8 Re5:8 Re5:2=hey/
+21 | Re5:8=Al- Mi5:8 Mi5:8=nı Mi5:8=da Mi5:4=top Mi5:4=kâ-
+22 | Re5:8=kül- Mi5:8 Mi5:8=lü Mi5:8=de Mi5:8=yü- Mi5:4.=zü
+23 | Re5:8=pe- Mi5:4=çe- La5:8 Sol5:8=li/ Fa5:8 Mi5:8 Re5:8
+24 | Re5:4=Çek- Mi5b2:16=miş Re5:16 Do5:8 Re5:8=gi- Re5:4.=der
+25 | Re5:4=yay- Re5:4=la- Re5:8=sı- Mi5b2:16=na Re5:16 Do5:16 Si4b2:16 Do5:8
+26 | Mi5b2:8.=bin Re5:16 Do5:8=gül- Si4b2:8 Do5:2=lü
+27 | Do5:8=hı- Sol5:4.=ra- Mi5b:8. Re5:16 Do5:8 Si4:8
+28 | Do5:1=yı/
+29 | Si4:4=Eğ- Si4:4=len Re5:2=gel
+30 | La4:4=sal- La4:4=lan La4:8=gel Do5:8 Si4b:8 La4:8
+31 | Si4b:8.=gel La4:16 Sol4:8 Fa4#:8=a- Sol4:4.=man La4:8=a-
+32 | Si4b:8.=man La4:16 Sol4:8 Fa4#:8=a- Sol4:2=man/

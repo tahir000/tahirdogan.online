@@ -1,0 +1,35 @@
+ad: Çarşamba'yı Sel Aldı
+yore: 
+usul: 5/4
+usul-adi: Türkaksağı (5/4)
+tempo: 51
+dizi: Hicaz
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, hicaz--turku--turkaksagi--carsambayi_sel--
+---
+[Söz]
+1 | Es:8 Do5#:16=Çar- Re5:16=şam- Mi5:16=ba- Mi5:8.=yı Mi5:16=sel Fa5#:16=al- Sol5:16 Fa5#:16 Sol5:8=dı/ Fa5:16 Mi5:16 Fa5:16. Mi5:32 Re5:8
+{usul 8/8 Düyek}
+2 | Mi5:16=Bir Fa5:16 Fa5:16=yâr Mi5:16 Fa5:8 Mi5:16 Re5:16 Mi5:8=sev- Re5:16=dim Do5#:16 Re5:16. Do5#:32 Si4b:8
+3 | Do5#:16=el Re5:16 Re5:16=al- Do5#:16 Re5:8 Do5#:16 Si4b:16 Do5#:8=dı Si4b:16=a- La4:16=man Si4b:16=a- La4:8.=man/
+4 | Do5#:16=Bir Re5:16 Re5:16=yâr Do5#:16 Re5:8 Do5#:16 Si4b:16 Do5#:8=sev- Si4b:16=dim La4:16 Si4b:8 La4:8
+5 | Do5#:32=el Si4b:16 La4:32 La4:4.=al- La4:8.=dı/ Re5:16 Do5#:16 Re5:16 Mi5:8
+{usul 5/4 S. Türkaksağı}
+6 | Es:8 Do5#:16=Keş- Re5:16=ke Mi5:8=sev- Mi5:8=mez Mi5:16=o- Fa5#:16=lay- Sol5:16 Fa5#:16 Sol5:8=dım/ Fa5:16 Mi5:16 Fa5:16. Mi5:32 Re5:8
+{usul 8/8 Düyek}
+7 | Mi5:16=E- Fa5:16 Fa5:16=lim Mi5:16 Fa5:8 Mi5:16 Re5:16 Mi5:8=koy- Re5:16=num- Do5#:16 Re5:16. Do5#:32 Si4b:8
+8 | Do5#:16=da Re5:16 Re5:16=kal- Do5#:16 Re5:8 Do5#:16 Si4b:16 Do5#:8=dı Si4b:16=a- La4:16=man Si4b:16=a- La4:8.=man/
+9 | Do5#:16=E- Re5:16 Re5:16=lim Do5#:16 Re5:8 Do5#:16 Si4b:16 Do5#:8=koy- Si4b:16=num- La4:16 Si4b:8 La4:8
+10 | Do5#:32=da Si4b:16 La4:32 La4:4.=kal- La4:8.=dı/ La4:16 La4:16 La4:16 La4:8
+11 | Mi5:8=Oy Fa5:16=ney Mi5:16 Fa5:8 Mi5:16 Re5:16 Mi5:8=i- Re5:16=miş Do5#:16 Re5:16. Do5#:32 Si4b:8
+12 | Do5#:16=ney Re5:16 Re5:16=i- Do5#:16 Re5:8 Do5#:16 Si4b:16 Do5#:8=miş Si4b:16=a- La4:16=man Si4b:16=a- La4:8.=man/
+13 | Do5#:16=Ka- Re5:16 Re5:16=de- Do5#:16 Re5:8 Do5#:16 Si4b:16 Do5#:8=rim Si4b:16=böy- La4:16 Si4b:8 La4:8
+14 | Do5#:32=le- Si4b:16 La4:32 La4:4.=yi- La4:8.=miş/ La4:16 La4:16 La4:16 La4:8
+15 | Mi5:8=Giz- Fa5:16=li Mi5:16 Fa5:8 Mi5:16 Re5:16 Mi5:8=sev- Re5:16=dâ Do5#:16 Re5:16. Do5#:32 Si4b:8
+16 | Do5#:16=çek- Re5:16 Re5:16=me- Do5#:16 Re5:8 Do5#:16 Si4b:16 Do5#:8=si Si4b:16=a- La4:16=man Si4b:16=a- La4:8.=man/
+17 | Do5#:16=A- Re5:16 Re5:16=teş- Do5#:16 Re5:8 Do5#:16 Si4b:16 Do5#:8=ten Si4b:16=göm- La4:16 Si4b:16 La4:16 La4:8
+18 | Do5#:32=le- Si4b:16 La4:32 La4:4.=ği- La4:8.=miş/ La4:16 La4:16 La4:16 La4:8

@@ -84,12 +84,18 @@
 
   // ---- Türkü verisi ----
   var dizin = TD.dizin || [];
-  dene('dizinde 5 türkü var', dizin.length === 5, String(dizin.length));
+  dene('dizinde en az 200 türkü var', dizin.length >= 200, String(dizin.length));
+  dene('ilk denenecek beş türkü işaretli', dizin.filter(function (k) { return k.pilot; }).length === 5);
+  var kimlikler = {};
+  dizin.forEach(function (k) { kimlikler[k.id] = (kimlikler[k.id] || 0) + 1; });
+  dene('türkü kimlikleri tekil', Object.keys(kimlikler).length === dizin.length);
+  var sozsuz = [];
   dizin.forEach(function (kayit) {
     var t = TD.turkuler && TD.turkuler[kayit.id];
     dene(kayit.id + ': veri yüklü', !!t);
     if (!t) return;
-    var olcuBoyu = t.usul.pay / t.usul.payda;
+    var toplamBoy = 0;
+    t.olculer.forEach(function (o, i) { toplamBoy += P.olcuBoyu(t, i); });
     dene(kayit.id + ': dizindeki ölçü ve kıta sayısı veriyle aynı', kayit.olcu === t.olculer.length && kayit.kita === t.kita);
     var kotu = [], perdesiz = [], toplamNota = 0;
     for (var k = 1; k <= t.kita; k++) {
@@ -101,21 +107,37 @@
         (n.carpma || []).forEach(function (c) { if (!P.konum(c)) perdesiz.push('çarpma ' + c); });
       });
       Object.keys(olcuToplam).forEach(function (o) {
-        if (!yakin(olcuToplam[o], olcuBoyu, 1e-9)) kotu.push('kıta ' + k + ' ölçü ' + (parseInt(o, 10) + 1));
+        if (!yakin(olcuToplam[o], P.olcuBoyu(t, parseInt(o, 10)), 1e-9)) kotu.push('kıta ' + k + ' ölçü ' + (parseInt(o, 10) + 1));
       });
       if (k === 1) toplamNota = liste.length;
       var sonNota = liste[liste.length - 1];
-      dene(kayit.id + ': ' + k + '. kıtanın toplam süresi ölçü sayısına eşit', yakin(sonNota.bas + sonNota.sure, t.olculer.length * olcuBoyu, 1e-9));
+      dene(kayit.id + ': ' + k + '. kıtanın toplam süresi ölçülerin toplamına eşit', yakin(sonNota.bas + sonNota.sure, toplamBoy, 1e-9));
     }
     dene(kayit.id + ': her ölçü usule tam oturuyor', kotu.length === 0, kotu.join(', '));
     dene(kayit.id + ': her notanın sapta perdesi var', perdesiz.length === 0, perdesiz.join(', '));
     dene(kayit.id + ': en az 20 nota var', toplamNota >= 20, String(toplamNota));
-    dene(kayit.id + ': söz var', P.sozMetni(t, 1).length > 0);
+    if (!P.sozMetni(t, 1).length) sozsuz.push(kayit.id);
+    var vurusHatasi = [];
+    t.olculer.forEach(function (o, i) {
+      var v = P.vuruslar(t, i);
+      if (!v.length || v[0] !== 0 || v[v.length - 1] >= P.olcuBoyu(t, i)) vurusHatasi.push(i + 1);
+    });
+    dene(kayit.id + ': vuruş başları ölçünün içinde', vurusHatasi.length === 0, vurusHatasi.join(', '));
     dene(kayit.id + ': kaynak ve taslak durumu yazılı', !!t.kaynak && (t.durum === 'taslak' || t.durum === 'onayli'));
-    if (t.usul.kalip) dene(kayit.id + ': vuruş kalıbı usule eşit', t.usul.kalip.reduce(function (a, b) { return a + b; }, 0) / 8 === olcuBoyu);
+    if (t.usul.kalip) dene(kayit.id + ': vuruş kalıbı usule eşit', t.usul.kalip.reduce(function (a, b) { return a + b; }, 0) / 8 === t.usul.pay / t.usul.payda);
     var harfHatasi = /[âîûÂÎÛ—]/.test(JSON.stringify([t.ad, t.yore, t.usul.ad, t.dizi]));
     dene(kayit.id + ': künyede şapkalı harf ve uzun çizgi yok', !harfHatasi);
   });
+
+  dene('sözü olmayan türkü sayısı az (en çok 10)', sozsuz.length <= 10, sozsuz.join(', '));
+
+  // ---- Usul ve vuruş ----
+  function sahteUsul(pay, payda, kalip) { return { usul: { pay: pay, payda: payda, kalip: kalip }, olculer: [{ n: [] }, { n: [], u: [6, 4] }] }; }
+  dene('vuruş: kalıbı olan usul (curcuna 3+2+2+3)', P.vuruslar(sahteUsul(10, 8, [3, 2, 2, 3]), 0).join() === [0, 3 / 8, 5 / 8, 7 / 8].join());
+  dene('vuruş: kalıbı bilinmeyen 7/8 ikişerli, son grup üçlü', P.vuruslar(sahteUsul(7, 8), 0).join() === [0, 2 / 8, 4 / 8].join());
+  dene('vuruş: 6/8 üçerli', P.vuruslar(sahteUsul(6, 8), 0).join() === [0, 3 / 8].join());
+  dene('vuruş: 2/4 dörtlük dörtlük', P.vuruslar(sahteUsul(2, 4), 0).join() === [0, 1 / 4].join());
+  dene('usulü değişen ölçü kendi usulünü kullanır', P.olcuBoyu(sahteUsul(2, 4), 1) === 1.5 && P.vuruslar(sahteUsul(2, 4), 1).length === 6);
 
   // ---- Sıralama ve bağ ----
   var sahte = { usul: { pay: 2, payda: 4 }, kita: 2, olculer: [
@@ -125,7 +147,7 @@
   var s1 = P.sirala(sahte, 1), s2 = P.sirala(sahte, 2);
   dene('sıralama: 1. kıta 4 nota, 2. kıta 3 nota (kıtaya özel ölçü)', s1.length === 4 && s2.length === 3);
   dene('sıralama: bağlı nota işaretli', s1[1].bag && s1[2].bagli && !s1[3].bagli);
-  dene('sıralama: başlangıç zamanları', s1[2].bas === 0.5 && s1[3].bas === 0.75);
+  dene('sıralama: başlangıç zamanları', s1[2].bas === 0.5 && s1[3].bas === 0.75 && s1[3].olcuBas === 0.5 && s1[1].olcuBas === 0);
   dene('sıralama: kıta heceleri', s1[0].hece === 'bir-' && s2[0].hece === 'iki-' && s2[2].hece === 'son/');
   dene('söz metni heceleri birleştirir', P.sozMetni(sahte, 2).join('|') === 'ikison', P.sozMetni(sahte, 2).join('|'));
 

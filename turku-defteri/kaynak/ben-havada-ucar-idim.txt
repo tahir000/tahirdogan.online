@@ -1,0 +1,41 @@
+ad: Ben Havada Uçar İdim
+yore: 
+usul: 9/8
+usul-adi: Aksak
+kalip: 2+2+2+3
+tempo: 83
+dizi: Eviç Huzi
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, evchuzi--turku--aksak--ben_havada--
+---
+[Aranağme]
+1 | Mi5:8 Re5:16 Do5:16 Si4b2:8 Do5:8 Re5:4 Sol5:16 Sol5:16 Fa5:16 Mi5:16 Re5:8
+2 | Mi5:16 Re5:16 Do5:16 Si4b2:16 La4:8 Mi5:8 Mi5:4 Mi5:4 Re5:8
+3 | Re5:4 Mi5b2:16 Re5:16 Do5:8 Re5:4 Re5:8 Mi5:16 Re5:16 Do5:8
+4 | Do5:8. Si4b2:16 Si4b2:8 Si4b2:16 La4:16 La4:4 Mi5:4 Re5:8
+[Aranağme]
+5 | Mi5:8 Re5:16 Do5:16 Si4b2:8 Do5:8 Re5:4 Sol5:16 Sol5:16 Fa5:16 Mi5:16 Re5:8
+6 | Mi5:16 Re5:16 Do5:16 Si4b2:16 La4:8 Mi5:8 Mi5:4 Mi5:4 Re5:8
+7 | Re5:4 Mi5b2:16 Re5:16 Do5:8 Re5:4 Re5:8 Mi5:16 Re5:16 Do5:8
+8 | Do5:8. Si4b2:16 Si4b2:8 Si4b2:16 La4:16 La4:4 Sol5:8 Fa5#:8 Mi5#:8
+[Söz]
+9 | Fa5#:4 Fa5#:8=Ben* Fa5#:8=ha-* Fa5#:8=va-* Fa5#:16 Mi5#:16 Fa5#:8=da* Sol5:8 La5:8
+10 | Fa5#:8=u-* Sol5:4=çar* Fa5#:8 Fa5#:8=i-* Fa5#:16 Mi5:16 Re5:4=dim/* Es:8
+11 | Do6:8.=Al* Si5b2:16 Si5b2:16=i-* La5:16 Sol5:8 Fa5#:16=le* Mi5:16 Re5:8 Mi5:8=tut-* Fa5#:8 Sol5:8
+12 | Fa5#:8.=tun* Mi5:16 Re5:8 Re5:8=be-* Re5:4=ni* Sol5:8 Fa5#:8 Mi5#:8=a-*
+13 | Fa5#:4=man/* Fa5#:8=Ben* Fa5#:8=ha-* Fa5#:8=va-* Fa5#:16 Mi5#:16 Fa5#:8=da* Sol5:8 La5:8
+14 | Fa5#:8=u-* Sol5:4=çar* Fa5#:8 Fa5#:8=i-* Fa5#:16 Mi5:16 Re5:4=dim/* Es:8
+15 | Do6:8.=Al* Si5b2:16 Si5b2:16=i-* La5:16 Sol5:8 Fa5#:16=le* Mi5:16 Re5:8 Mi5:8=tut-* Fa5#:8 Sol5:8
+16 | Fa5#:8.=tun* Mi5:16 Re5:8 Re5:8=be-* Re5:4=ni* Mi5:4 Re5:8=a-*
+17 | Mi5:4=man/* Re5:8=Ben* Mi5:8=pa-* Mi5:4=hâ-* Sol5:16=mı* Sol5:16 Fa5:16 Mi5:16 Re5:8
+18 | Re5:8=bi-* Do5:16 Si4b2:16 La4:8 Mi5:8=lir* Mi5:4=i-* Mi5:4=dim/* Re5:8
+19 | Re5:4=Bir* Mi5b2:16=pu-* Re5:16 Do5:8 Re5:4=la* Re5:8=sat-* Mi5b2:16 Re5:16 Do5:8
+20 | Do5:8.=tın* Si4b2:16 Si4b2:8 Si4b2:16=be-* La4:16 La4:4=ni* Mi5:4 Re5:8=a-*
+21 | Mi5:4=man/* Re5:8=Ben* Mi5:8=pa-* Mi5:4=hâ-* Sol5:16=mı* Sol5:16 Fa5:16 Mi5:16 Re5:8
+22 | Re5:8=bi-* Do5:16 Si4b2:16 La4:8 Mi5:8=lir* Mi5:4=i-* Mi5:4=dim/* Re5:8
+23 | Re5:4=Bir* Mi5b2:16=pu-* Re5:16 Do5:8 Re5:4=la* Re5:8=sat-* Mi5b2:16 Re5:16 Do5:8
+24 | Do5:8.=tın* Si4b2:16 Si4b2:8 Si4b2:16=be-* La4:16 La4:2=ni/* Es:8

@@ -30,28 +30,69 @@
   var uyanik = null;
 
   // ---- Liste ---------------------------------------------------------------------
-  var ZORLUK = { kolay: 'kolay', orta: 'orta', zor: 'zor' };
+  var suzgec = { ara: '', usul: '', zorluk: '' };
+  var listeKaydirma = 0;
+  var sirala = (window.Intl && Intl.Collator) ? new Intl.Collator('tr').compare : function (a, b) { return a < b ? -1 : (a > b ? 1 : 0); };
+
+  // Aramada Türkçe harfler ve büyük küçük harf fark etmesin: "sari" da "Sarı"yı bulsun.
+  function duzlestir(metin) {
+    var cift = { 'ç': 'c', 'ğ': 'g', 'ı': 'i', 'ö': 'o', 'ş': 's', 'ü': 'u', 'â': 'a', 'î': 'i', 'û': 'u', 'i̇': 'i' };
+    return metin.toLocaleLowerCase('tr').replace(/i̇|[çğıöşüâîû]/g, function (h) { return cift[h]; }).replace(/[^a-z0-9]+/g, ' ').trim();
+  }
+
+  function satirYap(t) {
+    var li = el('li');
+    var a = el('a', 'satir');
+    a.href = '#/' + t.id;
+    a.appendChild(el('b', '', t.ad));
+    var parcalar = [];
+    if (t.yore) parcalar.push(t.yore);
+    parcalar.push(t.usul + (t.usulAdi ? ' ' + t.usulAdi.toLocaleLowerCase('tr') : ''));
+    if (t.dizi) parcalar.push(t.dizi.toLocaleLowerCase('tr'));
+    parcalar.push(t.zorluk);
+    a.appendChild(el('span', '', parcalar.join(' · ')));
+    var ok = el('i', '', '›');
+    ok.setAttribute('aria-hidden', 'true');
+    a.appendChild(ok);
+    li.appendChild(a);
+    return li;
+  }
+
+  function listeKur() {
+    var dizin = TD.dizin || [];
+    var pilotlar = dizin.filter(function (t) { return t.pilot; });
+    var ul = $('pilot-listesi');
+    ul.textContent = '';
+    pilotlar.sort(function (a, b) { return sirala(a.ad, b.ad); }).forEach(function (t) { ul.appendChild(satirYap(t)); });
+    $('pilot-bolum').hidden = !pilotlar.length;
+    // Usul seçenekleri: en çok türküsü olan başta
+    var sayim = {};
+    dizin.forEach(function (t) { sayim[t.usul] = (sayim[t.usul] || 0) + 1; });
+    var secim = $('s-usul');
+    Object.keys(sayim).sort(function (a, b) { return sayim[b] - sayim[a] || sirala(a, b); }).forEach(function (u) {
+      var o = el('option', '', u + ' (' + sayim[u] + ')');
+      o.value = u;
+      secim.appendChild(o);
+    });
+    dizin.forEach(function (t) { t._ara = duzlestir([t.ad, t.yore, t.dizi, t.usulAdi, t.usul].join(' ')); });
+    listeCiz();
+  }
+
   function listeCiz() {
     var ul = $('turku-listesi');
     ul.textContent = '';
-    (TD.dizin || []).forEach(function (t) {
-      var li = el('li');
-      var a = el('a', 'satir');
-      a.href = '#/' + t.id;
-      a.appendChild(el('b', '', t.ad));
-      var parcalar = [];
-      if (t.yore) parcalar.push(t.yore);
-      parcalar.push(t.usul + (t.usulAdi ? ' ' + t.usulAdi.toLowerCase() : ''));
-      parcalar.push(t.olcu + ' ölçü');
-      if (ZORLUK[t.zorluk]) parcalar.push(ZORLUK[t.zorluk]);
-      a.appendChild(el('span', '', parcalar.join(' · ')));
-      var ok = el('i', '', '›');
-      ok.setAttribute('aria-hidden', 'true');
-      a.appendChild(ok);
-      li.appendChild(a);
-      ul.appendChild(li);
-    });
-    $('liste-notu').textContent = (TD.dizin || []).length + ' türkü. Yenileri eklendikçe burada görünür.';
+    var kelimeler = duzlestir(suzgec.ara).split(' ').filter(Boolean);
+    var uyan = (TD.dizin || []).filter(function (t) {
+      if (suzgec.usul && t.usul !== suzgec.usul) return false;
+      if (suzgec.zorluk && t.zorluk !== suzgec.zorluk) return false;
+      return kelimeler.every(function (k) { return t._ara.indexOf(k) >= 0; });
+    }).sort(function (a, b) { return sirala(a.ad, b.ad); });
+    var parca = document.createDocumentFragment();
+    uyan.forEach(function (t) { parca.appendChild(satirYap(t)); });
+    ul.appendChild(parca);
+    var toplam = (TD.dizin || []).length;
+    $('liste-notu').textContent = uyan.length === toplam ? toplam + ' türkü' :
+      (uyan.length ? toplam + ' türküden ' + uyan.length + ' tanesi' : 'Bu aramaya uyan türkü yok.');
   }
 
   // ---- Nota hücresi --------------------------------------------------------------
@@ -59,10 +100,12 @@
   function sureIsareti(s) {
     var k = s[0] + '/' + s[1];
     var tablo = {
-      '1/4': [0, 0, 0], '1/8': [1, 0, 0], '1/16': [2, 0, 0], '1/32': [3, 0, 0],
+      '1/4': [0, 0, 0], '1/8': [1, 0, 0], '1/16': [2, 0, 0], '1/32': [3, 0, 0], '1/64': [4, 0, 0], '3/64': [3, 1, 0],
       '3/8': [0, 1, 0], '3/16': [1, 1, 0], '3/32': [2, 1, 0],
       '1/2': [0, 0, 1], '3/4': [0, 0, 2], '1/1': [0, 0, 3]
     };
+    var uclu = { '1/6': 0, '1/12': 1, '1/24': 2, '1/48': 3 };
+    if (uclu[k] !== undefined) return { cizgi: uclu[k], nokta: false, uzatma: 0, yazi: '\u00b3' };
     var t = tablo[k];
     if (!t) return { cizgi: 0, nokta: false, uzatma: 0, yazi: k };
     return { cizgi: t[0], nokta: !!t[1], uzatma: t[2], yazi: '' };
@@ -113,7 +156,8 @@
       adYaz(ust, n.ad);
       b.setAttribute('aria-label', P.okunus(n.ad) + ', ' + konumMetni(n.ad) + ', ' + P.sureAdi(n.s) + (n.bagli ? ', öncekine bağlı' : ''));
     }
-    var ek = (isaret.nokta ? '·' : '') + new Array(isaret.uzatma + 1).join(' –') + (isaret.yazi ? ' ' + isaret.yazi : '');
+    var ek = (isaret.nokta ? '·' : '') + new Array(isaret.uzatma + 1).join(' –') +
+      (isaret.yazi ? (isaret.yazi.length > 1 ? ' ' : '') + isaret.yazi : '');
     if (ek) ust.appendChild(el('span', 'ek', ek));
     b.appendChild(ust);
     var sure = el('span', 'sure');
@@ -131,14 +175,6 @@
   }
 
   // ---- Türkü sayfası -------------------------------------------------------------
-  function vurusSinirlari(turku) {
-    var u = turku.usul, liste = [], t = 0, i;
-    if (u.kalip) for (i = 0; i < u.kalip.length; i++) { liste.push(t); t += u.kalip[i] / 8; }
-    else if (u.payda === 8 && u.pay % 3 === 0) for (i = 0; i < u.pay / 3; i++) liste.push(i * 3 / 8);
-    else for (i = 0; i < u.pay; i++) liste.push(i / u.payda);
-    return liste;
-  }
-
   // Ölçü tek satıra sığmıyorsa: az taşıyorsa hücreler daraltılır, çok taşıyorsa ölçü
   // ortasına en yakın vuruş başından ikiye bölünür (tek nota alt satırda kalmasın diye).
   function olcuSigdir(satir, genislik) {
@@ -170,12 +206,12 @@
     durum.genislik = kap.clientWidth;
     notaDugmeleri = [];
     olcuKutulari = [];
-    var sinirlar = vurusSinirlari(t);
-    var olcuBoyu = t.usul.pay / t.usul.payda;
+    var sinirlar = [];
     var simdiki = null, olcuNo = -1;
     calici.liste.forEach(function (n) {
       if (n.olcu !== olcuNo) {
         olcuNo = n.olcu;
+        sinirlar = P.vuruslar(t, olcuNo);
         var kutu = el('section', 'olcu');
         kutu.setAttribute('data-olcu', olcuNo);
         var ust = el('div', 'olcu-ust');
@@ -183,14 +219,20 @@
         no.type = 'button';
         no.setAttribute('aria-label', (olcuNo + 1) + '. ölçü, döngüye al');
         ust.appendChild(no);
-        if (t.olculer[olcuNo].b) ust.appendChild(el('span', 'bolum-adi', t.olculer[olcuNo].b));
+        var etiket = [];
+        if (t.olculer[olcuNo].b) etiket.push(t.olculer[olcuNo].b);
+        if (t.degisken && (olcuNo === 0 || (t.olculer[olcuNo].u || []).join('/') !== (t.olculer[olcuNo - 1].u || []).join('/'))) {
+          var u = P.olcuUsulu(t, olcuNo);
+          etiket.push(u.pay + '/' + u.payda);
+        }
+        if (etiket.length) ust.appendChild(el('span', 'bolum-adi', etiket.join(' · ')));
         kutu.appendChild(ust);
         simdiki = el('div', 'notalar');
         kutu.appendChild(simdiki);
         kap.appendChild(kutu);
         olcuKutulari[olcuNo] = kutu;
       }
-      var olcuIci = n.bas - olcuNo * olcuBoyu;
+      var olcuIci = n.bas - n.olcuBas;
       var basta = n.sira > 0 && sinirlar.some(function (s) { return Math.abs(s - olcuIci) < 1e-6; });
       var hucre = notaHucresi(n, basta);
       notaDugmeleri[n.i] = hucre;
@@ -263,8 +305,9 @@
     $('t-ad').textContent = t.ad;
     var kunye = [];
     if (t.yore) kunye.push(t.yore);
-    kunye.push(t.usul.pay + '/' + t.usul.payda + (t.usul.ad ? ' ' + t.usul.ad.toLowerCase() : ''));
-    if (t.dizi) kunye.push(t.dizi.toLowerCase() + ', ' + t.karar.toLowerCase() + ' kararlı');
+    kunye.push(t.usul.pay + '/' + t.usul.payda + (t.usul.ad ? ' ' + t.usul.ad.toLocaleLowerCase('tr') : '') + (t.degisken ? ' (ölçü değişiyor)' : ''));
+    if (t.dizi) kunye.push(t.dizi.toLocaleLowerCase('tr') + ', ' + t.karar.toLocaleLowerCase('tr') + ' kararlı');
+    else kunye.push(t.karar.toLocaleLowerCase('tr') + ' kararlı');
     kunye.push('bozuk düzen');
     kunye.push('dörtlük ' + t.tempo);
     $('t-kunye').textContent = kunye.join(' · ');
@@ -291,6 +334,7 @@
     var kayit = null;
     (TD.dizin || []).forEach(function (t) { if (t.id === id) kayit = t; });
     if (!kayit) { location.hash = '#/'; return; }
+    if (!$('liste').hidden) listeKaydirma = window.pageYOffset;
     if (TD.turkuler && TD.turkuler[id]) { turkuGoster(id); return; }
     TD.yuklendi = function (gelen) { if (gelen === id && location.hash === '#/' + id) turkuGoster(id); };
     var s = document.createElement('script');
@@ -308,7 +352,7 @@
     $('turku').hidden = true;
     $('liste').hidden = false;
     document.body.style.paddingBottom = '';
-    window.scrollTo(0, 0);
+    window.scrollTo(0, listeKaydirma);
   }
 
   function yonlendir() {
@@ -579,11 +623,14 @@
       }, 120);
     });
     window.addEventListener('hashchange', yonlendir);
+    $('ara').addEventListener('input', function () { suzgec.ara = this.value; listeCiz(); });
+    $('s-usul').addEventListener('change', function () { suzgec.usul = this.value; listeCiz(); });
+    $('s-zorluk').addEventListener('change', function () { suzgec.zorluk = this.value; listeCiz(); });
   }
 
   TD.arayuz = { sureIsareti: sureIsareti, calici: calici };
   if (document.getElementById('turku-listesi')) {
-    listeCiz();
+    listeKur();
     bagla();
     yonlendir();
   }

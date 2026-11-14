@@ -1,0 +1,42 @@
+ad: Bülbülün Göğsü Al Olur
+yore: Urfa
+usul: 4/4
+usul-adi: Sofyan
+tempo: 66
+dizi: Hicaz Hümayun
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, hicaz_humayun--turku--sofyan--bulbulun_gogsu--urfa
+---
+[Aranağme]
+1 | Es:8 Re5:8 Re5:8 Re5:8 Re5:16. Do5#:32 Re5:16 Mi5:16 Re5:4
+2 | Re5:16. Do5#:32 Re5:16 Mi5:16 Do5#:8 Si4b:8 Do5#:4 Mi5:16 Re5:16 Do5#:16 Si4b:16
+3 | La4:8 Re5:8 Re5:8 Re5:8 Re5:16. Do5#:32 Re5:16 Mi5:16 Do5#:8 Si4b:8
+4 | Do5#:8 Si4b:16 Do5#:16 Mi5:16 Re5:16 Do5#:16 Si4b:16 La4:2
+[Aranağme]
+5 | Es:8 Re5:8 Re5:8 Re5:8 Re5:16. Do5#:32 Re5:16 Mi5:16 Re5:4
+6 | Re5:16. Do5#:32 Re5:16 Mi5:16 Do5#:8 Si4b:8 Do5#:4 Mi5:16 Re5:16 Do5#:16 Si4b:16
+7 | La4:8 Re5:8 Re5:8 Re5:8 Re5:16. Do5#:32 Re5:16 Mi5:16 Do5#:8 Si4b:8
+8 | Do5#:8 Si4b:16 Do5#:16 Mi5:16 Re5:16 Do5#:16 Si4b:16 La4:2
+[Söz]
+9 | Es:8 Mi5:8=Bül- Mi5:8=bü- Mi5:8=lün Mi5:4=göğ- Mi5:4=sü
+10 | Fa5:16=al Mi5:16 Re5:16 Mi5:16 Re5:8 (Mi5)Do5#:16=o- Re5:16 Mi5:8=lur/ Mi5:16 Fa5#3:16 Sol5:16 (La5)Sol5:16 (La5)Fa5#3:16 (Sol5)Mi5:16
+11 | (Fa5#3)Re5:8 Mi5:8=Bül- Mi5:8=bü- Mi5:8=lün Mi5:4=göğ- Mi5:4=sü
+12 | Fa5:16=al Mi5:16 Re5:16 Mi5:16 Re5:8 (Mi5)Do5#:16=o- Re5:16 Mi5:8=lur/ Mi5:16 Fa5#3:16 Sol5:16 (La5)Sol5:16 (La5)Fa5#3:16 (Sol5)Mi5:16
+13 | (Fa5#3)Re5:8 Mi5:16.=Ger- Fa5:32 Mi5:16=dan- Re5:16 Re5:8=da Do5#:16=çif- (Mi5)Re5:16 (Mi5)Re5:16 Do5#:16 Re5:8=te Es:8
+14 | Re5:32=hal Mi5:32 Re5:32 Do5#:32 Re5:16 Mi5:16 Re5:16 Do5#:16 Si4b:8=o- Do5#:4=lur Re5:8 Do5#:16=a- Si4b:16
+15 | La4:8=man/ Mi5:16.=Ger- Fa5:32 Mi5:16=dan- Re5:16 Re5:8=da Do5#:16=çif- (Mi5)Re5:16 (Mi5)Re5:16 Do5#:16 Re5:8=te Es:8
+16 | Re5:32=hal Mi5:32 Re5:32 Do5#:32 Re5:16 Mi5:16 Re5:16 Do5#:16 Si4b:8=o- Do5#:4=lur Re5:8 Do5#:16=a- Si4b:16
+17 | La4:4.=man/ Sol5:16 La5:16 Si5b:16 La5:16 Sol5:16 Fa5:16 Mi5:16 Re5:16 Do5#:16 Re5:16
+18 | Mi5:8 Mi5:8=Bül- Mi5:8=bül Mi5:8=on- Mi5:4=bir Mi5:4=ay
+19 | Fa5:16=lal Mi5:16 Re5:16 Mi5:16 Re5:8 (Mi5)Do5#:16=o- Re5:16 Mi5:8=lur/ Mi5:16 Fa5#3:16 Sol5:16 (La5)Sol5:16 (La5)Fa5#3:16 (Sol5)Mi5:16
+20 | (Fa5#3)Re5:8 Mi5:8=Bül- Mi5:8=bül Mi5:8=on- Mi5:4=bir Mi5:4=ay
+21 | Fa5:16=lal Mi5:16 Re5:16 Mi5:16 Re5:8 (Mi5)Do5#:16=o- Re5:16 Mi5:8=lur/ Mi5:16 Fa5#3:16 Sol5:16 (La5)Sol5:16 (La5)Fa5#3:16 (Sol5)Mi5:16
+22 | (Fa5#3)Re5:8 Mi5:16.=Gül Fa5:32 Mi5:16=a- Re5:16 Re5:8=çıl- Do5#:16=mış (Mi5)Re5:16 (Mi5)Re5:16 Do5#:16 Re5:8=gül- Re5:8
+23 | Re5:32=fa- Mi5:32 Re5:32 Do5#:32 Re5:16 Mi5:16 Re5:16 Do5#:16 Si4b:8=ma Do5#:4=gel Re5:8=gel Do5#:16=a- Si4b:16
+24 | La4:8=man/ Mi5:16.=Bu Fa5:32 Mi5:16=mec- Re5:16 Re5:8=li- Do5#:16=si (Mi5)Re5:16 (Mi5)Re5:16 Do5#:16 Re5:8=ir- Re5:8
+25 | Re5:32=fa- Mi5:32 Re5:32 Do5#:32 Re5:16 Mi5:16 Re5:16 Do5#:16 Si4b:8=na Do5#:4=gel Re5:8=gel Do5#:16=a- Si4b:16
+26 | La4:2.=man/ Es:4

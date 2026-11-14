@@ -1,0 +1,38 @@
+ad: Bahçeye İndim ki Gülleri Derem
+yore: 
+usul: 8/8
+usul-adi: Düyek
+tempo: 60
+dizi: Uşşak
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, ussak--turku--duyek--bahceye_indim_ki--
+---
+[Aranağme]
+1 | Es:8 Do5:16 Re5:16 Mi5:8 Mi5:16 Re5:16 Sol5:16 Fa5:16 Mi5:16 Re5:16 Do5:8 Si4b2:16 La4:16
+2 | La4:16 Si4b2:16 Do5:16 Re5:16 Do5:16 Si4b2:16 La4:16 Sol4:16 Re5:8. Re5:16 Re5:8 Re5:8
+3 | Es:8 Do5:16 Re5:16 Mi5:8 Mi5:16 Re5:16 Sol5:16 Fa5:16 Mi5:16 Re5:16 Do5:8 Si4b2:16 La4:16
+4 | La4:16 Si4b2:16 Do5:16 Re5:16 Do5:16 Si4b2:16 La4:16 Sol4:16 La4:8. La4:16 La4:8 La4:8
+[Aranağme]
+5 | Es:8 Do5:16 Re5:16 Mi5:8 Mi5:16 Re5:16 Sol5:16 Fa5:16 Mi5:16 Re5:16 Do5:8 Si4b2:16 La4:16
+6 | La4:16 Si4b2:16 Do5:16 Re5:16 Do5:16 Si4b2:16 La4:16 Sol4:16 Re5:8. Re5:16 Re5:8 Re5:8
+7 | Es:8 Do5:16 Re5:16 Mi5:8 Mi5:16 Re5:16 Sol5:16 Fa5:16 Mi5:16 Re5:16 Do5:8 Si4b2:16 La4:16
+8 | La4:16 Si4b2:16 Do5:16 Re5:16 Do5:16 Si4b2:16 La4:16 Sol4:16 La4:8. Sol4:16 Fa4#:16 Sol4:16 La4:8
+[Söz]
+9 | Es:8 Fa4#:16=Bah-* Sol4:16=çe-* La4:8=ye* La4:8=in-* La4:4=dim* La4:4=ki*
+10 | Sol4:8=gül-* Sol4:8=le-* Do5:8=ri* Si4b2:16=de-* La4:16 La4:8.=rem/* Sol4:16 Fa4#:16 Mi4:16 Re4:8
+11 | Es:8 Fa4#:16=Gü-* Sol4:16=lün* La4:8=ba-* La4:8=ha-* La4:8=ne-* La4:8=siy-* La4:4=le*
+12 | Sol4:8=yâ-* Sol4:8=ri-* Do5:8=mi* Si4b2:16=gö-* La4:16 La4:8.=rem/* Re5:16 Do5:16 Re5:16 Mi5:8
+13 | Es:8 Do5:16=Ö-* Re5:16=lüm* Mi5:8=u-* Mi5:8=cuz* Mi5:16=di-* Mi5:8.=yor-* Mi5:4=lar*
+14 | Mi5:8=kor-* Mi5:16=ka-* Re5:16 Sol5:16=rım* Fa5:16 Mi5:16=ö-* Re5:16 Re5:4.=lem/* Es:8
+15 | Fa5:7/8=Ah* Es:8
+16 | Fa5:16=ah* Mi5:16 Fa5:16 Sol5:16 Sol5:16 Fa5:16 Mi5:16 Re5:16 Mi5:16 Re5:16 Mi5:16 Fa5:16 Fa5:16 Mi5:16 Re5:16 Do5:16
+17 | Re5:16 Do5:16 Re5:16 Mi5:16 Mi5:16 Re5:16 Do5:16 Si4b2:16 Do5:16 Si4b2:16 Do5:16 Re5:16 Re5:16 Do5:16 Si4b2:16 La4:16
+18 | Sol4:8=kor-* Sol4:8=ka-* Do5:8=rım* Si4b2:16=ö-* La4:16 La4:2=lem/*
+19 | Es:8 Do5:16=Öl-* Re5:16=me-* Mi5:8=den* Mi5:16=yâ-* Re5:16 Sol5:16=ri-* Fa5:16 Mi5:16 Re5:16 Do5:8=mi* Si4b2:16 La4:16
+20 | Sol4:8=bir* Sol4:8=da-* Do5:8=ha* Si4b2:16=gö-* La4:16 La4:2=rem/*
+21 | Es:8 Do5:16=Öl-* Re5:16=me-* Mi5:8=den* Mi5:16=yâ-* Re5:16 Sol5:16=ri-* Fa5:16 Mi5:16 Re5:16 Do5:8=mi* Si4b2:16 La4:16
+22 | Sol4:8=bir* Sol4:8=da-* Do5:8=ha* Si4b2:16=gö-* La4:16 La4:2=rem/*

@@ -1,0 +1,28 @@
+ad: Ben Bir Altın Fenerim
+yore: Urfa
+usul: 3/4
+usul-adi: Semai
+tempo: 76
+dizi: Karcığar
+karar: La
+duzen: bozuk
+zorluk: zor
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, karcigar--turku--semai--ben_bir--urfa
+---
+[Söz]
+1 | Fa5#3:8=Ben;Er-;Ben;Er- Sol5:8=bir;bâ-;bir;bâ- La5:8=al-;bı-;al-;bı- Si5b:8 La5:8 Sol5:8
+2 | La5:8.=tın;na;tın;na Do6:16 Do6:16=fe-;düş-;fe-;düş- La5:8 Sol5:16 Sol5:16=ne-;me-;ne-;me- Fa5#3:16 Sol5:16 La5:16
+3 | Sol5:16. Fa5#3:32 Mi5b2:16 Re5:16 Re5:32=rim/;dim/;rim/;dim/ Mi5b2:32 Re5:32 Do5:32 Re5:16 Mi5b2:16 Re5:16 Do5:16 Re5:8
+4 | Fa5#3:8=Ben;Er-;Ben;Er- Sol5:8=bir;bâ-;bir;bâ- La5:8=al-;bı-;al-;bı- Si5b:8 La5:8 Sol5:8
+5 | La5:8.=tın;na;tın;na Do6:16 Do6:16=fe-;düş-;fe-;düş- La5:8 Sol5:16 Sol5:16=ne-;me-;ne-;me- Fa5#3:16 Sol5:16 La5:16
+6 | Sol5:16. Fa5#3:32 Mi5b2:16 Re5:16 Re5:32=rim/;dim/;rim/;dim/ Mi5b2:32 Re5:32 Do5:32 Re5:16 Mi5b2:16 Re5:16 Do5:16 Re5:8
+7 | La5:8=Ya-;Hâ-;Ya-;Hâ- Sol5:16 La5:16 Fa5#3:16 Sol5:16 La5:8=na;lâ;na;lâ Si5b:16=ya-;o-;ya-;o- La5:16 Sol5:16 La5:16
+8 | Sol5:16 Fa5#3:16 Mi5b2:16 Sol5:16 Fa5#3:16 Mi5b2:16 Re5:16 Fa5#3:16 Mi5b2:16 Re5:16 Do5:8=na*
+9 | Re5:8.=dö-;ya-;dö-;ya- Fa5:16=;na-;;na- Fa5:16=ne-;;ne- Mi5:8 Re5:16 Re5:16 Do5:16 Do5:16 Si4b2:16
+10 | Do5:16 Si4b2:16 Si4b2:16 La4:16 La4:2=rim/;rım/;rim/;rım/
+11 | La5:8=Ya-;Hâ-;Ya-;Hâ- Sol5:16 La5:16 Fa5#3:16 Sol5:16 La5:8=na;lâ;na;lâ Si5b:16=ya-;o-;ya-;o- La5:16 Sol5:16 La5:16
+12 | Sol5:16 Fa5#3:16 Mi5b2:16 Sol5:16 Fa5#3:16 Mi5b2:16 Re5:16 Fa5#3:16 Mi5b2:16 Re5:16 Do5:8=na*
+13 | Re5:8.=dö-;ya-;dö-;ya- Fa5:16=;na-;;na- Fa5:16=ne-;;ne- Mi5:8 Re5:16 Re5:16 Do5:16 Do5:16 Si4b2:16
+14 | Do5:16 Si4b2:16 Si4b2:16 La4:16 La4:2=rim/;rım/;rim/;rım/

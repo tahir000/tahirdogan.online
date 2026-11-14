@@ -1,0 +1,38 @@
+ad: Su Gelir Kütüğünden
+yore: Burdur
+usul: 9/16
+usul-adi: Raksaksağı II
+tempo: 111
+dizi: Muhayyer
+karar: La
+duzen: bozuk
+zorluk: zor
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, muhayyer--turku--raksaksagi_ii--su_gelir--burdur
+---
+[Söz]
+1 | Sol5:8=Su* La5:8=ge-* La5:16 La5:8=lir* La5:8=kü-*
+2 | La5:8=tü-* Sol5:8=ğün-* Fa5#3:16 Mi5:8=den/* Es:8
+3 | Do6:8=Su* Do6:8=ge-* Si5b2:16 La5:8=lir* La5:8=kü-*
+4 | La5:8=tü-* Sol5:8=ğün-* Fa5#3:16 Mi5:8=den/* Es:8
+5 | Mi5:8=İ-* Mi5:8=çil-* Sol5:16 Mi5b:16=mez* Re5:16 Do5:8=kö-*
+6 | Re5:8=pü-* (Mi5)Do5:8=ğün-* Si4b2:16 La4:8=den/* Es:8
+7 | Mi5:8=İ-* Mi5:8=çil-* Sol5:16 Mi5b:16=mez* Re5:16 Do5:8=kö-*
+8 | Re5:8=pü-* (Mi5)Do5:8=ğün-* Si4b2:16 La4:8=den/* Es:8
+9 | Sol5:8=Yı-* La5:8=lan* La5:16 La5:8=ol-* La5:8=sam*
+10 | La5:8=sa-* Sol5:8=rıl-* Fa5#3:16 Mi5:8=sam/* Es:8
+11 | Do6:8=Yı-* Do6:8=lan* Si5b2:16 La5:8=ol-* La5:8=sam*
+12 | La5:8=sa-* Sol5:8=rıl-* Fa5#3:16 Mi5:8=sam/* Es:8
+13 | Mi5:8=Kız-* Mi5:8=la-* Sol5:16 Mi5b:16=rın* Re5:16 Do5:8=to-*
+14 | Re5:8=pu-* (Mi5)Do5:8=ğun-* Si4b2:16 La4:8=dan/* Es:8
+15 | Mi5:8=Kız-* Mi5:8=la-* Sol5:16 Mi5b:16=rın* Re5:16 Do5:8=to-*
+16 | Re5:8=pu-* (Mi5)Do5:8=ğun-* Si4b2:16 La4:8=dan/* Es:8
+17 | Sol4:8=Gel-* Do5:8=As-* Si4b2:16 Do5:16=lım* Si4b2:16 Do5:16=gel* Si4b2:16
+18 | Re5:8=ya-* Do5:8=nı-* Si4b2:16 La4:4=ma/*
+19 | Sol4:8=Gel-* Do5:8=As-* Si4b2:16 Do5:16=lım* Si4b2:16 Do5:16=gel* Si4b2:16
+20 | Re5:8=ya-* Do5:8=nı-* Si4b2:16 La4:4=ma/*
+21 | Sol4:8=Sen* Do5:8=gel-* Si4b2:16 Do5:16=mez-* Si4b2:16 Do5:16=sen* Si4b2:16
+22 | Re5:8=ya-* Do5:8=nı-* Si4b2:16 La4:4=ma/*
+23 | Mi5:8=Kı-* Do5:8=ya-* Si4b2:16 Do5:16=rım* Si4b2:16 Do5:16=ben* Si4b2:16
+24 | Re5:8=ca-* Do5:8=nı-* Si4b2:16 La4:4=ma/*

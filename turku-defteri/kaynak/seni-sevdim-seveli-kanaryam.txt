@@ -1,0 +1,59 @@
+ad: Seni Sevdim Seveli Kanaryam
+yore: İstanbul
+usul: 2/4
+usul-adi: Nimsofyan
+tempo: 72
+dizi: Hicaz
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, hicaz--turku--nimsofyan--seni_sevdim--istanbul
+---
+[Aranağme]
+1 | Es:8 Do5#3:16 Re5:16 Mi5:8 Re5:16 Do5#3:16
+2 | Es:8 Si4b:16 Do5#3:16 Re5:8 Do5#3:16 Si4b:16
+3 | La4:16 Sol4:16 La4:16 Si4b:16 Do5#3:16 Re5:16 (Mi5)Re5:16 Do5#3:16
+4 | Do5#3:16 Si4b:16 La4:16 Si4b:16 Do5#3:8 Si4b:16 La4:16
+5 | Es:8 Do5#3:16 Re5:16 Mi5:8 Re5:16 Do5#3:16
+6 | Es:8 Si4b:16 Do5#3:16 Re5:8 Do5#3:16 Si4b:16
+7 | La4:16 Sol4:16 La4:16 Si4b:16 Do5#3:16 Re5:16 (Mi5)Re5:16 Do5#3:16
+8 | Do5#3:16 Si4b:16 Si4b:16 La4:16 La4:4
+[Aranağme]
+9 | Es:8 Do5#3:16 Re5:16 Mi5:8 Re5:16 Do5#3:16
+10 | Es:8 Si4b:16 Do5#3:16 Re5:8 Do5#3:16 Si4b:16
+11 | La4:16 Sol4:16 La4:16 Si4b:16 Do5#3:16 Re5:16 (Mi5)Re5:16 Do5#3:16
+12 | Do5#3:16 Si4b:16 La4:16 Si4b:16 Do5#3:8 Si4b:16 La4:16
+13 | Es:8 Do5#3:16 Re5:16 Mi5:8 Re5:16 Do5#3:16
+14 | Es:8 Si4b:16 Do5#3:16 Re5:8 Do5#3:16 Si4b:16
+15 | La4:16 Sol4:16 La4:16 Si4b:16 Do5#3:16 Re5:16 (Mi5)Re5:16 Do5#3:16
+16 | Do5#3:16 Si4b:16 Si4b:16 La4:16 La4:4
+[Söz]
+17 | Es:8 Sol4:16=Se-* La4:16=ni* La4:8=sev-* Si4b:8=dim*
+18 | Do5#3:8=se-* Re5:8 Do5#3:16=ve-* Si4b:16 La4:16 Sol4:16
+19 | Re5:4.=li* Do5#3:16=ka-* Re5:16
+20 | Mi5:8=nar-* (Fa5)Mi5:16 Re5:16 Do5#3:16=yam/* Si4b:16 La4:16 Si4b:16
+21 | Re5:8=Ol-* Re5:16=dum* Do5#3:16 Si4b:8=gö-* La4:16=nül* Si4b:16
+22 | Do5#3:8.=ve-* Re5:16 Do5#3:16=re-* Si4b:16 Si4b:16 La4:16
+23 | La4:4.=mi* Do5#3:16=ka-* Re5:16
+24 | Mi5:8=nar-* (Fa5)Mi5:16 Re5:16 Do5#3:16=yam/* Si4b:16 La4:16 Si4b:16
+25 | Re5:8=Ol-* Re5:16=dum* Do5#3:16 Si4b:8=gö-* La4:16=nül* Si4b:16
+26 | Do5#3:8.=ve-* Re5:16 Do5#3:16=re-* Si4b:16 Si4b:16 La4:16
+27 | La4:4.=mi/* Mi5:16 Re5:16
+[Saz]
+28 | Do5#3:16 Si4b:16 Si4b:16 La4:16 La4:4
+[Söz]
+29 | Es:8 Sol4:16=Al* La4:16=e-* La4:8=li-* Si4b:8=ne*
+30 | Do5#3:8=ka-* Re5:8 Do5#3:16=le-* Si4b:16 La4:16 Sol4:16
+31 | Re5:4.=mi* Do5#3:16=ka-* Re5:16
+32 | Mi5:8=nar-* (Fa5)Mi5:16 Re5:16 Do5#3:16=yam/* Si4b:16 La4:16 Si4b:16
+33 | Re5:8=Yaz* Re5:16=ba-* Do5#3:16 Si4b:8=şı-* La4:16=na* Si4b:16
+34 | Do5#3:8.=ge-* Re5:16 Do5#3:16=le-* Si4b:16 Si4b:16 La4:16
+35 | La4:4.=ni* Do5#3:16=ka-* Re5:16
+36 | Mi5:8=nar-* (Fa5)Mi5:16 Re5:16 Do5#3:16=yam/* Si4b:16 La4:16 Si4b:16
+37 | Re5:8=Yaz* Re5:16=ba-* Do5#3:16 Si4b:8=şı-* La4:16=na* Si4b:16
+38 | Do5#3:8.=ge-* Re5:16 Do5#3:16=le-* Si4b:16 Si4b:16 La4:16
+39 | La4:4.=ni* Mi5:16 Re5:16
+[Saz]
+40 | Do5#3:16 Si4b:16 Si4b:16 La4:16 La4:4

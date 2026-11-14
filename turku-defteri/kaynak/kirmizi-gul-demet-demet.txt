@@ -1,0 +1,24 @@
+ad: Kırmızı Gül Demet Demet
+yore: Erzurum
+usul: 13/4
+usul-adi: 3+3+3+4
+tempo: 48
+dizi: Beyati
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, beyati--turku--3334--kirmizi_gul--erzurum
+---
+[Söz]
+1 | Es:8 Do5:16=Kır- Re5:16=mı- Re5:4=zı Re5:16=gül Do5:16 (Re5)Do5:8 Re5:16=de- Re5:16=met Mi5:8 Do5:16=de- Re5:16 (Mi5)Re5:8 Re5:16=met/ Do5:16 Do5:8=Kır- Re5:8=mı- Mi5:8=zı Do5:16 Re5:16 (Mi5)Re5:8 Re5:16=gül Do5:16 (Re5)Do5:8 Re5:16=de- Re5:16=met Mi5:8 Do5:16=de- Re5:16 (Mi5)Re5:8 Re5:4=met/ Re5:32 Do5:32 Si4b2:32 La4:32 Si4b2:16 Do5:16
+2 | Re5:8 Si4b2:16=Sev- Do5:16=dâ Re5:4=de- Re5:16=ğil Do5:8 Si4b2:16 Re5:16=bir Re5:16=a- Mi5:8 Do5:16=lâ- (Re5)Si4b2:16 Do5:8 Do5:16=met/ (Re5)Si4b2:8 Es:16 Re5:16=Ba- Re5:8=lam Si4b2:16 Do5:16=nen- Si4b2:8 La4:16 Si4b2:16=ni (Do5)La4:8 Es:16 La4:16=yav- Si4b2:16 Do5:16=rum Si4b2:32 La4:32 Si4b2:16=nen- (Do5)La4:8. La4:4=ni/ Es:16 La4:16 Si4b2:16 Do5:16
+3 | Re5:8 Si4b2:16=Sev- Do5:16=dâ Re5:4=de- Re5:16=ğil Do5:8 Si4b2:16 Re5:16=bir Re5:16=a- Mi5:8 Do5:16=lâ- (Re5)Si4b2:16 Do5:8 Do5:16=met/ (Re5)Si4b2:8 Es:16 Re5:16=Ba- Re5:8=lam Si4b2:16 Do5:16=nen- Si4b2:8 La4:16 Si4b2:16=ni (Do5)La4:8 Es:16 La4:16=yav- Si4b2:16 Do5:16=rum Si4b2:32 La4:32 Si4b2:16=nen- (Do5)La4:8. La4:4=ni/ Es:32 Re4:32 Mi4:32 Fa4#3:32 Sol4:32 La4:32 Si4b2:32 Do5:32
+4 | Re5:8 Do5:16=Git- Re5:16=ti Re5:4=gel- Re5:16=mez Do5:16 (Re5)Do5:8 Re5:8=ol Mi5:8=mu- Do5:16=han- Re5:16 (Mi5)Re5:8 Re5:16=net/ Do5:16 Do5:8=Git- Re5:8=ti Mi5:8=gel- Do5:16 Re5:16 (Mi5)Re5:8 Re5:16=mez Do5:16 (Re5)Do5:8 Re5:16=ol Re5:16=mu- Mi5:8 Do5:16=han- Re5:16 (Mi5)Re5:8 Re5:4=net/ Re5:32 Do5:32 Si4b2:32 La4:32 Si4b2:16 Do5:16
+5 | Re5:8 Si4b2:16=Şol Do5:16=re- Re5:4=van- Re5:16=da Do5:8 Si4b2:16 Re5:16=ba- Re5:16=lam Mi5:8 Do5:16=gal- (Re5)Si4b2:16 Do5:8 Do5:16=dı/ (Re5)Si4b2:8 Es:16 Re5:16=Yav- Re5:8=rum Si4b2:16 Do5:16=gal- Si4b2:8 La4:16 Si4b2:16=dı (Do5)La4:8 Es:16 La4:16=ba- Si4b2:16 Do5:16=lam Si4b2:32 La4:32 Si4b2:16=nen- (Do5)La4:8. La4:4=ni/ Es:16 La4:16 Si4b2:16 Do5:16
+6 | Es:8 Do5:16=Kır- Re5:16=mı- Re5:4=zı Re5:16=gül Do5:16 (Re5)Do5:8 Re5:16=de- Re5:16=met Mi5:8 Do5:16=de- Re5:16 (Mi5)Re5:8 Re5:16=met/ Do5:16 Do5:8=Kır- Re5:8=mı- Mi5:8=zı Do5:16 Re5:16 (Mi5)Re5:8 Re5:16=gül Do5:16 (Re5)Do5:8 Re5:16=de- Re5:16=met Mi5:8 Do5:16=de- Re5:16 (Mi5)Re5:8 Re5:4=met/ Re5:32 Do5:32 Si4b2:32 La4:32 Si4b2:16 Do5:16
+7 | Re5:8 Si4b2:16=Sev- Do5:16=dâ Re5:4=de- Re5:16=ğil Do5:8 Si4b2:16 Re5:16=bir Re5:16=a- Mi5:8 Do5:16=lâ- (Re5)Si4b2:16 Do5:8 Do5:16=met/ (Re5)Si4b2:8 Es:16 Re5:16=Ba- Re5:8=lam Si4b2:16 Do5:16=nen- Si4b2:8 La4:16 Si4b2:16=ni (Do5)La4:8 Es:16 La4:16=yav- Si4b2:16 Do5:16=rum Si4b2:32 La4:32 Si4b2:16=nen- (Do5)La4:8. La4:4=ni/ Es:16 La4:16 Si4b2:16 Do5:16
+8 | Re5:8 Si4b2:16=Sev- Do5:16=dâ Re5:4=de- Re5:16=ğil Do5:8 Si4b2:16 Re5:16=bir Re5:16=a- Mi5:8 Do5:16=lâ- (Re5)Si4b2:16 Do5:8 Do5:16=met/ (Re5)Si4b2:8 Es:16 Re5:16=Ba- Re5:8=lam Si4b2:16 Do5:16=nen- Si4b2:8 La4:16 Si4b2:16=ni (Do5)La4:8 Es:16 La4:16=yav- Si4b2:16 Do5:16=rum Si4b2:32 La4:32 Si4b2:16=nen- (Do5)La4:8. La4:4=ni/ Es:32 Re4:32 Mi4:32 Fa4#3:32 Sol4:32 La4:32 Si4b2:32 Do5:32
+9 | Re5:8 Do5:16=Git- Re5:16=ti Re5:4=gel- Re5:16=mez Do5:16 (Re5)Do5:8 Re5:8=ol Mi5:8=mu- Do5:16=han- Re5:16 (Mi5)Re5:8 Re5:16=net/ Do5:16 Do5:8=Git- Re5:8=ti Mi5:8=gel- Do5:16 Re5:16 (Mi5)Re5:8 Re5:16=mez Do5:16 (Re5)Do5:8 Re5:16=ol Re5:16=mu- Mi5:8 Do5:16=han- Re5:16 (Mi5)Re5:8 Re5:4=net/ Re5:32 Do5:32 Si4b2:32 La4:32 Si4b2:16 Do5:16
+10 | Re5:8 Si4b2:16=Şol Do5:16=re- Re5:4=van- Re5:16=da Do5:8 Si4b2:16 Re5:16=ba- Re5:16=lam Mi5:8 Do5:16=gal- (Re5)Si4b2:16 Do5:8 Do5:16=dı/ (Re5)Si4b2:8 Es:16 Re5:16=Yav- Re5:8=rum Si4b2:16 Do5:16=gal- Si4b2:8 La4:16 Si4b2:16=dı (Do5)La4:8 Es:16 La4:16=ba- Si4b2:16 Do5:16=lam Si4b2:32 La4:32 Si4b2:16=nen- (Do5)La4:8. La4:4=ni/ Es:4

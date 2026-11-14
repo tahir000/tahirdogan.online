@@ -1,0 +1,34 @@
+ad: Çadır Altı Minare
+yore: Gaziantep
+usul: 4/4
+usul-adi: Sofyan
+tempo: 81
+dizi: Hicaz
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, hicaz--turku--sofyan--cadir_alti--gaziantep
+---
+[Aranağme]
+1 | Mi5:8 Fa5:8 Re5:8 Mi5:8 Do5#:8 Re5:8 Si4b:8 La4:8
+2 | Do5#:8 Re5:8 Si4b:8 Do5#:8 Si4b:8 La4:8 La4:4
+[Aranağme]
+3 | Mi5:8 Fa5:8 Re5:8 Mi5:8 Do5#:8 Re5:8 Si4b:8 La4:8
+4 | Do5#:8 Re5:8 Si4b:8 Do5#:8 Si4b:8 La4:8 La4:4
+[Söz]
+5 | Do5#:8=Ça-* Re5:8=dır* Mi5:8=al-* Fa5:8=tı* Mi5:8=mi-* Fa5:8=na-* Mi5:4=re/*
+6 | Fa5:8=El* Sol5:8=et-* Mi5:8=tim* Fa5:8=es-* Re5:8=ki* Mi5:8=yâ-* Re5:4=re/*
+7 | Do5#:8=Ça-* Re5:8=dır* Mi5:8=al-* Fa5:8=tı* Mi5:8=mi-* Fa5:8=na-* Mi5:4=re/*
+8 | Fa5:8=El* Sol5:8=et-* Mi5:8=tim* Fa5:8=es-* Re5:8=ki* Mi5:8=yâ-* Re5:4=re/*
+9 | Mi5:8=A-* Fa5:8=nam* Re5:8=kur-* Mi5:8=ban* Do5#:8=ben* Re5:8=kur-* Si4b:8=ban* La4:8=da/*
+10 | Do5#:8=Set-* Re5:8=re* Si4b:8=pan-* Do5#:8=tol-* Si4b:8=lu* La4:8=yâ-* La4:4=re/*
+11 | Mi5:8=A-* Fa5:8=nam* Re5:8=kur-* Mi5:8=ban* Do5#:8=ben* Re5:8=kur-* Si4b:8=ban* La4:8=da/*
+12 | Do5#:8=Set-* Re5:8=re* Si4b:8=pan-* Do5#:8=tol-* Si4b:8=lu* La4:8=yâ-* La4:4=re/*
+13 | La4:4=Hel-* La4:8=va-* Do5#:8=cı* Si4b:4=hel-* La4:4=va/*
+14 | La4:8=Ken-* La4:8=dir* La4:8=to-* Do5#:8=hum-* Si4b:8=lu* La4:8=hel-* La4:4=va/*
+15 | La4:8=Şe-* La4:8=ker* La4:8=lo-* Do5#:8=kum-* Si4b:8=lu* La4:8=hel-* La4:4=va/*
+16 | La4:4=Hel-* La4:8=va-* Do5#:8=cı* Si4b:4=hel-* La4:4=va/*
+17 | La4:8=Ken-* La4:8=dir* La4:8=to-* Do5#:8=hum-* Si4b:8=lu* La4:8=hel-* La4:4=va/*
+18 | La4:8=Şe-* La4:8=ker* La4:8=lo-* Do5#:8=kum-* Si4b:8=lu* La4:8=hel-* La4:4=va/*

@@ -1,0 +1,45 @@
+ad: A Fadimem Hadi Senle Kaçalım
+yore: 
+usul: 9/8
+usul-adi: Aksak
+kalip: 2+2+2+3
+tempo: 99
+dizi: Hüseyni
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, huseyni--turku--aksak--a_fadimem--
+---
+[Aranağme]
+1 | Sol5:8 Fa5#3:8 Sol5:8 Fa5#3:8 Mi5:4 Mi5:4 Re5:8
+2 | Mi5:8 Re5:8 Mi5:8 Do5:8 Re5:4 Re5:4 Es:8
+[Aranağme]
+3 | Sol5:8 Fa5#3:8 Sol5:8 Fa5#3:8 Mi5:4 Mi5:4 Re5:8
+4 | Mi5:8 Re5:8 Mi5:8 Do5:8 Re5:4 Re5:4 Es:8
+5 | Re5:8 Do5:8 Re5:8 Sol5:8 Fa5:8 Mi5:8 Re5:8 Do5:8 Si4b2:8
+6 | Do5:8 Re5:8 Si4b2:8 Sol4:8 La4:4 La4:4 Es:8
+7 | Re5:8 Do5:8 Re5:8 Sol5:8 Fa5:8 Mi5:8 Re5:8 Do5:8 Si4b2:8
+8 | Do5:8 Re5:8 Si4b2:8 Sol4:8 La4:4 La4:4 Es:8
+[Söz]
+9 | Es:4 La4:8=A* La4:8=Fa-* La4:4=di-* Mi5:4.=mem*
+10 | Es:4 Mi5:8=ha-* Mi5:8=di* Mi5:4=sen-* Mi5:4=le* Re5:8
+11 | Re5:8=ka-* Re5:8=ça-* Do5:8 Mi5:8 Re5:8=lım/* Do5:8 Re5:4 Es:8
+12 | Es:4 La4:8=A* La4:8=Fa-* La4:4=di-* Mi5:4.=mem*
+13 | Es:4 Mi5:8=ha-* Mi5:8=di* Mi5:4=sen-* Mi5:4=le* Re5:8
+14 | Re5:8=ka-* Re5:8=ça-* Do5:8 Mi5:8 Re5:8=lım/* Do5:8 Re5:4 Es:8
+15 | Mi5:4=Bey-* Mi5:8=ce* Re5:8 Re5:8=pa-* Do5:8 Re5:4=za-* Do5:8
+16 | Mi5:8=rı-* Re5:8 Do5:8=na* Si4b2:8 Re5:4=dük-* Do5:8=kân* Si4b2:8 Do5:8
+17 | Si4b2:8=a-* La4:4.=ça-* La4:2=lım/* Es:8
+18 | Mi5:4=Bey-* Mi5:8=ce* Re5:8 Re5:8=pa-* Do5:8 Re5:4=za-* Do5:8
+19 | Mi5:8=rı-* Re5:8 Do5:8=na* Si4b2:8 Re5:4=dük-* Do5:8=kân* Si4b2:8 Do5:8
+20 | Si4b2:8=a-* La4:4.=ça-* La4:2=lım/* Es:8
+21 | Do5:4=Ay* Si4b2:8=lay* La4:8 La4:8=li-* La4:8=lam* La4:4 Sol4:8
+22 | Do5:4=ay* Si4b2:8=lay* La4:8 La4:2=lam/* Es:8
+23 | Do5:4=Ay* Si4b2:8=lay* La4:8 La4:8=li-* Sol4:8=lam* Re5:4 Si4b2:8
+24 | Do5:4=ay* Si4b2:8=lay* La4:8 La4:2=lam/* Es:8
+25 | Do5:4=Ay* Si4b2:8=lay* La4:8 La4:8=li-* La4:8=lam* La4:4 Sol4:8
+26 | Do5:4=ay* Si4b2:8=lay* La4:8 La4:2=lam/* Es:8
+27 | Do5:4=Ay* Si4b2:8=lay* La4:8 La4:8=li-* Sol4:8=lam* Re5:4 Si4b2:8
+28 | Do5:4=ay* Si4b2:8=lay* La4:8 La4:2=lam/* Es:8

@@ -1,0 +1,34 @@
+ad: Mevlam Birçok Dert Vermiş
+yore: Malatya
+usul: 4/4
+usul-adi: Sofyan
+tempo: 60
+dizi: Uşşak
+karar: La
+duzen: bozuk
+zorluk: zor
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, ussak--turku--sofyan--mevlam_bircok--malatya
+---
+[Aranağme]
+1 | Mi5:16 (Re5)Re5:8. Re5:16 (Do5)Do5:8. Do5:16 Si4b2:8 La4:16 Re5:32 Do5:32 Re5:32 Mi5:32 Re5:8
+2 | Re5:16 (Do5)Do5:8. Do5:16 (Si4b2)Si4b2:8. Si4b2:16 La4:8 Sol4:16 Do5:32 Si4b2:32 Do5:32 Re5:32 Do5:8
+3 | Do5:16 Si4b2:8 Do5:16 Si4b2:8 La4:16 La4:16 La4:8. La4:16 La4:16 La4:16 La4:8
+[Aranağme]
+4 | Mi5:16 (Re5)Re5:8. Re5:16 (Do5)Do5:8. Do5:16 Si4b2:8 La4:16 Re5:32 Do5:32 Re5:32 Mi5:32 Re5:8
+5 | Re5:16 (Do5)Do5:8. Do5:16 (Si4b2)Si4b2:8. Si4b2:16 La4:8 Sol4:16 Do5:32 Si4b2:32 Do5:32 Re5:32 Do5:8
+6 | Do5:16 Si4b2:8 Do5:16 Si4b2:8 La4:16 La4:16 La4:8. La4:16 La4:16 La4:16 La4:8
+[Söz]
+7 | Es:8 Fa4#3:16=Mev-* Sol4:16=lâm* La4:8=bir-* La4:8=çok* La4:8=dert* La4:8=ver-* La4:4=miş/*
+8 | Sol4:16=Be-* Sol4:8.=ra-* Do5:8=ber* Si4b2:8=der-* (Do5)Si4b2:16=man* La4:16 La4:8=ver-* La4:4=miş/*
+9 | Es:8 Fa4#3:16=Mev-* Sol4:16=lâm* La4:8=bir-* La4:8=çok* La4:8=dert* La4:8=ver-* La4:4=miş/*
+10 | Sol4:16=Be-* Sol4:8.=ra-* Do5:8=ber* Si4b2:8=der-* (Do5)Si4b2:16=man* La4:16 La4:8=ver-* La4:4=miş/*
+11 | Es:8 Do5:16=Bu* Re5:16=tü-* Mi5:8=ken-* Mi5:8=mez* Mi5:8.=der-* Mi5:16=di-* Fa5:16=me/* Mi5:16 Fa5:16 Mi5:16
+12 | Mi5:16=Ne-* (Sol5)Mi5:8.=den* Mi5:16=i-* Re5:16=laç* Mi5:16 Re5:16 Re5:32=ver-* Mi5:32 Do5:16 Si4b2:8=me-* Mi5:4=miş/*
+13 | Mi5:16=Za-* Re5:16 Re5:8=lim* Re5:32=ağ-* Mi5:32 Do5:16 Do5:8=lat-* Do5:16=ma* Si4b2:8=be-* La4:16 Re5:32=ni/* Do5:32 Re5:32 Mi5:32 Re5:8
+14 | Re5:32=Der-* Mi5:32 Do5:16 Do5:8=de* Do5:32=bağ-* Re5:32 Si4b2:16 Si4b2:8=lat-* Si4b2:32=ma* Do5:32 La4:8.=be-* Do5:32=ni/* Si4b2:32 Do5:32 Re5:32 Do5:8
+15 | Do5:16=Gü-* Si4b2:8=lüp* La4:16 La4:8=sız-* Do5:16=lat-* Si4b2:16 Si4b2:16=ma* La4:8.=be-* La4:4=ni/*
+16 | Mi5:16=Di-* Re5:8.=ley* Re5:16=di-* Do5:8.=ley* Do5:16=di-* Si4b2:8.=ley* Re5:32=yâr/* Do5:32 Re5:32 Mi5:32 Re5:8
+17 | Re5:16=Di-* Do5:8.=ley* Do5:16=di-* Si4b2:8.=ley* Si4b2:16=di-* La4:8.=ley* Do5:32=yâr/* Si4b2:32 Do5:32 Re5:32 Do5:8
+18 | Do5:16=Di-* Si4b2:8=ley* Do5:16 Si4b2:16=di-* La4:8.=ley* La4:2=yâr/*

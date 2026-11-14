@@ -1,0 +1,39 @@
+ad: Aksaray'da Çevirdiler Yolumu
+yore: 
+usul: 9/8
+usul-adi: Evfer
+kalip: 2+2+2+3
+tempo: 90
+dizi: Dügah
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, dugah--turku--evfer--aksarayda_cevirdiler--
+---
+[Aranağme]
+1 | Es:4 La4:8 Sol4#:8 Fa4:4 Sol4#:8 La4:4
+2 | Es:4 La4:8 Sol4#:8 Fa4:4 Sol4#:8 La4:4
+[Aranağme]
+3 | Es:4 La4:8 Sol4#:8 Fa4:4 Sol4#:8 La4:4
+4 | Es:4 La4:8 Sol4#:8 Fa4:4 Sol4#:8 La4:4
+[Söz]
+5 | Es:4 La4:8=Ak-* Si4b2:8=sa-* Do5:4=ray-* Do5:4.=da*
+6 | Es:4 Do5:8=çe-* Re5b:8=vir-* Re5b:8=di-* Do5:8 Re5b:8=ler* Do5:8 Si4b2:8
+7 | Es:8 Do5:16=yo-* Re5b:16 Do5:8 Si4b2:8 La4:4 Si4b2:8=lu-* Do5:4=mu*
+8 | Es:8 Do5:16=yo-* Re5b:16 Do5:8 Si4b2:8 La4:4 Si4b:8=lu-* La4:4=mu*
+9 | Es:4 La4:8=yo-* Sol4#:8 Fa4:4 Sol4#:8=lu-* La4:4=mu/*
+10 | Es:4 La4:8=Dev-* Si4b2:8=ri-* Do5:4=ye-* Do5:4.=ler*
+11 | Es:4 Do5:8=bağ-* Re5b:8=la-* Re5b:8=dı-* Do5:8 Re5b:8=lar* Do5:8 Si4b2:8
+12 | Es:8 Do5:16=ko-* Re5b:16 Do5:8 Si4b2:8=lu-* La4:4 Si4b2:8=mu* Do5:4
+13 | Es:8 Do5:16=ko-* Re5b:16 Do5:8 Si4b2:8 La4:4 Si4b:8=lu-* La4:4=mu*
+14 | Es:4 La4:8=ko-* Sol4#:8 Fa4:4 Sol4#:8=lu-* La4:4=mu/*
+15 | Es:4 La4:8=Ba-* Sol4#:8=lat* Fa4:4=uğ-* Sol4#:8=ra-* La4:4=maz*
+16 | Es:4 La4:8=doğ-* Sol4#:8 Fa4:4=ru* Sol4#:8=Fe-* La4:4=ner*
+17 | Es:4 La4:8=On* Sol4#:8 Fa4:4=pâ-* Sol4#:8=re-* La4:4=ye*
+18 | Es:4 La4:8=na-* Sol4#:8 Fa4:4=ne* Sol4#:8=şe-* La4:4=ker/*
+19 | Es:4 La4:8=Ba-* Sol4#:8=lat* Fa4:4=uğ-* Sol4#:8=ra-* La4:4=maz*
+20 | Es:4 La4:8=doğ-* Sol4#:8 Fa4:4=ru* Sol4#:8=Fe-* La4:4=ner*
+21 | Es:4 La4:8=On* Sol4#:8 Fa4:4=pâ-* Sol4#:8=re-* La4:4=ye*
+22 | Es:4 La4:8=na-* Sol4#:8 Fa4:4=ne* Sol4#:8=şe-* La4:4=ker/*

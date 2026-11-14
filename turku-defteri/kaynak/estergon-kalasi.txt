@@ -1,0 +1,68 @@
+ad: Estergon Kal'ası
+yore: 
+usul: 9/8
+usul-adi: Aksak
+kalip: 2+2+2+3
+tempo: 81
+dizi: Hicaz Hümayun
+karar: La
+duzen: bozuk
+zorluk: zor
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, hicaz_humayun--turku--aksak--estergon_kalasi--
+---
+[Aranağme]
+1 | Es:4 Fa4#:8 Sol4:8 La4:4 La5:4.
+2 | La5:16 Sol5:8 La5:16 Sol5:16 Fa5:16 Fa5:16 Sol5:16 Fa5:16 Mi5:16 Re5:16 Mi5:16 Re5:16 Do5#:16 Si4b:16 La4:16 Si4b:8
+3 | Re5:4 Re5:16 Do5#:16 Si4b:16 Do5#:16 Si4b:16 La4:16 La4:8 La4:4.
+4 | Si4b:16. La4:32 Si4b:8 Es:4 Es:4 Es:4 Es:8
+5 | Es:4 Fa4#:8 Sol4:8 La4:4 La5:4.
+6 | La5:16 Sol5:8 La5:16 Sol5:16 Fa5:16 Fa5:16 Sol5:16 Fa5:16 Mi5:16 Re5:16 Mi5:16 Re5:16 Do5#:16 Si4b:16 La4:16 Si4b:8
+7 | Re5:4 Re5:16 Do5#:16 Si4b:16 Do5#:16 Si4b:16 La4:16 La4:8 La4:4.
+8 | La4:9/8
+[Aranağme]
+9 | Es:4 Fa4#:8 Sol4:8 La4:4 La5:4.
+10 | La5:16 Sol5:8 La5:16 Sol5:16 Fa5:16 Fa5:16 Sol5:16 Fa5:16 Mi5:16 Re5:16 Mi5:16 Re5:16 Do5#:16 Si4b:16 La4:16 Si4b:8
+11 | Re5:4 Re5:16 Do5#:16 Si4b:16 Do5#:16 Si4b:16 La4:16 La4:8 La4:4.
+12 | Si4b:16. La4:32 Si4b:8 Es:4 Es:4 Es:4 Es:8
+13 | Es:4 Fa4#:8 Sol4:8 La4:4 La5:4.
+14 | La5:16 Sol5:8 La5:16 Sol5:16 Fa5:16 Fa5:16 Sol5:16 Fa5:16 Mi5:16 Re5:16 Mi5:16 Re5:16 Do5#:16 Si4b:16 La4:16 Si4b:8
+15 | Re5:4 Re5:16 Do5#:16 Si4b:16 Do5#:16 Si4b:16 La4:16 La4:8 La4:4.
+16 | La4:8 Mi5:16 Fa5:16 Sol5:8 Fa5:16 Mi5:16 Mi5:16 Re5:16 Re5:16 Do5#:16 Re5:4.
+[Söz]
+17 | Es:4 Sol5:8=Es- Fa5:16=ter- Mi5:16 Mi5:16=gon Re5:16 Re5:16 Do5#:16 Re5:4=kal- Es:8
+18 | La4:4=a- Si4b:16=sı Si4b:16 Si4b:16=bre La4:16 La4:16=dil- Sol4:16 Sol4:16=ber Fa4#:16=a- Sol4:4=man Es:8
+19 | Do5#:16=su- Re5:16 Mi5:16 Fa5#:16 Sol5:8=ba- Fa5:16 Mi5:16 Mi5:16=şı Re5:16 Re5:16 Do5#:16 Re5:16=du- Do5#:16 Si4b:16 La4:16 Sol4:8
+20 | Re5:2=rak Re5:16 Do5#:16 Si4b:8 Si4b:4 La4:16=a- Sol4:16
+21 | Sol4:9/8=man/
+22 | Es:4 Fa4#:16=Ke- Sol4:8.=mi- La4:4=rir La5:4.=gön-
+23 | La5:16=lü- Sol5:16 Sol5:16 La5:16 Sol5:16=mü Fa5#:16 Fa5#:16=bre Sol5:16 Fa5:16=dil- Mi5:16 Re5:16=ber Mi5:16=a- Re5:16=man Do5#:16 Si4b:16 La4:16 Si4b:8
+24 | Re5:4=bir Re5:16=sin- Do5#:16 Si4b:16 Do5#:16 Si4b:8.=si La4:16 La4:4.=fi-
+25 | Si4b:16.=rak/ La4:32 Si4b:8 Es:4 Es:4 Es:4 Es:8
+26 | Es:4 Fa4#:16=Ke- Sol4:8.=mi- La4:4=rir La5:4.=gön-
+27 | La5:16=lü- Sol5:16 Sol5:16 La5:16 Sol5:16=mü Fa5#:16 Fa5#:16=bre Sol5:16 Fa5:16=dil- Mi5:16 Re5:16=ber Mi5:16=a- Re5:16=man Do5#:16 Si4b:16 La4:16 Si4b:8
+28 | Re5:4=bir Re5:16=sin- Do5#:16 Si4b:16 Do5#:16 Si4b:8.=si La4:16 La4:4.=fi-
+29 | La4:8=rak/ Mi5:16 Fa5:16 Sol5:8 Fa5:16 Mi5:16 Mi5:16 Re5:16 Re5:16 Do5#:16 Re5:4.
+30 | Es:4 Sol5:8=Gö- Fa5:16=nül Mi5:16 Mi5:16=yâr Re5:16 Re5:16 Do5#:16 Re5:4=pe- Es:8
+31 | La4:4=şin- Si4b:16=de Si4b:16 Si4b:16=bre La4:16 La4:16=dil- Sol4:16 Sol4:16=ber Fa4#:16=a- Sol4:4=man Es:8
+32 | Do5#:16=yâr Re5:16 Mi5:16 Fa5#:16 Sol5:8=on- Fa5:16 Mi5:16 Mi5:16=dan Re5:16 Re5:16 Do5#:16 Re5:16=ı- Do5#:16 Si4b:16 La4:16 Sol4:8
+33 | Re5:2=rak Re5:16 Do5#:16 Si4b:8 Si4b:4 La4:16=a- Sol4:16
+34 | Sol4:9/8=man/
+35 | Es:4 Fa4#:8=Ak- Sol4:8=ma La4:16=Tu- La4:8.=na La5:4.
+36 | La5:16=ak- Sol5:8 La5:16 Sol5:16=ma Fa5#:16 Fa5#:16=bre Sol5:16 Fa5:16=şa- Mi5:16 Re5:16=hin Mi5:16=a- Re5:16=man Do5#:16 Si4b:16 La4:16 Si4b:8
+37 | Re5:4=ben Re5:16=bir Do5#:16 Si4b:16 Do5#:16 Si4b:8.=dert- La4:16 La4:4.=li-
+38 | Si4b:16.=yim/ La4:32 Si4b:8 Es:4 Es:4 Es:4 Es:8
+39 | Es:4 Fa4#:8=Yâr Sol4:8=pe- La4:4=şin- La5:4.=de
+40 | La5:16=a- Sol5:8=man La5:16 Sol5:16=ge- Fa5#:16 Fa5#:16=zer Sol5:16 Fa5:16=ko- Mi5:16 Re5:16 Mi5:16 Re5:16=şar Do5#:16 Si4b:16 La4:16 Si4b:8
+41 | Re5:8=yan- Re5:8=dım Re5:16=ka- Do5#:16 Si4b:16=ra Do5#:16 Si4b:8.=baht- La4:16 La4:4.=lı-
+42 | La4:4.=yım/ La4:16 Si4b:16 La4:16 Sol4:16 Fa4#:16 Sol4:16 La4:16 Si4b:16 Do5#:16 La4:16 Si4b:16 Sol4:16
+43 | La4:8 Es:8 Fa4#:8=Ak- Sol4:8=ma La4:16=Tu- La4:8.=na La5:4.
+44 | La5:9/8
+45 | La5:16=ak- Sol5:8 La5:16 Sol5:16=ma Fa5#:16 Fa5#:16=bre Sol5:16 Fa5:16=şa- Mi5:16 Re5:16=hin Mi5:16=a- Re5:16=man Do5#:16 Si4b:16 La4:16 Si4b:8
+46 | Re5:4=ben Re5:16=bir Do5#:16 Si4b:16 Do5#:16 Si4b:8.=dert- La4:16 La4:4.=li-
+47 | Si4b:16.=yim/ La4:32 Si4b:8 Es:4 Es:4 Es:4 Es:8
+48 | Es:4 Fa4#:8=Yâr Sol4:8=pe- La4:4=şin- La5:4.=de
+49 | La5:16=a- Sol5:8=man La5:16 Sol5:16=ge- Fa5#:16 Fa5#:16=zer Sol5:16 Fa5:16=ko- Mi5:16 Re5:16 Mi5:16 Re5:16=şar Do5#:16 Si4b:16 La4:16 Si4b:8
+50 | Re5:8=yan- Re5:8=dım Re5:16=ka- Do5#:16 Si4b:16=ra Do5#:16 Si4b:8.=baht- La4:16 La4:4.=lı-
+51 | La4:9/8=yım/

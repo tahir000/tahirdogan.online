@@ -1,0 +1,35 @@
+ad: Sabah Oldu Uyansana
+yore: Rumeli
+usul: 9/8
+usul-adi: Aksak
+kalip: 2+2+2+3
+tempo: 72
+dizi: Eviç
+karar: Fa diyez
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, evic--rumeliturkusu--aksak--sabah_oldu--rumeli
+---
+[Aranağme]
+1 | Es:4 Fa4#:8 Sol4:8 La4:8 Si4b2:8 Do5:8 Re5:8 Mi5:8
+2 | Re5:8. Do5:16 Do5:8. Si4b2:16 Si4b2:8. La4:16 La4:8 Si4b2:8 Do5:8
+3 | La4:8. Sol4:16 Sol4:8. Fa4#:16 Fa4#:5/8
+[Aranağme]
+4 | Es:4 Fa4#:8 Sol4:8 La4:8 Si4b2:8 Do5:8 Re5:8 Mi5:8
+5 | Re5:8. Do5:16 Do5:8. Si4b2:16 Si4b2:8. La4:16 La4:8 Si4b2:8 Do5:8
+6 | La4:8. Sol4:16 Sol4:8. Fa4#:16 Fa4#:4 Fa5#:16 Sol5:16 Fa5#:16 Mi5#:16 Re5:16 Mi5#:16
+[Söz]
+7 | Fa5#:4 Fa5#:8=Sa-* Fa5#:8=bah* Fa5#:4=ol-* La5:4=du* Fa5#:8
+8 | Sol5:8.=u-* Fa5#:16 Mi5#:8=yan-* Re5:8 Mi5#:8=sa-* Fa5#:8 Sol5:8 La5:8 Sol5:16 Fa5#:16
+9 | Fa5#:8=na/* Es:8 Fa5#:8=Gül* Fa5#:8=yas-* Fa5#:4=tı-* La5:4=ğa* Fa5#:8
+10 | Sol5:8.=da-* Fa5#:16 Mi5#:8=yan-* Re5:8 Mi5#:8=sa-* Fa5#:8 Sol5:8 La5:8 Sol5:16 Fa5#:16
+11 | Fa5#:8=na/* Es:8 Fa5#:8=Ö-* Fa5#:8=lü-* Fa5#:4=yo-* La5:4=rum* Fa5#:8
+12 | Sol5:8.=i-* Fa5#:16 Mi5:8 Re5:8 Re5:4=sa-* Sol5:8=na* Fa5:8 Mi5:8=a*
+13 | Re5:8=ca-* Mi5:16 Re5:16 Do5:8=nım/* Si4b2:16 La4#:16 Si4b2:4 Sol5:8=U-* Fa5#:8 La5:8=yan*
+14 | Sol5:8=yâ-* Fa5:16 Mi5:16 Re5:8=rim* Do5:16 Si4b2:16 La4:4 La4:8=sa-* Si4b2:8=bah-* Do5:8
+15 | La4:8.=lar* Si4b2:16 La4:16=ol-* Sol4:16 Sol4:16 Fa4#:16 Fa4#:4=du/* Re5:8=Sa-* Re5:8=bah* La5:8
+16 | Sol5:8=yıl-* Fa5:16 Mi5:16 Re5:8=dız-* Do5:16 Si4b2:16 La4:4 La4:8=la-* Si4b2:8 Do5:8
+17 | La4:8.=rı Si4b2:16 La4:16=doğ- Sol4:16 Sol4:16 Fa4#:16 Fa4#:4=du/ Sol4:16 Fa4#:16 Sol4:16 Mi4#:16 Re4:16 Mi4#:16
+17 @2 | La4:8.=rı Si4b2:16 La4:16=doğ- Sol4:16 Sol4:16 Fa4#:16 Fa4#:4=du/ Es:4.

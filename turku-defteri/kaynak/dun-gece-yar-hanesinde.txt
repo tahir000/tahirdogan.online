@@ -1,0 +1,30 @@
+ad: Dün Gece Yar Hanesinde
+yore: Erzurum
+usul: 8/8
+usul-adi: Müsemmen II
+tempo: 51
+dizi: Segah Maye
+karar: Si bemol 2
+duzen: bozuk
+zorluk: zor
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, segah_maye--turku--musemmen_ii--dun_gece--erzurum
+---
+[Aranağme]
+1 | Re5:16. Do5:32 Re5:16 Re5:16 Re5:16 Do5:16 Do5:16 Si4b2:16 Do5:16. Si4b2:32 Do5:16 Re5:16 Do5:16 Do5:16 Si4b2:8
+2 | Re5:8. Do5:16 Re5:32 Mi5b2:32 Do5:8 Si4b2:16 Si4b2:8 Sol4:16 Si4b2:16 Si4b2:16 Sol4:16 Si4b2:8
+[Aranağme]
+3 | Re5:16. Do5:32 Re5:16 Re5:16 Re5:16 Do5:16 Do5:16 Si4b2:16 Do5:16. Si4b2:32 Do5:16 Re5:16 Do5:16 Do5:16 Si4b2:8
+4 | Re5:8. Do5:16 Re5:32 Mi5b2:32 Do5:8 Si4b2:16 Si4b2:8 Sol4:16 Si4b2:16 Si4b2:16 Sol4:16 Si4b2:8
+[Söz]
+5 | Re5:16=Am-* Mi5b2:16 (Fa5#)Mi5b2:32 Fa5#:32 Mi5b2:32. Re5:64 Re5:4=man* Re5:16=am-* Mi5b2:16 (Fa5#)Mi5b2:32 Fa5#:32 Mi5b2:32. Re5:64 Re5:4=man*
+6 | Re5:16.=dün* Mi5b2:32 Re5:16 Mi5b2:16=ge-* Re5:16=ce* Re5:8.=yâr* Re5:8=hâ-* Re5:16 Mi5b2:16=ne-* Re5:32=sin-* Mi5b2:32 Re5:32 Do5:32 Re5:16=de* Es:16
+7 | Re5:32=yas-* Mi5b2:32 Re5:8 Mi5b2:16=tı-* (Fa5#)Re5:8=ğım* Re5:32=bir* Mi5b2:32 Re5:32 Do5:32 Re5:16=taş* Re5:16 (Mi5b2)Re5:16 (Mi5b2)Do5:16=i-* Do5:32=di/* Re5:32 Do5:8 Es:16
+8 | Si4b2:16=Dün* Do5:16 Re5:16 Mi5b2:16=ge-* Fa5#3:16=ce* Sol5:16=yâr* La5:16 Sol5:16 (La5)Sol5:8=hâ-* Sol5:16 Sol5:32=ne-* Fa5#3:32 Mi5b2:16=sin-* Fa5#3:16 Mi5b2:16=de* (Fa5#3)Re5:16
+9 | Re5:8.=yas-* Mi5b2:16=tı-* (Fa5#)Re5:8=ğım* Re5:16=bir* Do5:16 Re5:16=taş* Do5:16 Re5:16 Do5:16=i-* Do5:32=di/* Re5:32 Do5:8 Es:16
+10 | Si4b2:16=Al-* (Re5)Do5:8 Re5:16=tım* Si4b2:16=ça-* Do5:16=mur* Re5:16 Es:16 Si4b2:16=üs-* (Re5)Do5:8 Re5:16=tüm* Si4b2:16=yağ-* Do5:16 Re5:8=mur*
+11 | Re5:8 La4:16=gi-* Si4b2:16=ne* Do5:8=gön-* Do5:16=lüm* Si4b2:16 (Si4b2)Re5:16=hoş* Do5:8 Si4b2:16=i-* Si4b2:32=di/* La4:32 Si4b2:8 La4:16
+12 | Es:8 La4:16=A-* Si4b2:16=man* Do5:16=a-* Do5:8=man* Do5:16 Si4b2:16=a-* Do5:8=man* Do5:16 (Re5)Si4b2:16=a-* Do5:8=man* Si4b2:16
+13 | La4:32=a-* La4:16.=man* Mi5:8 Mi5:8 Re5:8=a-* Re5:32=man* Do5:7/32 Do5:8 Si4b2:8
+14 | Es:8 (Do5)Re5:16=ben* Re5:16=yan-* Re5:8=dım* Re5:32=se-* Do5:16. Re5:32=ni* Re5:16.=bil-* Do5:16. Si4b2:32 Si4b2:4=mem/*

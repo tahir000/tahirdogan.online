@@ -1,0 +1,79 @@
+ad: Yayla Yollarında Yürüyüp Gelir
+yore: 
+usul: 9/16
+usul-adi: Çiftesofyan (9/16)
+tempo: 96
+dizi: Tahir
+karar: La
+duzen: bozuk
+zorluk: zor
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, tahir--turku--ciftesofyan--yayla_yollarinda--
+---
+[Aranağme]
+1 | Do5:16 Re5:16 Mi5:16 Re5:16 Re5:8 Do5:16 Do5:16 Si4b2:16
+2 | La4:8 La4:16 La4:16 La4:8 Sol4:16 Sol4:16 Sol4:16
+3 | Si4b2:16 Do5:16 Re5:16 Do5:16 Re5:8 Do5:16 Do5:16 Si4b2:16
+4 | La4:8 La4:16 La4:16 La4:8 La4:16 La4:16 La4:16
+5 | Mi5:16 Mi5:16 Mi5:16 Mi5:16 Re5:8 Do5:16 Do5:16 Si4b2:16
+6 | La4:8 La4:16 La4:16 La4:8 Sol4:16 Sol4:16 Sol4:16
+7 | Si4b2:16 Do5:16 Re5:16 Do5:16 Re5:8 Do5:16 Do5:16 Si4b2:16
+8 | La4:8 La4:16 La4:16 La4:8 La4:16 La4:16 La4:16
+9 | La4:8 Mi5:16 Mi5:16 La4:8 La4:16 La4:16 La4:16
+10 | La4:8 Mi5:16 Mi5:16 La4:8 La4:16 La4:16 La4:16
+[Aranağme]
+11 | Do5:16 Re5:16 Mi5:16 Re5:16 Re5:8 Do5:16 Do5:16 Si4b2:16
+12 | La4:8 La4:16 La4:16 La4:8 Sol4:16 Sol4:16 Sol4:16
+13 | Si4b2:16 Do5:16 Re5:16 Do5:16 Re5:8 Do5:16 Do5:16 Si4b2:16
+14 | La4:8 La4:16 La4:16 La4:8 La4:16 La4:16 La4:16
+15 | Mi5:16 Mi5:16 Mi5:16 Mi5:16 Re5:8 Do5:16 Do5:16 Si4b2:16
+16 | La4:8 La4:16 La4:16 La4:8 Sol4:16 Sol4:16 Sol4:16
+17 | Si4b2:16 Do5:16 Re5:16 Do5:16 Re5:8 Do5:16 Do5:16 Si4b2:16
+18 | La4:8 La4:16 La4:16 La4:8 La4:16 La4:16 La4:16
+19 | La4:8 Mi5:16 Mi5:16 La4:8 La4:16 La4:16 La4:16
+20 | La4:8 Mi5:16 Mi5:16 La4:8 La4:16 La4:16 La4:16
+[Söz]
+21 | Si5b2:8=Yay- Do6:8=la Do6:8=yol- Do6:16=la Do6:16 Si5b2:16
+22 | Si5b2:8=rın- Si5b2:8=da Si5b2:8=yü- Si5b2:16=rü- Do6:16 La5:16
+23 | La5:8=yüp La5:8=ge- La5:8=lir La5:8.
+24 | La5:8 La5:8 La5:8 La5:8 Sol5:16
+25 | Sol5:8=oy Sol5:16=ge- Fa5#3:16 Sol5:16=lin Fa5#3:16 Mi5:8.
+26 | Mi5:8=oy Mi5:16=ge- Sol5:16 Re5:8=lin Do5:16 Si4b2:16 La4:16
+27 | La4:8=oy La4:8=ge- La4:8=lin/ La4:8.
+28 | La4:8 La4:8 La4:8 La4:8.
+29 | Fa5#3:8=Al- Sol5:8=lı La5:8=şal- La5:8.=va-
+30 | La5:8=rı- Sol5:16=nı Fa5#3:16 Sol5:16=sü- Fa5#3:16 Mi5:8=rü- Re5:16
+31 | Re5:8=yüp Re5:8=ge- Re5:16=lir Mi5:16 Do5:8.
+32 | Do5:8 Do5:8=a- Do5:16=man Re5:16 Si4b2:8.
+33 | Si4b2:8=a- Si4b2:8=man Si4b2:16 Do5:16 La4:8.
+34 | La4:8 La4:8=a- La4:8=man/ La4:8.
+35 | La4:8 La4:8 La4:8 La4:8.
+[Saz]
+36 | La4:8 La4:8 La4:8 La4:16 La4:16 La4:16
+[Söz]
+37 | Do5:16=Ben Re5:16 Mi5:16=var- Re5:16 Re5:8=mam Do5:16=o- Do5:16 Si4b2:16
+38 | La4:8=ra- La4:8=lı- La4:8=ya Sol4:8.
+39 | Si4b2:16=o- Do5:16 Re5:16=ra- Do5:16 Re5:8=da Do5:16=du- Do5:16 Si4b2:16
+40 | La4:8=ra- La4:8=lı- La4:8=ya/ La4:8.
+41 | Mi5:8=Al- Mi5:8=lah Re5:8=na- Do5:16=sip Do5:16 Si4b2:16
+42 | La4:8=ey- La4:8=le- La4:8=sin Sol4:8.
+43 | Si4b2:16=da- Do5:16 Re5:16=vul- Do5:16 Re5:8=lu Do5:8=zur- Si4b2:16
+44 | La4:8=na- La4:8=lı- La4:8=ya/ La4:8.
+[Saz]
+45 | Sol5:8 Fa5#3:8 Sol5:8 La5:16 La5:16 La5:16
+46 | Sol5:16 Sol5:16 Fa5#3:16 Fa5#3:16 Sol5:8 La5:16 La5:16 La5:16
+47 | Sol5:8 Fa5#3:8 Sol5:8 La5:16 La5:16 La5:16
+48 | Sol5:16 Sol5:16 Fa5#3:16 Fa5#3:16 Sol5:8 La5:16 La5:16 La5:16
+49 | Sol5:8 Fa5:16 Mi5:16 Re5:8 Mi5:16 Mi5:16 Mi5:16
+50 | Re5:8 Do5:16 Si4b2:16 La4:8 Mi5:16 Mi5:16 Mi5:16
+51 | Re5:8 Do5:8 Re5:8 Mi5:16 Mi5:16 Mi5:16
+52 | Re5:8 Do5:16 Si4b2:16 La4:8 La4:16 La4:16 La4:16
+53 | Mi5:8 Mi5:16 Mi5:16 Re5:8 Do5:16 Do5:16 Si4b2:16
+54 | Re5:8 Re5:16 Re5:16 La4:8 Sol4:16 Sol4:16 Sol4:16
+55 | Si4b2:16 Do5:16 Re5:16 Do5:16 Re5:8 Do5:16 Do5:16 Si4b2:16
+56 | Re5:8 Re5:16 Re5:16 La4:8 La4:16 La4:16 La4:16
+57 | Mi5:8 Mi5:16 Mi5:16 Re5:8 Do5:16 Do5:16 Si4b2:16
+58 | Re5:8 Re5:16 Re5:16 La4:8 Sol4:16 Sol4:16 Sol4:16
+59 | Si4b2:16 Do5:16 Re5:16 Do5:16 Re5:8 Do5:16 Do5:16 Si4b2:16
+60 | Re5:8 Re5:16 Re5:16 La4:8 La4:16 La4:16 La4:16

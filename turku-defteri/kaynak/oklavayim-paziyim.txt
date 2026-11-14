@@ -1,0 +1,21 @@
+ad: Oklavayım Pazıyım
+yore: 
+usul: 8/8
+usul-adi: Bulgar Darbı
+tempo: 60
+dizi: Uşşak
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, ussak--turku--bulgardarbi--oklavayim_paziyim--
+---
+[Söz]
+1 | La4:8=Ok-* Re5:8=la-* Do5:8=va-* Re5:8=yım* Es:8 Do5:8=pa-* Si4b2:8=zı-* La4:8=yım/*
+2 | La4:8=Ak* Do5:8=ger-* Si4b2:8=da-* Do5:8=na* Es:8 Do5:8=ra-* Si4b2:8=zı-* La4:8=yım/*
+3 | La4:8=Se-* Re5:8=ni* Do5:8=ba-* Re5:8=na* Es:8 Do5:8=ver-* Si4b2:8=se-* La4:8=ler/*
+4 | La4:8=Di-* Do5:8=len-* Si4b2:8=me-* Do5:8=ye* Es:8 Do5:8=ra-* Si4b2:8=zı-* La4:8=yım/*
+5 | La4:8=Di* Re5:8=gel* Do5:8=kız* Re5:8=gel* Es:8 Do5:8=ya-* Si4b2:8=nı-* La4:8=ma/*
+6 | La4:8=Ka-* Do5:8=nın* Si4b2:8=kay-* Do5:8=nar* Es:8 Do5:8=ka-* Si4b2:8=nı-* La4:8=ma*
+7 | La4:1=vay/*

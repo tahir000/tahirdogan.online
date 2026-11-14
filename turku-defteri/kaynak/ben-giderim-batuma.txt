@@ -1,0 +1,88 @@
+ad: Ben Giderim Batum'a
+yore: 
+usul: 7/8
+usul-adi: Devr-i Turan
+kalip: 2+2+3
+tempo: 420
+dizi: Nikriz
+karar: Sol
+duzen: bozuk
+zorluk: zor
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, nikriz--turku--devrituran--ben_giderim--
+---
+[Söz]
+1 | Sol4:4=Ben Sol4:4=gi- Sol4:4=de- Sol4:8=rim
+2 | Re5:4=Ba- Re5:4=tu- Mi5:8=ma/ Fa5#:8 Sol5:8
+3 | Sol5:4=Ba- Fa5:8=tu- Mi5:8 Re5:8=mun Do5#:8 Si4b:8=ba-
+4 | Re5:8=ta- Do5#:8 Si4b:8=ğı- La4:8 Sol4:4=na/ Es:8
+5 | Sol4:4=Ben Sol4:4=gi- Sol4:4=de- Sol4:8=rim
+6 | Re5:4=Ba- Re5:4=tu- Mi5:8=ma/ Fa5#:8 Sol5:8
+7 | Sol5:4=Ba- Fa5:8=tu- Mi5:8 Re5:8=mun Do5#:8 Si4b:8=ba-
+8 | Re5:8=ta- Do5#:8 Si4b:8=ğı- La4:8 Sol4:4=na/ Es:8
+9 | Do5:4=Bah- Do5:4=çe- Do5:4=niz- Si4b2:8=den
+10 | Do5:4=i- Re5:4=çe- Mi5:4.=ri/
+{usul 6/8 Yürüksemai II}
+11 | Re5:8=Al Do5#:8 Si4b:8=be- Re5:8=ni Do5#:8 Si4b:8=o-
+{usul 7/8 Devr-i Turan}
+12 | Re5:8=ta- Do5#:8 Si4b:8=ğı- La4:8 Sol4:4.=na/
+13 | Do5:4=Bah- Do5:4=çe- Do5:4=niz- Si4b2:8=den
+14 | Do5:4=i- Re5:4=çe- Mi5:4.=ri/
+{usul 6/8 Yürüksemai II}
+15 | Re5:8=Al Do5#:8 Si4b:8=be- Re5:8=ni Do5#:8 Si4b:8=o-
+{usul 7/8 Devr-i Turan}
+16 | Re5:8=ta- Do5#:8 Si4b:8=ğı- La4:8 Sol4:4.=na/
+17 | Sol4:4=Naz- Re5:4=lı Re5:8=yâ- Do5#:8 Si4b:8=rim
+18 | Si4b:4=gel- Si4b:4=dim Si4b:8=sa- La4:8 Sol4:8=na/
+19 | Sol4:4=Fis- Re5:4=ta- Re5:8=nı- Do5#:8 Si4b:8=nı
+20 | Si4b:4=top- Si4b:4=la- Si4b:8=sa- La4:8 Sol4:8=na/
+21 | Sol4:4=Ke- Re5:4=men- Re5:8=çe- Do5#:8=ler Si4b:8
+22 | Si4b:4=ça- Si4b:4=lı- Si4b:8=nı- La4:8 Sol4:8=yor/
+23 | Es:4 Fa4#3:8=Bi- Sol4:8=ze La4:4=ho- La4:8=ron
+24 | La4:4=oy- La4:4=na- Si4b:8=sa- La4:8 Sol4:8=na
+25 | Sol4:2=hey/ Es:4.
+[Saz]
+26 | Sol5:8 Re5:8 Si4b:8 La4:8 Re5:8 Si4b:8 Sol4:8
+[Söz]
+27 | Sol4:4=Naz- Re5:4=lı Re5:8=yâ- Do5#:8 Si4b:8=rim
+28 | Si4b:4=gel- Si4b:4=dim Si4b:8=sa- La4:8 Sol4:8=na/
+29 | Sol4:4=Fis- Re5:4=ta- Re5:8=nı- Do5#:8 Si4b:8=nı
+30 | Si4b:4=top- Si4b:4=la- Si4b:8=sa- La4:8 Sol4:8=na/
+31 | Sol4:4=Ke- Re5:4=men- Re5:8=çe- Do5#:8=ler Si4b:8
+32 | Si4b:4=ça- Si4b:4=lı- Si4b:8=nı- La4:8 Sol4:8=yor/
+33 | Es:4 Fa4#3:8=Bi- Sol4:8=ze La4:4=ho- La4:8=ron
+34 | La4:4=oy- La4:4=na- Si4b:8=sa- La4:8 Sol4:8=na
+35 | Sol4:2=hey/ Es:4.
+[Saz]
+36 | Sol5:8 Re5:8 Si4b:8 La4:8 Re5:8 Si4b:8 Sol4:8
+[Söz]
+37 | Sol4:4=Ben Sol4:4=gi- Sol4:4=de- Sol4:8=rim
+38 | Re5:4=Ba- Re5:4=tu- Mi5:8=ma/ Fa5#:8 Sol5:8
+39 | Sol5:4=Ba- Fa5:8=tu- Mi5:8 Re5:8=mun Do5#:8 Si4b:8=ba-
+40 | Re5:8=ta- Do5#:8 Si4b:8=ğı- La4:8 Sol4:4=na/ Es:8
+41 | Sol4:4=Ben Sol4:4=gi- Sol4:4=de- Sol4:8=rim
+42 | Re5:4=Ba- Re5:4=tu- Mi5:8=ma/ Fa5#:8 Sol5:8
+43 | Sol5:4=Ba- Fa5:8=tu- Mi5:8 Re5:8=mun Do5#:8 Si4b:8=ba-
+44 | Re5:8=ta- Do5#:8 Si4b:8=ğı- La4:8 Sol4:4=na/ Es:8
+45 | Do5:4=Bah- Do5:4=çe- Do5:4=niz- Si4b2:8=den
+46 | Do5:4=i- Re5:4=çe- Mi5:4.=ri/
+{usul 6/8 Yürüksemai II}
+47 | Re5:8=Al Do5#:8 Si4b:8=be- Re5:8=ni Do5#:8 Si4b:8=o-
+{usul 7/8 Devr-i Turan}
+48 | Re5:8=ta- Do5#:8 Si4b:8=ğı- La4:8 Sol4:4.=na/
+49 | Do5:4=Bah- Do5:4=çe- Do5:4=niz- Si4b2:8=den
+50 | Do5:4=i- Re5:4=çe- Mi5:4.=ri/
+{usul 6/8 Yürüksemai II}
+51 | Re5:8=Al Do5#:8 Si4b:8=be- Re5:8=ni Do5#:8 Si4b:8=o-
+{usul 7/8 Devr-i Turan}
+52 | Re5:8=ta- Do5#:8 Si4b:8=ğı- La4:8 Sol4:4.=na/
+53 | Sol4:4=Naz- Re5:4=lı Re5:8=yâ- Do5#:8 Si4b:8=rim
+54 | Si4b:4=gel- Si4b:4=dim Si4b:8=sa- La4:8 Sol4:8=na/
+55 | Sol4:4=Fis- Re5:4=ta- Re5:8=nı- Do5#:8 Si4b:8=nı
+56 | Si4b:4=top- Si4b:4=la- Si4b:8=sa- La4:8 Sol4:8=na/
+57 | Sol4:4=Ke- Re5:4=men- Re5:8=çe- Do5#:8=ler Si4b:8
+58 | Si4b:4=ça- Si4b:4=lı- Si4b:8=nı- La4:8 Sol4:8=yor/
+59 | Es:4 Fa4#3:8=Bi- Sol4:8=ze La4:4=ho- La4:8=ron
+60 | La4:4=oy- La4:4=na- Si4b:8=sa- La4:8 Sol4:8=na
+61 | Sol4:2=hey/ Es:4.

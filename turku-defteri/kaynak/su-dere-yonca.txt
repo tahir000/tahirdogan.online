@@ -1,0 +1,40 @@
+ad: Şu Dere Yonca
+yore: 
+usul: 4/4
+usul-adi: Sofyan
+tempo: 105
+dizi: Mahur
+karar: Sol
+duzen: bozuk
+zorluk: zor
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, mahur--turku--sofyan--su_dere--
+---
+[Aranağme]
+1 | Re5:16 Mi5:16 Re5:16 Do5:16 Re5:8 Mi5:8 Re5:16 Mi5:16 Re5:16 Do5:16 Si4:4
+2 | Do5:16 Re5:16 Do5:16 Si4:16 Do5:8 Re5:8 Do5:16 Re5:16 Do5:16 Si4:16 La4:4
+3 | Si4:16 Do5:16 Si4:16 La4:16 Si4:8 Do5:8 Si4:16 Do5:16 Si4:16 La4:16 Sol4:8 Fa4#:8
+4 | Sol4:8 (La4)Sol4:16 La4:16 Si4:16 Do5:16 Re5:16 Mi5:16 Re5:16 Do5:16 Si4:16 Do5:16 Re5:4
+[Aranağme]
+5 | Re5:16 Mi5:16 Re5:16 Do5:16 Re5:8 Mi5:8 Re5:16 Mi5:16 Re5:16 Do5:16 Si4:4
+6 | Do5:16 Re5:16 Do5:16 Si4:16 Do5:8 Re5:8 Do5:16 Re5:16 Do5:16 Si4:16 La4:4
+7 | Si4:16 Do5:16 Si4:16 La4:16 Si4:8 Do5:8 Si4:16 Do5:16 Si4:16 La4:16 Sol4:8 Fa4#:8
+8 | Sol4:4. Re5:8 Mi5:8 Fa5#:8 Sol5:4
+[Söz]
+9 | Sol5:1=Ah*
+10 | Sol5:1
+11 | Fa5#:4=Şu* Sol5:4=de-* La5:4=re* Sol5:8=yon-* Fa5#:8
+12 | Sol5:4.=ca/* Re5:8 Mi5:8 Fa5#:8 Sol5:4
+13 | La5:4=Aç* La5:8=kol-* Fa5#:8 Sol5:16=la-* Fa5#:16 Sol5:16 La5:16 Mi5:4=rın*
+14 | Fa5:16=sar* Mi5:16 Fa5:16 Sol5:16 Mi5:8=boy-* Re5:8 Mi5:4=nu-* Re5:8=ma* Do5:8
+15 | Mi5:16=A-* Re5:16 Re5:4.=lim* Sol4:8 Si4:8 Re5:4
+16 | Mi5:16=A-* Re5:16 Do5:4.=lim/* Do5:4 Si4:8 La4:8
+17 | Es:8 La4:4=Boy-* Do5:8=lu* Si4:8=bo-* La4:8 Sol4:8=yun-* Fa4#:8
+18 | Sol4:4.=ca/* La4:16 Si4:16 Do5:16 Re5:16 Mi5:16 Fa5#:16 Sol5:4
+19 | La5:4=Aç* La5:8=kol-* Fa5#:8 Sol5:16=la-* Fa5#:16 Sol5:16 La5:16 Mi5:4=rın*
+20 | Fa5:16=sar* Mi5:16 Fa5:16 Sol5:16 Mi5:8=boy-* Re5:8 Mi5:4=nu-* Re5:8=ma* Do5:8
+21 | Mi5:16=A-* Re5:16 Re5:4.=lim* Sol4:8 Si4:8 Re5:4
+22 | Mi5:16=A-* Re5:16 Do5:4.=lim/* Do5:4 Si4:8 La4:8
+23 | Es:8 La4:4=Boy-* Do5:8=lu* Si4:8=bo-* La4:8 Sol4:8=yun-* Fa4#:8
+24 | Sol4:8=ca/* Sol5:4 Fa5#:16 Mi5:16 Re5:16 Do5:16 Si4:16 La4:16 Sol4:4

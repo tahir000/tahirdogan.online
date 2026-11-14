@@ -1,0 +1,35 @@
+ad: Dön Beri Dön
+yore: Urfa
+usul: 10/8
+usul-adi: K. Curcuna
+kalip: 3+2+2+3
+tempo: 117
+dizi: Tahir
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, tahir--turku--kapali_curcuna--don_beri--urfa
+---
+[Söz]
+1 | Es:4 Fa5#3:8=Dön* Sol5:4=be-* La5:4=ri* La5:4.=dön*
+2 | La5:4=be-* La5:8=ri* La5:4=de* La5:4=yü-* La5:4.=zün*
+3 | La5:4=gö-* La5:8=re-* Do6:4 Si5b2:8=yim/* La5:8 Sol5:8 Fa5#3:8 (Sol5)Mi5:8
+4 | Re5:8 Es:8 Do6:8=Dön* Do6:4=be-* Do6:8=ri* (Re6)Si5b2:8 Do6:4=dön* Si5b2:8
+5 | Do6:8=be-* Si5b2:8 Do6:8=ri* (Re6)Do6:8=de* Si5b2:8 Si5b2:4=yü-* Si5b2:4=zün* La5:8
+6 | La5:4=gö-* La5:4.=re-* La5:8 (Do6)Si5b2:8=yim/* (Do6)La5:4.
+7 | Es:4 Fa5#3:8=Yü-* Sol5:4=zün* La5:4=gö-* La5:4=ren-* Sol5:8
+8 | La5:8=le-* Fa5#3:8 Sol5:8=re* Mi5:4 Mi5:8=kur-* Re5:8 Re5:4=bân* Si4b2:8
+9 | Do5:4=o-* (Re5)Do5:8=la-* Si4b2:8 La4:8 (Si4b2)La4:2=yım/* Es:8
+10 | La4:8=Gel* (Si4b2)Sol4:8 Mi5:8=gü-* (Fa5#3)Mi5:8=lüm* Re5:8 Re5:8=gel* (Mi5)Do5:8 (Mi5)Re5:4 Si4b2:8
+11 | Do5:4=di* (Re5)Do5:8=gel* (Re5)Si4b2:8. La4:16 La4:8=gel/* (Si4b2)Sol4:8 (Si4b2)La4:4 Es:8
+12 | La4:8=Gel* (Si4b2)Sol4:8 Mi5:8=şi-* (Fa5#3)Mi5:8=rin* Re5:8 Re5:8=gel* (Mi5)Do5:8 (Mi5)Re5:4 Si4b2:8
+13 | Do5:4=ha* (Re5)Do5:8=gel* Si4b2:8 La4:8 La4:8=gel/* Si4b2:8 Do5:8 Re5:8 Mi5:8
+14 | Fa5:4 Fa5:8=Di* Fa5:8=gel* Mi5:8 Fa5:8=di* Sol5:8 Mi5:4=gel* Re5:8
+15 | Re5:8=a-* (Mi5)Do5:8 Re5:8=dı-* Re5:8=na* Si4b2:8 Do5:8=kur-* Si4b2:8 Do5:4=bân/* Si4b2:8
+16 | (Do5)Si4b2:8 La4:8 Do5:8=Di* Re5:4=gel* Re5:8=di* (Mi5)Do5:8 Re5:4=gel* Si4b2:8
+17 | Do5:8=sa-* Si4b2:8 Do5:8=nı-* (Re5)Do5:8=na* Si4b2:8 Si4b2:8=hay-* La4:8 Do5:4=rân/* Si4b2:8
+18 | La4:8 Es:8 Sol4:8=Di* Do5:4=gel* Do5:8=di* Si4b2:8 (Re5)Do5:8=gel* Si4b2:8 Do5:8
+19 | La4:8 Es:8 Do5:8=ka-* Si4b2:8=day* La4:8 La4:8=ben* Sol4:8 (Re5)Do5:8=a-* (Re5)Si4b2:8 La4:8
+20 | (Si4b2)La4:5/4=lım/*

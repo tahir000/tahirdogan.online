@@ -1,0 +1,52 @@
+ad: Gesi Bağlarında Dolanıyorum
+yore: Kayseri
+usul: 2/4
+usul-adi: Nimsofyan
+tempo: 60
+dizi: Beyati
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, beyati--turku--nimsofyan--gesi_baglarinda--kayseri
+---
+[Aranağme]
+1 | Re5:16. Do5:32 Re5:16 Si4b2:16 Do5:16 Si4b2:8 Sol4:16
+2 | La4:8 La4:16 Sol4:16 La4:8 Si4b2:16 La4:16
+3 | Mi5:16 Re5:8 Si4b2:16 Do5:16 Si4b2:8 Sol4:16
+4 | La4:8. La4:16 La4:8 La4:8
+5 | La4:8 La4:16 Re5:16 Do5:16 Re5:16 Mi5:8
+[Söz]
+6 | Sol5:4=Of* Fa5#3:8. Mi5:16
+{usul 6/4 Senginsemai}
+7 | Mi5:8 Mi5:16=Ge-* Mi5:16=si* Mi5:8=bağ-* Mi5:8=la-* Mi5:8=rın-* Mi5:8=da* Mi5:16=do-* Mi5:8=la-* Re5:16 Re5:16=nı-* Mi5:8=yo-* Re5:16 Mi5:48=rum/* Re5:48 Mi5:48 Do5:16 Re5:8
+8 | Do5:8=Yi-* Do5:16=tir-* Re5:16 Re5:8. Do5:16 Do5:16=dim* Re5:16 Mi5:16 Re5:16 Mi5:16=yâ-* Do5:16 Re5:8 Si4b2:16=ri-* Do5:8 Si4b2:16 La4:4=mi*
+9 | Es:8 Si4b2:16=a-* Re5:16=man* Do5:16=a-* Re5:16=ra-* Si4b2:8 Do5:8=nı-* Si4b2:16 La4:16 Si4b2:8 La4:8=yo-* La4:4.=rum/* Es:8
+{usul 2/4 Nimsofyan}
+[Saz]
+10 | La4:16. Sol4:32 La4:16 Si4b2:16 Do5:16 Re5:16 Mi5:16 Fa5:16
+11 | Mi5:16. Re5:32 Mi5:16 Do5:16 Re5:4
+{usul 6/4 Senginsemai}
+[Söz]
+12 | Do5:8=Yi-* Do5:16=tir-* Re5:16 Re5:8. Do5:16 Do5:16=dim* Re5:16 Mi5:16 Re5:16 Mi5:16=yâ-* Do5:16 Re5:8 Si4b2:16=ri-* Do5:8 Si4b2:16 La4:4=mi*
+13 | Es:8 Si4b2:16=a-* Re5:16=man* Do5:16=a-* Re5:16=ra-* Si4b2:8 Do5:8=nı-* Si4b2:16 La4:16 Si4b2:8 La4:8=yo-* La4:4.=rum/* Es:8
+{usul 2/4 Nimsofyan}
+[Saz]
+14 | Re5:16. Do5:32 Re5:16 Si4b2:16 Do5:16. La4:32 Si4b2:16 Sol4:16
+15 | La4:8 Si4b2:16 Sol4:16 La4:8 Si4b2:16 La4:16
+16 | Mi5:16 Re5:8 Si4b2:16 Do5:16 Si4b2:8 Sol4:16
+17 | La4:8 La4:16 Re5:16 Do5:16 Re5:16 Mi5:8
+{usul 6/4 Senginsemai}
+[Söz]
+18 | Es:8 Do5:16=Bir* Re5:16=çift* Mi5:16=se-* Mi5:8.=lâ-* Mi5:8=mı-* Mi5:8=na* Mi5:16=gü-* Mi5:8=ve-* Re5:16 Re5:16=ni-* Mi5:8=yo-* Re5:16 Mi5:48=rum/* Re5:48 Mi5:48 Do5:16 Re5:8
+19 | Do5:8=Gel* Do5:16=o-* Re5:16 Re5:8. Do5:16 Do5:16=tur* Re5:16 Mi5:16 Re5:16 Mi5:16=ya-* Do5:16 Re5:8 Si4b2:16=nı-* Do5:8 Si4b2:16 La4:4=ma*
+20 | Es:8 Si4b2:16=hal-* Re5:16=le-* Do5:16=ri-* Re5:16=mi* Si4b2:8 Do5:8=söy-* Si4b2:16 La4:16 Si4b2:8 La4:8=le-* La4:4.=yim/* Es:8
+{usul 2/4 Nimsofyan}
+[Saz]
+21 | La4:16. Sol4:32 La4:16 Si4b2:16 Do5:16 Re5:16 Mi5:16 Fa5:16
+22 | Mi5:16. Re5:32 Mi5:16 Do5:16 Re5:4
+{usul 6/4 Senginsemai}
+[Söz]
+23 | Do5:8=Hâ-* Do5:16=lim-* Re5:16 Re5:8. Do5:16 Do5:16=den* Re5:16 Mi5:16 Re5:16 Mi5:16=bil-* Do5:16 Re5:8 Si4b2:16=mi-* Do5:8 Si4b2:16 La4:4=yor*
+24 | Es:8 Si4b2:16=ben* Re5:16=o* Do5:16=yâ-* Re5:16=ri* Si4b2:8 Do5:8=ney-* Si4b2:16 La4:16 Si4b2:8 La4:8=le-* La4:4.=yim/* Es:8

@@ -1,0 +1,37 @@
+ad: Havuz Başının Gülleri
+yore: Erzincan
+usul: 10/8
+usul-adi: Curcuna
+kalip: 3+2+2+3
+tempo: 96
+dizi: Segah
+karar: Si bemol 2
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, segah--turku--curcuna--havuz_basinin--erzincan
+---
+1 | Es:4 Si4b2:8 Re5:4 Do5:4 Si4b2:4.
+2 | Si4b2:4 Si4b2:4. Do5:8 Re5:8 Si4b2:4.
+3 | Es:4 Si4b2:8 Re5:4 Do5:4 Si4b2:4.
+4 | Si4b2:4 Si4b2:4. Do5:8 Re5:8 Si4b2:4.
+[Söz]
+5 | Es:4 Si4b2:8=Ha-* Re5:4=vuz* Re5:4.=ba-* Do5:4=şı-*
+6 | Re5:4=nın* Mi5b2:4=gül-* Re5:8 Fa5:4=le-* Mi5b2:4=ri/* Re5:8
+7 | Re5:4=Ha-* Re5:4.=vuz* Re5:4.=ba-* Do5:4=şı-*
+8 | Re5:4=nın* Mi5b2:4=gül-* Re5:8 Fa5:4=le-* Mi5b2:4=ri/* Re5:8
+9 | Re5:4=Şak* Re5:8=şak* Mi5b2:8 Do5:8 Do5:4=ö-* Do5:8=ter* Re5:8 Si4b2:8
+10 | Si4b2:4=bül-* Si4b2:16=bül-* La4#:16 Si4b2:4 Do5:4=le-* Si4b2:4=ri/* Es:8
+11 | Si4b2:4=Şak* Re5:16=şak* Do5:16 Re5:4 Do5:4=ö-* Do5:8=ter* Re5:8 Si4b2:8
+12 | Si4b2:4=bül-* Si4b2:8=bül-* La4#:8 Si4b2:8 Do5:4=le-* Si4b2:16=ri/* La4#:16 Si4b2:4
+13 | Es:4 Fa5#:8=O* Sol5:4=yâ-* Fa5#:4.=rin* Sol5:4=du-*
+14 | Fa5#:4=du* Sol5:4=dil-* Mi5b2:8 Mi5b2:4=le-* Mi5b2:8=ri/* Fa5:8 Re5:8
+15 | Re5:4=O* Re5:8=yâ-* Mi5b2:8 Do5:8 Re5:4.=rin* Do5:4=du-*
+16 | Re5:4=du* Mi5b2:4=dil-* Re5:8 Fa5:4=le-* Mi5b2:4=ri/* Re5:8
+17 | Es:4 Do5:8=Ba-* Re5:4=lam* Do5:4=kaş-* Es:8 Do5:8=la-* (Re5)Si4b2:8
+18 | Si4b2:4=rın* Si4b2:16=göz-* La4#:16 Si4b2:4 Do5:4=le-* Si4b2:16=rin/* La4#:16 Si4b2:4
+19 | Es:4 Do5:8=Se-* Re5:4=ni* Do5:4=sî-* Do5:8=nem-* Re5:8 Si4b2:8
+20 | Si4b2:4=de* Si4b2:16=giz-* La4#:16 Si4b2:4 Do5:4=le-* Si4b2:16=rim/* La4#:16 Si4b2:4
+21 | Es:4 Si4b2:8=On* Re5:4=bir* Si4b2:4.=ay-* Re5:8=dır* Si4b2:8
+22 | Si4b2:4=yol* Si4b2:16=göz-* La4#:16 Si4b2:4 Do5:4=le-* Si4b2:16=rim/* La4#:16 Si4b2:4

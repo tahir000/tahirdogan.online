@@ -1,0 +1,51 @@
+ad: Menteşeli
+yore: Konya
+usul: 7/8
+usul-adi: Devr-i Hindi (7/8)
+kalip: 3+2+2
+tempo: 69
+dizi: Uşşak
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, ussak--turku--devrihindi--menteseli--konya
+---
+[Aranağme]
+1 | Sol4:8 Do5:16 Re5:16 Si4b2:16 Sol4:16 La4:16 La4:16 La4:16 Sol4:16 Re5:16 Do5:16 Re5:16 Sol4:16
+2 | Do5:8 Do5:8 Si4b2:8 La4:16 La4:16 La4:16 Sol4:16 La4:16 La4:16 La4:16 Sol4:16
+3 | Sol4:16 Es:16 Do5:16 Re5:16 Si4b2:16 Sol4:16 Mi5:16 Fa5:16 Sol5:16 Sol4:16 Fa5:16 Mi5:16 Re5:16 Sol4:16
+4 | Do5:8 Do5:8 Si4b2:8 La4:16 La4:16 La4:16 Sol4:16 La4:16 La4:16 La4:16 Sol4:16
+[Aranağme]
+5 | Sol4:8 Do5:16 Re5:16 Si4b2:16 Sol4:16 La4:16 La4:16 La4:16 Sol4:16 Re5:16 Do5:16 Re5:16 Sol4:16
+6 | Do5:8 Do5:8 Si4b2:8 La4:16 La4:16 La4:16 Sol4:16 La4:16 La4:16 La4:16 Sol4:16
+7 | Sol4:16 Es:16 Do5:16 Re5:16 Si4b2:16 Sol4:16 Mi5:16 Fa5:16 Sol5:16 Sol4:16 Fa5:16 Mi5:16 Re5:16 Sol4:16
+8 | Do5:8 Do5:8 Si4b2:8 La4:16 La4:16 La4:16 Sol4:16 La4:16 La4:16 La4:16 Sol4:16
+[Söz]
+9 | (Sol4)Do5:8=Men-* Do5:8.=te-* Si4b2:16 Re5:16=şe-* Re5:8=li* Si4b2:16 Do5:8 Do5:16 Si4b2:16
+10 | La4:16=men-* Si4b2:16 (Re5)Do5:8 Do5:16=te-* Si4b2:16 Si4b2:16=şe-* La4:7/16=li/*
+[Saz]
+11 | Sol4:16 Es:16 Do5:16 Re5:16 Si4b2:16 Sol4:16 La4:16 La4:16 La4:16 Sol4:16 Re5:16 Do5:16 Re5:16 Si4b2:16
+12 | Do5:8 Do5:8 Si4b2:8 La4:16 La4:16 La4:16 Sol4:16 La4:16 La4:16 La4:16 Sol4:16
+[Söz]
+13 | (Sol4)Do5:8=Del* Do5:8.=ol-* Si4b2:16 Re5:8=dum* Re5:8=der-* Do5:8 Do5:16 Si4b2:16
+14 | La4:16=de* Si4b2:16 Do5:8 Do5:16=dü-* Si4b2:16 Si4b2:16=şe-* La4:7/16=li/*
+[Saz]
+15 | Sol4:16 Es:16 Do5:16 Re5:16 Si4b2:16 Sol4:16 La4:16 La4:16 La4:16 Sol4:16 Re5:16 Do5:16 Re5:16 Sol4:16
+16 | Do5:8 Do5:8 Si4b2:8 La4:16 La4:16 La4:16 Sol4:16 La4:16 La4:16 La4:16 Sol4:16
+[Söz]
+17 | (Re5)Mi5:4=Üç* Mi5:8=gün* Mi5:8=ol-* Mi5:4=du* Re5:8
+18 | Fa5#3:16=yâr* Sol5:16 La5:8 Sol5:16=gi-* Fa5#3:16 Sol5:16=de-* Mi5:8.=li/* Mi5:8 Re5:16 Do5:16
+19 | Re5:8=Tü-* Mi5:4=ken-* Mi5:8.=mez* Re5:16 Re5:16=der-* Do5:16 Re5:8
+20 | Si4b2:16=dim* Do5:16 Re5:8 Re5:16=ya-* Mi5b:16 Re5:16=lı-* Do5:8 Si4b2:16 Sol5:16=nız* Fa5#:16 Mi5b2:16 Re5:16
+21 | Do5:16=ya-* Re5:16 Do5:16 Si4b2:16 Si4b2:16=lı-* La4:16 La4:2=nız/*
+[Saz]
+22 | Sol4:16 Es:16 Do5:16 Re5:16 Si4b2:16 Sol4:16 La4:16 La4:16 La4:16 Sol4:16 Re5:16 Do5:16 Re5:16 Sol4:16
+23 | Do5:8 Do5:8 Si4b2:8 La4:16 La4:16 La4:16 Sol4:16 La4:16 La4:16 La4:16 Sol4:16
+[Söz]
+24 | (Re5)Mi5:4=Üç* Mi5:8=gün* Mi5:8=ol-* Mi5:4=du* Re5:8
+25 | Fa5#3:16=yâr* Sol5:16 La5:8 Sol5:16=gi-* Fa5#3:16 Sol5:16=de-* Mi5:8.=li/* Mi5:8 Re5:16 Do5:16
+26 | Re5:8=Tü-* Mi5:4=ken-* Mi5:8.=mez* Re5:16 Re5:16=der-* Do5:16 Re5:8
+27 | Si4b2:16=dim* Do5:16 Re5:8 Re5:16=ya-* Mi5b:16 Re5:16=lı-* Do5:8 Si4b2:16 Sol5:16=nız* Fa5#:16 Mi5b2:16 Re5:16
+28 | Do5:16=ya-* Re5:16 Do5:16 Si4b2:16 Si4b2:16=lı-* La4:16 La4:2=nız/*

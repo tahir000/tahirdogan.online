@@ -1,0 +1,51 @@
+ad: Cabur Dağdan Kuş Geliyor
+yore: Urfa
+usul: 4/4
+usul-adi: Sofyan
+tempo: 87
+dizi: Gerdaniye
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, gerdaniye--turku--sofyan--cabur_dagdan--urfa
+---
+[Aranağme]
+1 | Es:4 Re5:8 Mi5:8 Mi5:8. Do5:16 Re5:8. Do5:16
+2 | Mi5:8. Re5:16 Re5:8 Mi5:16 Re5:16 Re5:8. Si4b2:16 Do5:8. Si4b2:16
+3 | Si4b2:8 La4:8 Re5:8 Mi5:8 Mi5:8. Do5:16 Re5:8. Do5:16
+4 | Mi5:8. Re5:16 Re5:8 Mi5:16 Re5:16 Re5:8. Si4b2:16 Do5:8. Si4b2:16
+5 | Si4b2:16 Si4b2:16 La4:8 Do5:8 Re5:8 Re5:8. Si4b2:16 Do5:8 Re5:16 Si4b2:16
+6 | Re5:8. Si4b2:16 Do5:8 Re5:16 Do5:16 Do5:8. Si4b2:16 Si4b2:8. La4:16
+7 | La4:8 La4:8 La4:8 Do5:8 Do5:8. Si4b2:16 Si4b2:8. La4:16
+8 | Do5:4 Si4b2:8 Do5:16 Si4b2:16 Si4b2:8 Si4b2:16 La4:16 La4:4
+9 | La4:8 La4:16 La4:16 La4:16 La4:16 La4:8 La4:16 La4:16 La4:8 La4:4
+[Söz]
+10 | Es:4 Fa5#3:8=Ca-* Sol5:8=bur* Sol5:8.=dağ-* Fa5#3:16 Fa5#3:8.=dan* Mi5:16
+11 | Sol5:4=kuş* Fa5#3:8=ge-* Sol5:16 Fa5#3:16 Fa5#3:8.=li-* Mi5:16 Mi5:8.=yor/* Re5:16
+[Saz]
+12 | Re5:4 Fa5#3:8.=Mav-* Sol5:16=zer* Sol5:8.=se-* Fa5#3:16 Fa5#3:8.=si* Mi5:16
+13 | Sol5:8.=hoş* Fa5#3:16 Fa5#3:8=ge-* Sol5:16 Fa5#3:16 Fa5#3:8.=li-* Mi5:16 Mi5:8.=yor/* Re5:16
+[Saz]
+14 | Re5:4 Re5:8=Bö-* Mi5:8=lük* Mi5:8.=bö-* Do5:16 Re5:8.=lük* Do5:16
+15 | Mi5:8.=gi-* Re5:16 Re5:8=den* Mi5:16 Re5:16 Re5:8.=as-* Si4b2:16 Do5:8.=ker/* Si4b2:16
+[Saz]
+16 | Si4b2:16 La4:16 Si4b2:8 Do5:8=Ge-* Re5:8=ri* Re5:8.=dön-* Do5:16 Do5:8=müş* Re5:16 Si4b2:16
+17 | Re5:8.=boş* Si4b2:16 Do5:8=ge-* Re5:16 Do5:16 Do5:8.=li-* Si4b2:16 Si4b2:8.=yor/* La4:16
+[Saz]
+18 | La4:8 La4:8 La4:8=Ya-* Do5:8=zık* Do5:8.=ol-* Si4b2:16 Si4b2:8.=du* La4:16
+19 | Do5:8.=genç* Si4b2:16 Si4b2:8=ya-* Do5:16 Si4b2:16 Si4b2:16=şı-* Si4b2:8=na* La4:16 La4:4
+20 | La4:8=vay/* La4:16 La4:16 La4:16 La4:16 La4:8 La4:16 La4:16 La4:16 Sol4:16 La4:16 Si4b2:16 Do5:16 Re5:16
+21 | Mi5:16 Re5:16 Mi5:8 Re5:8=Me-* Mi5:8=me-* Mi5:8.=dim* Do5:16 Re5:8.=as-* Do5:16
+22 | Mi5:8.=lan* Re5:16 Re5:8=Me-* Mi5:16 Re5:16 Re5:8.=me-* Si4b2:16 Do5:8.=dim/* Si4b2:16
+[Saz]
+23 | Si4b2:8 La4:8 Re5:8=Me-* Mi5:8=me-* Mi5:8.=dim* Do5:16 Re5:8.=ci-* Do5:16
+24 | Mi5:8.=van* Re5:16 Re5:8=Me-* Mi5:16 Re5:16 Re5:8.=me-* Si4b2:16 Do5:8.=dim/* Si4b2:16
+[Saz]
+25 | Si4b2:16 Si4b2:16 La4:8 Do5:8=Dağ-* Re5:8=lar-* Re5:8.=da* Si4b2:16 Do5:8=cey-* Re5:16 Si4b2:16
+26 | Re5:8.=lân* Si4b2:16 Do5:8=Me-* Re5:16 Do5:16 Do5:8.=me-* Si4b2:16 Si4b2:8.=dim/* La4:16
+[Saz]
+27 | La4:8 La4:8 La4:8=Ağ* Do5:8=de-* Do5:8.=mir* Si4b2:16 Si4b2:8.=po-* La4:16
+28 | Do5:4=lat* Si4b2:8=Me-* Do5:16 Si4b2:16 Si4b2:8=me-* Si4b2:16=dim* La4:16 La4:4
+29 | La4:8=vay/* La4:16 La4:16 La4:16 La4:16 La4:8 La4:16 La4:16 La4:8 La4:4

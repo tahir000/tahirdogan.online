@@ -1,0 +1,35 @@
+ad: Evreşe Yolları
+yore: 
+usul: 9/8
+usul-adi: Evfer
+kalip: 2+2+2+3
+tempo: 90
+dizi: Rast
+karar: Sol
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, rast--turku--evfer--evrese_yollari--
+---
+[Söz]
+1 | Do5:4=Ev- Do5:8=re- Si4b2:8=şe Si4b2:8=yol- La4:8 La4:8=la- La4:16=rı Si4b2:16 (La4)Sol4:8
+2 | Sol4:4.=dar Es:8 Do5:16=dar/ Si4b2:16 Do5:16 Re5:16 Si4b2:8 La4:16 Sol4:16 Sol4:8
+3 | La4:8=Ba- Si4b2:8=na Do5:8=bak- Re5:8=ma Si4b2:8=be- Do5:8=nim La4:8=yâ- La4:16=rim Si4b2:16 (La4)Sol4:8
+4 | Sol4:1=var/ Es:8
+5 | Do5:4=Ev- Do5:8=re- Si4b2:8=şe Si4b2:8=yol- La4:8 La4:8=la- La4:16=rı Si4b2:16 (La4)Sol4:8
+6 | Sol4:4.=dar Es:8 Do5:16=dar/ Si4b2:16 Do5:16 Re5:16 Si4b2:8 La4:16 Sol4:16 Sol4:8
+7 | La4:8=Ba- Si4b2:8=na Do5:8=bak- Re5:8=ma Si4b2:8=be- Do5:8=nim La4:8=yâ- La4:16=rim Si4b2:16 (La4)Sol4:8
+8 | Sol4:1=var/ Es:8
+9 | Sol4:8=Bir Sol4:8 Sol4:8=fı- Do5:8=rın Si4b2:8=yap- La4:8=tır- Si4b2:4=dım Sol4:8
+10 | La4:8=dol- Si4b2:8=dur- Do5:8=dum Do5:8=ek- Si4b2:8=mek- La4:8=le- Sol4:4.=ri/
+11 | Sol4:8=Gel Sol4:8=be- Sol4:8=ra- Do5:8=ber Si4b2:8=yi- La4:8=ye- Si4b2:4=lim Sol4:8
+12 | La4:8=yap- Do5:8=tır- Do5:8=dım Do5:8=bö- Si4b2:8=rek- La4:8=le- Sol4:4.=ri/
+13 | Do5:4=Ev- Do5:8=re- Si4b2:8=şe Si4b2:8=yol- La4:8 La4:8=la- La4:16=rı Si4b2:16 (La4)Sol4:8
+14 | Sol4:4.=dar Es:8 Do5:16=dar/ Si4b2:16 Do5:16 Re5:16 Si4b2:8 La4:16 Sol4:16 Sol4:8
+15 | La4:8=Ba- Si4b2:8=na Do5:8=bak- Re5:8=ma Si4b2:8=be- Do5:8=nim La4:8=yâ- La4:16=rim Si4b2:16 (La4)Sol4:8
+16 | Sol4:1=var/ Es:8
+17 | Do5:4=Ev- Do5:8=re- Si4b2:8=şe Si4b2:8=yol- La4:8 La4:8=la- La4:16=rı Si4b2:16 (La4)Sol4:8
+18 | Sol4:4.=dar Es:8 Do5:16=dar/ Si4b2:16 Do5:16 Re5:16 Si4b2:8 La4:16 Sol4:16 Sol4:8
+19 | La4:8=Ba- Si4b2:8=na Do5:8=bak- Re5:8=ma Si4b2:8=be- Do5:8=nim La4:8=yâ- La4:16=rim Si4b2:16 (La4)Sol4:8
+20 | Sol4:1=var/ Es:8

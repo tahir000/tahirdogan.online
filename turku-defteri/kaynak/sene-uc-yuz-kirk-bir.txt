@@ -1,0 +1,38 @@
+ad: Sene Üç Yüz Kırk Bir
+yore: Ordu
+usul: 4/4
+usul-adi: Sofyan
+tempo: 102
+dizi: Muhayyerkürdi
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, muhayyerkurdi--turku--sofyan--eskiya_dunyaya--ordu
+---
+[Söz]
+1 | Es:4 Sol5:8=Se-* La5:8=ne* La5:4=üç* La5:4=yüz*
+2 | Sol5:4=kırk* La5:2.=bir*
+3 | Es:8 Sol5:4=nef-* La5:8=si-* Si5b:4=me* Si5b:8=uy-* La5:8
+4 | La5:1=dum/*
+5 | Es:4 Sol5:8=Se-* La5:8=beb* Si5b:4=ol-* Si5b:8=du* La5:8
+6 | La5:8=şey-* Sol5:8 Sol5:8=tan* Fa5:8 Fa5:8 Mi5:8 Mi5:4
+7 | Mi5:8 Es:8 Sol5:8=bir* La5:8=ca-* Sol5:8=na* Fa5:8 Fa5:8=kıy-* Mi5:8
+8 | Mi5:2.=dım/* Es:4
+9 | Es:4 Re5:8=Ka-* Mi5:8=til* Mi5:4=def-* Mi5:8=te-* Fa5:8
+10 | Re5:4=ri-* La5:2.=ne*
+11 | Sol5:4=a-* La5:8=dı-* Sol5:8 Sol5:8=mı* Fa5:8 Fa5:8=koy-* Mi5:8
+12 | Mi5:8=dum/* Re5:8 Re5:8 Do5:8 Re5:8 Mi5:8 Fa5:4
+13 | Mi5:8=Eş-* Fa5:4 Fa5:8=kı-* Fa5:8=yâ* Mi5:8 Mi5:4=dün-*
+14 | Mi5:8=ya-* Re5:8 Re5:4=ya* Re5:8=a-* Do5:8=nam* Mi5:8 Re5:8
+15 | Do5:8=hü-* Do5:4=küm-* La4:8 Si4b:4=dar* (Do5)Si4b:8=ol-* La4:8
+16 | La4:1=maz/*
+17 | Es:4 Re5:8=Ka-* Mi5:8=til* Mi5:4=def-* Mi5:8=te-* Fa5:8
+18 | Re5:4=ri-* La5:2.=ne*
+19 | Sol5:4=a-* La5:8=dı-* Sol5:8 Sol5:8=mı* Fa5:8 Fa5:8=koy-* Mi5:8
+20 | Mi5:8=dum/* Re5:8 Re5:8 Do5:8 Re5:8 Mi5:8 Fa5:4
+21 | Mi5:8=Eş-* Fa5:4 Fa5:8=kı-* Fa5:8=yâ* Mi5:8 Mi5:4=dün-*
+22 | Mi5:8=ya-* Re5:8 Re5:4=ya* Re5:8=a-* Do5:8=nam* Mi5:8 Re5:8
+23 | Do5:8=hü-* Do5:4=küm-* La4:8 Si4b:4=dar* (Do5)Si4b:8=ol-* La4:8
+24 | La4:1=maz/*

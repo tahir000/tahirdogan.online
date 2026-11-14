@@ -1,0 +1,62 @@
+ad: Gidem Dedim Yare
+yore: Rumeli
+usul: 7/8
+usul-adi: Devr-i Turan
+kalip: 2+2+3
+tempo: 150
+dizi: Hicaz Hümayun
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, hicaz_humayun--rumeliturkusu--devrituran--gidem_dedim--rumeli
+---
+[Aranağme]
+1 | Fa4#:8 Sol4:8 Fa4#:8 Sol4:8 La4:4 Sol4:8
+2 | La4:8 Si4b:8 La4:8 Si4b:8 Do5#:4 Si4b:8
+3 | Re5:4 Re5:8 Do5#:8 Si4b:8 La4:8 Sol4:8
+4 | Re5:4 Do5#:8 Mi5:8 Re5:4.
+[Aranağme]
+5 | Fa4#:8 Sol4:8 Fa4#:8 Sol4:8 La4:4 Sol4:8
+6 | La4:8 Si4b:8 La4:8 Si4b:8 Do5#:4 Si4b:8
+7 | Re5:4 Re5:8 Do5#:8 Si4b:8 La4:8 Sol4:8
+8 | La4:4 La4:4 La4:4 Es:8
+9 | La4:4 La4:4 La4:8 La4:8 La4:8
+10 | La4:4 La4:4 La4:8 La4:8 La4:8
+11 | La4:4 La4:4 La4:8 La4:8 La4:8
+12 | La4:4 La4:4 La4:8 La4:8 La4:8
+[Söz]
+13 | La4:4=Gi- Re5:4=dem Re5:4.=de-
+13 @2 | Sol4:4=Bi- Re5:4=ze Re5:4.=kıs-
+14 | Re5:4=dim;met Mi5:8=a-* Fa5:8 Re5:4=man* Es:8
+15 | Re5:4=yâ-;gur- La5:4=ren-;bet La5:4=le-;el- Sol5:8
+16 | Sol5:8=rim;de Fa5:8 Mi5:8 Re5:8 Mi5:4=da-;ve- Sol5:8
+17 | Fa5:8=rıl-;ril- Mi5:8 Re5:8 Do5#:8 Re5:4.=dı/;di/
+[Saz]
+18 | La4:4 Si4b:8 La4:8 Sol4:4.
+[Söz]
+19 | La4:4=Gi- Re5:4=dem Re5:4.=de-
+19 @2 | Sol4:4=Bi- Re5:4=ze Re5:4.=kıs-
+20 | Re5:4=dim;met Mi5:8=a-* Fa5:8 Re5:4=man* Es:8
+21 | Re5:4=yâ-;gur- La5:4=ren-;bet La5:4=le-;el- Sol5:8
+22 | Sol5:8=rim;de Fa5:8 Mi5:8 Re5:8 Mi5:4=da-;ve- Sol5:8
+23 | Fa5:8=rıl-;ril- Mi5:8 Re5:8 Do5#:8 Re5:4.=dı/;di/
+[Saz]
+24 | La4:4 Si4b:8 Do5#:8 Re5:4.
+[Söz]
+25 | Re5:4=Git-;Bu La5:4=mem;ay- La5:4=de-;rı- Sol5:8
+26 | Sol5:4=dim;lık Fa5:8 Mi5:8 Re5:4 Es:8
+27 | Fa5:4=yâr;ya- Fa5:4=boy-;man Fa5:8=nu-;bük- Mi5:8 Re5:8
+28 | Re5:8=ma;tü Do5#:8 Si4b:8 La4:8 Do5#:8=sa-;be- Re5:8 Mi5:8
+29 | Re5:8 Do5#:8 Si4b:8 La4:2=rıl-;li-
+30 | La4:2 La4:4=dı/;mi/ Sol4:8
+31 | Fa4#:4=Git-;Ya- Sol4:4=mem;ra- La4:4.=de-;dan
+32 | La4:2=dim;Hak Es:4.
+33 | Fa5:4=yâr;sen Fa5:4=boy-;bi- Fa5:8=nu-;lir- Mi5:8 Re5:8
+34 | Re5:8=ma Do5#:8 Si4b:8 La4:8 Do5#:8=sa- Re5:8 Mi5:8
+34 @2 | Re5:8=sin Do5#:8 Si4b:4 Do5#:8=hâ- Re5:8 Mi5:8
+35 | Re5:8 Do5#:8 Si4b:8 La4:2=rıl-
+35 @2 | Re5:8 Do5#:8 Si4b:8 La4:8 La4:4.=li-
+36 | La4:2. Sol4:8
+37 | Do5#:4 Si4b:8 La4:8 La4:4.=dı/;mi/

@@ -1,0 +1,75 @@
+ad: Çoban Kızı
+yore: 
+usul: 10/8
+usul-adi: Curcuna
+kalip: 3+2+2+3
+tempo: 108
+dizi: Hüseyni
+karar: La
+duzen: bozuk
+zorluk: zor
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, huseyni--turku--curcuna--coban_kizi--
+---
+[Aranağme]
+1 | Mi5:4 Re5:8 Mi5:4 Mi5:8 Re5:8 Re5:16. Mi5:32 Re5:16. Mi5:32 Do5:16. Re5:32
+2 | Do5:4 Re5:8 Mi5:4 Mi5:8 Re5:8 Re5:16. Mi5:32 Re5:16. Mi5:32 Do5:16. Re5:32
+3 | Do5:4 Re5:8 Mi5:8. Re5:16 Re5:16 Sol5:16 Fa5#3:16 Sol5:16 Mi5:8 Re5:8 Si4b2:8
+4 | Do5:4 Do5:8 Si4b2:8 La4:8 La4:8 Sol4:8 Re5:8 Re5:8 Si4b2:8
+5 | Do5:4 (Re5)Do5:8 Si4b2:8 La4:8 La4:4 Mi5:16 Fa5:16 Mi5:16 Re5:16 Do5:16 Re5:16
+[Aranağme]
+6 | Mi5:4 Re5:8 Mi5:4 Mi5:8 Re5:8 Re5:16. Mi5:32 Re5:16. Mi5:32 Do5:16. Re5:32
+7 | Do5:4 Re5:8 Mi5:4 Mi5:8 Re5:8 Re5:16. Mi5:32 Re5:16. Mi5:32 Do5:16. Re5:32
+8 | Do5:4 Re5:8 Mi5:8. Re5:16 Re5:16 Sol5:16 Fa5#3:16 Sol5:16 Mi5:8 Re5:8 Si4b2:8
+9 | Do5:4 Do5:8 Si4b2:8 La4:8 La4:8 Sol4:8 Re5:8 Re5:8 Si4b2:8
+10 | Do5:4 Do5:8 Si4b2:8 La4:8 La4:4 Mi5:16 Fa5:16 Mi5:16 Re5:16 Do5:16 Si4b2:16
+[Söz]
+11 | La4:4 Sol4:8=Ço- La4:4=ban La4:4=kı- (La4)Mi5:4.=zı
+12 | Mi5:4 Re5:8=su- Mi5:4=ya Mi5:4=gi- Mi5:4.=der
+13 | Mi5:4 Re5:8=su Mi5:4=des- Mi5:4=di- Mi5:4=sin Es:8
+14 | Re5:8.=dol- Do5:16 Mi5:8=du- Mi5:8.=rur/ Do5:16 Re5:8.=Dol- Do5:16 Mi5:8=du- Mi5:8.=rur Do5:16
+15 | Re5:4=dol- Sol5:8=du- Sol5:8=rur Mi5:8=vay Mi5:8 Re5:8 Mi5:4.=vay/
+[Saz]
+16 | Mi5:4 Fa5:8 Mi5:8 Re5:8 Do5:8 Re5:8 Mi5:16 Fa5:16 Mi5:16 Re5:16 Do5:16 Si4b2:16
+[Söz]
+17 | La4:4 Sol4:8=Ço- La4:4=ban La4:4=kı- (La4)Mi5:4.=zı
+18 | Mi5:4 Re5:8=su- Mi5:4=ya Mi5:4=gi- Mi5:4.=der
+19 | Mi5:4 Re5:8=su Mi5:4=des- Mi5:4=di- Mi5:4=sin Es:8
+20 | Re5:8.=dol- Do5:16 Mi5:8=du- Mi5:8.=rur/ Do5:16 Re5:8.=Dol- Do5:16 Mi5:8=du- Mi5:8.=rur Do5:16
+21 | Re5:4=dol- Sol5:8=du- Sol5:8=rur Mi5:8=vay Mi5:8 Re5:8 Mi5:4.=vay/
+[Saz]
+22 | Mi5:4 Fa5:8 Mi5:8 Re5:8 Do5:8 Re5:8 Mi5:16 Fa5:16 Mi5:16 Re5:16 Do5:16 Re5:16
+[Söz]
+23 | Mi5:4 Re5:8=E- Mi5:4=ve Mi5:8=ge- Re5:8=lir Re5:16. Mi5:32 Re5:16. Mi5:32 Do5:16. Re5:32
+24 | Do5:4 Re5:8=gül Mi5:8=ben- Re5:8 Re5:16=zi- Sol5:16 Fa5#3:16 Sol5:16 Mi5:8=ni Re5:8 Si4b2:8
+25 | Do5:4=sol- (Re5)Do5:8=du- Si4b2:8 La4:8 La4:8=rur/ Sol4:8 (Mi5)Re5:8=Le Re5:8=le Si4b2:8
+26 | Do5:4=sol- (Re5)Do5:8=du- Si4b2:8 La4:8 La4:4=rur/ Mi5:16 Fa5:16 Mi5:16 Re5:16 Do5:16 Re5:16
+27 | Mi5:4 Re5:8=E- Mi5:4=ve Mi5:8=ge- Re5:8=lir Re5:16. Mi5:32 Re5:16. Mi5:32 Do5:16. Re5:32
+28 | Do5:4 Re5:8=gül Mi5:8=ben- Re5:8 Re5:16=zi- Sol5:16 Fa5#3:16 Sol5:16 Mi5:8=ni Re5:8 Si4b2:8
+29 | Do5:4=sol- (Re5)Do5:8=du- Si4b2:8 La4:8 La4:8=rur/ Sol4:8 (Mi5)Re5:8=Le Re5:8=le Si4b2:8
+30 | Do5:4=sol- Do5:8=du- Si4b2:8 La4:8 La4:4=rur/ Mi5:16 Fa5:16 Mi5:16 Re5:16 Do5:16 Si4b2:16
+31 | La4:4 Sol4:8=A- La4:4=nan La4:4=duy- (La4)Mi5:4.=sa
+32 | Mi5:4 Re5:8=ba- Mi5:4=ban Mi5:4=be- Mi5:4=ni Es:8
+33 | Re5:8.=öl- Do5:16 Mi5:8=dü- Mi5:8.=rür/ Do5:16 Re5:8.=Öl- Do5:16 Mi5:8=dü- Mi5:8.=rür Do5:16
+34 | Re5:4=öl- Sol5:8=dü- Sol5:8=rür Mi5:8=vay Mi5:8 Re5:8 Mi5:4.=vay/
+[Saz]
+35 | Mi5:4 Fa5:8 Mi5:8 Re5:8 Do5:8 Re5:8 Mi5:16 Fa5:16 Mi5:16 Re5:16 Do5:16 Si4b2:16
+[Söz]
+36 | La4:4 Sol4:8=A- La4:4=nan La4:4=duy- (La4)Mi5:4.=sa
+37 | Mi5:4 Re5:8=ba- Mi5:4=ban Mi5:4=be- Mi5:4=ni Es:8
+38 | Re5:8.=öl- Do5:16 Mi5:8=dü- Mi5:8.=rür/ Do5:16 Re5:8.=Öl- Do5:16 Mi5:8=dü- Mi5:8.=rür Do5:16
+39 | Re5:4=öl- Sol5:8=dü- Sol5:8=rür Mi5:8=vay Mi5:8 Re5:8 Mi5:4.=vay/
+[Saz]
+40 | Mi5:4 Fa5:8 Mi5:8 Re5:8 Do5:8 Re5:8 Mi5:16 Fa5:16 Mi5:16 Re5:16 Do5:16 Re5:16
+[Söz]
+41 | Mi5:4 Re5:8=Ço- Mi5:4=ban Mi5:8=kı- Re5:8=zı Re5:16. Mi5:32 Re5:16. Mi5:32 Do5:16. Re5:32
+42 | Do5:4 Re5:8=ben Mi5:4=kork- Mi5:8=ma- Re5:8=nam Re5:16. Mi5:32 Re5:16. Mi5:32 Do5:16. Re5:32
+43 | Do5:4 Re5:8=se- Mi5:8.=nin Re5:16 Re5:16=ço- Sol5:16 Fa5#3:16 Sol5:16 Mi5:8=ban Re5:8 Si4b2:8
+44 | Do5:4=ba- Do5:8=bay- Si4b2:8 La4:8 La4:8=dan/ Sol4:8 Re5:8=Le Re5:8=le Si4b2:8
+45 | Do5:4=ba- (Re5)Do5:8=bay- Si4b2:8 La4:8 La4:4=dan/ Mi5:16 Fa5:16 Mi5:16 Re5:16 Do5:16 Re5:16
+46 | Mi5:4 Re5:8=Ço- Mi5:4=ban Mi5:8=kı- Re5:8=zı Re5:16. Mi5:32 Re5:16. Mi5:32 Do5:16. Re5:32
+47 | Do5:4 Re5:8=ben Mi5:4=kork- Mi5:8=ma- Re5:8=nam Re5:16. Mi5:32 Re5:16. Mi5:32 Do5:16. Re5:32
+48 | Do5:4 Re5:8=se- Mi5:8.=nin Re5:16 Re5:16=ço- Sol5:16 Fa5#3:16 Sol5:16 Mi5:8=ban Re5:8 Si4b2:8
+49 | Do5:4=ba- Do5:8=bay- Si4b2:8 La4:8 La4:8=dan/ Sol4:8 Re5:8=Le Re5:8=le Si4b2:8
+50 | Do5:4=ba- Do5:8 Si4b2:8=bay- La4:8 La4:2=dan/ Es:8

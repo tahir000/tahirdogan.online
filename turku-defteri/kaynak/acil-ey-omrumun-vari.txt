@@ -1,0 +1,64 @@
+ad: Açıl Ey Ömrümün Varı
+yore: 
+usul: 2/4
+usul-adi: Nimsofyan
+tempo: 84
+dizi: Hicaz
+karar: La
+duzen: bozuk
+zorluk: zor
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, hicaz--turku--nimsofyan--acil_ey--
+---
+[Aranağme]
+1 | Fa5:8 Mi5:16 Re5:16 Fa5:16 Mi5:16 Re5:16 Do5#:16
+2 | Re5:8 Mi5:16 Re5:16 Mi5:4
+3 | La4:16 Si4b:16 Do5#:16 Re5:16 Mi5:16 Re5:16 Mi5:16 Do5#:16
+4 | Re5:16 Fa5:16 Mi5:16 Re5:16 Mi5:8 La4:16 Es:16
+5 | (Sol5)Fa5#:16 Sol5:16 La5:8 (Sol5)Fa5:16 Mi5:16 Re5:16 Do5#:16
+6 | Re5:8 Mi5:16 Re5:16 Mi5:8 La4:16 Es:16
+7 | Fa5#:16 Sol5:16 La5:8 (Sol5)Fa5:16 Mi5:16 Re5:16 Do5#:16
+8 | Re5:16 Fa5:16 Mi5:16 Re5:16 Do5#:16 Si4b:16 La4:8
+9 | Es:16 La5:16 La5:16 La5:16 Fa5:16 Mi5:16 Re5:16 Do5#:16
+10 | Re5:16 Fa5:16 Mi5:16 Re5:16 Do5#:16 Si4b:16 La4:8
+11 | Es:16 La5:16 La5:16 La5:16 Fa5:16 Mi5:16 Re5:16 Do5#:16
+12 | Re5:16 Fa5:16 Mi5:16 Re5:16 Do5#:16 Si4b:16 La4:8
+[Söz]
+13 | Mi5:8=A-* Mi5:4.=çıl*
+14 | Mi5:8=ey* Mi5:4.=öm-*
+15 | Mi5:8=rü-* Mi5:4.=mün*
+16 | Mi5:8=va-* (Sol5)Fa5:16=rı* Mi5:16 Mi5:16 Re5:16 Mi5:8
+17 | Mi5:8=a-* Mi5:16=man/* Fa5:16 Sol5:8 Fa5:16 Mi5:16
+18 | (Sol5)Fa5:16 Mi5:16 Fa5:8 Mi5:8=Bâd* Fa5:8=ı*
+19 | Mi5:16=sa-* Sol5:16 Fa5:16=bah* Mi5:16 Fa5:4
+20 | Mi5:16=ol-* Fa5#3:16 Sol5:16 Fa5#3:16 (La5)Sol5:8 Fa5:16 Mi5:16
+21 | Re5:8 Re5:16 Do5#:16 Re5:4
+22 | Do5#:8=ma-* Re5:8 Mi5:8=dan* Fa5:16 Mi5:16
+23 | Re5:8 Do5#:16 Si4b:16 La4:8 Sol5:8
+24 | Fa5:16=ben* Mi5:16 Re5:16=yan-* Do5#:16 Re5:4=dım/*
+25 | Re5:8 Es:8 (La4)Re5:8.=E-* Re5:16=şim*
+26 | Re5:16=e-* Mi5:16 Re5:16=şim* Do5#:16 Si4b:8=gel* Do5#:8=gel/*
+27 | Es:4 La4:16=Uğ-* Re5:8 Re5:16=run*
+28 | Re5:16=uğ-* Mi5:16 Re5:16=run* Do5#:16 Si4b:8=gel* Do5#:8=gel/*
+29 | Es:4 Mi5:16=Can* Re5:16 Re5:16=yol-* Do5#:16
+30 | Do5#:16=da-* Si4b:16 Si4b:16=şım* La4:16 La4:4=gel/*
+[Saz]
+31 | La4:4 (Sol5)Fa5#:16 Sol5:16 La5:16 Sol5:16
+32 | La5:4 (Sol5)Fa5#:16 Sol5:16 La5:16 Sol5:16
+33 | La5:4. Fa5#:16 Sol5:16
+34 | La5:8 Fa5#:8 La5:8 Fa5#:8
+35 | La5:8 Fa5#:16 Sol5:16 Mi5:16 Fa5#:16 Sol5:16 La5:16
+36 | Sol5:16 La5:16 Fa5#:16 Sol5:16 Mi5:16 Fa5#:16 Sol5:16 La5:16
+37 | Sol5:16 La5:16 Fa5#:16 Sol5:16 Mi5:16 Sol5:16 Fa5:8
+38 | Mi5:16 Sol5:16 Fa5:16 Es:16 Mi5:16 Sol5:16 Fa5:16 Mi5:16
+39 | Fa5:16. Mi5:32 Re5:16 Do5#:16 Re5:8 Mi5:16 Re5:16
+40 | Mi5:8 Es:8 La4:8 Do5#:16 Re5:16
+41 | Mi5:16 Re5:16 Mi5:16 Do5#:16 Re5:16 Fa5:16 Mi5:16 Re5:16
+42 | Mi5:8 La4:16 Es:16 Fa5#:16 Sol5:16 La5:8
+43 | (Sol5)Fa5:16 Mi5:16 Re5:16 Do5#:16 Re5:16 Fa5:16 Mi5:16 Re5:16
+44 | Do5#:16 Si4b:16 La4:8 Es:16 La5:16 La5:16 La5:16
+45 | (Sol5)Fa5:16 Mi5:16 Re5:16 Do5#:16 Si4b:16 Do5#:16 Re5:16 Mi5:16
+46 | Do5#:16 Si4b:16 La4:8 Es:16 La5:16 La5:16 La5:16
+47 | (Sol5)Fa5:16 Mi5:16 Re5:16 Do5#:16 Re5:16 Fa5:16 Mi5:16 Re5:16
+48 | Do5#:16 Si4b:16 Si4b:16 La4:16 La4:4

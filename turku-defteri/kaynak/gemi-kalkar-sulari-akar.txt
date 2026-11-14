@@ -1,0 +1,36 @@
+ad: Gemi Kalkar Suları Akar
+yore: Rumeli
+usul: 4/4
+usul-adi: Sofyan
+tempo: 78
+dizi: Hicaz
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, hicaz--rumeliturkusu--sofyan--gemi_kalkar--rumeli
+---
+[Aranağme]
+1 | La4:4 Mi5:16 Fa5:16 Mi5:16 Re5:16 Mi5:16 Re5:16 Do5#:4 La4:8
+2 | Si4b:8 Do5#:16 Re5:16 Do5#:16 Si4b:16 La4:16 Sol4:16 La4:8 Sol4:16 La4:16 Si4b:8 La4:16 Si4b:16
+3 | Do5#:8 Si4b:16 Do5#:16 Re5:8 Do5#:16 Re5:16 Mi5:16 Re5:16 Do5#:4 La4:8
+4 | Si4b:8 Do5#:16 Re5:16 Do5#:16 Si4b:16 Si4b:16 La4:16 La4:4 La4:16 Si4b:16 La4:16 Sol4:16
+[Aranağme]
+5 | La4:4 Mi5:16 Fa5:16 Mi5:16 Re5:16 Mi5:16 Re5:16 Do5#:4 La4:8
+6 | Si4b:8 Do5#:16 Re5:16 Do5#:16 Si4b:16 La4:16 Sol4:16 La4:8 Sol4:16 La4:16 Si4b:8 La4:16 Si4b:16
+7 | Do5#:8 Si4b:16 Do5#:16 Re5:8 Do5#:16 Re5:16 Mi5:16 Re5:16 Do5#:4 La4:8
+8 | Si4b:8 Do5#:16 Re5:16 Do5#:16 Si4b:16 Si4b:16 La4:16 La4:4 La4:16 Si4b:16 Do5#:16 Re5:16
+[Söz]
+9 | Mi5:4 Fa5:8=Ge-* Fa5:16=mi* Mi5:16 Re5:8=kal-* Re5:16 Do5#:16 Re5:4=kar*
+10 | Re5:8=su-* Re5:16 Do5#:16 Si4b:8=la-* Re5:8=rı* Do5#:4=a-* Re5:8=kar/* Mi5:8
+11 | Mi5:4 Fa5:8=Naz-* Fa5:16=lı* Mi5:16 Re5:8=yâr* Re5:16 Do5#:16 Re5:4=pen-*
+12 | Re5:8=ce-* Re5:16 Do5#:16 Si4b:8=re-* Re5:8=den* Do5#:4=ba-* Re5:8=kar/* Mi5:8
+13 | Mi5:4 Fa5:8=Giy-* Fa5:16=miş* Mi5:16 Re5:8=mor* Re5:16 Do5#:16 Re5:4=fe-*
+14 | Re5:8=si-* Re5:16 Do5#:16 Si4b:8=ni* Re5:8=de* Do5#:8=Sü-* Do5#:8=ley-* Re5:8=man/* Do5#:16 Si4b:16
+15 | La4:4 Re5:8=Ba-* Re5:8=kı-* Re5:16=şı* Do5#:16 Si4b:16 Do5#:16 Si4b:8=can-* La4:8
+16 | Si4b:8=lar* La4:4=ya-* La4:8=kar/* La4:4 La4:16 Si4b:16 Do5#:16 Re5:16
+17 | Mi5:4 Fa5:8=Giy-* Fa5:16=miş* Mi5:16 Re5:8=mor* Re5:16 Do5#:16 Re5:4=fe-*
+18 | Re5:8=si-* Re5:16 Do5#:16 Si4b:8=ni* Re5:8=de* Do5#:8=Sü-* Do5#:8=ley-* Re5:8=man/* Do5#:16 Si4b:16
+19 | La4:4 Re5:8=Ba-* Re5:8=kı-* Re5:16=şı* Do5#:16 Si4b:16 Do5#:16 Si4b:8=can-* La4:8
+20 | Si4b:8=lar* La4:4.=ya-* La4:4=kar/* Es:4

@@ -1,0 +1,30 @@
+ad: Karanfil Oylum Oylum
+yore: 
+usul: 9/8
+usul-adi: Aksak
+kalip: 2+2+2+3
+tempo: 72
+dizi: Hicaz
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, hicaz--turku--aksak--karanfil_oylum_oylum--
+---
+[Aranağme]
+1 | La4:16 Si4b:16 Do5#:16 Re5:16 Do5#:16 Si4b:16 Si4b:16 La4:16 La4:4 La4:8 (Do5#)Si4b:16 La4:16 Sol4:8
+2 | La4:16 Si4b:16 Do5#:16 Re5:16 Do5#:16 Si4b:16 Si4b:16 La4:16 La4:4 La4:8 La4:8 La4:8
+3 | La4:16 Si4b:16 Do5#:16 Re5:16 Do5#:16 Si4b:16 Si4b:16 La4:16 La4:4 La4:8 (Do5#)Si4b:16 La4:16 Sol4:8
+4 | La4:16 Si4b:16 Do5#:16 Re5:16 Do5#:16 Si4b:16 Si4b:16 La4:16 La4:4 La4:16 Si4b:16 Do5#:16 Re5:16 Mi5:8
+[Söz]
+5 | Do5#:8=Ka-* Re5:8=ran-* Mi5:8=fil* Mi5:8=oy-* Mi5:4=lum* Fa5:8.=oy-* Mi5:16 Re5:8=lum/*
+6 | Mi5:8=Ge-* Fa5:8=li-* Mi5:8=yor* Re5:8=sel-* Do5#:4=vi* Re5:8=boy-* Do5#:16 Si4b:16 La4:8=lum/*
+7 | Do5#:8=Ka-* Re5:8=ran-* Mi5:8=fil* Mi5:8=oy-* Mi5:4=lum* Fa5:8.=oy-* Mi5:16 Re5:8=lum/*
+8 | Mi5:8=Ge-* Fa5:8=li-* Mi5:8=yor* Re5:8=sel-* Do5#:4=vi* Re5:8=boy-* Do5#:16 Si4b:16 La4:8=lum/*
+9 | Re5:8=Sel-* Re5:8=vi* Re5:8=boy-* Re5:8=lum* Re5:8.=ge-* Do5#:16 Si4b:8.=lin-* La4:16 La4:8=ce/*
+10 | Es:8 Re5:16=Şen* Re5:16=o-* Re5:8=lur* Re5:16=be-* Do5#:16 Si4b:8.=nim* La4:16 Si4b:8.=gön-* La4:16 Sol4:8=lüm/*
+11 | La4:16=Vay* Si4b:16 Do5#:16=be-* Re5:16=nim* Do5#:16=e-* Si4b:16 Si4b:16=fen-* La4:16 La4:4=dim/* La4:8=E-* (Do5#)Si4b:16=fen-* La4:16 Sol4:8=dim*
+12 | La4:16=serv* Si4b:16 Do5#:16=i* Re5:16 Do5#:16=bü-* Si4b:16 Si4b:16=len-* La4:16 La4:5/8=dim/*
+13 | La4:16=Vay* Si4b:16 Do5#:16=be-* Re5:16=nim* Do5#:16=e-* Si4b:16 Si4b:16=fen-* La4:16 La4:4=dim/* La4:8=E-* (Do5#)Si4b:16=fen-* La4:16 Sol4:8=dim*
+14 | La4:16=serv* Si4b:16 Do5#:16=i* Re5:16 Do5#:16=bü-* Si4b:16 Si4b:16=len-* La4:16 La4:5/8=dim/*

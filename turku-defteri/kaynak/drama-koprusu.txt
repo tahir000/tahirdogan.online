@@ -9,6 +9,7 @@ karar: La
 duzen: bozuk
 zorluk: orta
 durum: taslak
+secki: pilot
 kaynak: SymbTr 2.4.3, ussak--turku--turkaksagi--drama_koprusu--
 ---
 [Söz]

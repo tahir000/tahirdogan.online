@@ -1,0 +1,42 @@
+ad: Kalalıyam Kalalı
+yore: Urfa
+usul: 4/4
+usul-adi: Sofyan
+tempo: 72
+dizi: Segah
+karar: Si bemol 2
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, segah--turku--sofyan--kalaliyam--urfa
+---
+[Aranağme]
+1 | Es:4 Si4b2:8 Do5:8 Re5:4 Re5:4
+2 | Do5:8 Re5:16 Mi5b2:16 (Fa5)Re5:16 (Mi5b2)Do5:8 Si4b2:16 Si4b2:4 Re5:4
+3 | Re5:8 (Mi5b2)Re5:16 Do5:16 Do5:8. Si4b2:16 Si4b2:4 Re5:4
+4 | Re5:8 (Mi5b2)Re5:16 Do5:16 Do5:8. Si4:16 Mi5b2:4 Mi5b2:8 Re5:8
+5 | Re5:8 Mi5b2:8 Re5:16 Do5:8 Si4b2:16 Si4b2:4 Si4b2:16 Sol4:16 Si4b2:16 Do5:16
+[Söz]
+6 | Re5:4 Si4b2:8=Ka-* Do5:8=la-* Re5:4=lı-* Re5:4=yam*
+7 | Re5:8=ka-* Do5:16=la-* Re5:16 Do5:8 Si4b2:8 Re5:2=lı*
+8 | Do5:8=yâr* Re5:8 Mi5b2:8 Re5:8 Re5:2=yâr*
+9 | Do5:8=yâr* Re5:8 Mi5b2:8 Re5:8 Sol5:8=yâr* Fa5#:16 Sol5:16 Mi5b2:8. Re5:16
+10 | Re5:8=yâr* Do5:16 Re5:16 Do5:8=kur-* Si4b2:8 Si4b2:8=ban/* Si4b2:8 Si4b2:8 Si4b2:8
+[Saz]
+11 | Si4b2:8 Sol4:8 Si4b2:8=Ba-* Do5:8=şı* Re5:4=ye-* Re5:4=şil*
+12 | Do5:8=va-* Re5:16 Mi5b2:16 (Fa5)Re5:16=la-* (Mi5b2)Do5:8 Si4b2:16 Si4b2:4=lı* Re5:4=em-*
+13 | Re5:8=mim* (Mi5b2)Re5:16=oğ-* Do5:16 Do5:8. Si4b2:16 Si4b2:4=lu* Re5:4=da-*
+14 | Re5:8=yım* (Mi5b2)Re5:16=oğ-* Do5:16 Do5:8. Si4:16 Mi5b2:4=lu* Mi5b2:8=bi-* Re5:8
+15 | Re5:8=bim* Mi5b2:8 Re5:16=oğ-* Do5:8 Si4b2:16 Si4b2:4=lu* Si4b2:16 Sol4:16 Si4b2:16 Do5:16
+16 | Re5:8 Do5:32 Si4b2:32 La4:32 Sol4:32 Si4b2:8=Der-* Do5:8=man-* Re5:4=sız* Re5:4=der-*
+17 | Re5:8=de* Do5:16=düş-* Re5:16 Do5:8 Si4b2:8 Re5:2=tüm*
+18 | Do5:8=yâr* Re5:8 Mi5b2:8 Re5:8 Re5:2=yâr*
+19 | Do5:8=yâr* Re5:8 Mi5b2:8 Re5:8 Sol5:8=yâr* Fa5#:16 Sol5:16 Mi5b2:8. Re5:16
+20 | Re5:8=yâr* Do5:16 Re5:16 Do5:8=kur-* Si4b2:8 Si4b2:8=ban/* Si4b2:8 Si4b2:8 Si4b2:8
+[Saz]
+21 | Si4b2:8 Sol4:8 Si4b2:8=Sa-* Do5:8=na* Re5:4=gö-* Re5:4=nül*
+22 | Do5:8=ve-* Re5:16 Mi5b2:16 (Fa5)Re5:16=re-* (Mi5b2)Do5:8 Si4b2:16 Si4b2:4=li* Re5:4=em-*
+23 | Re5:8=mim* (Mi5b2)Re5:16=oğ-* Do5:16 Do5:8. Si4b2:16 Si4b2:4=lu* Re5:4=da-*
+24 | Re5:8=yım* (Mi5b2)Re5:16=oğ-* Do5:16 Do5:8. Si4:16 Mi5b2:4=lu* Mi5b2:8=bi-* Re5:8
+25 | Re5:8=bim* Mi5b2:8 Re5:16=oğ-* Do5:8 Si4b2:16 Si4b2:2=lu*

@@ -1,0 +1,24 @@
+ad: Sürüverin Cezveler Kaynasın
+yore: İstanbul
+usul: 9/8
+usul-adi: Evfer
+kalip: 2+2+2+3
+tempo: 114
+dizi: Hicaz
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, hicaz--turku--evfer--suruverin_cezveler--istanbul
+---
+[Aranağme]
+1 | Mi5:8=;Sü-;Ya-;;Sü-;Ya- Fa5:8=;rü-;rın;;rü-;rın Mi5:8=;ve-;;;ve- Re5:8=;rin;da;;rin;da Re5:8.=;cez-;çar-;;cez-;çar- Do5#:16 Si4b:8=;ve-;şı-;;ve-;şı- Do5#:8=;ler;ya;;ler;ya Es:8
+2 | Es:4 Si4b:8=;kay-;va-;;kay-;va- Do5#:8 Si4b:8 La4:8 Sol4:8=;na-;ra-;;na-;ra- La4:8=;sın/;yım/;;sın/;yım/ Es:8
+[Aranağme]
+3 | Mi5:8=;Sü-;Ya-;;Sü-;Ya- Fa5:8=;rü-;rın;;rü-;rın Mi5:8=;ve-;;;ve- Re5:8=;rin;da;;rin;da Re5:8.=;cez-;çar-;;cez-;çar- Do5#:16 Si4b:8=;ve-;şı-;;ve-;şı- Do5#:8=;ler;ya;;ler;ya Es:8
+4 | Es:4 Si4b:8=;kay-;va-;;kay-;va- Do5#:8 Si4b:8 La4:8 Sol4:8=;na-;ra-;;na-;ra- La4:8=;sın/;yım/;;sın/;yım/ Es:8
+5 | Sol4:8=;Ra-;Ra-;;Ra-;Ra- Sol4:8=;bi-;bi-;;bi-;bi- La4:8=;ye-;ye-;;ye-;ye- La4:8=;min;me;;min;me La4:4=;kol-;bir;;kol-;bir Si4b:8=;la-;ho-;;la-;ho- Do5#:4=;rı;toz;;rı;toz
+6 | Es:4 Si4b:8=;oy-;a-;;oy-;a- Do5#:8 Si4b:8 La4:8 Sol4:8=;na-;la-;;na-;la- La4:4=;sın/;yım/;;sın/;yım/
+7 | Sol4:8=;Ra-;Ra-;;Ra-;Ra- Sol4:8=;bi-;bi-;;bi-;bi- La4:8=;ye-;ye-;;ye-;ye- La4:8=;min;me;;min;me La4:4=;kol-;bir;;kol-;bir Si4b:8=;la-;ho-;;la-;ho- Do5#:4=;rı;toz;;rı;toz
+8 | Es:4 Si4b:8=;oy-;a-;;oy-;a- Do5#:8 Si4b:8 La4:8 Sol4:8=;na-;la-;;na-;la- La4:4=;sın/;yım/;;sın/;yım/

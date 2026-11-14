@@ -1,0 +1,36 @@
+ad: Sendeki Kaşlar
+yore: 
+usul: 9/8
+usul-adi: Çiftesofyan
+kalip: 2+2+2+3
+tempo: 96
+dizi: Muhayyerkürdi
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, muhayyerkurdi--turku--ciftesofyan--sendeki_kaslar--
+---
+[Aranağme]
+1 | Sol5:8 La5:16 La5:16 La5:8 La5:8 La5:8 Es:8 Re6:8 Re6:16 La5:16 Es:8
+2 | La5:16 Si5b:16 La5:16 Sol5:16 Fa5:16 Mi5:16 Re5:8 Do5:8 Re5:8 Mi5:8 Fa5:8 La5:8
+3 | Sol5:16 Si5b:16 La5:16 Sol5:16 Fa5:16 Mi5:16 Re5:8 Do5:8 Si4b2:8 Do5:8 Si4b2:8 Si4b2:16 La4:16
+4 | Si4b2:8 La4:16 La4:16 La4:8 La4:8 La4:8 La4:16 La4:16 La4:8 La4:8 La4:8
+[Söz]
+5 | Sol5:4=Sen-* La5:8=de-* La5:8=ki* La5:4=kaş-* La5:4.=lar*
+6 | Sol5:8=ben-* Si5b:8 La5:8=de* Sol5:8=de* Fa5:8=o-* Mi5:8=lay-* Re5:4 Fa5:8=dı*
+7 | Mi5:9/8=vay/*
+8 | Sol5:4=Sen-* La5:8=de-* La5:8=ki* La5:4=kaş-* La5:4.=lar*
+9 | Sol5:8=ben-* Si5b:8 La5:8=de* Sol5:8=de* Fa5:8=o-* Mi5:8=lay-* Re5:4 Fa5:8=dı*
+10 | Mi5:9/8=vay/*
+11 | Sol5:4=Kaş-* La5:8=la-* La5:8=rı* La5:4=sen-* La5:4.=den*
+12 | Sol5:8=ras-* Fa5#:8 Sol5:8=tı-* Si5b:8=ğı* La5:8=ben-* Sol5:8 Fa5:8=den/* Mi5:8 Re5:8
+13 | Mi5:8=E-* Fa5:8=lâ* Sol5:8=göz-* La5:8=lü* Sol5:8=kü-* Fa5:8=çük* Mi5:8=ha-* Re5:8=nım* Mi5:8=da/*
+14 | Do5:8=Ay-* Re5:8=rı-* Re5:8=la-* Do5:8=mam* Do5:8=ben* Si4b2:8 Si4b2:4=sen-* La4:8
+15 | La4:9/8=den/*
+16 | Sol5:4=Kaş-* La5:8=la-* La5:8=rı* La5:4=sen-* La5:4.=den*
+17 | Sol5:8=ras-* Fa5#:8 Sol5:8=tı-* Si5b:8=ğı* La5:8=ben-* Sol5:8 Fa5:8=den/* Mi5:8 Re5:8
+18 | Mi5:8=E-* Fa5:8=lâ* Sol5:8=göz-* La5:8=lü* Sol5:8=kü-* Fa5:8=çük* Mi5:8=ha-* Re5:8=nım* Mi5:8=da/*
+19 | Do5:8=Ay-* Re5:8=rı-* Re5:8=la-* Do5:8=mam* Do5:8=ben* Si4b2:8 Si4b2:4=sen-* La4:8
+20 | La4:9/8=den/*

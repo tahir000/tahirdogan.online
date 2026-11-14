@@ -1,0 +1,28 @@
+ad: Söğüdün Yaprağı Narindir
+yore: 
+usul: 15/8
+usul-adi: Raksan
+tempo: 72
+dizi: Muhayyer
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, muhayyer--turku--raksan--sogudun_yapragi--
+---
+[Aranağme]
+1 | Do5:8 Re5:8 Re5:8 Re5:8. Do5:16 Re5:16 Mi5:16 Do5:8 Si4b2:16 La4:16 La4:16 Si4b2:16 Do5:16 Re5:16 Do5:16 Si4b2:16 Si4b2:16 La4:16 Si4b2:16 La4:16 La4:4
+[Aranağme]
+2 | Do5:8 Re5:8 Re5:8 Re5:8. Do5:16 Re5:16 Mi5:16 Do5:8 Si4b2:16 La4:16 La4:16 Si4b2:16 Do5:16 Re5:16 Do5:16 Si4b2:16 Si4b2:16 La4:16 Si4b2:16 La4:16 La4:4
+[Söz]
+3 | Fa5#3:8=Sö-* Sol5:8=ğü-* La5:8=dün* La5:4=yap-* Do6:16=ra-* Si5b2:16 La5:8.=ğı* Sol5:16 Fa5#3:8=na-* Sol5:8=rin-* Fa5#3:4=dir* Sol5:16=na-* Fa5#3:16 Mi5:8.=rin/* Re5:16
+4 | Re5:8=Sö-* Fa5#3:16=ğü-* Sol5:16 La5:8=dün* La5:4=yap-* Do6:16=ra-* Si5b2:16 La5:8.=ğı* Sol5:16 Fa5#3:8=na-* Sol5:8=rin-* Fa5#3:4=dir* Sol5:16=na-* Fa5#3:16 Mi5:8.=rin/* Es:16
+5 | Re5:8=İ-* Re5:8=çe-* Re5:8=rim* Re5:8.=ya-* (Mi5)Do5:16 Re5:16=nı-* Mi5:16 Do5:8=yor* Si4b2:16 La4:16 La4:16=dı-* Si4b2:16 Do5:16=şa-* Re5:16 Do5:16=rım* Si4b2:16 Si4b2:16 La4:16 Si4b2:16=se-* La4:16 La4:4=rin/*
+6 | Re5:8=İ-* Re5:8=çe-* Re5:8=rim* Re5:8.=ya-* (Mi5)Do5:16 Re5:16=nı-* Mi5:16 Do5:8=yor* Si4b2:16 La4:16 La4:16=dı-* Si4b2:16 Do5:16=şa-* Re5:16 Do5:16=rım* Si4b2:16 Si4b2:16 La4:16 Si4b2:16=se-* La4:16 La4:4=rin/*
+7 | Fa5#3:8=Zey-* Sol5:8=ne-* La5:8=bi* La5:4=bu* Do6:16=haf-* Si5b2:16 La5:8.=ta* Sol5:16 Fa5#3:8=et-* Sol5:8=ti-* Fa5#3:4=ler* Sol5:16=ge-* Fa5#3:16 Mi5:8.=lin/* Re5:16
+8 | Re5:8=Zey-* Fa5#3:16=ne-* Sol5:16 La5:8=bi* La5:4=bu* Do6:16=haf-* Si5b2:16 La5:8.=ta* Sol5:16 Fa5#3:8=et-* Sol5:8=ti-* Fa5#3:4=ler* Sol5:16=ge-* Fa5#3:16 Mi5:8.=lin/* Es:16
+9 | Do5:8=Zey-* Re5:8=ne-* Re5:8=bim* Re5:8.=Zey-* (Mi5)Do5:16 Re5:16=ne-* Mi5:16 Do5:16=bim* Do5:16 Si4b2:16 La4:16 La4:16=an-* Si4b2:16 Do5:16=lı* Re5:16 Do5:16=Zey-* Si4b2:16 Si4b2:16 La4:16 Si4b2:16=ne-* La4:16 La4:4=bim/*
+10 | Do5:8=Üç* Re5:8=kö-* Re5:8=yün* Re5:8.=i-* (Mi5)Do5:16 Re5:16=çin-* Mi5:16 Do5:16=de* Do5:16 Si4b2:16 La4:16 La4:16=şan-* Si4b2:16 Do5:16=lı* Re5:16 Do5:16=Zey-* Si4b2:16 Si4b2:16 La4:16 Si4b2:16=ne-* La4:16 La4:4=bim/*
+11 | Do5:8=Zey-* Re5:8=ne-* Re5:8=bim* Re5:8.=Zey-* (Mi5)Do5:16 Re5:16=ne-* Mi5:16 Do5:16=bim* Do5:16 Si4b2:16 La4:16 La4:16=an-* Si4b2:16 Do5:16=lı* Re5:16 Do5:16=Zey-* Si4b2:16 Si4b2:16 La4:16 Si4b2:16=ne-* La4:16 La4:4=bim/*
+12 | Do5:8=Üç* Re5:8=kö-* Re5:8=yün* Re5:8.=i-* (Mi5)Do5:16 Re5:16=çin-* Mi5:16 Do5:16=de* Do5:16 Si4b2:16 La4:16 La4:16=şan-* Si4b2:16 Do5:16=lı* Re5:16 Do5:16=Zey-* Si4b2:16 Si4b2:16 La4:16 Si4b2:16=ne-* La4:16 La4:4=bim/*

@@ -1,0 +1,56 @@
+ad: Al Almanın Dördünü
+yore: Malatya
+usul: 2/4
+usul-adi: Nimsofyan
+tempo: 78
+dizi: Gerdaniye
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, gerdaniye--turku--nimsofyan--al_almanin--malatya
+---
+[Aranağme]
+1 | Es:8 Do5:16 Re5:16 Mi5:8 Mi5:16 Re5:16
+2 | Re5:16 Do5:16 Mi5:8 Mi5:16 Re5:16 Re5:16 Do5:16
+3 | Do5:16 Si4b2:16 Re5:16 Re5:16 Re5:16 Do5:16 Do5:16 Si4b2:16
+4 | Si4b2:16 La4:16 La4:16 Do5:16 Do5:16 Si4b2:16 Re5:16 Si4b2:16
+5 | Si4b2:16 La4:8. La4:4
+[Aranağme]
+6 | Es:8 Do5:16 Re5:16 Mi5:8 Mi5:16 Re5:16
+7 | Re5:16 Do5:16 Mi5:8 Mi5:16 Re5:16 Re5:16 Do5:16
+8 | Do5:16 Si4b2:16 Re5:16 Re5:16 Re5:16 Do5:16 Do5:16 Si4b2:16
+9 | Si4b2:16 La4:16 La4:16 Do5:16 Do5:16 Si4b2:16 Re5:16 Si4b2:16
+10 | Si4b2:16 La4:8. La4:4
+[Söz]
+11 | Es:8 Fa5#3:16=Al Sol5:16=al- Sol5:16=ma- Fa5#3:16=nın Sol5:8
+12 | Sol5:16=dör- Fa5#3:16 Sol5:8=dü- Sol5:16=nü/ Fa5#3:16 Fa5#3:16 Mi5:16
+13 | Fa5#3:16=Uy Mi5:16=a- Fa5#3:16 Sol5:16 Sol5:16=man Fa5#3:16 Mi5:16 Re5:16
+14 | Mi5:16=yâr Re5:16=a- Mi5:16 Fa5:16 Fa5:16=man Mi5:16 Re5:16 Do5:16
+15 | Re5:16=uy Do5:16=a- Mi5:16 Re5:16 Re5:4=man/
+16 | Es:8 Do5:16=Sev Re5:16=yi- Mi5:16=ği- Mi5:8=din Re5:16
+17 | Re5:16=mer- Do5:16 Mi5:8=di- Mi5:16=ni/ Re5:16 Re5:16 Do5:16
+18 | Do5:16=Kız Si4b2:16 Re5:16=ben Re5:16=ö- Re5:16=lem Do5:16 Do5:16 Si4b2:16
+19 | Si4b2:16.=yâr La4:32 La4:16=ben Do5:16=ö- Do5:16=lem Si4b2:16 Re5:16=kö- Si4b2:16
+20 | Si4b2:16=len La4:8.=o- La4:4=lam/
+21 | Es:8 Do5:16=Sev Re5:16=yi- Mi5:16=ği- Mi5:8=din Re5:16
+22 | Re5:16=mer- Do5:16 Mi5:8=di- Mi5:16=ni/ Re5:16 Re5:16 Do5:16
+23 | Do5:16=Kız Si4b2:16 Re5:16=ben Re5:16=ö- Re5:16=lem Do5:16 Do5:16 Si4b2:16
+24 | Si4b2:16.=yâr La4:32 La4:16=ben Do5:16=ö- Do5:16=lem Si4b2:16 Re5:16=kö- Si4b2:16
+25 | Si4b2:16=len La4:8.=o- La4:4=lam/
+26 | Es:8 Fa5#3:16=Se- Sol5:16=ver- Sol5:16=sen Fa5#3:16 Sol5:8=gü-
+27 | Sol5:16=ze- Fa5#3:16 Sol5:8=li Sol5:16=sev/ Fa5#3:16 Fa5#3:16 Mi5:16
+28 | Fa5#3:16=Uy Mi5:16=a- Fa5#3:16 Sol5:16 Sol5:16=man Fa5#3:16 Mi5:16 Re5:16
+29 | Mi5:16=yâr Re5:16=a- Mi5:16 Fa5:16 Fa5:16=man Mi5:16 Re5:16 Do5:16
+30 | Re5:16=uy Do5:16=a- Mi5:16 Re5:16 Re5:4=man/
+31 | Es:8 Do5:16=Çek- Re5:16=me Mi5:8=çir- Mi5:16=kin Re5:16
+32 | Re5:16=der- Do5:16 Mi5:8=di- Mi5:16=ni/ Re5:16 Re5:16 Do5:16
+33 | Do5:16=Kız Si4b2:16 Re5:16=ben Re5:16=ö- Re5:16=lem Do5:16 Do5:16 Si4b2:16
+34 | Si4b2:16.=yâr La4:32 La4:16=ben Do5:16=ö- Do5:16=lem Si4b2:16 Re5:16=kö- Si4b2:16
+35 | Si4b2:16=len La4:8.=o- La4:4=lam/
+36 | Es:8 Do5:16=Çek- Re5:16=me Mi5:8=çir- Mi5:16=kin Re5:16
+37 | Re5:16=der- Do5:16 Mi5:8=di- Mi5:16=ni/ Re5:16 Re5:16 Do5:16
+38 | Do5:16=Kız Si4b2:16 Re5:16=ben Re5:16=ö- Re5:16=lem Do5:16 Do5:16 Si4b2:16
+39 | Si4b2:16.=yâr La4:32 La4:16=ben Do5:16=ö- Do5:16=lem Si4b2:16 Re5:16=kö- Si4b2:16
+40 | Si4b2:16=len La4:8.=o- La4:4=lam/

@@ -1,0 +1,56 @@
+ad: Sabahtan Kalktım ki
+yore: 
+usul: 2/4
+usul-adi: Nimsofyan
+tempo: 84
+dizi: Uşşak
+karar: La
+duzen: bozuk
+zorluk: zor
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, ussak--turku--nimsofyan--sabahtan_kalktim--
+---
+[Aranağme]
+1 | La4:16. Si4b2:32 Do5:16 Si4b2:16 Do5:16. Si4b2:32 Do5:16 Mi5:16
+2 | Re5:16. Mi5:32 Do5:16 Re5:16 Si4b2:16 Do5:16 La4:8
+3 | La4:16 Do5:16 Si4b2:16 La4:16 La4:16. Sol4:32 Fa4#3:16 Sol4:16
+4 | La4:4. Es:8
+[Aranağme]
+5 | La4:16. Si4b2:32 Do5:16 Si4b2:16 Do5:16. Si4b2:32 Do5:16 Mi5:16
+6 | Re5:16. Mi5:32 Do5:16 Re5:16 Si4b2:16 Do5:16 La4:8
+7 | La4:16 Do5:16 Si4b2:16 La4:16 La4:16. Sol4:32 Fa4#3:16 Sol4:16
+8 | La4:4. Es:8
+[Söz]
+9 | Es:4. La4:16=Sa-* Do5:16=bah-*
+10 | Do5:8=tan* Do5:8=kalk-* Do5:8=tım* Do5:8=ki*
+11 | Do5:8=e-* Do5:16=zan* Si4b2:16 Do5:8=se-* Mi5:8=si*
+12 | Re5:16.=var/* Mi5:32 Do5:16 Re5:16 Si4b2:16 Do5:16 La4:8
+13 | Si4b2:16=E-* Do5:8=zan* Si4b2:16=da* Do5:16=se-* Si4b2:16 Do5:16=si* Mi5:16
+14 | Re5:16=de-* Mi5:16 Do5:16=ğil* Re5:16 Si4b2:16=yâr* Do5:16 La4:8=yâr*
+15 | La4:16=bur-* Si4b2:32. Do5:64 Si4b2:16=çak* La4:16 Sol4:8=ya-* Fa4#3:16=sı* Sol4:16
+16 | La4:4.=var/* Es:8
+17 | Si4b2:16=E-* Do5:8=zan* Si4b2:16=da* Do5:16=se-* Si4b2:16 Do5:16=si* Mi5:16
+18 | Re5:16=de-* Mi5:16 Do5:16=ğil* Re5:16 Si4b2:16=yâr* Do5:16 La4:8=yâr*
+19 | La4:16=bur-* Si4b2:32. Do5:64 Si4b2:16=çak* La4:16 Sol4:8=ya-* Fa4#3:16=sı* Sol4:16
+20 | La4:4.=var/* Es:8
+21 | Es:4. La4:16=Ba-* Do5:16=kın*
+22 | Do5:8=şu* Do5:8=a-* Do5:8=da-* Do5:8=mın*
+23 | Do5:8=kaç* Do5:16=tar-* Si4b2:16 Do5:8=la-* Mi5:8=sı*
+24 | Re5:16.=var/* Mi5:32 Do5:16 Re5:16 Si4b2:16 Do5:16 La4:8
+25 | (La4)Do5:16=A-* Do5:16=man* Do5:16 Do5:16=da* Do5:16=kız-* Si4b2:16 Do5:16=lar* Mi5:16
+26 | Re5:16=ne* Mi5:16 Do5:16=zor* Re5:16 Si4b2:16=i-* Do5:16 La4:8=miş*
+27 | La4:16=bur-* Do5:16 Si4b2:16=çak* La4:16 Sol4:8=yol-* Fa4#3:16=ma-* Sol4:16
+28 | La4:4.=sı/* Es:8
+29 | La4:16.=Bur-* Si4b2:32 Do5:16=çak* Si4b2:16 Do5:16=tar-* Si4b2:16 Do5:16=la-* Mi5:16
+30 | Re5:16=sın-* Mi5:16 Do5:16=da* Re5:16 Si4b2:16.=yâr* Do5:32 La4:8=yâr*
+31 | La4:16=ge-* Si4b2:32=lin* Do5:32 Si4b2:16 La4:16 Sol4:8=ol-* Fa4#3:16=ma-* Sol4:16
+32 | La4:4.=sı/* Es:8
+33 | La4:16.=Eğ-* Si4b2:32 Do5:16=dir-* Si4b2:16 Do5:16=me* Si4b2:16 Do5:16=fe-* Mi5:16
+34 | Re5:16=si-* Mi5:16 Do5:16=ni* Re5:16 Si4b2:16.=yâr* Do5:32 La4:8=yâr*
+35 | La4:16=ka-* Si4b2:32=kar* Do5:32 Si4b2:16 La4:16=da* Sol4:8=gi-* Fa4#3:16=de-* Sol4:16
+36 | La4:4.=rim/* Es:8
+37 | La4:16.=E-* Si4b2:32 Do5:16=vi-* Si4b2:16 Do5:16=ni* Si4b2:16 Do5:16=ba-* Mi5:16
+38 | Re5:16=şı-* Mi5:16 Do5:16=na* Re5:16 Si4b2:16.=yâr* Do5:32 La4:8=yâr*
+39 | La4:16=yı-* Si4b2:32=kar* Do5:32 Si4b2:16 La4:16=da* Sol4:8=gi-* Fa4#3:16=de-* Sol4:16
+40 | La4:4.=rim/* Es:8

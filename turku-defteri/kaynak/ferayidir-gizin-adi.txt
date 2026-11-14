@@ -1,0 +1,26 @@
+ad: Ferayidir Gızın Adı
+yore: 
+usul: 9/4
+usul-adi: Aksak (9/4)
+tempo: 72
+dizi: Neveser
+karar: Sol
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, neveser--turku--aksak--ferayi--
+---
+[Söz]
+1 | Es:2. Re4:8=Fe- Re4:8=ra- Sol4:4 Sol4:8=yi- Sol4:8=dir Sol4:2 Es:4
+2 | La4:4=gı- Si4b:8. La4:16 Si4b:12 La4:12 Si4b:12 (Do5#)Re5:8.=zın Do5#:16 Si4b:8.=a- La4:16 Sol4:4 Sol4:4=dı La4:8 Si4b:8 La4:8 Si4b:8
+3 | Sol4:4 Sol4:8 Fa4#:8 Sol4:16=Fe- Re5:8. Re5:4=ra- Re5:4=ye Es:4 (Fa5#)Mi5b:4 Re5:4 Do5#:4
+4 | (Re5)Do5#:8=yan- Si4b:16=dım La4:16 Si4b:4 (La4)Si4b:8=a- Si4b:4.=man/ (La4)Re5:4=Es- Re5:8=me- Do5#:8=ri Re5:8.=yâ- Do5#:16 Do5#:16=rim Si4b:16 Si4b:16 La4:16 Sol4:8=de Es:8
+5 | Re4:8=a- Sol4:4=man Sol4:8=da La4:8=Fe- Si4b:16=ra- La4:16 Sol4:12 Fa4#:12 La4:12 Sol4:2=yi/ Re4:4 Sol4:8 Fa4#:8 Sol4:4
+6 | Sol4:4 Sol4:8 Sol4:8 Re4:8.=Türk- Sol4:16 Sol4:8=men Sol4:8=de La4:8=gı- Si4b:16 La4:16 Sol4:16 Fa4#:16 Sol4:8 Sol4:2.=zı
+7 | La4:8=ka- Si4b:4. La4:8 Si4b:8 (Mi5b)Re5:8.=tar- Do5#:16 Si4b:8.=la- La4:16 Sol4:4 Sol4:4=mış La4:8 Si4b:8 La4:8 Si4b:8
+8 | Sol4:4 Sol4:8 Sol4:8 Sol4:16=ma- Re5:8. Re5:4=ya- Re5:2=yı/ (Fa5#)Mi5b:4=Öf Re5:4 Do5#:4
+9 | Do5#:8.=yâr La4:16 Si4b:8=yan- Si4b:8=dım (La4)Si4b:8=a- Si4b:16=man La4:16 Si4b:8 Es:8 Si4b:16=es- La4:16 Si4b:8 Do5#:16=mer Re5:8 Do5#:16 (Re5)Do5#:4=yâ- Si4b:16=rim La4:16 Sol4:16 Fa4#:16 Sol4:8=de/ Es:8
+10 | Fa4#:8=A- Sol4:4=man Sol4:8=da La4:8=ma- Si4b:16=ya- La4:16 Sol4:16 Fa4#:16 Sol4:8 Sol4:2=yı/ Re4:4 Re5:4 Re5:4
+11 | Re5:8.=Nin- Re5:16=ni Re5:8=nin- Re5:16=na Do5#:16 Si4b:8.=nin- Si4b:16=ni Si4b:8=nin- La4:16=na Si4b:16 Do5#:8.=nin- Do5#:16=ni Si4b:16=nin- La4:16 Si4b:8 (Mi5b)Re5:8=nin Do5#:8=na- Si4b:8.=nay- La4:16 Sol4:4=nam/
+12 | Re4:16=A- Re4:16=man Sol4:16 Sol4:16=da Sol4:8=a- Sol4:8=man La4:12=Fe- Si4b:12=ra- La4:12 Sol4:16 Fa4#:8. Sol4:2=yi/ Es:2.

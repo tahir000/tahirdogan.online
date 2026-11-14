@@ -1,0 +1,89 @@
+ad: Cezayir'in Harmanları Savrulur
+yore: Bursa
+usul: 2/4
+usul-adi: Nimsofyan
+tempo: 102
+dizi: Gerdaniye
+karar: La
+duzen: bozuk
+zorluk: zor
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, gerdaniye--turku--nimsofyan--cezayirin_harmanlari--bursa
+---
+[Aranağme]
+1 | Fa5#3:16 Sol5:8. Sol5:16 Sol5:16 Sol5:16 Sol5:16
+2 | Sol5:2
+3 | Fa5#3:16 Sol5:16 La5:16 Sol5:16 Fa5#3:16 Sol5:16 La5:16 Sol5:16
+4 | Fa5#3:16 Sol5:16 La5:16 Sol5:16 Fa5#3:16 Sol5:16 La5:16 Sol5:16
+5 | Fa5#3:2
+6 | Fa5#3:2
+7 | Mi5:16 Fa5:16 Mi5:16 Re5:16 Mi5:16 Fa5:16 Mi5:16 Re5:16
+8 | Mi5:16 Fa5:16 Mi5:16 Re5:16 Mi5:16 Fa5:16 Mi5:16 Re5:16
+9 | Re5:2
+10 | Re5:2
+[Söz]
+11 | Sol5:16=Ce-* Sol5:8.=za-* Sol5:8=yi-* Sol5:8=rin*
+12 | Sol5:2
+13 | Sol5:2
+14 | Si5b:8 La5:8 Sol5:8=har-* Sol5:16=man-* Fa5#3:16
+15 | Mi5b2:8.=la-* Re5:16 Do5:8=rı* Re5:16 Si4b2:16
+16 | Do5:4. Es:8
+17 | Mi5b2:16=sav-* Mi5b2:8 Fa5#3:16=ru-* Mi5b2:16=lur* Re5:16 Do5:16 Mi5b2:16
+18 | Re5:2=ey/*
+19 | Re5:2
+[Saz]
+20 | Re5:16 Mi5b:16 Re5:16 Do5:16 Re5:16 Mi5b:16 Re5:16 Do5:16
+21 | Re5:16 Mi5b:16 Re5:16 Do5:16 Re5:16 Mi5b:16 Re5:16 Do5:16
+22 | Re5:8 Re5:16 Sol5:16 Re5:8 Re5:16 Sol5:16
+[Söz]
+23 | Sol5:8.=Sav-* Sol5:16=ru-* Sol5:8=lur* Sol5:8=da*
+24 | Sol5:2
+25 | Sol5:2
+26 | Si5b:8. La5:16 Sol5:8=sol* Sol5:16=ya-* Fa5#3:16
+27 | Mi5b2:8.=nı-* Re5:16 Do5:24=na* Si4b2:24 Do5:24 Re5:16 Si4b2:16
+28 | Do5:2
+29 | Do5:2
+30 | Mi5b2:16=dev-* Mi5b2:16 Mi5b2:16=ri-* Re5:16 Do5:8=lir* Si4b2:16 Re5:16
+31 | Do5:2=ey/*
+32 | Do5:2
+[Saz]
+33 | Si4b2:16 Do5:16 Re5:16 Do5:16 Si4b2:16 Do5:16 Re5:16 Do5:16
+34 | Si4b2:16 Do5:16 Re5:16 Do5:16 Si4b2:16 Do5:16 Re5:16 Do5:16
+35 | Si4b2:2
+36 | Si4b2:2
+37 | La4:16 Do5#3:16 Si4b:16 La4:16 La4:16 Sol4:16 Fa4#:16 Sol4:16
+38 | La4:2
+39 | La4:4 Es:4
+[Söz]
+40 | Sol5:16=Sa-* Sol5:8.=rı* Sol5:8=buğ-* Sol5:8=day*
+41 | Sol5:2
+42 | Sol5:2
+43 | Si5b:8. La5:16 Sol5:8=sa-* Sol5:16=ma-* Fa5#3:16
+44 | Mi5b2:8.=nın-* Re5:16 Do5:8=dan* Re5:16 Si4b2:16
+45 | Do5:4. Es:8
+46 | Mi5b2:16=ay-* Mi5b2:8 Fa5#3:16=rı-* Re5:8=lır/* Do5:16 Mi5b2:16
+47 | Re5:2
+48 | Re5:2
+49 | Re5:2
+[Saz]
+50 | Re5:16 Mi5b:16 Re5:16 Do5:16 Re5:16 Mi5b:16 Re5:16 Do5:16
+51 | Re5:16 Mi5b:16 Re5:16 Do5:16 Re5:16 Mi5b:16 Re5:16 Do5:16
+52 | Re5:8 Re5:16 Re5:16 Re5:8 Re5:16 Re5:16
+[Söz]
+53 | Si4b2:16=So-* Do5:16=kak-* Re5:8 Re5:16=la-* Re5:8.=rı*
+54 | Re5:8=mer-* Mi5b:16=mer* Re5:16 Mi5b:16=taş-* Re5:16 Do5:16 Si4b2:16
+55 | Do5:8=lı/* Es:8 Es:4
+56 | Re5:16=Gü-* Mi5b:8=zel-* Re5:16 Mi5b:16=le-* Re5:8.=ri*
+57 | Re5:16=hi-* Re5:8.=lâl* Mi5b:16=kaş-* Re5:16 Do5:16 Si4b2:16
+58 | Do5:4.=lı* Es:8
+59 | Mi5b:16=Ce-* Mi5b:8.=za-* Re5:16 Do5:16 Re5:16 Si4b2:16
+60 | Do5:2=yir/*
+61 | Do5:2
+62 | Do5:2
+63 | Si4b2:2
+64 | Si4b2:2
+[Saz]
+65 | La4:16 Do5:16 Si4b2:16 Do5:16 Si4b:16 La4:16 Sol4:24 Fa4#3:24 Sol4:24
+66 | La4:2
+67 | La4:2

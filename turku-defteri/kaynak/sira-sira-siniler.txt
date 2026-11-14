@@ -1,0 +1,42 @@
+ad: Sıra Sıra Siniler
+yore: 
+usul: 2/4
+usul-adi: Nimsofyan
+tempo: 84
+dizi: Rast
+karar: Sol
+duzen: bozuk
+zorluk: zor
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, rast--turku--nimsofyan--sira_sira--
+---
+[Söz]
+1 | Es:8 Sol4:16=Sı-* La4:16=ra* Sol4:8=sı-* La4:8=ra*
+2 | Si4b2:8=si-* Do5:8=ni-* Re5:4=ler/*
+3 | Mi5:8=Has-* Fa5:16=ta* Sol5:16 Mi5:8=o-* Re5:8=lan*
+4 | Re5:16=i-* Mi5:16 Re5:16=ni-* Do5:16 Si4b2:4=ler/*
+5 | Es:8 Do5:16=Al-* Re5:16=dı* Re5:8=git-* Re5:8=ti*
+6 | Do5:8=yâ-* Do5:16=ri-* Si4b2:16 La4:4=mi/*
+7 | La4:16=De-* La4:8=niz-* Sol4:16 La4:16=de-* Si4b2:16 Do5:16=ki* Re5:16
+8 | Do5:16=ge-* Si4b2:16=mi-* (Do5)Si4b2:16 La4:16 Sol4:4=ler/*
+9 | Es:8 Do5:16=Al-* Re5:16=dı* Re5:8=git-* Re5:8=ti*
+10 | Do5:8=yâ-* Do5:16=ri-* Si4b2:16 La4:4=mi/*
+11 | La4:16=De-* La4:8=niz-* Sol4:16 La4:16=de-* Si4b2:16 Do5:16=ki* Re5:16
+12 | Do5:16=ge-* Si4b2:16=mi-* (Do5)Si4b2:16 La4:16 Sol4:4=ler/*
+13 | Es:8 Re5:16=Sa-* Re5:16=na* Sol5:4=hiç*
+14 | Fa5#:16=kı-* Fa5#:8=ya-* Mi5:16 Re5:4=mam/*
+15 | Mi5:8=Yâr* Fa5:16=se-* Sol5:16=ni* Mi5:8=se-* Mi5:16=ve-* Re5:16
+16 | Re5:16=rim* Mi5:16 Re5:16=can-* Do5:16 Si4b2:4=dan/*
+17 | Es:8 Do5:16=Ba-* Re5:16=kış-* Re5:8=la-* Re5:8=rın*
+18 | Do5:8=pek* Do5:16=ya-* Si4b2:16 La4:4=man/*
+19 | La4:16=Be-* La4:8=nim* Sol4:16 La4:16=sa-* Si4b2:16 Do5:16=rı* Re5:16
+20 | Do5:16=ka-* Si4b2:16=nar-* (Do5)Si4b2:16 La4:16 Sol4:4=yam/*
+21 | Es:8 Re5:16=Sa-* Re5:16=na* Sol5:4=hiç*
+22 | Fa5#:16=kı-* Fa5#:8=ya-* Mi5:16 Re5:4=mam/*
+23 | Mi5:8=Yâr* Fa5:16=se-* Sol5:16=ni* Mi5:8=se-* Mi5:16=ve-* Re5:16
+24 | Re5:16=rim* Mi5:16 Re5:16=can-* Do5:16 Si4b2:4=dan/*
+25 | Es:8 Do5:16=Ba-* Re5:16=kış-* Re5:8=la-* Re5:8=rın*
+26 | Do5:8=pek* Do5:16=ya-* Si4b2:16 La4:4=man/*
+27 | La4:16=Be-* La4:8=nim* Sol4:16 La4:16=sa-* Si4b2:16 Do5:16=rı* Re5:16
+28 | Do5:16=ka-* Si4b2:16=nar-* (Do5)Si4b2:16 La4:16 Sol4:4=yam/*

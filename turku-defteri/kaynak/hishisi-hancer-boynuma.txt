@@ -1,0 +1,41 @@
+ad: Hışhışı Hançer Boynuma
+yore: Gaziantep
+usul: 10/8
+usul-adi: Curcuna
+kalip: 3+2+2+3
+tempo: 90
+dizi: Hicaz Hümayun
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, hicaz_humayun--turku--curcuna--hishisi_hancer--gaziantep
+---
+[Aranağme]
+1 | La4:4 Re5:8 Re5:4 Re5:8 Do5#:8 Re5:4.
+2 | Re5:8 Do5#:8 Re5:8 Do5#:8 Si4b:8 Do5#:4 Si4b:4 La4:8
+3 | La4:4 La4:8 Do5#:4 Si4b:4 Do5#:4.
+4 | La4:4 Si4b:4. La4:2 Es:8
+[Aranağme]
+5 | La4:4 Re5:8 Re5:4 Re5:8 Do5#:8 Re5:4.
+6 | Re5:8 Do5#:8 Re5:8 Do5#:8 Si4b:8 Do5#:4 Si4b:4 La4:8
+7 | La4:4 La4:8 Do5#:4 Si4b:4 Do5#:4.
+8 | La4:4 Si4b:4. La4:2 Es:8
+[Söz]
+9 | La4:4=Hış-* La4:8=hı-* Re5:4=şı* Re5:4=han-* Re5:4=çer* Es:8
+10 | Re5:8=boy-* Do5#:8 Re5:8=nu-* Do5#:8=ma* Si4b:8 Do5#:4=le-* Si4b:4=le-* La4:8=yi/*
+11 | La4:4=Hış-* La4:8=hı-* Re5:4=şı* Re5:4=han-* Re5:4=çer* Es:8
+12 | Re5:8=boy-* Do5#:8 Re5:8=nu-* Do5#:8=ma* Si4b:8 Do5#:4=le-* Si4b:4=le-* La4:8=yi/*
+13 | La4:4=Kü-* La4:8=pe-* Do5#:4=li* Si4b:4=kız-* Do5#:4.=lar*
+14 | La4:4=ya-* Si4b:4.=nı-* La4:2=ma/* Es:8
+15 | La4:4=Kü-* La4:8=pe-* Do5#:4=li* Si4b:4=kız-* Do5#:4.=lar*
+16 | La4:4=ya-* Si4b:4.=nı-* La4:2=ma/* Es:8
+17 | Mi5:4=Ben* Fa5:8=ha-* Mi5:8=la-* Re5:8 Re5:8=yın* Do5#:8 Re5:4.
+18 | Re5:8=ba-* Do5#:8 Re5:8=şı-* Do5#:8=yam* Si4b:8 Do5#:4=le-* Si4b:4=le-* La4:8=yi/*
+19 | La4:4=Ben* Re5:8=ha-* Re5:4=la-* Re5:8=yın* Do5#:8 Re5:4.
+20 | Re5:8=ba-* Do5#:8 Re5:8=şı-* Do5#:8=yam* Si4b:8 Do5#:4=le-* Si4b:4=le-* La4:8=yi/*
+21 | La4:4=İn-* La4:8=ci-* Do5#:4=li* Si4b:4=kü-* Do5#:4.=pe*
+22 | La4:4=ka-* Si4b:4=şı-* La4:8 La4:2=yam/* Es:8
+23 | La4:4=İn-* La4:8=ci-* Do5#:4=li* Si4b:4=kü-* Do5#:4.=pe*
+24 | La4:4=ka-* Si4b:4=şı-* La4:8 La4:2=yam/* Es:8

@@ -1,0 +1,55 @@
+ad: Yağmur Yağar Taş Üstüne
+yore: 
+usul: 7/8
+usul-adi: Devr-i Turan
+kalip: 2+2+3
+tempo: 108
+dizi: Hüseyni
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, huseyni--turku--devrituran--yagmur_yagar--
+---
+[Aranağme]
+1 | Do5:8 Re5:8 Mi5:8 Mi5:8 Mi5:8 Mi5:4
+2 | Re5:4 Sol5:8 Fa5#3:8 Sol5:8 Mi5:4
+3 | Re5:4 Mi5:8 Re5:8 Mi5:8 Do5:4
+4 | Si4b2:8 Do5:8 Re5:8 Do5:8 Re5:8 Si4b2:4
+5 | La4:4 Do5:8 Si4b2:8 Do5:8 Si4b2:8 La4:8
+6 | Sol4:4 Do5:8 Si4b2:8 Re5:8 Si4b2:8 La4:8
+7 | La4:7/8
+8 | La4:7/8
+[Aranağme]
+9 | Do5:8 Re5:8 Mi5:8 Mi5:8 Mi5:8 Mi5:4
+10 | Re5:4 Sol5:8 Fa5#3:8 Sol5:8 Mi5:4
+11 | Re5:4 Mi5:8 Re5:8 Mi5:8 Do5:4
+12 | Si4b2:8 Do5:8 Re5:8 Do5:8 Re5:8 Si4b2:4
+13 | La4:4 Do5:8 Si4b2:8 Do5:8 Si4b2:8 La4:8
+14 | Sol4:4 Do5:8 Si4b2:8 Re5:8 Si4b2:8 La4:8
+15 | La4:7/8
+16 | La4:7/8
+[Söz]
+17 | La4:4=Yağ-* Sol5:8=mur* Fa5#3:8 Sol5:8=ya-* Sol5:8=ğar-* Fa5#3:8
+18 | Sol5:8=taş* Fa5#3:8 Mi5:4=üs-* Mi5:8=tü-* Mi5:8=ne/* Re5:8
+19 | Mi5:8=İn-* Fa5#3:8 Sol5:8=ce* Fa5#3:8 Sol5:8=ka-* Sol5:8=lem-* Fa5#3:8
+20 | Sol5:8=kaş* Fa5#3:8 Mi5:4=üs-* Mi5:8=tü-* Mi5:8=ne/* Re5:8
+21 | Mi5:8=se-* Fa5#3:8 Sol5:8=lâm* Fa5#3:8 Sol5:8=ge-* Sol5:8=lir* Fa5#3:8
+22 | Sol5:8=baş-* Fa5#3:8 Mi5:4=üs-* Mi5:8=tü-* Mi5:8=ne/* Re5:8
+23 | Do5:8=Vay* Re5:8 Mi5:8=di-* Mi5:8=li-* Mi5:8=di-* Mi5:4=li*
+24 | Re5:4=kuş* Sol5:8=di-* Fa5#3:8=li* Sol5:8=di-* Mi5:8=li/* Re5:8
+25 | Re5:4=Mev-* Mi5:8=lâ* Re5:8 Mi5:8=ku-* Do5:4=lu*
+26 | Si4b2:8=sev-* Do5:8 Re5:8=dim* Do5:8 Re5:8=se-* Si4b2:4=ni/*
+27 | La4:4=Vay* Do5:8=di-* Si4b2:8=li* Do5:8=di-* Si4b2:8=li-* La4:8
+28 | Sol4:4=kur-* Do5:8=ban* Si4b2:8 Re5:8=di-* Si4b2:8=li* La4:8
+29 | La4:7/8=hey-*
+30 | La4:7/8=hey-*
+31 | Do5:8=Vay* Re5:8 Mi5:8=di-* Mi5:8=li-* Mi5:8=di-* Mi5:4=li*
+32 | Re5:4=kuş* Sol5:8=di-* Fa5#3:8=li* Sol5:8=di-* Mi5:8=li/* Re5:8
+33 | Re5:4=Mev-* Mi5:8=lâ* Re5:8 Mi5:8=ku-* Do5:4=lu*
+34 | Si4b2:8=sev-* Do5:8 Re5:8=dim* Do5:8 Re5:8=se-* Si4b2:4=ni/*
+35 | La4:4=Vay* Do5:8=di-* Si4b2:8=li* Do5:8=di-* Si4b2:8=li-* La4:8
+36 | Sol4:4=kur-* Do5:8=ban* Si4b2:8 Re5:8=di-* Si4b2:8=li* La4:8
+37 | La4:7/8=hey-*
+38 | La4:7/8=hey-*

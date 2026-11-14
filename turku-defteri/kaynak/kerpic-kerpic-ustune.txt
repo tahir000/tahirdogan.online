@@ -1,0 +1,44 @@
+ad: Kerpiç Kerpiç Üstüne
+yore: Diyarbakır
+usul: 10/8
+usul-adi: Curcuna
+kalip: 3+2+2+3
+tempo: 96
+dizi: Muhayyer
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, muhayyer--turku--curcuna--kerpic_kerpic--diyarbakir
+---
+[Söz]
+1 | Es:4 Es:8 Fa5#3:4=Ker-* Sol5:4=piç* La5:4.=ker-*
+2 | La5:4.=pic* La5:4=üs-* La5:4=tü-* Sol5:4=ne* Fa5#3:8
+3 | La5:4.=kur-* La5:4=dum* Sol5:8=bi-* Fa5#3:8 Mi5:4=na-* Re5:8
+4 | Re5:4=yı/* Es:8 Fa5#3:4=Ker-* Sol5:4=piç* La5:4.=ker-*
+5 | La5:4.=pic* La5:4=üs-* La5:4=tü-* Sol5:4=ne* Fa5#3:8
+6 | La5:4.=kur-* La5:4=dum* Sol5:8=bi-* Fa5#3:8 Mi5:4=na-* Re5:8
+7 | Re5:4=yı/* Es:8 Do5:4=Bi-* Re5:4=na-* Mi5:4.=yı*
+8 | Mi5:4.=ku-* Mi5:4=rar* Mi5:4=i-* Re5:4=ken* Es:8
+9 | Sol5:4=gör-* Re5:8 Re5:4=düm* Re5:4=Ley-* Do5:4=lâ-* Si4b2:8
+10 | Si4b2:4=yı/* Es:8 Si4b2:4=Bi-* Do5:4=na-* Re5:4.=yı*
+11 | Re5:8=ku-* Do5:8 Re5:8 Re5:4=rar* Re5:4=i-* Do5:4=ken* Si4b2:8
+12 | Do5:8=gör-* Re5:8 Si4b2:8 Do5:4=düm* Do5:8=Ley-* Si4b2:8 Si4b2:4=lâ-* La4:8
+13 | La4:7/8=yı/* Es:4 Es:8
+14 | Es:4 Es:8 Fa5#3:4=Ley-* Sol5:4=lâ* La5:4.=ba-*
+15 | La5:4.=şı-* La5:4=ma* La5:4=aç-* Sol5:4=tı* Fa5#3:8
+16 | La5:4.=tür-* La5:4=lü* Sol5:8=be-* Fa5#3:8 Mi5:4=lâ-* Re5:8
+17 | Re5:4=yı/* Es:8 Fa5#3:4=Ley-* Sol5:4=lâ* La5:4.=ba-*
+18 | La5:4.=şı-* La5:4=ma* La5:4=aç-* Sol5:4=tı* Fa5#3:8
+19 | La5:4.=tür-* La5:4=lü* Sol5:8=be-* Fa5#3:8 Mi5:4=lâ-* Re5:8
+20 | Re5:4=yı/* Es:8 Do5:4=Ah* Re5:4=Ley-* Mi5:4.=lâ*
+21 | Mi5:4.=Ley-* Mi5:4=lâ* Mi5:4=Ley-* Re5:4=lâ* Es:8
+22 | Sol5:4=et-* Re5:8 Re5:4=me* Re5:4=bu* Do5:4=na-* Si4b2:8
+23 | Si4b2:4=zı/* Es:8 Si4b2:4=Gel* Do5:4=ba-* Re5:4.=rı-*
+24 | Re5:8=şa-* Do5:8 Re5:8 Re5:4=lım* Re5:4=ba-* Do5:4=ban* Si4b2:8
+25 | Do5:8=kıy-* Re5:8 Si4b2:8 Do5:4=sın* Do5:8=ni-* Si4b2:8 Si4b2:4=kâ-* La4:8
+26 | La4:4=hı/* Es:8 La4:4=Gel* La4:8=ba-* Si4b2:8 Do5:4.=rı-*
+27 | Do5:8=şa-* Re5:8 Si4b2:8 Do5:4=lım* Do5:8=ba-* Si4b2:8 Si4b2:4=ban* La4:8
+28 | Do5:8=kıy-* Re5:8 Si4b2:8 Do5:4=sın* Do5:8=ni-* Si4b2:8 Si4b2:4=kâ-* La4:8
+29 | La4:7/8=hı/* Es:4 Es:8

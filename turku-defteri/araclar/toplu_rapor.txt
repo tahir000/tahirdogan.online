@@ -1,0 +1,316 @@
+SymbTr toplu çeviri raporu
+
+Eklenen: 235
+Alınmayan: 65
+
+Alınmama nedenleri:
+   25  sapta perdesi olmayan ses
+   23  bestecisi yazıyor
+   12  söz yazarı yazıyor
+    5  zaten var (elle)
+
+Zorluk dağılımı: kolay 60, orta 96, zor 79
+
+EKLENENLER
+  ordunun-dereleri                             Ordu'nun Dereleri (Ordu)
+  ankaranin-yollari                            Ankara'nın Yolları
+  ham-meyvayi-kopardilar-dalindan              Ham Meyvayı Kopardılar Dalından
+  kirmizi-gul-demet-demet                      Kırmızı Gül Demet Demet (Erzurum)
+  bir-cift-durna-gordum                        Bir Çift Durna Gördüm (Yozgat)
+  aksam-olur-kervan-cikar-yokusa               Akşam Olur Kervan Çıkar Yokuşa (Urfa)
+  gesi-baglarinda-dolaniyorum                  Gesi Bağlarında Dolanıyorum (Kayseri)
+  daglara-cen-dusende                          Dağlara Çen Düşende
+  igdirin-al-almasi                            Iğdır'ın Al Alması (Iğdır)
+  aksarayda-cevirdiler-yolumu                  Aksaray'da Çevirdiler Yolumu
+  ben-havada-ucar-idim                         Ben Havada Uçar İdim
+  atladim-bahcene-girdim                       Atladım Bahçene Girdim (Rumeli)
+  sabah-oldu-uyansana                          Sabah Oldu Uyansana (Rumeli)
+  sahane-gozler-sahane                         Şahane Gözler Şahane
+  ey-benim-mestane-gozlum                      Ey Benim Mestane Gözlüm
+  havada-turna-sesi-var                        Havada Turna Sesi Var (İstanbul)
+  mapusane-icinde-yaniyor-gazlar               Mapusane İçinde Yanıyor Gazlar (Bartın)
+  kiz-bahcende-gul-var-mi                      Kız Bahçende Gül Var mı (Kastamonu)
+  kirimdan-gelirim                             Kırım'dan Gelirim (Rumeli)
+  antalyanin-mor-uzumu                         Antalya'nın Mor Üzümü (Antalya)
+  asagidan-gelen-de-hanim-oynasin              Aşağıdan Gelen de Hanım Oynasın (Bilecik)
+  cemilemin-gezdigi-daglar                     Cemilemin Gezdiği Dağlar...
+  salina-salina                                Salına Salına (Denizli)
+  celik-pazari                                 Çelik Pazarı (Erzurum)
+  daglar-basi-olaydim                          Dağlar Başı Olaydım (Kerkük)
+  kirklar-daginin-duzu                         Kırklar Dağının Düzü (Diyarbakır)
+  dost-eline-giden-durnam                      Dost Eline Giden Durnam (Malatya)
+  al-almanin-dordunu                           Al Almanın Dördünü (Malatya)
+  cezayirin-harmanlari-savrulur                Cezayir'in Harmanları Savrulur (Bursa)
+  penceresi-yesil-perde                        Penceresi Yeşil Perde (Konya)
+  benusene-gideyim                             Benüsen'e Gideyim
+  bin-derdim-vardi                             Bin Derdim Vardı (Maraş)
+  cabur-dagdan-kus-geliyor                     Cabur Dağdan Kuş Geliyor (Urfa)
+  evlerinin-onu-yoldur-yolaktir                Evlerinin Önü Yoldur Yolaktır (Urfa)
+  kaleden-kaleye-sahin-ucurdum                 Kaleden Kaleye Şahin Uçurdum (Adıyaman)
+  odasina-girdim-fincan-elinde                 Odasına Girdim Fincan Elinde
+  benden-selam-olsun                           Benden Selam Olsun (Kastamonu)
+  yine-de-sahlaniyor-aman                      Yine de Şahlanıyor Aman (Rumeli)
+  gemi-kalkar-sulari-akar                      Gemi Kalkar Suları Akar (Rumeli)
+  kirmizi-gulun-ali-var                        Kırmızı Gülün Alı Var (Rumeli)
+  el-zanneder-ben-deliyem                      El Zanneder Ben Deliyem (Urfa)
+  gemilerde-talim-var                          Gemilerde Talim Var
+  karanfil-oylum-oylum                         Karanfil Oylum Oylum
+  necibemin-ikidir-kurku                       Necibemin İkidir Kürkü (İstanbul)
+  pencere-acildi-bilal-oglan                   Pencere Açıldı Bilal Oğlan
+  cayelinden-oteye                             Çayeli'nden Öteye (Rize)
+  horozumun-tuyleri                            Horozumun Tüyleri (İstanbul)
+  suruverin-cezveler-kaynasin                  Sürüverin Cezveler Kaynasın (İstanbul)
+  acil-ey-omrumun-vari                         Açıl Ey Ömrümün Varı
+  daglar-daglar-viran-daglar                   Dağlar Dağlar Viran Dağlar
+  dane-dane-benleri-var                        Dane Dane Benleri Var (Kırşehir)
+  erkilet-guzeli                               Erkilet Güzeli...
+  pencereden-kus-uctu                          Pencereden Kuş Uçtu
+  seni-sevdim-seveli-kanaryam                  Seni Sevdim Seveli Kanaryam (İstanbul)
+  cadir-alti-minare                            Çadır Altı Minare (Gaziantep)
+  esmerim-bicim-bicim                          Esmerim Biçim Biçim (Diyarbakır)
+  gokteki-yildizin-ucu-terazi                  Gökteki Yıldızın Üçü Terazi
+  mektebin-bacalari                            Mektebin Bacaları (Muş)
+  sandalim-geliyor-varda                       Sandalım Geliyor Varda
+  su-gelen-atli-midir                          Şu Gelen Atlı mıdır
+  su-yaltadan-tas-yukledim                     Şu Yalta'dan Taş Yükledim (Kırım)
+  carsambayi-sel-aldi                          Çarşamba'yı Sel Aldı
+  divane-asik-gibi                             Divane Aşık Gibi (Maçka)
+  mayadagdan-kalkan-kazlar                     Mayadağ'dan Kalkan Kazlar
+  bitliste-bes-minare                          Bitlis'te Beş Minare
+  gidem-dedim-yare                             Gidem Dedim Yare (Rumeli)
+  estergon-kalasi                              Estergon Kal'ası
+  hishisi-hancer-boynuma                       Hışhışı Hançer Boynuma (Gaziantep)
+  benim-gulum-benim-nazlim                     Benim Gülüm Benim Nazlım (Kırşehir)
+  bulbulun-gogsu-al-olur                       Bülbülün Göğsü Al Olur (Urfa)
+  ben-seni-sevdigimi                           Ben Seni Sevdiğimi (Trabzon)
+  kirda-erik-agaci                             Kırda Erik Ağacı (Ankara)
+  gul-kuruttum                                 Gül Kuruttum (Hatay)
+  araz-uste-buz-uste                           Araz Üste Buz Üste
+  akzadeler-giyer-aman                         Akzadeler Giyer Aman... (Rumeli)
+  tutam-yar-elinden                            Tutam Yar Elinden (Erzurum)
+  a-fadimem-hadi-senle-kacalim                 A Fadimem Hadi Senle Kaçalım
+  bursanin-ufak-tefek-taslari                  Bursa'nın Ufak Tefek Taşları (Bursa)
+  yuksek-yuksek-tepelere                       Yüksek Yüksek Tepelere...
+  coban-kizi                                   Çoban Kızı
+  dersim-dort-dag-icinde                       Dersim Dört Dağ İçinde (Tunceli)
+  semsiyemin-ucu-kare                          Şemsiyemin Ucu Kare (Trakya)
+  yagmur-yagar-tas-ustune                      Yağmur Yağar Taş Üstüne
+  dere-geliyor-dere                            Dere Geliyor Dere
+  havada-bulut-yok                             Havada Bulut Yok
+  bir-of-ceksem                                Bir Of Çeksem (Kayseri)
+  menekse-kokulu-yarim                         Menekşe Kokulu Yarim
+  cikayim-gideyim-urumeline                    Çıkayım Gideyim Urumeline
+  ciktim-belen-kahvesine                       Çıktım Belen Kahvesine (Muğla)
+  hey-onbesli-onbesli                          Hey Onbeşli Onbeşli (Tokat)
+  kopruden-gecti-gelin                         Köprüden Geçti Gelin (Kırşehir)
+  yaylanin-cimenine                            Yaylanın Çimenine (Trabzon)
+  ayva-dibi-serin-olur-yatmaya                 Ayva Dibi Serin Olur Yatmaya
+  aksam-oldu-yine-basti-kareler                Akşam Oldu Yine Bastı Kareler (Rumeli)
+  arabaya-tas-koydum                           Arabaya Taş Koydum (İstanbul)
+  duriyemin-gugumleri-kalayli                  Düriyemin Güğümleri Kalaylı
+  yaniyor-mu-yesil-koskun-lambasi              Yanıyor mu Yeşil Köşkün Lambası
+  al-yesil-dokun-anneler                       Al Yeşil Dökün Anneler (Urfa)
+  hayatlari-degirmi                            Hayatları Değirmi
+  su-karsiki-dagda-kar-var                     Şu Karşıki Dağda Kar Var (Hatay)
+  asker-oldum-piyade                           Asker Oldum Piyade
+  kopruler-yaptirdim-gelip-gecmeye             Köprüler Yaptırdım Gelip Geçmeye
+  aliverin-baglamami-calayim                   Alıverin Bağlamamı Çalayım
+  indim-havuz-basina                           İndim Havuz Başına (İstanbul)
+  cayira-serdim-postu                          Çayıra Serdim Postu
+  ben-bir-altin-fenerim                        Ben Bir Altın Fenerim (Urfa)
+  elif-dedim-be-dedim                          Elif Dedim Be Dedim (Kütahya)
+  hastane-onunde-incir-agaci                   Hastane Önünde İncir Ağacı (Akdağmadeni)
+  dalda-cikmis-bir-elma                        Dalda Çıkmış Bir Elma
+  setiremin-dugmeleri-cift-sira                Setiremin Düğmeleri Çift Sıra (İstanbul)
+  indim-yarin-bahcesine                        İndim Yarin Bahçesine
+  meclisinde-mail-oldum                        Meclisinde Mail Oldum (Adıyaman)
+  kalenin-bedenleri                            Kalenin Bedenleri (Tokat)
+  su-dere-yonca                                Şu Dere Yonca
+  yemenimde-hare-var                           Yemenimde Hare Var
+  serenler                                     Serenler (Burdur)
+  kerpic-kerpic-ustune                         Kerpiç Kerpiç Üstüne (Diyarbakır)
+  yar-yuregim-yar                              Yar Yüreğim Yar (Urfa)
+  mihrican-mi-degdi                            Mihrican mı Değdi (Yozgat)
+  sari-kizin-saclari                           Sarı Kızın Saçları (Kırşehir)
+  evlerinin-onu-lale-bagidir                   Evlerinin Önü Lale Bağıdır (Elazığ)
+  su-icemem-testiden                           Su İçemem Testiden (Diyarbakır)
+  elma-attim-yuvarlandi                        Elma Attım Yuvarlandı (Tunceli)
+  ben-de-gittim-bir-geyigin-avina              Ben de Gittim Bir Geyiğin Avına (Adana)
+  bir-nazar-eyledim                            Bir Nazar Eyledim (Kırşehir)
+  gidecegim-gurbet-eldir                       Gideceğim Gurbet Eldir
+  uc-kardestik                                 Üç Kardeştik (Diyarbakır)
+  istanbuldan-uskudara-yol-gider               İstanbul'dan Üsküdar'a Yol Gider
+  su-gelir-kutugunden                          Su Gelir Kütüğünden (Burdur)
+  sogudun-yapragi-narindir                     Söğüdün Yaprağı Narindir
+  binip-de-kir-atima                           Binip de Kır Atıma (Denizli)
+  cayir-ince-bicemedim                         Çayır İnce Biçemedim
+  el-vurup-yaremi-incitme-tabip                El Vurup Yaremi İncitme Tabip (Tokat, Zile)
+  keklik-gibi-kanadimi-suzmedim                Keklik Gibi Kanadımı Süzmedim (Erzincan)
+  yandim-allah-yandim-yatamiyorum              Yandım Allah Yandım Yatamıyorum (Sivas)
+  vardim-hind-eline-kumas-getirdim             Vardım Hind Eline Kumaş Getirdim (Erzincan)
+  bulbulum-altin-kafeste                       Bülbülüm Altın Kafeste
+  cubugum-yok-yol-ustune-uzatam                Çubuğum Yok Yol Üstüne Uzatam
+  sendeki-kaslar                               Sendeki Kaşlar
+  evlerinin-onu-handir                         Evlerinin Önü Handır
+  cokertme                                     Çökertme
+  sene-uc-yuz-kirk-bir                         Sene Üç Yüz Kırk Bir (Ordu)
+  ferayidir-gizin-adi                          Ferayidir Gızın Adı
+  bir-atas-ver-cigarami-yakayim                Bir Ataş Ver Cıgaramı Yakayım
+  aman-avci-vurma-beni                         Aman Avcı Vurma Beni
+  uskudara-gider-iken                          Üsküdar'a Gider İken
+  penceresi-yola-karsi                         Penceresi Yola Karşı
+  ben-giderim-batuma                           Ben Giderim Batum'a
+  sokak-basi-meyhane                           Sokak Başı Meyhane (Giresun)
+  yoruk-de-yaylasinda                          Yörük de Yaylasında
+  kahve-yemenden-gelir                         Kahve Yemen'den Gelir
+  sen-bu-yaylalari                             Sen Bu Yaylaları (Trabzon)
+  sultan-murat-der-ki                          Sultan Murat Der ki
+  kircaliyle-arda-adasi                        Kırcali'yle Arda Adası (Rumeli)
+  oynayin-kiz-oynayin                          Oynayın Kız Oynayın (Trabzon)
+  evrese-yollari                               Evreşe Yolları
+  ibrisim-ormuyorlar                           İbrişim Örmüyorlar
+  sira-sira-siniler                            Sıra Sıra Siniler
+  aman-aysem-kundurani-tek-bas                 Aman Ayşem Kunduranı Tek Bas
+  adananin-yollari-taslik                      Adana'nın Yolları Taşlık
+  kalenin-dibinde-bir-tas-olaydim              Kalenin Dibinde Bir Taş Olaydım (Kerkük)
+  su-dereler-su-duzler                         Şu Dereler Şu Düzler (Orta Anadolu)
+  gemiciler-kalkalim                           Gemiciler Kalkalım (Trabzon)
+  binnaz-kizi-naz-kizi                         Binnaz Kızı Naz Kızı (Uşak)
+  boyda-bosun-yoktur                           Boyda Bosun Yoktur (İstanbul)
+  cemberim-de-gul-oya                          Çemberim de Gül Oya (Biga)
+  ey-su-yolu-su-yolu                           Ey Su Yolu Su Yolu (Uşak)
+  izmirin-kavaklari                            İzmir'in Kavakları
+  ayli-gece-serin-gulek                        Aylı Gece Serin Gülek (Azerbaycan)
+  bir-findigin-icini                           Bir Fındığın İçini...
+  bahcada-yesil-cinar                          Bahçada Yeşil Çınar (Diyarbakır)
+  cayda-cira                                   Çayda Çıra (Elazığ)
+  havuz-basinin-gulleri                        Havuz Başının Gülleri (Erzincan)
+  ay-giz-adin-amandir                          Ay Gız Adın Amandır (Kars)
+  ermenegin-keklikleri-otuyor                  Ermeneğin Keklikleri Ötüyor (Konya)
+  entarine-pes-olam                            Entarine Peş Olam (Afyon, Sandıklı)
+  baharin-gulsen-caginda                       Baharın Gülşen Çağında (Kars)
+  acem-ulkesinde                               Acem Ülkesinde (Erzurum)
+  ala-kecim-cift-dogurdu                       Ala Keçim Çift Doğurdu
+  kalaliyam-kalali                             Kalalıyam Kalalı (Urfa)
+  keten-koynek-filfili                         Keten Köynek Filfili (Kırşehir, Mucur)
+  terazi-tartayirum                            Terazi Tartayirum (Maçka)
+  dun-gece-yar-hanesinde                       Dün Gece Yar Hanesinde (Erzurum)
+  arpa-bugday-daneler                          Arpa Buğday Daneler (Orta Anadolu)
+  elmayi-top-top-yapalim                       Elmayı Top Top Yapalım (Hendek)
+  hekimoglu                                    Hekimoğlu
+  yarim-gitti-cesmeye                          Yarim Gitti Çeşmeye (İstanbul)
+  uzun-da-kavak                                Uzun da Kavak... (İzmir)
+  ates-attim-samana                            Ateş Attım Samana (Manisa)
+  havuzun-basinda-iskemlem-kaldi               Havuzun Başında İskemlem Kaldı (Çankırı)
+  islamoglu                                    İslamoğlu (Afyon)
+  asamadim-su-daglarin-belinden                Aşamadım Şu Dağların Belinden (Eskişehir)
+  yayla-yollarinda-yuruyup-gelir               Yayla Yollarında Yürüyüp Gelir
+  yoru-bire-cicek-dagi                         Yörü Bire Çiçek Dağı (Şarkışla)
+  asagidan-gelir-eli-develi                    Aşağıdan Gelir Eli Develi (Sivas)
+  don-beri-don                                 Dön Beri Dön (Urfa)
+  alli-durnam-bizim-ele-varirsan               Allı Durnam Bizim Ele Varırsan (Kırıkkale, Keskin)
+  gonul-gurbet-ele-varma                       Gönül Gurbet Ele Varma (Gaziantep)
+  hem-okudum-hemi-de-yazdim                    Hem Okudum Hemi de Yazdım (Çorum)
+  bagda-gulu-budadim                           Bağda Gülü Budadım (Ankara)
+  bagisla-sevdigim-hakki-seversen              Bağışla Sevdiğim Hakkı Seversen (Kırşehir)
+  basinda-altin-para                           Başında Altın Para (Diyarbakır)
+  gidin-bulutlar-gidin                         Gidin Bulutlar Gidin (Kütahya)
+  top-yatagin-onu-gayfe                        Top Yatağın Önü Gayfe (Aydın)
+  gine-gordum-elif-kizin-yuzunu                Gine Gördüm Elif Kızın Yüzünü (Yozgat)
+  hele-yar-zalim-yar                           Hele Yar Zalım Yar (Diyarbakır)
+  karanfil-ocak-ocak                           Karanfil Ocak Ocak (Nevşehir)
+  kayada-yatan-oglan                           Kayada Yatan Oğlan (Ankara)
+  cay-icinde-adalar                            Çay İçinde Adalar (Urfa)
+  alisimin-kaslari-kare                        Alişimin Kaşları Kare
+  findikli-bizim-yolumuz                       Fındıklı Bizim Yolumuz
+  kizilciklar-oldu-mu                          Kızılcıklar Oldu mu (Edirne, Keşan)
+  sari-gulum-var-benim                         Sarı Gülüm Var Benim
+  su-dalmanin-cesmesi                          Şu Dalma'nın Çeşmesi (Aydın)
+  yangin-olur-biz-yangina-gideriz              Yangın Olur Biz Yangına Gideriz
+  oklavayim-paziyim                            Oklavayım Pazıyım
+  menteseli                                    Menteşeli (Konya)
+  su-dereden-gece-gectim                       Şu Dereden Gece Geçtim
+  bahceye-indim-ki-gulleri-derem               Bahçeye İndim ki Gülleri Derem
+  su-kislanin-kapisina                         Şu Kışlanın Kapısına (Adana)
+  ayva-cicek-acmis                             Ayva Çiçek Açmış
+  kadifeden-kesesi                             Kadifeden Kesesi
+  sabahtan-kalktim-ki                          Sabahtan Kalktım ki
+  sarardim-ben-sarardim                        Sarardım Ben Sarardım
+  urfaliyam-ezelden                            Urfalıyam Ezelden
+  yine-gam-yukunun                             Yine Gam Yükünün...
+  eledim-eledim-holluk-eledim                  Eledim Eledim Höllük Eledim (Erzurum)
+  kalenin-burcu-muyam                          Kalenin Burcu muyam
+  mevlam-bircok-dert-vermis                    Mevlam Birçok Dert Vermiş (Malatya)
+  sigaramin-dumani                             Sigaramın Dumanı
+  indim-dere-irmaga                            İndim Dere Irmağa (Artvin)
+  giderim-yolum-dagdir                         Giderim Yolum Dağdır
+  bilmem-su-felegin                            Bilmem Şu Feleğin...
+  bahceye-bar-diyemem                          Bahçeye Bar Diyemem
+  uc-gun-olmus                                 Üç Gün Olmuş
+
+ALINMAYANLAR
+  buselik--turku--semai--fikrimden_geceler--                             sapta perdesi olmayan ses: Do4
+  evic--rumeliturkusu--aksak--elveda_dost--rumeli                        sapta perdesi olmayan ses: Mi4#3 Mi5#3
+  evic--rumeliturkusu--curcuna--calin_davullari--rumeli                  sapta perdesi olmayan ses: Do4#
+  evic--turku--agiraksak--karanfilin_moruna--canakkale                   sapta perdesi olmayan ses: Mi5#3
+  evic--turku--aksak--ayagina_giymis--                                   sapta perdesi olmayan ses: Mi5#3
+  evic--turku--sofyan--guvercin_ucuverdi--                               sapta perdesi olmayan ses: Mi5#3
+  ferahnuma--turku--sofyan--fidayda--ankara                              sapta perdesi olmayan ses: Do4 La3 Si3b Sol3
+  gerdaniye--turku--kapali_curcuna--sirali_daglarin--salih_turhan        bestecisi yazıyor: salih turhan
+  gerdaniye--turku--sofyan--su_daglari--fahri_kayahan                    bestecisi yazıyor: fahri kayahan
+  gerdaniye--turku--turkaksagi--uca_daglarin--erzurum                    söz yazarı yazıyor: Kömürcüzade Hafız Mehmed Ef.
+  gulizar--turku--sofyan--dertli--erol_sayan                             bestecisi yazıyor: erol sayan
+  hicaz--turku--aksak--ihtiyatlar_silah--                                söz yazarı yazıyor: Muzaffer Sarısözen
+  hicaz--turku--musemmen_ii--zuluf_dokulmus_yuze--kirsehir               sapta perdesi olmayan ses: Do4#3 Do6#3
+  hicaz--turku--raksaksagi--arabaci--istanbul                            söz yazarı yazıyor: Muzaffer Sarısözen
+  hicaz--turku--raksaksagi--entarisi_ala--istanbul                       zaten var (elle): entarisi-ala-benziyor
+  hicaz--turku--sofyan--bahce_duvarini--neset_ertas                      bestecisi yazıyor: neset ertas
+  hicaz--turku--sofyan--ela_gozlerine--sadettin_kaynak                   bestecisi yazıyor: sadettin kaynak
+  hicaz--turku--sofyan--suda_balik--kirsehir                             söz yazarı yazıyor: Muzaffer Sarısözen
+  hisarbuselik--turku--azeriyuruksemai--diliyrem_ki--sinan_sipahi        bestecisi yazıyor: sinan sipahi
+  huseyni--turku--aksak--leylak_takivermis--bahri_altintas               bestecisi yazıyor: bahri altintas
+  huseyni--turku--aksak--yanik_omer--sadettin_kaynak                     bestecisi yazıyor: sadettin kaynak
+  huseyni--turku--aksak--yuce_dag--sadettin_kaynak                       bestecisi yazıyor: sadettin kaynak
+  huseyni--turku--curcuna--sari_gelin--erzurum                           zaten var (elle): sari-gelin
+  huseyni--turku--curcuna--sinemde_bir--                                 söz yazarı yazıyor: Harputlu Hafız Hayri
+  huseyni--turku--sofyan--keklik_daglarda--                              söz yazarı yazıyor: Faruk Nafiz Çamlıbel
+  huseyni--turku--sofyan--koskum_var--                                   sapta perdesi olmayan ses: Re5b2
+  huseyni--turku--sofyan--sabahin_seher--                                söz yazarı yazıyor: Kul Himmet
+  huseyni--turku--yuruksemai--bir_hisminan--kars                         söz yazarı yazıyor: Köroğlu
+  huzzam--turku--ikizaksak--cirpinirdi_karadeniz--uzeyir_hacibeyov       bestecisi yazıyor: uzeyir hacibeyov
+  isfahan--turku--aksak--feslegen_ektim--tanburi_mustafa_cavus           bestecisi yazıyor: tanburi mustafa cavus
+  karcigar--turku--turkaksagi--tanburamin_ince--sadettin_kaynak          bestecisi yazıyor: sadettin kaynak
+  mahur--turku--sofyan--beyoglunda_gezersin--pirincci_riza_bey           bestecisi yazıyor: pirincci riza bey
+  muhayyer--turku--duyek--iste_seni--sadettin_kaynak                     bestecisi yazıyor: sadettin kaynak
+  muhayyer--turku--duyek--zehram_bana--yesari_asim_arsoy                 bestecisi yazıyor: yesari asim arsoy
+  muhayyer--turku--senginsemai--bulandi_gozler--urfa                     sapta perdesi olmayan ses: Mi6
+  neva--turku--nimsofyan--ankaranin_tasina--ankara                       zaten var (elle): ankaranin-tasina-bak
+  neva--turku--sofyan--canakkale_icinde--                                zaten var (elle): canakkale-icinde
+  nihavent--turku--aksak--evlerinin_onu--muzaffer_sarisozen              bestecisi yazıyor: muzaffer sarisozen
+  nisaburek--turku--aksak--fincani_tastan--                              sapta perdesi olmayan ses: Sol4#3
+  rast--turku--semai--gul_agaci--necip_mirkelamoglu                      bestecisi yazıyor: necip mirkelamoglu
+  saba--turku--aksak--daracik_sokaklari--istanbul                        sapta perdesi olmayan ses: Re5b2
+  saba--turku--azeriyuruksemai--kar_etmez--                              sapta perdesi olmayan ses: Re5b2
+  saba--turku--curcuna--yesil_yaprak--                                   sapta perdesi olmayan ses: Re5b2
+  saba--turku--duyek--hangi_bagin--                                      sapta perdesi olmayan ses: Re5b2
+  saba--turku--nimsofyan--pinar_basi--                                   sapta perdesi olmayan ses: Re5b2
+  saba--turku--sofyan--bir_dalda--istanbul                               sapta perdesi olmayan ses: Re5b2
+  saba--turku--sofyan--mendilimin_yesili--                               sapta perdesi olmayan ses: Re5b2
+  segah--rumeliturkusu--raksaksagi--sana_da--rumeli                      sapta perdesi olmayan ses: La5#3 Mi5#3
+  segah--turku--aksak--beyaz_giyme--bolu                                 söz yazarı yazıyor: Emin Aldemir
+  segah--turku--aksak--bir_gemim--ankara                                 sapta perdesi olmayan ses: La4#3
+  segah--turku--aksak--yarim_istanbulu--kayseri                          sapta perdesi olmayan ses: Mi5#3
+  segah--turku--iki_bir--pencereden_tas--kars                            sapta perdesi olmayan ses: La4#3
+  segah--turku--kapali_curcuna--incecikten_bir--sadettin_kaynak          bestecisi yazıyor: sadettin kaynak
+  segah--turku--nimsofyan--acilir_gonca--erol_sayan                      bestecisi yazıyor: erol sayan
+  segah--turku--nimsofyan--silifkenin_yogurdu--                          söz yazarı yazıyor: Muzaffer Sarısözen
+  segah--turku--nimsofyan--zeytinyagli_yiyemem--                         sapta perdesi olmayan ses: Mi5#3
+  segah--turku--sofyan--oy_kemence--ordu                                 sapta perdesi olmayan ses: La4#3
+  segah--turku--sofyan--pancar_pezik--hacibektas                         sapta perdesi olmayan ses: La4#3 Mi5#3 Si3b2
+  suzinak--turku--oynak--a_benim--osman_pehlivan                         bestecisi yazıyor: osman pehlivan
+  suzinak_zirgule--turku--semai--gokyuzunde_tuten--necmi_piskin          bestecisi yazıyor: necmi piskin
+  tahir--turku--senginsemai--gele_gele--urfa                             söz yazarı yazıyor: Karac'oğlan
+  ussak--turku--sofyan--uzun_ince--asik_veysel                           bestecisi yazıyor: asik veysel
+  ussak--turku--turkaksagi--drama_koprusu--                              zaten var (elle): drama-koprusu
+  yeni_cargah--turku--sofyan--halkali_seker--eskisehir                   söz yazarı yazıyor: Ahmet Yamacı
+  zavil--turku--sofyan--ela_gozlum_yiktin--sadettin_kaynak               bestecisi yazıyor: sadettin kaynak

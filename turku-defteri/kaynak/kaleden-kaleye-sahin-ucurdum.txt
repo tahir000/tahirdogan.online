@@ -1,0 +1,33 @@
+ad: Kaleden Kaleye Şahin Uçurdum
+yore: Adıyaman
+usul: 4/4
+usul-adi: Sofyan
+tempo: 84
+dizi: Gerdaniye
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, gerdaniye--turku--sofyan--kaleden_kaleye--adiyaman
+---
+[Aranağme]
+1 | Re5:4 Re5:16 Do5:16 Re5:16 Si4b2:16 Do5:4 Do5:16 Si4b2:16 Do5:16 Si4b2:16
+2 | Si4b2:4 Si4b2:16 La4:16 Si4b2:16 (Do5)La4:16 La4:4 Re5:8 Es:8
+3 | Re5:4 Re5:16 Do5:16 Re5:16 Si4b2:16 Do5:4 Do5:16 Si4b2:16 Do5:16 Si4b2:16
+4 | Si4b2:4 Si4b2:16 La4:16 Si4b2:16 La4:16 La4:4 La4:8 Es:8
+[Söz]
+5 | Sol5:4=Ka-* Sol5:16=le-* Fa5#3:16 Sol5:16=den* Fa5#3:16 Fa5#3:4=ka-* Sol5:16=le-* Fa5#3:16 Sol5:16=ye* Fa5#3:16
+6 | Mi5:4=şa-* Fa5:16=hin* Mi5:16 Mi5:16=u-* Re5:16 Re5:4=çur-* La4:4=dum/*
+7 | Mi5:4=şa-* Fa5:16=hin* Mi5:16 Mi5:16=u-* Re5:16 Re5:4=çur-* La4:4=dum/*
+8 | Re5:4=Ah* Re5:16=i-* Do5:16=len* Re5:8 Do5:4=vah* Do5:16=i-* Si4b2:16=len* Do5:16 Si4b2:16
+9 | Si4b2:4=gü-* Si4b2:16=nüm* La4:16 Si4b2:16=ge-* (Do5)La4:16 La4:4=çir-* Re5:8=dim/* Es:8
+10 | Re5:4=Ah* Re5:16=i-* Do5:16=len* Re5:8 Do5:4=vah* Do5:16=i-* Si4b2:16=len* Do5:16 Si4b2:16
+11 | Si4b2:4=gü-* Si4b2:16=nüm* La4:16 Si4b2:16=ge-* La4:16 La4:4=çir-* La4:8=dim/* Es:8
+12 | Sol5:4=Yâ-* Sol5:16=re* Fa5#3:16 Sol5:16=şe-* Fa5#3:16 Fa5#3:4=ker* Sol5:16=ez-* Fa5#3:16 Sol5:16=dim* Fa5#3:16
+13 | Mi5:4=şer-* Fa5:16=bet* Mi5:16 Mi5:16=i-* Re5:16 Re5:4=çir-* La4:4=dim/*
+14 | Mi5:4=şer-* Fa5:16=bet* Mi5:16 Mi5:16=i-* Re5:16 Re5:4=çir-* La4:4=dim/*
+15 | Re5:4=Öyl* Re5:16=o-* Do5:16=lur* Re5:16 Si4b2:16 Do5:4=böyl* Do5:16=o-* Si4b2:16=lur* Do5:16 Si4b2:16
+16 | Si4b2:4=Türk-* Si4b2:16=men* La4:16 Si4b2:16=gü-* (Do5)La4:16 La4:4=ze-* Re5:8=li/* Es:8
+17 | Re5:4=E-* Re5:16=dâ-* Do5:16 Re5:16=sı* Si4b2:16 Do5:4=hoş* Do5:16=o-* Si4b2:16=lur* Do5:16 Si4b2:16
+18 | Si4b2:4=Türk-* Si4b2:16=men* La4:16 Si4b2:16=ge-* La4:16 La4:4=li-* La4:8=ni/* Es:8

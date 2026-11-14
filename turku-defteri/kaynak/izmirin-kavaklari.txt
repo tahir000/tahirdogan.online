@@ -1,0 +1,39 @@
+ad: İzmir'in Kavakları
+yore: 
+usul: 9/8
+usul-adi: Aksak
+kalip: 2+2+2+3
+tempo: 60
+dizi: Segah
+karar: Si bemol 2
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, segah--turku--aksak--izmirin_kavaklari--
+---
+[Aranağme]
+1 | Fa5#:16 Sol5:8 Sol5:16 Sol5:8 Re5:8 Mi5b2:8 Fa5#:8 Sol5:8 Fa5:8 Mi5b2:8
+2 | Re5:8. Mi5b2:16 Fa5:16 Mi5b2:8 Re5:16 Re5:16 Do5:16 Do5:16 Si4b2:16 Mi5b2:4.
+3 | Es:8 Re5:16 Mi5b2:16 Fa5:8 Mi5b2:16 Re5:16 Re5:8 Do5:16 Si4b2:16 Si4b2:16 Do5:16 Re5:8 Do5:16 Si4b2:16
+4 | Si4b2:4 Si4b2:16 Sol5:16 Fa5:16 Mi5b2:16 Re5:16 Do5:16 Si4b2:16 La4#:16 Si4b2:16 Do5:16 Re5:16 Mi5b2:16 Fa5#:16 Sol5:16
+[Aranağme]
+5 | Fa5#:16 Sol5:8 Sol5:16 Sol5:8 Re5:8 Mi5b2:8 Fa5#:8 Sol5:8 Fa5:8 Mi5b2:8
+6 | Re5:8. Mi5b2:16 Fa5:16 Mi5b2:8 Re5:16 Re5:16 Do5:16 Do5:16 Si4b2:16 Mi5b2:4.
+7 | Es:8 Re5:16 Mi5b2:16 Fa5:8 Mi5b2:16 Re5:16 Re5:8 Do5:16 Si4b2:16 Si4b2:16 Do5:16 Re5:8 Do5:16 Si4b2:16
+8 | Si4b2:4 Si4b2:16 Sol5:16 Fa5:16 Mi5b2:16 Re5:16 Do5:16 Si4b2:16 La4#:16 Si4b2:8. Do5:16 Si4b2:16 La4#:16
+[Söz]
+9 | Sol4:8 Si4b2:16=İz-;Ser- Si4b2:16=mir;vim Si4b2:8=in;sen- Re5:8=ka-;den Do5:8=vak-;u- Si4b2:16=la-;zun La4:16 Sol4:4.=rı/;yok/
+10 | Es:8 Sol5:16=Dö-;Yap- Sol5:16=kü-;ra- Sol5:8=lür;ğın- Sol5:16=yap-;da Fa5#:16 Fa5#:8=rak-;dü- Mi5b2:16 Re5:16 Mi5b2:8=la-;züm Fa5#:8 Mi5b2:16 Re5:16
+11 | Re5:4=rı/;yok/ Re5:16 Sol5:16 Fa5:16 Mi5b2:16 Re5:16 Do5:16 Si4b2:16 La4#:16 Si4b2:8. Do5:16 Si4b2:16 La4#:16
+12 | Sol4:8 Si4b2:16=İz-;Ser- Si4b2:16=mir;vim Si4b2:8=in;sen- Re5:8=ka-;den Do5:8=vak-;u- Si4b2:16=la-;zun La4:16 Sol4:4.=rı/;yok/
+13 | Es:8 Sol5:16=Dö-;Yap- Sol5:16=kü-;ra- Sol5:8=lür;ğın- Sol5:16=yap-;da Fa5#:16 Fa5#:8=rak-;dü- Mi5b2:16 Re5:16 Mi5b2:8=la-;züm Fa5#:8 Mi5b2:16 Re5:16
+14 | Re5:4=rı/;yok/ Re5:16 Sol5:16 Fa5:16 Mi5b2:16 Re5:16 Do5:16 Si4b2:16 La4#:16 Si4b2:16 Do5:16 Re5:16 Mi5b2:16 Fa5#:16 Sol5:16
+15 | Sol5:16=Bi-;Ka- Sol5:16=ze;ma- Sol5:16=;lı Sol5:16=de;da Sol5:8=der-;zey- Re5:8=ler;bek Mi5b2:8=Ça-;vu- Fa5#:8=kı-;rul- Sol5:8=cı/;muş/ Fa5:8 Mi5b2:8
+16 | Re5:8.=Yâr* Mi5b2:16 Fa5:16=fi-* Mi5b2:8=dan* Re5:16 Re5:16=boy-* Do5:16 Do5:16 Si4b2:16 Mi5b2:4.=lum/;lu/
+17 | Es:8 Re5:16=Ya-;Ça- Mi5b2:16=ka-;kı- Fa5:8=rız;cı- Mi5b2:16=ko-;ya Re5:16 Re5:8=nak-;sö- Do5:16 Si4b2:16 Si4b2:16=la-;züm Do5:16 Re5:8 Do5:16 Si4b2:16
+18 | Si4b2:4=rı/;yok/ Si4b2:16 Sol5:16 Fa5:16 Mi5b2:16 Re5:16 Do5:16 Si4b2:16 La4#:16 Si4b2:16 Do5:16 Re5:16 Mi5b2:16 Fa5#:16 Sol5:16
+19 | Sol5:16=Bi-;Ka- Sol5:16=ze;ma- Sol5:16=;lı Sol5:16=de;da Sol5:8=der-;zey- Re5:8=ler;bek Mi5b2:8=Ça-;vu- Fa5#:8=kı-;rul- Sol5:8=cı/;muş/ Fa5:8 Mi5b2:8
+20 | Re5:8.=Yâr* Mi5b2:16 Fa5:16=fi-* Mi5b2:8=dan* Re5:16 Re5:16=boy-* Do5:16 Do5:16 Si4b2:16 Mi5b2:4.=lum/;lu/
+21 | Es:8 Re5:16=Ya-;Ça- Mi5b2:16=ka-;kı- Fa5:8=rız;cı- Mi5b2:16=ko-;ya Re5:16 Re5:8=nak-;sö- Do5:16 Si4b2:16 Si4b2:16=la-;züm Do5:16 Re5:8 Do5:16 Si4b2:16
+22 | Si4b2:4=rı/;yok/ La4#:4 Sol4:8 La4#:8 Si4b2:4 Es:8

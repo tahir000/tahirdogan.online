@@ -1,0 +1,81 @@
+ad: Kırklar Dağının Düzü
+yore: Diyarbakır
+usul: 10/8
+usul-adi: K. Curcuna
+kalip: 3+2+2+3
+tempo: 120
+dizi: Gerdaniye
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, gerdaniye--turku--kapali_curcuna--kirklar_daginin--diyarbakir
+---
+[Aranağme]
+1 | Mi5:4 Mi5:8 Mi5:4 Fa5:8 Mi5:8 Re5:4 Do5:8
+2 | Mi5:8 Re5:8 Do5:4. Re5:4 Mi5:4.
+3 | Re5:8 Do5:8 Si4b2:16 La4:16 Si4b2:8 Es:8 Do5:4 Re5:8 (Mi5)Re5:4
+4 | Do5:8 Si4b2:8 La4:4. Si4b2:4 Do5:8 Si4b2:8 La4:8
+5 | Sol4:4 Do5:8 Do5:8 Si4b2:8 Do5:8 Re5:8 Si4b2:16 Do5:16 Si4b2:8 Do5:8
+6 | Si4b2:8 La4:8 La4:4. La4:4 La4:8 Do5:8 Re5:8
+[Aranağme]
+7 | Mi5:4 Mi5:8 Mi5:4 Fa5:8 Mi5:8 Re5:4 Do5:8
+8 | Mi5:8 Re5:8 Do5:4. Re5:4 Mi5:4.
+9 | Re5:8 Do5:8 Si4b2:16 La4:16 Si4b2:8 Es:8 Do5:4 Re5:8 (Mi5)Re5:4
+10 | Do5:8 Si4b2:8 La4:4. Si4b2:4 Do5:8 Si4b2:8 La4:8
+11 | Sol4:4 Do5:8 Do5:8 Si4b2:8 Do5:8 Re5:8 Si4b2:16 Do5:16 Si4b2:8 Do5:8
+12 | Si4b2:8 La4:8 La4:4. La4:4 Re5:8 Mi5:8 Fa5#3:8
+[Söz]
+13 | Sol5:4 Fa5#3:8=Kırk- Sol5:4=lar Sol5:8=da- Fa5#3:8 Sol5:4.=ğı-
+14 | Sol5:8=nın Fa5#3:8 Mi5:4.=dü- Fa5#3:8=zi/ Mi5:8 Sol5:8 Fa5#3:8 Mi5:8
+15 | Re5:4 Sol5:8=Ka- Sol5:4=ran- Sol5:8=lık Mi5:8 Mi5:4=bas- Re5:8
+16 | Re5:4=tı Do5:4=bi- Do5:8 Re5:8=zi/ (Mi5)Do5:8 Mi5:8 Re5:4
+17 | Sol5:4 Fa5#3:8=Kırk- Sol5:4=lar Sol5:8=da- Fa5#3:8 Sol5:4.=ğı-
+18 | Sol5:8=nın Fa5#3:8 Mi5:4.=dü- Fa5#3:8=zi/ Mi5:8 Sol5:8 Fa5#3:8 Mi5:8
+19 | Re5:4 Sol5:8=Ka- Sol5:4=ran- Sol5:8=lık Mi5:8 Mi5:4=bas- Re5:8
+20 | Re5:4=tı Do5:4=bi- Do5:8 Re5:8=zi/ (Mi5)Do5:8 Mi5:8 Re5:4
+[Saz]
+21 | Mi5:4 Mi5:8=Kör Mi5:4=o- Fa5:8=la- Mi5:8 Re5:4=san Do5:8
+22 | Mi5:8=za- Re5:8 Do5:4.=lım Re5:4=su- Mi5:4.=zan/
+23 | Re5:8=Za- Do5:8 Si4b2:16=lım La4:16 Si4b2:8 Es:8 Do5:4=su- Re5:8=zan (Mi5)Re5:4
+24 | Do5:8=za- Si4b2:8 La4:4.=lım Si4b2:4=su- Do5:8=zan/ Si4b2:8 La4:8
+25 | Sol4:4 Do5:8=Zi- Do5:8=ya- Si4b2:8 Do5:8=ret Re5:8 Si4b2:16=çarp- Do5:16 Si4b2:8 Do5:8
+26 | Si4b2:8=tı La4:8 La4:4.=bi- La4:4=zi/ La4:8 Do5:8 Re5:8
+[Saz]
+27 | Mi5:4 Mi5:8=Kör Mi5:4=o- Fa5:8=la- Mi5:8 Re5:4=san Do5:8
+28 | Mi5:8=za- Re5:8 Do5:4.=lım Re5:4=su- Mi5:4.=zan/
+29 | Re5:8=Za- Do5:8 Si4b2:16=lım La4:16 Si4b2:8 Es:8 Do5:4=su- Re5:8=zan (Mi5)Re5:4
+30 | Do5:8=za- Si4b2:8 La4:4.=lım Si4b2:4=su- Do5:8=zan/ Si4b2:8 La4:8
+31 | Sol4:4 Do5:8=Zi- Do5:8=ya- Si4b2:8 Do5:8=ret Re5:8 Si4b2:16=çarp- Do5:16 Si4b2:8 Do5:8
+32 | Si4b2:8=tı La4:8 La4:4.=bi- La4:4=zi/ La4:8 Do5:8 Re5:8
+[Aranağme]
+33 | Mi5:4 Mi5:8 Mi5:4 Fa5:8 Mi5:8 Re5:4 Do5:8
+34 | Mi5:8 Re5:8 Do5:4. Re5:4 Mi5:4.
+35 | Re5:8 Do5:8 Si4b2:16 La4:16 Si4b2:8 Es:8 Do5:4 Re5:8 (Mi5)Re5:4
+36 | Do5:8 Si4b2:8 La4:4. Si4b2:4 Do5:8 Si4b2:8 La4:8
+37 | Sol4:4 Do5:8 Do5:8 Si4b2:8 Do5:8 Re5:8 Si4b2:16 Do5:16 Si4b2:8 Do5:8
+38 | Si4b2:8 La4:8 La4:4. La4:4 La4:8 Do5:8 Re5:8
+[Aranağme]
+39 | Mi5:4 Mi5:8 Mi5:4 Fa5:8 Mi5:8 Re5:4 Do5:8
+40 | Mi5:8 Re5:8 Do5:4. Re5:4 Mi5:4.
+41 | Re5:8 Do5:8 Si4b2:16 La4:16 Si4b2:8 Es:8 Do5:4 Re5:8 (Mi5)Re5:4
+42 | Do5:8 Si4b2:8 La4:4. Si4b2:4 Do5:8 Si4b2:8 La4:8
+43 | Sol4:4 Do5:8 Do5:8 Si4b2:8 Do5:8 Re5:8 Si4b2:16 Do5:16 Si4b2:8 Do5:8
+44 | Si4b2:8 La4:8 La4:4. La4:4 Re5:8 Mi5:8 Fa5#3:8
+[Söz]
+45 | Sol5:4 Fa5#3:8=Kırk- Sol5:4=lar Sol5:8=da- Fa5#3:8 Sol5:4.=ğı-
+46 | Sol5:8=nın Fa5#3:8 Mi5:4.=dü- Fa5#3:8=zi/ Mi5:8 Sol5:8 Fa5#3:8 Mi5:8
+47 | Re5:4 Sol5:8=Ka- Sol5:4=ran- Sol5:8=lık Mi5:8 Mi5:4=bas- Re5:8
+48 | Re5:4=tı Do5:4=bi- Do5:8 Re5:8=zi/ (Mi5)Do5:8 Mi5:8 Re5:4
+49 | Sol5:4 Fa5#3:8=Kırk- Sol5:4=lar Sol5:8=da- Fa5#3:8 Sol5:4.=ğı-
+50 | Sol5:8=nın Fa5#3:8 Mi5:4.=dü- Fa5#3:8=zi/ Mi5:8 Sol5:8 Fa5#3:8 Mi5:8
+51 | Re5:4 Sol5:8=Ka- Sol5:4=ran- Sol5:8=lık Mi5:8 Mi5:4=bas- Re5:8
+52 | Re5:4=tı Do5:4=bi- Do5:8 Re5:8=zi/ (Mi5)Do5:8 Mi5:8 Re5:4
+[Saz]
+53 | Mi5:4 Mi5:8=Kör Mi5:4=o- Fa5:8=la- Mi5:8 Re5:4=san Do5:8
+54 | Mi5:8=za- Re5:8 Do5:4.=lım Re5:4=su- Mi5:4.=zan/
+55 | Re5:8=Za- Do5:8 Si4b2:16=lım La4:16 Si4b2:8 Es:8 Do5:4=su- Re5:8=zan (Mi5)Re5:4
+56 | Do5:8=za- Si4b2:8 La4:4.=lım Si4b2:4=su- Do5:8=zan/ Si4b2:8 La4:8
+57 | Sol4:4 Do5:8=Zi- Do5:8=ya- Si4b2:8 Do5:8=ret Re5:8 Si4b2:16=çarp- Do5:16 Si4b2:8 Do5:8
+58 | Si4b2:8=tı La4:8 La4:4.=bi- La4:4=zi/ Es:4.

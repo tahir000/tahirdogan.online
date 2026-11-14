@@ -21,8 +21,9 @@ Her türkü nota adları (do re mi) ve perde numaralarıyla yazılıdır. Sayfa 
 | `kaynak/*.txt` | Türkülerin elle düzeltilebilir kaynağı (her türkü bir dosya) |
 | `veri/*.js` | Sitenin okuduğu veri; `araclar/derle.py` üretir, elle düzenlenmez |
 | `araclar/derle.py` | `kaynak/` dosyalarını denetler ve `veri/` dosyalarını üretir; kaynak biçimi bu dosyanın başında anlatılır |
-| `araclar/symbtr_al.py` | SymbTr dosyasını kaynak biçimine çevirir |
-| `test/test.html` | Testler (tarayıcıda) |
+| `araclar/symbtr_al.py` | Tek bir SymbTr dosyasını kaynak biçimine çevirir |
+| `araclar/symbtr_toplu.py` | SymbTr'deki bütün türküleri toplu çevirir; sonucu `araclar/toplu_rapor.txt` dosyasına yazar |
+| `test/test.html`, `test/yukle.js` | Testler (tarayıcıda); bütün türkü dosyalarını yükler |
 | `araclar/test_calistir.js` | Testleri tarayıcısız çalıştırır |
 
 ## Bir notayı düzeltmek
@@ -33,9 +34,19 @@ Her türkü nota adları (do re mi) ve perde numaralarıyla yazılıdır. Sayfa 
 
 Bir çalan türküyü baştan sona denetleyince kaynak dosyasındaki `durum: taslak` satırı `durum: onayli` yapılır; sayfadaki taslak uyarısı kalkar.
 
+## Türküler
+
+240 türkü var: beşi elle seçilip çevrildi (listede "Önce bunları deneyin"), 235'i SymbTr'den toplu çevrildi (kaynak dosyasında `ceviri: toplu`). SymbTr'deki 300 türküden alınmayanlar ve nedenleri `araclar/toplu_rapor.txt` dosyasında:
+
+- bestecisi ya da söz yazarı yazan eserler alınmadı (yalnız anonim türküler);
+- bir sesi 23 perdeli sapta, bozuk düzende bulunmayan türküler alınmadı (ör. re bemol 2, mi diyez 3).
+
+Zorluk etiketi kaba bir tahmindir (`symbtr_toplu.py` içinde `zorluk_bul`): notaların hızına, ses aralığına ve çarpma sayısına bakar.
+
 ## Yeni türkü eklemek
 
-- SymbTr'de varsa: `python3 -I araclar/symbtr_al.py <symbtr.txt> kaynak/<kimlik>.txt --ad "Türkü Adı" --yore Yöre --dizi Makam`, sonra derle ve test et. Testlerdeki türkü sayısını ve `test/test.html` içindeki dosya listesini güncelle.
+- Toplu çeviriyi yenilemek: `python3 -I araclar/symbtr_toplu.py --txt <SymbTr txt klasörü> --mu2 <SymbTr mu2 klasörü>`, sonra derle ve test et. Betik yalnız `ceviri: toplu` yazan dosyaların üzerine yazar. Bir dosyayı elle düzelttiysen o satırı `ceviri: elle` yap.
+- SymbTr'den tek türkü: `python3 -I araclar/symbtr_al.py <symbtr.txt> kaynak/<kimlik>.txt --ad "Türkü Adı" --yore Yöre --dizi Makam`, sonra derle ve test et.
 - Nota kağıdından: `kaynak/` altına yeni bir dosya açıp ölçüleri `derle.py` başındaki biçimle elle yaz.
 
 ## Kaynak ve lisans
@@ -44,6 +55,6 @@ Nota verisi SymbTr 2.4.3 veri setinden alınıp bağlama perdelerine uyarlanmı�
 
 > M. Kemal Karaosmanoğlu. A Turkish makam music symbolic database for music information retrieval: SymbTr. ISMIR 2012. https://github.com/MTG/SymbTr
 
-SymbTr CC BY-NC-SA 4.0 ile lisanslıdır. Bu klasördeki türkü verileri (`kaynak/` ve `veri/`) aynı lisansla paylaşılır: ticari olmayan kullanım, kaynak gösterme, aynı lisansla paylaşma. Yapılan değişiklikler: nota adları bağlamanın 17 perdeli düzenine çevrildi, notalar ölçülere bölündü, yinelenen kıtalar tek ezgide toplandı.
+SymbTr CC BY-NC-SA 4.0 ile lisanslıdır. Bu klasördeki türkü verileri (`kaynak/` ve `veri/`) aynı lisansla paylaşılır: ticari olmayan kullanım, kaynak gösterme, aynı lisansla paylaşma. Yapılan değişiklikler: nota adları bağlamanın 17 perdeli düzenine çevrildi, notalar ölçülere bölündü, yinelenen kıtalar tek ezgide toplandı, eksik kalan son ölçüler susla tamamlandı. Türkü adları ve makam adları veri setindeki başlıklardan alındı (şapkalı harfler sadeleştirildi).
 
 Türküler taslaktır: bilgisayarla çevrildi, bir çalan tarafından baştan sona denetlenmedi.

@@ -1,0 +1,39 @@
+ad: Ey Benim Mestane Gözlüm
+yore: 
+usul: 9/8
+usul-adi: Aksak
+kalip: 2+2+2+3
+tempo: 75
+dizi: Eviç
+karar: Fa diyez
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, evic--turku--aksak--ey_benim--
+---
+[Aranağme]
+1 | Fa5#:16 Sol5:16 Fa5#:16 Mi5#:16 Fa5#:4 Fa5#:16 Sol5:16 Fa5#:16 Mi5#:16 Fa5#:8 Sol5:8 La5:8
+2 | Sol5:8 Fa5#:8 Mi5:8 Re5:8 Mi5:8 Fa5#:8 Re5:4 Es:8
+3 | Do5:16 Re5:16 Do5:16 Si4b2:16 Do5:4 Do5:16 Re5:16 Do5:16 Si4b2:16 Do5:8 Si4b2:8 La4:8
+4 | La4:8 Si4b2:16 Do5:16 Si4b2:8 La4:8 La4:8 Sol4:8 Fa4#:4 Es:8
+[Aranağme]
+5 | Fa5#:16 Sol5:16 Fa5#:16 Mi5#:16 Fa5#:4 Fa5#:16 Sol5:16 Fa5#:16 Mi5#:16 Fa5#:8 Sol5:8 La5:8
+6 | Sol5:8 Fa5#:8 Mi5:8 Re5:8 Mi5:8 Fa5#:8 Re5:4 Es:8
+7 | Do5:16 Re5:16 Do5:16 Si4b2:16 Do5:4 Do5:16 Re5:16 Do5:16 Si4b2:16 Do5:8 Si4b2:8 La4:8
+8 | La4:8 Si4b2:16 Do5:16 Si4b2:8 La4:8 La4:8 Sol4:8 Fa4#:4 Es:8
+[Söz]
+9 | Es:4 Fa5#:8=Ey* Fa5#:8=be-* Fa5#:4=nim* La5:4=mes-* Sol5:8
+10 | Fa5#:4 Fa5#:8=tâ-* Sol5:8=ne* Fa5#:4=göz-* Mi5:4=lüm* Fa5#:8=a-*
+11 | Re5:4=man/* Do5#:8=Şim-* Re5:8=di* Mi5:8=bul-* Fa5#:8 Re5:4.=dum*
+12 | Mi5:8=ben* Fa5#:8 Sol5:8 La5:8 Sol5:8=se-* Fa5#:8 Mi5#:4 Sol5:8
+13 | Fa5#:4.=ni/* Mi5#:8 Re5:8 Mi5#:8 Fa5#:4 Mi5#:8
+14 | Fa5#:8 Es:8 Mi5:8=Ben* Fa5#:8=â-* Sol5:8=şık-* Fa5#:8 La5:8=lık* Sol5:8 Fa5#:8
+15 | Mi5:8. Re5:16 Re5:8=bil-* Mi5:16=mez* Fa5:16 Mi5:16=i-* Re5:16 Do5:16 Si4b2:16 Do5:16=dim* Re5:16 Do5:8 Si4b2:8=a-*
+16 | Re5:4=man/* Do5:8=O* Re5:8=yâr* Do5:8=öğ-* Si4b2:8 La4:8=ret-* Si4b2:8 Do5:8
+17 | La4:8.=ti* Sol4:16 Sol4:8.=be-* Fa4#:16 Fa4#:4=ni* Re5:4=ah/* Do5:8
+18 | Re5:8 Es:8 Re5:8=Ben* Re5:8=â-* Re5:4=şık-* Sol5:8=lık* Fa5:8 Mi5:8
+19 | Re5:8 Es:8 Re5:8=bil-* Mi5:8=mez* Mi5:8=i-* Re5:8 Do5:4=dim* Si4b2:8=a-*
+20 | Re5:4=man/* La4:8=O* Si4b2:8=yâr* Do5:4=öğ-* La4:8=ret-* Si4b2:8 Do5:8
+21 | La4:8.=ti Sol4:16 Sol4:8.=be- Fa4#:16 Fa4#:4=ni/ Fa5#:4 Mi5#:8
+21 @2 | La4:8.=ti Sol4:16 Sol4:8.=be- Fa4#:16 Fa4#:4=ni/ Es:4.

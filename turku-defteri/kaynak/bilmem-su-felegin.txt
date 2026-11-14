@@ -1,0 +1,30 @@
+ad: Bilmem Şu Feleğin...
+yore: 
+usul: 4/4
+usul-adi: Sofyan
+tempo: 84
+dizi: Yeni Çargah
+karar: Do
+duzen: bozuk
+zorluk: zor
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, yeni_cargah--turku--sofyan--bilmem_su--
+---
+[Söz]
+1 | Do5:8=Bil-* Do5:16=mem* Re5:16 Mi5:16=şu* Re5:16 Mi5:8=fe-* Re5:16=le-* Mi5:16 Re5:8 Mi5:16=ğin* Re5:16 Mi5:8
+2 | Do5:8=ben-* Do5:16 Mi5:16 Re5:8=de* Re5:16=ne-* Do5:16 Si4:8=si* Si4:8 Do5:8=var/* Do5:8
+3 | Do5:8=Her* Do5:16=git-* Re5:16 Mi5:16=ti-* Re5:16 Mi5:8=ğim* Re5:16=yer-* Mi5:16 Re5:8 Re5:8=de* (Sol5)Mi5:8
+4 | Do5:8=yâr* Do5:8 Mi5:8=is-* Re5:16=ter* Do5:16 Si4:8=ben-* Si4:8 Do5:16=den/* Si4:16 Do5:8
+5 | Do5:8=Bil-* Do5:16=mem* Re5:16 Mi5:16=şu* Re5:16 Mi5:8=fe-* Re5:16=le-* Mi5:16 Re5:8 Mi5:16=ğin* Re5:16 Mi5:8
+6 | Do5:8=ben-* Do5:16 Mi5:16 Re5:8=de* Re5:16=ne-* Do5:16 Si4:8=si* Si4:8 Do5:8=var/* Do5:8
+7 | Do5:8=Her* Do5:16=git-* Re5:16 Mi5:16=ti-* Re5:16 Mi5:8=ğim* Re5:16=yer-* Mi5:16 Re5:8 Re5:8=de* (Sol5)Mi5:8
+8 | Do5:8=yâr* Do5:8 Mi5:8=is-* Re5:16=ter* Do5:16 Si4:8=ben-* Si4:8 Do5:16=den/* Si4:16 Do5:8
+9 | Sol5:16=San-* Fa5#:16 Sol5:16=ki* La5:16 Sol5:16=be-* (La5)Fa5#:16 Mi5:16=nim* (Fa5)Re5:16 Re5:16=mor* Do5:16 Re5:8 Mi5:8=sün-* Re5:16 Mi5:16
+10 | Do5:8=bül-* Do5:16 Mi5:16 Re5:8=lü* Re5:16=ba-* Do5:16 Si4:8=ğım* Si4:8 Do5:8=var/* Do5:8
+11 | Do5:8=Zem-* Do5:16=he-* Re5:16 Mi5:16=ri* Re5:16 Mi5:8=a-* Re5:16=yın-* Mi5:16 Re5:8=da* Re5:8=ba-* (Sol5)Mi5:8=lım*
+12 | Do5:8=gül* Do5:8 Mi5:8=is-* Re5:16=ter* Do5:16 Si4:8=ben-* Si4:8 Do5:8=den/* Do5:8
+13 | Sol5:16=San-* La5:16 La5:16=ki* (Si5b)Sol5:16 Fa5:16=be-* (Sol5)Mi5:16 Re5:16=nim* Mi5:16 Re5:16=mor* Do5:16 Re5:8 Mi5:8=sün-* Re5:16 Mi5:16
+14 | Do5:8=bül-* Do5:16 Mi5:16 Re5:8=lü* Re5:16=ba-* Do5:16 Si4:8=ğım* Si4:8 Do5:8=var/* Do5:8
+15 | Do5:8=Zem-* Do5:16=he-* Re5:16 Mi5:16=ri* Re5:16 Mi5:8=a-* Re5:16=yın-* Mi5:16 Re5:8=da* Mi5:16=ba-* Re5:16 Mi5:8=lım*
+16 | Do5:8=gül* Do5:8 Mi5:8=is-* Re5:16=ter* Do5:16 Si4:8=ben-* Si4:8 Do5:8=den/* Do5:8

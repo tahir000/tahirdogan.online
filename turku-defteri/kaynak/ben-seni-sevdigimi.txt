@@ -1,0 +1,33 @@
+ad: Ben Seni Sevdiğimi
+yore: Trabzon
+usul: 5/8
+usul-adi: Türkaksağı
+kalip: 2+3
+tempo: 96
+dizi: Hicaz Hümayun
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, hicaz_humayun--turku--turkaksagi--beni_seni--trabzon
+---
+[Söz]
+1 | Do5#:8=Ben* Re5:8=se-* Mi5:8=ni* Mi5:4=sev-*
+2 | Mi5:8=di-* Mi5:8=ği-* Mi5:4.=mi/*
+3 | Fa5:16=Dün-* Mi5:16 Fa5:16=ya-* Sol5:16 Mi5:4=la-* Re5:8=ra*
+4 | Mi5:8=bil-* Mi5:8=dir-* Mi5:4.=dim/*
+5 | Do5#:8=Ben* Re5:8=se-* Mi5:8=ni* Mi5:4=sev-*
+6 | Mi5:8=di-* Mi5:8=ği-* Mi5:4.=mi/*
+7 | Fa5:16=Dün-* Mi5:16 Fa5:16=ya-* Sol5:16 Mi5:4=la-* Re5:8=ra*
+8 | Mi5:8=bil-* Mi5:8=dir-* Mi5:4.=dim/*
+9 | Sol5:8=İn-* Sol5:8=dir-* Fa5:4=din* Mi5:8
+10 | Fa5:8=kaş-* Fa5:16=la-* Mi5:16 Re5:16=rı-* Do5#:16 Si4b:16=nı/* La4:16 Si4b:8
+11 | Re5:8=Ba-* Re5:16=ba-* Do5#:16 Si4b:4.=nı*
+12 | Re5:8=ba-* Re5:16=ba-* Do5#:16 Si4b:4=nı* La4:8=mı*
+13 | La4:8=öl-* La4:8=dür-* La4:16=düm/* Si4b:16 Do5#:16 Re5:16 Mi5:16 Fa5:16
+14 | Sol5:8=In-* Sol5:8=dir-* Fa5:4=din* Mi5:8
+15 | Fa5:8=kaş-* Fa5:16 Mi5:16 Re5:16=la-* Do5#:16 Si4b:16=rı-* La4:16 Si4b:8=nı/*
+16 | Re5:8=Ba-* (Mi5)Re5:16=ba-* Do5#:16 Si4b:4.=nı*
+17 | Re5:8=ba-* (Mi5)Re5:16=ba-* Do5#:16 Si4b:4=nı* La4:8=mı*
+18 | La4:8=öl-* La4:8=dür-* La4:4.=düm/*

@@ -1,0 +1,53 @@
+ad: Yangın Olur Biz Yangına Gideriz
+yore: 
+usul: 9/8
+usul-adi: Aksak
+kalip: 2+2+2+3
+tempo: 108
+dizi: Uşşak
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, ussak--turku--aksak--yangin_olur--
+---
+[Aranağme]
+1 | Sol4:8 La4:16 La4:16 La4:8 Do5:8 Si4b2:8 Do5:8 La4:4 Sol4:8
+2 | La4:4 Si4b2:4 Re5:4 Do5:4 Si4b2:8
+3 | Do5:8 Si4b2:8 Si4b2:8 La4:8 La4:5/8
+[Aranağme]
+4 | Sol4:8 La4:16 La4:16 La4:8 Do5:8 Si4b2:8 Do5:8 La4:4 Sol4:8
+5 | La4:4 Si4b2:4 Re5:4 Do5:4 Si4b2:8
+6 | Do5:8 Si4b2:8 Si4b2:8 La4:8 La4:5/8
+[Söz]
+7 | La4:4.=Yan- Mi5:8=gın Mi5:4=o- Mi5:8=lur Re5:8 Do5:8
+8 | Re5:4=biz Mi5:4=yan- Fa5:8=gı- Sol5:8 Mi5:8=na Re5:8 Do5:8
+9 | Do5:8=gi- Si4b2:8 Si4b2:8=de- La4:8 La4:5/8=riz/
+10 | La4:4.=Yan- Mi5:8=gın Mi5:4=o- Mi5:8=lur Re5:8 Do5:8
+11 | Re5:4=biz Mi5:4=yan- Fa5:8=gı- Sol5:8 Mi5:8=na Re5:8 Do5:8
+12 | Do5:8=gi- Si4b2:8 Si4b2:8=de- La4:8 La4:5/8=riz/
+13 | La4:4.=Düz Do5:8=o- Si4b2:8=va- Do5:8 La4:4=da Sol4:8
+14 | La4:4=kek- Si4b2:4=lik Re5:4=gi- Do5:4=bi Si4b2:8
+15 | Do5:8=se- Si4b2:8 Si4b2:8=ke- La4:8 La4:5/8=riz/
+16 | La4:4.=Düz Do5:8=o- Si4b2:8=va- Do5:8 La4:4=da Sol4:8
+17 | La4:4=kek- Si4b2:4=lik Re5:4=gi- Do5:4=bi Si4b2:8
+18 | Do5:8=se- Si4b2:8 Si4b2:8=ke- La4:8 La4:5/8=riz/
+19 | La4:4.=Yo- Mi5:8=kuş- Mi5:4=lar- Mi5:8=da Re5:8 Do5:8
+20 | Re5:4=şa- Mi5:4=hin Fa5:8=gi- Sol5:8 Mi5:8=bi Re5:8 Do5:8
+21 | Do5:8=u- Si4b2:8 Si4b2:8=ça- La4:8 La4:5/8=rız/
+22 | La4:4.=Yo- Mi5:8=kuş- Mi5:4=lar- Mi5:8=da Re5:8 Do5:8
+23 | Re5:4=şa- Mi5:4=hin Fa5:8=gi- Sol5:8 Mi5:8=bi Re5:8 Do5:8
+24 | Do5:8=u- Si4b2:8 Si4b2:8=ça- La4:8 La4:5/8=rız/
+25 | La4:8=San- La4:8=dık La4:8=san- Do5:8=dık- Si4b2:8=lar Do5:8 La4:4=i- Sol4:8
+26 | La4:4=çin- Si4b2:4=de Re5:4=çok Do5:4=şâ- Si4b2:8
+27 | Do5:8=nı- Si4b2:8 Si4b2:8=mız La4:8 La4:5/8=var/
+28 | La4:4.=Haz- Do5:8=ret Si4b2:8=i Do5:8 La4:4=mev- Sol4:8
+29 | La4:4=lâ- Si4b2:4=ya Re5:4=yal- Do5:4=var- Si4b2:8
+30 | Do5:8=ma- Si4b2:8 Si4b2:8=mız La4:8 La4:5/8=var/
+31 | La4:8=San- La4:8=dık La4:8=san- Do5:8=dık- Si4b2:8=lar Do5:8 La4:4=i- Sol4:8
+32 | La4:4=çin- Si4b2:4=de Re5:4=çok Do5:4=şâ- Si4b2:8
+33 | Do5:8=nı- Si4b2:8 Si4b2:8=mız La4:8 La4:5/8=var/
+34 | La4:4.=Haz- Do5:8=ret Si4b2:8=i Do5:8 La4:4=mev- Sol4:8
+35 | La4:4=lâ- Si4b2:4=ya Re5:4=yal- Do5:4=var- Si4b2:8
+36 | Do5:8=ma- Si4b2:8 Si4b2:8=mız La4:8 La4:5/8=var/

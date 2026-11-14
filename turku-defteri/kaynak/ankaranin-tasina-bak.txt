@@ -8,6 +8,7 @@ karar: La
 duzen: bozuk
 zorluk: kolay
 durum: taslak
+secki: pilot
 kaynak: SymbTr 2.4.3, neva--turku--nimsofyan--ankaranin_tasina--ankara
 ---
 [Aranağme]

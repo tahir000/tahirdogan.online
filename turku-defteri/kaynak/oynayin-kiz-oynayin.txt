@@ -1,0 +1,39 @@
+ad: Oynayın Kız Oynayın
+yore: Trabzon
+usul: 7/8
+usul-adi: Devr-i Turan
+kalip: 2+2+3
+tempo: 180
+dizi: Rast
+karar: Sol
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, rast--turku--devrituran--oynayin_kiz--trabzon
+---
+[Söz]
+1 | Sol4:4=Oy-* Sol4:4=na-* Re5:16=yın* Do5:16 Re5:4
+2 | Re5:4=kız* Re5:4=oy-* Re5:4=na-* Do5:8=yın/*
+3 | Re5:4=Dur-* Re5:8=ma-* Do5:8 Do5:8=nın* Si4b2:8 Do5:8
+4 | Si4b2:4=ne* La4:4=kâ-* La4:4=rı* Sol4:8=var/*
+5 | Sol4:4=Oy-* Sol4:4=na-* Re5:16=yın* Do5:16 Re5:4
+6 | Re5:4=kız* Re5:4=oy-* Re5:4=na-* Do5:8=yın/*
+7 | Re5:4=Dur-* Re5:8=ma-* Do5:8 Do5:8=nın* Si4b2:8 Do5:8
+8 | Si4b2:4=ne* La4:4=kâ-* La4:4=rı* Sol4:8=var/*
+9 | Sol4:4=A* Sol4:4=bu* Re5:16=kö-* Do5:16 Do5:4
+10 | Do5:4=yün* Do5:4=i-* Do5:4=çi-* Si4b2:8=nun/*
+11 | Do5:4=A-* Re5:8=ca-* Do5:8 Si4b2:4=yip* Es:8
+12 | La4:4=be-* La4:4=kâ-* La4:4=rı* Sol4:8=var/*
+13 | Sol4:4=A* Sol4:4=bu* Re5:16=kö-* Do5:16 Do5:4
+14 | Do5:4=yün* Do5:4=i-* Do5:4=çi-* Si4b2:8=nun/*
+15 | Do5:4=A-* Re5:8=ca-* Do5:8 Si4b2:4=yip* Es:8
+16 | La4:4=be-* La4:4=kâ-* La4:4=rı* Sol4:8=var/*
+17 | Sol4:4=De-* Do5:16=ru-* Si4b2:8 Es:16 La4:4.=le*
+18 | La4:4=del-* La4:4=de-* La4:4=ru-* La4:8=le/*
+19 | Sol4:4=De-* Do5:16=ru-* Si4b2:8 Es:16 La4:4.=le*
+20 | La4:4=del-* La4:4=de-* Sol4:4=ru-* Sol4:8=le/*
+21 | Sol4:4=De-* Do5:16=ru-* Si4b2:8 Es:16 La4:4.=le*
+22 | La4:4=del-* La4:4=de-* La4:4=ru-* La4:8=le/*
+23 | Sol4:4=De-* Do5:16=ru-* Si4b2:8 Es:16 La4:4.=le*
+24 | La4:4=del-* La4:4=de-* Sol4:4=ru-* Sol4:8=le/*

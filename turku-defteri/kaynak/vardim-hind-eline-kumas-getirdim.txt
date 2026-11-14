@@ -1,0 +1,63 @@
+ad: Vardım Hind Eline Kumaş Getirdim
+yore: Erzincan
+usul: 5/8
+usul-adi: Türkaksağı
+kalip: 2+3
+tempo: 72
+dizi: Muhayyer
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, muhayyer--turku--turkaksagi--vardim_hind--erzincan
+---
+[Aranağme]
+1 | Mi5:8 Mi5:8 Re5:8 (Mi5)Do5:4
+2 | Mi5:8. Re5:16 Re5:4.
+3 | Re5:4 Do5:8 Si4b2:4
+4 | Re5:8. Si4b2:16 Do5:4 Si4b2:8
+5 | Do5:8 Do5:8 Si4b2:8 La4:4
+6 | Do5:4 Si4b2:4 La4:8
+7 | Si4b2:4 Si4b2:8 La4:4
+8 | Si4b2:8 (Do5)La4:8 La4:4.
+9 | La4:4 La4:4.
+10 | La4:4 La4:4.
+[Aranağme]
+11 | Mi5:8 Mi5:8 Re5:8 (Mi5)Do5:4
+12 | Mi5:8. Re5:16 Re5:4.
+13 | Re5:4 Do5:8 Si4b2:4
+14 | Re5:8. Si4b2:16 Do5:4 Si4b2:8
+15 | Do5:8 Do5:8 Si4b2:8 La4:4
+16 | Do5:4 Si4b2:4 La4:8
+17 | Si4b2:4 Si4b2:8 La4:4
+18 | Si4b2:8 (Do5)La4:8 La4:4.
+19 | La4:4 La4:4.
+20 | La4:8 Si4b2:16 Do5:16 Re5:16 Mi5:16 Fa5:16 Sol5:16 La5:8
+[Söz]
+21 | Fa5#3:8=Var-* Sol5:8=dım* La5:8=Hind* La5:4=e-*
+22 | La5:8=li-* Si5b2:16 La5:16 La5:4.=ne*
+23 | La5:8=ku-* (Do6)Si5b2:16 La5:16 La5:8=maş* La5:4=ge-*
+24 | La5:4=tir-* Sol5:16=dim/* Fa5#3:16 Sol5:8 Es:8
+25 | Fa5#3:8=Var-* Sol5:8=dım* La5:8=Hind* La5:4=e-*
+26 | La5:8=li-* Si5b2:16 La5:16 La5:4.=ne*
+27 | La5:8=ku-* (Do6)Si5b2:16 La5:16 La5:8=maş* La5:4=ge-*
+28 | La5:4=tir-* Sol5:16=dim/* Fa5#3:16 Sol5:8 Es:8
+29 | Sol5:8=Aç-* Sol5:8=tım* Sol5:8=be-* Fa5#3:4=des-*
+30 | Sol5:4=ta-* (La5)Fa5#3:4.=nı*
+31 | Fa5#3:8.=sat-* Sol5:16 Mi5:8=tım* Mi5:4=o-*
+32 | Fa5#3:8.=tur-* Sol5:16 Mi5:4=dum/* Re5:8
+33 | Mi5:8=Sen* Fa5#3:8=be-* Sol5:8=nim* Fa5#3:8=ba-* Mi5:8
+34 | Sol5:8=şı-* La5:8 Fa5#3:4.=ma*
+35 | Fa5#3:8=ne-* Sol5:8 Mi5:8=ler* Mi5:8=ge-* Re5:8
+36 | Sol5:16=tir-* Fa5#3:16 Sol5:8 Mi5:4=din/* Re5:8
+37 | Mi5:8=Ben* Mi5:8=se-* Re5:8=nin* Do5:4=kah-*
+38 | Mi5:8.=rı-* Re5:16 Re5:4.=nı*
+39 | Re5:4=çe-* Do5:8=ke-* Si4b2:4=mem*
+40 | Re5:8.=gö-* Si4b2:16 Do5:4=nül/* Si4b2:8
+41 | Do5:8=Ben* Do5:8=se-* Si4b2:8=nin* La4:4=der-*
+42 | Do5:4=di-* Si4b2:4=ni* La4:8
+43 | Si4b2:4=çe-* Si4b2:8=ke-* La4:4=mem*
+44 | Si4b2:8=gö-* (Do5)La4:8 La4:4.=nül/*
+45 | La4:4 La4:4.
+46 | La4:4 La4:4.

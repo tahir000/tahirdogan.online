@@ -1,0 +1,27 @@
+ad: Keten Köynek Filfili
+yore: Kırşehir, Mucur
+usul: 4/4
+usul-adi: Sofyan
+tempo: 114
+dizi: Segah
+karar: Si bemol 2
+duzen: bozuk
+zorluk: zor
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, segah--turku--sofyan--keten_koynek--kirsehir-mucur
+---
+[Aranağme]
+1 | Sol4:8 Sol4:8 La4:8 Si4b2:8 Do5:16 Do5:16 Re5:8 Re5:8 Es:8
+2 | Re5:8 (Sol5)Fa5#:16 Sol5:16 Mi5b2:8 Re5:8 Re5:8 Do5:16 Si4b2:16 Si4b2:4
+3 | Sol4:8 Sol4:8 La4:8 Si4b2:8 Do5:16 Do5:16 Re5:8 Re5:8 Es:8
+4 | Re5:8 (Sol5)Fa5#:16 Sol5:16 Mi5b2:8 Re5:8 Re5:8 Do5:16 Si4b2:16 Si4b2:4
+[Söz]
+5 | Es:4 Fa5#:8=Ke-* Sol5:8=ten* Sol5:8=köy-* Sol5:8=nek* Sol5:4
+6 | Sol5:8 Fa5#:8 La5:8=fil-* La5:8=fi-* Sol5:8=li/* Fa5#:16 Sol5:16 Mi5b2:8 Re5:8
+7 | Es:4 La5:8=Ner-* La5:8=den* Sol5:8=al-* Fa5#:16 Sol5:16 Mi5b2:8=dın* Re5:8
+8 | Re5:8=bu* Mi5b2:4=di-* Re5:8=li* Re5:8=ne-* Do5:16=ne-* Si4b2:16 Si4b2:4=ler/*
+9 | Sol4:8=Am-* Sol4:8=ma-* La4:8=ğa-* Si4b2:8=nın* Do5:16=ne-* Do5:16=ne-* Re5:8 Re5:8=ler/* Es:8
+10 | Re5:8=İnc* (Sol5)Fa5#:16 Sol5:16=e-* Mi5b2:8=lek-* Re5:8=ten* Re5:8=un* Do5:16=e-* Si4b2:16 Si4b2:4=ler/*
+11 | Sol4:8=İn-* Sol4:8=ce-* La4:8=le-* Si4b2:8=ğin* Do5:16=u-* Do5:16=nu-* Re5:8 Re5:8=yum/* Es:8
+12 | Re5:8=Ben* (Sol5)Fa5#:16 Sol5:16=de* Mi5b2:8=Al-* Re5:8=lah* Re5:8=ku-* Do5:16=lu-* Si4b2:16 Si4b2:4=yum/*

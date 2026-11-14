@@ -1,0 +1,39 @@
+ad: Çayeli'nden Öteye
+yore: Rize
+usul: 7/8
+usul-adi: Devr-i Hindi (7/8)
+kalip: 3+2+2
+tempo: 120
+dizi: Hicaz
+karar: La
+duzen: bozuk
+zorluk: zor
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, hicaz--turku--devrihindi--cayelinden_oteye--rize
+---
+[Söz]
+1 | Fa5:8=Ça-* Mi5:8 Fa5:8=ye-* Mi5:4=lin-* Re5:4=den*
+2 | Mi5:4=ö-* Fa5:8 Fa5:8=te-* Mi5:8 Re5:8=ye* Mi5:8
+3 | Do5#:16=gi-* Re5:8. Re5:8=de-* Do5#:4=lum* Si4b:4=yâ-*
+4 | Re5:4=li* Re5:8 Re5:8=yâ-* Do5#:8 Si4b:8=li* Do5#:8
+5 | Si4b:4=gi-* Si4b:8=de-* La4:4=lum* Sol4:16=yâ-* Fa4#:16 Sol4:8
+6 | Si4b:4=li* Si4b:8 (Si4b)La4:4=yâ-* La4:4=li*
+7 | La4:4=gi-* La4:8=de-* La4:4=lum* La4:4=yâ-*
+8 | La4:4=li/* Es:8 La4:4 La4:4
+9 | Fa5:8=Sır-* Mi5:8 Fa5:8=tın-* Mi5:16=da-* Fa5:16 Mi5:8 Re5:4=ki*
+10 | Mi5:16=se-* Fa5:16 Mi5:8 Fa5:8 Fa5:8=pe-* Mi5:8 Re5:8=tun* Mi5:8
+11 | Re5:4=ben* Re5:8=o-* Do5#:4=la-* Si4b:4=yım*
+12 | Re5:4=ha-* Re5:8 Re5:8=ma-* Do5#:8 Si4b:8=li* Do5#:8
+13 | Si4b:4=ben* Si4b:8=o-* La4:4=la-* Sol4:16=yım* Fa4#:16 Sol4:8
+14 | Si4b:4=ha-* Si4b:8 (Si4b)La4:4=ma-* La4:4=li*
+15 | La4:4=ben* La4:8=o-* La4:4=la-* La4:4=yım*
+16 | La4:4=ha/* Es:8 La4:4 La4:4
+17 | Fa5:8=Sır-* Mi5:8 Fa5:8=tın-* Mi5:16=da-* Fa5:16 Mi5:8 Re5:4=ki*
+18 | Mi5:16=se-* Fa5:16 Mi5:8 Fa5:8 Fa5:8=pe-* Mi5:8 Re5:8=tun* Mi5:8
+19 | Re5:4=ben* Re5:8=o-* Do5#:4=la-* Si4b:4=yım*
+20 | Re5:4=ha-* Re5:8 Re5:8=ma-* Do5#:8 Si4b:8=li* Do5#:8
+21 | Si4b:4=ben* Si4b:8=o-* La4:4=la-* Sol4:16=yım* Fa4#:16 Sol4:8
+22 | Si4b:4=ha-* Si4b:8 (Si4b)La4:4=ma-* La4:4=li*
+23 | La4:4=ben* La4:8=o-* La4:4=la-* La4:4=yım*
+24 | La4:4=ha/* Es:8 La4:4 La4:4

@@ -1,0 +1,40 @@
+ad: Sandalım Geliyor Varda
+yore: 
+usul: 4/4
+usul-adi: Sofyan
+tempo: 90
+dizi: Hicaz
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, hicaz--turku--sofyan--sandalim_geliyor--
+---
+[Aranağme]
+1 | Si4b:8 Do5#:8 Si4b:8 Do5#:8 Si4b:8 Do5#:8 Si4b:8 La4:8
+2 | La4:4 La4:8 La4:8 La4:4 Si4b:4
+3 | La4:8 Do5#:8 Si4b:8 Do5#:8 Si4b:8 Do5#:8 Si4b:8 La4:8
+4 | Re5:4 Re5:8 Do5#:8 Si4b:8 Si4b:16 La4:16 La4:4
+[Aranağme]
+5 | Si4b:8 Do5#:8 Si4b:8 Do5#:8 Si4b:8 Do5#:8 Si4b:8 La4:8
+6 | La4:4 La4:8 La4:8 La4:4 Si4b:4
+7 | La4:8 Do5#:8 Si4b:8 Do5#:8 Si4b:8 Do5#:8 Si4b:8 La4:8
+8 | Re5:4 Re5:8 Do5#:8 Si4b:8 Si4b:16 La4:16 La4:8 Si4b:16 Do5#:16
+[Söz]
+9 | Re5:4 Do5#:8=San-* Re5:8=da-* Re5:4=lım* Re5:8=ge-* Do5#:8
+10 | Mi5:8.=li-* Re5:16 Re5:8.=yor* Do5#:16 Si4b:8=var-* Si4b:16 La4:16 La4:4=da/*
+11 | Es:4 Si4b:8=Ve-* Do5#:8=fa* Si4b:4=ol-* Do5#:4=maz*
+12 | Re5:4=hiç-* Re5:8=bir* Do5#:8 Si4b:8=yar-* Si4b:16 La4:16 La4:8=da/* Si4b:16 Do5#:16
+13 | Re5:4 Do5#:8=San-* Re5:8=da-* Re5:4=lım* Re5:8=ge-* Do5#:8
+14 | Mi5:8.=li-* Re5:16 Re5:8.=yor* Do5#:16 Si4b:8=var-* Si4b:16 La4:16 La4:4=da/*
+15 | Es:4 Si4b:8=Ve-* Do5#:8=fa* Si4b:4=ol-* Do5#:4=maz*
+16 | Re5:4=hiç-* Re5:8=bir* Do5#:8 Do5#:16=yar-* Si4b:16 Si4b:16 La4:16 La4:4=da/*
+17 | Si4b:8=A-* Do5#:8=man* Si4b:8=i-* Do5#:8=ki* Si4b:8=tel-* Do5#:8 Si4b:8 La4:8
+18 | La4:4=lim* La4:8=si-* La4:8=ya* La4:4=san-* Si4b:4=dal/*
+19 | La4:8=Ca-* Do5#:8=nım* Si4b:8=i-* Do5#:8=ki* Si4b:8=tel-* Do5#:8 Si4b:8 La4:8
+20 | Re5:4=lim* Re5:8=si-* Do5#:8=ya* Si4b:8=san-* Si4b:16 La4:16 La4:4=dal/*
+21 | Si4b:8=A-* Do5#:8=man* Si4b:8=i-* Do5#:8=ki* Si4b:8=tel-* Do5#:8 Si4b:8 La4:8
+22 | La4:4=lim* La4:8=si-* La4:8=ya* La4:4=san-* Si4b:4=dal/*
+23 | La4:8=Ca-* Do5#:8=nım* Si4b:8=i-* Do5#:8=ki* Si4b:8=tel-* Do5#:8 Si4b:8 La4:8
+24 | Re5:4=lim* Re5:8=si-* Do5#:8=ya* Si4b:8=san-* Si4b:16 La4:16 La4:4=dal/*

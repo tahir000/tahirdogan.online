@@ -1,0 +1,37 @@
+ad: Havuzun Başında İskemlem Kaldı
+yore: Çankırı
+usul: 9/8
+usul-adi: Aksak
+kalip: 2+2+2+3
+tempo: 180
+dizi: Tahir
+karar: La
+duzen: bozuk
+zorluk: zor
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, tahir--turku--aksak--havuzun_basinda--cankiri
+---
+[Aranağme]
+1 | Re5:4 Re5:8 Do5:8 Re5:4 Do5:4 Si4b2:8
+2 | Do5:4 Si4b2:8 La4:8 La4:4 La4:8 Si4b2:8 Re5:8
+3 | Do5:8 Si4b2:8 Si4b2:8 La4:8 La4:4 Re5:4.
+[Aranağme]
+4 | Re5:4 Re5:8 Do5:8 Re5:4 Do5:4 Si4b2:8
+5 | Do5:4 Si4b2:8 La4:8 La4:4 La4:8 Si4b2:8 Re5:8
+6 | Do5:8 Si4b2:8 Si4b2:8 La4:8 La4:4 La4:4.
+[Söz]
+7 | Sol5:4=Ha-* Fa5#3:8=vu-* Sol5:8 La5:4=zun* La5:4.=ba-*
+8 | Do6:4.=şın-* Si5b2:8 La5:8=da* Sol5:8 Fa5#3:8 Mi5:8 Re5:8
+9 | Mi5:4=is-* Sol5:8=kem-* Fa5#3:8 Sol5:8=lem* Fa5#3:8 Mi5:4=kal-* Re5:8
+10 | Mi5:8=dı* Re5:8 Mi5:8=a-* Do5:8 Re5:5/8=man/*
+11 | Sol5:4=Ha-* Fa5#3:8=vu-* Sol5:8 La5:4=zun* La5:4.=ba-*
+12 | Do6:4.=şın-* Si5b2:8 La5:8=da* Sol5:8 Fa5#3:8 Mi5:8 Re5:8
+13 | Mi5:4=is-* Sol5:8=kem-* Fa5#3:8 Sol5:8=lem* Fa5#3:8 Mi5:4=kal-* Re5:8
+14 | Mi5:8=dı* Re5:8 Mi5:8=a-* Do5:8 Re5:5/8=man/*
+15 | Re5:4=Ya-* Re5:8=man* Do5:8 Re5:4=Çan-* Do5:4=kı-* Si4b2:8
+16 | Do5:4=rı-* Si4b2:8=lar* La4:8 La4:4=oğ-* La4:8=la-* Si4b2:8 Re5:8=nı-*
+17 | Do5:8=mı* Si4b2:8 Si4b2:8=al-* La4:8 La4:4=dı/* Re5:4.
+18 | Re5:4=Oğ-* Re5:8=la-* Do5:8 Re5:4=nı-* Do5:4=mı* Si4b2:8
+19 | Do5:4=al-* Si4b2:8=dı* La4:8 La4:4=da-* La4:8=hi* Si4b2:8 Re5:8
+20 | Do5:8=ne-* Si4b2:8 Si4b2:8=yim* La4:8 La4:4=kal-* La4:4.=dı/*

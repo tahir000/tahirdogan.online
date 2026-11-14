@@ -1,0 +1,31 @@
+ad: Top Yatağın Önü Gayfe
+yore: Aydın
+usul: 15/8
+usul-adi: Raksan
+tempo: 54
+dizi: Tahir
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, tahir--turku--raksan--top_yatagin--aydin
+---
+[Aranağme]
+1 | La5:8 La5:16 La5:16 La5:16 Mi5:16 Mi5:8. Re5:16 Sol5:16 Fa5#3:16 (La5)Sol5:4 Re5:8 Mi5:16 Re5:16 Do5:16 Si4b2:16 Do5:16 Si4b2:16 Si4b2:16 La4:16 La4:4
+2 | La5:8 La5:8 La5:16 Mi5:16 Mi5:8. Re5:16 Sol5:16 Fa5#3:16 (La5)Sol5:4 Re5:8 Mi5:16 Re5:16 Do5:16 Si4b2:16 Do5:16 Si4b2:16 Si4b2:16 La4:16 La4:4
+{usul 11/8 Tek Vuruş}
+[Söz]
+3 | Fa5#3:16=Top* Sol5:16 La5:16=ya-* Si5b2:16 Sol5:16=ta-* Si5b2:16 La5:4=ğın* La5:16=ö-* Si5b2:16 Do6:8.=nü* Si5b2:16 La5:16=gay-* Do6:16 Si5b2:16.=fe/* La5:32 Sol5:8
+4 | Fa5#3:16=Top* Sol5:16 La5:16=ya-* Si5b2:16 Sol5:16=ta-* Si5b2:16 La5:4=ğın* La5:16=ö-* Si5b2:16 Do6:8.=nü* Si5b2:16 La5:16=gay-* Do6:16 Si5b2:16.=fe/* La5:32 Sol5:8
+{usul 15/8 Raksan}
+5 | La5:8=Ah* La5:16=o-* La5:16=tur-* La5:16=muş-* Mi5:16 Mi5:8.=lar* Re5:16 Sol5:16 Fa5#3:16 (La5)Sol5:4 Re5:8=tay-* Mi5b:16=fe* Re5:16 Do5:16 Si4b2:16 Do5:16=tay-* Si4b2:16 Si4b2:16 La4:16 La4:4=fe/*
+6 | La5:8=Ah* La5:16=o-* La5:16=tur-* La5:16=muş-* Mi5:16 Mi5:8.=lar* Re5:16 Sol5:16 Fa5#3:16 (La5)Sol5:4 Re5:8=tay-* Mi5b:16=fe* Re5:16 Do5:16 Si4b2:16 Do5:16=tay-* Si4b2:16 Si4b2:16 La4:16 La4:4=fe/*
+{usul 11/8 Tek Vuruş}
+7 | Fa5#3:16=Be-* Sol5:16 La5:16=yaz* Si5b2:16 Sol5:16=fin-* Si5b2:16 La5:4=can* La5:16=si-* Si5b2:16 Do6:8.=yah* Si5b2:16 La5:16=gay-* Do6:16 Si5b2:16.=fe/* La5:32 Sol5:8
+8 | Fa5#3:16=Be-* Sol5:16 La5:16=yaz* Si5b2:16 Sol5:16=fin-* Si5b2:16 La5:4=can* La5:16=si-* Si5b2:16 Do6:8.=yah* Si5b2:16 La5:16=gay-* Do6:16 Si5b2:16.=fe/* La5:32 Sol5:8
+{usul 15/8 Raksan}
+9 | La5:8=Ah* La5:16=ye-* La5:16=ter* La5:16=ol-* Mi5:16 Mi5:8.=sun* Re5:16 Sol5:16 Fa5#3:16 (La5)Sol5:4 Re5:8=ye-* Mi5:16=ter* Re5:16 Do5:16 Si4b2:16 Do5:16=ol-* Si4b2:16 Si4b2:16 La4:16 La4:4=sun/*
+10 | La5:8=Kız* La5:8=dil-* La5:16=le-* Mi5:16 Mi5:8.=rin* Re5:16 Sol5:16 Fa5#3:16 (La5)Sol5:4 Re5:8=şe-* Mi5:16=ker* Re5:16 Do5:16 Si4b2:16 Do5:16=ol-* Si4b2:16 Si4b2:16 La4:16 La4:4=sun/*
+11 | La5:8=Ah* La5:16=ye-* La5:16=ter* La5:16=ol-* Mi5:16 Mi5:8.=sun* Re5:16 Sol5:16 Fa5#3:16 (La5)Sol5:4 Re5:8=ye-* Mi5:16=ter* Re5:16 Do5:16 Si4b2:16 Do5:16=ol-* Si4b2:16 Si4b2:16 La4:16 La4:4=sun/*
+12 | La5:8=Kız* La5:8=dil-* La5:16=le-* Mi5:16 Mi5:8.=rin* Re5:16 Sol5:16 Fa5#3:16 (La5)Sol5:4 Re5:8=şe-* Mi5:16=ker* Re5:16 Do5:16 Si4b2:16 Do5:16=ol-* Si4b2:16 Si4b2:16 La4:16 La4:4=sun/*

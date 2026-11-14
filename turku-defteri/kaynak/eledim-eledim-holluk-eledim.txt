@@ -1,0 +1,21 @@
+ad: Eledim Eledim Höllük Eledim
+yore: Erzurum
+usul: 4/4
+usul-adi: Sofyan
+tempo: 54
+dizi: Uşşak
+karar: La
+duzen: bozuk
+zorluk: zor
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, ussak--turku--sofyan--eledim_eledim--erzurum
+---
+[Söz]
+1 | Es:8 Sol4:16=E-;;;;Bi-;Bi- La4:16=le-;;;;zi;zi La4:16=dim;;;;kı-;kı- La4:8=e-;;;;na-;na- Re5:16 Re5:32=le-;;;;ma-;ma- Si4b2:16 Re5:32 Do5:8 Do5:16=dim;;;;sın;sın (Re5)Si4b2:32 Do5:32 Si4b2:8
+1 @2 | Es:8 Sol4:16=Bü- La4:16=yüt- La4:8=tüm Re5:8=bes- Re5:32=le- Si4b2:16 Re5:32 Do5:8 Do5:16=dim (Re5)Si4b2:32 Do5:32 Si4b2:8
+1 @3 | Es:8 Sol4:16=Bü- La4:16=yüt- La4:8=tüm Re5:8=bes- Re5:32=le- Si4b2:16 Re5:32 Do5:8 Do5:16=dim (Re5)Si4b2:32 Do5:32 Si4b2:8
+1 @4 | Es:8 Sol4:16=Bir La4:16=gü- La4:8=zel Re5:8=sî- Re5:32=mâ- Si4b2:16 Re5:32 Do5:8 Do5:16=dır (Re5)Si4b2:32 Do5:32 Si4b2:8
+2 | Si4b2:16=höl-;es-;es-;ak-;ehl;ehl Do5:16 Re5:8=lük;ker;ker;lı-;i;i Re5:16=e-;ey-;ey-;mı;dil;dil Si4b2:32=le-;le-;le-;a-;o-;o- Re5:32 Do5:8 Do5:32=dim/;dim/;dim/;lan/;lan/;lan/ Re5:32 Si4b2:8. Es:4
+3 | Es:8 Si4b2:16=Ay-;Git-;Git-;Aş-;Git-;Git- Do5:16=na-;ti;ti;kın;ti;ti Re5:16=lı;de;de;sev-;de;de Re5:8.=be-;gel-;gel-;dâ-;gel-;gel- Si4b2:16=şik-;me-;me-;sı-;me-;me- Do5:32 Re5:32 Do5:16 Do5:16=te;di;di;nı;di;di (Re5)Si4b2:16=ca-* La4:8.=nân*
+4 | La4:32=be-;bu-;bu-;se-;bu-;bu- Re5:32 Si4b2:16=bek;na;na;ri-;na;na (Re5)Do5:16 (Re5)Si4b2:16 Si4b2:16=be-;ne;ne;me;ne;ne La4:8.=le-;ça-;ça-;sa-;ça-;ça- La4:2=dim/;re/;re/;lan/;re/;re/

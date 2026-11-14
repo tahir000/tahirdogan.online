@@ -1,0 +1,33 @@
+ad: Bahçeye Bar Diyemem
+yore: 
+usul: 9/8
+usul-adi: Aksak
+kalip: 2+2+2+3
+tempo: 63
+dizi: Zavil
+karar: Sol
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, zavil--turku--aksak--bahceye_bar--
+---
+[Aranağme]
+1 | Sol5:16. Fa5#:32 Mi5:16 Fa5#:16 Sol5:8 Sol5:16 La5:16 Sol5:16. Fa5#:32 Mi5:16 Sol5:16 Fa5#:8 Fa5#:8 Fa5#:8
+2 | Fa5#:16. Mi5:32 Fa5#:16 Re5:16 Mi5:16 Sol5:16 Fa5:16 Mi5:16 Mi5:16 Re5:16 Re5:16 Do5#:16 Re5:8 Mi5:8 Fa5#:8
+3 | Sol5:16. Fa5#:32 Mi5:16 Fa5#:16 Sol5:8 Sol5:16 La5:16 Sol5:16. Fa5#:32 Mi5:16 Sol5:16 Fa5#:8 Fa5#:8 Fa5#:8
+4 | Fa5#:16. Mi5:32 Fa5#:16 Re5:16 Mi5:16 Sol5:16 Fa5:16 Mi5:16 Mi5:16 Re5:16 Re5:16 Do5#:16 Re5:8 Mi5:8 Do5:8
+5 | Si4:16 Do5:8 Do5:16 Do5:8 Do5:8 Do5:16. Si4:32 La4:8 Re5:8 Re5:4
+6 | Si4:16. La4:32 Si4:16 Sol4:16 La4:16. Do5:32 Si4:16 La4:16 La4:16 Sol4:16 Sol4:16 Fa4#:16 Sol4:16 La4:16 Si4:16 Re5:16 Do5:8
+7 | Si4:16 Do5:8 Do5:16 Do5:8 Do5:8 Do5:16. Si4:32 La4:8 Re5:8 Re5:4
+8 | Si4:16. La4:32 Si4:16 Sol4:16 La4:16. Do5:32 Si4:16 La4:16 La4:16 Sol4:16 Sol4:16 Fa4#:16 Sol4:8. Re5:16 Mi5:16 Fa5#:16
+[Söz]
+9 | Sol5:8 Fa5#:16=Bah-* Sol5:16=çe-* Sol5:8=ye* Sol5:8=bar* Fa5#:8=di-* Mi5:8 Fa5#:8=ye-* Sol5:8 La5:8=mem/*
+10 | Sol5:8=Ay-* Sol5:8=va-* Fa5#:8=ya* Mi5:8=nar* Re5:4=di-* Sol5:16=ye-* Fa5#:16 Mi5:8 Sol5:16 Fa5#:16
+11 | Fa5#:4.=mem/* Fa5#:16 Sol5:16 Fa5#:16. Mi5:32 Re5:16 Mi5:16 Fa5#:8. Re5:16 Mi5:16 Fa5#:16
+12 | Sol5:8 Fa5#:16=Ben* Sol5:16=a-* Sol5:8=lış-* Sol5:8=tım* Fa5#:8=i-* Mi5:8 Fa5#:8=yi-* Sol5:8 La5:8=ye/*
+13 | Sol5:8=Kö-* Sol5:8=tü-* Fa5#:8=ye* (Sol5)Mi5:8=yâr* Re5:4=di-* Sol5:8=ye-* Fa5:8 Mi5:8=mem/*
+14 | Re5:8=Bağ-* Re5:16=lar* Do5#:16 Si4b:8=ga-* Si4b:16=ze-* La4:16 Sol4:4=li/* Si4:16=Me-* Do5:16=le-* Re5:8=ğim* Mi5:8=de/*
+15 | Re5:8=Türk-* Re5:16=men* Do5#:16 Si4b:8=gü-* Si4b:16=ze-* La4:16 Sol4:4=li/* Sol4:8 Sol4:8 Sol4:8
+16 | Re5:8=Bağ-* Re5:16=lar* Do5#:16 Si4b:8=ga-* Si4b:16=ze-* La4:16 Sol4:4=li/* Si4:16=Me-* Do5:16=le-* Re5:8=ğim* Mi5:8=de/*
+17 | Re5:8=Türk-* Re5:16=men* Do5#:16 Si4b:8=gü-* Si4b:16=ze-* La4:16 Sol4:4=li/* Sol4:4.

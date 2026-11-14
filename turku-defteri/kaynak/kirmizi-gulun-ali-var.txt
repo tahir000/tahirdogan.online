@@ -1,0 +1,49 @@
+ad: Kırmızı Gülün Alı Var
+yore: Rumeli
+usul: 4/4
+usul-adi: Sofyan
+tempo: 78
+dizi: Hicaz
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, hicaz--rumeliturkusu--sofyan--kirmizi_gulun--rumeli
+---
+[Aranağme]
+1 | Re5:8. Do5#:16 Si4:8 Do5#:8 Re5:4 Mi5:4
+2 | Fa5:8. Mi5:16 Re5:8 Re5:8 Do5#:8 Re5:8 Re5:8 Re5:8
+3 | Re5:16 Do5#:16 Re5:16 Mi5:16 Do5#:8 Si4b:8 La4:8 Re5:8 Do5#:8 Si4b:8
+4 | Si4b:16 La4:16 La4:4. La4:8 Sol4:8 Do5#:8 Si4b:16 Do5#:16
+5 | Si4b:16 La4:16 La4:7/8
+[Aranağme]
+6 | Re5:8. Do5#:16 Si4:8 Do5#:8 Re5:4 Mi5:4
+7 | Fa5:8. Mi5:16 Re5:8 Re5:8 Do5#:8 Re5:8 Re5:8 Re5:8
+8 | Re5:16 Do5#:16 Re5:16 Mi5:16 Do5#:8 Si4b:8 La4:8 Re5:8 Do5#:8 Si4b:8
+9 | Si4b:16 La4:16 La4:4. La4:8 Sol4:8 Do5#:8 Si4b:16 Do5#:16
+10 | Si4b:16 La4:16 La4:4. La4:8 Si4b:16 La4:16 Sol4:16 La4:16 Si4b:16 Do5#:16
+[Söz]
+11 | Re5:4 La4:4=Kır-* Re5:4=mı-* Do5#:4=zı*
+12 | Re5:2=gü-* Do5#:8 Re5:8 Mi5:4
+13 | Mi5:4 Fa5:8.=lün* Mi5:16 Re5:8.=a-* Do5#:16 Si4b:4=lı*
+14 | Do5#:4.=var* Re5:8=a-* Re5:16.=man* Do5#:32 Si4:8 Re5:16 Do5#:16 Si4:16 Do5#:16=a-*
+15 | Si4:1=man/*
+16 | Re5:8.=Her* Do5#:16 Si4:8 Do5#:8=gün* Re5:4=ağ-* Mi5:4=la-*
+17 | Fa5:8.=sam* Mi5:16 Re5:4 Do5#:8=ye-* Re5:8 Mi5:8 (Fa5)Mi5:16=ri* Re5:16
+18 | Re5:2=var/* Re5:16 La4:16 Si4b:16 Do5#:16 Re5:8 Mi5:16 Fa5#:16
+19 | Sol5:4 Sol5:4=Bu-* Fa5:4=gün* Mi5:4=be-*
+20 | Fa5:8.=nim* Mi5:16 Re5:4 Do5#:8 Re5:8 Mi5:4
+21 | Mi5:4 Fa5:8.=ef-* Mi5:16 Re5:8.=kâ-* Do5#:16 Si4b:16=rım* La4:16 Si4b:8
+22 | Do5#:4.=var* Re5:8=a-* Re5:16.=man* Do5#:32 Si4:8 Re5:16 Do5#:16 Si4:16 Do5#:16=a-*
+23 | Si4:1=man/*
+24 | Re5:8.=Ah* Do5#:16 Si4:8 Do5#:8=bu* Re5:4=gö-* Mi5:4=nül*
+25 | Fa5:8.=ar-* Mi5:16=zu* Re5:8=e-* Re5:8=der* Do5#:8=se-* Re5:8=ni* Re5:8=se-* Re5:8=ni*
+26 | Re5:16=yâr* Do5#:16 Re5:16 Mi5:16 Do5#:8 Si4b:8 La4:8 Re5:8 Do5#:8 Si4b:8
+27 | Si4b:16=se-* La4:16 La4:4. La4:8 Sol4:8 Do5#:8 Si4b:16 Do5#:16
+28 | Si4b:8=ni/* La4:4 La4:8 La4:16 Do5#:16 Si4b:16 La4:16 Sol4:16 La4:16 Si4b:16 Do5#:16
+29 | Re5:8.=Ah* Do5#:16 Si4:8 Do5#:8=bu* Re5:4=gö-* Mi5:4=nül*
+30 | Fa5:8.=ar-* Mi5:16=zu* Re5:8=e-* Re5:8=der* Do5#:8=se-* Re5:8=ni* Re5:8=se-* Re5:8=ni*
+31 | Re5:16=yâr* Do5#:16 Re5:16 Mi5:16 Do5#:8 Si4b:8 La4:8 Re5:8 Do5#:8 Si4b:8
+32 | Si4b:16=se-* La4:16 La4:4. La4:8 Sol4:8 Do5#:8 Si4b:16 Do5#:16
+33 | Si4b:8=ni/* La4:7/8

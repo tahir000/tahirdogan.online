@@ -1,0 +1,57 @@
+ad: Şu Karşıki Dağda Kar Var
+yore: Hatay
+usul: 8/8
+usul-adi: Müsemmen II
+tempo: 90
+dizi: Hüzzam
+karar: Si bemol 2
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, huzzam--turku--musemmen_ii--su_karsiki--hatay
+---
+[Aranağme]
+1 | Sol5:4 Fa5#3:8 Sol5:8 Sol5:4 Sol5:8 Fa5#3:8
+2 | Fa5#3:4 (Sol5)Fa5#3:8 Mi5b2:8 Re5:8 (Fa5#3)Mi5b2:16 Re5:16 Do5:8 Si4b2:8
+3 | Fa5#3:7/32 Mi5b2:32 Mi5b2:7/32 Re5:32 Re5:7/32 Do5:32 Do5:7/32 Si4b2:32
+4 | Si4b2:8 Do5:8 Re5:8 Mi5b2:8 Fa5#3:8 Sol5:8 (La5)Fa5#3:16 Mi5b2:16 Re5:8
+5 | Sol4:4 Fa5#3:8 Sol5:8 Sol5:4 Sol5:8 Fa5#3:8
+6 | Fa5#3:4 (Sol5)Fa5#3:8 Mi5b2:8 Re5:8 (Fa5#3)Mi5b2:16 Re5:16 Do5:8 Si4b2:8
+7 | Fa5#3:7/32 Mi5b2:32 Mi5b2:7/32 Re5:32 Re5:7/32 Do5:32 Do5:7/32 Si4b2:32
+8 | Si4b2:4. Do5:8 Si4b2:8 Do5:8 Re5:4
+[Söz]
+9 | Es:4 Si4b2:8=Şu* Do5:8=kar-* Re5:4=şı-* Mi5b2:8=ki* Re5:8
+10 | Fa5#3:4=dağ-* Fa5#3:8 Sol5:8 Fa5#3:8=da* Mi5b2:8 Re5:8 Do5:8
+[Saz]
+11 | Si4b2:8 Sol4:8 Si4b2:8=kar* Do5:8=var* Re5:4=du-* Mi5b2:8=man* Re5:8
+12 | Fa5#3:4.=yok* (La5)Sol5:8 Fa5#3:8 Mi5b2:8 Re5:4
+13 | Sol5:4=ah* Mi5b2:8=kar* Sol5:8=var* Fa5#3:12=du-* Fa5#3:12 Mi5b2:12 Mi5b2:12=man* Mi5b2:12 Re5:12
+14 | Re5:4.=yok/* Re5:16 Mi5b2:16 Re5:16 Fa5#3:16 Mi5b2:16 Re5:16 Do5:16 Re5:16 Mi5b2:16 Fa5#3:16
+15 | Sol5:4 Fa5#3:8=Be-* Sol5:8=nim* Sol5:4=sev-* Sol5:8=di-* Fa5#3:8
+16 | Fa5#3:4=ce-* (Sol5)Fa5#3:8=ğim-* Mi5b2:8 Re5:8=de* (Fa5#3)Mi5b2:16 Re5:16 Do5:8 Si4b2:8
+17 | Fa5#3:7/32=din* Mi5b2:32 Mi5b2:7/32=var* Re5:32 Re5:7/32=i-* Do5:32 Do5:7/32=man* Si4b2:32
+18 | Si4b2:8=yok/* Do5:8 Re5:8 Mi5b2:8 Fa5#3:8 Sol5:8 (La5)Fa5#3:16 Mi5b2:16 Re5:8
+[Saz]
+19 | Sol4:4 Fa5#3:8=Be-* Sol5:8=nim* Sol5:4=sev-* Sol5:8=di-* Fa5#3:8
+20 | Fa5#3:4=ce-* (Sol5)Fa5#3:8=ğim-* Mi5b2:8 Re5:8=de* (Fa5#3)Mi5b2:16 Re5:16 Do5:8 Si4b2:8
+21 | Fa5#3:7/32=din* Mi5b2:32 Mi5b2:7/32=var* Re5:32 Re5:7/32=i-* Do5:32 Do5:7/32=man* Si4b2:32
+22 | Si4b2:4=yok* Fa5#3:8=a-* Fa5#3:8=man/* Fa5#3:2
+23 | Fa5#3:1
+24 | Fa5#3:8 Sol5:8 Mi5b2:8 Re5:8 Re5:8 Do5:8 Si4b2:4
+[Saz]
+25 | Si4b2:8 Sol4:8 Si4b2:8=Var-* Do5:8=dım* Re5:4=bak-* Mi5b2:8=tım* Re5:8
+26 | Fa5#3:4=naz-* Fa5#3:8 Sol5:8=lı* Fa5#3:8 Mi5b2:8 Re5:8 Do5:8
+27 | Si4b2:8 Sol4:8 Si4b2:8=yâ-* Do5:8=rim* Re5:4=ev-* Mi5b2:8=de* Re5:8
+28 | Fa5#3:4.=yok* (La5)Sol5:8 Fa5#3:8 Mi5b2:8 Re5:4
+29 | Sol5:4=ah* Mi5b2:8=yâ-* Sol5:8=rim* Fa5#3:12=ev-* Fa5#3:12 Mi5b2:12 Mi5b2:12=de* Mi5b2:12 Re5:12
+30 | Re5:4.=yok/* Re5:16 Mi5b2:16 Re5:16 Fa5#3:16 Mi5b2:16 Re5:16 Do5:16 Re5:16 Mi5b2:16 Fa5#3:16
+31 | Sol5:4 Fa5#3:8=Ver* Sol5:8=be-* Sol5:4=nim* Sol5:8=sa-* Fa5#3:8
+32 | Fa5#3:4=zım* (Sol5)Fa5#3:8=e-* Mi5b2:8 Re5:8=fen-* (Fa5#3)Mi5b2:16 Re5:16 Do5:8=dim* Si4b2:8
+33 | Fa5#3:7/32=ben* Mi5b2:32 Mi5b2:7/32=gi-* Re5:32 Re5:7/32=der* Do5:32 Do5:7/32=ol-* Si4b2:32
+34 | Si4b2:8=dum/* Do5:8 Re5:8 Mi5b2:8 Fa5#3:8 Sol5:8 (La5)Fa5#3:16 Mi5b2:16 Re5:8
+35 | Sol4:4 Fa5#3:8=Sü-* Sol5:8=re-* Sol5:4=me-* Sol5:8=dim* Fa5#3:8
+36 | Fa5#3:4=lâ-* (Sol5)Fa5#3:8=van-* Mi5b2:8 Re5:8=ta-* (Fa5#3)Mi5b2:16 Re5:16 Do5:8=yı* Si4b2:8
+37 | Fa5#3:7/32=kon-* Mi5b2:32 Mi5b2:7/32=so-* Re5:32 Re5:7/32=la* Do5:32 Do5:7/32=koy-* Si4b2:32
+38 | Si4b2:4.=dum/ Si4b2:8 Si4b2:8 Re5:8 Fa5#3:8 La5:8
+38 @2 | Si4b2:4.=dum/ Es:5/8

@@ -1,0 +1,73 @@
+ad: Sokak Başı Meyhane
+yore: Giresun
+usul: 2/4
+usul-adi: Nimsofyan
+tempo: 54
+dizi: Nikriz
+karar: Sol
+duzen: bozuk
+zorluk: zor
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, nikriz--turku--nimsofyan--sokak_basi--giresun
+---
+[Aranağme]
+1 | Es:16 Re5:8 Do5#:32 Re5:32 Re5:16. Do5#:32 Re5:32 Do5#:32 Re5:16
+2 | Es:16 Re5:8 Do5#:32 Re5:32 Re5:16. Do5#:32 Re5:32 Do5#:32 Re5:16
+3 | Es:16 Re5:16 Do5#:16 Re5:16 Re5:16. Do5#:32 Re5:32 Do5#:32 Re5:16
+4 | Es:16 Re5:16 Do5#:16 Re5:16 Re5:16. Do5#:32 Re5:32 Do5#:32 Re5:16
+5 | Es:16 Re5:16 Re5:16 Do5#:16 Si4b:16 Do5#:32 Do5#:32 Si4b:32 La4:32 Sol4:16
+6 | Sol4:16 Sol4:32 La4:32 Si4b:32 La4:32 Sol4:16 Sol4:16 Sol4:32 Fa4#3:32 Sol4:32 Fa4#3:32 Sol4:16
+7 | Es:16 Re5:16 Re5:16 Do5#:16 Si4b:16 Do5#:32 Do5#:32 Si4b:32 La4:32 Sol4:16
+8 | Sol4:16 Sol4:32 La4:32 Si4b:32 La4:32 Sol4:16 Sol4:16 Sol4:32 Fa4#3:32 Sol4:32 Fa4#3:32 Sol4:16
+9 | Es:16 Sol4:16 Re5:16 Do5#:16 Si4b:16 Do5#:32 Do5#:32 Si4b:32 La4:32 Sol4:16
+10 | Sol4:16 Sol4:32 La4:32 Si4b:32 La4:32 Sol4:16 Sol4:16 Sol4:32 Fa4#3:32 Sol4:32 Fa4#3:32 Sol4:16
+11 | Es:16 Sol4:16 Re5:16 Do5#:16 Si4b:16 Do5#:32 Do5#:32 Si4b:32 La4:32 Sol4:16
+12 | Sol4:16 Sol4:32 La4:32 Si4b:32 La4:32 Sol4:16 Sol4:16 Sol4:32 Fa4#3:32 Sol4:32 Fa4#3:32 Sol4:16
+[Söz]
+13 | Sol4:16=So- Do5:32=kak Re5:32 Do5:8 Si4b2:32=ba- Do5:32 Si4b2:32 La4#:32 Si4b2:8
+14 | Si4b2:16=şı Do5:32=mey- Re5:32 Si4b2:16 La4#:32 Do5:32 Do5:16=ha- Si4b2:16 Si4b2:32=ne/ La4#:32 Si4b2:16
+15 | Sol4:16=So- Do5:32=kak Re5:32 Do5:8 Si4b2:32=ba- Do5:32 Si4b2:32 La4#:32 Si4b2:8
+16 | Si4b2:16=şı Si4b2:8=mey- La4:16 La4:32=ha- Do5:32 Si4b2:32 Do5:32 La4:16=ne/ Sol4:16
+17 | Es:16 La4:32=As- Do5:32 Si4b2:16 Si4b2:32=ma- Do5:32 Si4b2:32=dan- Do5:32 Si4b2:32 La4:32 Si4b2:16 Sol4:16
+18 | La4:32=dır Do5:32 Si4b2:32 Do5:32 La4:16=ka- Sol4:16 La4:8=pı- Sol4:32=sı/ Fa4#3:32 Sol4:16
+[Saz]
+19 | Es:16 Sol4:16 Re5:16 Do5#:16 Si4b:16 Do5#:32 Do5#:32 Si4b:32 La4:32 Sol4:16
+20 | Sol4:16 Sol4:32 La4:32 Si4b:32 La4:32 Sol4:16 Sol4:16 Sol4:32 Fa4#3:32 Sol4:32 Fa4#3:32 Sol4:16
+21 | Es:16 Sol4:16 Re5:16 Do5#:16 Si4b:16 Do5#:32 Do5#:32 Si4b:32 La4:32 Sol4:16
+22 | Sol4:16 Sol4:32 La4:32 Si4b:32 La4:32 Sol4:16 Sol4:16 Sol4:32 Fa4#3:32 Sol4:32 Fa4#3:32 Sol4:16
+[Söz]
+23 | Es:16 Si4b2:32=Ben Re5:32 Do5:16 Do5:32=gö- Re5:32 Si4b2:32=zü- Do5:32 Si4b2:32 La4#:32 Si4b2:8
+24 | Si4b2:16=me Do5:32=al- Re5:32 Si4b2:16 La4#:32 Do5:32 Do5:16=dır- Si4b2:16 Si4b2:32=dım/ La4#:32 Si4b2:16
+25 | Es:16 Si4b2:32=Ben Re5:32 Do5:16 Do5:32=gö- Re5:32 Si4b2:32=zü- Do5:32 Si4b2:32 La4#:32 Si4b2:16 Re5:16
+26 | Re5:16=me Re5:16 Mi5:8=al- Mi5:16=dır- Re5:16 Re5:32=dım/ Do5:32 Re5:16
+27 | Es:16 Re5:8=On Re5:16=beş Si4b:32=se- Do5#:32 Si4b:32 La4:32 Si4b:16 Sol4:16
+28 | La4:32=ne Do5#:32 Si4b:32 Do5#:32 La4:16=ha- Sol4:16 La4:8=pı- Sol4:32=sı/ Fa4#3:32 Sol4:16
+[Saz]
+29 | Es:16 Re5:16 Re5:16 Do5#:16 Si4b:16 Do5#:32 Do5#:32 Si4b:32 La4:32 Sol4:16
+30 | Sol4:16 Sol4:32 La4:32 Si4b:32 La4:32 Sol4:16 Sol4:16 Sol4:32 Fa4#3:32 Sol4:32 Fa4#3:32 Sol4:16
+31 | Es:16 Re5:16 Re5:16 Do5#:16 Si4b:16 Do5#:32 Do5#:32 Si4b:32 La4:32 Sol4:16
+32 | Sol4:16 Sol4:32 La4:32 Si4b:32 La4:32 Sol4:16 Sol4:16 Sol4:32 Fa4#3:32 Sol4:32 Fa4#3:32 Sol4:16
+33 | Es:16 Sol4:16 Re5:16 Do5#:16 Si4b:16 Do5#:32 Do5#:32 Si4b:32 La4:32 Sol4:16
+34 | Sol4:16 Sol4:32 La4:32 Si4b:32 La4:32 Sol4:16 Sol4:16 Sol4:32 Fa4#3:32 Sol4:32 Fa4#3:32 Sol4:16
+35 | Es:16 Sol4:16 Re5:16 Do5#:16 Si4b:16 Do5#:32 Do5#:32 Si4b:32 La4:32 Sol4:16
+36 | Sol4:16 Sol4:32 La4:32 Si4b:32 La4:32 Sol4:16 Sol4:16 Sol4:32 Fa4#3:32 Sol4:32 Fa4#3:32 Sol4:16
+[Söz]
+37 | Sol4:16=So- Do5:32=kak Re5:32 Do5:8 Si4b2:32=ba- Do5:32 Si4b2:32 La4#:32 Si4b2:8
+38 | Si4b2:16=şı Do5:32=mey- Re5:32 Si4b2:16 La4#:32 Do5:32 Do5:16=ha- Si4b2:16 Si4b2:32=ne/ La4#:32 Si4b2:16
+39 | Sol4:16=So- Do5:32=kak Re5:32 Do5:8 Si4b2:32=ba- Do5:32 Si4b2:32 La4#:32 Si4b2:8
+40 | Si4b2:16=şı Si4b2:8=mey- La4:16 La4:32=ha- Do5:32 Si4b2:32 Do5:32 La4:16=ne/ Sol4:16
+41 | Es:16 La4:32=As- Do5:32 Si4b2:16 Si4b2:32=ma- Do5:32 Si4b2:32=dan- Do5:32 Si4b2:32 La4:32 Si4b2:16 Sol4:16
+42 | La4:32=dır Do5:32 Si4b2:32 Do5:32 La4:16=ka- Sol4:16 La4:8=pı- Sol4:32=sı/ Fa4#3:32 Sol4:16
+[Saz]
+43 | Es:16 Sol4:16 Re5:16 Do5#:16 Si4b:16 Do5#:32 Do5#:32 Si4b:32 La4:32 Sol4:16
+44 | Sol4:16 Sol4:32 La4:32 Si4b:32 La4:32 Sol4:16 Sol4:16 Sol4:32 Fa4#3:32 Sol4:32 Fa4#3:32 Sol4:16
+45 | Es:16 Sol4:16 Re5:16 Do5#:16 Si4b:16 Do5#:32 Do5#:32 Si4b:32 La4:32 Sol4:16
+46 | Sol4:16 Sol4:32 La4:32 Si4b:32 La4:32 Sol4:16 Sol4:16 Sol4:32 Fa4#3:32 Sol4:32 Fa4#3:32 Sol4:16
+[Söz]
+47 | Es:16 Si4b2:32=Ben Re5:32 Do5:16 Do5:32=gö- Re5:32 Si4b2:32=zü- Do5:32 Si4b2:32 La4#:32 Si4b2:8
+48 | Si4b2:16=me Do5:32=al- Re5:32 Si4b2:16 La4#:32 Do5:32 Do5:16=dır- Si4b2:16 Si4b2:32=dım/ La4#:32 Si4b2:16
+49 | Es:16 Si4b2:32=Ben Re5:32 Do5:16 Do5:32=gö- Re5:32 Si4b2:32=zü- Do5:32 Si4b2:32 La4#:32 Si4b2:16 Re5:16
+50 | Re5:16=me Re5:16 Mi5:8=al- Mi5:16=dır- Re5:16 Re5:32=dım/ Do5:32 Re5:16
+51 | Es:16 Re5:8=On Re5:16=beş Si4b:32=se- Do5#:32 Si4b:32 La4:32 Si4b:16 Sol4:16
+52 | La4:32=ne Do5#:32 Si4b:32 Do5#:32 La4:16=ha- Sol4:16 La4:8=pı- Sol4:32=sı/ Fa4#3:32 Sol4:16

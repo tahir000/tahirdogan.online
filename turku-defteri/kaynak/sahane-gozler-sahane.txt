@@ -1,0 +1,80 @@
+ad: Şahane Gözler Şahane
+yore: 
+usul: 4/4
+usul-adi: Sofyan
+tempo: 81
+dizi: Eviç
+karar: Fa diyez
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, evic--rumeliturkusu--sofyan--sahane_gozler--
+---
+[Aranağme]
+1 | Fa4#:8. Do6:16 Si5b2:8 La5:8 Sol5:8 Fa5#:8 Mi5:8 Re5:8
+2 | Do5#:16 Re5:16 Mi5:16 Fa5#:16 La5:16 Sol5:16 Fa5:16 Mi5:16 Mi5:16 Re5:16 Re5:16 Do5:16 Do5:16 Si4b2:16 Si4b2:16 La4:16
+3 | La4:8 Re5:4 Do5:16 Si4b2:16 La4:8. Sol4:16 La4:16 Sol4:16 Sol4:16 Fa4#:16
+4 | Fa4#:8. Sol4:16 La4:8 Si4b2:8 Do5#:8 Re5:8 Mi5#:8 Fa5#:8
+[Aranağme]
+5 | Fa4#:8. Do6:16 Si5b2:8 La5:8 Sol5:8 Fa5#:8 Mi5:8 Re5:8
+6 | Do5#:16 Re5:16 Mi5:16 Fa5#:16 La5:16 Sol5:16 Fa5:16 Mi5:16 Mi5:16 Re5:16 Re5:16 Do5:16 Do5:16 Si4b2:16 Si4b2:16 La4:16
+7 | La4:8 Re5:4 Do5:16 Si4b2:16 La4:8. Sol4:16 La4:16 Sol4:16 Sol4:16 Fa4#:16
+8 | Fa4#:4. Fa5#:16 Sol5:16 Fa5#:16 Mi5#:16 Re5:16 Mi5#:16 Fa5#:4
+[Söz]
+9 | Es:4 Fa5#:8=Şâ- La5:8=hâ- Sol5:8=ne Fa5#:8 Sol5:8.=göz- Fa5#:16
+10 | Mi5#:8 Fa5#:8 Mi5#:8 Fa5#:16 Sol5:16 Fa5#:8 Mi5#:8 Re5:8=ler (Mi5#)Re5:16 Do5#:16
+11 | Re5:2=şâ- Mi5:8=hâ- Fa5#:8 Sol5:8 La5:8
+12 | Fa5#:4 Si5b2:8 Si5b2:16 La5:16 La5:8=ne/ Sol5:4 Sol5:16 Fa5#:16
+[Saz]
+13 | Fa5#:4. Fa5#:16 Sol5:16 Fa5#:16 Mi5#:16 Re5:16 Mi5#:16 Fa5#:4
+[Söz]
+14 | Es:4 Fa5#:8=Hüs- La5:8=nü- Sol5:8=ne Fa5#:8 Sol5:8.=yok- Fa5#:16
+15 | Mi5#:8 Fa5#:8 Mi5#:8 Fa5#:16 Sol5:16 Fa5#:8 Mi5#:8 Re5:8=tur (Mi5#)Re5:16 Do5#:16
+16 | Re5:2=ba- Mi5#:8=ha- Fa5#:8 Sol5:8 La5:8
+17 | Fa5#:4 Si5b2:8 Si5b2:16 La5:16 La5:8=ne/ Sol5:4 Sol5:16 Fa5#:16
+[Saz]
+18 | Fa5#:4. Fa5#:16 Sol5:16 Fa5#:16 Mi5#:16 Re5:16 Mi5#:16 Fa5#:4
+[Söz]
+19 | Es:4 Fa5#:8=Sü- La5:8=ley- Sol5:8=man Fa5#:8 Sol5:8.=ol- Fa5#:16
+20 | Mi5#:8 Fa5#:8 Mi5#:8 Fa5#:16 Sol5:16 Fa5#:8 Mi5#:8 Re5:8=sam (Mi5#)Re5:16 Do5#:16
+21 | Re5:2=ci- Sol5:4=ha- Sol5:8.=ne Fa5:16
+22 | Mi5:8 Re5:8=e- Mi5:8.=fen- Re5:16 Do5:8 Re5:8 Do5:4=dim/
+23 | Si4b2:4 Es:8 Re5:4=Gö- Fa5:8=nül Mi5:8=ey- Re5:8
+24 | Do5:8 Si4b2:8 Do5:8.=len- Si4b2:16 La4:4=mez La4:8.=as- Sol4:16
+25 | Sol4:8. Fa4#:16 Fa4#:4=la Re5:4=ah Do5:4
+26 | Si4b2:4 La4:4 Si4b2:16=a- La4:16 Sol4:4=man Sol4:16=a- Fa4#:16
+[Aranağme]
+27 | Fa4#:8. Do6:16 Si5b2:8 La5:8 Sol5:8 Fa5#:8 Mi5:8 Re5:8
+28 | Do5#:16 Re5:16 Mi5:16 Fa5#:16 La5:16 Sol5:16 Fa5:16 Mi5:16 Mi5:16 Re5:16 Re5:16 Do5:16 Do5:16 Si4b2:16 Si4b2:16 La4:16
+29 | La4:8 Re5:4 Do5:16 Si4b2:16 La4:8. Sol4:16 La4:16 Sol4:16 Sol4:16 Fa4#:16
+30 | Fa4#:8. Sol4:16 La4:8 Si4b2:8 Do5#:8 Re5:8 Mi5#:8 Fa5#:8
+[Aranağme]
+31 | Fa4#:8. Do6:16 Si5b2:8 La5:8 Sol5:8 Fa5#:8 Mi5:8 Re5:8
+32 | Do5#:16 Re5:16 Mi5:16 Fa5#:16 La5:16 Sol5:16 Fa5:16 Mi5:16 Mi5:16 Re5:16 Re5:16 Do5:16 Do5:16 Si4b2:16 Si4b2:16 La4:16
+33 | La4:8 Re5:4 Do5:16 Si4b2:16 La4:8. Sol4:16 La4:16 Sol4:16 Sol4:16 Fa4#:16
+34 | Fa4#:4. Fa5#:16 Sol5:16 Fa5#:16 Mi5#:16 Re5:16 Mi5#:16 Fa5#:4
+[Söz]
+35 | Es:4 Fa5#:8=Şâ- La5:8=hâ- Sol5:8=ne Fa5#:8 Sol5:8.=göz- Fa5#:16
+36 | Mi5#:8 Fa5#:8 Mi5#:8 Fa5#:16 Sol5:16 Fa5#:8 Mi5#:8 Re5:8=ler (Mi5#)Re5:16 Do5#:16
+37 | Re5:2=şâ- Mi5:8=hâ- Fa5#:8 Sol5:8 La5:8
+38 | Fa5#:4 Si5b2:8 Si5b2:16 La5:16 La5:8=ne/ Sol5:4 Sol5:16 Fa5#:16
+[Saz]
+39 | Fa5#:4. Fa5#:16 Sol5:16 Fa5#:16 Mi5#:16 Re5:16 Mi5#:16 Fa5#:4
+[Söz]
+40 | Es:4 Fa5#:8=Hüs- La5:8=nü- Sol5:8=ne Fa5#:8 Sol5:8.=yok- Fa5#:16
+41 | Mi5#:8 Fa5#:8 Mi5#:8 Fa5#:16 Sol5:16 Fa5#:8 Mi5#:8 Re5:8=tur (Mi5#)Re5:16 Do5#:16
+42 | Re5:2=ba- Mi5#:8=ha- Fa5#:8 Sol5:8 La5:8
+43 | Fa5#:4 Si5b2:8 Si5b2:16 La5:16 La5:8=ne/ Sol5:4 Sol5:16 Fa5#:16
+[Saz]
+44 | Fa5#:4. Fa5#:16 Sol5:16 Fa5#:16 Mi5#:16 Re5:16 Mi5#:16 Fa5#:4
+[Söz]
+45 | Es:4 Fa5#:8=Sü- La5:8=ley- Sol5:8=man Fa5#:8 Sol5:8.=ol- Fa5#:16
+46 | Mi5#:8 Fa5#:8 Mi5#:8 Fa5#:16 Sol5:16 Fa5#:8 Mi5#:8 Re5:8=sam (Mi5#)Re5:16 Do5#:16
+47 | Re5:2=ci- Sol5:4=ha- Sol5:8.=ne Fa5:16
+48 | Mi5:8 Re5:8=e- Mi5:8.=fen- Re5:16 Do5:8 Re5:8 Do5:4=dim/
+49 | Si4b2:4 Es:8 Re5:4=Gö- Fa5:8=nül Mi5:8=ey- Re5:8
+50 | Do5:8 Si4b2:8 Do5:8.=len- Si4b2:16 La4:4=mez La4:8.=as- Sol4:16
+51 | Sol4:8. Fa4#:16 Fa4#:4=la Re5:4=ah Do5:4
+52 | Si4b2:4 La4:4 Si4b2:16=a- La4:16 Sol4:4=man Sol4:16=a- Fa4#:16
+53 | Fa4#:1=man/

@@ -1,0 +1,47 @@
+ad: Havada Bulut Yok
+yore: 
+usul: 10/8
+usul-adi: K. Curcuna
+kalip: 3+2+2+3
+tempo: 90
+dizi: Hüseyni
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, huseyni--turku--kapali_curcuna--havada_bulut--
+---
+[Aranağme]
+1 | Es:4 Mi5:8 Mi5:8 Re5:8 Re5:4 Mi5:8 Do5:16 Mi5:16 Re5:8
+2 | Re5:8. Do5:16 Re5:8 Re5:8 Do5:8 Do5:8 Si4b2:8 Re5:8 Si4b2:16 Re5:16 Do5:8
+3 | Do5:8. Si4b2:16 Do5:8 Do5:8 Si4b2:8 Si4b2:8 La4:8 Do5:4 Si4b2:8
+4 | Si4b2:8 La4:8 Do5:8 Si4b2:8 La4:8 La4:4 (La4)Si4b2:4 La4:8
+5 | La4:4 La4:4. La4:4 La4:4.
+[Aranağme]
+6 | Es:4 Mi5:8 Mi5:8 Re5:8 Re5:4 Mi5:8 Do5:16 Mi5:16 Re5:8
+7 | Re5:8. Do5:16 Re5:8 Re5:8 Do5:8 Do5:8 Si4b2:8 Re5:8 Si4b2:16 Re5:16 Do5:8
+8 | Do5:8. Si4b2:16 Do5:8 Do5:8 Si4b2:8 Si4b2:8 La4:8 Do5:4 Si4b2:8
+9 | Si4b2:8 La4:8 Do5:8 Si4b2:8 La4:8 La4:4 (La4)Si4b2:4 La4:8
+10 | La4:4 La4:4. La4:4 La4:4.
+[Söz]
+11 | Es:4 Do5:8=Ha-* Re5:4=va-* Mi5:4=da* Mi5:4.=bu-*
+12 | Mi5:5/8=lut* Mi5:16=yok* Fa5:16 Re5:16 Mi5:16 Re5:16 Mi5:16 Re5:16 Mi5:16 Re5:8
+13 | Re5:8 Es:8 Sol5:8=bu* Sol5:8=ne* Re5:8 Re5:4=du-* Mi5:8=man-* Do5:16 Mi5:16 Re5:8
+14 | Re5:4=dır/* Do5:8=Meh-* Re5:4=le-* Mi5:4=de* Mi5:4.=ö-*
+15 | Mi5:5/8=lüm* Mi5:16=yok* Fa5:16 Re5:16 Mi5:16 Re5:16 Mi5:16 Re5:16 Mi5:16 Re5:8
+16 | Re5:8 Es:8 Sol5:8=bu* Sol5:8=ne* Re5:8 Re5:4=şi-* Mi5:8=van-* Do5:16 Mi5:16 Re5:8
+17 | Re5:4=dır/* Do5:8=Şu* Re5:4=Ye-* Mi5:4=men* Mi5:4.=el-*
+18 | Mi5:5/8=le-* Mi5:16=ri* Fa5:16 Re5:16 Mi5:16 Re5:16 Mi5:16 Re5:16 Mi5:16 Re5:8
+19 | Re5:8 Es:8 Sol5:8=ne* Sol5:8=de* Re5:8 Re5:4=ya-* Mi5:8=man-* Do5:16 Mi5:16 Re5:8
+20 | Re5:8.=dır/* Do5:16=A-* Mi5:8=no* Mi5:8 Re5:8=Ye-* Re5:4=men-* Mi5:8 Do5:16 Mi5:16 Re5:8
+21 | Re5:8.=dir* Do5:16 Re5:8=gü-* Re5:8=lü* Si4b2:8 Do5:8=çe-* Si4b2:8 Re5:8=men-* Si4b2:16 Re5:16 Do5:8
+22 | Do5:8.=dir/* Si4b2:16 Do5:8=Gi-* Do5:8=den* Si4b2:8 Si4b2:8=gel-* La4:8 Do5:4=mi-* Si4b2:8
+23 | Si4b2:8=yor* La4:8 Do5:8=a-* Si4b2:8=cep* La4:8 La4:4=ne-* (La4)Si4b2:4=den-* La4:8
+24 | La4:5/4=dir/*
+[Saz]
+25 | Re5:8. Do5:16=Bu-* Mi5:8=ra-* Mi5:8 Re5:8=sı* Re5:4=Muş-* Mi5:8 Do5:16 Mi5:16 Re5:8
+26 | Re5:8.=tur* Do5:16 Re5:8=yo-* Re5:8=lu* Si4b2:8 Do5:8=yo-* Si4b2:8 Re5:8=kuş-* Si4b2:16 Re5:16 Do5:8
+27 | Do5:8.=tur/* Si4b2:16 Do5:8=Gi-* Do5:8=den* Si4b2:8 Si4b2:8=gel-* La4:8 Do5:4=mi-* Si4b2:8
+28 | Si4b2:8=yor* La4:8 Do5:8=a-* Si4b2:8=cep* La4:8 La4:4=ne-* (La4)Si4b2:4=iş-* La4:8
+29 | La4:5/4=dir/*

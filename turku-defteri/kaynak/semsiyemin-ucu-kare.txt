@@ -1,0 +1,30 @@
+ad: Şemsiyemin Ucu Kare
+yore: Trakya
+usul: 7/4
+usul-adi: Devr-i Hindi
+tempo: 72
+dizi: Hüseyni
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, huseyni--turku--devrihindi--semsiyemin_ucu--trakya
+---
+[Aranağme]
+1 | Sol5:8 Fa5:16 Mi5:16 Re5:8 Mi5:16 Fa5:16 Mi5:16 Fa5:16 Re5:8 Do5:8 Re5:16 Mi5:16 Do5:16 Re5:16 Si4b2:8 La4:4 Mi5:4
+2 | Sol5:8 Fa5:16 Mi5:16 Re5:8 Mi5:16 Fa5:16 Mi5:16 Fa5:16 Re5:8 Do5:8 Re5:16 Mi5:16 Do5:16 Re5:16 Si4b2:8 La4:4 La4:4
+[Aranağme]
+3 | Sol5:8 Fa5:16 Mi5:16 Re5:8 Mi5:16 Fa5:16 Mi5:16 Fa5:16 Re5:8 Do5:8 Re5:16 Mi5:16 Do5:16 Re5:16 Si4b2:8 La4:4 Mi5:4
+4 | Sol5:8 Fa5:16 Mi5:16 Re5:8 Mi5:16 Fa5:16 Mi5:16 Fa5:16 Re5:8 Do5:8 Re5:16 Mi5:16 Do5:16 Re5:16 Si4b2:8 La4:4 La4:4
+[Söz]
+5 | Re5:8=Şem-* Mi5:8=si-* Re5:8=ye-* Mi5:4.=min* Fa5#3:8=u-* Sol5:8=cu* Fa5:8 Mi5:8 Fa5:16=ka-* Mi5:16 Fa5:16 Sol5:16 Mi5:8=re/* Re5:8
+6 | Re5:8=Şem-* Mi5:8=si-* Re5:8=ye-* Mi5:4.=min* Fa5#3:8=u-* Sol5:8=cu* Fa5:8 Mi5:8 Fa5:16=ka-* Mi5:16 Fa5:16 Sol5:16 Mi5:8=re/* (Fa5)Re5:8
+7 | Sol5:8=Yok* Fa5:16=mu* Mi5:16 Re5:8=şu* Mi5:16=der-* Fa5:16 Mi5:16 Fa5:16 Re5:8 Do5:8=di-* Re5:16=me* Mi5:16 Do5:16 Re5:16 Si4b2:8 La4:4=ça-* Mi5:4=re/*
+8 | Sol5:8=Yok* Fa5:16=mu* Mi5:16 Re5:8=şu* Mi5:16=der-* Fa5:16 Mi5:16 Fa5:16 Re5:8 Do5:8=di-* Re5:16=me* Mi5:16 Do5:16 Re5:16 Si4b2:8 La4:4=ça-* La4:4=re/*
+9 | Re5:8=O* Mi5:8=yâr* Re5:8=gü-* Mi5:4.=zel* Fa5#3:8=ben* Sol5:8=bî-* Fa5:8 Mi5:8 Fa5:16=ça-* Mi5:16 Fa5:16 Sol5:16 Mi5:8=re/* Re5:8
+10 | Re5:8=O* Mi5:8=yâr* Re5:8=gü-* Mi5:4.=zel* Fa5#3:8=ben* Sol5:8=bî-* Fa5:8 Mi5:8 Fa5:16=ça-* Mi5:16 Fa5:16 Sol5:16 Mi5:8=re/* (Fa5)Re5:8
+11 | Sol5:8=Ça-* Fa5:16=re-* Mi5:16 Re5:8=siz* Mi5:16=dert-* Fa5:16 Mi5:16 Fa5:16 Re5:8 Do5:8=le-* Re5:16=re* Mi5:16 Do5:16 Re5:16 Si4b2:8 La4:4=düş-* Mi5:4=tüm/*
+12 | Sol5:8=Bir* Fa5:16=ve-* Mi5:16 Re5:8=fâ-* Mi5:16=sız* Fa5:16 Mi5:16 Fa5:16 Re5:8 Do5:8=e-* Re5:16=le* Mi5:16 Do5:16 Re5:16 Si4b2:8 La4:4=düş-* La4:4=tüm/*
+13 | Sol5:8=Ça-* Fa5:16=re-* Mi5:16 Re5:8=siz* Mi5:16=dert-* Fa5:16 Mi5:16 Fa5:16 Re5:8 Do5:8=le-* Re5:16=re* Mi5:16 Do5:16 Re5:16 Si4b2:8 La4:4=düş-* Mi5:4=tüm/*
+14 | Sol5:8=Bir* Fa5:16=ve-* Mi5:16 Re5:8=fâ-* Mi5:16=sız* Fa5:16 Mi5:16 Fa5:16 Re5:8 Do5:8=e-* Re5:16=le* Mi5:16 Do5:16 Re5:16 Si4b2:8 La4:4=düş-* La4:4=tüm/*

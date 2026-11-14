@@ -1,0 +1,37 @@
+ad: Hele Yar Zalım Yar
+yore: Diyarbakır
+usul: 4/4
+usul-adi: Sofyan
+tempo: 87
+dizi: Tahir
+karar: La
+duzen: bozuk
+zorluk: zor
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, tahir--turku--sofyan--hele_yar--diyarbakir
+---
+[Aranağme]
+1 | Es:8 Si4b2:16 Do5:16 Re5:8 Re5:8 Do5:16 Si4b2:16 Do5:16 Re5:16 Si4b2:8. La4:16
+2 | La4:8 Do5:16 Si4b2:16 Do5:16 (Re5)Si4b2:16 Si4b2:16 La4:16 La4:4 La4:4
+3 | Es:8 Si4b2:16 Do5:16 Re5:8 Re5:16 Si4b2:16 Do5:16 Si4b2:16 Do5:16 Re5:16 Do5:16 Si4b2:16 Si4b2:16 La4:16
+4 | La4:8 Do5:16 Si4b2:16 Do5:16 Si4b2:16 Si4b2:16 La4:16 La4:4 La4:4
+[Aranağme]
+5 | Es:8 Si4b2:16 Do5:16 Re5:8 Re5:8 Do5:16 Si4b2:16 Do5:16 Re5:16 Si4b2:8. La4:16
+6 | La4:8 Do5:16 Si4b2:16 Do5:16 (Re5)Si4b2:16 Si4b2:16 La4:16 La4:4 La4:4
+7 | Es:8 Si4b2:16 Do5:16 Re5:8 Re5:16 Si4b2:16 Do5:16 Si4b2:16 Do5:16 Re5:16 Do5:16 Si4b2:16 Si4b2:16 La4:16
+8 | La4:8 Do5:16 Si4b2:16 Do5:16 Si4b2:16 Si4b2:16 La4:16 La4:4 La4:4
+[Söz]
+9 | Es:8 Fa5#3:16=He-* Sol5:16=le* La5:4=yâr* La5:4=yâr* La5:4=yâr*
+10 | La5:8=zâ-* (Si5b2)La5:16=lım* Sol5:16 La5:4=yâr/* La5:8=Ha-* (Si5b2)La5:16=yın* Sol5:16 La5:4=yâr*
+11 | La5:8=kâ-* (Si5b2)La5:16=fir* Sol5:16 La5:4=yâr* Si5b2:16=çap-* La5:16 Si5b2:16=kın* Sol5:16 La5:4=yâr/*
+12 | Es:8 Sol5:8=Le* Sol5:8=le* Do6:8=le* Si5b2:8=le* Do6:8=le* La5:8=le* Si5b2:8=le/*
+13 | La5:8=Ley-* (Si5b2)La5:16=lim* Sol5:16 La5:8=le* La5:8=yâr* La5:8=ley-* (Si5b2)La5:16=lim* Sol5:16 La5:8=le* La5:16=yâr* Fa5#3:16
+14 | Sol5:8=Ne* Sol5:16=zâ-* Fa5#3:16 Sol5:16=lım-* Fa5#3:16 Sol5:16=sın* Mi5:16 Mi5:8=yâ-* Mi5:16 Re5:16 Re5:8=rim/* Es:8
+15 | Re5:8=Ben* Re5:8=sa-* Sol5:16=na* Fa5#3:16 Sol5:16=kur-* Mi5:16 Mi5:8=bâ-* Mi5:16 Re5:16 Re5:4=nım/*
+16 | Re5:8=Yü-* Re5:8=zü-* Sol5:8=ne* Sol5:16=müş-* Mi5:16 Mi5:8=tâ-* Mi5:16 Re5:16 Re5:4=kım/*
+17 | Re5:8.=Sev-* La5:16=gi-* Sol5:16=li* La5:16 Fa5#3:16=sul-* Sol5:16 Mi5:8=tâ-* Mi5:16 Re5:16 Re5:4=nım/*
+18 | Es:8 Si4b2:16=Ya-* Do5:16=rın* Re5:8=ak-* Re5:8=şam* Do5:16=siz-* Si4b2:16 Do5:16 Re5:16 Si4b2:8.=de/* La4:16
+19 | La4:8=Ben* Do5:16=sa-* Si4b2:16 Do5:16=na* (Re5)Si4b2:16 Si4b2:16=mih-* La4:16 La4:4=mâ-* La4:4=nım/*
+20 | Es:8 Si4b2:16=Se-* Do5:16=ni* Re5:8=gör-* Re5:16=me-* Si4b2:16 Do5:16=mi-* Si4b2:16 Do5:16 Re5:16 Do5:16=şem/* Si4b2:16 Si4b2:16 La4:16
+21 | La4:8=Ya-* Do5:16=man-* Si4b2:16 Do5:16=dır* Si4b2:16 Si4b2:16=ah-* La4:16 La4:4=vâ-* La4:4=lım/*

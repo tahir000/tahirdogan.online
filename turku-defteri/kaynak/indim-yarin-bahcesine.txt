@@ -1,0 +1,41 @@
+ad: İndim Yarin Bahçesine
+yore: 
+usul: 10/8
+usul-adi: K. Curcuna
+kalip: 3+2+2+3
+tempo: 90
+dizi: Mahur
+karar: Sol
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, mahur--turku--kapali_curcuna--indim_yarin--
+---
+[Aranağme]
+1 | Do5:4. Mi5:4 Do5:8 Mi5:8 Re5:4.
+2 | Si4:4. Re5:4 Si4:8 Re5:8 Do5:4 Si4:8
+3 | La4:4. Do5:4 Si4:8 La4:8 Re5:4 Do5:8
+4 | Si4:4 La4:8 La4:8 Sol4:8 Sol4:8 La4:8 Si4:8 Do5:8 Re5:8
+[Aranağme]
+5 | Do5:4. Mi5:4 Do5:8 Mi5:8 Re5:4.
+6 | Si4:4. Re5:4 Si4:8 Re5:8 Do5:4 Si4:8
+7 | La4:4. Do5:4 Si4:8 La4:8 Re5:4 Do5:8
+8 | Si4:4 La4:8 La4:8 Sol4:8 Sol4:2 Es:8
+[Söz]
+9 | Re5:4.=İn-* Sol5:4=dim* Sol5:8=yâ-* Fa5#:8 Sol5:4.=rin*
+10 | Fa5#:8=bah-* Mi5:8 Fa5#:8 Sol5:4=çe-* Fa5#:8=si-* Mi5:8 Re5:4.=ne/*
+11 | Sol5:4.=Gül* Sol5:4=di-* Sol5:4=bin-* Sol5:8=de* Fa5#:8 Mi5:8
+12 | Fa5#:8=gül* Sol5:8 La5:8 La5:8=i* Sol5:8 Sol5:8=ter/* Fa5#:8 Sol5:4.
+13 | Re5:4.=İn-* Sol5:4=dim* Sol5:8=yâ-* Fa5#:8 Sol5:4.=rin*
+14 | Fa5#:8=bah-* Mi5:8 Fa5#:8 Sol5:4=çe-* Fa5#:8=si-* Mi5:8 Re5:4.=ne/*
+15 | Sol5:4.=Gül* Sol5:4=di-* Sol5:4=bin-* Sol5:8=de* Fa5#:8 Mi5:8
+16 | Fa5#:8=gül* Sol5:8 La5:8 La5:8=i* Sol5:8 Sol5:8=ter/* Fa5#:8 Sol5:4.
+17 | Do5:4.=Ya-* Mi5:4=vaş* Do5:8=yü-* Mi5:8 Re5:4.=rü*
+18 | Si4:4.=sev-* Re5:4=di-* Si4:8=ce-* Re5:8 Do5:4=ğim/* Si4:8
+19 | La4:4.=Ca-* Do5:4=hi-* Si4:8=lim* La4:8 Re5:4=ak-* Do5:8
+20 | Si4:4=lım* La4:8 La4:8=gi-* Sol4:8 Sol4:8=der/* La4:8 Si4:8 Do5:8 Re5:8
+21 | Do5:4.=Ya-* Mi5:4=vaş* Do5:8=yü-* Mi5:8 Re5:4.=rü*
+22 | Si4:4.=sev-* Re5:4=di-* Si4:8=ce-* Re5:8 Do5:4=ğim/* Si4:8
+23 | La4:4.=Ca-* Do5:4=hi-* Si4:8=lim* La4:8 Re5:4=ak-* Do5:8
+24 | Si4:4=lım* La4:8 La4:8=gi-* Sol4:8 Sol4:4=der/* Es:4.

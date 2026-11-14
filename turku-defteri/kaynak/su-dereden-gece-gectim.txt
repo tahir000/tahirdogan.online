@@ -1,0 +1,27 @@
+ad: Şu Dereden Gece Geçtim
+yore: 
+usul: 10/16
+usul-adi: Devr-i Süreyya Sofyanı
+tempo: 60
+dizi: Uşşak
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, ussak--turku--devrisureyyasofyani--su_dereden--
+---
+[Söz]
+1 | Es:8 Do5:16=Şu Re5:8=de- Re5:8=re- Re5:8=den Do5:16
+2 | Do5:8 Re5:16=ge- Mi5:8=ce Mi5:16=geç- Re5:16 Re5:8.=tim/
+3 | Es:8 Do5:16=A- Re5:8=man Re5:16=a- Mi5:16 Do5:8=man Si4b2:16
+4 | Es:8 Re5:16=a- Do5:16=man Si4b2:16 La4:16=Me- Sol4:16 Re5:8=mo Do5:16
+5 | Mi5:8=ca- Re5:16=nım Do5:16 Si4b2:16 (Do5)Si4b2:16=Me- La4:16 La4:8=mo/ Es:16
+[Saz]
+6 | Re5:16 Do5:16 Mi5:16 Re5:16 Do5:16 Si4b2:16 La4:16 La4:8 Es:16
+[Söz]
+7 | Es:8 Sol4:16=E- La4:16=ğil- Si4b2:16 Do5:16=dim Re5:16 Mi5:8=su- Re5:16
+8 | La5:16=yun- Sol5:16 Fa5:16=dan Mi5:16 Re5:16=iç- Do5:16 Si4b2:16 (Do5)Si4b2:16=tim/ La4:16 Sol4:16
+9 | Es:8 Do5:16=A- Re5:8=man Re5:8=a- Do5:16=man Si4b2:16 La4:16
+10 | La4:8=öm- Sol4:16 Mi5:16=rüm Re5:16 Do5:16=Me- Si4b2:16 Re5:16 Si4b2:16=mo La4:16
+11 | La4:5/16=hey/ Es:5/16

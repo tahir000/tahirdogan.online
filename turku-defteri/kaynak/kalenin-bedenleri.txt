@@ -1,0 +1,30 @@
+ad: Kalenin Bedenleri
+yore: Tokat
+usul: 4/4
+usul-adi: Sofyan
+tempo: 84
+dizi: Mahur
+karar: Sol
+duzen: bozuk
+zorluk: zor
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, mahur--turku--sofyan--niksarin_fidanlari--tokat
+---
+[Söz]
+1 | Es:8 Sol5:16=Ka-* Sol5:16=le-* Sol5:8=nin* Sol5:8=be-* Sol5:8=den-* Sol5:8=le-* (La5)Fa5#:8.=ri/* Mi5:16
+2 | Mi5:16=Yâr* Fa5#:16 Sol5:8 La5:16=yâr* Fa5#:32 Sol5:32 Fa5#:8 Fa5#:16=yâr* Sol5:16 Mi5:16=yan-* Fa5:16 Re5:16=dım/* Do5:16 Re5:16 Mi5:16
+3 | Mi5:8=Koy-* (Fa5#)Mi5:16=ve-* Do5:16 Re5:8=rin* Do5:32=gi-* Si4:32 Do5:16 La4:8=den-* Do5:8=le-* Do5:16=ri/* Si4:32 Do5:32 Si4:16 La4:16
+4 | Sol4:16=Ni-* La4:16=na-* Si4:8=nay* Si4:16=ca-* Sol4:16 Si4:16=nım* La4:16 La4:16=ni-* Sol4:16=na-* Sol4:8=nay* Sol4:8=nay/* Es:8
+5 | Si4:16=Koy-* Do5:16 Re5:8=ve-* Re5:8=rin* Do5:32=gi-* Si4:32 Do5:16 La4:8=den-* Do5:8=le-* Do5:16=ri/* Si4:32 Do5:32 Si4:16 La4:16
+6 | Sol4:16=Ni-* La4:16=na-* Si4:8=nay* Si4:16=yâ-* Sol4:16=rim* Si4:16 La4:16=de* La4:16=ni-* Sol4:16=na-* Sol4:8=nay* Sol4:4=nay/*
+7 | Es:8 Sol5:16=İ-* Sol5:16=pek* Sol5:8=bü-* Sol5:8=rük* Sol5:8=bü-* Sol5:8=rün-* (La5)Fa5#:8.=müş/* Mi5:16
+8 | Mi5:16=Yâr* Fa5#:16 Sol5:8=yan-* La5:16=dım* Fa5#:32 Sol5:32 Fa5#:16 Sol5:16 Mi5:16=ni-* Mi5:16=na-* Mi5:16=nay* Fa5:16 Re5:16=nay/* Do5:16 Re5:8
+9 | Mi5:8=Nik-* (Fa5#)Mi5:16=sa-* Do5:16 Re5:8=rın* Do5:32=fi-* Si4:32 Do5:16 La4:8=dan-* Do5:8=la-* Do5:16=rı/* Si4:32 Do5:32 Si4:16 La4:16
+10 | Sol4:16=Ni-* La4:16=na-* Si4:8=nay* Si4:16=ca-* Sol4:16 Si4:16=nım* La4:16 La4:16=ni-* Sol4:16=na-* Sol4:8=nay* Sol4:8=nay/* Es:8
+11 | Si4:16=Nik-* Do5:16 Re5:8=sa-* Re5:8=rın* Do5:32=fi-* Si4:32 Do5:16 La4:8=dan-* Do5:8=la-* Do5:16=rı/* Si4:32 Do5:32 Si4:16 La4:16
+12 | Sol4:16=Ni-* La4:16=na-* Si4:8=nay* Si4:16=yâ-* Sol4:16=rim* Si4:16 La4:16=de* La4:16=ni-* Sol4:16=na-* Sol4:8=nay/* Sol4:4
+13 | Si4:16=Hop-* Do5:16=pa* Re5:16=ni-* Re5:16=na* Re5:16=ni-* Re5:16=na-* Do5:16=nay* Si4:16 La4:16=ni-* La4:16=na-* Do5:8=nay* Do5:16=nay/* Si4:8 La4:16
+14 | Sol4:16=Ni-* La4:16=na-* Si4:8=nay* Si4:16=ca-* Sol4:16 Si4:16=nım* La4:16=da* La4:16=ni-* Sol4:16=na-* Sol4:8=nay* Sol4:4=nay/*
+15 | Si4:16=Hop-* Do5:16=pa* Re5:16=ni-* Re5:16=na* Re5:16=ni-* Re5:16=na-* Do5:16=nay* Si4:16 La4:16=ni-* La4:16=na-* Do5:8=nay* Do5:16=nay/* Si4:8 La4:16
+16 | Sol4:16=Ni-* La4:16=na-* Si4:8=nay* Si4:16=ca-* Sol4:16 Si4:16=nım* La4:16=da* La4:16=ni-* Sol4:16=na-* Sol4:8=nay* Sol4:4=nay/*

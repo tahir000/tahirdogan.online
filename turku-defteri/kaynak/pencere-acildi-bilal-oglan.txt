@@ -1,0 +1,57 @@
+ad: Pencere Açıldı Bilal Oğlan
+yore: 
+usul: 9/8
+usul-adi: Aksak
+kalip: 2+2+2+3
+tempo: 132
+dizi: Hicaz
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, hicaz--turku--aksak--pencere_acildi--
+---
+[Aranağme]
+1 | Do5#:8 Re5:8 Mi5:8 Fa5:8 Mi5:8 Re5:8 Do5#:4 Si4b:8
+2 | Do5#:8 La4:8 Si4b:8 Sol4:8 La4:8 Si4b:8 Do5#:8 Re5:8 Mi5:8
+3 | Do5#:8 Re5:8 Mi5:8 Fa5:8 Mi5:8 Re5:8 Do5#:4 Si4b:8
+4 | Do5#:8 La4:8 Si4b:8 Sol4:8 La4:2 Es:8
+[Aranağme]
+5 | Do5#:8 Re5:8 Mi5:8 Fa5:8 Mi5:8 Re5:8 Do5#:4 Si4b:8
+6 | Do5#:8 La4:8 Si4b:8 Sol4:8 La4:8 Si4b:8 Do5#:8 Re5:8 Mi5:8
+7 | Do5#:8 Re5:8 Mi5:8 Fa5:8 Mi5:8 Re5:8 Do5#:4 Si4b:8
+8 | Do5#:8 La4:8 Si4b:8 Sol4:8 La4:2 Es:8
+[Söz]
+9 | Re5:4=Pen- Mi5:8=ce- Mi5:8=re Fa5:4=a- Mi5:4=çıl- Re5:8
+10 | Do5#:8.=dı Si4b:16 Do5#:8=Bi- Re5:8=lal Do5#:8=oğ- Si4b:8 La4:4=lan Es:8
+11 | Re5:4=piş- Mi5:4=tov Fa5:4=pat- Mi5:8=la- Re5:8 Do5#:8
+12 | Sol5:4.=dı/ Fa5:8 Mi5:8 Re5:8 Do5#:8 Si4b:8 La4:8
+13 | Re5:4=Pen- Mi5:8=ce- Mi5:8=re Fa5:4=a- Mi5:4=çıl- Re5:8
+14 | Do5#:8.=dı Si4b:16 Do5#:8=Bi- Re5:8=lal Do5#:8=oğ- Si4b:8 La4:4=lan Es:8
+15 | Re5:4=piş- Mi5:4=tov Fa5:4=pat- Mi5:8=la- Re5:8 Do5#:8
+16 | Re5:4.=dı/ La4:8 Si4b:8 Do5#:8 Re5:4.
+17 | Es:4 Fa4#:8=Va- Sol4:8=rın La4:4=ba- La4:4=kın Es:8
+18 | Si4b:8.=kan- La4:16 Si4b:8=lı Re5:8=da Do5#:8=Bi- Si4b:8 La4:4=lal Es:8
+19 | Mi5:8=yi- Re5:8=ne Re5:8=ki- Do5#:8=mi Do5#:8=hak- Si4b:8 Si4b:4=la- La4:8
+20 | Si4b:8.=dı/ La4:16 Si4b:8 Do5#:8 Si4b:8 La4:8 Si4b:4 Es:8
+21 | Es:4 Fa4#:8=Va- Sol4:8=rın La4:4=ba- La4:4=kın Es:8
+22 | Si4b:8.=kan- La4:16 Si4b:8=lı Re5:8=da Do5#:8=Bi- Si4b:8 La4:4=lal Es:8
+23 | Mi5:8=yi- Re5:8=ne Re5:8=ki- Do5#:8=mi Do5#:8=hak- Si4b:8 Si4b:4=la- La4:8
+24 | La4:2.=dı/ Es:4.
+25 | Re5:4=Al- Mi5:4=lı Fa5:4=ye- Mi5:4=me- Re5:8
+26 | Do5#:8.=ni Si4b:16 Do5#:8=Bi- Re5:8=lal Do5#:8=oğ- Si4b:8 La4:4=lan Es:8
+27 | Re5:4=pul- Mi5:4=lu Fa5:4=ye- Mi5:8=me- Re5:8 Do5#:8
+28 | Sol5:4.=ni/ Fa5:8 Mi5:8 Re5:8 Do5#:8 Si4b:8 La4:8
+29 | Re5:4=Al- Mi5:4=lı Fa5:4=ye- Mi5:4=me- Re5:8
+30 | Do5#:8.=ni Si4b:16 Do5#:8=Bi- Re5:8=lal Do5#:8=oğ- Si4b:8 La4:4=lan Es:8
+31 | Re5:4=pul- Mi5:4=lu Fa5:4=ye- Mi5:8=me- Re5:8 Do5#:8
+32 | Re5:4.=ni/ La4:8 Si4b:8 Do5#:8 Re5:4 Es:8
+33 | Es:4 Fa4#:8=Va- Sol4:8=rın La4:4=ba- La4:4=kın Es:8
+34 | Si4b:8.=kan- La4:16 Si4b:8=lı Re5:8=da Do5#:8=Bi- Si4b:8 La4:4=lal Es:8
+35 | Mi5:8=yi- Re5:8=ne Re5:8=ki- Do5#:8=mi Do5#:8=hak- Si4b:8 Si4b:4=la- La4:8
+36 | Si4b:8.=dı/ La4:16 Si4b:8 Do5#:8 Si4b:8 La4:8 Si4b:4 Es:8
+37 | Es:4 Fa4#:8=Va- Sol4:8=rın La4:4=ba- La4:4=kın Es:8
+38 | Si4b:8.=kan- La4:16 Si4b:8=lı Re5:8=da Do5#:8=Bi- Si4b:8 La4:4=lal Es:8
+39 | Mi5:8=yi- Re5:8=ne Re5:8=ki- Do5#:8=mi Do5#:8=hak- Si4b:8 Si4b:4=la- La4:8
+40 | La4:2.=dı/ Es:4.

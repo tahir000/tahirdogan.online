@@ -1,0 +1,91 @@
+ad: Baharın Gülşen Çağında
+yore: Kars
+usul: 3/4
+usul-adi: Semai
+tempo: 60
+dizi: Segah
+karar: Si bemol 2
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, segah--turku--semai--baharin_gulsen--kars
+---
+[Aranağme]
+1 | Re5:16 Mi5b2:16 Re5:16 Mi5b2:16 Re5:16 Do5:8. Re5:16 Do5:8.
+2 | Re5:16 Mi5b2:16 Re5:16 Mi5b2:16 Re5:16 Do5:8. Re5:16 Do5:8.
+3 | Mi5b2:16 Fa5:16 Mi5b2:16 Fa5:16 Mi5b2:16 Re5:8. Mi5b2:16 Re5:8.
+4 | Mi5b2:16 Fa5:16 Mi5b2:16 Fa5:16 Mi5b2:16 Re5:8. Mi5b2:16 Re5:8.
+5 | Do5:16 Re5:16 Do5:16 Re5:16 Do5:16 Si4b2:8. Do5:16 Si4b2:8.
+6 | Do5:16 Re5:16 Do5:16 Re5:16 Do5:16 Si4b2:8. Do5:16 Si4b2:8.
+[Aranağme]
+7 | Re5:16 Mi5b2:16 Re5:16 Mi5b2:16 Re5:16 Do5:8. Re5:16 Do5:8.
+8 | Re5:16 Mi5b2:16 Re5:16 Mi5b2:16 Re5:16 Do5:8. Re5:16 Do5:8.
+9 | Mi5b2:16 Fa5:16 Mi5b2:16 Fa5:16 Mi5b2:16 Re5:8. Mi5b2:16 Re5:8.
+10 | Mi5b2:16 Fa5:16 Mi5b2:16 Fa5:16 Mi5b2:16 Re5:8. Mi5b2:16 Re5:8.
+11 | Do5:16 Re5:16 Do5:16 Re5:16 Do5:16 Si4b2:8. Do5:16 Si4b2:8.
+12 | Do5:16 Re5:16 Do5:16 Re5:16 Do5:16 Si4b2:8. Do5:16 Si4b2:8.
+13 | Si4b2:8 Sol4:8 Do5:16 Re5:16 Do5:16 Re5:16 Do5:16 Si4b2:16 La4:16 Sol4:16
+14 | Si4b2:8 Sol4:8 Do5:16 Re5:16 Do5:16 Re5:16 Do5:16 Si4b2:16 La4:16 Sol4:16
+15 | Si4b2:8 Sol4:8 Do5:16 Re5:16 Do5:16 Re5:16 Do5:16 Si4b2:16 La4:16 Sol4:16
+16 | Si4b2:8 Sol4:8 Do5:16 Re5:16 Do5:16 Re5:16 Do5:16 Si4b2:16 La4:16 Sol4:16
+[Söz]
+17 | Re5:16=Ba- Re5:8.=ha- Re5:4=rın Mi5b2:16=gül- Re5:8.
+18 | Re5:8=şen Re5:8=ça- Mi5b2:16=ğın- Re5:8. Do5:4=da/
+19 | Re5:8=Ne Re5:8=ge- Mi5b2:16=zir- Re5:8. Do5:4=sen
+20 | Do5:8.=ba- Re5:16=ğı Do5:8.=bül- Si4b2:16 Do5:8.=bül/ Si4b2:16
+[Saz]
+21 | Do5:16 Re5:16 Do5:16 Re5:16 Do5:16 Si4b2:8. Do5:16 Si4b2:8.
+[Söz]
+22 | Mi5b2:8=O- Mi5b2:8=hu- Mi5b2:8=dun Re5:8 Re5:4=ağ-
+23 | Re5:8=lım Re5:8=a- Re5:16=par- Mi5b2:16 Re5:8 Do5:16=dın/ Re5:16 Do5:8
+24 | Re5:8=Ol- Re5:8=dun Mi5b2:16=men- Re5:8 Do5:16 Do5:16=den Re5:16 Do5:8
+25 | Do5:8.=ya- Re5:16=ğı Do5:8.=bül- Si4b2:16 Do5:8.=bül/ Si4b2:16
+[Saz]
+26 | Do5:16 Re5:16 Do5:16 Re5:16 Do5:16 Si4b2:8. Do5:16 Si4b2:8.
+[Söz]
+27 | Re5:8=Ol- Re5:8=dun Mi5b2:16=men- Re5:8 Do5:16 Do5:16=den Re5:16 Do5:8
+28 | Do5:8.=ya- Re5:16=ğı Mi5b2:16=bül- Re5:8 Do5:16 Do5:16=bül/ Re5:16 Do5:8
+29 | Do5:8.=ya- Re5:16=ğı Mi5b2:16=bül- Re5:8 Do5:16 Do5:16=bül/ Re5:16 Do5:8
+30 | Do5:8.=ya- Re5:16=ğı Do5:8.=bül- Re5:16 Do5:8.=bül/ Si4b2:16
+31 | Do5:16=ya- Re5:8.=ğı Do5:8.=bül- Re5:16 Do5:8.=bül/ Si4b2:16
+[Aranağme]
+32 | Re5:16 Mi5b2:16 Re5:16 Mi5b2:16 Re5:16 Do5:8. Re5:16 Do5:8.
+33 | Re5:16 Mi5b2:16 Re5:16 Mi5b2:16 Re5:16 Do5:8. Re5:16 Do5:8.
+34 | Mi5b2:16 Fa5:16 Mi5b2:16 Fa5:16 Mi5b2:16 Re5:8. Mi5b2:16 Re5:8.
+35 | Mi5b2:16 Fa5:16 Mi5b2:16 Fa5:16 Mi5b2:16 Re5:8. Mi5b2:16 Re5:8.
+36 | Do5:16 Re5:16 Do5:16 Re5:16 Do5:16 Si4b2:8. Do5:16 Si4b2:8.
+37 | Do5:16 Re5:16 Do5:16 Re5:16 Do5:16 Si4b2:8. Do5:16 Si4b2:8.
+[Aranağme]
+38 | Re5:16 Mi5b2:16 Re5:16 Mi5b2:16 Re5:16 Do5:8. Re5:16 Do5:8.
+39 | Re5:16 Mi5b2:16 Re5:16 Mi5b2:16 Re5:16 Do5:8. Re5:16 Do5:8.
+40 | Mi5b2:16 Fa5:16 Mi5b2:16 Fa5:16 Mi5b2:16 Re5:8. Mi5b2:16 Re5:8.
+41 | Mi5b2:16 Fa5:16 Mi5b2:16 Fa5:16 Mi5b2:16 Re5:8. Mi5b2:16 Re5:8.
+42 | Do5:16 Re5:16 Do5:16 Re5:16 Do5:16 Si4b2:8. Do5:16 Si4b2:8.
+43 | Do5:16 Re5:16 Do5:16 Re5:16 Do5:16 Si4b2:8. Do5:16 Si4b2:8.
+44 | Si4b2:8 Sol4:8 Do5:16 Re5:16 Do5:16 Re5:16 Do5:16 Si4b2:16 La4:16 Sol4:16
+45 | Si4b2:8 Sol4:8 Do5:16 Re5:16 Do5:16 Re5:16 Do5:16 Si4b2:16 La4:16 Sol4:16
+46 | Si4b2:8 Sol4:8 Do5:16 Re5:16 Do5:16 Re5:16 Do5:16 Si4b2:16 La4:16 Sol4:16
+47 | Si4b2:8 Sol4:8 Do5:16 Re5:16 Do5:16 Re5:16 Do5:16 Si4b2:16 La4:16 Sol4:16
+[Söz]
+48 | Re5:16=Ba- Re5:8.=ha- Re5:4=rın Mi5b2:16=gül- Re5:8.
+49 | Re5:8=şen Re5:8=ça- Mi5b2:16=ğın- Re5:8. Do5:4=da/
+50 | Re5:8=Ne Re5:8=ge- Mi5b2:16=zir- Re5:8. Do5:4=sen
+51 | Do5:8.=ba- Re5:16=ğı Do5:8.=bül- Si4b2:16 Do5:8.=bül/ Si4b2:16
+[Saz]
+52 | Do5:16 Re5:16 Do5:16 Re5:16 Do5:16 Si4b2:8. Do5:16 Si4b2:8.
+[Söz]
+53 | Mi5b2:8=O- Mi5b2:8=hu- Mi5b2:8=dun Re5:8 Re5:4=ağ-
+54 | Re5:8=lım Re5:8=a- Re5:16=par- Mi5b2:16 Re5:8 Do5:16=dın/ Re5:16 Do5:8
+55 | Re5:8=Ol- Re5:8=dun Mi5b2:16=men- Re5:8 Do5:16 Do5:16=den Re5:16 Do5:8
+56 | Do5:8.=ya- Re5:16=ğı Do5:8.=bül- Si4b2:16 Do5:8.=bül/ Si4b2:16
+[Saz]
+57 | Do5:16 Re5:16 Do5:16 Re5:16 Do5:16 Si4b2:8. Do5:16 Si4b2:8.
+[Söz]
+58 | Re5:8=Ol- Re5:8=dun Mi5b2:16=men- Re5:8 Do5:16 Do5:16=den Re5:16 Do5:8
+59 | Do5:8.=ya- Re5:16=ğı Mi5b2:16=bül- Re5:8 Do5:16 Do5:16=bül/ Re5:16 Do5:8
+60 | Do5:8.=ya- Re5:16=ğı Mi5b2:16=bül- Re5:8 Do5:16 Do5:16=bül/ Re5:16 Do5:8
+61 | Do5:8.=ya- Re5:16=ğı Do5:8.=bül- Re5:16 Do5:8.=bül/ Si4b2:16
+62 | Do5:16=ya- Re5:8.=ğı Do5:8.=bül- Re5:16 Do5:8.=bül/ Si4b2:16
+[Saz]
+63 | Si4b2:2.

@@ -1,0 +1,32 @@
+ad: Penceresi Yeşil Perde
+yore: Konya
+usul: 9/8
+usul-adi: Raksaksağı
+kalip: 2+2+2+3
+tempo: 87
+dizi: Gerdaniye
+karar: La
+duzen: bozuk
+zorluk: zor
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, gerdaniye--turku--raksaksagi--penceresi_yesil--konya
+---
+[Aranağme]
+1 | Es:4 Re5:8 Re5:8 Re5:16 Sol5:16 Sol5:16 Fa5#3:16 Mi5:16 Re5:16 Do5:8 Si4b2:8
+2 | La4:8. Sol4:16 Do5:16 Si4b2:16 Do5:16 Si4b2:16 Do5:16 Re5:16 (Do5)Si4b2:8. La4:16 La4:4
+3 | Es:4 Re5:4 Re5:8 Re5:16 Do5:16 Re5:16 Mi5:16 Do5:8 Si4b2:8
+4 | La4:8. Sol4:16 Do5:8. Si4b2:16 Do5:16 Re5:16 (Re5)Si4b2:8. La4:16 La4:4
+[Söz]
+5 | Re5:8=Pen-* Sol5:8 Sol5:8=ce-* Sol5:16 La5:16 Fa5#3:8 Sol5:4=re-* Sol5:4=si*
+6 | Re5:4=ye-* Mi5:8=şil* Fa5#3:8 Sol5:8 Sol5:8.=per-* Fa5#3:16 Sol5:8=de/* Es:8
+7 | Es:4 Re5:8=Pen-* Sol5:8 Sol5:8=ce-* Sol5:8=re-* Sol5:8=si* Sol5:4
+8 | La5:4=ye-* (Do6)Si5b2:16=şil* Do6:16 Si5b2:8 La5:8 Sol5:8=per-* Sol5:8=de/* Fa5#3:8 Mi5:8
+9 | Es:4 Re5:8.=Sen* Do5:16 Re5:8=uğ-* Re5:8=rat-* Re5:8=tın* Do5:8 Si4b2:8
+10 | La4:8.=be-* Sol4:16 (Re5)Do5:8=ni* Do5:16=be-* Si4b2:16 Do5:16=ni* Re5:16 Si4b2:8.=der-* La4:16 La4:4=de/*
+11 | Es:4 Re5:8.=Sen* Do5:16 Re5:8=uğ-* Re5:8=rat-* Re5:8=tın* Do5:8 Si4b2:8
+12 | La4:8.=be-* Sol4:16 (Re5)Do5:8=ni* Do5:16=be-* Si4b2:16 Do5:16=ni* Re5:16 Si4b2:8.=der-* La4:16 La4:4=de/*
+13 | Es:4 Re5:8=Ey-* Re5:8 Re5:16=me-* Sol5:16 Sol5:16=len-* Fa5#3:16 Mi5:16 Re5:16 Do5:8 Si4b2:8=di*
+14 | La4:8.=sür-* Sol4:16 Do5:16=me-* Si4b2:16 Do5:16 Si4b2:16 Do5:16 Re5:16 (Do5)Si4b2:8.=len-* La4:16 La4:4=di/*
+15 | Es:4 Re5:4=Göğ-* Re5:8=sü* Re5:16=çap-* Do5:16 Re5:16=raz* Mi5:16 Do5:8 Si4b2:8
+16 | La4:8. Sol4:16 Do5:8.=düğ-* Si4b2:16 Do5:16=me-* Re5:16 (Re5)Do5:8.=len-* Si4b2:16 La4:4=di/*

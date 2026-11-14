@@ -1,0 +1,81 @@
+ad: Kırcali'yle Arda Adası
+yore: Rumeli
+usul: 7/8
+usul-adi: Devr-i Hindi II
+tempo: 150
+dizi: Rast
+karar: Sol
+duzen: bozuk
+zorluk: zor
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, rast--rumeliturkusu--devrihindi_ii--kircaliyle_arda--rumeli
+---
+[Söz]
+1 | Si4b2:4.=Kır-* (Si4b2)Re5:2=ca-*
+2 | Re5:8=liy-* Mi5:8 Re5:8 Re5:8=le* Do5:8 Si4b2:4
+3 | (Si4b2)Re5:4.=Ar-* Do5:8=da'-* Si4b2:8 La4:4
+4 | Si4b2:4.=ra-* Si4b2:8=sı/* La4:8 Sol4:4
+5 | Si4b2:8=Sa-* Si4b2:4=at* Do5:8=se-* Re5:8 Re5:4=kiz*
+6 | Re5:8=sı-* Mi5:8 Re5:8 Re5:4=ra-* Re5:16 (Do5)Si4b2:16 Do5:8
+7 | Si4b2:7/8=sı/*
+8 | Si4b2:4.=Yu-* Si4b2:8=su-* La4:8 Sol4:4=fum*
+9 | Si4b2:8=sa-* Si4b2:4=at* Do5:8=se-* Re5:8 Re5:4=kiz*
+10 | Re5:8=sı-* Mi5:8 Re5:8 Re5:4=ra-* Re5:16 (Do5)Si4b2:16 Do5:8
+11 | Si4b2:7/8=sı/*
+[Saz]
+12 | Si4b2:4. Si4b2:4 Si4b2:4
+[Söz]
+13 | Si4b2:4.=Ar-* Re5:16=da-* Do5:16 Re5:8 Re5:8 Re5:8=lı-*
+14 | Re5:8=lar* Mi5:8 Re5:8 Re5:8=ağ-* Do5:8 Si4b2:4
+15 | (Do5)Re5:4.=lı-* Do5:8=yor/* Si4b2:8 La4:4=Yu-*
+16 | Si4b2:4.=su-* Si4b2:8=fum* La4:8 Sol4:4
+17 | (Si4b2)Do5:4.=yok-* Do5:8=tur* Si4b2:8 La4:4
+18 | Si4b2:4=ça-* La4:8 La4:16=re-* Sol4:16 La4:16 Si4b2:16 La4:4
+19 | Sol4:7/8=si/*
+[Saz]
+20 | Sol4:4. Sol4:4 Sol4:4
+[Söz]
+21 | Si4b2:4.=Ar-* Re5:16=da-* Do5:16 Re5:8 Re5:8 Re5:8=lı-*
+22 | Re5:8=lar* Mi5:8 Re5:8 Re5:8=ağ-* Do5:8 Si4b2:4
+23 | (Do5)Re5:4.=lı-* Do5:8=yor/* Si4b2:8 La4:4=Yu-*
+24 | Si4b2:4.=su-* Si4b2:8=fum* La4:8 Sol4:4
+25 | (Si4b2)Do5:4.=yok-* Do5:8=tur* Si4b2:8 La4:4
+26 | Si4b2:4=ça-* La4:8 La4:16=re-* Sol4:16 La4:16 Si4b2:16 La4:4
+27 | Sol4:7/8=si/*
+[Saz]
+28 | Sol4:4. Sol4:4 Sol4:4
+[Söz]
+29 | Si4b2:4.=A-* (Do5)Re5:4=man* Re5:4=bre*
+30 | Re5:8=der-* Mi5:8 Re5:8 Re5:8=ya-* Do5:8 Si4b2:4=lar/*
+31 | Do5:16=Kan-* Re5:8. Do5:8 (Re5)Do5:8=lı-* Si4b2:8 La4:4=ca*
+32 | Si4b2:4=der-* Si4b2:8 Si4b2:8=ya-* La4:8 Sol4:4=lar/*
+33 | Si4b2:4.=Biz* Re5:2=ni-*
+34 | Re5:8=şan-* Mi5:8 Re5:8 Re5:4=lı-* Re5:16 (Do5)Si4b2:16 Do5:8
+35 | Si4b2:7/8=yız/*
+36 | Si4b2:4=Der-* Si4b2:8 Si4b2:8=ya-* La4:8 Sol4:4=lar*
+37 | Si4b2:4.=biz* Re5:2=ni-*
+38 | Re5:8=şan-* Mi5:8 Re5:8 Re5:4=lı-* Re5:16 (Do5)Si4b2:16 Do5:8
+39 | Si4b2:7/8=yız/*
+[Saz]
+40 | Si4b2:4. Si4b2:4 Si4b2:4
+[Söz]
+41 | Si4b2:8=İ-* Do5:4 Re5:16=ki-* Do5:16 Re5:4.
+42 | Re5:8=miz* Mi5:8 Re5:8 Re5:8=de* Do5:8 Si4b2:4
+43 | Do5:16=bir* Re5:8. Do5:8 (Re5)Do5:8=boy-* Si4b2:8 La4:4
+44 | Si4b2:4=da-* Si4b2:8 Si4b2:8=yız/* La4:8 Sol4:4
+45 | Si4b2:8=Biz* Do5:4 Do5:8=de-* Si4b2:8 Si4b2:8=li-* La4:8
+46 | Si4b2:4=kan-* La4:8 La4:8.=lı-* Si4b2:16 La4:16 Si4b2:16 Sol4:8
+47 | Sol4:7/8=yız/*
+[Saz]
+48 | Sol4:4. Sol4:4 Sol4:4
+[Söz]
+49 | Si4b2:8=İ-* Do5:4 Re5:16=ki-* Do5:16 Re5:4.
+50 | Re5:8=miz* Mi5:8 Re5:8 Re5:8=de* Do5:8 Si4b2:4
+51 | Do5:16=bir* Re5:8. Do5:8 (Re5)Do5:8=boy-* Si4b2:8 La4:4
+52 | Si4b2:4=da-* Si4b2:8 Si4b2:8=yız/* La4:8 Sol4:4
+53 | Si4b2:8=Biz* Do5:4 Do5:8=de-* Si4b2:8 Si4b2:8=li-* La4:8
+54 | Si4b2:4=kan-* La4:8 La4:8.=lı-* Si4b2:16 La4:16 Si4b2:16 Sol4:8
+55 | Sol4:7/8=yız/*
+[Saz]
+56 | Sol4:4. Sol4:4 Sol4:4

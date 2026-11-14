@@ -1,0 +1,67 @@
+ad: Gine Gördüm Elif Kızın Yüzünü
+yore: Yozgat
+usul: 4/4
+usul-adi: Sofyan
+tempo: 96
+dizi: Tahir
+karar: La
+duzen: bozuk
+zorluk: zor
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, tahir--turku--sofyan--gine_gordum--yozgat
+---
+[Aranağme]
+1 | La5:8 Fa5#3:16 Sol5:16 La5:8 La5:16 La5:16 La5:8 La5:16 La5:16 La5:8 La5:16 La5:16
+2 | Sol5:8 Fa5#3:16 Sol5:16 La5:8 La5:16 La5:16 Sol5:8 Fa5#3:16 Sol5:16 Mi5:8 Re5:8
+3 | Re5:16 Do5:16 Re5:16 Mi5:16 Re5:8 Do5:8 Re5:4 Mi5:4
+4 | Do5:16 Si4b2:16 Do5:16 Re5:16 Do5:8 Si4b2:8 Do5:4 Re5:4
+5 | Do5:16 Si4b2:16 Do5:16 Re5:16 Do5:8 Si4b2:8 Si4b2:8 La4:4 Do5:8
+6 | Si4b2:16 La4:8. La4:4 La4:2
+7 | La5:8. La5:16 La5:16 Si5b2:16 Do6:16 Si5b2:16 La5:8. La5:16 La5:16 La5:16 La5:8
+[Söz]
+8 | La5:8 La5:16 La5:16 La5:16 La5:16 La5:8 La5:16=Gi- Do6:16=ne Do6:16 Si5b2:16 Do6:16=gör- Si5b2:16 Si5b2:16=düm La5:16
+9 | La5:2 La5:2
+10 | Sol5:8=E- La5:16=lif Sol5:16 La5:8 La5:8=de Sol5:8=kı- Fa5#3:16=zın Sol5:16 Mi5:8 Re5:8
+11 | Es:8 Fa5#3:16=yü- Sol5:16 La5:16=zü- Sol5:16 La5:8 Sol5:8=nü Fa5#3:16 Sol5:16 Mi5:8=de Re5:8
+12 | Mi5:8=yü- Fa5#3:16=zü- Mi5:16 Mi5:16=nü Re5:16=a- Re5:16 Do5#:16 Re5:2=man/
+[Saz]
+13 | Fa5:16 Mi5:16 Re5:16 Mi5:16 Re5:16 Mi5:16 Re5:16 Mi5:16 Re5:8. Re5:16 Re5:8 Re5:8
+14 | Fa5:16 Mi5:16 Re5:16 Mi5:16 Re5:16 Mi5:16 Re5:16 Mi5:16 Re5:8. Re5:16 Re5:8 Re5:8
+[Söz]
+15 | La5:8 Fa5#3:16=Du- Sol5:16=man La5:8 La5:8=da La5:8=san- La5:8=dım La5:4
+16 | La5:8 Fa5#3:16=şal- Sol5:16 La5:8 La5:8=va- La5:16=rı- Sol5:16 Fa5#3:16=nın Sol5:16 Mi5:8 Re5:8
+17 | Re5:8=to- Re5:16=zu- Mi5:16 Re5:8 Do5:8=nu Re5:4=vay Mi5:4=vay/
+18 | Do5:16=E- Si4b2:16=li- Do5:16 Re5:16 Do5:8 Si4b2:8=fim Do5:4=gel Re5:4=gel
+19 | Do5:16=naz- Si4b2:16 Do5:16 Si4b2:16 Do5:8=lı Si4b2:8=da Si4b2:8=yâ- La4:8=rim La4:8 Do5:8
+20 | Si4b2:8=sal- La4:4=lan La4:8=da La4:4=gel/ Re5:16 Do5:16 Si4b2:16 Do5:16
+21 | La5:8 Fa5#3:16=Du- Sol5:16=man La5:8 La5:8=da La5:8=san- La5:8=dım La5:4
+22 | La5:8 Fa5#3:16=şal- Sol5:16 La5:8 La5:8=va- La5:16=rı- Sol5:16 Fa5#3:16=nın Sol5:16 Mi5:8 Re5:8
+23 | Re5:8=to- Re5:16=zu- Mi5:16 Re5:8 Do5:8=nu Re5:4=vay Mi5:4=vay/
+24 | Do5:16=E- Si4b2:16=li- Do5:16 Re5:16 Do5:8 Si4b2:8=fim Do5:4=gel Re5:4=gel
+25 | Do5:16=naz- Si4b2:16 Do5:16 Si4b2:16 Do5:8=lı Si4b2:8=da Si4b2:8=yâ- La4:8=rim La4:8 Do5:8
+26 | Si4b2:8=sal- La4:4=lan La4:8=da La4:4=gel/ Re5:16 Do5:16 Si4b2:16 Do5:16
+[Aranağme]
+27 | La5:8 Fa5#3:16 Sol5:16 La5:8 La5:16 La5:16 La5:8 La5:16 La5:16 La5:8 La5:16 La5:16
+28 | Sol5:8 Fa5#3:16 Sol5:16 La5:8 La5:16 La5:16 Sol5:8 Fa5#3:16 Sol5:16 Mi5:8 Re5:8
+29 | Re5:16 Do5:16 Re5:16 Mi5:16 Re5:8 Do5:8 Re5:4 Mi5:4
+30 | Do5:16 Si4b2:16 Do5:16 Re5:16 Do5:8 Si4b2:8 Do5:4 Re5:4
+31 | Do5:16 Si4b2:16 Do5:16 Re5:16 Do5:8 Si4b2:8 Si4b2:8 La4:4 Do5:8
+32 | Si4b2:16 La4:8. La4:4 La4:2
+33 | La5:8. La5:16 La5:16 Si5b2:16 Do6:16 Si5b2:16 La5:8. La5:16 La5:16 La5:16 La5:8
+[Söz]
+34 | La5:8 La5:16 La5:16 La5:16 La5:16 La5:8 La5:16=Gi- Do6:16=ne Do6:16 Si5b2:16 Do6:16=gör- Si5b2:16 Si5b2:16=düm La5:16
+35 | La5:2 La5:2
+36 | Sol5:8=E- La5:16=lif Sol5:16 La5:8 La5:8=de Sol5:8=kı- Fa5#3:16=zın Sol5:16 Mi5:8 Re5:8
+37 | Es:8 Fa5#3:16=yü- Sol5:16 La5:16=zü- Sol5:16 La5:8 Sol5:8=nü Fa5#3:16 Sol5:16 Mi5:8=de Re5:8
+38 | Mi5:8=yü- Fa5#3:16=zü- Mi5:16 Mi5:16=nü Re5:16=a- Re5:16 Do5#:16 Re5:2=man/
+[Saz]
+39 | Fa5:16 Mi5:16 Re5:16 Mi5:16 Re5:16 Mi5:16 Re5:16 Mi5:16 Re5:8. Re5:16 Re5:8 Re5:8
+40 | Fa5:16 Mi5:16 Re5:16 Mi5:16 Re5:16 Mi5:16 Re5:16 Mi5:16 Re5:8. Re5:16 Re5:8 Re5:8
+[Söz]
+41 | La5:8 Fa5#3:16=Du- Sol5:16=man La5:8 La5:8=da La5:8=san- La5:8=dım La5:4
+42 | La5:8 Fa5#3:16=şal- Sol5:16 La5:8 La5:8=va- La5:16=rı- Sol5:16 Fa5#3:16=nın Sol5:16 Mi5:8 Re5:8
+43 | Re5:8=to- Re5:16=zu- Mi5:16 Re5:8 Do5:8=nu Re5:4=vay Mi5:4=vay/
+44 | Do5:16=E- Si4b2:16=li- Do5:16 Re5:16 Do5:8 Si4b2:8=fim Do5:4=gel Re5:4=gel
+45 | Do5:16=naz- Si4b2:16 Do5:16 Si4b2:16 Do5:8=lı Si4b2:8=da Si4b2:8=yâ- La4:8=rim La4:8 Do5:8
+46 | Si4b2:8=sal- La4:4=lan La4:8=da La4:4=gel/ Es:4

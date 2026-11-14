@@ -1,0 +1,44 @@
+ad: Mektebin Bacaları
+yore: Muş
+usul: 4/4
+usul-adi: Sofyan
+tempo: 81
+dizi: Hicaz
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, hicaz--turku--sofyan--mektebin_bacalari--mus
+---
+[Aranağme]
+1 | Re5:4 Do5#3:8 Re5:8 Re5:4 Re5:4
+2 | Do5#3:4 Re5:16 Mi5:16 Re5:8 (Mi5)Re5:4. Es:8
+3 | Do5#3:4 Re5:8 Re5:8 Re5:8 (Mi5)Re5:16 Do5#3:16 Do5#3:16 Re5:16 Do5#3:16 Si4b:16
+4 | Si4b:4 Do5#3:8 Do5#3:8 Do5#3:8 (Re5)Do5#3:16 Si4b:16 Si4b:16 Do5#3:16 Si4b:16 La4:16
+5 | La4:4 Si4b:16 Do5#3:16 Si4b:16 La4:16 (Si4b)La4:4. Es:8
+6 | Do5#3:8 Re5:8 Re5:16 Mi5:16 Do5#3:16 Re5:16 Do5#3:8 Si4b:16 Do5#3:16 Si4b:8 La4:8
+7 | Do5#3:16 Mi5:16 Re5:4 Do5#3:16 Re5:16 Do5#3:8 Si4b:16 Do5#3:16 Si4b:8 La4:8
+8 | Si4b:8 Do5#3:4 Si4b:16 Do5#3:16 Si4b:16 La4:16 Si4b:16 Do5#3:16 Si4b:8 La4:8
+9 | La4:16 Si4b:16 Do5#3:16 Re5:16 Do5#3:16 Si4b:16 La4:16 Si4b:16 La4:4 Sol4:16 La4:16 Si4b:16 Do5#3:16
+[Aranağme]
+10 | Re5:4 Do5#3:8 Re5:8 Re5:4 Re5:4
+11 | Do5#3:4 Re5:16 Mi5:16 Re5:8 (Mi5)Re5:4. Es:8
+12 | Do5#3:4 Re5:8 Re5:8 Re5:8 (Mi5)Re5:16 Do5#3:16 Do5#3:16 Re5:16 Do5#3:16 Si4b:16
+13 | Si4b:4 Do5#3:8 Do5#3:8 Do5#3:8 (Re5)Do5#3:16 Si4b:16 Si4b:16 Do5#3:16 Si4b:16 La4:16
+14 | La4:4 Si4b:16 Do5#3:16 Si4b:16 La4:16 (Si4b)La4:4. Es:8
+15 | Do5#3:8 Re5:8 Re5:16 Mi5:16 Do5#3:16 Re5:16 Do5#3:8 Si4b:16 Do5#3:16 Si4b:8 La4:8
+16 | Do5#3:16 Mi5:16 Re5:4 Do5#3:16 Re5:16 Do5#3:8 Si4b:16 Do5#3:16 Si4b:8 La4:8
+17 | Si4b:8 Do5#3:4 Si4b:16 Do5#3:16 Si4b:16 La4:16 Si4b:16 Do5#3:16 Si4b:8 La4:8
+18 | La4:16 Si4b:16 Do5#3:16 Re5:16 Do5#3:16 Si4b:16 La4:16 Si4b:16 La4:4 Sol4:16 La4:16 Si4b:16 Do5#3:16
+[Söz]
+19 | Re5:8 Es:8 Do5#3:8=Mek-* Re5:8=te-* Re5:4=bin* Re5:4=ba-*
+20 | Do5#3:4=ca-* Re5:16=la-* Mi5:16 Re5:8 (Mi5)Re5:4.=rı/* Es:8
+21 | Do5#3:4=Vay* Re5:8=le* Re5:8=le* Re5:8=le* (Mi5)Re5:16=le* Do5#3:16 Do5#3:16=le* Re5:16 Do5#3:16=le/* Si4b:16
+22 | (Do5#3)Si4b:4=Vay* Do5#3:8=le* Do5#3:8=le* Do5#3:8=le* (Re5)Do5#3:16=le* Si4b:16 Si4b:16=le* Do5#3:16 Si4b:16=le/* La4:16
+23 | La4:4=Vay* Si4b:8=le* (Do5#3)Si4b:16=le* La4:16 (Si4b)La4:4.=vay/* Es:8
+24 | Do5#3:8=Ders* Re5:16 Mi5:16 Re5:8=ve-* Do5#3:16 Re5:16 Do5#3:8=rir* Si4b:16 Do5#3:16 Si4b:8=ho-* La4:8
+25 | Do5#3:16=ca-* Mi5:16 Re5:4=la-* Do5#3:16 Re5:16 Do5#3:8=rı/* Si4b:16 Do5#3:16 Si4b:8 La4:8
+26 | Si4b:8=Uy* Do5#3:4=am-* Si4b:16 Do5#3:16 Si4b:16=man* La4:16 Si4b:16 Do5#3:16 Si4b:8 La4:8
+27 | La4:16=can Si4b:16 Do5#3:16 Re5:16 Do5#3:16=kur- Si4b:16 La4:16 Si4b:16 La4:8=ban/ Es:8 Sol4:16 La4:16 Si4b:16 Do5#3:16
+27 @2 | La4:16=can Si4b:16 Do5#3:16 Re5:16 Do5#3:16=kur- Si4b:16 La4:16 Si4b:16 La4:8=ban/ Es:8 Es:4

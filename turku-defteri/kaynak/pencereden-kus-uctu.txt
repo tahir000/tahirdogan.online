@@ -1,0 +1,40 @@
+ad: Pencereden Kuş Uçtu
+yore: 
+usul: 2/4
+usul-adi: Nimsofyan
+tempo: 66
+dizi: Hicaz
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, hicaz--turku--nimsofyan--pencereden_kus--
+---
+[Aranağme]
+1 | Mi5:16 Fa5:8 Fa5:16 Fa5:16 Mi5:16 Re5:24 Do5#:24 Re5:24
+2 | Mi5:8 Mi5:16 Re5:16 Re5:16. Do5#:32 Si4b:24 La4:24 Si4b:24
+3 | Do5#:16 Re5:8 Re5:16 Re5:16. Do5#:32 Si4b:16 Do5#:16
+4 | Si4b:16 La4:16 La4:8 La4:32 Si4b:32 Do5#:32 Re5:32 Mi5:32 Sol5:32 Fa5:16
+[Aranağme]
+5 | Mi5:16 Fa5:8 Fa5:16 Fa5:16 Mi5:16 Re5:24 Do5#:24 Re5:24
+6 | Mi5:8 Mi5:16 Re5:16 Re5:16. Do5#:32 Si4b:24 La4:24 Si4b:24
+7 | Do5#:16 Re5:8 Re5:16 Re5:16. Do5#:32 Si4b:16 Do5#:16
+8 | Si4b:16 La4:16 La4:8 La4:32 Si4b:32 Do5#:32 Re5:32 Mi5:8
+[Söz]
+9 | La4:8 Do5#:16=Pen- Re5:16=ce- Mi5:16=re- Mi5:8.=den
+10 | Mi5:16=kuş Mi5:8.=uç- Fa5:16.=tu/ Mi5:32 Re5:8
+11 | Do5#:16=Yan- Re5:16 Mi5:16=dı Re5:16 Mi5:16=yü- Re5:16=rek Re5:16 Mi5:16
+12 | Re5:16=tu- Do5#:16=tuş- Do5#:16 Re5:16 Do5#:8=tu/ Do5#:32 Si4b:32 La4:32 Si4b:32
+13 | La4:8 Do5#:16=Pen- Re5:16=ce- Mi5:16=re- Mi5:8.=den
+14 | Mi5:16=kuş Mi5:8.=uç- Fa5:16.=tu/ Mi5:32 Re5:8
+15 | Do5#:16=Yan- Re5:16 Mi5:16=dı Re5:16 Mi5:16=yü- Re5:16=rek Re5:16 Mi5:16
+16 | Re5:16=tu- Do5#:16=tuş- Do5#:16 Re5:16 Do5#:8=tu/ Fa5:16 (Mi5)Fa5:16
+17 | Mi5:16=Bi- Fa5:8=zim Fa5:16=de Fa5:16.=böy- Mi5:32 Re5:8=le
+18 | Es:16 Mi5:8=ol- Re5:16=ma- Re5:16.=mı- Do5#:32 Si4b:24=za/ La4:24 Si4b:24
+19 | Es:16 Re5:8=Kom- Re5:16=şu- Re5:16=lar Do5#:16 Si4b:16 Do5#:16=se-
+20 | Si4b:16=bep La4:8.=ol- Fa5:16.=du/ Mi5:32 Fa5:8
+21 | Mi5:16=Bi- Fa5:8=zim Fa5:16=de Fa5:16.=böy- Mi5:32 Re5:8=le
+22 | Es:16 Mi5:8=ol- Re5:16=ma- Re5:16.=mı- Do5#:32 Si4b:24=za/ La4:24 Si4b:24
+23 | Es:16 Re5:8=Kom- Re5:16=şu- Re5:16=lar Do5#:16 Si4b:16 Do5#:16=se-
+24 | Si4b:16=bep La4:8.=ol- La4:4=du/

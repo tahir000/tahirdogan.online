@@ -1,0 +1,30 @@
+ad: Bir Ataş Ver Cıgaramı Yakayım
+yore: 
+usul: 10/4
+usul-adi: Ağır Aksaksemai
+tempo: 54
+dizi: Nihavent
+karar: Sol
+duzen: bozuk
+zorluk: zor
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, nihavent--turku--agir_aksaksemai--bir_ates_ver--
+---
+[Aranağme]
+1 | Re5:8 Re5:16 Fa5:16 Mi5b:8 Re5:8 La4:16 Si4b:16 Sol4:8 Re5:16 Re5:8. Mi5b:16. Re5:32 Do5:8 Si4b:16 La4:16 Re5:8 Re5:16. Do5:32 Si4b:16 La4:16 Si4b:16. La4:32 Sol4:16 Fa4#:16 Sol4:8. La4:16 Si4b:16 Sol4:16 Re5:8
+[Söz]
+2 | Re5:8=Ah Re5:16=bir Fa5:16=a- (La4)Mi5b:8=taş Re5:8 La4:16=ver Si4b:16 Sol4:8 Re5:16=cı- Re5:8.=ga- Mi5b:16=ra- Re5:16 Do5:8 Si4b:32=mı La4:32 Si4b:16 Re5:8 Re5:16.=ya- Do5:32 Si4b:16 La4:16 Si4b:16 La4:16 Sol4:16=ka- Fa4#:16 Sol4:8.=yım/ La4:16 Si4b:16 Sol4:16 Re5:8
+3 | Re5:8=Sen Re5:16=sal- Fa5:16 (La4)Mi5b:8=lan Re5:8 La4:16=gel Si4b:16 Sol4:8 Re5:16=ben Re5:8.=bo- Mi5b:16=yu- Re5:16 Do5:8 Si4b:32=na La4:32 Si4b:16 Re5:8 Re5:16.=ba- Do5:32 Si4b:16 La4:16 Si4b:16 La4:16 Sol4:16=ka- Fa4#:16 Sol4:8.=yım/ La4:16 Si4b:16 Sol4:16 Re5:8
+4 | Fa5#:16=U- Fa5#:8.=zun Sol5:16.=o- Fa5#:32 Mi5b:16 Re5:16 Re5:4=lur Fa5#:8=ge- Fa5#:8=mi- Sol5:16.=le- Fa5#:32 Mi5b:16 Re5:16 Re5:4=rin Sol5:16.=di- Fa5#:32 Mi5b:16 Re5:16 Sol5:16. Fa5#:32 Mi5b:16=re- Re5:16 Re5:8.=ği/ La4:16 Si4b:16 Sol4:16 Re5:8
+5 | Fa5#:16=U- Fa5#:8.=zun Sol5:16.=o- Fa5#:32 Mi5b:16 Re5:16 Re5:4=lur Fa5#:8=ge- Fa5#:8=mi- Sol5:16.=le- Fa5#:32 Mi5b:16 Re5:16 Re5:4=rin Sol5:16.=di- Fa5#:32 Mi5b:16 Re5:16 Sol5:16. Fa5#:32 Mi5b:16=re- Re5:16 Re5:8.=ği/ La4:16 Si4b:16 Sol4:16 Re5:8
+6 | Re5:8=Ah Re5:16=ça- Fa5:16=tal Mi5b:8=o- Re5:8 La4:16=lur Si4b:16 Sol4:8 Re5:16=e- Re5:8.=fe- Mi5b:16.=le- Re5:32 Do5:8 Si4b:16=rin La4:16 Re5:8 Re5:16.=yü- Do5:32 Si4b:16 La4:16 Si4b:16. La4:32 Sol4:16=re- Fa4#:16 Sol4:8.=ği/ La4:16 Si4b:16 Sol4:16 Re5:8
+7 | Re5:8=Ah Re5:16=ça- Fa5:16=tal Mi5b:8=o- Re5:8 La4:16=lur Si4b:16 Sol4:8 Re5:16=e- Re5:8.=fe- Mi5b:16.=le- Re5:32 Do5:8 Si4b:16=rin La4:16 Re5:8 Re5:16.=yü- Do5:32 Si4b:16 La4:16 Si4b:16. La4:32 Sol4:16=re- Fa4#:16 Sol4:8.=ği/ La4:16 Si4b:16 Sol4:16 Re5:8
+[Aranağme]
+8 | Re5:8 Re5:16 Fa5:16 Mi5b:8 Re5:8 La4:16 Si4b:16 Sol4:8 Re5:16 Re5:8. Mi5b:16. Re5:32 Do5:8 Si4b:16 La4:16 Re5:8 Re5:16. Do5:32 Si4b:16 La4:16 Si4b:16. La4:32 Sol4:16 Fa4#:16 Sol4:8. La4:16 Si4b:16 Sol4:16 Re5:8
+[Söz]
+9 | Re5:8=Ah Re5:16=bir Fa5:16=a- (La4)Mi5b:8=taş Re5:8 La4:16=ver Si4b:16 Sol4:8 Re5:16=cı- Re5:8.=ga- Mi5b:16=ra- Re5:16 Do5:8 Si4b:32=mı La4:32 Si4b:16 Re5:8 Re5:16.=ya- Do5:32 Si4b:16 La4:16 Si4b:16 La4:16 Sol4:16=ka- Fa4#:16 Sol4:8.=yım/ La4:16 Si4b:16 Sol4:16 Re5:8
+10 | Re5:8=Sen Re5:16=sal- Fa5:16 (La4)Mi5b:8=lan Re5:8 La4:16=gel Si4b:16 Sol4:8 Re5:16=ben Re5:8.=bo- Mi5b:16=yu- Re5:16 Do5:8 Si4b:32=na La4:32 Si4b:16 Re5:8 Re5:16.=ba- Do5:32 Si4b:16 La4:16 Si4b:16 La4:16 Sol4:16=ka- Fa4#:16 Sol4:8.=yım/ La4:16 Si4b:16 Sol4:16 Re5:8
+11 | Fa5#:16=U- Fa5#:8.=zun Sol5:16.=o- Fa5#:32 Mi5b:16 Re5:16 Re5:4=lur Fa5#:8=ge- Fa5#:8=mi- Sol5:16.=le- Fa5#:32 Mi5b:16 Re5:16 Re5:4=rin Sol5:16.=di- Fa5#:32 Mi5b:16 Re5:16 Sol5:16. Fa5#:32 Mi5b:16=re- Re5:16 Re5:8.=ği/ La4:16 Si4b:16 Sol4:16 Re5:8
+12 | Fa5#:16=U- Fa5#:8.=zun Sol5:16.=o- Fa5#:32 Mi5b:16 Re5:16 Re5:4=lur Fa5#:8=ge- Fa5#:8=mi- Sol5:16.=le- Fa5#:32 Mi5b:16 Re5:16 Re5:4=rin Sol5:16.=di- Fa5#:32 Mi5b:16 Re5:16 Sol5:16. Fa5#:32 Mi5b:16=re- Re5:16 Re5:8.=ği/ La4:16 Si4b:16 Sol4:16 Re5:8
+13 | Re5:8=Ah Re5:16=ça- Fa5:16=tal Mi5b:8=o- Re5:8 La4:16=lur Si4b:16 Sol4:8 Re5:16=e- Re5:8.=fe- Mi5b:16.=le- Re5:32 Do5:8 Si4b:16=rin La4:16 Re5:8 Re5:16.=yü- Do5:32 Si4b:16 La4:16 Si4b:16. La4:32 Sol4:16=re- Fa4#:16 Sol4:8.=ği/ Es:5/16

@@ -1,0 +1,41 @@
+ad: Şu Kışlanın Kapısına
+yore: Adana
+usul: 8/8
+usul-adi: Müsemmen
+kalip: 3+2+3
+tempo: 99
+dizi: Uşşak
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, ussak--turku--musemmen--su_kislanin--adana
+---
+[Aranağme]
+1 | Do5:4 Re5:8 Re5:4 Re5:4 Do5:8
+2 | Re5:4 Mi5:8 Re5:16 Do5:16 Re5:8 Do5:4 Si4b2:8
+3 | Do5:4 Re5:8 Do5:16 Si4b2:16 Do5:8 Si4b2:4 La4:8
+4 | Si4b2:4 Do5:8 Si4b2:8 La4:8 La4:4.
+[Aranağme]
+5 | Do5:4 Re5:8 Re5:4 Re5:4 Do5:8
+6 | Re5:4 Mi5:8 Re5:16 Do5:16 Re5:8 Do5:4 Si4b2:8
+7 | Do5:4 Re5:8 Do5:16 Si4b2:16 Do5:8 Si4b2:4 La4:8
+8 | Si4b2:4 Do5:8 Si4b2:8 La4:8 La4:4.
+[Söz]
+9 | La4:8=Şu* La4:8=kış-* Mi5:8 Mi5:4=la-* Mi5:4.=nın*
+10 | Mi5:8=ka-* Fa5:8 Sol5:8=pı-* Fa5:16=sı-* Sol5:16 Mi5:8 Fa5:8=na/* Mi5:8 Re5:8
+11 | Mi5:4=Ma-* Fa5:8=il* Mi5:8=ol-* Re5:8 Re5:16=dum* Mi5:16 Do5:4
+12 | Re5:4=ya-* Mi5:8=pı-* Re5:16=sı-* Do5:16 Re5:8 Do5:4.=na/*
+13 | Re5:4=Tel-* Re5:8=li* Re5:4=kur-* Re5:16=ban* Mi5:16 Do5:8 Es:8
+14 | Re5:4=bağ-* Mi5:8=la-* Re5:16=ya-* Do5:16 Re5:8 Do5:4=yım/* Si4b2:8
+15 | Do5:4=Naz-* Re5:8=lı* Do5:16=yâ-* Si4b2:16 Do5:8 Si4b2:4=rin* La4:8
+16 | Si4b2:4=ka-* Do5:8=pı-* Si4b2:8=sı-* La4:8 La4:4.=na/*
+17 | Re5:8=Yü-* Re5:4=ce* Re5:4=dağ-* Re5:16=lar* Mi5:16 Do5:8 Es:8
+18 | Re5:4=ol-* Mi5:8=ma-* Re5:16=say-* Do5:16 Re5:8 Do5:4=dı/* Si4b2:8
+19 | Do5:4=Lâ-* Re5:8=le-* Do5:16=le-* Si4b2:16 Do5:8 Si4b2:4=ri* La4:8
+20 | Si4b2:4=sol-* Do5:8=ma-* Si4b2:8=say-* La4:8 La4:4.=dı/*
+21 | Re5:8=Ö-* Re5:4=lüm* Re5:4=Al-* Re5:16=la-* Mi5:16 Do5:8 Es:8
+22 | Re5:8=hın* Mi5:4=em-* Re5:16=riy-* Do5:16 Re5:8 Do5:4=se/* Si4b2:8
+23 | Do5:8=Şu* Re5:4=ay-* Do5:16=rı-* Si4b2:16 Do5:8 Si4b2:4=lık* La4:8
+24 | Si4b2:4=ol-* Do5:8=ma-* Si4b2:8=say-* La4:8 La4:4.=dı/*

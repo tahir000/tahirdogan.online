@@ -1,0 +1,51 @@
+ad: Bursa'nın Ufak Tefek Taşları
+yore: Bursa
+usul: 9/8
+usul-adi: Aksak
+kalip: 2+2+2+3
+tempo: 90
+dizi: Hüseyni
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, huseyni--turku--aksak--bursanin_ufak--bursa
+---
+[Aranağme]
+1 | Re5:4 Do5:8 Re5:8 Mi5:8 La5:8 Mi5:4 Re5:8
+[Aranağme]
+2 | Re5:4 Do5:8 Re5:8 Mi5:8 La5:8 Mi5:4 Re5:8
+[Aranağme]
+3 | Re5:4 Do5:8 Re5:8 Mi5:8 La5:8 Mi5:4 Re5:8
+[Aranağme]
+4 | Re5:4 Do5:8 Re5:8 Mi5:8 La5:8 Mi5:4 Re5:8
+5 | Mi5:8 Re5:8 Mi5:8 Do5:8 Re5:4 Re5:4.
+6 | Do5:8 Re5:8 Re5:8 Re5:8 Re5:8 Mi5:8 Do5:4 Si4b2:8
+7 | Do5:8 Re5:8 Re5:8 Re5:8 Re5:8 Mi5:8 Do5:4 Si4b2:8
+8 | Do5:8 Do5:8 Do5:8 Si4b2:8 Do5:8 Re5:8 Si4b2:4 La4:8
+9 | La4:1 Es:8
+[Söz]
+10 | Re5:4=Bur-* Do5:8=sa-* Re5:8 Mi5:8=nın* Re5:8 Mi5:4.
+11 | Mi5:8=u-* Mi5:8=fak* Mi5:8=te-* Fa5#3:8=fek* Sol5:8=taş-* Fa5:8 Mi5:4=la-* Re5:8=rı/*
+12 | Re5:4=Bur-* Do5:8=sa-* Re5:8 Mi5:8=nın* Re5:8 Mi5:4.
+13 | Mi5:8=u-* Mi5:8=fak* Mi5:8=te-* Fa5#3:8=fek* Sol5:8=taş-* Fa5:8 Mi5:4=la-* Re5:8=rı/*
+14 | Re5:8=Ke-* Re5:8=man* Do5:8=ol-* Si4b2:8 La4:4=muş* Si4b2:4.
+15 | Do5:8=o* Do5:8=yâ-* Do5:8=ri-* Do5:8=min* Si4b2:8=saç-* Do5:8 Re5:4=la-* Mi5:8=rı/*
+16 | Re5:8=Ke-* Re5:8=man* Do5:8=ol-* Si4b2:8 La4:4=muş* Si4b2:4.
+17 | Do5:8=o* Do5:8=yâ-* Do5:8=ri-* Do5:8=min* Si4b2:8=saç-* Do5:8 Re5:8=la-* Si4b2:8 La4:8
+18 | La4:1=rı/* Es:8
+19 | Re5:8=Bir* Re5:8=o-* Do5:8=muz-* Re5:8 Mi5:8=dan* Re5:8 Mi5:4.
+20 | Mi5:8=bir* Mi5:8=o-* Mi5:8=mu-* Fa5#3:8=za* Sol5:8=saç-* Fa5:8 Mi5:4=la-* Re5:8=rı/*
+21 | Re5:8=Bir* Re5:8=o-* Do5:8=muz-* Re5:8 Mi5:8=dan* Re5:8 Mi5:4.
+22 | Mi5:8=bir* Mi5:8=o-* Mi5:8=mu-* Fa5#3:8=za* Sol5:8=saç-* Fa5:8 Mi5:4=la-* Re5:8=rı/*
+23 | Re5:4=A* Do5:8=be-* Si4b2:8 La4:4=nim* Si4b2:4.
+24 | Do5:4=es-* Do5:4=mer* Si4b2:8=gü-* Do5:8 Re5:4=ze-* Mi5:8=lim/*
+25 | Re5:4=Yâ-* Do5:8=rim-* Si4b2:8 La4:4=le* Si4b2:4.
+26 | Do5:4=kol-* Do5:8=ko-* Do5:8=la* Si4b2:8=ge-* Do5:8 Re5:8=ze-* Si4b2:8 La4:8
+27 | La4:1=lim/* Es:8
+28 | Re5:4=A* Do5:8=be-* Si4b2:8 La4:4=nim* Si4b2:4.
+29 | Do5:4=es-* Do5:4=mer* Si4b2:8=gü-* Do5:8 Re5:4=ze-* Mi5:8=lim/*
+30 | Re5:4=Yâ-* Do5:8=rim-* Si4b2:8 La4:4=le* Si4b2:4.
+31 | Do5:4=kol-* Do5:8=ko-* Do5:8=la* Si4b2:8=ge-* Do5:8 Re5:8=ze-* Si4b2:8 La4:8
+32 | La4:1=lim/* Es:8

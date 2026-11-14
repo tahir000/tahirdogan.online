@@ -1,0 +1,62 @@
+ad: Çıkayım Gideyim Urumeline
+yore: 
+usul: 4/4
+usul-adi: Sofyan
+tempo: 72
+dizi: Hüseyni
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, huseyni--turku--sofyan--cikayim_gideyim--
+---
+[Aranağme]
+1 | Es:4 Sol5:8 Sol5:8 Sol5:4 La5:4
+2 | Sol5:8 Fa5:8 Mi5:8 Re5:8 Do5:4 Re5:4
+3 | Es:8 Do5:4 La4:8 Si4b2:16 La4:16 Si4b2:16 Re5:16 Do5:16 Si4b2:16 Si4b2:16 La4:16
+4 | La4:4 Re5:8 (Mi5)Re5:16 Do5:16 Si4b2:8 (Do5)Si4b2:16 La4:16 Sol4:4
+5 | Es:8 Do5:4 La4:8 Si4b2:16 La4:16 Si4b2:16 Re5:16 Do5:16 Si4b2:16 Si4b2:16 La4:16
+6 | La4:4. Mi5:16 Fa5:16 Mi5:16 Re5:16 Do5:16 Si4b2:16 La4:4
+[Aranağme]
+7 | Es:4 Sol5:8 Sol5:8 Sol5:4 La5:4
+8 | Sol5:8 Fa5:8 Mi5:8 Re5:8 Do5:4 Re5:4
+9 | Es:8 Do5:4 La4:8 Si4b2:16 La4:16 Si4b2:16 Re5:16 Do5:16 Si4b2:16 Si4b2:16 La4:16
+10 | La4:4 Re5:8 (Mi5)Re5:16 Do5:16 Si4b2:8 (Do5)Si4b2:16 La4:16 Sol4:4
+11 | Es:8 Do5:4 La4:8 Si4b2:16 La4:16 Si4b2:16 Re5:16 Do5:16 Si4b2:16 Si4b2:16 La4:16
+12 | La4:4. Mi5:16 Fa5:16 Mi5:16 Re5:16 Do5:16 Re5:16 Mi5:4
+[Söz]
+13 | Es:4 Do5:8=Çı- Re5:8=ka- Mi5:4=yım Mi5:8=gi- Re5:8
+14 | Mi5:8=de- Fa5#:8 Sol5:8 La5:8 Sol5:8=yim Fa5:8 Mi5:8 Re5:8
+15 | Do5:4=U- Re5:4=rum Do5:4=e- La5:4=li-
+16 | Sol5:8=ne Fa5:8 Mi5:8 Re5:8=a- Do5:8.=man Si4b2:16 La4:8 Si4b2:8=a-
+17 | Do5:1=man/
+18 | Es:4 Sol5:8=Ar- Sol5:8=zu- Sol5:4=hal La5:4=ve-
+19 | Sol5:8=re- Fa5:8 Mi5:8=yim Re5:8 Do5:8=Meh- Do5:8 Re5:4=met
+20 | Es:8 Do5:4=bey- La4:8=ler- Si4b2:16=be- La4:16 Si4b2:16 Re5:16 Do5:16=yi- Si4b2:16 Si4b2:16 La4:16
+21 | La4:4=ne/ Re5:8=A- (Mi5)Re5:16=man Do5:16 Si4b2:8=a- (Do5)Si4b2:16 La4:16 Sol4:4=man
+22 | Es:8 Do5:4=bey- La4:8=ler- Si4b2:16=be- La4:16 Si4b2:16 Re5:16 Do5:16=yi- Si4b2:16 Si4b2:16 La4:16
+23 | La4:4.=ne/ Mi5:16 Fa5:16 Mi5:16 Re5:16 Do5:16 Re5:16 Mi5:4
+24 | Es:4 Sol5:8=Ar- Sol5:8=zu- Sol5:4=hal La5:4=ve-
+25 | Sol5:8=re- Fa5:8 Mi5:8=yim Re5:8 Do5:8=Meh- Do5:8 Re5:4=met
+26 | Es:8 Do5:4=bey- La4:8=ler- Si4b2:16=be- La4:16 Si4b2:16 Re5:16 Do5:16=yi- Si4b2:16 Si4b2:16 La4:16
+27 | La4:4=ne/ Re5:8=A- (Mi5)Re5:16=man Do5:16 Si4b2:8=a- (Do5)Si4b2:16 La4:16 Sol4:4=man
+28 | Es:8 Do5:4=bey- La4:8=ler- Si4b2:16=be- La4:16 Si4b2:16 Re5:16 Do5:16=yi- Si4b2:16 Si4b2:16 La4:16
+29 | La4:4.=ne/ Mi5:16 Fa5:16 Mi5:16 Re5:16 Do5:16 Re5:16 Mi5:4
+30 | Es:4 Do5:8=Kim- Re5:8=le- Mi5:4=ri Mi5:8=sa- Re5:8
+31 | Mi5:8=ra- Fa5#:8 Sol5:8 La5:8 Sol5:8=yım Fa5:8 Mi5:8 Re5:8
+32 | Do5:4=se- Re5:4=nin Do5:4=ye- La5:4=ri-
+33 | Sol5:8=ne Fa5:8 Mi5:8 Re5:8=a- Do5:8.=man Si4b2:16 La4:8 Si4b2:8=a-
+34 | Do5:1=man/
+35 | Es:4 Sol5:8=Giz- Sol5:8=li Sol5:4=giz- La5:4=li
+36 | Sol5:8=sev- Fa5:8 Mi5:8=dâ- Re5:8 Do5:8=la- Do5:8=rı- Re5:4=mız
+37 | Es:8 Do5:4=â- La4:8=şi- Si4b2:16=kâr La4:16 Si4b2:16 Re5:16 Do5:16=ol- Si4b2:16 Si4b2:16 La4:16
+38 | La4:4=du/ Re5:8=A- (Mi5)Re5:16=man Do5:16 Si4b2:8=a- (Do5)Si4b2:16 La4:16 Sol4:4=man
+39 | Es:8 Do5:4=â- La4:8=şi- Si4b2:16=kâr La4:16 Si4b2:16 Re5:16 Do5:16=ol- Si4b2:16 Si4b2:16 La4:16
+40 | La4:4.=du/ Mi5:16 Fa5:16 Mi5:16 Re5:16 Do5:16 Re5:16 Mi5:4
+41 | Es:4 Sol5:8=Giz- Sol5:8=li Sol5:4=giz- La5:4=li
+42 | Sol5:8=sev- Fa5:8 Mi5:8=dâ- Re5:8 Do5:8=la- Do5:8=rı- Re5:4=mız
+43 | Es:8 Do5:4=â- La4:8=şi- Si4b2:16=kâr La4:16 Si4b2:16 Re5:16 Do5:16=ol- Si4b2:16 Si4b2:16 La4:16
+44 | La4:4=du/ Re5:8=A- (Mi5)Re5:16=man Do5:16 Si4b2:8=a- (Do5)Si4b2:16 La4:16 Sol4:4=man
+45 | Es:8 Do5:4=â- La4:8=şi- Si4b2:16=kâr La4:16 Si4b2:16 Re5:16 Do5:16=ol- Si4b2:16 Si4b2:16 La4:16
+46 | La4:4.=du/ Mi5:16 Fa5:16 Mi5:16 Re5:16 Do5:16 Si4b2:16 La4:4

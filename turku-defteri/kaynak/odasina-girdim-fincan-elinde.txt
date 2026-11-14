@@ -1,0 +1,34 @@
+ad: Odasına Girdim Fincan Elinde
+yore: 
+usul: 4/4
+usul-adi: Sofyan
+tempo: 93
+dizi: Gerdaniye
+karar: La
+duzen: bozuk
+zorluk: zor
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, gerdaniye--turku--sofyan--odasina_girdim--
+---
+[Aranağme]
+1 | Do5:8 Do5:16 Si4b2:16 Re5:16 Do5:16 Si4b2:16 La4:16 La4:4 Si4b2:16 La4:16 Sol4:8
+2 | Do5:8 Do5:16 Si4b2:16 Re5:16 Do5:16 Si4b2:16 La4:16 La4:2
+[Aranağme]
+3 | Do5:8 Do5:16 Si4b2:16 Re5:16 Do5:16 Si4b2:16 La4:16 La4:4 Si4b2:16 La4:16 Sol4:8
+4 | Do5:8 Do5:16 Si4b2:16 Re5:16 Do5:16 Si4b2:16 La4:16 La4:2
+[Söz]
+5 | Sol5:1=Of*
+[Saz]
+6 | Sol5:1
+[Söz]
+7 | Es:8 Fa5#3:16=O-* Sol5:16=da-* Sol5:16=sı-* Fa5#3:16=na* Sol5:16 Fa5#3:16 Sol5:16=gir-* Fa5#3:16 Sol5:16=dim* Fa5#3:16 Sol5:16=fin-* Fa5#3:16 Sol5:16=can* Fa5#3:16
+8 | La5:16=e-* La5:16=lin-* Sol5:16 Fa5#3:16 Mi5:8.=de/* Re5:16 Re5:8 Fa5#3:16=O-* Sol5:16=da-* Sol5:16=sı-* Fa5#3:16=na* Sol5:16 Fa5#3:16
+9 | Sol5:16=gir-* Fa5#3:16 Sol5:16=dim* Fa5#3:16 Sol5:16=fin-* Fa5#3:16 Sol5:16=can* Fa5#3:16 La5:16=e-* La5:16=lin-* Sol5:16 Fa5#3:16 Mi5:4=de/*
+10 | Es:8 Fa5#3:16=Sa-* Sol5:16=a-* La5:8=tin* La5:8=kor-* La5:16=do-* La5:8.=nu* Sol5:16=in-* Fa5:16 Mi5:16=ce* Re5:16
+11 | Re5:16=be-* Do5:16=lin-* Mi5:16 Re5:16 Mi5:4=de/* Do5:16=be-* Mi5:16=lin-* Mi5:16 Re5:16 Re5:4=de/*
+12 | La4:16=be-* Si4b2:16=lin-* Do5:16 Si4b2:16 Re5:16=de/* Do5:16 Si4b2:16 La4:16=a-* La4:4=man/* Si4b2:16=a-* La4:16=man/* Sol4:8
+13 | Do5:8=Kaş-* Do5:16=la-* Si4b2:16 Re5:16=rı* Do5:16 Si4b2:16=ke-* La4:16 La4:4 Si4b2:16=ke-* La4:16 Sol4:8=man*
+14 | Do5:8=göz-* Do5:16=le-* Si4b2:16 Re5:16=ri* Do5:16 Si4b2:16=ya-* La4:16 La4:2=man/*
+15 | Do5:8=Kaş-* Do5:16=la-* Si4b2:16 Re5:16=rı* Do5:16 Si4b2:16=ke-* La4:16 La4:4 Si4b2:16=ke-* La4:16 Sol4:8=man*
+16 | Do5:8=göz-* Do5:16=le-* Si4b2:16 Re5:16=ri* Do5:16 Si4b2:16=ya-* La4:16 La4:2=man/*

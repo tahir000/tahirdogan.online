@@ -1,0 +1,40 @@
+ad: Kalenin Burcu muyam
+yore: 
+usul: 4/4
+usul-adi: Sofyan
+tempo: 90
+dizi: Uşşak
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, ussak--turku--sofyan--kalenin_burcu_muyam--
+---
+[Aranağme]
+1 | Sol4:8 Do5:16 Si4b2:16 La4:8 Do5:16 Si4b2:16 La4:8 Do5:16 Si4b2:16 La4:8. Sol4:16
+2 | Si4b2:16 Do5:16 Re5:8 Re5:8 Re5:8 Do5:4 Si4b2:4
+3 | Si4b2:16 Do5:16 Re5:8 Re5:8 Re5:8 Do5:8 Do5:8 Si4b2:4
+4 | La4:8 Do5:16 Si4b2:16 Re5:16 Si4b2:8 La4:16 La4:2
+[Aranağme]
+5 | Sol4:8 Do5:16 Si4b2:16 La4:8 Do5:16 Si4b2:16 La4:8 Do5:16 Si4b2:16 La4:8. Sol4:16
+6 | Si4b2:16 Do5:16 Re5:8 Re5:8 Re5:8 Do5:4 Si4b2:4
+7 | Si4b2:16 Do5:16 Re5:8 Re5:8 Re5:8 Do5:8 Do5:8 Si4b2:4
+8 | La4:8 Do5:16 Si4b2:16 Re5:16 Si4b2:8 La4:16 La4:2
+[Söz]
+9 | Sol4:8=Ka-* Do5:16=le-* Si4b2:16 La4:8=nin* Do5:16=bur-* Si4b2:16 La4:8=cu* Do5:16=mu-* Si4b2:16 La4:4=yam/*
+10 | Si4b2:16=Ben* Do5:16 Re5:8=bil-* Re5:8=mem* Re5:8=ay-* Do5:4=rı-* Si4b2:16=yam/* La4:16 Si4b2:8
+11 | Re5:8=Dil* Re5:8=bil-* Re5:8=mez* Re5:8=Gür-* Do5:8=cü* Do5:8=mü-* Si4b2:16=yem/* La4:16 Si4b2:8
+12 | La4:8=El-* Do5:16=le-* Si4b2:16 Re5:16=ri* Si4b2:8=kı-* La4:16 La4:4=na-* La4:4=lı/*
+13 | Sol4:8=Fe-* Do5:16=lek* Si4b2:16 La4:8=e-* Do5:16=vin* Si4b2:16 La4:8=yı-* Do5:16=kı-* Si4b2:16 La4:4=la/*
+14 | Si4b2:16=Ben* Do5:16 Re5:8=bil-* Re5:8=mem* Re5:8=ay-* Do5:4=rı-* Si4b2:16=yam/* La4:16 Si4b2:8
+15 | Re5:8=Ben* Re5:8=çir-* Re5:8=kin* Re5:8=har-* Do5:8=cı* Do5:8=mı-* Si4b2:16=yam/* La4:16 Si4b2:8
+16 | La4:8=El-* Do5:16=le-* Si4b2:16 Re5:16=ri* Si4b2:8=kı-* La4:16 La4:4=na-* La4:4=lı/*
+17 | Sol4:8=Vay* Do5:16=sür-* Si4b2:16 La4:8=me-* Do5:16=li* Si4b2:16 La4:8=sür-* Do5:16=me-* Si4b2:16 La4:4=li/*
+18 | Si4b2:16=Ben* Do5:16 Re5:8=bil-* Re5:8=mem* Re5:8=ay-* Do5:4=rı-* Si4b2:16=yam/* La4:16 Si4b2:8
+19 | Do5:16=Se-* Re5:8.=ver-* Re5:8=ken* Re5:8=sev-* Do5:8=dir-* Do5:8=me-* Si4b2:4=li/*
+20 | La4:8=El-* Do5:16=le-* Si4b2:16 Re5:16=ri* Si4b2:8=kı-* La4:16 La4:4=na-* La4:4=lı/*
+21 | Sol4:8=Vay* Do5:16=sür-* Si4b2:16 La4:8=me-* Do5:16=li* Si4b2:16 La4:8=sür-* Do5:16=me-* Si4b2:16 La4:4=li/*
+22 | Si4b2:16=Ben* Do5:16 Re5:8=bil-* Re5:8=mem* Re5:8=ay-* Do5:4=rı-* Si4b2:16=yam/* La4:16 Si4b2:8
+23 | Do5:16=Se-* Re5:8.=ver-* Re5:8=ken* Re5:8=sev-* Do5:8=dir-* Do5:8=me-* Si4b2:4=li/*
+24 | La4:8=El-* Do5:16=le-* Si4b2:16 Re5:16=ri* Si4b2:8=kı-* La4:16 La4:4=na-* La4:4=lı/*

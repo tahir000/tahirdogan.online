@@ -1,0 +1,37 @@
+ad: Sigaramın Dumanı
+yore: 
+usul: 4/4
+usul-adi: Sofyan
+tempo: 66
+dizi: Uşşak
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, ussak--turku--sofyan--sigaramin_dumani--
+---
+[Aranağme]
+1 | Re5:8 Do5:16 Re5:16 Re5:8 Re5:8 Re5:16 Do5:8 Si4b2:16 Re5:4
+2 | Do5:8 Si4b2:16 La4:16 La4:16 Sol4:16 Do5:8 Si4b2:16 La4:8. Si4b2:16 La4:16 Si4b2:8
+3 | Do5:8 Si4b2:16 La4:16 La4:16 Sol4:16 Do5:8 Si4b2:16 La4:8. La4:8 Sol4:32 La4:32 Si4b2:32 Do5:32
+[Aranağme]
+4 | Re5:8 Do5:16 Re5:16 Re5:8 Re5:8 Re5:16 Do5:8 Si4b2:16 Re5:4
+5 | Do5:8 Si4b2:16 La4:16 La4:16 Sol4:16 Do5:8 Si4b2:16 La4:8. Si4b2:16 La4:16 Si4b2:8
+6 | Do5:8 Si4b2:16 La4:16 La4:16 Sol4:16 Do5:8 Si4b2:16 La4:8. La4:4
+[Söz]
+7 | Es:8 Do5:16=Si- Re5:16=ga- Re5:8=ra- Re5:8=mın Re5:16=du- Do5:8 Si4b2:16=ma- Re5:4=nı/
+8 | Do5:8=Yok- Si4b2:16=tur La4:16 La4:16=yâ- Sol4:16 Do5:8=rin Si4b2:16=i- La4:8.=ma- (Do5)Si4b2:16=nı/ La4:16 Si4b2:8
+9 | Do5:8=Yok- Si4b2:16=tur La4:16 La4:16=yâ- Sol4:16 Do5:8=rin Si4b2:8.=i- La4:16=ma- La4:8=nı/ Sol4:32 La4:32 Si4b2:32 Do5:32
+10 | Re5:8 Do5:16=Al- Re5:16=tın- Re5:8=dan Re5:8=köşk Re5:16=yap- Do5:16 Do5:16=tır- Si4b2:16 Re5:4=dım/
+11 | Do5:16=Gü- Si4b2:8=müş- La4:16 La4:16=ten Sol4:16 Do5:8=mer- Si4b2:16=di- La4:8.=va- (Do5)Si4b2:16=nı/ La4:16 Si4b2:8
+12 | Do5:16=Gü- Si4b2:8=müş- La4:16 La4:16=ten Sol4:16 Do5:8=mer- Si4b2:16=di- La4:8.=va- La4:8=nı/ Sol4:32 La4:32 Si4b2:32 Do5:32
+13 | Re5:8 Do5:16=Hey Re5:16=gül- Re5:8=lü Re5:8=gül- Re5:16=lü Do5:8=gül- Si4b2:16 Re5:4=lü/
+14 | Do5:8=Peş- Si4b2:16=te- La4:16 La4:16=ma- Sol4:16 Do5:8=lı Si4b2:8=püs- La4:8=kül- (Do5)Si4b2:16=lü/ La4:16 Si4b2:8
+15 | Do5:8=Peş- Si4b2:16=te- La4:16 La4:16=ma- Sol4:16 Do5:8=lı Si4b2:8=püs- La4:8=kül- La4:8=lü/ Sol4:32 La4:32 Si4b2:32 Do5:32
+16 | Re5:8 Do5:16=Ha- Re5:16=nım Re5:8=et- Re5:8=me Re5:16=bu Do5:8=na- Si4b2:16 Re5:4=zı/
+17 | Do5:8=Gel Si4b2:16=bi- La4:16 La4:16=ze Sol4:16 Do5:8=ba- Si4b2:16=zı La4:8.=ba- (Do5)Si4b2:16=zı/ La4:16 Si4b2:8
+18 | Do5:8=Gel Si4b2:16=bi- La4:16 La4:16=ze Sol4:16 Do5:8=ba- Si4b2:16=zı La4:8.=ba- La4:8=zı/ Sol4:32 La4:32 Si4b2:32 Do5:32
+19 | Re5:8 Do5:16=Bi- Re5:16=ze Re5:8=Har- Re5:8=put- Re5:16=lu Do5:8=der- Si4b2:16 Re5:4=ler/
+20 | Do5:8=Biz Si4b2:16=çek- La4:16 La4:16=me- Sol4:16 Do5:8=yiz Si4b2:16=bu La4:8.=na- (Do5)Si4b2:16=zı/ La4:16 Si4b2:8
+21 | Do5:8=Biz Si4b2:16=çek- La4:16 La4:16=me- Sol4:16 Do5:8=yiz Si4b2:16=bu La4:8.=na- La4:4=zı/

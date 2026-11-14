@@ -1,0 +1,61 @@
+ad: Bağda Gülü Budadım
+yore: Ankara
+usul: 2/4
+usul-adi: Nimsofyan
+tempo: 87
+dizi: Tahir
+karar: La
+duzen: bozuk
+zorluk: zor
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, tahir--turku--nimsofyan--bagda_gulu--ankara
+---
+[Aranağme]
+1 | Do5:8 Do5:16 Re5:16 Re5:8 (Do5)Re5:8
+2 | (Si4b2)Do5:8. Re5:16 Si4b2:16 La4:16 Si4b2:16 La4:16
+3 | Do5:8 Do5:16 Re5:16 Re5:8 (Do5)Re5:8
+4 | (Si4b2)Do5:8. Re5:16 Si4b2:16 La4:16 Si4b2:16 La4:16
+5 | Do5:8 Do5:16 Re5:16 Re5:8 Re5:8
+6 | Do5:8. Re5:16 Si4b2:16 La4:16 Si4b2:16 La4:16
+7 | Do5:8 Si4b2:16 La4:16 Si4b2:16 La4:16 La4:8
+8 | La4:8 La4:16 La4:16 La4:16 La4:16 La4:8
+[Aranağme]
+9 | Do5:8 Do5:16 Re5:16 Re5:8 (Do5)Re5:8
+10 | (Si4b2)Do5:8. Re5:16 Si4b2:16 La4:16 Si4b2:16 La4:16
+11 | Do5:8 Do5:16 Re5:16 Re5:8 (Do5)Re5:8
+12 | (Si4b2)Do5:8. Re5:16 Si4b2:16 La4:16 Si4b2:16 La4:16
+13 | Do5:8 Do5:16 Re5:16 Re5:8 Re5:8
+14 | Do5:8. Re5:16 Si4b2:16 La4:16 Si4b2:16 La4:16
+15 | Do5:8 Si4b2:16 La4:16 Si4b2:16 La4:16 La4:8
+16 | La4:8 La4:8 La4:8 Fa5#3:16 Sol5:16
+17 | La5:8 Es:8 La5:8 Es:8
+[Söz]
+18 | La5:8 Es:8 Fa5#3:16=Bağ-* Sol5:16 La5:8=da*
+19 | La5:8=gü-* La5:8=lü* La5:16 Sol5:32 Fa5#3:32 Sol5:16 Fa5#3:16
+20 | La5:8=bu-* La5:8=da-* La5:16 Fa5#3:8.
+21 | Mi5:8=dım/* Mi5:16 Re5:16 Mi5:16 Re5:16 Mi5:8
+22 | Fa5#3:16=A-* Sol5:16=ma-* La5:8=nın* La5:8=bağ-* La5:8=da*
+23 | La5:8=gü-* La5:8=lü* La5:16 Sol5:32 Fa5#3:32 Sol5:16 Fa5#3:16
+24 | Sol5:8=bu-* La5:8=da-* La5:16 Fa5#3:8.
+25 | Mi5:8=dım/* Mi5:16 Re5:16 Mi5:16 Re5:16 Mi5:8
+26 | Fa5#3:16=Hay-* Sol5:16 La5:16=di* La5:16=de* La5:16=gü-* La5:8.=lü*
+27 | La5:16=gü-* La5:8.=le* Sol5:16 Fa5#3:16 Sol5:16 Fa5#3:16
+28 | Sol5:16=bağ-* Fa5#3:16 Fa5#3:16=la-* Sol5:16 Fa5#3:16 Sol5:16 La5:8
+29 | La5:16=dım/* Sol5:16 Fa5#3:16 Sol5:16 Mi5:32 Fa5:32 Mi5:32 Fa5:32 Re5:16 Mi5:16
+30 | Re5:8 Re5:16=Su* Re5:16=ge-* Re5:16=lir* Do5:16 Re5:8=gül-*
+31 | Do5:8=dür* Do5:16 Re5:16 Si4b2:16=gül-* La4:16 Si4b2:8=dür*
+32 | Do5:16=Gel* Re5:8 Re5:16=de* Re5:16=yâr* Do5:16 Re5:16=be-* Si4b2:16
+33 | Do5:16=ni* Do5:8.=gül-* Si4b2:4=dür*
+34 | Do5:8=Bir* Re5:8=dam-* Re5:16=la-* Do5:16=cık* Re5:8
+35 | Re5:16=ka-* Do5:8.=nım* Si4b2:16=ak-* La4:16 Si4b2:8=maz/*
+36 | Do5:8=Öl-* Si4b2:16 La4:16=dü-* Si4b2:16=rür-* La4:16 La4:8=sen*
+37 | La4:16=sen* La4:8.=öl-* La4:8=dür/* La4:8
+38 | Re5:8 Re5:16=Su* Re5:16=ge-* Re5:16=lir* Do5:16 Re5:8=gül-*
+39 | Do5:8=dür* Do5:16 Re5:16 Si4b2:16=gül-* La4:16 Si4b2:8=dür*
+40 | Do5:16=Gel* Re5:8 Re5:16=de* Re5:16=yâr* Do5:16 Re5:16=be-* Si4b2:16
+41 | Do5:16=ni* Do5:8.=gül-* Si4b2:4=dür*
+42 | Do5:8=Bir* Re5:8=dam-* Re5:16=la-* Do5:16=cık* Re5:8
+43 | Re5:16=ka-* Do5:8.=nım* Si4b2:16=ak-* La4:16 Si4b2:8=maz/*
+44 | Do5:8=Öl-* Si4b2:16 La4:16=dü-* Si4b2:16=rür-* La4:16 La4:8=sen*
+45 | La4:16=sen* La4:8.=öl-* La4:8=dür/* La4:8

@@ -1,0 +1,45 @@
+ad: Yar Yüreğim Yar
+yore: Urfa
+usul: 10/8
+usul-adi: Curcuna
+kalip: 3+2+2+3
+tempo: 123
+dizi: Muhayyer
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, muhayyer--turku--curcuna--yar_yuregim--urfa
+---
+[Aranağme]
+1 | Es:4 Fa5#3:8 Sol5:4 La5:4 La5:4.
+2 | La5:4 Si5b2:8 La5:8 Si5b2:8 Sol5:4 La5:8 Sol5:8 La5:8
+3 | Fa5#3:4 Sol5:8 Fa5#3:8 Sol5:8 Mi5:4 Fa5:8 Mi5:8 Fa5:8
+4 | Re5:4 Mi5:8 Re5:8 Mi5:8 Do5:4 Re5:8 Do5:8 Re5:8
+5 | Si4b2:4 Do5:8 Si4b2:8 Do5:8 La4:4 La4:16. Do5:32 Re5:16 Do5:16 Re5:16 Mi5:16
+6 | Fa5:4 Mi5:8 Fa5:8 Mi5:8 Fa5:8 Mi5:8 (La5)Sol5:8 Fa5:8 Mi5:8
+7 | Re5:8 Do5:8 Re5:8 Mi5:8 Re5:8 Mi5:8 Re5:8 Fa5:8 Mi5:8 Re5:8
+8 | Do5:8 Si4b2:8 Mi5:8 Fa5:8 Mi5:8 Fa5:8 Mi5:8 Sol5:8 Fa5:8 Mi5:8
+9 | Re5:8 Do5:8 Re5:8 Mi5:8 Re5:8 Mi5:8 Re5:8 Fa5:8 Mi5:8 Re5:8
+10 | Do5:8 Si4b2:8 Do5:8 Re5:8 Do5:8 Re5:8 Do5:8 Mi5:8 Re5:8 Do5:8
+11 | Si4b2:8 La4:8 Si4b2:8 Do5:4 Do5:8 Si4b2:8 Re5:8 Do5:8 Si4b2:8
+12 | La4:8. Si4b2:16 Do5:8 Re5:8 Mi5:8 Fa5#3:8 Sol5:8 La5:8 Si5b2:8 Re6:8
+[Söz]
+13 | Do6:4 (Si5b2)Do6:4=Yâr* Do6:8=yü-* Do6:8=re-* Si5b2:8 Do6:4=ğim* Si5b2:8
+14 | Si5b2:8=yâr* La5:8 Do6:8 Si5b2:8 La5:8 La5:4=yâr* La5:4.
+15 | La5:4=gör* Sol5:8 La5:8=ki* Fa5#3:8 Sol5:8=ne-* Mi5:8 Mi5:4=ler* Re5:8
+16 | Re5:4=var/* Re5:4. (Sol5)Fa5:8 Mi5:8 (Fa5)Re5:8 (Mi5)Do5:8 (Re5)Si4b2:8
+17 | (Do5)Do6:4 (Si5b2)Do6:4=Yâr* Do6:8=yü-* Do6:8=re-* Si5b2:8 Do6:4=ğim* Si5b2:8
+18 | Si5b2:8=yâr* La5:8 Do6:8 Si5b2:8 La5:8 La5:4=yâr* La5:4.
+19 | La5:4=gör* Sol5:8 La5:8=ki* Fa5#3:8 Sol5:8=ne-* Mi5:8 Mi5:4=ler* Re5:8
+20 | Re5:4=var/* Fa5:8 Mi5:8 Re5:8 Do5:8 Re5:8 Mi5:4.
+21 | Re5:4=Bu* Mi5:4.=halk* Mi5:4=i-* Mi5:4=çin-* Re5:8
+22 | Re5:4.=de* Re5:8=ha* (Sol5)Fa5#3:8 (Sol5)Mi5:8=be-* Re5:8 Re5:8=yim* Do5:8 Si4b2:8
+23 | Mi5:8=bi-* Re5:8 Re5:8=ze* Do5:8=de* Si4b2:8 Do5:8=gü-* Si4b2:8 Si4b2:4=len* La4:8
+24 | La4:4=var/* La4:4. (Do5)Si4b2:8 La4:8 Sol4:4.
+25 | Re5:4=Bu* Mi5:4.=halk* Mi5:4=i-* Mi5:4=çin-* Re5:8
+26 | Re5:4.=de* Re5:8=ha* (Sol5)Fa5#3:8 (Sol5)Mi5:8=be-* Re5:8 Re5:8=yim* Do5:8 Si4b2:8
+27 | Mi5:8=bi-* Re5:8 Re5:8=ze* Do5:8=de* Si4b2:8 Do5:8=gü-* Si4b2:8 Si4b2:4=len* La4:8
+28 | La4:8.=var/ Si4b2:16 Do5:8 Re5:8 Mi5:8 Fa5#3:8 Sol5:8 La5:8 Si5b2:8 Re6:8
+28 @2 | La4:5/8=var/ La4:5/8

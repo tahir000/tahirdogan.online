@@ -1,0 +1,29 @@
+ad: Gemilerde Talim Var
+yore: 
+usul: 9/8
+usul-adi: Aksak
+kalip: 2+2+2+3
+tempo: 69
+dizi: Hicaz
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, hicaz--turku--aksak--gemilerde_talim--
+---
+[Aranağme]
+1 | Mi5:8 Re5:16 Mi5:16 Fa5:8 Mi5:16 Re5:16 Do5#3:16 Si4b:16 La4:16 Sol4:16 La4:16 Si4b:16 Do5#3:16 Re5:16 Mi5:8
+2 | Mi5:8 Re5:16 Mi5:16 Fa5:8 Mi5:16 Re5:16 Do5#3:16 Si4b:16 La4:16 Sol4:16 La4:4.
+3 | Mi5:8 Re5:16 Mi5:16 Fa5:8 Mi5:16 Re5:16 Do5#3:16 Si4b:16 La4:16 Sol4:16 La4:16 Si4b:16 Do5#3:16 Re5:16 Mi5:8
+4 | Mi5:8 Re5:16 Mi5:16 Fa5:8 Mi5:16 Re5:16 Do5#3:16 Si4b:16 La4:16 Sol4:16 La4:4 Do5#3:16 Mi5:16
+[Söz]
+5 | Re5:8 Re5:16=Ge-* Re5:16=mi-* Re5:8=ler-* Re5:8=de* Do5#3:4=tâ-* Re5:4=lim* Mi5:8=var/*
+6 | Re5:8=Bah-* (Do5#3)Re5:16=ri-* Do5#3:16 Si4b:16=ye-* Do5#3:16 Si4b:16=li* La4:16 La4:4=yâ-* Do5#3:16=rim* Re5:16 Mi5:8 Mi5:16 Re5:16
+7 | Re5:8=var* Mi5:16 Fa5#3:16 Sol5:8 Fa5:16 Mi5:16 Mi5:16 Re5:16 Re5:16 Do5#3:16 Re5:4.
+8 | Es:8 Mi5:16=O* Fa5:16=da* Mi5:8=git-* Re5:8=ti* Do5#3:4=se-* Re5:16=fe-* Mi5:16 Re5:8 Mi5:8=re/*
+9 | Re5:8=Ne* Re5:16=tâ-* Do5#3:16 Si4b:16=lih-* Do5#3:16 Si4b:16=siz* La4:16 La4:4=ba-* Si4b:16=şım* Do5#3:16 Si4b:8 Do5#3:8=var/*
+10 | Re5:16=Ha-* Re5:16=ni* Re5:16=be-* Do5#3:16=nim* Si4b:16=Re-* Si4b:16 Si4b:16=ce-* La4:16 La4:8=bim/* Es:8 Do5#3:8=Re-* Re5:8=ce-* Mi5:8=bim*
+11 | Re5:16=sa-* Re5:16=rı* Re5:16=li-* Do5#3:16=ra* Si4b:16=ve-* Si4b:16=re-* Si4b:16=ce-* La4:16 La4:8=ğim/* Es:8 Do5#3:8=Al-* Re5:8=maz-* Mi5:8=sa*
+12 | Re5:16=ka- Re5:16=ra- Re5:16=ko- Do5#3:16=la Si4b:16=gi- Si4b:16=de- Si4b:16=ce- La4:16 La4:4=ğim/ La4:8 La4:8 La4:8
+12 @2 | Re5:16=ka- Re5:16=ra- Re5:16=ko- Do5#3:16=la Si4b:16=gi- Si4b:16=de- Si4b:16=ce- La4:16 La4:4=ğim/ Es:4.

@@ -1,0 +1,41 @@
+ad: Urfalıyam Ezelden
+yore: 
+usul: 2/4
+usul-adi: Nimsofyan
+tempo: 72
+dizi: Uşşak
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, ussak--turku--nimsofyan--urfaliyam_ezelden--
+---
+[Söz]
+1 | Es:8 Do5:16=Ur-* Re5:16=fa-* Re5:16=lı-* Re5:8.=yam*
+2 | Re5:16=e-* (Mi5)Do5:16 (Mi5)Re5:8 Re5:16=zel-* Mi5:16 Do5:16=den/* Re5:16
+3 | Si4b2:8=Ur-* Do5:8=fa-* Si4b2:16=lı-* La4:16=yam* Re5:8
+4 | Re5:8.=e-* Es:16 Re5:16=zel-* Mi5:16 Do5:16=den/* Re5:16
+5 | Si4b2:8=Göy-* Do5:8=nüm* Si4b2:16=geç-* La4:16 Re5:8=mez*
+6 | Re5:16=gü-* (Mi5)Do5:8 Si4b2:16 Do5:16=zel-* (Re5)Si4b2:16 Si4b2:16=den/* La4:16
+7 | La4:8=Göy-* Si4b2:16=nüm* (Do5)La4:16 La4:16=geç-* Sol4:16 Do5:8=mez*
+8 | Re5:16=gü-* (Mi5)Do5:8 Si4b2:16 Do5:16=zel-* Si4b2:16 Si4b2:16=den* La4:16
+9 | La4:8.=vay/* La4:16 La4:16 Sol4:16 La4:8
+10 | Es:8 Mi5:16=Göy-* Mi5:16=nü-* Mi5:8=mün* Mi5:16=gö-* Re5:16
+11 | Re5:16=zü* (Mi5)Do5:16 (Mi5)Re5:8 Re5:16=çık-* Mi5:16 Do5:16=sın/* Re5:16
+12 | Si4b2:8=Göy-* Do5:8=nü-* Si4b2:16=mün* La4:16 Re5:8=gö-*
+13 | Re5:8.=zü* Es:16 Re5:16=çık-* Mi5:16 Do5:16=sın/* Re5:16
+14 | Si4b2:8=Sev-* Do5:8=me-* Si4b2:16=sey-* La4:16 Re5:8=dim*
+15 | Re5:16=e-* (Mi5)Do5:8 Si4b2:16 Do5:16=zel-* (Re5)Si4b2:16 Si4b2:16=den/* La4:16
+16 | La4:8=Sev-* Si4b2:16=me-* (Do5)La4:16 La4:16=sey-* Sol4:16 Do5:8=dim*
+17 | Re5:16=e-* (Mi5)Do5:8 Si4b2:16 Do5:16=zel-* Si4b2:16 Si4b2:16=den* La4:16
+18 | La4:8.=vay/* La4:16 La4:16 Sol4:16 La4:8
+19 | Es:8 Do5:16=A-* Re5:16=ğam* Re5:16=o-* Re5:8.=la-*
+20 | Re5:16=san* (Mi5)Do5:16 (Mi5)Re5:8 Re5:16=Ö-* (Mi5)Re5:16=mer/* (Mi5)Do5:16 Re5:16
+21 | Si4b2:8=Pa-* Do5:8=şam* Si4b2:16=o-* La4:16=la-* Re5:8
+22 | Re5:8.=san* Es:16 Re5:16=Ö-* (Mi5)Re5:16=mer/* (Mi5)Do5:16 Re5:16
+23 | Si4b2:8=Ye-* Do5:16=tim* (Re5)Si4b2:16 Si4b2:16=ka-* La4:16=la-* Re5:8
+24 | Re5:16=san* (Mi5)Do5:8 Si4b2:16 Do5:16=Ö-* (Re5)Do5:16=mer/* (Re5)Si4b2:16 La4:16
+25 | La4:8=Be-* Si4b2:16=nim* (Do5)La4:16 La4:16=o-* Sol4:16 Do5:8=la-*
+26 | Re5:16=san* (Mi5)Do5:8 Si4b2:16 Do5:16=Ö-* Si4b2:16 Si4b2:16=mer* La4:16
+27 | La4:8.=vay/* La4:16 La4:16 Sol4:16 La4:8

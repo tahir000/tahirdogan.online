@@ -1,0 +1,39 @@
+ad: Divane Aşık Gibi
+yore: Maçka
+usul: 5/8
+usul-adi: Türkaksağı
+kalip: 2+3
+tempo: 63
+dizi: Hicaz
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, hicaz--turku--turkaksagi--divane_asik--macka
+---
+[Söz]
+1 | Do5#:8=Dî-* Re5:8=vâ-* Mi5:8=ne* Fa5:4=â-*
+2 | Fa5:8=şık* (Sol5)Fa5:16=gi-* Mi5:16 Re5:4=bi* Re5:8=de*
+3 | Re5:8=do-* Re5:8=la-* Re5:8=şı-* Re5:4=rım*
+4 | Re5:16.=yol-* Mi5:32 Re5:16=lar-* Do5#:16 Si4b:4=da/* La4:8
+5 | Do5#:8=Dî-* Re5:8=vâ-* Mi5:8=ne* Fa5:4=â-*
+6 | Fa5:8=şık* (Sol5)Fa5:16=gi-* Mi5:16 Re5:4=bi* Re5:8=de*
+7 | Re5:8=do-* Re5:8=la-* Re5:8=şı-* Re5:4=rım*
+8 | Re5:16.=yol-* Mi5:32 Re5:16=lar-* Do5#:16 Si4b:4=da/* La4:8
+9 | Do5#:8=Kız* Re5:8=se-* Re5:8=nun* Re5:4=se-*
+10 | Re5:16=be-* Mi5:16 Re5:16=bi-* Do5#:16 Si4b:4=ne* La4:8
+11 | Mi5:8=yâr* Re5:8=se-* Re5:8=nun* Re5:4=se-*
+12 | Re5:16.=be-* Mi5:32 Re5:16=bi-* Do5#:16 Si4b:4=ne* La4:8
+13 | La4:8=kal-* La4:8=dım* Si4b:8=İs-* Do5#:4=tan-*
+14 | Si4b:4=bul-* La4:8=lar-* La4:4=da*
+15 | La4:8=kal-* La4:8=dım* La4:8=İs-* La4:4=tan-*
+16 | La4:4=bul/* (Sol4)Es:4 Es:8
+17 | Do5#:8=Kız* Re5:8=se-* Re5:8=nun* Re5:4=se-*
+18 | Re5:16=be-* Mi5:16 Re5:16=bi-* Do5#:16 Si4b:4=ne* La4:8
+19 | Mi5:8=yâr* Re5:8=se-* Re5:8=nun* Re5:4=se-*
+20 | Re5:16.=be-* Mi5:32 Re5:16=bi-* Do5#:16 Si4b:4=ne* La4:8
+21 | La4:8=kal-* La4:8=dım* Si4b:8=İs-* Do5#:4=tan-*
+22 | Si4b:4=bul-* La4:8=lar-* La4:4=da*
+23 | La4:8=kal-* La4:8=dım* La4:8=İs-* La4:4=tan-*
+24 | La4:4=bul/* (Sol4)Es:4 Es:8

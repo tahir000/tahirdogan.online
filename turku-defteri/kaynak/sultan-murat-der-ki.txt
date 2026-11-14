@@ -1,0 +1,44 @@
+ad: Sultan Murat Der ki
+yore: 
+usul: 2/4
+usul-adi: Nimsofyan
+tempo: 72
+dizi: Nişabur
+karar: Si
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, nisabur--turku--nimsofyan--sultan_murat--
+---
+[Aranağme]
+1 | Re5:16 Do5#:16 Si4:8 Re5:16 Do5#:16 Si4:8
+2 | La4:8 Si4:16 Do5#:16 Re5:16 Do5#:16 Re5:8
+3 | Re5:16 Do5#:16 Si4:8 Re5:16 Do5#:16 Si4:8
+4 | Do5#:16 Re5:32 Mi5:32 Re5:16 Mi5:16 Re5:8 Re5:8
+5 | Re5:16 Do5#:16 Si4:8 Re5:16 Do5#:16 Si4:8
+6 | Do5#:16 Re5:16 Mi5:16 Fa5:16 Fa5:16 Mi5:16 Re5:8
+7 | Re5:16 Do5#:16 Si4:8 Re5:16 Do5#:16 Si4:8
+8 | Do5#:16 Re5:16 Re5:16 Re5:16 Re5:16 Do5#:16 Re5:8
+9 | Re5:8. Re5:16 Re5:8 Re5:8
+10 | Fa5:16 Mi5:16 Re5:8 Fa5:16 Mi5:16 Re5:16 Do5#:16
+11 | Re5:8. Re5:16 Re5:8 Re5:8
+12 | Do5#:16 Re5:16 Mi5:16 Fa5:16 Mi5:8 Re5:8
+13 | Re5:8. Re5:16 Re5:8 Re5:8
+14 | Do5#:16 Re5:16 Mi5:16 Fa5:16 Mi5:8 Re5:8
+15 | Re5:8. Re5:16 Re5:8 Re5:8
+[Söz]
+16 | Re5:2=Hey*
+17 | Re5:8=Sul-* Sol5:8=tan* Sol5:16=Mu-* Sol5:8.=rat*
+18 | Sol5:8=der* Sol5:8=ki* Sol5:8=gel-* Sol5:8=sin*
+19 | Mi5:16=gö-* Mi5:8.=re-* Fa5:16=yim/* Mi5:16 Re5:8
+20 | Sol5:16=Na-* Sol5:8.=sıl* Sol5:16=yi-* Sol5:8.=ğit*
+21 | Mi5:16=i-* Fa5:8.=se* Mi5:8=ben* Mi5:16=de* Re5:16
+22 | Fa5:16=bi-* Mi5:16=le-* Re5:16 Do5#:16 Re5:4=yim/*
+23 | Re5:16=Ve-* Sol5:8.=zir-* Sol5:8=lik* Sol5:8=is-*
+24 | Sol5:8=ter-* Fa5:16=se* Mi5:16 Mi5:8=üç* Mi5:8=tuğ*
+25 | Fa5:16=ve-* Mi5:16=re-* Re5:16 Do5#:16 Re5:4=yim/*
+26 | Re5:16=Ve-* Sol5:8.=zir-* Sol5:16=li-* Sol5:8.=ğe*
+27 | Sol5:8=şa-* Sol5:16=yes-* Mi5:16 Fa5:16=tey-* Mi5:16 Re5:8=miş*
+28 | Do5#:16=Genç* Re5:16 Mi5:16 Fa5:16 Fa5:16=Os-* Mi5:16=man* Re5:8
+29 | Re5:16=of* Do5#:16 Si4:8 Re5:16=of/* Do5#:16 Si4:8

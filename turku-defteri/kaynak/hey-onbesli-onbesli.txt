@@ -1,0 +1,36 @@
+ad: Hey Onbeşli Onbeşli
+yore: Tokat
+usul: 4/4
+usul-adi: Sofyan
+tempo: 78
+dizi: Hüseyni
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, huseyni--turku--sofyan--hey_onbesli--tokat
+---
+[Aranağme]
+1 | Re5:8 Re5:16 Si4b2:16 Do5:8 Si4b2:16 La4:16 La4:8 La4:16 Sol4:16 La4:8 Si4b2:16 La4:16
+2 | La4:32 Re5:32 Do5:16 Re5:16 Si4b2:16 Do5:8 Si4b2:16 La4:16 La4:4 La4:4
+3 | Re5:8 Re5:16 Si4b2:16 Do5:8 Si4b2:16 La4:16 La4:8 La4:16 Sol4:16 La4:8 Si4b2:16 La4:16
+4 | Do5:8 (Mi5)Re5:16 Si4b2:16 Do5:8 Si4b2:16 La4:16 La4:8. La4:16 La4:4
+[Aranağme]
+5 | Re5:8 Re5:16 Si4b2:16 Do5:8 Si4b2:16 La4:16 La4:8 La4:16 Sol4:16 La4:8 Si4b2:16 La4:16
+6 | La4:32 Re5:32 Do5:16 Re5:16 Si4b2:16 Do5:8 Si4b2:16 La4:16 La4:4 La4:4
+7 | Re5:8 Re5:16 Si4b2:16 Do5:8 Si4b2:16 La4:16 La4:8 La4:16 Sol4:16 La4:8 Si4b2:16 La4:16
+8 | Do5:8 (Mi5)Re5:16 Si4b2:16 Do5:8 Si4b2:16 La4:16 La4:8. La4:16 La4:4
+[Söz]
+9 | Es:8 Do5:16=Hey* Re5:16=on-* Mi5:8=beş-* Mi5:8=li* Mi5:8=on-* (Fa5#3)Re5:8=beş-* Mi5:4=li/*
+10 | Es:8 Do5:16=To-* Re5:16=kat* Mi5:8=yol-* Mi5:8=la-* Mi5:8=rı* (Fa5#3)Re5:8=taş-* Mi5:8=lı/* Es:8
+11 | Es:8 Do5:16=Hey* Re5:16=on-* Mi5:8=beş-* Mi5:8=li* Mi5:8=on-* (Fa5#3)Re5:8=beş-* Mi5:4=li/*
+12 | Es:8 Do5:16=To-* Re5:16=kat* Mi5:8=yol-* Mi5:8=la-* Mi5:8=rı* (Fa5#3)Re5:8=taş-* Mi5:8=lı/* Es:8
+13 | Sol5:8=On-* Sol5:16=beş-* Fa5#3:16 Sol5:16=li-* Fa5#3:16=ler* Sol5:16 Mi5:16 Mi5:16=ge-* Mi5:8=li-* Re5:16 Mi5:8=yor/* Re5:16 Do5:16
+14 | Re5:8 Re5:16=Kız-* Re5:16=la-* Re5:8=rın* Re5:8=gö-* Re5:16.=zü* Mi5:32 Do5:16=yaş-* Mi5:16 Re5:8=lı/* Es:8
+15 | Re5:8=As-* Re5:16=lan* Si4b2:16 Do5:8=yâ-* Si4b2:16=rim* La4:16 La4:8=kız* La4:16=se-* Sol4:16=nin* La4:8=a-* Si4b2:16=dın* La4:16
+16 | La4:32=He-* Re5:32 Do5:16 Re5:16=di-* Si4b2:16 Do5:8 Si4b2:16 La4:16 La4:4=ye/* La4:4
+17 | Re5:8=Ben* Re5:16=do-* Si4b2:16 Do5:8=lan-* Si4b2:16=dım* La4:16 La4:8=sen* La4:16=de* Sol4:16 La4:8=do-* Si4b2:16=lan* La4:16
+18 | Do5:8=gel* Re5:16 Si4b2:16 Do5:8=ge-* Si4b2:16=di-* La4:16 La4:8.=ye/* La4:16 La4:4
+19 | Re5:8=Fis-* Re5:16=tan* Si4b2:16 Do5:8=al-* Si4b2:16=dım* La4:16 La4:8=en-* La4:16=dâ-* Sol4:16 La4:16=ze-* La4:16=si* Si4b2:16 La4:16
+20 | La4:32=on-* Re5:32 Do5:16 Re5:16 Si4b2:16 Do5:32=ye-* Re5:32 Do5:16 Si4b2:16=di-* La4:16 La4:8.=ye/* La4:16 La4:4

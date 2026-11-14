@@ -1,0 +1,28 @@
+ad: Kayada Yatan Oğlan
+yore: Ankara
+usul: 4/4
+usul-adi: Sofyan
+tempo: 93
+dizi: Tahir
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, tahir--turku--sofyan--kayada_yatan--ankara
+---
+[Söz]
+1 | Es:8 Fa5#3:16=Ka-* Sol5:16=ya-* La5:8=da* La5:8=ya-* La5:8=tan* Do6:16=oğ-* Si5b2:16 La5:4=lan/*
+2 | Es:8 Fa5#3:16=Göm-* Sol5:16=le-* Sol5:8=ği* Sol5:16=ke-* Fa5#3:16 Sol5:16=ten* La5:16 Fa5#3:16=oğ-* Sol5:16 Mi5:8=lan/* Re5:8
+3 | Re5:16=Ka-* Re5:8.=ya-* Fa5#3:16=da* Sol5:16 La5:8=ya-* La5:8=tan* Do6:16=oğ-* Si5b2:16 La5:4=lan/*
+4 | Es:8 Fa5#3:16=Göm-* Sol5:16=le-* Sol5:8=ği* Sol5:16=ke-* Fa5#3:16 Sol5:16=ten* La5:16 Fa5#3:16=oğ-* Sol5:16 Mi5:8=lan/* Re5:8
+5 | Es:8 Fa5#3:16=Ge-* Sol5:16=ce* Sol5:8=gel-* Sol5:16=me* Fa5#3:16 Sol5:16=gün-* La5:16 Fa5#3:16=düz* Sol5:16 Mi5:8=gel/* Re5:8
+6 | Do5:16=Ho-* Do5:16=roz-* Re5:8 Re5:8=dan* Re5:16=kor-* Si4b2:16 Do5:16=kan* Do5:8.=oğ-* (Do5)Si4b2:4=lan/*
+7 | La4:8=Am-* La4:8=man* La4:8=şe-* La4:8=ker* La4:8=oğ-* La4:8=lan/* Mi5:8 Re5:8
+8 | Do5:8=Yan-* Re5:8=dım* Re5:8=be-* Re5:16=kâr* Si4b2:16 (Re5)Do5:8=oğ-* Do5:8=lan/* Si4b2:8 La4:8
+9 | Es:8 Sol4:16=A-* La4:16=na-* La4:16=sı-* La4:8.=na* La4:16=da-* La4:8=rıl-* Sol4:16 Mi5:8=mış/* Re5:8
+10 | Do5:16=Dam-* Re5:8 Re5:16=da* Re5:8=ya-* Re5:16=tan* Si4b2:16 (Re5)Do5:8=oğ-* Do5:8=lan/* Si4b2:8 La4:8
+11 | Re5:8=Am-* Re5:8=man* Re5:8=şe-* Re5:8=ker* Re5:8=oğ-* Re5:8=lan/* Mi5:8 Re5:8
+12 | Do5:8=Yan-* Re5:8=dım* Re5:8=be-* Re5:16=kâr* Si4b2:16 (Re5)Do5:8=oğ-* Do5:8=lan/* Si4b2:8 La4:8
+13 | Es:8 Sol4:16=A-* La4:16=na-* La4:16=sı-* La4:8.=na* La4:16=da-* La4:8=rıl-* Sol4:16 Mi5:8=mış/* Re5:8
+14 | Do5:16=Dam-* Re5:8 Re5:16=da* Re5:8=ya-* Re5:16=tan* Si4b2:16 Do5:8=oğ-* Do5:8=lan/* Si4b2:8 La4:8

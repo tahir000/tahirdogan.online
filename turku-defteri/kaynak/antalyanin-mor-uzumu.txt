@@ -1,0 +1,26 @@
+ad: Antalya'nın Mor Üzümü
+yore: Antalya
+usul: 9/8
+usul-adi: Aksak
+kalip: 2+2+2+3
+tempo: 93
+dizi: Gerdaniye
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, gerdaniye--turku--aksak--antalyanin_mor--antalya
+---
+[Söz]
+1 | Sol5:8=An- Sol5:8=tal- Sol5:16=ya- Fa5#3:16 Sol5:8.=nın Sol5:16=mor Sol5:8=ü- Fa5#3:16 Sol5:16=zü- Fa5#3:16 Sol5:8=mü/ Fa5#3:16
+2 | Sol5:16=Se- Sol5:8.=ver- Sol5:16=ler Fa5#3:16 Sol5:8=bo- Fa5#3:16 Sol5:16=yu Fa5#3:16=u- Sol5:16 Fa5#3:16 Sol5:16=zu- Mi5:16 Mi5:8=nu Re5:16
+3 | Sol5:16=a Fa5#3:16=ley- Sol5:16 Mi5:16 Mi5:5/16=lim/ Mi5:9/16
+4 | Re5:16=İ- Mi5:8.=ma- Mi5:8=mın Mi5:8.=kü- Mi5:8=çük Mi5:8=kı- Mi5:8=zı- Mi5:8=nı/ Re5:16
+5 | Mi5:16=Sar- Re5:16 Re5:8=sam Re5:16=ne Do5:16 Re5:16=za- Mi5:16 Do5:16 Re5:8=man Re5:16=ne Do5:16 Do5:16=za- Si4b2:16 Do5:16=man Re5:16 Si4b2:16
+6 | Si4b2:16=ne La4:8.=za- La4:5/16=man/ Mi5:8=Sev- Mi5:16=sem Re5:16 Re5:16=ne Do5:16 Re5:16=za- Mi5:16 Do5:16
+7 | Re5:8=man Re5:16=ne Si4b2:16 Do5:16=za- Si4b2:16 Do5:16=man Re5:16 Si4b2:16 Si4b2:16=ne La4:5/16=za- La4:8.=man/
+8 | Si4b2:16=Sa- Do5:16=ran Re5:8 Mi5:16=kol- Do5:16 Re5:8=lar Es:16 Mi5:16=yo- Do5:16 Re5:16 Si4b2:16 Do5:16=ru- Si4b2:16 Do5:16 Re5:8
+9 | (Do5)Si4b2:8.=lur Do5:16=mu Si4b2:16=bir La4:16 La4:8.=za- La4:9/16=man/
+10 | Si4b2:16=Sa- Do5:16=ran Re5:8 Mi5:16=kol- Do5:16 Re5:8=lar Es:16 Mi5:16=yo- Do5:16 Re5:16 Si4b2:16 Do5:16=ru- Si4b2:16 Do5:16 Re5:8
+11 | (Do5)Si4b2:8.=lur Do5:16=mu Si4b2:16=bir La4:16 La4:8.=za- La4:9/16=man/

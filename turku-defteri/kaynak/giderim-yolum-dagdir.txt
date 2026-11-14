@@ -1,0 +1,49 @@
+ad: Giderim Yolum Dağdır
+yore: 
+usul: 10/8
+usul-adi: K. Curcuna
+kalip: 3+2+2+3
+tempo: 126
+dizi: Yeni Çargah
+karar: Do
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, yeni_cargah--turku--kapali_curcuna--giderim_yolum--
+---
+[Aranağme]
+1 | Es:4. Fa5:4 Fa5:4 Mi5:4 Re5:8
+2 | Re5:4 Do5:8 Re5:4 Mi5:2 Es:8
+3 | Do5:4. Do5:4 Re5:4 Re5:4 (Mi5)Do5:8
+4 | Re5:8 Mi5:8 Do5:8 Re5:8 Si4:8 Do5:2 Es:8
+[Aranağme]
+5 | Es:4. Fa5:4 Fa5:4 Mi5:4 Re5:8
+6 | Re5:4 Do5:8 Re5:4 Mi5:2 Es:8
+7 | Do5:4. Do5:4 Re5:4 Re5:4 (Mi5)Do5:8
+8 | Re5:8 Mi5:8 Do5:8 Re5:8 Si4:8 Do5:2 Es:8
+[Söz]
+9 | Es:4 Sol4:8=Gi-* Do5:4=de-* Do5:4=rim* Do5:4.=yo-*
+10 | Re5:4=lum* Do5:8 Re5:4=dağ-* Mi5:2=dır/* Es:8
+11 | Fa5:4=Vay* Mi5:8=bu* Sol5:4=ne* Fa5:8=mey-* Mi5:8 Re5:4.=va-*
+12 | Fa5:4=lı* Mi5:8=bağ-* Re5:4 Do5:2=dır/* Es:8
+13 | Es:4 Sol4:8=Gi-* Do5:4=de-* Do5:4=rim* Do5:4.=yo-*
+14 | Re5:4=lum* Do5:8 Re5:4=dağ-* Mi5:2=dır/* Es:8
+15 | Fa5:4=Vay* Mi5:8=bu* Sol5:4=ne* Fa5:8=mey-* Mi5:8 Re5:4.=va-*
+16 | Fa5:4=lı* Mi5:8=bağ-* Re5:4 Do5:2=dır/* Es:8
+17 | Es:4 Fa5:8=Ben* Fa5:4=ka-* Fa5:4=za-* Mi5:4=nım* Re5:8
+18 | Re5:4=yâr* Do5:8 Re5:4=ye-* Mi5:2=sin/* Es:8
+19 | Do5:4=Ni-* Do5:4.=ce* Re5:4=ki* Re5:8=ca-* Mi5:8 Do5:8
+20 | Re5:4=nım* Do5:8=sağ-* Re5:8 Si4:8 Do5:2=dır/* Es:8
+21 | Es:4 Fa5:8=Ben* Fa5:4=ka-* Fa5:4=za-* Mi5:4=nım* Re5:8
+22 | Re5:4=yâr* Do5:8 Re5:4=ye-* Mi5:2=sin/* Es:8
+23 | Do5:4=Ni-* Do5:4.=ce* Re5:4=ki* Re5:8=ca-* Mi5:8 Do5:8
+24 | Re5:4=nım* Do5:8=sağ-* Re5:8 Si4:8 Do5:2=dır/* Es:8
+25 | Es:4. Fa5:4=Of* Fa5:4=of* Mi5:4 Re5:8
+26 | Re5:4=böy-* Do5:8 Re5:4=le* Mi5:2=kâr/* Es:8
+27 | Do5:4=Bu* Do5:4.=yıl* Re5:4=da* Re5:4=kal-* (Mi5)Do5:8
+28 | Re5:8=dık* Mi5:8 Do5:8 Re5:8=be-* Si4:8 Do5:2=kâr/* Es:8
+29 | Es:4. Fa5:4=Of* Fa5:4=of* Mi5:4 Re5:8
+30 | Re5:4=böy-* Do5:8 Re5:4=le* Mi5:2=kâr/* Es:8
+31 | Do5:4=Bu* Do5:4.=yıl* Re5:4=da* Re5:4=kal-* (Mi5)Do5:8
+32 | Re5:8=dık* Mi5:8 Do5:8 Re5:8=be-* Si4:8 Do5:2=kâr/* Es:8

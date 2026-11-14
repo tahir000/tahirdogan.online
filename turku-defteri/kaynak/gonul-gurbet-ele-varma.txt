@@ -1,0 +1,48 @@
+ad: Gönül Gurbet Ele Varma
+yore: Gaziantep
+usul: 8/16
+usul-adi: Müsemmen II (8/16)
+tempo: 66
+dizi: Tahir
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, tahir--turku--musemmen_ii--gonul_gurbet--gaziantep
+---
+[Aranağme]
+1 | Es:8 Fa5#3:16 Sol5:16 La5:8 La5:8
+2 | La5:16 Sol5:16 Si5b2:16 La5:16 La5:16 Fa5#3:16 Sol5:8
+3 | Sol5:16 Fa5#3:16 La5:16 Sol5:16 Sol5:16 Fa5#3:16 Fa5#3:8
+4 | Fa5#3:16 Mi5:16 Sol5:16 Fa5#3:16 Fa5#3:16 Mi5:16 Mi5:8
+5 | Mi5:16 Re5:16 Fa5:16 Mi5:16 Mi5:16 Re5:16 Re5:8
+6 | Re5:16 Do5:16 Mi5:16 Re5:16 Re5:16 Si4b2:16 Do5:8
+7 | Do5:16 Si4b2:16 Re5:16 Do5:16 Do5:16 Si4b2:16 Si4b2:8
+8 | Si4b2:16 La4:16 Do5:16 Si4b2:16 Si4b2:16 La4:16 La4:8
+9 | La4:8 La4:16 La4:16 La4:8 La4:8
+[Söz]
+10 | La4:8 Fa5#3:16=Gö-* Sol5:16=nül* La5:8=gur-* La5:8=bet*
+11 | La5:16=e-* Sol5:16=le* Si5b2:16 La5:16 La5:8=var-* La5:8=ma/*
+12 | La5:16=Gö-* Sol5:16=nül* Si5b2:16 La5:16 La5:8=gur-* La5:8=bet*
+13 | La5:16=e-* Sol5:16=le* Si5b2:16 La5:16 La5:8=var-* La5:8=ma/*
+14 | Es:8 Sol5:16=Ya* Sol5:16=ge-* Sol5:16=li-* Sol5:8.=nir*
+15 | Sol5:16=ya* Fa5#3:16=ge-* La5:16 Sol5:16 Sol5:16=lin-* Fa5#3:16 Fa5#3:8=mez/*
+16 | Fa5#3:16=Her* Mi5:16 Sol5:16=gü-* Fa5#3:16 Fa5#3:16=ze-* Mi5:16 Mi5:8=le*
+17 | Mi5:16=me-* Re5:16=yil* Fa5:16 Mi5:16 Mi5:16=ver-* Re5:16 Re5:8=me/*
+18 | Re5:16=Ya* Do5:16=se-* Mi5:16 Re5:16 Re5:16=vi-* Si4b2:16 Do5:8=lir*
+19 | Do5:16=ya* Si4b2:16=se-* Re5:16 Do5:16 Do5:16=vil-* Si4b2:16 Si4b2:8=mez/*
+20 | Si4b2:16=Gel* La4:16=ey* Do5:16 Si4b2:16=gel* Si4b2:16 (Si4b2)La4:8.=ey*
+21 | La4:4=ey/* Fa5#3:32 Mi5:32 Re5:32 Do5:32 Re5:8
+22 | Es:8 Do5:16=Her* Re5:16=gü-* Re5:8=ze-* Re5:8=le*
+23 | Re5:16=me-* Do5:16=yil* Mi5:16 Re5:16 Re5:8=ver-* Re5:8=me/*
+24 | Re5:16=He-* Do5:16=ri* Mi5:16=gü-* Re5:16 Re5:8=ze-* Re5:8=le*
+25 | Re5:16=me-* Do5:16=yil* Mi5:16 Re5:16 Re5:8=ver-* Re5:16=me/* Mi5:32 Fa5#3:32
+26 | Sol5:8 Fa5#3:16=Ya* Sol5:16=se-* Sol5:16=vi-* Sol5:8.=lir*
+27 | Sol5:16=ya* Fa5#3:16=se-* La5:16 Sol5:16 Sol5:16=vil-* Fa5#3:16 Fa5#3:8=mez/*
+28 | Fa5#3:16=Gel* Mi5:16 Sol5:16=gü-* Fa5#3:16 Fa5#3:16=lüm* Mi5:16 Mi5:8=gel*
+29 | Mi5:16=gel* Re5:16 Fa5:16=tel-* Mi5:16 Mi5:16=lim* Re5:16 Re5:8=gel/*
+30 | Re5:16=Gel* Do5:16 Mi5:16=naz-* Re5:16 Re5:16=lım* Si4b2:16 Do5:8=gel/*
+31 | Do5:16=Gel* Si4b2:16=ey* Re5:16 Do5:16 Do5:16=gel* Si4b2:16=ey* Si4b2:8
+32 | Si4b2:16=gel* La4:16=ey* Do5:16 Si4b2:16 Si4b2:16=gel* La4:8.=ey*
+33 | La4:2=ey/*

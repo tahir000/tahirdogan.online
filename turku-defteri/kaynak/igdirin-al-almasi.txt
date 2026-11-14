@@ -1,0 +1,44 @@
+ad: Iğdır'ın Al Alması
+yore: Iğdır
+usul: 6/4
+usul-adi: Yürüksemai II (6/4)
+tempo: 150
+dizi: Buselik
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, buselik--turku--yuruksemai_ii--igdirin_al--igdir
+---
+[Aranağme]
+1 | Do5:4. Mi5:8 Re5:8 Mi5:8 Re5:4 Do5:4 Si4:4
+2 | Si4:4. Re5:8 Do5:8 Re5:8 Do5:4 Si4:4 La4:4
+3 | La4:4. Do5:8 Si4:8 Do5:8 Si4:4 La4:4 Sol4#:4
+4 | La4:4 La4:4 Si4:4 Do5:4 Re5:4 Mi5:4
+[Aranağme]
+5 | Do5:4. Mi5:8 Re5:8 Mi5:8 Re5:4 Do5:4 Si4:4
+6 | Si4:4. Re5:8 Do5:8 Re5:8 Do5:4 Si4:4 La4:4
+7 | La4:4. Do5:8 Si4:8 Do5:8 Si4:4 La4:4 Sol4#:4
+8 | La4:2 Mi5:8 Fa5:8 Mi5:8 Re5:8 Do5:8 Si4:8 La4:4
+[Söz]
+9 | Do5:4=Iğ-* Si4:4=dır* La4:4=ın* Si4:4=al* La4:4=al-* Sol4#:4=ma-*
+10 | La4:4=sı* Es:4 Re5:4=ay* Re5:4=ba-* Si4:4=lam/* Si4:4
+11 | Do5:4=Ye-* Si4:4=me-* La4:4=ye* Si4:4=bal* La4:4=al-* Sol4#:4=ma-*
+12 | La4:2=sı/* Mi5:8 Fa5:8 Mi5:8 Re5:8 Do5:8 Si4:8 La4:4
+13 | Do5:4=Iğ-* Si4:4=dır* La4:4=ın* Si4:4=al* La4:4=al-* Sol4#:4=ma-*
+14 | La4:4=sı* Es:4 Re5:4=ay* Re5:4=ba-* Si4:4=lam/* Si4:4
+15 | Do5:4=Ye-* Si4:4=me-* La4:4=ye* Si4:4=bal* La4:4=al-* Sol4#:4=ma-*
+16 | La4:2=sı/* Mi5:8 Fa5:8 Mi5:8 Re5:8 Do5:8 Si4:8 La4:4
+17 | La4:4=Yâr* Mi5:8=ge-* Mi5:4.=len-* Mi5:8=den* Re5:8 Do5:4.=son-* Si4:8
+18 | Re5:4=ra/* Do5:4 Si4:4 Do5:4 Re5:2
+19 | Do5:4=Ya-* Si4:4=ra-* La4:4=mın* Si4:4=sağ* La4:4=al-* Sol4#:4=ma-*
+20 | La4:4=sı/* Es:4 Si4:4.=Ö-* Do5:8=lü-* Re5:4.=rem* Es:8
+21 | Do5:4=ö-* Do5:8 Mi5:8=lü-* Re5:4=rem* Re5:4 Do5:8=yâr/* Si4:4.
+22 | Si4:4=Ye-* Si4:8 Re5:8=ti-* Do5:4=mem* Do5:4 Si4:8=yâr* La4:4.
+23 | Do5:8=ye-* Si4:4 Do5:8=ti-* Si4:4=mem* Si4:4 La4:8=yâr* Sol4#:4.
+24 | La4:4=yâr/* Es:4 Mi5:4=Ay* Mi5:8=ba-* Fa5:8=lam* Mi5:8=ay/* Re5:8 (Mi5)Re5:8 Do5:8
+25 | Do5:4=Se-* Re5:8 Mi5:8=vi-* Re5:4=rem* Re5:4 Do5:8=yâr* Si4:4.
+26 | Do5:4=se-* Do5:8 Re5:8=vi-* Do5:4=rem* Do5:4 Si4:8=yâr* La4:4.
+27 | Si4:4=se-* Si4:8 Do5:8=vi-* Si4:4=rem* Si4:4 La4:8=yâr* Sol4#:4.
+28 | La4:4=yâr/* La4:8 La4:8 La4:8 La4:8 La4:4 La4:2

@@ -1,0 +1,74 @@
+ad: Bülbülüm Altın Kafeste
+yore: 
+usul: 9/8
+usul-adi: Aksak
+kalip: 2+2+2+3
+tempo: 72
+dizi: Muhayyerkürdi
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, muhayyerkurdi--turku--aksak--bulbulum_altin--
+---
+[Aranağme]
+1 | Fa5:8 Fa5:16 Fa5:16 Fa5:8 Fa5:8 Mi5:8 Fa5:8 La5:16 Sol5:16 Fa5:16 Mi5:16 Re5:8
+2 | Do5:8 Do5:16 Mi5:16 Re5:8 Do5:8 Si4b:8 Si4b:16 La4:16 La4:16 Si4b:16 Do5:16 Re5:16 Mi5:16 Fa5:16
+3 | Fa5:8 Fa5:16 Fa5:16 Fa5:8 Fa5:8 Mi5:8 Fa5:8 La5:16 Sol5:16 Fa5:16 Mi5:16 Re5:8
+4 | Do5:8 Do5:16 Mi5:16 Re5:8 Do5:8 Si4b:8 Si4b:16 La4:16 La4:4.
+[Aranağme]
+5 | Fa5:8 Fa5:16 Fa5:16 Fa5:8 Fa5:8 Mi5:8 Fa5:8 La5:16 Sol5:16 Fa5:16 Mi5:16 Re5:8
+6 | Do5:8 Do5:16 Mi5:16 Re5:8 Do5:8 Si4b:8 Si4b:16 La4:16 La4:16 Si4b:16 Do5:16 Re5:16 Mi5:16 Fa5:16
+7 | Fa5:8 Fa5:16 Fa5:16 Fa5:8 Fa5:8 Mi5:8 Fa5:8 La5:16 Sol5:16 Fa5:16 Mi5:16 Re5:8
+8 | Do5:8 Do5:16 Mi5:16 Re5:8 Do5:8 Si4b:8 Si4b:16 La4:16 La4:4.
+[Söz]
+9 | La5:4 La5:8=Bül- La5:8=bü- La5:8.=lüm Sol5:16 Sol5:16=al- (La5)Sol5:16 Fa5:16 Mi5:16 Re5:8
+10 | Do5:4=tın Re5:8=ka- Mi5:8 Sol5:16=fes- Fa5:16 Fa5:16 Mi5:16 Fa5:16=te/ Sol5:16 Fa5:16 (Sol5)Fa5:16 Sol5:16 (La5)Sol5:16
+11 | La5:4 La5:8=Bül- La5:8=bü- La5:8.=lüm Sol5:16 Sol5:16=al- (La5)Sol5:16 Fa5:16 Mi5:16 Re5:8
+12 | Do5:4=tın Re5:8=ka- Mi5:8 Sol5:16=fes- Fa5:16 Fa5:16 Mi5:16 Fa5:16=te/ Sol5:16 Fa5:16 (Sol5)Fa5:16 Sol5:16 (La5)Sol5:16
+13 | La5:4 La5:8=Ö- La5:8=ter La5:8=â- Sol5:8 La5:16=hes- Sol5:16 Fa5:16 Mi5:16 Re5:8
+14 | Do5:8.=te Mi5:16 Re5:8 Do5:8=â- Si4b:8=hes- Si4b:16 La4:16 La4:16=te/ (Si4b)La4:16 Si4b:16 (Do5)Si4b:16 Do5:16 (Re5)Do5:16
+15 | Re5:4 La5:8=Ö- La5:8=ter La5:8=â- Sol5:8 La5:16=hes- Sol5:16 Fa5:16 Mi5:16 Re5:8
+16 | Do5:8.=te Mi5:16 Re5:8 Do5:8=â- Si4b:8=hes- Si4b:16 La4:16 La4:8.=te/ Mi5:16 Fa5:16 Sol5:16
+17 | La5:4 La5:8=Öt- La5:8=me La5:8.=bül- Sol5:16 Sol5:16=bül (La5)Sol5:16 Fa5:16 Mi5:16 Re5:8
+18 | Do5:4=yâ- Re5:8=rim Mi5:8 Fa5:8=has- Fa5:16 Mi5:16 Fa5:16=ta/ Sol5:16 Fa5:16 (Sol5)Fa5:16 Sol5:16 (La5)Sol5:16
+19 | La5:4 La5:8=Öt- La5:8=me La5:8.=bül- Sol5:16 Sol5:16=bül (La5)Sol5:16 Fa5:16 Mi5:16 Re5:8
+20 | Do5:4=yâ- Re5:8=rim Mi5:8 Fa5:8=has- Fa5:16 Mi5:16 Fa5:16=ta/ Sol5:16 Fa5:16 (Sol5)Fa5:16 Sol5:16 (La5)Sol5:16
+21 | La5:4 La5:8=Ah La5:8=ney- La5:8=le- Sol5:8 La5:16=yim Sol5:16 Fa5:16 Mi5:16 Re5:8
+22 | Do5:8.=şu Mi5:16 Re5:8 Do5:8=gön- Si4b:8=lü- Si4b:16 La4:16 La4:16=me/ (Si4b)La4:16 Si4b:16 (Do5)Si4b:16 Do5:16 (Re5)Do5:16
+23 | Re5:4 La5:8=Has- La5:8=ret La5:8=kal- La5:8 La5:16=dım Sol5:16 Fa5:16 Mi5:16 Re5:8
+24 | Do5:8.=sev- Mi5:16 Re5:8 Do5:8=di- Si4b:8=ği- Si4b:16 La4:16 La4:16=me/ Si4b:16 Do5:16 Re5:16 Mi5:16 Fa5:16
+25 | Fa5:8=Ben Fa5:16=sa- Fa5:16=na Fa5:8=da- Fa5:8=ya- Mi5:8=na- Fa5:8=mam La5:16=yâ- Sol5:16 Fa5:16=rim/ Mi5:16 Re5:8
+26 | Do5:8=Ben Do5:16=sa- Mi5:16=na Re5:8=al- Do5:8=da- Si4b:8=na- Si4b:16 La4:16 La4:16=mam/ Si4b:16 Do5:16 Re5:16 Mi5:16 Fa5:16
+27 | Fa5:8=Ben Fa5:16=sa- Fa5:16=na Fa5:8=da- Fa5:8=ya- Mi5:8=na- Fa5:8=mam La5:16=yâ- Sol5:16 Fa5:16=rim/ Mi5:16 Re5:8
+28 | Do5:8=Ben Do5:16=sa- Mi5:16=na Re5:8=al- Do5:8=da- Si4b:8=na- Si4b:16 La4:16 La4:16=mam/ Si4b:16 Do5:16 Re5:16 Mi5:16 Fa5:16
+[Aranağme]
+29 | Fa5:8 Fa5:16 Fa5:16 Fa5:8 Fa5:8 Mi5:8 Fa5:8 La5:16 Sol5:16 Fa5:16 Mi5:16 Re5:8
+30 | Do5:8 Do5:16 Mi5:16 Re5:8 Do5:8 Si4b:8 Si4b:16 La4:16 La4:16 Si4b:16 Do5:16 Re5:16 Mi5:16 Fa5:16
+31 | Fa5:8 Fa5:16 Fa5:16 Fa5:8 Fa5:8 Mi5:8 Fa5:8 La5:16 Sol5:16 Fa5:16 Mi5:16 Re5:8
+32 | Do5:8 Do5:16 Mi5:16 Re5:8 Do5:8 Si4b:8 Si4b:16 La4:16 La4:4.
+[Aranağme]
+33 | Fa5:8 Fa5:16 Fa5:16 Fa5:8 Fa5:8 Mi5:8 Fa5:8 La5:16 Sol5:16 Fa5:16 Mi5:16 Re5:8
+34 | Do5:8 Do5:16 Mi5:16 Re5:8 Do5:8 Si4b:8 Si4b:16 La4:16 La4:16 Si4b:16 Do5:16 Re5:16 Mi5:16 Fa5:16
+35 | Fa5:8 Fa5:16 Fa5:16 Fa5:8 Fa5:8 Mi5:8 Fa5:8 La5:16 Sol5:16 Fa5:16 Mi5:16 Re5:8
+36 | Do5:8 Do5:16 Mi5:16 Re5:8 Do5:8 Si4b:8 Si4b:16 La4:16 La4:4.
+[Söz]
+37 | La5:4 La5:8=Bül- La5:8=bü- La5:8.=lüm Sol5:16 Sol5:16=al- (La5)Sol5:16 Fa5:16 Mi5:16 Re5:8
+38 | Do5:4=tın Re5:8=ka- Mi5:8 Sol5:16=fes- Fa5:16 Fa5:16 Mi5:16 Fa5:16=te/ Sol5:16 Fa5:16 (Sol5)Fa5:16 Sol5:16 (La5)Sol5:16
+39 | La5:4 La5:8=Bül- La5:8=bü- La5:8.=lüm Sol5:16 Sol5:16=al- (La5)Sol5:16 Fa5:16 Mi5:16 Re5:8
+40 | Do5:4=tın Re5:8=ka- Mi5:8 Sol5:16=fes- Fa5:16 Fa5:16 Mi5:16 Fa5:16=te/ Sol5:16 Fa5:16 (Sol5)Fa5:16 Sol5:16 (La5)Sol5:16
+41 | La5:4 La5:8=Ö- La5:8=ter La5:8=â- Sol5:8 La5:16=hes- Sol5:16 Fa5:16 Mi5:16 Re5:8
+42 | Do5:8.=te Mi5:16 Re5:8 Do5:8=â- Si4b:8=hes- Si4b:16 La4:16 La4:16=te/ (Si4b)La4:16 Si4b:16 (Do5)Si4b:16 Do5:16 (Re5)Do5:16
+43 | Re5:4 La5:8=Ö- La5:8=ter La5:8=â- Sol5:8 La5:16=hes- Sol5:16 Fa5:16 Mi5:16 Re5:8
+44 | Do5:8.=te Mi5:16 Re5:8 Do5:8=â- Si4b:8=hes- Si4b:16 La4:16 La4:8.=te/ Mi5:16 Fa5:16 Sol5:16
+45 | La5:4 La5:8=Öt- La5:8=me La5:8.=bül- Sol5:16 Sol5:16=bül (La5)Sol5:16 Fa5:16 Mi5:16 Re5:8
+46 | Do5:4=yâ- Re5:8=rim Mi5:8 Fa5:8=has- Fa5:16 Mi5:16 Fa5:16=ta/ Sol5:16 Fa5:16 (Sol5)Fa5:16 Sol5:16 (La5)Sol5:16
+47 | La5:4 La5:8=Öt- La5:8=me La5:8.=bül- Sol5:16 Sol5:16=bül (La5)Sol5:16 Fa5:16 Mi5:16 Re5:8
+48 | Do5:4=yâ- Re5:8=rim Mi5:8 Fa5:8=has- Fa5:16 Mi5:16 Fa5:16=ta/ Sol5:16 Fa5:16 (Sol5)Fa5:16 Sol5:16 (La5)Sol5:16
+49 | La5:4 La5:8=Ah La5:8=ney- La5:8=le- Sol5:8 La5:16=yim Sol5:16 Fa5:16 Mi5:16 Re5:8
+50 | Do5:8.=şu Mi5:16 Re5:8 Do5:8=gön- Si4b:8=lü- Si4b:16 La4:16 La4:16=me/ (Si4b)La4:16 Si4b:16 (Do5)Si4b:16 Do5:16 (Re5)Do5:16
+51 | Re5:4 La5:8=Has- La5:8=ret La5:8=kal- La5:8 La5:16=dım Sol5:16 Fa5:16 Mi5:16 Re5:8
+52 | Do5:8.=sev- Mi5:16 Re5:8 Do5:8=di- Si4b:8=ği- Si4b:16 La4:16 La4:16=me/ Si4b:16 Do5:16 Re5:16 Mi5:16 Fa5:16
+53 | Fa5:8=Ben Fa5:16=sa- Fa5:16=na Fa5:8=da- Fa5:8=ya- Mi5:8=na- Fa5:8=mam La5:16=yâ- Sol5:16 Fa5:16=rim/ Mi5:16 Re5:8
+54 | Do5:8=Ben Do5:16=sa- Mi5:16=na Re5:8=al- Do5:8=da- Si4b:8=na- Si4b:16 La4:16 La4:16=mam/ Es:5/16

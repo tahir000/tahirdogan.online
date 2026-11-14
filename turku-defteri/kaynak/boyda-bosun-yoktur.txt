@@ -1,0 +1,40 @@
+ad: Boyda Bosun Yoktur
+yore: İstanbul
+usul: 9/8
+usul-adi: Aksak
+kalip: 2+2+2+3
+tempo: 78
+dizi: Segah
+karar: Si bemol 2
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, segah--turku--aksak--boyda_bosun--istanbul
+---
+[Aranağme]
+1 | Es:4 Mi5b2:8 Fa5#:8 Sol5:4 Sol5:16 La5:16 Sol5:8 Fa5#:16 Mi5b2:16
+2 | Re5:4 Mi5b2:8 Fa5:8 Fa5:8 Mi5b2:8 Re5:16 Mi5b2:16 Re5:8 Do5:8
+3 | Si4b2:4 Si4b2:8 Si4b2:8 Si4b2:4 Sol5:8 Fa5#:8 Mi5b2:8
+4 | Re5:8. Si4b2:16 Re5:16 Do5:16 Do5:16 Si4b2:16 Si4b2:2 Es:8
+[Söz]
+5 | Es:4 Si4b2:8=Boy-* Do5:8=da* Re5:4=bo-* Re5:4=sun* Mi5b2:8
+6 | Re5:4 Mi5b2:8=yok-* Fa5:8=tur* Fa5:8=he-* Mi5b2:8 Re5:16=rif* Mi5b2:16 Re5:8 Do5:8=a-*
+7 | Si4b2:4=man/* Sol5:8=Şa-* Sol5:8=ma-* Sol5:4=ma-* Sol5:16=sın* La5:16 Sol5:8 Fa5#:8
+8 | Fa5#:8.=şa-* Mi5b2:16 Re5:8 Mi5b2:8=ma-* Fa5#:5/8=ma/*
+9 | Es:4 Si4b2:8=Boy-* Do5:8=da* Re5:4=bo-* Re5:4=sun* Mi5b2:8
+10 | Re5:4 Mi5b2:8=yok-* Fa5:8=tur* Fa5:8=he-* Mi5b2:8 Re5:16=rif* Mi5b2:16 Re5:8 Do5:8=a-*
+11 | Si4b2:4=man/* Sol5:8=Şa-* Sol5:8=ma-* Sol5:4=ma-* Sol5:16=sın* La5:16 Sol5:8 Fa5#:8
+12 | Fa5#:8.=şa-* Mi5b2:16 Re5:8 Mi5b2:8=ma-* Fa5#:5/8=ma/*
+13 | Es:4 Mi5b2:8=Ay-* Fa5#:8=da* Sol5:4=bir* Sol5:16=ke-* La5:16 Sol5:8 Fa5#:16 Mi5b2:16
+14 | Re5:4 Mi5b2:8=re-* Fa5:8=cik* Fa5:8=ol-* Mi5b2:8 Re5:16=sun* Mi5b2:16 Re5:8 Do5:8=a-*
+15 | Si4b2:4=man/* Si4b2:8=Gön-* Si4b2:8=der-* Si4b2:4=mez-* Sol5:8=sin* Fa5#:8 Mi5b2:8
+16 | Re5:8. Si4b2:16 Re5:16=ha-* Do5:16 Do5:16=ma-* Si4b2:16 Si4b2:4=ma* Fa5#:4.=ah/*
+17 | Es:4 Mi5b2:8=Ay-* Fa5#:8=da* Sol5:4=bir* Sol5:16=ke-* La5:16 Sol5:8 Fa5#:16 Mi5b2:16
+18 | Re5:4 Mi5b2:8=re-* Fa5:8=cik* Fa5:8=ol-* Mi5b2:8 Re5:16=sun* Mi5b2:16 Re5:8 Do5:8=a-*
+19 | Si4b2:4=man/* Si4b2:8=Gön-* Si4b2:8=der-* Si4b2:4=mez-* Sol5:8=sin* Fa5#:8 Mi5b2:8
+20 | Re5:8. Si4b2:16 Re5:16=ha-* Do5:16 Do5:16=ma-* Si4b2:16 Si4b2:2=ma/* Es:8
+21 | Es:4 Mi5b2:8=Çe-* Fa5#:8=ke-* Sol5:4=mem* Sol5:16=kah-* La5:16 Sol5:8 Fa5#:16 Mi5b2:16
+22 | Re5:4 Mi5b2:8=rı-* Fa5:8=nı* Fa5:8=ser-* Mi5b2:8 Re5:16=hoş* Mi5b2:16 Re5:8 Do5:8=he-*
+23 | Si4b2:4=rif/* Si4b2:8=İs-* Si4b2:8=te-* Si4b2:4=mem* Sol5:8=be-* Fa5#:8 Mi5b2:8
+24 | Re5:8. Si4b2:16 Re5:16=ni* Do5:16 Do5:16=bı-* Si4b2:16 Si4b2:2=rak/* Es:8

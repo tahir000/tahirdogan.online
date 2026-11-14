@@ -44,6 +44,13 @@ Kıtaya özel ölçü:   17 @2 | Es:4 Re5:8=Ça- ...
 Bölüm başlığı:   [Aranağme]   [Söz]   [Saz]
   Kendinden sonraki ölçüden başlayan bölümün adı.
 
+Usul değişimi:   {usul 6/4 Senginsemai}
+  Kendinden sonraki ölçülerden başlayarak usul değişir (türkü içinde ölçü sayısı değişiyorsa).
+
+Üst bilgide ayrıca:
+  secki: pilot              listede "ilk denenecekler" arasında gösterilir
+  ceviri: toplu | elle      toplu çeviriden geldiyse "toplu"; elle düzeltilince "elle" yapılır
+
 "#" ile başlayan satır açıklamadır, derlemeye girmez.
 """
 import io
@@ -137,6 +144,8 @@ def dosya_coz(yol, kimlik):
 
     olculer = []
     bekleyen_bolum = None
+    simdiki_usul = (pay, payda)
+    degisken = False
     for no, satir in enumerate(govde.splitlines(), 1):
         satir = satir.strip()
         if not satir or satir.startswith("#"):
@@ -144,6 +153,10 @@ def dosya_coz(yol, kimlik):
         m = re.match(r"^\[(.+)\]$", satir)
         if m:
             bekleyen_bolum = m.group(1)
+            continue
+        m = re.match(r"^\{usul (\d+)/(\d+)(?: .*)?\}$", satir)
+        if m:
+            simdiki_usul = (int(m.group(1)), int(m.group(2)))
             continue
         m = re.match(r"^(\d+)(?: @(\d+))? \| (.+)$", satir)
         if not m:
@@ -163,8 +176,8 @@ def dosya_coz(yol, kimlik):
                 if h:
                     n["h"] = h
             notalar.append(n)
-        if toplam != olcu_boyu:
-            raise Hata("%s: süre toplamı %s, usul %s" % (yer + (" @" + ozel if ozel else ""), toplam, olcu_boyu))
+        if toplam != Fraction(*simdiki_usul):
+            raise Hata("%s: süre toplamı %s, usul %d/%d" % ((yer + (" @" + ozel if ozel else ""), toplam) + simdiki_usul))
         if ozel:
             if sira != len(olculer):
                 raise Hata("%s: kıtaya özel ölçü kendi ölçüsünden hemen sonra gelmeli" % yer)
@@ -173,6 +186,9 @@ def dosya_coz(yol, kimlik):
             if sira != len(olculer) + 1:
                 raise Hata("%s: ölçü numarası sırayı bozuyor (beklenen %d)" % (yer, len(olculer) + 1))
             olcu = {"n": notalar}
+            if simdiki_usul != (pay, payda):
+                olcu["u"] = list(simdiki_usul)
+                degisken = True
             if bekleyen_bolum:
                 olcu["b"] = bekleyen_bolum
                 bekleyen_bolum = None
@@ -193,7 +209,7 @@ def dosya_coz(yol, kimlik):
         "tempo": int(bilgi["tempo"]), "dizi": bilgi.get("dizi", ""), "karar": bilgi.get("karar", "La"),
         "duzen": bilgi.get("duzen", "bozuk"), "zorluk": bilgi.get("zorluk", "orta"),
         "durum": bilgi["durum"], "kaynak": bilgi["kaynak"], "aciklama": bilgi.get("not", ""),
-        "kita": kita, "olculer": olculer,
+        "kita": kita, "degisken": degisken, "pilot": bilgi.get("secki", "") == "pilot", "olculer": olculer,
     }
 
 
@@ -230,6 +246,8 @@ def main():
             "usulAdi": t["usul"]["ad"], "dizi": t["dizi"], "zorluk": t["zorluk"], "durum": t["durum"],
             "olcu": len(t["olculer"]), "kita": t["kita"],
         })
+        if t["pilot"]:
+            dizin[-1]["pilot"] = 1
     if hatalar:
         print("DERLENEMEDİ:")
         for h in hatalar:

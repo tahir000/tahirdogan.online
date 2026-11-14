@@ -1,0 +1,39 @@
+ad: Bir Fındığın İçini...
+yore: 
+usul: 9/8
+usul-adi: Çiftesofyan
+kalip: 2+2+2+3
+tempo: 108
+dizi: Segah
+karar: Si bemol 2
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, segah--turku--ciftesofyan--bir_findigin--
+---
+[Söz]
+1 | Es:4 Re5:8=Bir* Mi5:4=fın-* Mi5:4=dı-* Mi5:4=ğın*
+2 | Mi5:2=i-* Re5:8 Mi5:4=çi-* Re5:4=ni/*
+3 | Es:4 Re5:8=Bir* Mi5:4=fın-* Mi5:4=dı-* Mi5:4=ğın*
+4 | Mi5:2=i-* Re5:8 Mi5:4=çi-* Re5:4=ni/*
+5 | Es:4 Sol5:8=Yâr* Fa5#:8=sen-* Sol5:8 Mi5:4=den* Re5:8=ay-* Do5:8
+6 | Re5:4=rı* Si4b2:4 Re5:8 Do5:4=ye-* Si4b2:8=mem/* Es:8
+7 | Es:4 Re5:8=Yâr* Re5:4=sen-* Re5:4=den* Re5:4=ay-*
+8 | Re5:4=rı* Si4b2:4 Re5:8 Do5:4=ye-* Si4b2:8=mem/* Es:8
+9 | Es:4 Re5:8=Bu-* Mi5:4=gün* Mi5:4=gör-* Mi5:4=düm*
+10 | Mi5:2=yâ-* Re5:8 Mi5:4=ri-* Re5:4=mi/*
+11 | Es:4 Re5:8=Bu-* Mi5:4=gün* Mi5:4=gör-* Mi5:4=düm*
+12 | Mi5:2=yâ-* Re5:8 Mi5:4=ri-* Re5:4=mi/*
+13 | Es:4 Sol5:8=Öl-* Fa5#:8=dü-* Sol5:8 Mi5:4=ğü-* Re5:8=me* Do5:8
+14 | Re5:4=gam* Si4b2:4 Re5:8 Do5:4=ye-* Si4b2:8=mem/* Es:8
+15 | Es:4 Re5:8=Öl-* Re5:4=dü-* Re5:4=ğü-* Re5:4=me*
+16 | Re5:4=gam* Si4b2:4 Re5:8 Do5:4=ye-* Si4b2:8=mem/* Es:8
+17 | Es:4 Sol5:4=Al-* Mi5:8=dır* Mi5:8=as-* Re5:8 Re5:4=la-*
+18 | Re5:4=nım* Si4b2:4 Re5:8 Do5:4=al-* Si4b2:4=dır/*
+19 | Es:4 Re5:4=Al-* Re5:8=ya-* Re5:4=nak-* Re5:4=la-*
+20 | Re5:4=rın* Si4b2:4 Re5:8 Do5:4=bal-* Si4b2:8=dır/* Es:8
+21 | Es:4 Re5:8=Kı-* Re5:4=na-* Re5:4=lı* Re5:4=el-*
+22 | Re5:4=le-* Si4b2:4 Re5:8 Do5:4=rin-* Si4b2:8=le/* Es:8
+23 | Es:4 Re5:8=Be-* Re5:4=ni* Re5:4=uy-* Re5:4=ku-*
+24 | Re5:4=dan* Si4b2:4 Re5:8 Do5:4=kal-* Si4b2:8=dır/* Es:8

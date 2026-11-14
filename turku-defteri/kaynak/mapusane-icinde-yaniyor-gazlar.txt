@@ -1,0 +1,46 @@
+ad: Mapusane İçinde Yanıyor Gazlar
+yore: Bartın
+usul: 8/8
+usul-adi: Düyek
+tempo: 81
+dizi: Ferahnak
+karar: Fa diyez
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, ferahnak--turku--duyek--mapusane_icinde--bartin
+---
+[Söz]
+1 | Es:4 Fa4#:8=Ma-* Sol4:8=pu-* La4:4=sa-* La4:4=ne*
+2 | Si4:8=i-* (Do5#)Si4:16=çin-* La4:16 Si4:8 Do5#:8 La4:4=de* Es:4
+3 | Re5:8=ya-* Re5:4=nı-* Do5#:8 Si4:4=yor* Re5:4=gaz-*
+4 | Do5#:8=lar/* Re5:8 Si4:8 Do5#:8 La4:8 Sol4:8 Fa4#:4
+5 | Es:4 Fa4#:8=Ma-* Sol4:8=pu-* La4:4=sa-* La4:4=ne*
+6 | Si4:8=i-* (Do5#)Si4:16=çin-* La4:16 Si4:8 Do5#:8 La4:4=de* Es:4
+7 | Re5:8=ya-* Re5:4=nı-* Do5#:8 Si4:4=yor* Re5:4=gaz-*
+8 | Do5#:8.=lar/* Re5:16 Do5#:8 Si4:8 La4:4 Es:4
+9 | Re5:4=Bay-* Re5:4=ram-* (Re5)Do5:8=dan* Si4:8 La4:4=bay-*
+10 | Do5:8=ra-* Do5:4=ma* Si4:8=da* La4:8=a* Sol4:8=ca-* Fa4#:4=nım*
+11 | La4:8=ça-* La4:8=lı-* Sol4:16 La4:16 Fa4#:8 Mi4:16=nır* Fa4#:16 Re4:8 Sol4:8=saz-* Fa4#:8
+12 | Fa4#:2=lar/* Es:2
+13 | Re5:4=Bay-* Re5:4=ram-* (Re5)Do5:8=dan* Si4:8 La4:4=bay-*
+14 | Do5:8=ra-* Do5:4=ma* Si4:8=da* La4:8=a* Sol4:8=ca-* Fa4#:4=nım*
+15 | La4:8=ça-* La4:8=lı-* Sol4:16 La4:16 Fa4#:8 Mi4:16=nır* Fa4#:16 Re4:8 Sol4:8=saz-* Fa4#:8
+16 | Fa4#:2=lar/* Es:2
+17 | Es:4 Fa4#:8=Ki-* Sol4:8=mi-* La4:4=nin* La4:4=an-*
+18 | Si4:8=ne-* (Do5#)Si4:16=si* La4:16 Si4:8 Do5#:8 La4:4=ağ-* La4:4=lar*
+19 | Re5:8=ki-* Re5:4=mi-* Do5#:8 Si4:4=ne* Re5:4=kız-*
+20 | Do5#:8=lar/* Re5:8 Si4:8 Do5#:8 La4:8 Sol4:8 Fa4#:4
+21 | Es:4 Fa4#:8=Ki-* Sol4:8=mi-* La4:4=nin* La4:4=an-*
+22 | Si4:8=ne-* (Do5#)Si4:16=si* La4:16 Si4:8 Do5#:8 La4:4=ağ-* La4:4=lar*
+23 | Re5:8=ki-* Re5:4=mi-* Do5#:8 Si4:4=ne* Re5:4=kız-*
+24 | Do5#:8.=lar/* Re5:16 Do5#:8 Si4:8 La4:4 Es:4
+25 | Re5:4=Böy-* Re5:8=le* Re5:8=de* (Re5)Do5:8=düş-* Si4:8 La4:8=tüm* Es:8
+26 | La4:4=zın-* Do5:8=da-* Si4:8 La4:8=na* Sol4:8 Fa4#:4
+27 | La4:8=ya-* La4:8=nar* Sol4:16=ya-* La4:16 Fa4#:8=nar* Mi4:16=ağ-* Fa4#:16 Re4:8 Sol4:8=la-* Fa4#:8
+28 | Fa4#:2=rım/* Es:2
+29 | Re5:8=De-* Re5:4=mir* Re5:8=de* Do5:8=par-* Si4:8 La4:4=mak-*
+30 | La4:4=lık-* Do5:8=tan* Si4:8 La4:8=a* Sol4:8=ca-* Fa4#:8=nım* Es:8
+31 | La4:8=ba-* La4:8=kar* Sol4:16=dö-* La4:16 Fa4#:8=ner* Mi4:16=ağ-* Fa4#:16 Re4:8 Sol4:8=la-* Fa4#:8
+32 | Fa4#:2=rım/* Es:2

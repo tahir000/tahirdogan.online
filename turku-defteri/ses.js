@@ -179,19 +179,6 @@
 
   Calici.prototype.birlikSuresi = function () { return 240 / (this.tempo * this.hiz); };
 
-  // Ölçü içindeki vuruş yerleri (birlik nota cinsinden), ilki vurgulu.
-  Calici.prototype.vuruslar = function () {
-    var u = this.turku.usul, liste = [], t = 0, i;
-    if (u.kalip) {
-      for (i = 0; i < u.kalip.length; i++) { liste.push(t); t += u.kalip[i] / 8; }
-    } else if (u.payda === 8 && u.pay % 3 === 0) {
-      for (i = 0; i < u.pay / 3; i++) liste.push(i * 3 / 8);
-    } else {
-      for (i = 0; i < u.pay; i++) liste.push(i / u.payda);
-    }
-    return liste;
-  };
-
   Calici.prototype._notaCal = function (n, t) {
     if (n.ad === 'Es' || n.bagli) return;
     // Bağlı notalar tek vuruşta uzar
@@ -209,9 +196,9 @@
     }
   };
 
-  Calici.prototype._olcuTiklari = function (t) {
+  Calici.prototype._olcuTiklari = function (t, olcuNo) {
     var self = this, b = this.birlikSuresi();
-    this.vuruslar().forEach(function (v, i) { self.ses.tik(t + v * b, i === 0); });
+    P.vuruslar(this.turku, olcuNo).forEach(function (v, i) { self.ses.tik(t + v * b, i === 0); });
   };
 
   // sayimsiz: bir notaya atlanıp sürdürülürken ölçü sayımı yapılmaz.
@@ -228,8 +215,9 @@
     this._bitis = null;
     this._kuyruk = [];
     if (this.sayim && !sayimsiz) {
-      this._olcuTiklari(this._t);
-      this._t += (this.turku.usul.pay / this.turku.usul.payda) * this.birlikSuresi();
+      var ilkOlcu = this.liste[this.etkin].olcu;
+      this._olcuTiklari(this._t, ilkOlcu);
+      this._t += P.olcuBoyu(this.turku, ilkOlcu) * this.birlikSuresi();
     }
     // Ekran güncellemesi hem kare çiziminden hem bu sayaçtan tetiklenir; sekme arka
     // plandayken kare çizimi seyrekleşse de etkin nota geri kalmaz.
@@ -271,7 +259,7 @@
         else { this._bitis = this._t; return; }
       }
       var n = this.liste[this._sira];
-      if (this.metronom && n.sira === 0) this._olcuTiklari(this._t);
+      if (this.metronom && n.sira === 0) this._olcuTiklari(this._t, n.olcu);
       this._notaCal(n, this._t);
       this._kuyruk.push({ i: n.i, t: this._t });
       this._t += n.sure * this.birlikSuresi();

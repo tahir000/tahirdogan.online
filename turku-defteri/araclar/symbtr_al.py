@@ -29,6 +29,10 @@ CARPMA = "8"
 # Usul adına göre vuruş kalıbı (sekizlik sayısıyla). Bilinmeyen usulde kalıp yazılmaz.
 KALIPLAR = {
     ("10/8", "curcuna"): "3+2+2+3",
+    ("10/8", "kcurcuna"): "3+2+2+3",
+    ("8/8", "müsemmen"): "3+2+3",
+    ("9/8", "oynak"): "2+3+2+2",
+    ("9/8", "çiftesofyan"): "2+2+2+3",
     ("9/8", "aksak"): "2+2+2+3",
     ("9/8", "raksaksağı"): "2+2+2+3",
     ("9/8", "evfer"): "2+2+2+3",
@@ -78,7 +82,8 @@ def soz_coz(ham):
     duz = ham.strip().strip("_")
     harfler = [c for c in duz if c.isalpha()]
     if len(harfler) >= 3 and all(c.isupper() for c in harfler):
-        return ("bolum", duz.replace("_", " ").title().replace("Aranağme", "Aranağme"))
+        kucuk = duz.replace("_", " ").replace("I", "ı").replace("İ", "i").lower()
+        return ("bolum", " ".join(k[:1].replace("i", "İ").replace("ı", "I").upper() + k[1:] for k in kucuk.split()))
     dize_sonu = len(ham) - len(ham.rstrip(" ")) >= 2
     kelime_sonu = ham.endswith(" ") or ham.rstrip(" ").endswith("_")
     metin = ham.rstrip(" ").rstrip("_").replace("_", " ").strip().replace(" ", "_")
@@ -160,7 +165,9 @@ def olculere_bol(satirlar):
             if dolu == olcu_boyu:
                 kapat()
     if simdiki:
-        uyarilar.append("son ölçü eksik: %s / %s" % (dolu, Fraction(usul[0], usul[1])))
+        eksik = Fraction(usul[0], usul[1]) - dolu
+        uyarilar.append("son ölçü eksikti, susla tamamlandı")
+        simdiki.append({"ad": "Es", "sure": eksik, "tur": "yok", "hece": "", "carpma": [], "bag": False, "bolum": None})
         kapat()
     tempo = round(60000 / statistics.median(dortlukler)) if dortlukler else 80
     return olculer, tempo, uyarilar
@@ -190,6 +197,27 @@ def belirle_tur(notalar):
     return "saz" if all(n["tur"] in ("saz",) or n["ad"] == "Es" for n in notalar) else "soz"
 
 
+def sapkasiz(metin):
+    for a, b in (("â", "a"), ("î", "i"), ("û", "u"), ("Â", "A"), ("Î", "İ"), ("Û", "U")):
+        metin = metin.replace(a, b)
+    return metin
+
+
+def usul_adi_duzelt(ad):
+    return sapkasiz(ad).replace(" ", "_").replace("_", " ").strip()
+
+
+def karar_bul(olculer):
+    """Karar sesi: türkünün son notası (sekizli numarası olmadan)."""
+    for olcu in reversed(olculer):
+        for nota in reversed(olcu["notalar"]):
+            if nota["ad"] != "Es":
+                m = re.match(r"^(Do|Re|Mi|Fa|Sol|La|Si)\d(.*)$", nota["ad"])
+                ek = {"": "", "b": " bemol", "b2": " bemol 2", "#": " diyez", "#3": " diyez 3"}[m.group(2)]
+                return m.group(1) + ek
+    return "La"
+
+
 def nota_yaz(nota, heceler, hepsi_ayni=False):
     t = ""
     if nota["carpma"]:
@@ -214,8 +242,9 @@ def yaz(olculer, tempo, p, a, kaynak_adi):
     cikti = []
     usul = olculer[0]["usul"]
     usul_metni = "%d/%d" % usul[:2]
-    usul_adi = usul[2].replace("â", "a").replace("î", "i").replace("û", "u")
-    kalip = KALIPLAR.get((usul_metni, usul_adi.lower().replace(" ", "")), "")
+    usul_adi = usul_adi_duzelt(usul[2])
+    anahtar = re.sub(r"[^a-zçğıöşü]", "", re.sub(r"\(.*?\)", "", usul_adi).replace("İ", "i").replace("I", "ı").lower())
+    kalip = KALIPLAR.get((usul_metni, anahtar), "")
     cikti.append("ad: %s" % a.ad)
     cikti.append("yore: %s" % (a.yore or ""))
     cikti.append("usul: %s" % usul_metni)
@@ -224,23 +253,29 @@ def yaz(olculer, tempo, p, a, kaynak_adi):
         cikti.append("kalip: %s" % kalip)
     cikti.append("tempo: %d" % tempo)
     cikti.append("dizi: %s" % (a.dizi or ""))
-    cikti.append("karar: La")
+    cikti.append("karar: %s" % (getattr(a, "karar", "") or karar_bul(olculer)))
     cikti.append("duzen: bozuk")
     cikti.append("zorluk: %s" % (a.zorluk or "orta"))
     cikti.append("durum: taslak")
     cikti.append("kaynak: SymbTr 2.4.3, %s" % kaynak_adi)
+    if getattr(a, "aciklama", ""):
+        cikti.append("not: %s" % a.aciklama)
     cikti.append("---")
 
     onceki_tur = None
+    onceki_usul = usul[:2]
     for i in range(p):
         olcu = olculer[i]
+        if olcu["usul"][:2] != onceki_usul:
+            onceki_usul = olcu["usul"][:2]
+            cikti.append("{usul %d/%d %s}" % (onceki_usul[0], onceki_usul[1], usul_adi_duzelt(olcu["usul"][2])))
         ayni = [g for g in range(gecis) if imz[i + g * p] == imz[i]]
         farkli = [g for g in range(gecis) if imz[i + g * p] != imz[i]]
         parcalar = []
         bolum = None
         turler = set()
         for j, nota in enumerate(olcu["notalar"]):
-            if nota["bolum"]:
+            if nota["bolum"] and j == 0:
                 bolum = nota["bolum"]
             heceler = []
             for g in range(gecis):

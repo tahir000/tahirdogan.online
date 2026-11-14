@@ -1,0 +1,31 @@
+ad: Entarine Peş Olam
+yore: Afyon, Sandıklı
+usul: 9/8
+usul-adi: Oynak
+kalip: 2+3+2+2
+tempo: 66
+dizi: Segah
+karar: Si bemol 2
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, segah--turku--oynak--entarine_pes--afyon-sandikli
+---
+[Aranağme]
+1 | Si4b2:16 Do5:16 Re5:16 Do5:16 Re5:16 Do5:16 Re5:16 Mi5b2:16 Re5:16 Do5:16 Re5:8 Mi5b2:16 Fa5#:16 Re5:4
+2 | La4:16 Si4b2:16 Do5:16 Re5:16 Do5:16 Si4b2:16 Do5:16 Re5:16 Do5:16 Si4b2:16 Do5:8 Re5:8 Si4b2:4
+[Aranağme]
+3 | Si4b2:16 Do5:16 Re5:16 Do5:16 Re5:16 Do5:16 Re5:16 Mi5b2:16 Re5:16 Do5:16 Re5:8 Mi5b2:16 Fa5#:16 Re5:4
+4 | La4:16 Si4b2:16 Do5:16 Re5:16 Do5:16 Si4b2:16 Do5:16 Re5:16 Do5:16 Si4b2:16 Do5:8 Re5:8 Si4b2:4
+[Söz]
+5 | Re5:8=En-;Cep- Sol5:8=ta-;ke- Fa5#:16 Sol5:16 Mi5b2:8=ri-;ni- Mi5b2:16=ne* Re5:16 Do5:16=peş;kol Re5:16 Mi5b2:16=o-* Fa5#:16 Re5:8=lam/* Es:8
+6 | Re5:8=En-;Cep- Sol5:8=ta-;ke- Fa5#:16 Sol5:16 Mi5b2:8=ri-;ni- Mi5b2:16=ne* Re5:16 Do5:16=peş;kol Re5:16 Mi5b2:16=o-* Fa5#:16 Re5:8=lam/* Es:8
+7 | Si4b2:8=Yâr;Men- Do5:8=ya-;di- (Re5)Do5:16 Si4b2:16 Do5:8=nı-;li- (Re5)Do5:16=na;ne Si4b2:16 Si4b2:16=eş;pul Do5:16 Re5:8=o-* Si4b2:8=lam/* Es:8
+8 | Si4b2:8=Yâr;Men- Do5:8=ya-;di- (Re5)Do5:16 Si4b2:16 Do5:8=nı-;li- (Re5)Do5:16=na;ne Si4b2:16 Si4b2:16=eş;pul Do5:16 Re5:8=o-* Si4b2:8=lam/* Es:8
+9 | Si4b2:8=Si-;A- Re5:8=ga-;ya- Do5:8=ra;ğı- Re5:8=tu-;nın Re5:16=tan;al- Do5:16 Re5:8=e-;tın- Mi5b2:16 Fa5#:16 Re5:4=le/;da/
+10 | Si4b2:8=Si-;A- Re5:8=ga-;ya- Do5:8=ra;ğı- Re5:8=tu-;nın Re5:16=tan;al- Do5:16 Re5:8=e-;tın- Mi5b2:16 Fa5#:16 Re5:4=le/;da/
+11 | Si4b2:8=Şın-;To- Do5:8=gır-;zup (Re5)Do5:16 Si4b2:16 Do5:8=dak-;gi- Do5:16=lı;den Si4b2:16 Si4b2:16=maş;yol Do5:16 Re5:16=o-* Si4b2:16 Si4b2:8=lam/* Es:8
+12 | Si4b2:8=Şın-;To- Do5:8=gır-;zup (Re5)Do5:16 Si4b2:16 Do5:8=dak-;gi- Do5:16=lı;den Si4b2:16 Si4b2:16=maş;yol Do5:16 Re5:16=o-* Si4b2:16 Si4b2:8=lam/* Es:8
+13 | Si4b2:16=E-* Do5:16=lem* Re5:8=oy-* Do5:8=nar* Re5:8.=dil-* Do5:16=da* Re5:8=dil-* Mi5b2:8=dat-* Re5:8=di/* Es:8
+14 | La4:16=Ki-* Si4b2:16=bar* Do5:8=oy-* Si4b2:8=nar* Do5:8.=dil-* Si4b2:16=de* Do5:8=dil-* Re5:8=dat-* Si4b2:8=di/* Es:8

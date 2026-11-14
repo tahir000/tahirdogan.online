@@ -1,0 +1,19 @@
+ad: İndim Dere Irmağa
+yore: Artvin
+usul: 6/8
+usul-adi: Yürüksemai II
+tempo: 102
+dizi: Uşşak
+karar: La
+duzen: bozuk
+zorluk: kolay
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, ussak--turku--yuruksemai_ii--cilveloy--artvin
+---
+[Söz]
+1 | La4:4=İn-;Zey-;Gel-;Baş-;Nay Mi5:8=dim;tin;dim;la-;dı Mi5:8=de-;da-;se-;dın;nay Re5:4=re;lı;ni;ağ-;dı
+2 | Re5:8=ır-;kır-;al-;la-;na Do5:8=;;;;na Re5:8=ma-;ma-;ma-;ma-;yı Re5:8=ğa;ğa;ğa;ğa;da Mi5:4=hoy*
+3 | Re5:8=na* Do5:8=na* Si4b2:8=yı* La4:4.=da/*
+4 | Do5:8=Cil-* Si4b2:8 Do5:8=ve-* Re5:4.=loy*
+5 | Re5:8=na* Do5:8=na* Si4b2:8=yı* La4:4.=da/*

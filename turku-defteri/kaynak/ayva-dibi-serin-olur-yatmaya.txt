@@ -1,0 +1,37 @@
+ad: Ayva Dibi Serin Olur Yatmaya
+yore: 
+usul: 9/8
+usul-adi: Aksak
+kalip: 2+2+2+3
+tempo: 108
+dizi: Huzi
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, huzi--turku--aksak--ayva_dibi--
+---
+[Aranağme]
+1 | Mi5:8 Re5:8 Do5#:8 Si4b:8 La4:4 Mi5:8 Re5:8 Mi5:8
+2 | Do5#:8 Si4b:8 Si4b:8 La4:8 La4:4 La4:8 La4:8 La4:8
+[Aranağme]
+3 | Mi5:8 Re5:8 Do5#:8 Si4b:8 La4:4 Mi5:8 Re5:8 Mi5:8
+4 | Do5#:8 Si4b:8 Si4b:8 La4:8 La4:4 La4:8 La4:8 La4:8
+[Söz]
+5 | Do5#:8=Ay-* Re5:8 Mi5:8 Mi5:8=va* Mi5:4=di-* Mi5:4=bi* Es:8
+6 | Mi5:8=se-* Mi5:4.=rin* Mi5:4=o-* Fa5:8=lur* Mi5:8 Re5:8
+7 | Fa5:8.=yat-* Mi5:16 Re5:8.=ma-* Do5#:16 Re5:2=ya/* Es:8
+8 | Do5#:8=Kız-* Re5:8 Mi5:8=lar* Mi5:8 Mi5:4=ge-* Mi5:4=lir* Es:8
+9 | Mi5:4.=giz-* Mi5:8=li* Mi5:4=sak-* Fa5:8=lı* Mi5:8 Re5:8
+10 | Fa5:8.=bak-* Mi5:16 Re5:8.=ma-* Do5#:16 Re5:2=ya/* Es:8
+11 | Do5#:8=Al-* Re5:8 Mi5:4=tın* Mi5:4=is-* Mi5:4=ter* Es:8
+12 | Mi5:4=ak* Mi5:4=ger-* Mi5:4=da-* Fa5:8=na* Mi5:8 Re5:8
+13 | Fa5:8.=tak-* Mi5:16 Re5:8.=ma-* Do5#:16 Re5:2=ya/* Es:8
+14 | Do5#:8=Al-* Re5:8 Mi5:4=tın* Mi5:4=is-* Mi5:4=ter* Es:8
+15 | Mi5:4=ak* Mi5:4=ger-* Mi5:4=da-* Fa5:8=na* Mi5:8 Re5:8
+16 | Fa5:8.=tak-* Mi5:16 Re5:8.=ma-* Do5#:16 Re5:8=ya/* Mi5:8 Fa5#:8 Sol5:8. Fa5:16
+17 | Fa5:8.=Yan-* Mi5:16 Re5:16=dım* Do5#:16 Si4b:8 La4:4=sür-* Mi5:4 Re5:8=me-*
+18 | Re5:16=lim* Do5#:16 Si4b:16 Do5#:16 Si4b:8=gel* La4:8 La4:2=gel/* Es:8
+19 | Fa5:8.=Yan-* Mi5:16 Re5:16=dım* Do5#:16 Si4b:8 La4:4=sür-* Mi5:4 Re5:8=me-*
+20 | Re5:16=lim* Do5#:16 Si4b:16 Do5#:16 Si4b:8=gel* La4:8 La4:2=gel/* Es:8

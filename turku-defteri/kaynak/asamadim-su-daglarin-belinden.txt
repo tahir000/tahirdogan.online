@@ -1,0 +1,22 @@
+ad: Aşamadım Şu Dağların Belinden
+yore: Eskişehir
+usul: 13/8
+usul-adi: Bektaşi Devr-i Revanı
+tempo: 63
+dizi: Tahir
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, tahir--turku--bektasidevrirevani--asamadim_su--eskisehir
+---
+[Söz]
+1 | La5:16=A-;Kur-;A-;Kur- Do6:8=şa-;tu-;şa-;tu- Si5b2:16 Si5b2:16=ma-;lay-;ma-;lay- La5:16 La5:8=dım* Sol5:16=şu* La5:8.=dağ-;zâ-;dağ-;zâ- La5:8=la-;li-;la-;li- La5:8=rın;min;rın;min Fa5#3:8=be-;di-;be-;di- Sol5:8 La5:8=lin-* La5:16=den* (Do6)Si5b2:16 (Do6)La5:8=a-*
+{usul 9/8 Aksak}
+2 | Mi5:8.=man/* Re5:16 Re5:16=Gayf;Ör-;Gayf;Ör- Mi5:32 Fa5#3:32 Sol5:16. La5:32=i-;de-;i-;de- Sol5:16=çer-;ğim;çer-;ğim La5:16 Fa5#3:16 Sol5:16 Mi5:8=ken;gö-;ken;gö- Re5:16 Do5:16 Re5:8
+3 | Do5:8=fin-;lü-;fin-;lü- Do5:16=can;ne;can;ne Re5:16 Mi5:8 Re5:8 Sol5:16=gay-;gir-;gay-;gir- Fa5#3:16 Mi5:16 Re5:16 Do5:8=dı;me-;dı;me- Si4b2:16 La4:16 Sol4:8
+4 | Do5:8=e-;ye;e-;ye Si4b2:16 Do5:16 Si4b2:16 La4:16 La4:8=lim-;gel-;lim-;gel- La4:5/8=den/;dim/;den/;dim/
+5 | Es:4 Mi5:8=Gayf;Şa-;Gayf;Şa- Fa5:16=i-;hi-;i-;hi- Sol5:16 Mi5:8=çer-;nim;çer-;nim Re5:16 Do5:16 Re5:8=ken;ko-;ken;ko- Es:4
+6 | Do5:8=fin-;lu-;fin-;lu- Do5:16=can;na;can;na Re5:16 Mi5:8 Re5:8 Sol5:16=gay-;kon-;gay-;kon- Fa5#3:16 Mi5:16 Re5:16 Do5:8=dı;ma-;dı;ma- Si4b2:16 La4:16 Sol4:8
+7 | Do5:8=e-;ya;e-;ya Si4b2:16 Do5:16 Si4b2:16 La4:16 La4:8=lim-;gel-;lim-;gel- La4:5/8=den/;dim/;den/;dim/

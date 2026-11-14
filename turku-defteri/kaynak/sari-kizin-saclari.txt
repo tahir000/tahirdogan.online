@@ -1,0 +1,58 @@
+ad: Sarı Kızın Saçları
+yore: Kırşehir
+usul: 8/8
+usul-adi: Düyek
+tempo: 99
+dizi: Muhayyer
+karar: La
+duzen: bozuk
+zorluk: zor
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, muhayyer--turku--duyek--sari_kizin--kirsehir
+---
+[Aranağme]
+1 | Re5:16 Mi5:8 Mi5:16 Mi5:8 Mi5:8 Mi5:8 Mi5:4 La5:8
+2 | Sol5:8 Fa5#3:16 Sol5:16 Mi5:16 Mi5:16 Re5:8 Mi5:16 Re5:16 Do5:16 Re5:16 Do5:8 Es:8
+3 | Re5:16 Mi5:8 Mi5:16 Mi5:8 Mi5:8 Mi5:8 Mi5:4 La5:8
+4 | Sol5:8 Fa5#3:16 Sol5:16 Mi5:16 Mi5:16 Re5:8 Mi5:16 Re5:16 Do5:16 Re5:16 Do5:8 Es:8
+5 | Re5:8 Mi5:4 Mi5:8 Mi5:8 Mi5:4 La5:8
+6 | Sol5:8 Fa5#3:16 Sol5:16 Mi5:16 Mi5:16 Re5:8 Mi5:16 Re5:16 Do5:16 Si4b2:16 Do5:16 Si4b2:16 Do5:8
+7 | Es:8 Si4b2:16 Do5:16 Si4b2:8 La4:8 Do5:16 Si4b2:16 La4:16 Si4b2:16 La4:4
+8 | La4:8. La4:16 La4:16 La4:16 La4:8 La4:16 La4:16 La4:8 La4:4
+[Söz]
+9 | Es:4 Fa5#3:8=Sa-* Sol5:8=rı* La5:8=kı-* La5:4.=zın*
+10 | Si5b2:16=saç-* La5:16 Sol5:4=la-* Fa5#3:8 La5:16=rı* Sol5:16 Fa5#3:16 Sol5:16 Fa5#3:4
+11 | Es:4 Fa5#3:8=Sa-* Sol5:8=rı* La5:8=kı-* La5:4.=zın*
+12 | Si5b2:16=saç-* La5:16 Sol5:4=la-* Fa5#3:8 La5:16=rı* Sol5:16 Fa5#3:16 Sol5:16 Fa5#3:4
+13 | Sol5:8=a-* Mi5:4=man* Re5:8 Mi5:8 Fa5#3:8 Sol5:8 La5:8
+14 | Es:8 Fa5#3:16=a-* Sol5:16=man* Mi5:8=a-* Mi5:16=man* Re5:16 Re5:16=a-* Do5:16=man* Re5:8 Re5:16=a-* Do5:16=man* Re5:16 Si4b2:16
+15 | Do5:8.=ey/* Do5:16 Do5:16 Do5:16 Do5:8 Do5:16 Do5:16 Do5:8 Do5:4
+[Saz]
+16 | Mi5:8 Mi5:16 Re5:16 Mi5:16 Do5:16 Re5:16 Si4b2:16 Do5:8. Si4b2:16 Do5:16 Re5:16 Mi5:8
+17 | Mi5:8 Mi5:16 Re5:16 Mi5:16 Do5:16 Re5:16 Si4b2:16 Do5:8 Es:8 Do5:16 Re5:16 Mi5:16 Re5:16
+[Söz]
+18 | Mi5:4 Re5:8=Oy-* Mi5:8=nar* Mi5:8=o-* Mi5:4=muz* La5:8
+19 | Sol5:8=baş-* Fa5#3:16=la-* Sol5:16 Mi5:16 Mi5:16 Re5:8 Mi5:16=rı* Re5:16 Do5:16 Si4b2:16 Do5:16 Si4b2:16 Do5:8
+20 | Es:8 Si4b2:16=sa-* Do5:16=na* Si4b2:8=yan-* La4:8=dım* Do5:16=sa-* Si4b2:16 La4:16=rı* Si4b2:16 La4:4
+21 | La4:8.=kız/* La4:16 La4:16 La4:16 La4:8 La4:16 La4:16 La4:8 La4:4
+22 | Mi5:4 Re5:8=Oy-* Mi5:8=nar* Mi5:8=o-* Mi5:4=muz* La5:8
+23 | Sol5:8=baş-* Fa5#3:16=la-* Sol5:16 Mi5:16 Mi5:16 Re5:8 Mi5:16=rı* Re5:16 Do5:16 Si4b2:16 Do5:16 Si4b2:16 Do5:8
+24 | Es:8 Si4b2:16=sa-* Do5:16=na* Si4b2:8=yan-* La4:8=dım* Do5:16=sa-* Si4b2:16 La4:16=rı* Si4b2:16 La4:4
+25 | La4:8.=kız/* La4:16 La4:16 La4:16 La4:8 La4:16 La4:16 La4:8 La4:4
+26 | Re5:16=Yan-* Mi5:8 Mi5:16=dım* Mi5:8=a-* Mi5:8=man* Mi5:8=a-* Mi5:4=man* La5:8
+27 | Sol5:8=sa-* Fa5#3:16=rı* Sol5:16 Mi5:16 Mi5:16 Re5:8 Mi5:16=kız/* Re5:16 Do5:16 Re5:16 Do5:8 Es:8
+28 | Re5:16=Öl-* Mi5:8 Mi5:16=düm* Mi5:8=a-* Mi5:8=man* Mi5:8=a-* Mi5:4=man* La5:8
+29 | Sol5:8=sa-* Fa5#3:16=rı* Sol5:16 Mi5:16 Mi5:16 Re5:8 Mi5:16=kız/* Re5:16 Do5:16 Re5:16 Do5:8 Es:8
+30 | Re5:8=Na-* Mi5:4=sıl* Mi5:8=da* Mi5:8=du-* Mi5:4=ru-* La5:8
+31 | Sol5:8=yon* Fa5#3:16=ben-* Sol5:16 Mi5:16 Mi5:16 Re5:8 Mi5:16=siz* Re5:16 Do5:16 Si4b2:16 Do5:16 Si4b2:16 Do5:8
+32 | Es:8 Si4b2:16=se-* Do5:16=ni* Si4b2:8=din-* La4:8=siz* Do5:16=i-* Si4b2:16 La4:16=man-* Si4b2:16 La4:4
+33 | La4:8.=sız/* La4:16 La4:16 La4:16 La4:8 La4:16 La4:16 La4:8 La4:4
+34 | Re5:16=Yan-* Mi5:8 Mi5:16=dım* Mi5:8=a-* Mi5:8=man* Mi5:8=a-* Mi5:4=man* La5:8
+35 | Sol5:8=sa-* Fa5#3:16=rı* Sol5:16 Mi5:16 Mi5:16 Re5:8 Mi5:16=kız/* Re5:16 Do5:16 Re5:16 Do5:8 Es:8
+36 | Re5:16=Öl-* Mi5:8 Mi5:16=düm* Mi5:8=a-* Mi5:8=man* Mi5:8=a-* Mi5:4=man* La5:8
+37 | Sol5:8=sa-* Fa5#3:16=rı* Sol5:16 Mi5:16 Mi5:16 Re5:8 Mi5:16=kız/* Re5:16 Do5:16 Re5:16 Do5:8 Es:8
+38 | Re5:8=Na-* Mi5:4=sıl* Mi5:8=da* Mi5:8=du-* Mi5:4=ru-* La5:8
+39 | Sol5:8=yon* Fa5#3:16=ben-* Sol5:16 Mi5:16 Mi5:16 Re5:8 Mi5:16=siz* Re5:16 Do5:16 Si4b2:16 Do5:16 Si4b2:16 Do5:8
+40 | Es:8 Si4b2:16=se-* Do5:16=ni* Si4b2:8=din-* La4:8=siz* Do5:16=i-* Si4b2:16 La4:16=man-* Si4b2:16 La4:4
+41 | La4:8.=sız/* La4:16 La4:16 La4:16 La4:8 La4:16 La4:16 La4:8 La4:4

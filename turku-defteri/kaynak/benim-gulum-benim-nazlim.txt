@@ -1,0 +1,65 @@
+ad: Benim Gülüm Benim Nazlım
+yore: Kırşehir
+usul: 4/4
+usul-adi: Sofyan
+tempo: 76
+dizi: Hicaz Hümayun
+karar: La
+duzen: bozuk
+zorluk: orta
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, hicaz_humayun--turku--sofyan--benim_gulum--kirsehir
+---
+[Aranağme]
+1 | Es:8 Re5:8 Re5:8 Re5:16 Re5:16 Re5:8 Fa5:16 Mi5:16 Mi5:16 Re5:16 Re5:16 Do5#:16
+2 | Do5#:8 Re5:8 Re5:8 Re5:16 Re5:16 Re5:16 Re5:16 Fa5:16 Mi5:16 Mi5:16 Re5:16 Re5:16 Do5#:16
+3 | Es:8 Mi5:16 Fa5:16 Fa5:8 Fa5:16 Fa5:16 Mi5:8 Fa5:8 Fa5:8 Mi5:16 (Fa5)Re5:16
+4 | Es:8 Mi5:16 Fa5:16 Fa5:16 Mi5:16 Fa5:16 Mi5:16 Mi5:16 Mi5:16 Fa5:16 Mi5:16 Fa5:8 Mi5:16 (Fa5)Re5:16
+5 | Es:8 Fa5:16 Mi5:16 Fa5:16 Mi5:8. Mi5:16 Re5:8. (Mi5)Re5:16 Do5#:16 Re5:16 Do5#:16
+6 | Do5#:8 Re5:16 Mi5:16 Mi5:16 Re5:8. (Mi5)Re5:16 Do5#:8. (Re5)Do5#:16 Si4b:16 Do5#:16 Si4b:16
+7 | Es:8 Re5:16 Re5:16 Re5:16 Do5#:8. Do5#:16 Si4b:8 Si4b:16 Si4b:16 Si4b:8 La4:16
+8 | Sol4:8 Do5#:16 Do5#:16 Do5#:16 Si4b:8 Si4b:16 Si4b:16. La4:32 La4:16 La4:16 La4:16 La4:16 Si4b:16 La4:16
+9 | Sol4:8 Do5#:16 Do5#:16 Do5#:16 Si4b:8 Si4b:16 Si4b:16. La4:32 La4:16 La4:16 La4:16 Sol4:16 La4:8
+[Söz]
+10 | Es:8 Mi5:16=Be- Fa5:16=nim Fa5:16=gü- Fa5:8.=lüm Mi5:16=be- Fa5:8=nim Fa5:16 (Sol5)Fa5:8=naz- Mi5:16=lım/ Re5:16
+11 | Es:8 Mi5:16=Has- Fa5:16=re- Fa5:16=ti Fa5:8.=i- Fa5:8=çim- Fa5:16=de Fa5:16=giz- (Sol5)Fa5:8 Mi5:16=lim/ Re5:16
+12 | Es:8 Mi5:16=Hi- Fa5:16=lal Fa5:8=kaş- Fa5:8=lım Mi5:16=gü- Fa5:8=neş Fa5:16 Fa5:8=göz- Mi5:16=lüm/ Re5:16
+13 | Es:8 Mi5:16=Gel Fa5:16 Fa5:16=gel Mi5:8. (Fa5)Mi5:16=gel Re5:8. (Mi5)Re5:16=gel Do5#:16 Re5:16 Do5#:16
+14 | Es:8 Mi5:8=gel Mi5:16=gel Re5:8. (Mi5)Re5:16=gel Do5#:8. (Re5)Do5#:16=gel Si4b:16 Do5#:16 Si4b:16
+15 | Es:8 Do5#:16=gel Re5:16 Re5:16=gel Do5#:8. (Re5)Do5#:16=gel Si4b:8. Si4b:8.=gel La4:16
+16 | Sol4:8 Do5#:8=gel Do5#:16=gay- Si4b:16 Si4b:16=rı La4:16 La4:8 La4:8=gel/ La4:16 La4:16 Si4b:16 La4:16
+[Saz]
+17 | Sol4:8 Do5#:16 Do5#:16 Do5#:16 Si4b:8. Si4b:16. La4:32 La4:16 La4:16 La4:16 Sol4:16 La4:8
+[Söz]
+18 | Es:8 Mi5:16=Be- Fa5:16=nim Fa5:16=gü- Fa5:8.=lüm Mi5:16=be- Fa5:8=nim Fa5:16 (Sol5)Fa5:8=naz- Mi5:16=lım/ Re5:16
+19 | Es:8 Mi5:16=Has- Fa5:16=re- Fa5:16=ti Fa5:8.=i- Fa5:8=çim- Fa5:16=de Fa5:16=giz- (Sol5)Fa5:8 Mi5:16=lim/ Re5:16
+20 | Es:8 Mi5:16=Hi- Fa5:16=lal Fa5:8=kaş- Fa5:8=lım Mi5:16=gü- Fa5:8=neş Fa5:16 Fa5:8=göz- Mi5:16=lüm/ Re5:16
+21 | Es:8 Mi5:16=Gel Fa5:16 Fa5:16=gel Mi5:8. (Fa5)Mi5:16=gel Re5:8. (Mi5)Re5:16=gel Do5#:16 Re5:16 Do5#:16
+22 | Es:8 Mi5:8=gel Mi5:16=gel Re5:8. (Mi5)Re5:16=gel Do5#:8. (Re5)Do5#:16=gel Si4b:16 Do5#:16 Si4b:16
+23 | Es:8 Do5#:16=gel Re5:16 Re5:16=gel Do5#:8. (Re5)Do5#:16=gel Si4b:8. Si4b:8.=gel La4:16
+24 | Sol4:8 Do5#:8=gel Do5#:16=gay- Si4b:16 Si4b:16=rı La4:16 La4:8 La4:8=gel/ La4:16 La4:16 Si4b:16 La4:16
+[Saz]
+25 | Sol4:8 Do5#:16 Do5#:16 Do5#:16 Si4b:8. Si4b:16. La4:32 La4:16 La4:16 La4:16 Sol4:16 La4:8
+[Söz]
+26 | Es:8 Do5#:16=Gül Re5:16=be- Re5:8=niz- Re5:8=lim Re5:16=fi- Do5#:16=dan Fa5:16 Mi5:16=boy- Mi5:16 Re5:16 Re5:16=lum/ Do5#:16
+27 | Es:8 Do5#:16=Hoş- Re5:16=soh- Re5:8=bet- Re5:8=lim Re5:8=tat- Fa5:16=lı Mi5:16=huy- Mi5:16 Re5:16 Re5:16=lum/ Do5#:16
+28 | Es:8 Do5#:16=Mec- Re5:16=nû- Re5:16=nu- Re5:8.=na Re5:16=ger- Re5:16=çek Fa5:16 Mi5:16=ley- Mi5:16 Re5:16 Re5:16=lim/ Do5#:16
+29 | Es:8 Mi5:16=Gel Fa5:16 Fa5:16=gel Mi5:8. (Fa5)Mi5:16=gel Re5:8. (Mi5)Re5:16=gel Do5#:16 Re5:16 Do5#:16
+30 | Es:8 Mi5:8=gel Mi5:16=gel Re5:8. Re5:16=gel Do5#:8. Do5#:16=gel Si4b:16 Do5#:16 Si4b:16
+31 | Es:8 Re5:8=gel Re5:16=gel Do5#:8. (Re5)Do5#:16=gel Si4b:8. Si4b:8.=gel La4:16
+32 | Sol4:8 Do5#:8=gel Do5#:16=gay- Si4b:16 Si4b:16=rı La4:16 La4:8 La4:8=gel/ La4:16 La4:16 Si4b:16 La4:16
+[Saz]
+33 | Sol4:8 Do5#:8 Do5#:16 Si4b:16 Si4b:16 La4:16 La4:8 La4:16 La4:16 La4:16 La4:16 Si4b:16 La4:16
+34 | Sol4:8 Do5#:16 Do5#:16 Do5#:16 Si4b:16 Si4b:16 La4:16 La4:8 La4:16 La4:16 La4:16 La4:16 La4:8
+[Söz]
+35 | Es:8 Do5#:16=Gül Re5:16=be- Re5:8=niz- Re5:8=lim Re5:16=fi- Do5#:16=dan Fa5:16 Mi5:16=boy- Mi5:16 Re5:16 Re5:16=lum/ Do5#:16
+36 | Es:8 Do5#:16=Hoş- Re5:16=soh- Re5:8=bet- Re5:8=lim Re5:8=tat- Fa5:16=lı Mi5:16=huy- Mi5:16 Re5:16 Re5:16=lum/ Do5#:16
+37 | Es:8 Do5#:16=Mec- Re5:16=nû- Re5:16=nu- Re5:8.=na Re5:16=ger- Re5:16=çek Fa5:16 Mi5:16=ley- Mi5:16 Re5:16 Re5:16=lim/ Do5#:16
+38 | Es:8 Mi5:16=Gel Fa5:16 Fa5:16=gel Mi5:8. (Fa5)Mi5:16=gel Re5:8. (Mi5)Re5:16=gel Do5#:16 Re5:16 Do5#:16
+39 | Es:8 Mi5:8=gel Mi5:16=gel Re5:8. Re5:16=gel Do5#:8. Do5#:16=gel Si4b:16 Do5#:16 Si4b:16
+40 | Es:8 Re5:8=gel Re5:16=gel Do5#:8. (Re5)Do5#:16=gel Si4b:8. Si4b:8.=gel La4:16
+41 | Sol4:8 Do5#:8=gel Do5#:16=gay- Si4b:16 Si4b:16=rı La4:16 La4:8 La4:8=gel/ La4:16 La4:16 Si4b:16 La4:16
+[Saz]
+42 | Sol4:8 Do5#:8 Do5#:16 Si4b:16 Si4b:16 La4:16 La4:8 La4:16 La4:16 La4:16 La4:16 Si4b:16 La4:16
+43 | Sol4:8 Do5#:16 Do5#:16 Do5#:16 Si4b:16 Si4b:16 La4:16 La4:8 La4:16 La4:16 La4:16 La4:16 La4:8

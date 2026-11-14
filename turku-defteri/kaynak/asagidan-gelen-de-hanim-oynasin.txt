@@ -1,0 +1,37 @@
+ad: Aşağıdan Gelen de Hanım Oynasın
+yore: Bilecik
+usul: 9/8
+usul-adi: Aksak
+kalip: 2+2+2+3
+tempo: 117
+dizi: Gerdaniye
+karar: La
+duzen: bozuk
+zorluk: zor
+durum: taslak
+ceviri: toplu
+kaynak: SymbTr 2.4.3, gerdaniye--turku--aksak--asagidan_gelen--bilecik
+---
+[Aranağme]
+1 | Mi5:4 Mi5:4 Re5:16 Mi5b:16 Do5:8 Re5:4.
+2 | Si4b2:8 Do5:8 Re5:8 Mi5b:16 Re5:16 Do5:8 Si4b2:8 Do5:16 Re5:16 Si4b2:8 Si4b2:16 La4:16
+3 | (Do5)Si4b2:8 La4:4 La4:8 La4:2 Es:8
+[Söz]
+4 | Es:4 Fa5#3:8=A-* Sol5:8=şa-* Sol5:8=ğı-* Fa5#3:8 Sol5:4=dan* Mi5:8
+5 | Mi5:8=ge-* Mi5:4=len* Mi5:8=de* Mi5:16=ha-* Fa5:16 Re5:8 Mi5:4=nım* Es:8
+6 | Sol5:8=oy-* La5:4 La5:8=na-* Sol5:16=sın/* La5:16 Fa5#3:8 Mi5:4 Sol5:8
+7 | Sol5:4=Kek-* Sol5:4=lik* Re5:16=ke-* Mi5b:16 Do5:8 Re5:4=ba-* Es:8
+8 | Si4b2:8=bı-* Do5:8 Re5:8=nı* Mi5b:16=da* Re5:16 Do5:8=yi-* Si4b2:8 Do5:16=yen* Re5:16 Si4b2:8 Si4b2:16 La4:16
+9 | (Do5)Si4b2:8=doy-* La4:4 La4:8=ma-* La4:2=sın/* Es:8
+10 | (Re5)Mi5:4=Kek-* Mi5:4=lik* Re5:16=ke-* Mi5b:16 Do5:8 Re5:4.=ba-*
+11 | Si4b2:8=bı-* Do5:8 Re5:8=nı* Mi5b:16=da* Re5:16 Do5:8=yi-* Si4b2:8 Do5:16=yen* Re5:16 Si4b2:8 Si4b2:16 La4:16
+12 | (Do5)Si4b2:8=doy-* La4:4 La4:8=ma-* La4:2=sın/* Es:8
+13 | Es:4 Fa5#3:8=Be-* Sol5:8=ni* Sol5:8=yâr-* Fa5#3:8 Sol5:4=dan* Mi5:8
+14 | Mi5:8=a-* Mi5:4.=yı-* Mi5:16=ran-* Fa5:16 Re5:8 Mi5:4=lar* Es:8
+15 | Sol5:8=on-* La5:4 La5:8=ma-* Sol5:16=sın/* La5:16 Fa5#3:8 Mi5:4 Sol5:8
+16 | Sol5:8=Be-* Sol5:8=ri* Sol5:4=gel* Re5:16=a* Mi5b:16 Do5:8=yâ-* Re5:4=rim* Es:8
+17 | Si4b2:8=be-* Do5:8=ri* Re5:8=gel* Mi5b:16 Re5:16 Do5:8=ben* Si4b2:8 Do5:16=a-* Re5:16 Si4b2:8 Si4b2:16 La4:16
+18 | (Do5)Si4b2:8=dam* La4:4 La4:8=ye-* La4:2=mem/* Es:8
+19 | (Re5)Mi5:4=El-* Mi5:4=le-* Re5:16=rin* Mi5b:16 Do5:8 Re5:4.=yâ-*
+20 | Si4b2:8=ri-* Do5:8 Re5:8=ne* Mi5b:16=de* Re5:16 Do5:8=yâ-* Si4b2:8 Do5:16=rim* Re5:16 Si4b2:8 Si4b2:16 La4:16
+21 | (Do5)Si4b2:8=ol* La4:4 La4:8=de-* La4:2=mem/* Es:8
