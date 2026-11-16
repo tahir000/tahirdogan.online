@@ -47,7 +47,6 @@ function yanit(durum, govde) {
     headers: { ...CORS, "Content-Type": "application/json; charset=utf-8", "Cache-Control": "no-store" },
   });
 }
-const bekle = (ms) => new Promise((res) => setTimeout(res, ms));
 const bugunIST = () => new Date().toLocaleDateString("sv-SE", { timeZone: "Europe/Istanbul" });
 const gunEkle = (t, n) => { const d = new Date(t + "T00:00:00Z"); d.setUTCDate(d.getUTCDate() + n); return d.toISOString().slice(0, 10); };
 const yuv = (x) => Math.round(x * 1e4) / 1e4;
@@ -73,39 +72,62 @@ async function rpc(ad, govde) {
   let veri = null; try { veri = await r.json(); } catch (_e) { /* boş yanıt */ }
   return { ok: true, veri };
 }
-// Sayaç çalışmazsa istek engellenmez; depo bozulsa bile aktarma sürer.
-async function sinirIcinde(kim, sinir) {
+// Her istekte bir kez: dakikalık istek sınırı ve veri kaynağının durumu tek sorguda okunur.
+// Kapı çalışmazsa (eski kurulum, veritabanı hatası) istek engellenmez; aktarma sürer.
+let kapaliKadar = 0;     // bu zamana kadar kaynağa gidilmez
+let arizali = false;     // son denemeler başarısızdı: ilk başarıda durum sıfırlanır
+async function kapi(kim, sinir) {
   if (!SERVIS) return true;
-  try { const q = await rpc("istek_say", { p_kim: kim, p_sinir: sinir }); return !(q.ok && q.veri === false); } catch (_e) { return true; }
+  try {
+    const q = await rpc("istek_kapisi", { p_kim: kim, p_sinir: sinir });
+    if (!q.ok || !q.veri || typeof q.veri !== "object") return true;
+    kapaliKadar = q.veri.kapali > 0 ? Date.now() + q.veri.kapali * 1000 : 0;
+    arizali = q.veri.ariza > 0;
+    return q.veri.izin !== false;
+  } catch (_e) { return true; }
 }
+async function bildir(tamam) {
+  if (!SERVIS) return 0;
+  try { const q = await rpc("kaynak_bildir", { p_tamam: tamam }); return q.ok && typeof q.veri === "number" ? q.veri : 0; } catch (_e) { return 0; }
+}
+const kaynakKapali = () => Date.now() < kapaliKadar;
 
 /* ---------- Borsa MCP çağrısı ---------- */
-// Sunucu ara ara takılabiliyor: istek 25 saniyede kesilir, ağ hatasında ya da 5xx yanıtta bir kez yeniden denenir.
+// Kaynak yoğun saatlerde hiç yanıt vermeyebiliyor. Bu yüzden:
+//   - istek araca göre 10 ile 25 saniyede kesilir ve yeniden denenmez (yeniden denemeyi sayfa yapar);
+//   - zaman aşımı ya da 5xx yanıtta kaynak kısa bir süre "kapalı" sayılır: o sürede buraya hiç gelinmez,
+//     çağıran eldeki son veriyi verir. Süre her başarısızlıkta uzar, ilk başarıda sıfırlanır (kurulum/6).
 // Hatalar kayda yazılır (Edge Functions, borsa, Logs); kayıtta kullanıcı bilgisi yoktur.
+const SURE = { get_quote: 10000, get_historical_data: 15000, scan_stocks: 25000 };
 async function kaynak(tool, input) {
+  if (kaynakKapali()) return { ok: false, durum: 503, govde: { hata: "kaynak-kapali", tekrar: Math.ceil((kapaliKadar - Date.now()) / 1000) } };
   const govde = JSON.stringify({ jsonrpc: "2.0", id: 1, method: "tools/call", params: { name: tool, arguments: input } });
+  const bas = Date.now();
   let r = null, metin = "";
-  for (let deneme = 1; deneme <= 2; deneme++) {
-    const bas = Date.now();
-    try {
-      r = await fetch(KAYNAK, {
-        method: "POST",
-        headers: { "Content-Type": "application/json", Accept: "application/json, text/event-stream" },
-        body: govde,
-        signal: AbortSignal.timeout(25000),
-      });
-      metin = await r.text();
-      if (r.ok) break;
-      console.log(JSON.stringify({ olay: "kaynak-durum", arac: tool, deneme, durum: r.status, ms: Date.now() - bas, govde: metin.slice(0, 160) }));
-      if (r.status < 500) break;
-    } catch (e) {
-      r = null;
-      console.log(JSON.stringify({ olay: "kaynak-hata", arac: tool, deneme, ms: Date.now() - bas, hata: String((e && e.name) || e) + ": " + String((e && e.message) || "").slice(0, 160) }));
-    }
-    if (deneme === 1) await bekle(800);
+  try {
+    r = await fetch(KAYNAK, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", Accept: "application/json, text/event-stream" },
+      body: govde,
+      signal: AbortSignal.timeout(SURE[tool] || 15000),
+    });
+    metin = await r.text();
+  } catch (e) {
+    r = null;
+    console.log(JSON.stringify({ olay: "kaynak-hata", arac: tool, ms: Date.now() - bas, hata: String((e && e.name) || e) + ": " + String((e && e.message) || "").slice(0, 160) }));
   }
-  if (!r) return { ok: false, durum: 504, govde: { hata: "kaynak-zaman" } };
-  if (!r.ok) return { ok: false, durum: 502, govde: { hata: "kaynak", durum: r.status } };
+  if (!r || r.status >= 500) {
+    if (r) console.log(JSON.stringify({ olay: "kaynak-durum", arac: tool, durum: r.status, ms: Date.now() - bas, govde: metin.slice(0, 160) }));
+    const sn = await bildir(false);
+    kapaliKadar = Math.max(kapaliKadar, Date.now() + Math.max(sn, 20) * 1000);
+    arizali = true;
+    return r ? { ok: false, durum: 502, govde: { hata: "kaynak", durum: r.status } } : { ok: false, durum: 504, govde: { hata: "kaynak-zaman" } };
+  }
+  if (!r.ok) {
+    console.log(JSON.stringify({ olay: "kaynak-durum", arac: tool, durum: r.status, ms: Date.now() - bas, govde: metin.slice(0, 160) }));
+    return { ok: false, durum: 502, govde: { hata: "kaynak", durum: r.status } };
+  }
+  if (arizali) { arizali = false; kapaliKadar = 0; await bildir(true); }
 
   // Sunucu yanıtı olay akışı (text/event-stream) ya da düz JSON olarak verebilir.
   let j = null;
@@ -277,10 +299,9 @@ async function gecmisGetir(syms, bitis, yalnizTaze) {
 
 /* ---------- Son fiyatlar ---------- */
 async function kotGetir(syms, omur) {
-  const out = {}, simdi = Date.now();
+  const out = {}, zaman = {}, eskiler = {}, simdi = Date.now();
   const r = await db("kotasyon?sembol=in.(" + syms.join(",") + ")&select=sembol,veri,zaman");
-  const eskiler = {};
-  if (r.ok) for (const x of await r.json()) { if (simdi - Date.parse(x.zaman) < omur) out[x.sembol] = x.veri; else eskiler[x.sembol] = x.veri; }
+  if (r.ok) for (const x of await r.json()) { if (simdi - Date.parse(x.zaman) < omur) { out[x.sembol] = x.veri; zaman[x.sembol] = Date.parse(x.zaman); } else eskiler[x.sembol] = x; }
   const eksik = syms.filter((s) => !out[s] && s !== "XU100");
   await Promise.all(parcala(eksik, 10).map(async (grup) => {
     const q = await kaynak("get_quote", { symbol: grup, market: "bist" });
@@ -292,12 +313,54 @@ async function kotGetir(syms, omur) {
       const s = String(x.symbol || "").toUpperCase(), f = num(x.current_price);
       if (!SEMBOL.test(s) || f == null) continue;
       out[s] = { f, fk: num(x.pe_ratio), pddd: num(x.pb_ratio), z52: num(x.week_52_high), d52: num(x.week_52_low), pd: num(x.market_cap), tem: num(x.dividend_yield), hacim: num(x.volume) };
+      zaman[s] = Date.now();
       yeni.push({ sembol: s, veri: out[s], zaman: new Date().toISOString() });
     }
     if (yeni.length) await db("kotasyon", { method: "POST", headers: { Prefer: "resolution=merge-duplicates,return=minimal" }, body: JSON.stringify(yeni) });
   }));
-  syms.forEach((s) => { if (!out[s] && eskiler[s]) out[s] = eskiler[s]; });     // kaynak yanıt vermediyse eldeki eski fiyat
-  return out;
+  // Kaynak yanıt vermediyse eldeki son fiyat verilir; ne zamandan kaldığı da bildirilir.
+  syms.forEach((s) => { if (!out[s] && eskiler[s]) { out[s] = eskiler[s].veri; zaman[s] = Date.parse(eskiler[s].zaman); } });
+  const zs = Object.values(zaman).filter((z) => z > 0);
+  return { veri: out, enEski: zs.length ? new Date(Math.min(...zs)).toISOString() : null };
+}
+
+/* ---------- Aktarılan yanıtların önbelleği ---------- */
+// Sık değişmeyen yanıtlar saklanır: süresi dolmamışsa kaynağa gidilmez, kaynak yanıt vermiyorsa eskisi verilir.
+// Fiyat geçmişi burada tutulmaz; onun kendi deposu var.
+const OMUR = {
+  get_quote: 60e3,
+  scan_stocks: 10 * 60e3,
+  get_financial_ratios: 12 * 3600e3,
+  get_corporate_actions: 12 * 3600e3,
+  get_analyst_data: 12 * 3600e3,
+  get_earnings: 12 * 3600e3,
+  get_sector_comparison: 12 * 3600e3,
+};
+function kararli(v) {      // anahtarları sıralı JSON: aynı girdi hep aynı anahtarı versin
+  if (Array.isArray(v)) return "[" + v.map(kararli).join(",") + "]";
+  if (v && typeof v === "object") return "{" + Object.keys(v).sort().map((k) => JSON.stringify(k) + ":" + kararli(v[k])).join(",") + "}";
+  return JSON.stringify(v);
+}
+async function aktar(tool, input) {
+  const omur = SERVIS ? OMUR[tool] : 0;
+  let anahtar = "", eski = null;
+  if (omur) {
+    try {
+      anahtar = await sha256Hex(tool + "|" + kararli(input));
+      const r = await db("onbellek?anahtar=eq." + anahtar + "&select=yanit,zaman&limit=1");
+      const x = r.ok ? (await r.json())[0] : null;
+      if (x) { if (Date.now() - Date.parse(x.zaman) < omur) return yanit(200, x.yanit); eski = x.yanit; }
+    } catch (_e) { anahtar = ""; }
+  }
+  const q = await kaynak(tool, input);
+  if (q.ok) {
+    if (anahtar && !q.sonuc.isError) {
+      try { await db("onbellek", { method: "POST", headers: { Prefer: "resolution=merge-duplicates,return=minimal" }, body: JSON.stringify([{ anahtar, arac: tool, yanit: q.sonuc, zaman: new Date().toISOString() }]) }); } catch (_e) { /* önbellek yazılamadı: yanıt yine verilir */ }
+    }
+    return yanit(200, q.sonuc);
+  }
+  if (eski) return yanit(200, eski);
+  return yanit(q.durum, q.govde);
 }
 
 /* ---------- Cihaz özeti: bildirim denetimi ve ana ekran bileşeni ---------- */
@@ -311,7 +374,7 @@ async function cihazIstegi(anahtar) {
   if (!r.ok) return yanit(503, { hata: "depo" });
   const c = (await r.json())[0];
   if (!c) return yanit(401, { hata: "cihaz" });
-  if (!(await sinirIcinde("c:" + c.id, 6))) return yanit(429, { hata: "sinir" });
+  if (!(await kapi("c:" + c.id, 6))) return yanit(429, { hata: "sinir" });
   db("cihazlar?id=eq." + c.id, { method: "PATCH", headers: { Prefer: "return=minimal" }, body: JSON.stringify({ son_gorulme: new Date().toISOString() }) }).catch(() => {});
 
   const h = await db("hisseler?user_id=eq." + c.user_id + "&select=sembol,adet,maliyet,alarm_ust,alarm_alt&order=sembol&limit=60");
@@ -321,7 +384,10 @@ async function cihazIstegi(anahtar) {
   if (!liste.length) return yanit(200, taban);
 
   const syms = liste.map((x) => x.sembol);
-  const [g, kot] = await Promise.all([gecmisGetir(syms, 0, true), kotGetir(syms, 3 * 60e3)]);
+  const [g, k2] = await Promise.all([gecmisGetir(syms, 0, true), kotGetir(syms, 3 * 60e3)]);
+  const kot = k2.veri;
+  taban.veriZamani = k2.enEski;
+  taban.kaynak = kaynakKapali() ? "kapali" : "tamam";
   let deger = 0, gun = 0, kz = 0, mal = 0, elde = 0;
   for (const x of liste) {
     const k = g.kayit.get(x.sembol), gunler = k ? Object.keys(k.b).sort() : [];
@@ -378,7 +444,7 @@ Deno.serve(async (req) => {
   if (typeof g.tool !== "string") return yanit(400, { hata: "arac" });
   if (!g.input || typeof g.input !== "object" || Array.isArray(g.input)) return yanit(400, { hata: "girdi" });
   if (JSON.stringify(g.input).length > 4000) return yanit(400, { hata: "girdi" });
-  if (!(await sinirIcinde("k:" + kim.id, DAKIKA_SINIRI))) return yanit(429, { hata: "sinir" });
+  if (!(await kapi("k:" + kim.id, DAKIKA_SINIRI))) return yanit(429, { hata: "sinir" });
 
   // Ortak depodan fiyat geçmişi ya da son fiyatlar.
   if (g.tool === "gecmis" || g.tool === "kot") {
@@ -386,7 +452,10 @@ Deno.serve(async (req) => {
     if (!syms.length || syms.length > (g.tool === "kot" ? 60 : 12) || !syms.every((s) => SEMBOL.test(s))) return yanit(400, { hata: "girdi" });
     if (!SERVIS) return yanit(501, { hata: "depo" });
     try {
-      if (g.tool === "kot") return yanit(200, { zaman: new Date().toISOString(), veri: await kotGetir(syms, 60e3) });
+      if (g.tool === "kot") {
+        const k = await kotGetir(syms, 60e3);
+        return yanit(200, { zaman: new Date().toISOString(), veri: k.veri, veriZamani: k.enEski, kaynak: kaynakKapali() ? "kapali" : "tamam" });
+      }
       // "bas" verilirse yalnızca o günden sonraki çubuklar döner (geçmişi tam olan sayfa için günlük yenileme).
       const bas = typeof g.input.bas === "string" && /^\d{4}-\d{2}-\d{2}$/.test(g.input.bas) ? g.input.bas : "";
       const q = await gecmisGetir(syms, Date.now() + 20000, false), alt0 = gunEkle(q.bugun, -800), alt = bas > alt0 ? bas : alt0, veri = {};
@@ -395,7 +464,7 @@ Deno.serve(async (req) => {
         if (!k) { veri[s] = { hata: q.bos.has(s) ? "bos" : "kaynak" }; continue; }
         veri[s] = { ilk: k.ilk, son: k.son, dip: k.dip, tam: k.dip || k.ilk <= q.hedef, b: Object.keys(k.b).filter((t) => t >= alt).sort().map((t) => [t].concat(k.b[t])) };
       }
-      return yanit(200, { bugun: q.bugun, veri });
+      return yanit(200, { bugun: q.bugun, veri, kaynak: kaynakKapali() ? "kapali" : "tamam" });
     } catch (e) {
       console.log(JSON.stringify({ olay: "depo-hata", arac: g.tool, hata: String((e && e.message) || e).slice(0, 160) }));
       return yanit(503, { hata: "depo" });
@@ -404,6 +473,5 @@ Deno.serve(async (req) => {
 
   // Aktarma.
   if (!IZINLI.has(g.tool)) return yanit(400, { hata: "arac" });
-  const q = await kaynak(g.tool, g.input);
-  return q.ok ? yanit(200, q.sonuc) : yanit(q.durum, q.govde);
+  return await aktar(g.tool, g.input);
 });

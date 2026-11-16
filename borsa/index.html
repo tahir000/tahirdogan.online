@@ -341,7 +341,7 @@ const S = {
   db: null, mcp: null, hazir: false, demo: false,
   hisseler: null,          // sembol -> {adet, maliyet, ornek}
   hist: {},                // sembol -> {bars, at, err, yukleniyor}
-  kot: {}, kotAt: null, kotErr: null,
+  kot: {}, kotAt: null, kotErr: null, kaynakKapali: false,
   gunluk: null, gunTarih: null, gunFiltre: 'tum',
   view: 'portfoy', sym: null, aralik: 126, tur: 'cizgi',
   dbGec: false, silOnay: false, tam: false, kilit: false, uzak: false, kesinti: 0,
@@ -483,7 +483,7 @@ function semboller(){ return S.hisseler ? Object.keys(S.hisseler).sort() : []; }
 function hataMetni(e){
   const c = e && e.code;
   if (c === 'oturum') return 'Oturumun süresi doldu. Yeniden giriş yap.';
-  if (c === 'kesinti' || (S.uzak && (c === 'upstream_error' || !c))) return 'Borsa MCP sunucusu şu an yanıt vermiyor. Sayfa kendiliğinden yeniden deneyecek.';
+  if (c === 'kesinti' || (S.uzak && (c === 'upstream_error' || !c))) return S.uzak ? 'Veri kaynağı şu an yanıt vermiyor. Sayfa kendiliğinden yeniden deneyecek.' : 'Borsa MCP sunucusu şu an yanıt vermiyor. Sayfa kendiliğinden yeniden deneyecek.';
   if (c === 'seyrek') return 'Veri kaynağı günlük yerine haftalık ya da aylık veri döndürdü. Biraz sonra "Yenile" ile tekrar dene.';
   if (c === 'server_not_connected' || c === 'server_not_found' || c === 'selection_required') return 'Borsa MCP bağlayıcısı bu hesapta bağlı görünmüyor. claude.ai Ayarlar, Bağlayıcılar bölümünden ekleyip sayfayı yenile.';
   if (c === 'needs_reauth') return 'Borsa MCP bağlantısının süresi dolmuş. claude.ai Ayarlar, Bağlayıcılar bölümünden yeniden bağla.';
@@ -618,7 +618,7 @@ async function hizliGecmis(){
     try {
       const r = await istek('/functions/v1/borsa', {method: 'POST', body: JSON.stringify({tool: 'gecmis', input: bas ? {semboller: L, bas} : {semboller: L}})});
       if (r.status === 400 || r.status === 404 || r.status === 501) { hizliYok = true; return; }
-      if (r.ok) j = await r.json();
+      if (r.ok) { j = await r.json(); if (j && j.kaynak) S.kaynakKapali = j.kaynak === 'kapali'; }
     } catch (e) { if (e && e.code === 'oturum') return; }
     L.forEach(s => {
       const h = S.hist[s], v = j && j.veri && j.veri[s];
@@ -689,7 +689,8 @@ function kotUzak(syms){
       if (!r.ok) throw {code: 'upstream_error'};
       const j = await r.json(); if (durdu) return;
       Object.keys((j && j.veri) || {}).forEach(s => { const v = j.veri[s]; if (v && v.f != null) S.kot[s] = {fiyat: v.f, fk: v.fk, pddd: v.pddd, z52: v.z52, d52: v.d52, pd: v.pd, tem: v.tem, hacim: v.hacim}; });
-      S.kotAt = Date.now(); S.kotErr = null; ciz();
+      // Sunucu, kaynak yanıt vermediğinde eldeki son fiyatları verir; ne zamandan kaldıklarını da söyler.
+      S.kotAt = (j && Date.parse(j.veriZamani)) || Date.now(); S.kaynakKapali = !!(j && j.kaynak === 'kapali'); S.kotErr = null; ciz();
     } catch (e) { if (!durdu && !(e && e.code === 'oturum')) { S.kotErr = e && e.code ? e : {code: 'upstream_error'}; ciz(); } }
   };
   tur(); const z = setInterval(tur, 60000), gor = () => { if (!document.hidden) tur(); };
@@ -873,6 +874,14 @@ function cizBaslik(){
   let u = '';
   if (S.demo) u = 'Örnek veri gösteriliyor: rakamlar gerçek değil.';
   else if (S.hazir && !S.mcp) u = 'Canlı fiyat verisi bu görünümde kullanılamıyor. Sayfayı claude.ai içinde açınca Borsa MCP bağlayıcısından veri gelir.';
+  else if (S.uzak && syms.length && hatalar.length === syms.length) u = hataMetni(hatalar[0]);
+  else if (S.uzak) {
+    // Kendi adresinde fiyatlar ortak depodan gelir: kaynak yanıt vermese de eldeki veri gösterilir.
+    // Uyarı yalnızca fiyatlar beş dakikadan eskiyse çıkar ve ne zamandan kaldıklarını söyler.
+    const sorun = S.kaynakKapali || (S.kesinti && Date.now() < S.kesinti) || !!S.kotErr, eski = !S.kotAt || Date.now() - S.kotAt > 5 * 60e3;
+    if (sorun && eski && syms.length) u = 'Veri kaynağı şu an yanıt vermiyor. ' + (S.kotAt ? 'Son alınan fiyatlar gösteriliyor (' + new Date(S.kotAt).toLocaleTimeString('tr-TR', {hour: '2-digit', minute: '2-digit'}) + '); kaynak dönünce kendiliğinden yenilenir.' : 'Kaynak dönünce fiyatlar kendiliğinden gelir.');
+    else if (S.dbGec) u = 'Liste henüz alınamadı ya da güncel olmayabilir. Bağlantı gelince kendiliğinden yenilenir.';
+  }
   else if (S.kesinti && Date.now() < S.kesinti) u = 'Borsa MCP sunucusu şu an yanıt vermiyor. Sayfa kendiliğinden yeniden deneyecek; varsa eldeki veriler gösteriliyor.';
   else if (syms.length && hatalar.length === syms.length) u = hataMetni(hatalar[0]);
   else if (S.dbGec) u = 'Liste henüz alınamadı ya da güncel olmayabilir. Bağlantı gelince kendiliğinden yenilenir.';

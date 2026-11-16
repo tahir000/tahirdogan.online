@@ -15,12 +15,14 @@ Sayfa kullanıcı adı ve şifreyle açılır. Kullanıcı hesabını giriş ekr
 | `kurulum/3-gundem-yazma.sql` | Günlük gündemi dışarıdan yazma yolu (anahtarın özeti yer tutucudur) |
 | `kurulum/4-kayit-ve-hesap-silme.sql` | Kullanıcının kendi hesabını silmesi için işlev ve kayıt için gereken panel ayarları |
 | `kurulum/5-fiyat-deposu-ve-cihaz.sql` | Ortak fiyat deposu, istek sayacı ve Android uygulamasının cihaz anahtarları |
+| `kurulum/6-kaynak-kesintisi.sql` | Veri kaynağı yanıt vermediğinde kimseyi bekletmemek için kaynak durumu ve aktarılan yanıtların önbelleği |
 
 ## Nasıl çalışır
 
 - **Hesaplar ve listeler** Supabase'de durur. Her kullanıcı yalnızca kendi hisse listesini ve işlem günlüğünü görür (satır düzeyinde güvenlik).
 - **Fiyat verisi** Borsa MCP sunucusundan gelir. Sunucu web sayfalarından doğrudan çağrılamadığı için istekler `borsa` fonksiyonu üzerinden, yalnızca giriş yapmış kullanıcılar için iletilir.
 - **Günlük geçmiş** ortak bir depoda tutulur: `borsa` işlevi veriyi kaynaktan 28 günlük parçalarla alır (sunucu bir aydan uzun aralıkları haftalık ya da aylık veriye çevirir) ve veritabanına yazar; sonraki isteyen hazır veriyi tek istekte alır. Bir hisseyi ilk isteyen yarım dakika kadar bekler. Son fiyatlar da aynı yoldan, bir dakikalık önbellekle gelir. Kullanıcı başına dakikada 240 istek sınırı vardır.
+- **Kaynak kesintisi.** Borsa MCP sunucusu yoğun saatlerde yanıt vermeyebiliyor. İşlev kaynağa tek deneme yapar (araca göre 10 ile 25 saniye); başarısız olursa kaynak 20 saniyeden 5 dakikaya uzayan bir süre kapalı sayılır ve o sürede eldeki son veri hemen verilir. Sayfa, fiyatlar beş dakikadan eskiyse ne zamandan kaldıklarını söyler.
 - **Android uygulaması** uygulama kapalıyken bildirim denetimi ve ana ekran bileşeni için özeti cihaz anahtarıyla ister; anahtarın yalnızca özeti saklanır.
 - **Gündem** her sabah ayrı bir görevle yazılır; sayfa yalnızca okur.
 
