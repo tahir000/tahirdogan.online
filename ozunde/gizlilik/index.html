@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<title>Özünde: Gizlilik Metni</title>
+<meta name="description" content="Özünde uygulamasının gizlilik metni: hangi bilgi nerede durur, ne internete gider.">
+<style>
+  :root { --keten: #F6F4EA; --orman: #223D2E; --orman-acik: #5C7363; --yaprak-koyu: #39794F; --yaprak-soluk: #E9F2E4; --cizgi: #DBE4D2; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--keten); color: var(--orman); font: 17px/1.6 Georgia, "Times New Roman", serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 40px 20px 64px; }
+  h1 { font-size: 34px; line-height: 1.15; margin: 0 0 6px; }
+  h2 { font-size: 22px; margin: 34px 0 8px; }
+  p, li { font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif; font-size: 16.5px; }
+  .ust { color: var(--orman-acik); margin: 0 0 22px; }
+  .ozet { background: var(--yaprak-soluk); border: 1px solid var(--cizgi); border-radius: 18px; padding: 16px 20px; }
+  .ozet p { margin: 6px 0; }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  a { color: var(--yaprak-koyu); }
+  footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--cizgi); color: var(--orman-acik); font: 14.5px/1.5 -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Özünde: Gizlilik Metni</h1>
+  <p class="ust">Yürürlük tarihi: 18 Kasım 2026</p>
+
+  <div class="ozet">
+    <p><strong>Kısaca:</strong> Özünde'de hesap açılmaz. Profilin ve baktığın ürünler yalnızca kendi telefonunda durur, geliştiriciye gönderilmez. Uygulamada reklam ve izleme yoktur.</p>
+  </div>
+
+  <h2>Özünde nedir?</h2>
+  <p>Özünde, bakım ve makyaj ürünlerinin içindekiler listesini okuyup her içeriğin ne işe yaradığını ve ürünün cilt ya da saç tipine uygun olup olmadığını gösteren bir Android uygulamasıdır. Geliştiricisi Tahir Doğan'dır. Uygulamanın verdiği bilgiler bilgilendirme içindir, tıbbi tavsiye değildir.</p>
+
+  <h2>Telefonunda duran bilgiler</h2>
+  <ul>
+    <li><strong>Profil:</strong> yazarsan adın, cilt tipin, saç tipin, cildinin hassas ya da sivilceye yatkın olup olmadığı, çözüm aradığın konular ve tercihlerin (hamilelik ya da emzirme, parfümsüz ürün, hayvansal içerik).</li>
+    <li><strong>Baktığın ürünler:</strong> ürünün adı, markası, türü, içindekiler listesi, puanı, barkodu ve sevdiklerine ekleyip eklemediğin.</li>
+  </ul>
+  <p>Bu bilgiler yalnızca telefonundaki uygulama alanında saklanır. Geliştiricinin bir sunucusu yoktur; bu bilgiler geliştiriciye ya da başka birine gönderilmez. Telefonunda Android'in yedekleme özelliği açıksa uygulama verileri, telefonunun diğer verileriyle birlikte kendi Google hesabına yedeklenebilir; bu yedeği geliştirici göremez.</p>
+
+  <h2>Kamera</h2>
+  <p>Kamera yalnızca sen istediğinde, barkod okutmak ya da içindekiler listesini fotoğraflamak için açılır. Barkod ve yazı telefonun içinde okunur. Fotoğraflar uygulama tarafından saklanmaz ve hiçbir yere gönderilmez. Kamera iznini vermezsen listeyi elle yazarak ya da yapıştırarak uygulamayı kullanmayı sürdürebilirsin.</p>
+
+  <h2>İnternete gidenler</h2>
+  <ul>
+    <li><strong>Open Beauty Facts:</strong> barkod okuttuğunda barkod numarası, ürün aradığında yazdığın arama sözü, herkese açık ürün veritabanı <a href="https://world.openbeautyfacts.org">Open Beauty Facts</a>'e gönderilir ve ürün bilgisi ile ürün görseli oradan alınır. Profilin bu isteklere eklenmez.</li>
+    <li><strong>Google Fonts:</strong> uygulamanın yazı tipleri ilk açılışta Google'ın yazı tipi sunucusundan indirilir ve telefonda saklanır.</li>
+    <li><strong>Google ML Kit:</strong> barkod ve yazı okuma, Google'ın telefonda çalışan ML Kit kitaplığıyla yapılır. Google'ın açıklamasına göre bu kitaplık, tanılama ve kullanım ölçümü için cihaz modeli, işletim sistemi sürümü, uygulama sürümü, kuruluma özgü bir kimlik, hız ölçümleri ve hata kodları gibi bilgileri Google'a gönderebilir. Okunan görüntü ve yazı bu bilgilerin arasında değildir.</li>
+  </ul>
+  <p>Her internet isteğinde olduğu gibi, bu sunucular isteğin geldiği IP adresini görür.</p>
+
+  <h2>Yapılmayanlar</h2>
+  <ul>
+    <li>Reklam gösterilmez, reklam kimliği kullanılmaz.</li>
+    <li>Kullanım izlenmez, davranış ölçümü yapılmaz.</li>
+    <li>Hiçbir bilgi satılmaz ya da pazarlama için paylaşılmaz.</li>
+  </ul>
+
+  <h2>Bilgilerini silmek</h2>
+  <p>Tek bir ürünü, Ürünlerim ekranında kartını sola kaydırarak silebilirsin. Hepsini silmek için telefonun ayarlarında Özünde'nin depolama alanını temizlemen ya da uygulamayı kaldırman yeterlidir; bilgiler başka bir yerde tutulmadığı için ayrıca bir silme talebine gerek yoktur.</p>
+
+  <h2>Çocuklar</h2>
+  <p>Özünde yetişkinler için hazırlanmıştır, çocuklara yönelik değildir.</p>
+
+  <h2>Değişiklikler ve iletişim</h2>
+  <p>Bu metin değişirse güncel hali bu sayfada yayınlanır ve yürürlük tarihi yenilenir. Soruların için: <a href="mailto:tahir@tahirdogan.com">tahir@tahirdogan.com</a></p>
+
+  <footer>Özünde · Tahir Doğan</footer>
+</main>
+</body>
+</html>

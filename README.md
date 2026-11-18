@@ -10,6 +10,8 @@ Birbirinden bağımsız projelerin durduğu site. Her proje kendi klasöründedi
 
 Her klasörün kendi `README.md` dosyası o projeyi anlatır.
 
+`ozunde/gizlilik/` klasöründe yalnızca Özünde adlı Android uygulamasının gizlilik metni durur (https://tahirdogan.online/ozunde/gizlilik/). Uygulamanın sitesi olmadığı için ana sayfada listelenmez.
+
 ## Yeni proje eklemek
 
 1. Kök dizinde projeye kısa, küçük harfli bir klasör açın ve sayfayı `index.html` adıyla içine koyun.
